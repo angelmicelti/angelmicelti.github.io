@@ -1,0 +1,849 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Resistencias </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-33"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="emptyHeader"></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción.</a></li>
+   <li><a href="2_electricidad_y_electrnica_electrnica_analgica.html" class="daddy">2. Electricidad y electrónica. Electrónica analógica.</a>
+   <ul class="other-section">
+      <li><a href="21_la_ley_de_ohm.html" class="no-ch">2.1. La ley de Ohm.</a></li>
+      <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
+      <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
+      <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
+   </ul>
+   </li>
+   <li><a href="3_componentes_bsicos_en_electrnica_analgica.html" class="daddy">3. Componentes básicos en electrónica analógica</a>
+   <ul class="other-section">
+      <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
+      <ul class="other-section">
+         <li><a href="311_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.1. Resistencias variables o potenciómetros.</a></li>
+         <li><a href="312_asociacin_de_resistencias.html" class="no-ch">3.1.2. Asociación de resistencias.</a></li>
+      </ul>
+      </li>
+      <li><a href="32_componentes_dependientes_de_parmetros_fsicos.html" class="daddy">3.2. Componentes dependientes de parámetros físicos.</a>
+      <ul class="other-section">
+         <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+         <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
+         <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+         <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+      </ul>
+      </li>
+      <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
+      <ul class="other-section">
+         <li><a href="utilidad_en_un_circuito.html" class="no-ch">Utilidad en un circuito</a></li>
+         <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
+         <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
+      </ul>
+      </li>
+      <li><a href="34_semiconductores_unin_pn_diodos.html" class="daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
+      <ul class="other-section">
+         <li><a href="diodo_convencional.html" class="no-ch">Diodo convencional</a></li>
+         <li><a href="led.html" class="no-ch">L.E.D.</a></li>
+         <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
+      </ul>
+      </li>
+      <li><a href="35_el_transistor.html" class="no-ch">3.5. El transistor.</a></li>
+   </ul>
+   </li>
+   <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
+   <ul class="other-section">
+      <li><a href="bobina.html" class="no-ch">Bobina</a></li>
+      <li><a href="rel.html" class="no-ch">Relé</a></li>
+      <li><a href="fusible.html" class="no-ch">Fusible</a></li>
+      <li><a href="pulsador.html" class="no-ch">Pulsador</a></li>
+   </ul>
+   </li>
+   <li><a href="5_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">5. Algunos circuitos elementales: simulación con Crocodile Clips</a>
+   <ul class="other-section">
+      <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
+      <li><a href="detectores.html" class="no-ch">Detectores</a></li>
+      <li><a href="circuitos_con_condensadores.html" class="no-ch">Circuitos con condensadores</a></li>
+      <li><a href="multivibradores.html" class="no-ch">Multivibradores</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_i_leyes_de_kirchhoff.html" class="no-ch">Apéndice I: Leyes de Kirchhoff.</a></li>
+   <li><a href="apndice_ii_estudio_terico_del_transistor.html" class="no-ch">Apéndice II: estudio teórico del transistor</a></li>
+   <li><a href="apndice_iii_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice III: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li class="current-page-parent"><a href="6_ejercicios_y_problemas.html" class="current-page-parent daddy">6. Ejercicios y problemas</a>
+   <ul>
+      <li id="active"><a href="resistencias.html" class="active no-ch">Resistencias</a></li>
+      <li><a href="ley_de_ohm.html" class="no-ch">Ley de Ohm</a></li>
+      <li><a href="ley_de_joule.html" class="no-ch">Ley de Joule</a></li>
+      <li><a href="leyes_de_kirchoff.html" class="no-ch">Leyes de Kirchoff</a></li>
+      <li><a href="condensadores.html" class="no-ch">Condensadores</a></li>
+      <li><a href="diodos.html" class="no-ch">Diodos</a></li>
+      <li><a href="transistores.html" class="daddy">Transistores</a>
+      <ul class="other-section">
+         <li><a href="bloque_1.html" class="no-ch">Bloque 1</a></li>
+         <li><a href="bloque_2.html" class="no-ch">Bloque 2</a></li>
+         <li><a href="bloque_3.html" class="no-ch">Bloque 3</a></li>
+         <li><a href="bloque_4.html" class="no-ch">Bloque 4</a></li>
+         <li><a href="bloque_5.html" class="no-ch">Bloque 5</a></li>
+      </ul>
+      </li>
+      <li><a href="actividades_de_refuerzo.html" class="no-ch">Actividades de refuerzo</a></li>
+      <li><a href="actividades_de_ampliacin.html" class="no-ch">Actividades de ampliación</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="6_ejercicios_y_problemas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ley_de_ohm.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Resistencias</h1></div>
+<div class="iDevice_wrapper ClozeIdevice em_iDevice" id="id43">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad 1</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta43_21" class="block instructions iDevice_content">
+
+<div align="justify">
+<span style="font-size: 10pt" lang="ES-TRAD"><font face="trebuchet ms,geneva" size="4">Completa
+la siguiente tabla con los valores correspondientes de las resistencias según
+los colores de las bandas que se expresan:</font><o:p></o:p></span>
+</div>
+<p class="MsoBodyTextIndent" style="margin: 6pt 0cm 6pt 21.25pt; text-indent: -17.85pt" align="justify">
+&nbsp;
+</p>
+<div align="center">
+</div>
+
+</div>
+
+    <div class="activity" id="activity-43_22">
+<form name="cloze-form-43_22" action="#" class="activity-form cloze-activity-form">
+<div id="cloze43_22">
+<input type="hidden" name="clozeFlag43_22.strictMarking" id="clozeFlag43_22.strictMarking" value="true"/>
+
+<input type="hidden" name="clozeFlag43_22.checkCaps" id="clozeFlag43_22.checkCaps" value="true"/>
+
+<input type="hidden" name="clozeFlag43_22.instantMarking" id="clozeFlag43_22.instantMarking" value="true"/>
+
+<input type="hidden" name="clozeVar43_22.feedbackId" id="clozeVar43_22.feedbackId" value="ta43_23"/>
+
+
+<table dir="ltr" align="center" border="1" cellpadding="2" cellspacing="2">
+	<tbody>
+		<tr>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><b>1ª BANDA</b></font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><b>2ª BANDA</b></font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><b>3ª BANDA</b></font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><b>VALOR (Ω)<br/>
+			</b></font>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Marrón
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Verde
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Marrón
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">  
+<label for="clozeBlank43_22.0" class="sr-av">Rellenar huecos (1):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank43_22.0" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer43_22.0">JXUwMDY5JXUwMDA0JXUwMDA1
+</span>
+  </font>  
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Azul
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Negro
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Negro
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">  
+<label for="clozeBlank43_22.1" class="sr-av">Rellenar huecos (2):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank43_22.1" style="width:2em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer43_22.1">JXUwMDZlJXUwMDA2
+</span>
+  </font>  
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Verde
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Negro
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Violeta
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">  
+<label for="clozeBlank43_22.2" class="sr-av">Rellenar huecos (3):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank43_22.2" style="width:9em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer43_22.2">JXUwMDZkJXUwMDA1JXUwMDAwJXUwMDAwJXUwMDAwJXUwMDAwJXUwMDAwJXUwMDAwJXUwMDAw
+</span>
+  </font>  
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Marrón
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Amarillo
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Azul
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">  
+<label for="clozeBlank43_22.3" class="sr-av">Rellenar huecos (4):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank43_22.3" style="width:8em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer43_22.3">JXUwMDY5JXUwMDA1JXUwMDA0JXUwMDAwJXUwMDAwJXUwMDAwJXUwMDAwJXUwMDAw
+</span>
+  </font>  
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Naranja
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Naranja
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Rojo
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">  
+<label for="clozeBlank43_22.4" class="sr-av">Rellenar huecos (5):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank43_22.4" style="width:4em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer43_22.4">JXUwMDZiJXUwMDAwJXUwMDAzJXUwMDAw
+</span>
+  </font>  
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Marrón
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Negro
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+			Negro
+			</font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">  
+<label for="clozeBlank43_22.5" class="sr-av">Rellenar huecos (6):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank43_22.5" style="width:2em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer43_22.5">JXUwMDY5JXUwMDAx
+</span>
+  </font>  
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="block iDevice_buttons">
+<p>
+<input type="button" value="Averiguar la puntuación" id="getScore43_22" onclick="$exe.cloze.showScore('43_22')" />
+<input type="button" name="feedback43_22" value="Mostrar retroalimentación" class="feedbackbutton" onclick="$exe.cloze.toggleFeedback('43_22',this)" />
+
+ 
+<input type="button" name="43_22showAnswersButton" value="Mostrar/Eliminar las respuestas" style="" id="showAnswersButton43_22" onclick="$exe.cloze.toggleAnswers('43_22')" />
+
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div id="clozeScore43_22"></div>
+</div>
+</form>
+</div>
+    <div id="ta43_23" class="feedback js-feedback iDevice_content" style="display:none">
+<b><font face="trebuchet ms,geneva"></font><font face="trebuchet ms,geneva" size="3">Puedes consultar tus apuntes.</font></b>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id44">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad 2</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta44_45_2" class="block iDevice_content">
+<p>
+<font face="trebuchet ms,geneva" size="4">Escribe
+los valores de las resistencias anteriores empleando el argot electrónico
+&quot;XKX&quot;.</font>
+</p>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ClozeIdevice em_iDevice" id="id46">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad 3</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta46_21" class="block instructions iDevice_content">
+
+<p>
+<font face="trebuchet ms,geneva" size="4">Calcula
+las asociaciones equivalentes de las que aparecen en las figuras, y completa
+las casillas que se han puesto para ello.</font>
+</p>
+
+</div>
+
+    <div class="activity" id="activity-46_22">
+<form name="cloze-form-46_22" action="#" class="activity-form cloze-activity-form">
+<div id="cloze46_22">
+<input type="hidden" name="clozeFlag46_22.strictMarking" id="clozeFlag46_22.strictMarking" value="true"/>
+
+<input type="hidden" name="clozeFlag46_22.checkCaps" id="clozeFlag46_22.checkCaps" value="true"/>
+
+<input type="hidden" name="clozeFlag46_22.instantMarking" id="clozeFlag46_22.instantMarking" value="true"/>
+
+<input type="hidden" name="clozeVar46_22.feedbackId" id="clozeVar46_22.feedbackId" value="ta46_23"/>
+
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td width="218">
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><img src="342e5f50c3a167696e615f32305f496d6167656e5f30303031.jpg" title="asociación 1" v:shapes="_x0000_i1028" align="right" height="43" width="144"></img></font>
+			</p>
+			</td>
+			<td style="width: 120px">
+			<div align="left">
+			</div>
+			<p align="left">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank46_22.0" class="sr-av">Rellenar huecos (1):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank46_22.0" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer46_22.0">JXUwMDZkJXUwMDFiJXUwMDFi
+</span>
+          KΩ    
+			</font>
+			</p>
+			</td>
+			<td colspan="2" width="218">
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><img src="342e5f50c3a167696e615f32305f496d6167656e5f30303032.jpg" title="asociación 2" v:shapes="_x0000_i1029" align="right" height="43" width="144"></img></font>
+			</p>
+			</td>
+			<td style="width: 120px">
+			<div align="left">
+			</div>
+			<p align="left">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank46_22.1" class="sr-av">Rellenar huecos (2):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank46_22.1" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer46_22.1">JXUwMDZjJXUwMDFhJXUwMDE4
+</span>
+          KΩ    
+			</font>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="218">
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><img src="342e5f50c3a167696e615f32305f496d6167656e5f30303033.jpg" title="asociación 3" v:shapes="_x0000_i1026" align="right" height="43" width="207"></img></font>
+			</p>
+			</td>
+			<td style="width: 90px">
+			<div align="left">
+			</div>
+			<p align="left">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank46_22.2" class="sr-av">Rellenar huecos (3):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank46_22.2" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer46_22.2">JXUwMDYxJXUwMDE3JXUwMDE3
+</span>
+          KΩ    
+			</font>
+			</p>
+			</td>
+			<td colspan="2" width="218">
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><img src="342e5f50c3a167696e615f32305f496d6167656e5f30303034.jpg" title="asociación 4" v:shapes="_x0000_i1027" align="right" height="43" width="207"></img></font>
+			</p>
+			</td>
+			<td width="70">
+			<div align="left">
+			</div>
+			<p align="left">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank46_22.3" class="sr-av">Rellenar huecos (4):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank46_22.3" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer46_22.3">JXUwMDYwJXUwMDE2JXUwMDFi
+</span>
+          KΩ    
+			</font>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" width="389">
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"><img src="342e5f50c3a167696e615f32305f496d6167656e5f30303035.jpg" title="asociación 5" v:shapes="_x0000_i1025" align="right" height="83" width="279"></img></font>
+			</p>
+			</td>
+			<td colspan="2" width="188">
+			<div align="left">
+			</div>
+			<p align="left">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank46_22.4" class="sr-av">Rellenar huecos (5):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank46_22.4" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer46_22.4">JXUwMDYxJXUwMDE3JXUwMDFl
+</span>
+          KΩ    
+			</font>
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="block iDevice_buttons">
+<p>
+<input type="button" value="Averiguar la puntuación" id="getScore46_22" onclick="$exe.cloze.showScore('46_22')" />
+<input type="button" name="feedback46_22" value="Mostrar retroalimentación" class="feedbackbutton" onclick="$exe.cloze.toggleFeedback('46_22',this)" />
+
+ 
+<input type="button" name="46_22showAnswersButton" value="Mostrar/Eliminar las respuestas" style="" id="showAnswersButton46_22" onclick="$exe.cloze.toggleAnswers('46_22')" />
+
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div id="clozeScore46_22"></div>
+</div>
+</form>
+</div>
+    <div id="ta46_23" class="feedback js-feedback iDevice_content" style="display:none">
+<font face="trebuchet ms,geneva" size="3">Ojo a cómo se encuentran asociadas.</font>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ClozeIdevice em_iDevice" id="id47">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad 4</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta47_21" class="block instructions iDevice_content">
+
+<p>
+<font face="trebuchet ms,geneva" size="4">Calcula
+las asociaciones equivalentes de las que aparecen en las siguientes figuras:</font>
+</p>
+
+</div>
+
+    <div class="activity" id="activity-47_22">
+<form name="cloze-form-47_22" action="#" class="activity-form cloze-activity-form">
+<div id="cloze47_22">
+<input type="hidden" name="clozeFlag47_22.strictMarking" id="clozeFlag47_22.strictMarking" value="true"/>
+
+<input type="hidden" name="clozeFlag47_22.checkCaps" id="clozeFlag47_22.checkCaps" value="true"/>
+
+<input type="hidden" name="clozeFlag47_22.instantMarking" id="clozeFlag47_22.instantMarking" value="true"/>
+
+<input type="hidden" name="clozeVar47_22.feedbackId" id="clozeVar47_22.feedbackId" value="ta47_23"/>
+
+
+<table align="center" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+			<p align="center">
+			<img src="342e5f50c3a167696e615f32305f496d6167656e5f30303036.jpg" title="asociación 1" v:shapes="_x0000_i1025" height="99" width="135"></img>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank47_22.0" class="sr-av">Rellenar huecos (1):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank47_22.0" style="width:4em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer47_22.0">JXUwMDY5JXUwMDFmJXUwMDFkJXUwMDA3
+</span>
+ K</font><font size="4">Ω</font> 
+			</p>
+			</td>
+			<td style="width: 50px"><font size="4"> </font></td>
+			<td>
+			<p align="center">
+			<font size="4"><img src="342e5f50c3a167696e615f32305f496d6167656e5f30303037.jpg" title="asociación 2" v:shapes="_x0000_i1026" height="99" width="135"></img></font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			 
+			</p>
+			<font size="4">
+<label for="clozeBlank47_22.1" class="sr-av">Rellenar huecos (2):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank47_22.1" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer47_22.1">JXUwMDZjJXUwMDFhJXUwMDFl
+</span>
+ KΩ</font></td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<img src="342e5f50c3a167696e615f32305f496d6167656e5f30303038.jpg" title="asociación 3" v:shapes="_x0000_i1027" height="91" width="81"></img>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			 
+			</p>
+			<font size="4">
+<label for="clozeBlank47_22.2" class="sr-av">Rellenar huecos (3):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank47_22.2" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer47_22.2">JXUwMDY5JXUwMDFmJXUwMDFl
+</span>
+ KΩ</font></td>
+			<td><font size="4"> </font></td>
+			<td>
+			<p align="center">
+			<font size="4"><img src="342e5f50c3a167696e615f32305f496d6167656e5f30303039.jpg" title="asociación 4" v:shapes="_x0000_i1028" height="91" width="81"></img></font>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			 
+			</p>
+			<font size="4">
+<label for="clozeBlank47_22.3" class="sr-av">Rellenar huecos (4):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank47_22.3" style="width:4em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer47_22.3">JXUwMDY5JXUwMDFmJXUwMDFlJXUwMDA4
+</span>
+ KΩ</font></td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="block iDevice_buttons">
+<p>
+<input type="button" value="Averiguar la puntuación" id="getScore47_22" onclick="$exe.cloze.showScore('47_22')" />
+<input type="button" name="feedback47_22" value="Mostrar retroalimentación" class="feedbackbutton" onclick="$exe.cloze.toggleFeedback('47_22',this)" />
+
+ 
+<input type="button" name="47_22showAnswersButton" value="Mostrar/Eliminar las respuestas" style="" id="showAnswersButton47_22" onclick="$exe.cloze.toggleAnswers('47_22')" />
+
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div id="clozeScore47_22"></div>
+</div>
+</form>
+</div>
+    <div id="ta47_23" class="feedback js-feedback iDevice_content" style="display:none">
+<font face="trebuchet ms,geneva" size="3">Haz las cuentas en tu cuaderno.</font>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id48">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad 5</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta48_24_2" class="block iDevice_content">
+<p align="justify">
+<font face="comic sans ms,sand" size="4">Johnny
+Tecnologic acude a una tienda de electrónica a comprar resistencias de 4 W, que le son necesarias para completar un
+pequeño circuito que está construyendo. Desgraciadamente, en la tienda sólo le
+pueden proporcionar resistencias de 2 W. ¿Qué hará?</font>
+</p>
+<p>
+&nbsp;
+</p>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id49">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad 6</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta49_25_2" class="block iDevice_content">
+<div align="justify">
+<font face="comic sans ms,sand" size="4">Repite
+la cuestión anterior, pero si Johnny necesitara de resistencias de 1 W.</font>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ClozeIdevice em_iDevice" id="id50">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad 7</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta50_21" class="block instructions iDevice_content">
+<font face="comic sans ms,sand" size="4">Calcula la resistencia equivalente a las siguientes asociaciones.</font>
+
+</div>
+
+    <div class="activity" id="activity-50_22">
+<form name="cloze-form-50_22" action="#" class="activity-form cloze-activity-form">
+<div id="cloze50_22">
+<input type="hidden" name="clozeFlag50_22.strictMarking" id="clozeFlag50_22.strictMarking" value="true"/>
+
+<input type="hidden" name="clozeFlag50_22.checkCaps" id="clozeFlag50_22.checkCaps" value="true"/>
+
+<input type="hidden" name="clozeFlag50_22.instantMarking" id="clozeFlag50_22.instantMarking" value="true"/>
+
+<input type="hidden" name="clozeVar50_22.feedbackId" id="clozeVar50_22.feedbackId" value="ta50_23"/>
+
+<table align="center" border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+			<p align="center">
+			<img src="342e5f50c3a167696e615f32315f496d6167656e5f30303031.jpg" v:shapes="_x0000_i1025" height="75" width="198"></img>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4"> 
+<label for="clozeBlank50_22.0" class="sr-av">Rellenar huecos (1):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank50_22.0" style="width:3em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer50_22.0">JXUwMDZhJXUwMDFjJXUwMDFl
+</span>
+ KΩ</font> 
+			</p>
+			</td>
+			<td style="width: 50px"> </td>
+			<td>
+			<p align="center">
+			<img src="342e5f50c3a167696e615f32315f496d6167656e5f30303032.jpg" v:shapes="_x0000_i1026" height="75" width="198"></img>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank50_22.1" class="sr-av">Rellenar huecos (2):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank50_22.1" style="width:4em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer50_22.1">JXUwMDZhJXUwMDFjJXUwMDE4JXUwMDAx
+</span>
+ KΩ </font>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="center">
+			<img src="342e5f50c3a167696e615f32315f496d6167656e5f30303033.jpg" v:shapes="_x0000_i1027" height="75" width="198"></img>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank50_22.2" class="sr-av">Rellenar huecos (3):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank50_22.2" style="width:4em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer50_22.2">JXUwMDZhJXUwMDFjJXUwMDE4JXUwMDAx
+</span>
+ KΩ</font>
+			</p>
+			</td>
+			<td> </td>
+			<td>
+			<p align="center">
+			<img src="342e5f50c3a167696e615f32315f496d6167656e5f30303034.jpg" v:shapes="_x0000_i1028" height="75" width="214"></img>
+			</p>
+			</td>
+			<td>
+			<p align="center">
+			<font face="trebuchet ms,geneva" size="4">
+<label for="clozeBlank50_22.3" class="sr-av">Rellenar huecos (4):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank50_22.3" style="width:4em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer50_22.3">JXUwMDZiJXUwMDFkJXUwMDE5JXUwMDA0
+</span>
+ KΩ <br/>
+			</font>
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<div class="block iDevice_buttons">
+<p>
+<input type="button" value="Averiguar la puntuación" id="getScore50_22" onclick="$exe.cloze.showScore('50_22')" />
+<input type="button" name="feedback50_22" value="Mostrar retroalimentación" class="feedbackbutton" onclick="$exe.cloze.toggleFeedback('50_22',this)" />
+
+ 
+<input type="button" name="50_22showAnswersButton" value="Mostrar/Eliminar las respuestas" style="" id="showAnswersButton50_22" onclick="$exe.cloze.toggleAnswers('50_22')" />
+
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div id="clozeScore50_22"></div>
+</div>
+</form>
+</div>
+    <div id="ta50_23" class="feedback js-feedback iDevice_content" style="display:none">
+<b><font face="trebuchet ms,geneva" size="3">Haz cuidadosamente tus cálculos</font></b>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="6_ejercicios_y_problemas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ley_de_ohm.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_seamist_js.js"></script></body></html>

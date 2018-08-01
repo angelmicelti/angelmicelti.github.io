@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Apéndice III: equivalente Thèvenin de un circuito con transistor </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-38"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="emptyHeader"></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción.</a></li>
+   <li><a href="2_electricidad_y_electrnica_electrnica_analgica.html" class="daddy">2. Electricidad y electrónica. Electrónica analógica.</a>
+   <ul class="other-section">
+      <li><a href="21_la_ley_de_ohm.html" class="no-ch">2.1. La ley de Ohm.</a></li>
+      <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
+      <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
+      <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
+   </ul>
+   </li>
+   <li><a href="3_componentes_bsicos_en_electrnica_analgica.html" class="daddy">3. Componentes básicos en electrónica analógica</a>
+   <ul class="other-section">
+      <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
+      <ul class="other-section">
+         <li><a href="311_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.1. Resistencias variables o potenciómetros.</a></li>
+         <li><a href="312_asociacin_de_resistencias.html" class="no-ch">3.1.2. Asociación de resistencias.</a></li>
+      </ul>
+      </li>
+      <li><a href="32_componentes_dependientes_de_parmetros_fsicos.html" class="daddy">3.2. Componentes dependientes de parámetros físicos.</a>
+      <ul class="other-section">
+         <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+         <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
+         <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+         <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+      </ul>
+      </li>
+      <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
+      <ul class="other-section">
+         <li><a href="utilidad_en_un_circuito.html" class="no-ch">Utilidad en un circuito</a></li>
+         <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
+         <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
+      </ul>
+      </li>
+      <li><a href="34_semiconductores_unin_pn_diodos.html" class="daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
+      <ul class="other-section">
+         <li><a href="diodo_convencional.html" class="no-ch">Diodo convencional</a></li>
+         <li><a href="led.html" class="no-ch">L.E.D.</a></li>
+         <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
+      </ul>
+      </li>
+      <li><a href="35_el_transistor.html" class="no-ch">3.5. El transistor.</a></li>
+   </ul>
+   </li>
+   <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
+   <ul class="other-section">
+      <li><a href="bobina.html" class="no-ch">Bobina</a></li>
+      <li><a href="rel.html" class="no-ch">Relé</a></li>
+      <li><a href="fusible.html" class="no-ch">Fusible</a></li>
+      <li><a href="pulsador.html" class="no-ch">Pulsador</a></li>
+   </ul>
+   </li>
+   <li><a href="5_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">5. Algunos circuitos elementales: simulación con Crocodile Clips</a>
+   <ul class="other-section">
+      <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
+      <li><a href="detectores.html" class="no-ch">Detectores</a></li>
+      <li><a href="circuitos_con_condensadores.html" class="no-ch">Circuitos con condensadores</a></li>
+      <li><a href="multivibradores.html" class="no-ch">Multivibradores</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_i_leyes_de_kirchhoff.html" class="no-ch">Apéndice I: Leyes de Kirchhoff.</a></li>
+   <li><a href="apndice_ii_estudio_terico_del_transistor.html" class="no-ch">Apéndice II: estudio teórico del transistor</a></li>
+   <li id="active"><a href="apndice_iii_equivalente_thvenin_de_un_circuito_con_transistor.html" class="active no-ch">Apéndice III: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="6_ejercicios_y_problemas.html" class="daddy">6. Ejercicios y problemas</a>
+   <ul class="other-section">
+      <li><a href="resistencias.html" class="no-ch">Resistencias</a></li>
+      <li><a href="ley_de_ohm.html" class="no-ch">Ley de Ohm</a></li>
+      <li><a href="ley_de_joule.html" class="no-ch">Ley de Joule</a></li>
+      <li><a href="leyes_de_kirchoff.html" class="no-ch">Leyes de Kirchoff</a></li>
+      <li><a href="condensadores.html" class="no-ch">Condensadores</a></li>
+      <li><a href="diodos.html" class="no-ch">Diodos</a></li>
+      <li><a href="transistores.html" class="daddy">Transistores</a>
+      <ul class="other-section">
+         <li><a href="bloque_1.html" class="no-ch">Bloque 1</a></li>
+         <li><a href="bloque_2.html" class="no-ch">Bloque 2</a></li>
+         <li><a href="bloque_3.html" class="no-ch">Bloque 3</a></li>
+         <li><a href="bloque_4.html" class="no-ch">Bloque 4</a></li>
+         <li><a href="bloque_5.html" class="no-ch">Bloque 5</a></li>
+      </ul>
+      </li>
+      <li><a href="actividades_de_refuerzo.html" class="no-ch">Actividades de refuerzo</a></li>
+      <li><a href="actividades_de_ampliacin.html" class="no-ch">Actividades de ampliación</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="apndice_ii_estudio_terico_del_transistor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="6_ejercicios_y_problemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Apéndice III: equivalente Thèvenin de un circuito con transistor</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id41">
+<div class="iDevice emphasis0">
+<div id="ta41_1" class="block iDevice_content">
+
+<p>
+<!--[if gte vml 1]>
+<![endif]-->
+</p>
+<!--[if gte vml 1]>
+<![if gte mso 9]>
+<![endif]><![endif]-->
+<div align="justify">
+<font face="comic sans ms,sand" size="4"><img src="342e5f50c3a167696e615f31395f496d6167656e5f30303031.jpg" title="circuito ejemplo" v:shapes="_x0000_s1026" align="left" height="224" hspace="12" width="265" /></font><a title="apen2" name="apen2"></a><font face="comic sans ms,sand" size="4">Si queremos analizar un
+circuito como el que aparece en la figura de la izquierda, nos encontraremos en
+un grave problema. Para emplear las leyes de Kirchoff, tendremos tres mallas y
+tres nudos. Pero no sabemos resolver circuitos tan complicados.</font>
+</div>
+<p>
+<!--[if gte vml 1]><![endif]-->
+</p>
+<div align="justify">
+<font face="comic sans ms,sand" size="4">
+Entonces es recurrir a un método alternativo, que es el del <b>circuito equivalente Thévenin.</b></font>
+</div>
+<div align="justify">
+<font face="comic sans ms,sand" size="4">
+El circuito equivalente Thévenin se obtiene cambiando el
+circuito de base, a una forma en la que haya una pila de valor <b><i>V<sub>TH</sub></i></b>
+y una resistencia en serie con ella, llamada <b><i>R<sub>TH</sub></i></b>. Más o
+menos, como indica la siguiente figura:</font>
+</div>
+<p>
+&nbsp;
+</p>
+<p>
+<!--[if gte vml 1]>
+<![if !mso]>
+<table cellpadding=0 cellspacing=0 width="100%">
+	<tr>
+		<td><![endif]>
+		<p>
+		<b style='mso-bidi-font-weight:normal'><i
+		style='mso-bidi-font-style:normal'>V<sub>TH</sub></i></b>
+		</p>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]>
+<![if !mso]>
+<table cellpadding=0 cellspacing=0 width="100%">
+	<tr>
+		<td><![endif]>
+		<p>
+		<b style='mso-bidi-font-weight:normal'><i
+		style='mso-bidi-font-style:normal'>9 V<sub></sub></i></b>
+		</p>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]>
+<![if !mso]>
+<table cellpadding=0 cellspacing=0 width="100%">
+	<tr>
+		<td><![endif]>
+		<p>
+		<b style='mso-bidi-font-weight:normal'><i
+		style='mso-bidi-font-style:normal'>R<sub>TH</sub></i></b>
+		</p>
+		<![if !mso]></td>
+	</tr>
+</table>
+<![endif]>
+<![if gte mso 9]>
+<![endif]><![endif]--><img src="342e5f50c3a167696e615f31395f496d6167656e5f30303032.jpg" v:shapes="_x0000_s1027 _x0000_s1028 _x0000_s1029 _x0000_s1030 _x0000_s1031" align="left" height="261" width="165" />
+</p>
+<p>
+<font face="comic sans ms,sand" size="4">
+Los valores de <b><i>V<sub>TH</sub> </i></b>y<b><i> 
+R<sub>TH</sub> </i></b>pueden calcularse a partir de las siguientes fórmulas:</font>
+</p>
+<p align="center">
+<b><i><!--[if gte vml 1]>
+<![endif]--><img src="eXe_LaTeX_math_11.gif"   v:shapes="_x0000_i1025" align="absmiddle" border="2" /><!--[if gte mso 9]><xml>
+</xml><![endif]--></i></b>
+</p>
+<p align="center">
+<b><i><!--[if gte vml 1]>
+<![endif]--><img src="eXe_LaTeX_math_10.gif"   v:shapes="_x0000_i1026" align="absmiddle" border="2" /><!--[if gte mso 9]><xml>
+</xml><![endif]--></i></b>
+</p>
+<p>
+<b><i> </i></b>
+</p>
+<p align="justify">
+<font face="comic sans ms,sand" size="4">
+Así, en nuestro ejemplo, tendríamos:</font>
+</p>
+<p>
+<b><i><!--[if gte vml 1]>
+<![endif]-->
+<div style="text-align: center">
+<img src="eXe_LaTeX_math_17.1.gif"   v:shapes="_x0000_i1027" />
+</div>
+<!--[if gte mso 9]><xml>
+</xml><![endif]--></i></b>
+</p>
+<p>
+&nbsp;
+</p>
+<p align="center">
+<b><i><!--[if gte vml 1]>
+<![endif]--><img src="eXe_LaTeX_math_24.gif"   v:shapes="_x0000_i1028" /><!--[if gte mso 9]><xml>
+</xml><![endif]--></i></b>
+</p>
+<div align="justify">
+<font face="comic sans ms,sand" size="4">
+Y con esto ya podríamos resolver el circuito
+utillizando el procedimiento que ya conocemos.</font>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="apndice_ii_estudio_terico_del_transistor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="6_ejercicios_y_problemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_seamist_js.js"></script></body></html>
