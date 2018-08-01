@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>APÉNDICE I: método de Karnaugh de simplificación de funciones lógicas. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-28"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="emptyHeader"></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA DIGITAL</a></li>
+   <li><a href="1_introduccin_de_lo_analgico_a_lo_digital.html" class="no-ch">1. Introducción: de lo analógico a lo digital</a></li>
+   <li><a href="2_operaciones_binarias.html" class="daddy">2. Operaciones binarias</a>
+   <ul class="other-section">
+      <li><a href="21_ideas_previas.html" class="no-ch">2.1. Ideas previas.</a></li>
+      <li><a href="22_el_nibble_o_cuado.html" class="no-ch">2.2. El nibble o cuado</a></li>
+      <li><a href="23_el_byte.html" class="no-ch">2.3. El byte</a></li>
+      <li><a href="24_conversin_de_binario_a_decimal.html" class="no-ch">2.4. Conversión de binario a decimal.</a></li>
+      <li><a href="25_conversin_de_decimal_a_binario.html" class="no-ch">2.5. Conversión de decimal a binario.</a></li>
+      <li><a href="26_el_sistema_hexadecimal.html" class="no-ch">2.6. El sistema hexadecimal</a></li>
+      <li><a href="27_suma_de_dos_nmeros_binarios.html" class="no-ch">2.7. Suma de dos números binarios.</a></li>
+      <li><a href="28_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.8. Diferencia de dos números binarios.</a></li>
+   </ul>
+   </li>
+   <li><a href="3_funcin_lgica_tabla_de_verdad.html" class="daddy">3. Función lógica. Tabla de verdad.</a>
+   <ul class="other-section">
+      <li><a href="31_definiciones_bsicas.html" class="no-ch">3.1. Definiciones básicas.</a></li>
+      <li><a href="32_funciones_bsicas.html" class="no-ch">3.2. Funciones básicas.</a></li>
+      <li><a href="33_lgebra_de_boole.html" class="no-ch">3.3. Álgebra de Boole</a></li>
+   </ul>
+   </li>
+   <li><a href="4_puertas_lgicas.html" class="daddy">4. Puertas lógicas.</a>
+   <ul class="other-section">
+      <li><a href="41_puerta_not.html" class="no-ch">4.1. Puerta NOT.</a></li>
+      <li><a href="42_puerta_or.html" class="no-ch">4.2. Puerta OR.</a></li>
+      <li><a href="43_puerta_and.html" class="no-ch">4.3. Puerta AND.</a></li>
+      <li><a href="44_puerta_nor.html" class="no-ch">4.4. Puerta NOR.</a></li>
+      <li><a href="45_puerta_nand.html" class="no-ch">4.5. Puerta NAND.</a></li>
+      <li><a href="46_puerta_xor_u_orex.html" class="no-ch">4.6. Puerta XOR u OR-EX.</a></li>
+      <li><a href="47_puerta_xnor_o_norex.html" class="no-ch">4.7. Puerta XNOR o NOR-EX.</a></li>
+   </ul>
+   </li>
+   <li><a href="5_la_electrnica_digital_en_el_mercado.html" class="daddy">5. La electrónica digital en el mercado.</a>
+   <ul class="other-section">
+      <li><a href="extras.html" class="no-ch">Extras</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="apndice_i_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="active no-ch">APÉNDICE I: método de Karnaugh de simplificación de funciones lógicas.</a></li>
+   <li><a href="apndice_ii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE II: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
+   <li><a href="6_ejercicios_y_problemas.html" class="daddy">6. Ejercicios y problemas</a>
+   <ul class="other-section">
+      <li><a href="61_conversin_de_binario_a_decimal_y_viceversa.html" class="no-ch">6.1. Conversión de binario a decimal y viceversa.</a></li>
+      <li><a href="62_conversin_de_binario_a_hexadecimal_y_viceversa.html" class="no-ch">6.2. Conversión de binario a hexadecimal y viceversa.</a></li>
+      <li><a href="63_operaciones_con_nmeros_binarios.html" class="no-ch">6.3. Operaciones con números binarios.</a></li>
+      <li><a href="64_funciones_lgicas_i_operaciones.html" class="no-ch">6.4. Funciones lógicas (I). Operaciones.</a></li>
+      <li><a href="65_funciones_lgicas_ii_circuitos_con_interruptores.html" class="no-ch">6.5. Funciones lógicas (II). Circuitos con interruptores.</a></li>
+      <li><a href="66_puertas_lgicas_implementacin.html" class="no-ch">6.6. Puertas lógicas. Implementación.</a></li>
+      <li><a href="67_puertas_lgicas_problemas.html" class="no-ch">6.7. Puertas lógicas. Problemas.</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="extras.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_ii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE I: método de Karnaugh de simplificación de funciones lógicas.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id58">
+<div class="iDevice emphasis0">
+<div id="ta58_1" class="block iDevice_content">
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;">Cuando las funciones lógicas tienen una expresión grande, el procedimiento algebraico nos puede llevar a cometer errores, porque se convierte en algo pesado. Se utiliza entonces el procedimiento de los <b>diagramas o mapas de Karnaugh</b>. </span></p>
+<div align="justify"></div>
+<div align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> Este método consiste en formar diagramas de 2<sup>n</sup> cuadros, siendo <i>n </i>el número de variables de la función. Cada cuadro representa una de las diferentes combinaciones posibles y se disponen de tal forma que se puede pasar de un cuadro a otro en las direcciones horizontal o vertical, <b>cambiando únicamente una variable</b>, ya sea en forma negada o directa.</span></div>
+<p> </p>
+<p align="center"><img src="mapas_karnaugh.jpg" height="301" width="756" /></p>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> Se numera cada celda con el número decimal correspondiente al término binario que contiene, para facilitar el trabajo a la hora de colocar la función. Para simplificar una función lógica por el método de Karnaugh se seguirán los siguientes pasos: </span></p>
+<div align="justify"></div>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 1º) Se coloca un 1 en los cuadros correspondientes a los términos que valen 1 en la función. </span></p>
+<div align="justify"></div>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 2º) Se agrupan mediante lazos los unos de casillas adyacentes siguiendo estrictamente las siguientes reglas: </span></p>
+<div align="justify">
+<blockquote>
+<p><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> a) Dos casillas son adyacentes cuando se diferencian únicamente en el estado de una sola variable (¡OJO!: las de los extremos son adyacentes, ya que puedes imaginar que el diagrama es flexible y se "enrolla" sobre sí mismo) </span></p>
+<p><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> b) Cada lazo debe contener el mayor número de unos posible, siempre que dicho número sea potencia de dos (1, 2, 4, etc.) </span></p>
+<p><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> c) Los lazos pueden quedar superpuestos y no importa que haya cuadrículas que pertenezcan a dos o más lazos diferentes. </span></p>
+<span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> d) Se debe tratar de conseguir el menor número de lazos con el mayor número de unos posible. </span></blockquote>
+</div>
+<p align="justify"><span style="font-family: verdana, geneva; font-size: medium;"> </span></p>
+<div align="justify"></div>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 3º) La función simplificada tendrá tantos términos como lazos posea el diagrama. Cada término se obtiene eliminando la o las variables que cambien de estado en el mismo lazo. </span></p>
+<div align="justify"></div>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> Vamos a ver todo el proceso con una función que nos sirve de ejemplo: </span></p>
+<div align="justify"></div>
+<p align="center"><span style="font-family: verdana, geneva; font-size: medium;"><!--[if gte vml 1]>
+<![endif]--><img src="funcion01.gif" height="32" width="178" /><!--[if gte mso 9]><xml>
+</xml><![endif]--></span></p>
+<div align="justify"></div>
+<div align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> En primer lugar, obtenemos la tabla de verdad de la función. Fíjate bien cómo se hace: vamos haciendo los productos o sumas más sencillos, y de ahí vamos pasando a las operaciones más complicadas:</span></div>
+<div align="justify"><span style="font-family: verdana, geneva; font-size: medium;"><img src="tv02.jpg" height="537" width="799" /></span></div>
+<div align="justify"></div>
+<div align="justify"></div>
+<div align="justify"></div>
+<div align="justify"></div>
+<p align="justify"></p>
+<p class="MsoBodyText" style="margin-bottom: 6pt;" align="justify"><span style="font-family: verdana, geneva; font-size: medium;"><img src="karnaugh.png" height="216" width="216" style="float: right; margin: 10px;" /><span lang="ES-TRAD">A continuación, escribimos el cuadrado de 16 casillas (2<sup>4</sup>).<o:p></o:p></span></span></p>
+<div align="justify"></div>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Una vez hecho esto, en las casillas que corresponda hay que poner los “1” de la función F. Así, la primera combinación que hace que la función F valga uno es precisamente la 0000 (correspondiente al 0 decimal), por lo que en la casilla numerada con el cero decimal habrá que colocar un uno (como valor de la función). Sucede esto también con las casillas numeradas con 2, 4, 6, 7, 12, 13, 14 y 15.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">El siguiente paso es hacer lazos de 8, 4, 2 ó 1 “1” que estén adyacentes. Para eso, te puedes imaginar que el cuadrado es flexible y que, enrollándolo sobre sí mismo, tocaría el lado izquierdo con el derecho, o la parte superior con la parte inferior.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Como es evidente, no encontramos ningún lazo que contenga ocho “1” adyacentes.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Pasamos, entonces, a buscar lazos de cuatro “1”. Encontramos uno formado por las casillas 12, 13, 14 y 15. Tenemos otro formado por las casillas 6, 7, 14 y 15 (no importa que haya casillas que ya hayan entrado en otro lazo: buscamos siempre el más grande posible).</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Por último, encontramos el lazo formado por las casillas 0, 2, 4 y 6, que son adyacentes por lo que hemos dicho más arriba.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Pasamos a buscar lazos de dos “1”, y no encontramos. Tampoco encontramos lazos que contengan “1” aislados.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Así pues, los lazos que hemos localizado son:</span></p>
+<p align="center"><span style="font-family: verdana, geneva; font-size: medium;">{12,13,14,15}    {6, 7, 14, 15}     {0, 2, 4, 6}    </span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Ahora llega el momento de <b>escribir los términos de la función simplificada</b>. Como hay tres grupos, la función simplificada tendrá tres términos.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Los términos de 4 (2<sup>2</sup>) “1” van a contener 2 variables. Los términos de 2 ( 2<sup>1</sup>) “1” contienen 3 variables. Los términos con un único “1” contienen las cuatro variables.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Hay que tener en cuenta que, dentro de un lazo, la variable que cambie de valor, desaparecerá del grupo de cuatro variables. Así pues:</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">En el grupo {6, 7, 14, 15}, cambian de valor <i>A </i>y <i>D</i>, que se eliminan, y el término correspondiente debe escribirse <i>B·C, </i>dado que A y B valen 1 dentro de ese lazo.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">En el grupo {12, 13, 14, 15}, cambian de valor <i>C </i>y <i>D</i>, que deben eliminarse, y el término correspondiente puede escribirse <i>A·B</i>, porque A y B valen 1 dentro del lazo.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">En el grupo {0, 2, 4, 6} las variables que cambian de valor son B y C, que deben eliminarse. Entonces, el término correspondiente puede escribirse . Las variables A y D aparecen negada porque dentro del lazo, su valor es cero.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: medium;">Por tanto, la función puede escribirse entonces como:</span></p>
+<div align="justify"><img src="eXe_LaTeX_math_6.1.gif" width="168" height="18"  style="display: block; margin-left: auto; margin-right: auto;" /></div>
+<div align="justify">
+<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Un dato importante es que esta función tiene una expresión más reducida que la de partida, lo que quiere decir que esta última no estaba simplificada del todo, como sí lo está la expresión que hemos obtenido, ya que eso es lo que nos garantiza el procedimiento de Karnaugh.</span></p>
+</div>
+<p><span style="font-family: verdana, geneva; font-size: medium;"></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="extras.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_ii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_default_js.js"></script></body></html>

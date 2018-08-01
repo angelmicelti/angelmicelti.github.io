@@ -27,7 +27,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value=""></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -142,7 +142,7 @@ text through the text editing buttons associated with the field."></unicode>
                  <string role="key" value="_storageName"></string>
                  <string value="intro_ed.swf"></string>
                  <string role="key" value="_userName"></string>
-                 <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\intro_ed.swf"></string>
+                 <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\intro_ed.swf"></string>
                  <string role="key" value="checksum"></string>
                  <string value="c38a73b610602e81157ef58ce9b922dc"></string>
                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -343,7 +343,7 @@ text through the text editing buttons associated with the field."></unicode>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
      <int value="2"></int>
      <string role="key" value="exportType"></string>
-     <string value="singlepage"></string>
+     <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
      <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL"></string>
      <string role="key" value="parent"></string>
@@ -461,7 +461,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="boole.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\boole.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\boole.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="c0652dd951bc2627cc00fab6e0d5366b"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -513,7 +513,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="circuito_intergrado.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\circuito_intergrado.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\circuito_intergrado.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="20fc33a3c3c92786157651a7ead21b58"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -565,7 +565,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="ENIAC.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ENIAC.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ENIAC.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="12c519cf200ec18a06fb2abb5ec75894"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -617,7 +617,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="shannon.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\shannon.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\shannon.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="febc4ca4a8e19d09864e8a21705c4685"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -690,7 +690,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:1.%20Introducci%C3%B3n%3A%20de%20lo%20anal%C3%B3gico%20a%20lo%20digital"></string>
         <string role="key" value="parent"></string>
@@ -809,7 +809,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias"></string>
         <string role="key" value="parent"></string>
@@ -921,7 +921,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.1.%20Ideas%20previas."></string>
            <string role="key" value="parent"></string>
@@ -1022,7 +1022,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="nible.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\nible.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\nible.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="bf931dc3c1b3ee8d2b7e02504bb7316c"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1098,7 +1098,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.2.%20El%20nibble%20o%20cuado"></string>
            <string role="key" value="parent"></string>
@@ -1196,7 +1196,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="posiciones.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\posiciones.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\posiciones.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="775d834ee9d296ddc44809fb85ad7f2f"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1272,7 +1272,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.3.%20El%20byte"></string>
            <string role="key" value="parent"></string>
@@ -1369,7 +1369,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="posiciones.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\posiciones.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\posiciones.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="775d834ee9d296ddc44809fb85ad7f2f"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1577,7 +1577,7 @@ utilidad de aquí en adelante. &lt;/font&gt;&lt;/b&gt;&lt;/i&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.4.%20Conversi%C3%B3n%20de%20binario%20a%20decimal."></string>
            <string role="key" value="parent"></string>
@@ -1688,7 +1688,7 @@ dan la expresión binaria que buscamos, &lt;b&gt;&lt;i&gt;pero en orden invertid
                        <string role="key" value="_storageName"></string>
                        <string value="algoritmo_division.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\algoritmo_division.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\algoritmo_division.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="6da7e37a7a54006905feb10c69dbd09b"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1864,7 +1864,7 @@ dan la expresión binaria que buscamos, &lt;b&gt;&lt;i&gt;pero en orden invertid
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.5.%20Conversi%C3%B3n%20de%20decimal%20a%20binario."></string>
            <string role="key" value="parent"></string>
@@ -2141,7 +2141,7 @@ automáticamente.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="calculadora01.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\calculadora01.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\calculadora01.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="9c0b4b45ae8cb78b87f4ab267fc89cf9"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2193,7 +2193,7 @@ automáticamente.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="calculadora02.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\calculadora02.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\calculadora02.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="0cc74d141810ea4c2535526b6d561c67"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2245,7 +2245,7 @@ automáticamente.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="expresion_hexadecimal.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\expresion_hexadecimal.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\expresion_hexadecimal.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="edca49b2fb12598adedc1a1899eb6dc9"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2297,7 +2297,7 @@ automáticamente.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="hexadecimal.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\hexadecimal.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\hexadecimal.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="f002c9e9213b7c7bafe51a8acbb1fa9d"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2370,7 +2370,7 @@ automáticamente.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.6.%20El%20sistema%20hexadecimal"></string>
            <string role="key" value="parent"></string>
@@ -2551,7 +2551,7 @@ ejemplos:&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="suma1.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\suma1.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\suma1.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="30e78d5bec554d817ad37488d7d67ab4"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2603,7 +2603,7 @@ ejemplos:&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="suma2.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\suma2.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\suma2.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="6acba8273ea9b2278e7068aa80754416"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2655,7 +2655,7 @@ ejemplos:&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="suma3.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\suma3.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\suma3.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="94e3c995e9e373f092b5926678417ac7"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2727,7 +2727,7 @@ ejemplos:&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.7.%20Suma%20de%20dos%20n%C3%BAmeros%20binarios."></string>
            <string role="key" value="parent"></string>
@@ -2853,7 +2853,7 @@ algoritmo para hacer la diferencia de 13&lt;sub&gt;10)&lt;/sub&gt; = 1101&lt;sub
                        <string role="key" value="_storageName"></string>
                        <string value="diferencia_binaria.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\diferencia_binaria.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\diferencia_binaria.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="db7b5dd5ca26975b05c04925b532a129"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2923,7 +2923,7 @@ algoritmo para hacer la diferencia de 13&lt;sub&gt;10)&lt;/sub&gt; = 1101&lt;sub
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:2.%20Operaciones%20binarias:2.8.%20Diferencia%20de%20dos%20n%C3%BAmeros%20binarios."></string>
            <string role="key" value="parent"></string>
@@ -3043,7 +3043,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:3.%20Funci%C3%B3n%20l%C3%B3gica.%20Tabla%20de%20verdad."></string>
         <string role="key" value="parent"></string>
@@ -3239,7 +3239,7 @@ sólo dos posibles entradas (0 y 1) y produce un solo valor (salida). &lt;/font&
                         <string role="key" value="_storageName"></string>
                         <string value="funcion_logica.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funcion_logica.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funcion_logica.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="313f7ac1f2cd78a2d67e8c49efec7842"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3392,7 +3392,7 @@ posibles.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="tabla_verdad.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\tabla_verdad.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\tabla_verdad.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="64184563dce3aa176476d47b26d10407"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3461,7 +3461,7 @@ posibles.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:3.%20Funci%C3%B3n%20l%C3%B3gica.%20Tabla%20de%20verdad.:3.1.%20Definiciones%20b%C3%A1sicas."></string>
            <string role="key" value="parent"></string>
@@ -3676,7 +3676,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales01circ.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales01circ.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales01circ.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="11bef09c02e59a560e082bea651270ea"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3728,7 +3728,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales01tv.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales01tv.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales01tv.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="742d379b8b19573b5018e8acd042003f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3885,7 +3885,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales02circ.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales02circ.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales02circ.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5ee8019ca6cc85cbb99bf0d552bafbc0"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3937,7 +3937,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales02TV.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales02TV.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales02TV.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="8511aeb060969f8ed3656518d3363b0a"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4095,7 +4095,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales03circ.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales03circ.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales03circ.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="26443b5c7a143d542196371e99721359"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4147,7 +4147,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales03tv.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales03tv.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales03tv.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="0afe8987d8b865f740ce51b7bebd8bef"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4307,7 +4307,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_14.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_14.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_14.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="86191a983fc0bbeb6ee480c93daff26d"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4359,7 +4359,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_14.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_14.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_14.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="c0b5bd60bde49c8db0b50884447b7ab3"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4411,7 +4411,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales04circ.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales04circ.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales04circ.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="16338632970c6d80421a1de4e7b03458"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4463,7 +4463,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales04tv.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales04tv.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales04tv.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="030a0019c39a33135e2411998b17ad14"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4625,7 +4625,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales05circ.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales05circ.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales05circ.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="94be30abac888a5d06c315ed2e72b7e2"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4677,7 +4677,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales05tv.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales05tv.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales05tv.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="739f266387366fcd012a8c827991bb21"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4834,7 +4834,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales06circ.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales06circ.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales06circ.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="da0519a56f7ed9a21f36d7243d79ed76"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4886,7 +4886,7 @@ ayudará a entender.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="funciones_elementales06tv.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funciones_elementales06tv.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funciones_elementales06tv.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="eb794f4a2ccbeb54f75b2c077312a031"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4956,7 +4956,7 @@ ayudará a entender.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:3.%20Funci%C3%B3n%20l%C3%B3gica.%20Tabla%20de%20verdad.:3.2.%20Funciones%20b%C3%A1sicas."></string>
            <string role="key" value="parent"></string>
@@ -5345,7 +5345,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_10.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_10.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_10.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="577cc1e0919806f8d20a656fb3ae795b"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5397,7 +5397,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_10.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_10.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_10.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="21c13b757d33ff8b8a315bda45069859"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5449,7 +5449,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_12.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_12.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_12.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="e6227aca30f2af9e7afdd9c1f8dc1f56"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5501,7 +5501,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_12.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_12.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_12.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="345f8b27c28c64b6aff138e6ce94565e"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5553,7 +5553,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_15.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_15.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_15.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5e4706294ce44c3f4ea1abe59618e3e4"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5605,7 +5605,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_15.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_15.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_15.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ba8848e592ab02c12fa0283a59157877"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5657,7 +5657,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_17.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_17.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_17.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="8401797e1c374d0720fb5e888dbd374a"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5709,7 +5709,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_17.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_17.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_17.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="e46a767f660f2251b637174e7a18944e"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5761,7 +5761,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_23.1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_23.1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_23.1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="13d4159bc59bfc246204bd9f2fd127b9"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5813,7 +5813,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_23.1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_23.1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_23.1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4b588ea551851f4b3af0d7539f47a6e5"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5865,7 +5865,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_23.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_23.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_23.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ba6956623c62ef55ef7abdbef382166c"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5917,7 +5917,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_23.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_23.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_23.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4bf8e4501abaac205bcbb4b0b35d8dca"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5969,7 +5969,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_27.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_27.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_27.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="2c7089d64116e933bcefae033d8558ea"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6021,7 +6021,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_27.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_27.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_27.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="03ba1cb12d77cce583928a038487620c"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6073,7 +6073,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_5.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_5.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_5.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="a2bc33faf4f6acf2d2d77b3ec734c4ca"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6125,7 +6125,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_5.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_5.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_5.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="29b163aa6e13b1ddd65b06cdb5e7243f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6177,7 +6177,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_7.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_7.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_7.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="84ab4b1eeaa9f308ed3ff7fc1c813414"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6229,7 +6229,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_7.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_7.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_7.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ad51d2fe666d81a7f4168a88437cbeaf"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6281,7 +6281,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_9.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_9.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_9.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="02107902245ae2c3be9ecedc9b71e026"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6333,7 +6333,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_9.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_9.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_9.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="3dd57c8a97ffdf2ac4d5bd8fb884d8d3"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6500,7 +6500,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="demorgan.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\demorgan.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\demorgan.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="f76984cde3ab20b5c8bd0f016c1b7807"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6569,7 +6569,7 @@ En el Álgebra de Boole tenemos los siguientes teoremas:&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:3.%20Funci%C3%B3n%20l%C3%B3gica.%20Tabla%20de%20verdad.:3.3.%20%C3%81lgebra%20de%20Boole"></string>
            <string role="key" value="parent"></string>
@@ -6710,7 +6710,7 @@ se le llama &lt;b&gt;implementación&lt;/b&gt;.&lt;/font&gt;
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas."></string>
         <string role="key" value="parent"></string>
@@ -6827,7 +6827,7 @@ a la figura, se indica la tabla de verdad de esta función.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303034.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303034.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303034.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="1afa5541b4392c18f955298d972322f6"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6879,7 +6879,7 @@ a la figura, se indica la tabla de verdad de esta función.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="f_not_tv.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\f_not_tv.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\f_not_tv.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="05f5bfd848665b46395c93d0f298362b"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6950,7 +6950,7 @@ a la figura, se indica la tabla de verdad de esta función.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas.:4.1.%20Puerta%20NOT."></string>
            <string role="key" value="parent"></string>
@@ -7065,7 +7065,7 @@ será ALTA si por lo menos una de las entradas está ALTA.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303032.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303032.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303032.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="ed7f1f90d2046a559730c02d2fb1fee6"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7117,7 +7117,7 @@ será ALTA si por lo menos una de las entradas está ALTA.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="f_or_tv.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\f_or_tv.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\f_or_tv.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="506aac8ec9d2191c998292af9a8b28f6"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7188,7 +7188,7 @@ será ALTA si por lo menos una de las entradas está ALTA.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas.:4.2.%20Puerta%20OR."></string>
            <string role="key" value="parent"></string>
@@ -7305,7 +7305,7 @@ que su salida es ALTA sólo cuando las dos entradas son ALTAS.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303031.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303031.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303031.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="576e1597fc46156fc70b2a5396a1b1a7"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7357,7 +7357,7 @@ que su salida es ALTA sólo cuando las dos entradas son ALTAS.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="f_and_tv.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\f_and_tv.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\f_and_tv.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="886fbdae5edd4e092e2d318136b243c4"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7428,7 +7428,7 @@ que su salida es ALTA sólo cuando las dos entradas son ALTAS.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas.:4.3.%20Puerta%20AND."></string>
            <string role="key" value="parent"></string>
@@ -7543,7 +7543,7 @@ expresión de salida para la puerta NOR es la de la derecha.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303033.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303033.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31345f496d6167656e5f30303033.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="bcc0eacaee0d4efa906793ccd2e2b7a3"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7595,7 +7595,7 @@ expresión de salida para la puerta NOR es la de la derecha.&lt;/font&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="f_nand_tv.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\f_nand_tv.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\f_nand_tv.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="6e51d012c77764011cb05a9d462f597b"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7666,7 +7666,7 @@ expresión de salida para la puerta NOR es la de la derecha.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas.:4.4.%20Puerta%20NOR."></string>
            <string role="key" value="parent"></string>
@@ -7786,7 +7786,7 @@ la salida de esta puerta es la que aparece en la tabla de la derecha.&lt;/font&g
                        <string role="key" value="_storageName"></string>
                        <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303031.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303031.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303031.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="5f7348f6b6ae6cf693bde92f49833c57"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7856,7 +7856,7 @@ la salida de esta puerta es la que aparece en la tabla de la derecha.&lt;/font&g
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas.:4.5.%20Puerta%20NAND."></string>
            <string role="key" value="parent"></string>
@@ -7983,7 +7983,7 @@ representarse como la función siguiente:&lt;br /&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303032.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303032.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303032.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="a75939f24ba7d51a2721f6de4fb64c53"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8035,7 +8035,7 @@ representarse como la función siguiente:&lt;br /&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="eXe_LaTeX_math_3.gif"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.gif"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.gif"></string>
                        <string role="key" value="checksum"></string>
                        <string value="0976e61f73e3fcdb0147331cc59ccbc2"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8087,7 +8087,7 @@ representarse como la función siguiente:&lt;br /&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="eXe_LaTeX_math_3.gif.tex"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.gif.tex"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.gif.tex"></string>
                        <string role="key" value="checksum"></string>
                        <string value="559e48bfa9c9f03612ce768696ba9f17"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8139,7 +8139,7 @@ representarse como la función siguiente:&lt;br /&gt;
                        <string role="key" value="_storageName"></string>
                        <string value="f_xor_tv.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\f_xor_tv.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\f_xor_tv.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="c908a487316cc049d4321850c76c1174"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8212,7 +8212,7 @@ representarse como la función siguiente:&lt;br /&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas.:4.6.%20Puerta%20XOR%20u%20OR-EX."></string>
            <string role="key" value="parent"></string>
@@ -8341,7 +8341,7 @@ representarse mediante la función siguiente: &lt;/font&gt;&lt;img src=&quot;res
                        <string role="key" value="_storageName"></string>
                        <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303033.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303033.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31355f496d6167656e5f30303033.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="58efb87e9d48b381badb4a4c714cec74"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8393,7 +8393,7 @@ representarse mediante la función siguiente: &lt;/font&gt;&lt;img src=&quot;res
                        <string role="key" value="_storageName"></string>
                        <string value="eXe_LaTeX_math_2.gif"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_2.gif"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_2.gif"></string>
                        <string role="key" value="checksum"></string>
                        <string value="9b2026307fa8d4d3e3bbb49814f23480"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8445,7 +8445,7 @@ representarse mediante la función siguiente: &lt;/font&gt;&lt;img src=&quot;res
                        <string role="key" value="_storageName"></string>
                        <string value="eXe_LaTeX_math_2.gif.tex"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_2.gif.tex"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_2.gif.tex"></string>
                        <string role="key" value="checksum"></string>
                        <string value="3f0c8ed449f6272f77d568a6a5c2367d"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8497,7 +8497,7 @@ representarse mediante la función siguiente: &lt;/font&gt;&lt;img src=&quot;res
                        <string role="key" value="_storageName"></string>
                        <string value="f_xnor_tv.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\f_xnor_tv.jpg"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\f_xnor_tv.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="cd4462de77608ea24cf123eee594546b"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8570,7 +8570,7 @@ representarse mediante la función siguiente: &lt;/font&gt;&lt;img src=&quot;res
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:4.%20Puertas%20l%C3%B3gicas.:4.7.%20Puerta%20XNOR%20o%20NOR-EX."></string>
            <string role="key" value="parent"></string>
@@ -8782,7 +8782,7 @@ integrado por uno nuevo cuando se dañe.&lt;/font&gt;
                     <string role="key" value="_storageName"></string>
                     <string value="circuito_integrado.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\circuito_integrado.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\circuito_integrado.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="02f44afc36b43a4d40beb4ff267e05aa"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8834,7 +8834,7 @@ integrado por uno nuevo cuando se dañe.&lt;/font&gt;
                     <string role="key" value="_storageName"></string>
                     <string value="placa_circuito_integrado.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\placa_circuito_integrado.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\placa_circuito_integrado.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="9694b48c0cf7e468b615261c5516cec2"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8961,7 +8961,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303031.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303031.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303031.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="5d5d2ef8d625a29b8873119c37d2b5f9"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -8984,7 +8984,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303031Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303031Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303031Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="ac0d909e36f6be327e84680967a235e9"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9037,7 +9037,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303032.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303032.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303032.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="155b0bcaacf8a70e3beef95e67062da7"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9060,7 +9060,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303032Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303032Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303032Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="e76e65cdc75691c3b4f76be6883ecb0f"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9113,7 +9113,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303033.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303033.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303033.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="cfa3d734026c72e79bb428ba551e9ef6"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9136,7 +9136,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303033Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303033Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303033Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="781425ffe3b6c96cbf7b33213105bbf4"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9189,7 +9189,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303034.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303034.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303034.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="acc17c29c8efc2bdf69e1258c4e6dbe4"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9212,7 +9212,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303034Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303034Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303034Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="44f68a8887d55b3ba5f30880b27cd7d8"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9265,7 +9265,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303035.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303035.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303035.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="aa7b44827e0b7148ac0df690e19ff090"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9288,7 +9288,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303035Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303035Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303035Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="ac27f0b531a51639e102bdf6fcbb12f8"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9341,7 +9341,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303036.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303036.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303036.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="6ed72c08181560a30e0724186d343e5a"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9364,7 +9364,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303036Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303036Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f31365f496d6167656e5f30303036Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="d50ef844919906b898af4df44b9d11d8"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9486,7 +9486,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4001.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4001.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4001.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="d51af364369562800bf71f8ec0d01d45"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9509,7 +9509,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4001Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4001Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4001Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="f5b31a272f2f6823ad3f69897525a215"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9562,7 +9562,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4011.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4011.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4011.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="a2587c2816465e0718bec168df490bdf"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9585,7 +9585,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4011Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4011Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4011Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="0c9b0e5d217ad60c55692a4927d044b4"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9638,7 +9638,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4071.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4071.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4071.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="b0f63d67b6c19502c5ed6c643b5efc78"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9661,7 +9661,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4071Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4071Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4071Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="1a957862517d11b9d21de06b29ec3758"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9714,7 +9714,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4081.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4081.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4081.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="fae7178f49f903ea805a0ebc3ab25a07"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9737,7 +9737,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4081Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4081Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4081Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="8dbe4981be786b08cf49f43f85cdca96"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9790,7 +9790,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4069.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4069.jpg"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4069.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="b7ba64c18c9a05f7097954525c331999"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -9813,7 +9813,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                   <string role="key" value="_storageName"></string>
                   <string value="4069Thumbnail.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\4069Thumbnail.png"></string>
+                  <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\4069Thumbnail.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="195b2d3b6225744bf1db99fa176eb681"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10060,7 +10060,7 @@ función F.&lt;/font&gt;
                     <string role="key" value="_storageName"></string>
                     <string value="ejemploCI.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ejemploCI.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ejemploCI.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="c15da3028b86139b44cd91ab61840487"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10112,7 +10112,7 @@ función F.&lt;/font&gt;
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_3.1.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.1.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.1.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="fa51a6459ece1852341918878577426a"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10164,7 +10164,7 @@ función F.&lt;/font&gt;
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_3.1.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.1.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.1.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="825416ee1d3b3df46baa926bcf72fba0"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10216,7 +10216,7 @@ función F.&lt;/font&gt;
                     <string role="key" value="_storageName"></string>
                     <string value="tv01.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\tv01.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\tv01.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="a37a0fbf994eeeea2240f32381996e4d"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10289,7 +10289,7 @@ función F.&lt;/font&gt;
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:5.%20La%20electr%C3%B3nica%20digital%20en%20el%20mercado."></string>
         <string role="key" value="parent"></string>
@@ -10634,7 +10634,7 @@ Obtenido de &amp;quot;&lt;a href=&quot;http://es.wikipedia.org/wiki/Circuito_int
                        <string role="key" value="_storageName"></string>
                        <string value="15px-Commons-logo.svg.png"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\15px-Commons-logo.svg.png"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\15px-Commons-logo.svg.png"></string>
                        <string role="key" value="checksum"></string>
                        <string value="036e2747276acfeae5a3433116a614fe"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10686,7 +10686,7 @@ Obtenido de &amp;quot;&lt;a href=&quot;http://es.wikipedia.org/wiki/Circuito_int
                        <string role="key" value="_storageName"></string>
                        <string value="180px-InternalIntegratedCircuit2.JPG"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\180px-InternalIntegratedCircuit2.JPG"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\180px-InternalIntegratedCircuit2.JPG"></string>
                        <string role="key" value="checksum"></string>
                        <string value="1791b7c4af00d593c0adf6b7500ccb46"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10738,7 +10738,7 @@ Obtenido de &amp;quot;&lt;a href=&quot;http://es.wikipedia.org/wiki/Circuito_int
                        <string role="key" value="_storageName"></string>
                        <string value="magnify-clip.png"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\magnify-clip.png"></string>
+                       <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\magnify-clip.png"></string>
                        <string role="key" value="checksum"></string>
                        <string value="db9efa2f584d0d10fde4a112c8749d97"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -10829,7 +10829,7 @@ Obtenido de &amp;quot;&lt;a href=&quot;http://es.wikipedia.org/wiki/Circuito_int
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:5.%20La%20electr%C3%B3nica%20digital%20en%20el%20mercado.:Extras"></string>
            <string role="key" value="parent"></string>
@@ -10982,7 +10982,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_6.1.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_6.1.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_6.1.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="ccda2d3770226d07c3829b0f6149c6ef"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11034,7 +11034,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_6.1.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_6.1.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_6.1.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="44ecdf796dd157c0e5336cd28c8c56d4"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11086,7 +11086,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="funcion01.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\funcion01.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\funcion01.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="b674a5910dbcf06ba72c30438b4d1a7b"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11138,7 +11138,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="karnaugh.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\karnaugh.png"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\karnaugh.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="23fc82e092f3aa7493a8e01596669419"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11190,7 +11190,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="mapas_karnaugh.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\mapas_karnaugh.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\mapas_karnaugh.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="095147ec6cdeb112e09db2d3726d8708"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11242,7 +11242,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="tv02.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\tv02.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\tv02.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="54d00dff58f32441ac389ed3f2b5c612"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11317,7 +11317,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:AP%C3%89NDICE%20I%3A%20m%C3%A9todo%20de%20Karnaugh%20de%20simplificaci%C3%B3n%20de%20funciones%20l%C3%B3gicas."></string>
         <string role="key" value="parent"></string>
@@ -11429,7 +11429,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_11.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_11.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_11.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="6f5ba78419e08fbcbc0d56351b2b1d06"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11481,7 +11481,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_11.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_11.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_11.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="7ba9d3414d8b171bd732d9d7d9213611"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11533,7 +11533,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_12.1.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_12.1.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_12.1.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="4c86f20254912577dd1aedbe4b6fe621"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11585,7 +11585,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_12.1.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_12.1.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_12.1.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="793dd71e3f6e9f7b3370785a591435d8"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11637,7 +11637,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_13.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_13.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_13.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="e14e4e56742fbb83dd00bc939d727ae7"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11689,7 +11689,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_13.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_13.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_13.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="1683f48f67af3e33a74a87c06a08b1e0"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11741,7 +11741,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_14.1.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_14.1.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_14.1.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="9a492f87950669c0e1ad5b9235c6238a"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11793,7 +11793,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_14.1.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_14.1.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_14.1.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="50612017b4e15642ea65fe0f532c1898"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11845,7 +11845,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_15.1.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_15.1.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_15.1.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="600673a29c4817316dd3576a69450e92"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11897,7 +11897,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_15.1.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_15.1.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_15.1.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="5ec28cade7321b4856fc522a57458d7f"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -11949,7 +11949,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_6.2.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_6.2.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_6.2.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="490871b3781c5c2e5fba6df2fbcd475c"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12001,7 +12001,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_6.2.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_6.2.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_6.2.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="e57661b46ac75539af7b08724b27ef6a"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12053,7 +12053,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_9.1.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_9.1.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_9.1.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="8303e0e5b1f74d4c43810a0c746d31c5"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12105,7 +12105,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_9.1.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_9.1.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_9.1.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="41d58394ecfd94103d04d589ab8c5b91"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12157,7 +12157,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="F1.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\F1.png"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\F1.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="3f4af594ed18d45cbaee018ee72bac0d"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12209,7 +12209,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="nand.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\nand.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\nand.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="0c8d69fa3f8ee0b08ad27fdf2992737b"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12261,7 +12261,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="nor.jpg"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\nor.jpg"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\nor.jpg"></string>
                     <string role="key" value="checksum"></string>
                     <string value="d3d9ed06112700dae82eddbb01cf455a"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12429,7 +12429,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_23.2.gif"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_23.2.gif"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_23.2.gif"></string>
                     <string role="key" value="checksum"></string>
                     <string value="06eb7e6183f8210926898e2bba9bcbf5"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12481,7 +12481,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="eXe_LaTeX_math_23.2.gif.tex"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_23.2.gif.tex"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_23.2.gif.tex"></string>
                     <string role="key" value="checksum"></string>
                     <string value="d4b3ff8ebf640890a9b321af12ea28db"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12533,7 +12533,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="F2.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\F2.png"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\F2.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="747987f6a7e50f83d0244656a7ae5414"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -12611,7 +12611,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:AP%C3%89NDICE%20II%3A%20Implementaci%C3%B3n%20de%20funciones%20l%C3%B3gicas%20s%C3%B3lo%20con%20puertas%20NOR%20o%20NAND"></string>
         <string role="key" value="parent"></string>
@@ -12831,7 +12831,7 @@ complete this learning."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="singlepage"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas"></string>
         <string role="key" value="parent"></string>
@@ -13782,7 +13782,7 @@ decimal, a binario:&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas:6.1.%20Conversi%C3%B3n%20de%20binario%20a%20decimal%20y%20viceversa."></string>
            <string role="key" value="parent"></string>
@@ -13991,7 +13991,7 @@ expresados en sistema hexadecimal:&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas:6.2.%20Conversi%C3%B3n%20de%20binario%20a%20hexadecimal%20y%20viceversa."></string>
            <string role="key" value="parent"></string>
@@ -14198,7 +14198,7 @@ Efectúa la suma binaria de los números del ejercicio
                         <string role="key" value="_storageName"></string>
                         <string value="suma_ejer01.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\suma_ejer01.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\suma_ejer01.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="eca7ba1148d6a2ec30885b5cecb38304"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14250,7 +14250,7 @@ Efectúa la suma binaria de los números del ejercicio
                         <string role="key" value="_storageName"></string>
                         <string value="suma_ejer02.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\suma_ejer02.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\suma_ejer02.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="772df34c8780e27f17864ec4fd177b86"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14302,7 +14302,7 @@ Efectúa la suma binaria de los números del ejercicio
                         <string role="key" value="_storageName"></string>
                         <string value="suma_ejer03.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\suma_ejer03.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\suma_ejer03.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="62558aa58501ab71950c11fc05f4d4b9"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14461,7 +14461,7 @@ Efectúa la suma binaria de los números del ejercicio
                         <string role="key" value="_storageName"></string>
                         <string value="ej12_01.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ej12_01.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ej12_01.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5db51c7257fda3ac727bbbc6ea28a9ec"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14513,7 +14513,7 @@ Efectúa la suma binaria de los números del ejercicio
                         <string role="key" value="_storageName"></string>
                         <string value="ej12_02.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ej12_02.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ej12_02.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="159385bf459afcf2d1c2537b6e24526a"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14765,7 +14765,7 @@ números a binario y súmalos después: a) 135, 215; b) 10000, 100100; c) 255,
                         <string role="key" value="_storageName"></string>
                         <string value="ej14a.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ej14a.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ej14a.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="cacace97a96f54821c2d8a23ed77d9c5"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14817,7 +14817,7 @@ números a binario y súmalos después: a) 135, 215; b) 10000, 100100; c) 255,
                         <string role="key" value="_storageName"></string>
                         <string value="ej14b.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ej14b.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ej14b.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="2d453e0a0a7c345acaa0ad595d333164"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -14869,7 +14869,7 @@ números a binario y súmalos después: a) 135, 215; b) 10000, 100100; c) 255,
                         <string role="key" value="_storageName"></string>
                         <string value="ej14c.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ej14c.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ej14c.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="f4d267f2ac0f289dffdef64ae9a211c5"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -15133,7 +15133,7 @@ cuestiones:&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas:6.3.%20Operaciones%20con%20n%C3%BAmeros%20binarios."></string>
            <string role="key" value="parent"></string>
@@ -15504,7 +15504,7 @@ de De Morgan.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5a315168a9e03febfbbbf8c17f629512"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -15556,7 +15556,7 @@ de De Morgan.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="df18ffe8945f1cbf5357d7af95903364"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -15699,7 +15699,7 @@ de De Morgan.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="fec8bd84c7dab072e8df3766d15f14e4"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -15751,7 +15751,7 @@ de De Morgan.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="9c8816d8f23039aa8b87208f197e8e29"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -15894,7 +15894,7 @@ de De Morgan.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.2.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.2.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.2.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="d499d1533d220b1e1b4508964315a4f7"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -15946,7 +15946,7 @@ de De Morgan.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.2.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.2.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.2.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="79a62b8cdbdd80302b3c7df9db70bf47"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16090,7 +16090,7 @@ función: &lt;/span&gt;&lt;/font&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.3.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.3.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.3.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ae513ab27925d965d9e5ca31c7e29d79"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16142,7 +16142,7 @@ función: &lt;/span&gt;&lt;/font&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.3.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.3.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.3.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4b06bf40972677ffa339adc49b6db374"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16285,7 +16285,7 @@ función: &lt;/span&gt;&lt;/font&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="28faed3e7a27df39895cf700e0b5b7bf"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16337,7 +16337,7 @@ función: &lt;/span&gt;&lt;/font&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ac987bd6e2dff07e76ee2fa1e0c634f9"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16509,7 +16509,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268911112&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.2.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.2.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.2.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="6d084022d9aa377ab6589345ae2a1100"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16561,7 +16561,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268911112&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.2.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.2.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.2.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="198bde263d4947410b4bd3371d7adfe3"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16717,7 +16717,7 @@ resultados.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_13.1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_13.1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_13.1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="179c7f5ebf3cff12758ca4af05cb9d98"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16769,7 +16769,7 @@ resultados.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_13.1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_13.1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_13.1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5f15acaf37dbca28155856cbb4bb2687"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16821,7 +16821,7 @@ resultados.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_5.1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_5.1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_5.1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="f9b86398cd911536aeb36179b5f52613"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16873,7 +16873,7 @@ resultados.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_5.1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_5.1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_5.1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="972b986e25f3ec0002eb683e4f912ff6"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16925,7 +16925,7 @@ resultados.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_8.1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_8.1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_8.1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5748f9d30967960dec324385ffd33597"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -16977,7 +16977,7 @@ resultados.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_8.1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_8.1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_8.1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5fdfe021148cbcb0b40c1891743186be"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -17156,7 +17156,7 @@ verdad se da a la derecha.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="EJ27.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\EJ27.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\EJ27.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="c0f474ff276ea260ac132f0f532de0f9"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -17316,7 +17316,7 @@ función G cuya tabla de verdad aparece a la izquierda. Simplifícala todo lo qu
                         <string role="key" value="_storageName"></string>
                         <string value="ej28.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ej28.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ej28.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="f7c023bf95e152f2ddd5627a71655b01"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -17492,7 +17492,7 @@ derecha.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="ej29.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\ej29.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\ej29.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="01ea1f8ba3a7b729b046e307faf96ad7"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -17834,7 +17834,7 @@ Karnaugh. Impleméntala con puertas lógicas.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.4.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.4.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.4.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="c4a65d16563bb5454deca0692ea31e9e"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -17886,7 +17886,7 @@ Karnaugh. Impleméntala con puertas lógicas.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.4.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.4.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.4.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="1886f3e89686c6df10073eda53e7b653"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -17956,7 +17956,7 @@ Karnaugh. Impleméntala con puertas lógicas.&lt;/font&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas:6.4.%20Funciones%20l%C3%B3gicas%20%28I%29.%20Operaciones."></string>
            <string role="key" value="parent"></string>
@@ -18090,7 +18090,7 @@ conmutados. ¿Cuál es la función lógica que indica el estado de la lámpara?&
                         <string role="key" value="_storageName"></string>
                         <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32335f496d6167656e5f30303031.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32335f496d6167656e5f30303031.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32335f496d6167656e5f30303031.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="eebe6a7930b3982228a1b4756eaad197"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -18261,7 +18261,7 @@ la lámpara L. Implementa dicha función con puertas lógicas.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32335f496d6167656e5f30303032.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32335f496d6167656e5f30303032.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32335f496d6167656e5f30303032.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="00d77d636686cba3018238046efe1ff6"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -18413,7 +18413,7 @@ expresión algebraica de la función L.&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32345f496d6167656e5f30303031.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32345f496d6167656e5f30303031.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32345f496d6167656e5f30303031.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="1631cd30324c75d9453df55e3780654b"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -18577,7 +18577,7 @@ el estado de la salida S?&lt;/font&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32345f496d6167656e5f30303032.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32345f496d6167656e5f30303032.jpg"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\352e75645f656c656374726f6e6963615f6469676974616c5f50c3a167696e615f32345f496d6167656e5f30303032.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="435ce57018331e2a10ab2431bb7aacd3"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -18736,7 +18736,7 @@ siguientes puertas lógicas: a) NOT; b) AND; c) OR; d) NOR; e) NAND; f) XNOR; g)
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas:6.5.%20Funciones%20l%C3%B3gicas%20%28II%29.%20Circuitos%20con%20interruptores."></string>
            <string role="key" value="parent"></string>
@@ -18837,7 +18837,7 @@ la función &lt;/span&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_8.2.gif&quot
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_8.2.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_8.2.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_8.2.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="e6a6c25cba66e61706f208448b36243f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -18889,7 +18889,7 @@ la función &lt;/span&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_8.2.gif&quot
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_8.2.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_8.2.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_8.2.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="b2bbcd9713a4205221b19d947d91789b"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19033,7 +19033,7 @@ la función &lt;/span&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3.5.gif&quot
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.5.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.5.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.5.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="e58e104a6cd6a4610d057b018e0f43fa"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19085,7 +19085,7 @@ la función &lt;/span&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3.5.gif&quot
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.5.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.5.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.5.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="73ef3bda44f2484dce9a16c984847449"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19228,7 +19228,7 @@ la función &lt;/span&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3.5.gif&quot
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_2.1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_2.1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_2.1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="3bfe771f4953ac53d7fc71ea169db81d"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19280,7 +19280,7 @@ la función &lt;/span&gt;&lt;img src=&quot;resources/eXe_LaTeX_math_3.5.gif&quot
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_2.1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_2.1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_2.1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="1774385dc9b30a346fb7dbc0fd493f8c"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19485,7 +19485,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_10.1.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_10.1.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_10.1.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ab2b8596e4963fbe04769ce5889327c7"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19537,7 +19537,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_10.1.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_10.1.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_10.1.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="6ad71279dfce0e8cae9c481a4ac6505e"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19589,7 +19589,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.6.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.6.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.6.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="05690400148bac43414780a4965beefb"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19641,7 +19641,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_3.6.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_3.6.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_3.6.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="83f2a576cee9b3b78b076c8814d172f8"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19693,7 +19693,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.3.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.3.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.3.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="2303da3e8a8d0c6d86282f9913481b90"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19745,7 +19745,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.3.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.3.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.3.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="1a43741f6107ced2c2b4e771ec55282d"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19797,7 +19797,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_6.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_6.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_6.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="125a3199ba69fd496bdee979ac878d7c"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19849,7 +19849,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_6.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_6.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_6.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="08b7d4aa53372f4ce6c337244588557f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19901,7 +19901,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_8.3.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_8.3.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_8.3.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="e80d2c72f410d360c8e61135a629211b"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -19953,7 +19953,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268916111&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_8.3.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_8.3.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_8.3.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="eed292c0252060d1dddc7a392214edf8"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -20851,7 +20851,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268927551&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_2.2.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_2.2.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_2.2.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ccef1bd5204976b6c68f17b007ef5923"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -20903,7 +20903,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268927551&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_2.2.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_2.2.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_2.2.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="be950a58048a292394c4e55f681fc9b8"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -21075,7 +21075,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268927614&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.4.gif"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.4.gif"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.4.gif"></string>
                         <string role="key" value="checksum"></string>
                         <string value="d960976c075dea413d79d7d2d1f64474"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -21127,7 +21127,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268927614&quot;&gt;
                         <string role="key" value="_storageName"></string>
                         <string value="eXe_LaTeX_math_4.4.gif.tex"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphlca_v\\eXe_LaTeX_math_4.4.gif.tex"></string>
+                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphrjh15\\eXe_LaTeX_math_4.4.gif.tex"></string>
                         <string role="key" value="checksum"></string>
                         <string value="cabbdf2076fe47a6168b67e49a6344c8"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -21284,7 +21284,7 @@ DrawAspect=&quot;Content&quot; ObjectID=&quot;_1268927614&quot;&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas:6.6.%20Puertas%20l%C3%B3gicas.%20Implementaci%C3%B3n."></string>
            <string role="key" value="parent"></string>
@@ -22605,7 +22605,7 @@ implementa el circuito con puertas lógicas.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="singlepage"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:ELECTR%C3%93NICA%20DIGITAL:6.%20Ejercicios%20y%20problemas:6.7.%20Puertas%20l%C3%B3gicas.%20Problemas."></string>
            <string role="key" value="parent"></string>

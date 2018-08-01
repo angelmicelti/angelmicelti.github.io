@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>6.6. Puertas lógicas. Implementación. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-31"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="emptyHeader"></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA DIGITAL</a></li>
+   <li><a href="1_introduccin_de_lo_analgico_a_lo_digital.html" class="no-ch">1. Introducción: de lo analógico a lo digital</a></li>
+   <li><a href="2_operaciones_binarias.html" class="daddy">2. Operaciones binarias</a>
+   <ul class="other-section">
+      <li><a href="21_ideas_previas.html" class="no-ch">2.1. Ideas previas.</a></li>
+      <li><a href="22_el_nibble_o_cuado.html" class="no-ch">2.2. El nibble o cuado</a></li>
+      <li><a href="23_el_byte.html" class="no-ch">2.3. El byte</a></li>
+      <li><a href="24_conversin_de_binario_a_decimal.html" class="no-ch">2.4. Conversión de binario a decimal.</a></li>
+      <li><a href="25_conversin_de_decimal_a_binario.html" class="no-ch">2.5. Conversión de decimal a binario.</a></li>
+      <li><a href="26_el_sistema_hexadecimal.html" class="no-ch">2.6. El sistema hexadecimal</a></li>
+      <li><a href="27_suma_de_dos_nmeros_binarios.html" class="no-ch">2.7. Suma de dos números binarios.</a></li>
+      <li><a href="28_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.8. Diferencia de dos números binarios.</a></li>
+   </ul>
+   </li>
+   <li><a href="3_funcin_lgica_tabla_de_verdad.html" class="daddy">3. Función lógica. Tabla de verdad.</a>
+   <ul class="other-section">
+      <li><a href="31_definiciones_bsicas.html" class="no-ch">3.1. Definiciones básicas.</a></li>
+      <li><a href="32_funciones_bsicas.html" class="no-ch">3.2. Funciones básicas.</a></li>
+      <li><a href="33_lgebra_de_boole.html" class="no-ch">3.3. Álgebra de Boole</a></li>
+   </ul>
+   </li>
+   <li><a href="4_puertas_lgicas.html" class="daddy">4. Puertas lógicas.</a>
+   <ul class="other-section">
+      <li><a href="41_puerta_not.html" class="no-ch">4.1. Puerta NOT.</a></li>
+      <li><a href="42_puerta_or.html" class="no-ch">4.2. Puerta OR.</a></li>
+      <li><a href="43_puerta_and.html" class="no-ch">4.3. Puerta AND.</a></li>
+      <li><a href="44_puerta_nor.html" class="no-ch">4.4. Puerta NOR.</a></li>
+      <li><a href="45_puerta_nand.html" class="no-ch">4.5. Puerta NAND.</a></li>
+      <li><a href="46_puerta_xor_u_orex.html" class="no-ch">4.6. Puerta XOR u OR-EX.</a></li>
+      <li><a href="47_puerta_xnor_o_norex.html" class="no-ch">4.7. Puerta XNOR o NOR-EX.</a></li>
+   </ul>
+   </li>
+   <li><a href="5_la_electrnica_digital_en_el_mercado.html" class="daddy">5. La electrónica digital en el mercado.</a>
+   <ul class="other-section">
+      <li><a href="extras.html" class="no-ch">Extras</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_i_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE I: método de Karnaugh de simplificación de funciones lógicas.</a></li>
+   <li><a href="apndice_ii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE II: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
+   <li class="current-page-parent"><a href="6_ejercicios_y_problemas.html" class="current-page-parent daddy">6. Ejercicios y problemas</a>
+   <ul>
+      <li><a href="61_conversin_de_binario_a_decimal_y_viceversa.html" class="no-ch">6.1. Conversión de binario a decimal y viceversa.</a></li>
+      <li><a href="62_conversin_de_binario_a_hexadecimal_y_viceversa.html" class="no-ch">6.2. Conversión de binario a hexadecimal y viceversa.</a></li>
+      <li><a href="63_operaciones_con_nmeros_binarios.html" class="no-ch">6.3. Operaciones con números binarios.</a></li>
+      <li><a href="64_funciones_lgicas_i_operaciones.html" class="no-ch">6.4. Funciones lógicas (I). Operaciones.</a></li>
+      <li><a href="65_funciones_lgicas_ii_circuitos_con_interruptores.html" class="no-ch">6.5. Funciones lógicas (II). Circuitos con interruptores.</a></li>
+      <li id="active"><a href="66_puertas_lgicas_implementacin.html" class="active no-ch">6.6. Puertas lógicas. Implementación.</a></li>
+      <li><a href="67_puertas_lgicas_problemas.html" class="no-ch">6.7. Puertas lógicas. Problemas.</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="65_funciones_lgicas_ii_circuitos_con_interruptores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="67_puertas_lgicas_problemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">6.6. Puertas lógicas. Implementación.</h1></div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id87">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 38</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta87_31_2" class="block iDevice_content">
+<font face="verdana,geneva" size="3"><span style="font-size: 12pt; font-family: Arial" lang="ES-TRAD">Implementa con puertas lógicas
+la función </span><img src="eXe_LaTeX_math_8.2.gif"   align="absmiddle" /></font>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id88">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 39</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta88_32_2" class="block iDevice_content">
+<span style="font-size: 12pt; font-family: Arial" lang="ES-TRAD">Implementa con puertas lógicas
+la función </span><img src="eXe_LaTeX_math_3.5.gif"   align="absmiddle" />
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id89">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 40</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta89_33_2" class="block iDevice_content">
+<font face="verdana,geneva" size="3">Implementa con puertas lógicas la función: <img src="eXe_LaTeX_math_2.1.gif"   align="absmiddle" /></font>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id90">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 41</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta90_34_2" class="block iDevice_content">
+<span style="font-size: 12pt; font-family: Arial" lang="ES-TRAD">Implementa con puertas lógicas
+las siguientes funciones, realizando previamente una simplificación, caso de
+que sea posible: a) <span style="position: relative; top: 2pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+stroked="f">
+<v:stroke joinstyle="miter"/>
+<v:formulas>
+<v:f eqn="if lineDrawn pixelLineWidth 0"/>
+<v:f eqn="sum @0 1 0"/>
+<v:f eqn="sum 0 0 @1"/>
+<v:f eqn="prod @2 1 2"/>
+<v:f eqn="prod @3 21600 pixelWidth"/>
+<v:f eqn="prod @3 21600 pixelHeight"/>
+<v:f eqn="sum @0 0 1"/>
+<v:f eqn="prod @6 1 2"/>
+<v:f eqn="prod @7 21600 pixelWidth"/>
+<v:f eqn="sum @8 21600 0"/>
+<v:f eqn="prod @7 21600 pixelHeight"/>
+<v:f eqn="sum @10 21600 0"/>
+</v:formulas>
+<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+<o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:60pt;
+height:17.25pt' o:ole="">
+<v:imagedata src="file:///C:\DOCUME~1\Angel\CONFIG~1\Temp\msohtml1\01\clip_image001.wmz"
+o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img src="eXe_LaTeX_math_3.6.gif"   v:shapes="_x0000_i1025" align="absmiddle" /><!--[endif]--></span><!--[if gte mso 9]><xml>
+<o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+DrawAspect="Content" ObjectID="_1268916107">
+</o:OLEObject>
+</xml><![endif]-->; b) <span style="position: relative; top: 3pt"><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+style='width:84pt;height:15.75pt' o:ole="">
+<v:imagedata src="file:///C:\DOCUME~1\Angel\CONFIG~1\Temp\msohtml1\01\clip_image003.wmz"
+o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img src="eXe_LaTeX_math_4.3.gif"   v:shapes="_x0000_i1026" align="absmiddle" /><!--[endif]--></span><!--[if gte mso 9]><xml>
+<o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1026"
+DrawAspect="Content" ObjectID="_1268916108">
+</o:OLEObject>
+</xml><![endif]-->;<span>       </span>c) <span style="position: relative; top: 2pt"><!--[if gte vml 1]><v:shape
+id="_x0000_i1027" type="#_x0000_t75" style='width:60pt;height:20.25pt' o:ole="">
+<v:imagedata src="file:///C:\DOCUME~1\Angel\CONFIG~1\Temp\msohtml1\01\clip_image005.wmz"
+o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img src="eXe_LaTeX_math_6.gif"   v:shapes="_x0000_i1027" align="absmiddle" /><!--[endif]--></span><!--[if gte mso 9]><xml>
+<o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1027"
+DrawAspect="Content" ObjectID="_1268916109">
+</o:OLEObject>
+</xml><![endif]-->; d) <span style="position: relative; top: 2pt"><!--[if gte vml 1]><v:shape id="_x0000_i1028" type="#_x0000_t75"
+style='width:60pt;height:17.25pt' o:ole="">
+<v:imagedata src="file:///C:\DOCUME~1\Angel\CONFIG~1\Temp\msohtml1\01\clip_image007.wmz"
+o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img src="eXe_LaTeX_math_8.3.gif"   v:shapes="_x0000_i1028" align="absmiddle" /><!--[endif]--></span><!--[if gte mso 9]><xml>
+<o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1028"
+DrawAspect="Content" ObjectID="_1268916110">
+</o:OLEObject>
+</xml><![endif]-->; e) <span style="position: relative; top: 5pt"><!--[if gte vml 1]><v:shape id="_x0000_i1029" type="#_x0000_t75"
+style='width:108pt;height:23.25pt' o:ole="">
+<v:imagedata src="file:///C:\DOCUME~1\Angel\CONFIG~1\Temp\msohtml1\01\clip_image009.wmz"
+o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img src="eXe_LaTeX_math_10.1.gif"   v:shapes="_x0000_i1029" align="absmiddle" /><!--[endif]--></span><!--[if gte mso 9]><xml>
+<o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1029"
+DrawAspect="Content" ObjectID="_1268916111">
+</o:OLEObject>
+</xml><![endif]-->.</span>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id91">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 42</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta91_35_2" class="block iDevice_content">
+<p class="MsoNormal" style="margin: 6pt 0cm 0.0001pt 18pt; text-align: justify; text-indent: -18pt" align="justify">
+<!--[if !supportLists]--><font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"> 
+</span></span></span><span style="font-family: Arial" lang="ES-TRAD">Implementa <span></span>las puertas NOT, OR, NOR y AND </span></font><!--[endif]--><span style="font-family: Arial" lang="ES-TRAD"><font face="verdana,geneva" size="3">sólo con puertas NAND.</font><span> </span></span>
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id92">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 43</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta92_36_2" class="block iDevice_content">
+<p class="MsoNormal" style="margin: 6pt 0cm 0.0001pt 18pt; text-align: justify; text-indent: -18pt" align="justify">
+<!--[if !supportLists]--><font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"> 
+</span></span></span></font><!--[endif]--><span style="font-family: Arial" lang="ES-TRAD"><font face="verdana,geneva" size="3">Implementa sólo con puertas NOR las puertas: NOT,
+OR, NAND y AND</font><o:p></o:p></span>
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id93">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 44</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta93_37_2" class="block iDevice_content">
+<div align="justify">
+<font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span></span></span><span style="font-family: Arial" lang="ES-TRAD">Implementa sólo con puertas NAND la puerta OREX.<o:p></o:p></span></font>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id94">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 45</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta94_38_2" class="block iDevice_content">
+<font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"></span></span></span><span style="font-family: Arial" lang="ES-TRAD">Implementa sólo con puertas NOR la puerta OREX.</span></font><!--[endif]-->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id95">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 46</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta95_39_2" class="block iDevice_content">
+<div align="justify">
+<font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"></span></span></span><span style="font-family: Arial" lang="ES-TRAD">Implementa sólo con puertas NAND la puerta NOR-EX.<o:p></o:p></span></font><!--[endif]-->
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id96">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 47</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta96_40_2" class="block iDevice_content">
+<font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"></span></span></span><span style="font-family: Arial" lang="ES-TRAD">Implementar sólo
+con puertas NOR la puerta NOR-EX.<o:p></o:p></span></font><!--[endif]--><!--[if gte vml 1]><v:line id="_x0000_s1027"
+style='position:absolute;left:0;text-align:left;z-index:2' from="99pt,86.5pt"
+to="99pt,86.5pt" o:allowincell="f" stroked="f"/><![endif]--><!--[if gte vml 1]><v:line
+id="_x0000_s1026" style='position:absolute;left:0;text-align:left;z-index:1'
+from="99pt,86.5pt" to="99pt,86.5pt" o:allowincell="f" stroked="f"/><![endif]-->
+<div align="justify">
+</div>
+<p class="MsoNormal" style="margin: 6pt 0cm 0.0001pt 18pt; text-align: justify; text-indent: -18pt">
+<!--[endif]-->
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id97">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 48</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta97_41_2" class="block iDevice_content">
+<font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"></span></span></span><span style="font-family: Arial" lang="ES-TRAD">Implementa <i>A+B</i> sólo con puertas NAND.</span></font>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id98">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 49</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta98_42_2" class="block iDevice_content">
+<font face="verdana,geneva" size="3">Implementa la función A+B sólo con puertas NOR.</font>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id99">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 50</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta99_43_2" class="block iDevice_content">
+<!--[if !supportLists]--><font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"> 
+</span></span></span></font><!--[endif]--><span style="font-family: Arial" lang="ES-TRAD"><font face="verdana,geneva" size="3">Implementa la función lógica <span style="position: relative; top: 5pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+filled="f" stroked="f">
+<v:stroke joinstyle="miter"/>
+<v:formulas>
+<v:f eqn="if lineDrawn pixelLineWidth 0"/>
+<v:f eqn="sum @0 1 0"/>
+<v:f eqn="sum 0 0 @1"/>
+<v:f eqn="prod @2 1 2"/>
+<v:f eqn="prod @3 21600 pixelWidth"/>
+<v:f eqn="prod @3 21600 pixelHeight"/>
+<v:f eqn="sum @0 0 1"/>
+<v:f eqn="prod @6 1 2"/>
+<v:f eqn="prod @7 21600 pixelWidth"/>
+<v:f eqn="sum @8 21600 0"/>
+<v:f eqn="prod @7 21600 pixelHeight"/>
+<v:f eqn="sum @10 21600 0"/>
+</v:formulas>
+<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+<o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:90.75pt;
+height:20.25pt' o:ole="">
+<v:imagedata src="file:///C:\DOCUME~1\Angel\CONFIG~1\Temp\msohtml1\01\clip_image001.wmz"
+o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img src="eXe_LaTeX_math_2.2.gif"   v:shapes="_x0000_i1025" /><!--[endif]--></span><span> </span>sólo con puertas NAND,
+e indica si esta operación tiene alguna ventaja.</font><!--[if gte mso 9]><xml>
+<o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+DrawAspect="Content" ObjectID="_1268927551">
+</o:OLEObject>
+</xml><![endif]--><o:p></o:p></span>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id100">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 51</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta100_44_2" class="block iDevice_content">
+<!--[if !supportLists]--><font face="verdana,geneva" size="3"><span style="font-family: Arial" lang="ES-TRAD"><span><span style="font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal"> 
+</span></span></span></font><!--[endif]--><span style="font-family: Arial" lang="ES-TRAD"><font face="verdana,geneva" size="3">Implementa <span style="position: relative; top: 3pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+filled="f" stroked="f">
+<v:stroke joinstyle="miter"/>
+<v:formulas>
+<v:f eqn="if lineDrawn pixelLineWidth 0"/>
+<v:f eqn="sum @0 1 0"/>
+<v:f eqn="sum 0 0 @1"/>
+<v:f eqn="prod @2 1 2"/>
+<v:f eqn="prod @3 21600 pixelWidth"/>
+<v:f eqn="prod @3 21600 pixelHeight"/>
+<v:f eqn="sum @0 0 1"/>
+<v:f eqn="prod @6 1 2"/>
+<v:f eqn="prod @7 21600 pixelWidth"/>
+<v:f eqn="sum @8 21600 0"/>
+<v:f eqn="prod @7 21600 pixelHeight"/>
+<v:f eqn="sum @10 21600 0"/>
+</v:formulas>
+<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+<o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:38.25pt;
+height:18pt' o:ole="">
+<v:imagedata src="file:///C:\DOCUME~1\Angel\CONFIG~1\Temp\msohtml1\01\clip_image001.wmz"
+o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img src="eXe_LaTeX_math_4.4.gif"   v:shapes="_x0000_i1025" /><!--[endif]--></span> únicamente con puertas NAND</font><!--[if gte mso 9]><xml>
+<o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+DrawAspect="Content" ObjectID="_1268927614">
+</o:OLEObject>
+</xml><![endif]--><o:p></o:p></span>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id101">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 52</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta101_45_2" class="block iDevice_content">
+<font face="verdana,geneva" size="3">Implementa la función del ejercicio anterior sólo con puertas NOR.</font>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="65_funciones_lgicas_ii_circuitos_con_interruptores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="67_puertas_lgicas_problemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_default_js.js"></script></body></html>

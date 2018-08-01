@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3.2. Funciones básicas. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="emptyHeader"></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA DIGITAL</a></li>
+   <li><a href="1_introduccin_de_lo_analgico_a_lo_digital.html" class="no-ch">1. Introducción: de lo analógico a lo digital</a></li>
+   <li><a href="2_operaciones_binarias.html" class="daddy">2. Operaciones binarias</a>
+   <ul class="other-section">
+      <li><a href="21_ideas_previas.html" class="no-ch">2.1. Ideas previas.</a></li>
+      <li><a href="22_el_nibble_o_cuado.html" class="no-ch">2.2. El nibble o cuado</a></li>
+      <li><a href="23_el_byte.html" class="no-ch">2.3. El byte</a></li>
+      <li><a href="24_conversin_de_binario_a_decimal.html" class="no-ch">2.4. Conversión de binario a decimal.</a></li>
+      <li><a href="25_conversin_de_decimal_a_binario.html" class="no-ch">2.5. Conversión de decimal a binario.</a></li>
+      <li><a href="26_el_sistema_hexadecimal.html" class="no-ch">2.6. El sistema hexadecimal</a></li>
+      <li><a href="27_suma_de_dos_nmeros_binarios.html" class="no-ch">2.7. Suma de dos números binarios.</a></li>
+      <li><a href="28_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.8. Diferencia de dos números binarios.</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="3_funcin_lgica_tabla_de_verdad.html" class="current-page-parent daddy">3. Función lógica. Tabla de verdad.</a>
+   <ul>
+      <li><a href="31_definiciones_bsicas.html" class="no-ch">3.1. Definiciones básicas.</a></li>
+      <li id="active"><a href="32_funciones_bsicas.html" class="active no-ch">3.2. Funciones básicas.</a></li>
+      <li><a href="33_lgebra_de_boole.html" class="no-ch">3.3. Álgebra de Boole</a></li>
+   </ul>
+   </li>
+   <li><a href="4_puertas_lgicas.html" class="daddy">4. Puertas lógicas.</a>
+   <ul class="other-section">
+      <li><a href="41_puerta_not.html" class="no-ch">4.1. Puerta NOT.</a></li>
+      <li><a href="42_puerta_or.html" class="no-ch">4.2. Puerta OR.</a></li>
+      <li><a href="43_puerta_and.html" class="no-ch">4.3. Puerta AND.</a></li>
+      <li><a href="44_puerta_nor.html" class="no-ch">4.4. Puerta NOR.</a></li>
+      <li><a href="45_puerta_nand.html" class="no-ch">4.5. Puerta NAND.</a></li>
+      <li><a href="46_puerta_xor_u_orex.html" class="no-ch">4.6. Puerta XOR u OR-EX.</a></li>
+      <li><a href="47_puerta_xnor_o_norex.html" class="no-ch">4.7. Puerta XNOR o NOR-EX.</a></li>
+   </ul>
+   </li>
+   <li><a href="5_la_electrnica_digital_en_el_mercado.html" class="daddy">5. La electrónica digital en el mercado.</a>
+   <ul class="other-section">
+      <li><a href="extras.html" class="no-ch">Extras</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_i_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE I: método de Karnaugh de simplificación de funciones lógicas.</a></li>
+   <li><a href="apndice_ii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE II: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
+   <li><a href="6_ejercicios_y_problemas.html" class="daddy">6. Ejercicios y problemas</a>
+   <ul class="other-section">
+      <li><a href="61_conversin_de_binario_a_decimal_y_viceversa.html" class="no-ch">6.1. Conversión de binario a decimal y viceversa.</a></li>
+      <li><a href="62_conversin_de_binario_a_hexadecimal_y_viceversa.html" class="no-ch">6.2. Conversión de binario a hexadecimal y viceversa.</a></li>
+      <li><a href="63_operaciones_con_nmeros_binarios.html" class="no-ch">6.3. Operaciones con números binarios.</a></li>
+      <li><a href="64_funciones_lgicas_i_operaciones.html" class="no-ch">6.4. Funciones lógicas (I). Operaciones.</a></li>
+      <li><a href="65_funciones_lgicas_ii_circuitos_con_interruptores.html" class="no-ch">6.5. Funciones lógicas (II). Circuitos con interruptores.</a></li>
+      <li><a href="66_puertas_lgicas_implementacin.html" class="no-ch">6.6. Puertas lógicas. Implementación.</a></li>
+      <li><a href="67_puertas_lgicas_problemas.html" class="no-ch">6.7. Puertas lógicas. Problemas.</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="31_definiciones_bsicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="33_lgebra_de_boole.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">3.2. Funciones básicas.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id18">
+<div class="iDevice emphasis0">
+<div id="ta18_1" class="block iDevice_content">
+<div align="justify">
+<font face="verdana,geneva" size="3">Veamos las funciones más sencillas que podemos encontrar en electrónica
+digital. Observa la tabla con el circuito equivalente de cada función. Te
+ayudará a entender.</font>
+</div>
+<p>
+&nbsp;
+</p>
+
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id19">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Función cero</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta19_39_2" class="block iDevice_content">
+<div align="center">
+<div align="center">
+</div>
+<div style="text-align: center">
+<div align="center">
+</div>
+<table style="border: 0pt solid #649b6b" align="center" border="0">
+	<tbody>
+		<tr>
+			<td style="border: 1px solid #5ea16e" align="center"><i><b><font face="verdana,geneva" size="4">EXPRESIÓN </font></b></i></td>
+			<td style="border: 1px solid #5ea16e" align="center"><i><b><font face="verdana,geneva" size="4">TABLA DE VERDAD </font></b></i></td>
+			<td style="border: 1px solid #5ea16e" align="center"><i><b><font face="verdana,geneva" size="4">CIRCUITO EQUIVALENTE</font></b></i></td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #5ea16e" align="center"><font face="verdana,geneva" size="4"><i>F = 0 </i><br />
+			</font>
+			</td>
+			<td style="border: 1px solid #5ea16e" align="center"><img src="funciones_elementales01tv.jpg" height="90" width="121" /> <br />
+			</td>
+			<td style="border: 1px solid #5ea16e" align="center"> <img src="funciones_elementales01circ.jpg" height="80" width="256" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id20">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Función identidad</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_40_2" class="block iDevice_content">
+<table style="border: 0pt solid #649b6b" align="center" border="0">
+	<tbody>
+		<tr>
+			<td style="border: 1px solid #5ea16e" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">EXPRESIÓN </font></b></i></td>
+			<td style="border: 1px solid #5ea16e" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">TABLA DE VERDAD </font></b></i></td>
+			<td style="border: 1px solid #5ea16e" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">CIRCUITO EQUIVALENTE</font></b></i></td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #5ea16e" align="center" valign="middle"><font face="verdana,geneva" size="4"><i>F = 1</i><br />
+			</font></td>
+			<td style="border: 1px solid #5ea16e" align="center" valign="middle"><font face="verdana,geneva" size="4"><img src="funciones_elementales02TV.jpg" height="85" width="124" /></font></td>
+			<td style="border: 1px solid #5ea16e" align="center" valign="middle"><font face="verdana,geneva" size="4"><img src="funciones_elementales02circ.jpg" height="87" width="233" /></font></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id21">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Función igualdad</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta21_41_2" class="block iDevice_content">
+<table style="border-color: #48b74f; border-width: 0px" align="center" border="0">
+	<tbody>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4"> EXPRESIÓN</font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">TABLA DE VERDAD <br />
+			</font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">CIRCUITO EQUIVALENTE </font></b></i></td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><font face="verdana,geneva" size="4"><i> F = A</i><br />
+			</font></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><font face="verdana,geneva" size="4"> </font><img src="funciones_elementales03tv.jpg" height="84" width="117" /></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><font face="verdana,geneva" size="4"> </font><img src="funciones_elementales03circ.jpg" height="80" width="241" /></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id22">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Función negación</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_42_2" class="block iDevice_content">
+<table align="center" border="0">
+	<tbody>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">EXPRESIÓN</font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">TABLA DE VERDAD <br />
+			</font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">CIRCUITO EQUIVALENTE <br />
+			</font></b></i></td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><img src="eXe_LaTeX_math_14.gif"   /><font face="verdana,geneva" size="4"> <br />
+			</font></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><font face="verdana,geneva" size="4"> </font><img src="funciones_elementales04tv.jpg" height="82" width="116" /></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><img src="funciones_elementales04circ.jpg" height="79" width="233" /><font face="verdana,geneva" size="4"> <br />
+			</font></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id23">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Función suma o unión</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta23_43_2" class="block iDevice_content">
+<table align="center" border="0">
+	<tbody>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4"> EXPRESIÓN</font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">TABLA DE VERDAD <br />
+			</font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">CIRCUITO EQUIVALENTE <br />
+			</font></b></i></td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><font face="verdana,geneva" size="4"> F = A+B</font></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><img src="funciones_elementales05tv.jpg" height="130" width="146" /><font face="verdana,geneva" size="4"> <br />
+			</font></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><img src="funciones_elementales05circ.jpg" height="110" width="236" /><font face="verdana,geneva" size="4"> <br />
+			</font></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice" id="id24">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Función producto o intersección</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta24_44_2" class="block iDevice_content">
+<table align="center" border="0">
+	<tbody>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">EXPRESIÓN </font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">TABLA DE VERDAD </font></b></i></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"><i><b><font face="verdana,geneva" size="4">CIRCUITO EQUIVALENTE </font></b></i></td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"> <font face="verdana,geneva" size="4"><i>F = A·B</i><br />
+			</font></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"> <font face="verdana,geneva" size="4"><img src="funciones_elementales06tv.jpg" height="136" width="152" /></font></td>
+			<td style="border: 1px solid #48b74f" align="center" valign="middle"> <font face="verdana,geneva" size="4"><img src="funciones_elementales06circ.jpg" height="80" width="315" /></font></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="31_definiciones_bsicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="33_lgebra_de_boole.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_default_js.js"></script></body></html>
