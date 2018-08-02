@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3. El primer dibujo en AutoCAD. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="emptyHeader"></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">AutoCAD 2000</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción.</a></li>
+   <li><a href="2_iniciar_autocad_el_entorno_de_trabajo.html" class="no-ch">2. Iniciar AutoCAD: el entorno de trabajo.</a></li>
+   <li id="active"><a href="3_el_primer_dibujo_en_autocad.html" class="active no-ch">3. El primer dibujo en AutoCAD.</a></li>
+   <li><a href="4_coordenadas_absolutas_y_coordenadas_relativas.html" class="no-ch">4. Coordenadas absolutas y coordenadas relativas.</a></li>
+   <li><a href="5_zoom.html" class="no-ch">5. Zoom.</a></li>
+   <li><a href="6_modos_en_autocad.html" class="no-ch">6. Modos en AutoCAD.</a></li>
+   <li><a href="7_barra_de_herramientas_dibujo_i.html" class="no-ch">7. Barra de herramientas "Dibujo" (I).</a></li>
+   <li><a href="8_barra_de_herramientas_modificar.html" class="no-ch">8. Barra de herramientas "Modificar".</a></li>
+   <li><a href="9_barra_de_herramientas_dibujo_ii.html" class="no-ch">9. Barra de herramientas "Dibujo" (II).</a></li>
+   <li><a href="10_barra_de_herramientas_propiedades_de_objetos.html" class="no-ch">10. Barra de herramientas "Propiedades de objetos".</a></li>
+   <li><a href="11_barra_de_herramientas_acotar.html" class="no-ch">11. Barra de herramientas "Acotar".</a></li>
+   <li><a href="12_impresin_de_un_dibujo.html" class="no-ch">12. Impresión de un dibujo.</a></li>
+   <li><a href="13_bloques_en_autocad.html" class="no-ch">13. Bloques en AutoCAD.</a></li>
+   <li><a href="14_ejercicios.html" class="daddy">14. Ejercicios.</a>
+   <ul class="other-section">
+      <li><a href="hoja_1.html" class="no-ch">Hoja 1</a></li>
+      <li><a href="hoja_2.html" class="no-ch">Hoja 2</a></li>
+      <li><a href="hoja_3.html" class="no-ch">Hoja 3</a></li>
+      <li><a href="hoja_4.html" class="no-ch">Hoja 4</a></li>
+      <li><a href="ejercicio_de_evaluacin_1.html" class="no-ch">Ejercicio de evaluación 1</a></li>
+      <li><a href="ejercicio_de_evaluacin_2.html" class="no-ch">Ejercicio de evaluación 2</a></li>
+      <li><a href="ejercicio_de_evaluacin_3.html" class="no-ch">Ejercicio de evaluación 3</a></li>
+      <li><a href="ejercicio_de_evaluacin_4.html" class="no-ch">Ejercicio de evaluación 4</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="2_iniciar_autocad_el_entorno_de_trabajo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_coordenadas_absolutas_y_coordenadas_relativas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">3. El primer dibujo en AutoCAD.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_1" class="block iDevice_content">
+<p align="justify">
+<font face="trebuchet ms,geneva" size="3">Vamos a iniciar nuestro primer trabajo en AutoCAD. Se compondrá de un sencillo dibujo a base de líneas.</font>
+</p>
+<blockquote>
+	<font face="trebuchet ms,geneva" size="3">1. Accede a Archivo - Cerrar para cerrar la ventana de dibujo actual.<br />
+	2. A la pregunta de guardar los cambios contesta negativamente.<br />
+	3. Accede a Archivo - Nuevo y acepta la ventana que aparece.<br />
+	4. Asegúrate de que están activadas la rejilla y el forzado de coordenadas.<br />
+	5. Pulsa el botón  <img src="325f50c3a167696e615f30355f496d6167656e5f30303031.jpg" height="19" width="18" /> (línea) de la barra de herramientas de dibujo.<br />
+	6. Pulsa un clic en cualquier parte de la pantalla para situar el punto inicial de la línea.<br />
+	7. Dibuja un cuadrado hasta cerrarlo. <br />
+	8. Para finalizar la orden de línea, pulsa la tecla ESC.<br />
+	</font>
+</blockquote>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3"> </font>
+</div>
+<div align="justify">
+<img src="325f50c3a167696e615f30355f496d6167656e5f30303032.jpg" align="left" height="140" hspace="5" width="147" /><font face="trebuchet ms,geneva" size="3">Habrás observado a medida que dibujabas, que AutoCAD iba señalando con una marca amarilla los puntos automáticamente. De momento vamos a centrarnos en la creación de los primeros dibujos y más adelante ya veremos para qué sirven este tipo de marcas.</font>
+</div>
+<div align="justify">
+</div>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3">Vamos a dibujar otra figura:<br />
+</font>
+</div>
+<blockquote>
+	<font face="trebuchet ms,geneva" size="3">9. Inicia la orden LINEA,  pero ahora escribiendo la palabra LINEA.</font><br />
+	<font face="trebuchet ms,geneva" size="3">
+	10. Dibuja cualquier forma, pero no la cierres:</font> 
+</blockquote>
+<p align="center">
+<img src="325f50c3a167696e615f30355f496d6167656e5f30303033.jpg" height="110" width="116" />
+</p>
+<blockquote>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">11. Pulsa la letra C.</font><font face="trebuchet ms,geneva" size="3"><br />
+	12. Pulsa Intro.</font><br />
+	</p>
+</blockquote>
+<p>
+<font face="trebuchet ms,geneva" size="3">
+Observa cómo AutoCAD ha cerrado automáticamente la figura en su punto inicial.<br />
+</font>
+</p>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3"><u><b>
+Abrir un archivo</b></u></font><br />
+</div>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Es fácil. Entra en el menú Archivo y haz clic sobre la opción Abrir. Te aparecerá un cuadro de diálogo habitual en Windows, en el que sólo tendrás que buscar la carpeta en la que se encuentra el archivo que quieres abrir. Una vez localizado, haz clic sobre el botón Abrir, y lo tendrás al momento en tu pantalla.</font>
+</div>
+<div align="justify">
+</div>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3">
+<u><b>Guardar un archivo</b></u></font><br />
+</div>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3">
+Es muy fácil. AutoCAD guarda los dibujos con la extensión <blink><b>DWG.</b></blink></font><br />
+<font face="trebuchet ms,geneva" size="3">
+</font>
+</div>
+<blockquote>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">1. Accede a Archivo - Guardar</font><font face="trebuchet ms,geneva" size="3"><br />
+	2. Selecciona la unidad y el nombre y acepta.</font><br />
+	</p>
+</blockquote>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3">
+<b><u>Repetir una orden</u></b></font><br />
+</div>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3"><b><u>
+</u></b></font><font face="trebuchet ms,geneva" size="3">Muchas veces nos encontraremos ante la repetición de alguna orden. Para no volver a pulsar o escribir la última orden dada, podemos:</font>
+</div>
+<ul>
+	<li><font face="trebuchet ms,geneva" size="3">Pulsar el botón derecho del ratón y elegir la opción Repetir.</font></li>
+	<li><font face="trebuchet ms,geneva" size="3">Pulsar la tecla Intro.</font></li>
+</ul>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3">
+<u><b>Deshacer comandos y acciones<br />
+</b></u></font>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3">Para deshacer la última acción podemos:</font><br />
+<font face="trebuchet ms,geneva" size="3">
+</font>
+</div>
+</div>
+<ul>
+	<li>
+	<div align="left">
+	<font face="trebuchet ms,geneva" size="3">Pulsar el botón derecho y elegir la orden.</font>
+	</div>
+	</li>
+	<li>
+	<div align="left">
+	<font face="trebuchet ms,geneva" size="3">Escribir la letra H</font>
+	</div>
+	</li>
+	<li>
+	<div align="left">
+	<font face="trebuchet ms,geneva" size="3">
+	Acceder a Edición - Deshacer</font>
+	</div>
+	</li>
+	<li>
+	<div align="left">
+	<font face="trebuchet ms,geneva" size="3">
+	Pulsando el botón </font><img src="325f50c3a167696e615f30365f496d6167656e5f30303031.jpg" height="18" width="20" />
+	</div>
+	</li>
+</ul>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3">
+<i>Rehacer </i>hace lo contrario, es decir, volvemos a la situación anterior a deshacer. Sólo funciona inmediatamente después de deshacer.</font>
+</div>
+<p align="justify">
+&nbsp;
+</p>
+<div align="justify">
+<div align="left">
+<font face="trebuchet ms,geneva" size="3"><u><b>El menú contextual</b></u></font><br />
+</div>
+<font face="trebuchet ms,geneva" size="3">El botón derecho del ratón permite acceder rápidamente a muchas opciones de la pantalla, y también a acciones que afectan a la orden que estamos utilizando en ese momento. </font><br />
+</div>
+<blockquote>
+	<font face="trebuchet ms,geneva" size="3">
+	1. Inicia la orden LINEA y dibuja un primer punto en la pantalla.</font><br />
+	<font face="trebuchet ms,geneva" size="3">
+	2. Dibuja un segundo punto.</font><br />
+	<font face="trebuchet ms,geneva" size="3">
+	3. Pulsa ahora el botón derecho del ratón.</font><br />
+</blockquote>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Las opciones que aparecen afectan a la orden Línea que estamos utilizando en ese mismo momento. </font><br />
+</div>
+<blockquote>
+	<font face="trebuchet ms,geneva" size="3">
+	4. Elige la opción Deshacer del menú contextual.</font><br />
+	<font face="trebuchet ms,geneva" size="3">
+	5. Observa cómo se ha borrado sólo el último segmento.</font><br />
+	<font face="trebuchet ms,geneva" size="3">
+	6. Vuelve a pulsar el botón derecho y elige Intro.</font><br />
+</blockquote>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3"><b><u>
+Seleccionar elementos</u></b></font><br />
+</div>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3">
+En AutoCAD podemos seleccionar de diversas formas:	</font><br />
+<font face="trebuchet ms,geneva" size="3">
+</font>
+</div>
+<p>
+&nbsp;
+</p>
+<ul>
+	<li>
+	<div align="justify">
+	<font face="trebuchet ms,geneva" size="3">
+	Haciendo clic sobre varios de los segmentos de alguna de las figuras que has dibujado:</font>
+	</div>
+	</li>
+</ul>
+<div align="center">
+<img src="325f50c3a167696e615f30365f496d6167656e5f30303032.jpg" height="120" width="118" />
+</div>
+<div align="justify">
+</div>
+<div align="justify">
+<ul>
+	<li><font face="trebuchet ms,geneva" size="3">Usando una ventana de izquierda a derecha: todos los objetos que queden completamente dentro de la ventana serán seleccionados.</font></li>
+</ul>
+<div align="center">
+<img src="325f50c3a167696e615f30355f496d6167656e5f30303033.jpg" height="110" width="116" />
+</div>
+</div>
+<p align="justify">
+&nbsp;
+</p>
+<div align="justify">
+</div>
+<div align="justify">
+<ul>
+	<li>U<font face="trebuchet ms,geneva" size="3">sando una ventana de derecha a izquierda: todos los objetos que toque la ventana (no importa que no estén por completo en su interior) serán seleccionados.</font></li>
+</ul>
+</div>
+<p>
+<font face="trebuchet ms,geneva" size="3">
+<br />
+</font>     
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="2_iniciar_autocad_el_entorno_de_trabajo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_coordenadas_absolutas_y_coordenadas_relativas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="siteFooter">UD 2: Diseño gráfico con AutoCAD 2000.</div></div>
+<script type="text/javascript" src="_seamist_js.js"></script></body></html>

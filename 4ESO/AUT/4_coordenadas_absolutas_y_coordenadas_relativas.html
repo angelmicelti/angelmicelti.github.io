@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>4. Coordenadas absolutas y coordenadas relativas. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="emptyHeader"></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">AutoCAD 2000</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción.</a></li>
+   <li><a href="2_iniciar_autocad_el_entorno_de_trabajo.html" class="no-ch">2. Iniciar AutoCAD: el entorno de trabajo.</a></li>
+   <li><a href="3_el_primer_dibujo_en_autocad.html" class="no-ch">3. El primer dibujo en AutoCAD.</a></li>
+   <li id="active"><a href="4_coordenadas_absolutas_y_coordenadas_relativas.html" class="active no-ch">4. Coordenadas absolutas y coordenadas relativas.</a></li>
+   <li><a href="5_zoom.html" class="no-ch">5. Zoom.</a></li>
+   <li><a href="6_modos_en_autocad.html" class="no-ch">6. Modos en AutoCAD.</a></li>
+   <li><a href="7_barra_de_herramientas_dibujo_i.html" class="no-ch">7. Barra de herramientas "Dibujo" (I).</a></li>
+   <li><a href="8_barra_de_herramientas_modificar.html" class="no-ch">8. Barra de herramientas "Modificar".</a></li>
+   <li><a href="9_barra_de_herramientas_dibujo_ii.html" class="no-ch">9. Barra de herramientas "Dibujo" (II).</a></li>
+   <li><a href="10_barra_de_herramientas_propiedades_de_objetos.html" class="no-ch">10. Barra de herramientas "Propiedades de objetos".</a></li>
+   <li><a href="11_barra_de_herramientas_acotar.html" class="no-ch">11. Barra de herramientas "Acotar".</a></li>
+   <li><a href="12_impresin_de_un_dibujo.html" class="no-ch">12. Impresión de un dibujo.</a></li>
+   <li><a href="13_bloques_en_autocad.html" class="no-ch">13. Bloques en AutoCAD.</a></li>
+   <li><a href="14_ejercicios.html" class="daddy">14. Ejercicios.</a>
+   <ul class="other-section">
+      <li><a href="hoja_1.html" class="no-ch">Hoja 1</a></li>
+      <li><a href="hoja_2.html" class="no-ch">Hoja 2</a></li>
+      <li><a href="hoja_3.html" class="no-ch">Hoja 3</a></li>
+      <li><a href="hoja_4.html" class="no-ch">Hoja 4</a></li>
+      <li><a href="ejercicio_de_evaluacin_1.html" class="no-ch">Ejercicio de evaluación 1</a></li>
+      <li><a href="ejercicio_de_evaluacin_2.html" class="no-ch">Ejercicio de evaluación 2</a></li>
+      <li><a href="ejercicio_de_evaluacin_3.html" class="no-ch">Ejercicio de evaluación 3</a></li>
+      <li><a href="ejercicio_de_evaluacin_4.html" class="no-ch">Ejercicio de evaluación 4</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="3_el_primer_dibujo_en_autocad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5_zoom.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">4. Coordenadas absolutas y coordenadas relativas.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_1" class="block iDevice_content">
+<div align="left">
+<u><font face="trebuchet ms,geneva" size="3"><b>Coordenadas relativas</b></font></u>
+</div>
+<div align="left">
+<u><font face="trebuchet ms,geneva" size="3"><b></b></font></u><font face="trebuchet ms,geneva" size="3">Te habrás fijado que el
+<b>visor de coordenadas</b> muestra tres
+grupos de dígitos. Por ejemplo:
+</font>
+</div>
+<u><font face="trebuchet ms,geneva" size="3">
+</font></u>
+<p align="center">
+<!--[if gte vml 1]>
+<![endif]--><font face="trebuchet ms,geneva" size="3"><img src="325f50c3a167696e615f30375f496d6167656e5f30303031.jpg" v:shapes="_x0000_i1025" height="13" width="181" /></font>
+</p>
+<p align="justify">
+<font face="trebuchet ms,geneva" size="3">
+La esquina inferior
+izquierda de la zona de dibujo comienza en la coordenada 0,0,0. A medida que
+movemos el cursor, se mueven las coordenadas. El primer grupo de números
+representa la posición del cursor en el eje de las X, el segundo en el eje de
+las Y y el tercero en el eje de la Z
+(tres dimensiones).
+</font>
+</p>
+<p align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Normalmente, si
+trabajamos en un plano en dos dimensiones, se moverán sólo los dos primeros
+grupos.
+</font>
+</p>
+<div align="justify">
+<blockquote>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><i>1.      
+	</i><i>Activa la rejilla y el forzado de coordenadas.</i></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><i>2.      
+	</i><i>Inicia la orden </i><b>LINEA</b><i>.</i></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><i>3.      
+	</i><i>Mueve el cursor hasta que veas en la ventana de coordenadas
+	la coordenada </i><b>200,160</b><i> (aproximadamente en el centro de la pantalla) y
+	pulsa un clic.</i></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><i>4.      
+	</i><i>Ahora, con mucho cuidado, si mueves el ratón en horizontal,
+	verás que se mueve el primer grupo. Si lo mueves en vertical se mueve el
+	segundo grupo.</i></font>
+	</p>
+</blockquote>
+</div>
+<p>
+&nbsp;
+</p>
+<p align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Ahora, si tenemos el
+forzado activado, podemos buscar un punto a la derecha de la línea como por
+ejemplo el punto <b>200,190</b> simplemente moviendo el ratón hacia la derecha.
+¿Pero qué ocurre si buscamos otro punto como por ejemplo <b>200,197</b>?
+</font>
+</p>
+<p>
+<font face="trebuchet ms,geneva" size="3">
+Para ello utilizaremos
+el teclado:
+</font>
+</p>
+<blockquote>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">
+	5.      
+	<i>Escribe: </i><b>@98,0.</b></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">6.      
+	<i>Pulsa </i><b>Esc</b></font>
+	</p>
+</blockquote>
+<p>
+&nbsp;
+</p>
+<p align="justify">
+<!--[if gte vml 1]>
+<![endif]--><font face="trebuchet ms,geneva" size="3"><img src="325f50c3a167696e615f30375f496d6167656e5f30303032.jpg" v:shapes="_x0000_s1026" align="left" height="175" hspace="12" width="185" />¿Qué hemos hecho? Con esta orden, le
+decimos a AutoCAD que se mueva 98 unidades hacia la derecha, en el eje de las X
+y 0 unidades en el eje de las Y. Estos movimientos son <b>relativos</b> al
+último punto, es decir, que toman el último punto como inicio del siguiente
+segmento de línea. Observa:
+</font>
+</p>
+<p align="justify">
+<font face="trebuchet ms,geneva" size="3">
+La línea roja
+representa el eje horizontal (X) y la azul el eje vertical (Y). Si queremos
+desplazarnos por el eje de las X, debemos siempre utilizar el primer grupo de
+números. Después, dependerá si lo queremos hacer hacia la derecha (positivo) o
+hacia la izquierda (negativo).
+</font>
+</p>
+<p align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Por ejemplo: <b>@0,100</b>
+significa un desplazamiento de 0 en horizontal y de 100 en vertical hacia
+arriba. <b>@100,-36</b> significa un desplazamiento de 100 hacia la derecha y
+de 36 hacia abajo (negativo).
+</font>
+</p>
+<blockquote>
+	<font face="trebuchet ms,geneva" size="3">
+	7.      
+	<i>Inicia la orden </i><b>LINEA.</b></font>
+</blockquote>
+<blockquote>
+	<font face="trebuchet ms,geneva" size="3">8.      
+	<i>Pulsa un clic en cualquier parte de la pantalla para situar
+	el primer punto.</i></font>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">
+	9.      
+	<i>Escribe: </i><b>@150,0</b></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><b></b>10.  
+	<b>@0,150</b></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><b></b>11.  
+	<b>@-150,0</b></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><b></b>12.  
+	<b>C</b></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><b></b></font><font face="trebuchet ms,geneva" size="3"><i>13.   </i><i>Pulsa la tecla <b>Intro</b></i></font>
+	</p>
+</blockquote>
+<div align="left">
+<font face="trebuchet ms,geneva" size="3">Hemos dibujado un
+bonito cuadrado.
+</font>
+</div>
+<blockquote>
+	<p>
+	&nbsp;
+	</p>
+</blockquote>
+<p>
+<u><font face="trebuchet ms,geneva" size="3"><b>Coordenadas
+absolutas</b>
+</font></u>
+</p>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Así como las
+coordenadas relativas toman como punto de partida el último punto y deben
+comenzar a escribirse con el  signo de la
+arroba (<b>@</b>), las coordenadas absolutas toman como punto de partida la
+coordenada <b>0,0,0</b> de la pantalla, esto es: el punto inicial de la zona de
+trabajo en la esquina inferior izquierda.
+</font>
+</div>
+<p>
+&nbsp;
+</p>
+<blockquote>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><i>1.      
+	</i><i>Selecciona todos los objetos y bórralos.</i></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3"><i>2.      
+	</i><i>Inicia la orden </i><b>LINEA</b></font>
+	</p>
+	<font face="trebuchet ms,geneva" size="3"><i>3.      
+	</i><i>Escribe: </i><b>200,160</b><i> y pulsa </i><b>Intro</b></font>
+</blockquote>
+<p>
+&nbsp;
+</p>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Observa cómo el inicio
+de la línea se ha situado en la coordenada <b>200,160</b> a partir del
+punto 0,0 del inicio de la zona de trabajo.
+</font>
+</div>
+<p>
+&nbsp;
+</p>
+<blockquote>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">
+	4.      
+	<i>Escribe: </i><b>0,0</b></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">
+	5.      
+	<i>Escribe:<b> </b></i><b>200,0</b></font>
+	</p>
+	<p>
+	<font face="trebuchet ms,geneva" size="3">
+	6.      
+	<i>Escribe:</i><b> C</b></font>
+	</p>
+	<font face="trebuchet ms,geneva" size="3">
+	7.      
+	<i>Pulsa la tecla </i><b>Intro</b></font>
+</blockquote>
+<p>
+&nbsp;
+</p>
+<div align="justify">
+<font face="trebuchet ms,geneva" size="3">
+Este tipo de
+coordenadas que comienzan a partir del punto 0,0, se llaman <i><b>coordenadas
+absolutas</b>.</i></font>
+</div>
+<p>
+&nbsp;
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="3_el_primer_dibujo_en_autocad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5_zoom.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="siteFooter">UD 2: Diseño gráfico con AutoCAD 2000.</div></div>
+<script type="text/javascript" src="_seamist_js.js"></script></body></html>
