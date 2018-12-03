@@ -4,7 +4,7 @@
     <title>Inicio</title>
     <meta name="author" content="angelmicelti">
   </head>
-  <body style="              background-color: #99ff99;">
+  <body style="               background-color: #99ff99;">
     <div style="text-align: center; background-color: #99ff99;"><big style="font-weight: bold;"><big><big>PÁGINA
             WEB DE ANGELMICELTI</big></big></big></div>
     <div style="text-align: center; background-color: #99ff99;"><big style="font-weight: bold;"><big><big><br>
@@ -68,8 +68,8 @@
             </td>
             <td><br>
             </td>
-            <td style="text-align: center;"><b><a href="4ESO/TYS/index.html" target="_blank">Tecnología
-                  y sociedad</a></b></td>
+            <td style="text-align: center;"><b><big><a href="4ESO/TYS/index.html"
+                    target="_blank">Tecnología y sociedad</a></big></b></td>
           </tr>
           <tr>
             <td><br>
@@ -102,6 +102,22 @@
             <th style="text-align: center; background-color: rgba(51, 255, 51, 0.52);"><b><big><big><big><a
                         href="https://angelmicelti.github.io/FPGAndo-por-la-E.S.O.">FPGAndo
                         por la E.S.O.</a></big></big></big></b></th>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="3"><br>
+            </td>
+          </tr>
+          <tr align="center">
+            <td rowspan="1" colspan="3"><b><big><big><big><a href="https://angelmicelti.github.io/Arduineando-en-la-E.S.O.">Documentos
+                        para Proyecto y Memoria Final</a></big></big></big></b></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"><br>
+            </td>
+            <td><br>
+            </td>
+            <td style="text-align: center;"><br>
+            </td>
           </tr>
         </tbody>
       </table>
