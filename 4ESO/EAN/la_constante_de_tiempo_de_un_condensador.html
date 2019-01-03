@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>La constante de tiempo de un condensador | Electrónica analógica 4º E.S.O. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-78"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción.</a></li>
+   <li><a href="2_electricidad_y_electrnica_electrnica_analgica.html" class="daddy">2. Electricidad y electrónica. Electrónica analógica.</a>
+   <ul class="other-section">
+      <li><a href="21_la_ley_de_ohm.html" class="no-ch">2.1. La ley de Ohm.</a></li>
+      <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
+      <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
+      <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="3_componentes_electrnicos_discretos.html" class="current-page-parent daddy">3. Componentes electrónicos discretos</a>
+   <ul>
+      <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
+      <ul class="other-section">
+         <li><a href="311_resistencias_fijas_cdigo_de_colores.html" class="no-ch">3.1.1. Resistencias fijas. Código de colores.</a></li>
+         <li><a href="312_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.2. Resistencias variables o potenciómetros.</a></li>
+         <li><a href="313_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">3.1.3. Resistencias dependientes de parámetros físicos.</a>
+         <ul class="other-section">
+            <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+            <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
+            <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+            <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+         </ul>
+         </li>
+         <li><a href="314_asociacin_de_resistencias.html" class="no-ch">3.1.4. Asociación de resistencias.</a></li>
+      </ul>
+      </li>
+      <li class="current-page-parent"><a href="32_condensadores.html" class="current-page-parent daddy">3.2. Condensadores.</a>
+      <ul>
+         <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
+         <li id="active"><a href="la_constante_de_tiempo_de_un_condensador.html" class="active no-ch">La constante de tiempo de un condensador</a></li>
+         <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
+         <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
+      </ul>
+      </li>
+      <li><a href="34_semiconductores_unin_pn_diodos.html" class="daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
+      <ul class="other-section">
+         <li><a href="diodo_convencional.html" class="no-ch">Diodo convencional</a></li>
+         <li><a href="led.html" class="daddy">L.E.D.</a>
+         <ul class="other-section">
+            <li><a href="resistencia_de_polarizacin_de_un_led.html" class="no-ch">Resistencia de polarización de un LED</a></li>
+            <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
+         </ul>
+         </li>
+         <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
+      </ul>
+      </li>
+      <li><a href="35_el_transistor.html" class="daddy">3.5. El transistor.</a>
+      <ul class="other-section">
+         <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
+         <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
+         <li><a href="circuitos_con_transistores.html" class="no-ch">Circuitos con transistores</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
+   <ul class="other-section">
+      <li><a href="fusible.html" class="no-ch">Fusible</a></li>
+      <li><a href="interruptores_y_pulsadores.html" class="no-ch">Interruptores y pulsadores</a></li>
+      <li><a href="rel.html" class="no-ch">Relé</a></li>
+   </ul>
+   </li>
+   <li><a href="5_circuitos_integrados.html" class="daddy">5. Circuitos integrados</a>
+   <ul class="other-section">
+      <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
+      <ul class="other-section">
+         <li><a href="el_741_en_lazo_abierto.html" class="no-ch">El 741 en lazo abierto</a></li>
+         <li><a href="el_741_en_lazo_cerrado.html" class="daddy">El 741 en lazo cerrado</a>
+         <ul class="other-section">
+            <li><a href="opamp_como_inversor.html" class="no-ch">OpAmp como inversor</a></li>
+            <li><a href="opamp_no_inversor.html" class="no-ch">OpAmp no inversor</a></li>
+            <li><a href="opamp_como_como_sumador.html" class="no-ch">OpAmp como como sumador</a></li>
+            <li><a href="opamp_como_restador.html" class="no-ch">OpAmp como restador</a></li>
+         </ul>
+         </li>
+      </ul>
+      </li>
+      <li><a href="52_temporizador_timer_555.html" class="daddy">5.2. Temporizador (timer) 555</a>
+      <ul class="other-section">
+         <li><a href="el_555_como_monoestable.html" class="no-ch">El 555 como monoestable</a></li>
+         <li><a href="el_555_como_astable_asimtrico.html" class="no-ch">El 555 como astable asimétrico</a></li>
+         <li><a href="el_555_como_biestable.html" class="no-ch">El 555 como biestable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="6_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">6. Algunos circuitos elementales: simulación con Crocodile Clips</a>
+   <ul class="other-section">
+      <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
+      <li><a href="detectores.html" class="no-ch">Detectores</a></li>
+      <li><a href="circuitos_con_condensadores.html" class="no-ch">Circuitos con condensadores</a></li>
+      <li><a href="multivibradores.html" class="no-ch">Multivibradores</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_i_leyes_de_kirchhoff.html" class="no-ch">Apéndice I: Leyes de Kirchhoff.</a></li>
+   <li><a href="apndice_ii_conversin_estrellatringulo_y_tringuloestrella.html" class="no-ch">Apéndice II: conversión estrella-triángulo y triángulo-estrella</a></li>
+   <li><a href="apndice_iii_estudio_terico_del_transistor.html" class="no-ch">Apéndice III: estudio teórico del transistor</a></li>
+   <li><a href="apndice_iv_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice IV: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="apndice_v_pulse_width_modulation_pwm.html" class="no-ch">Apéndice V: Pulse Width Modulation (PWM)</a></li>
+   <li><a href="6_ejercicios_y_problemas.html" class="daddy">6. Ejercicios y problemas</a>
+   <ul class="other-section">
+      <li><a href="resistencias.html" class="no-ch">Resistencias</a></li>
+      <li><a href="ley_de_ohm.html" class="no-ch">Ley de Ohm</a></li>
+      <li><a href="ley_de_joule.html" class="no-ch">Ley de Joule</a></li>
+      <li><a href="leyes_de_kirchoff.html" class="no-ch">Leyes de Kirchoff</a></li>
+      <li><a href="condensadores.html" class="no-ch">Condensadores</a></li>
+      <li><a href="diodos.html" class="no-ch">Diodos</a></li>
+      <li><a href="transistores.html" class="daddy">Transistores</a>
+      <ul class="other-section">
+         <li><a href="bloque_1.html" class="no-ch">Bloque 1</a></li>
+         <li><a href="bloque_2.html" class="no-ch">Bloque 2</a></li>
+         <li><a href="bloque_3.html" class="no-ch">Bloque 3</a></li>
+         <li><a href="bloque_4.html" class="no-ch">Bloque 4</a></li>
+         <li><a href="bloque_5.html" class="no-ch">Bloque 5</a></li>
+      </ul>
+      </li>
+      <li><a href="actividades_de_refuerzo.html" class="no-ch">Actividades de refuerzo</a></li>
+      <li><a href="actividades_de_ampliacin.html" class="no-ch">Actividades de ampliación</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="caractersticas_de_un_condensador.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="tipos_de_condensadores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">La constante de tiempo de un condensador</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id166">
+<div class="iDevice emphasis0">
+<div id="ta166_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Observa el circuito de la figura:</span></p>
+<p><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="Condensador02.png" alt="" width="227" height="307" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">En la posición inicial, con el conmutador hacia arriba, el condensador se está cargando a través de la resistencia de 1K. El producto R·C tiene unidades <strong>¡de tiempo!</strong>, y nos indica cuánto tarda el condensador en estar lleno al 63% de su capacidad.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">A este valor se le conoce como <strong>constante de tiempo</strong>, y se le representa con la letra "T".</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Transcurridas <strong>5 constantes de tiempo</strong>, o sea, 5·R·C, se puede considerar que el condensador está completamente cargado. a efectos prácticos.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Otro tanto sucede en la <strong>descarga</strong>, que también se completa en cinco constantes de tiempo.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Observa la gráfica que te indica la carga almacenada (q) en el condensador frente al tiempo transcurrido (t):</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="CondensadorCargaDescarga.jpg" alt="" width="478" height="202" style="display: block; margin-left: auto; margin-right: auto;" /></span><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Es por ello que usamos el condensador en circuitos <strong>temporizadores</strong> (realizan una tarea durante un tiempo) o <strong>retardadores</strong> (retrasan la realización de una tarea durante un tiempo).</span></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="caractersticas_de_un_condensador.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="tipos_de_condensadores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_seamist_js.js"></script></body></html>

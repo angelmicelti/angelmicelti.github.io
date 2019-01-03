@@ -5,10 +5,12 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Diodo convencional </title>
+<title>Diodo convencional | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -17,7 +19,7 @@
 <body class="exe-web-site" id="exe-node-22"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
@@ -30,25 +32,27 @@
       <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="3_componentes_bsicos_en_electrnica_analgica.html" class="current-page-parent daddy">3. Componentes básicos en electrónica analógica</a>
+   <li class="current-page-parent"><a href="3_componentes_electrnicos_discretos.html" class="current-page-parent daddy">3. Componentes electrónicos discretos</a>
    <ul>
       <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
       <ul class="other-section">
-         <li><a href="311_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.1. Resistencias variables o potenciómetros.</a></li>
-         <li><a href="312_asociacin_de_resistencias.html" class="no-ch">3.1.2. Asociación de resistencias.</a></li>
+         <li><a href="311_resistencias_fijas_cdigo_de_colores.html" class="no-ch">3.1.1. Resistencias fijas. Código de colores.</a></li>
+         <li><a href="312_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.2. Resistencias variables o potenciómetros.</a></li>
+         <li><a href="313_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">3.1.3. Resistencias dependientes de parámetros físicos.</a>
+         <ul class="other-section">
+            <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+            <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
+            <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+            <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+         </ul>
+         </li>
+         <li><a href="314_asociacin_de_resistencias.html" class="no-ch">3.1.4. Asociación de resistencias.</a></li>
       </ul>
       </li>
-      <li><a href="32_componentes_dependientes_de_parmetros_fsicos.html" class="daddy">3.2. Componentes dependientes de parámetros físicos.</a>
+      <li><a href="32_condensadores.html" class="daddy">3.2. Condensadores.</a>
       <ul class="other-section">
-         <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
-         <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
-         <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
-         <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
-      </ul>
-      </li>
-      <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
-      <ul class="other-section">
-         <li><a href="utilidad_en_un_circuito.html" class="no-ch">Utilidad en un circuito</a></li>
+         <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
+         <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
          <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
          <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
       </ul>
@@ -56,22 +60,56 @@
       <li class="current-page-parent"><a href="34_semiconductores_unin_pn_diodos.html" class="current-page-parent daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
       <ul>
          <li id="active"><a href="diodo_convencional.html" class="active no-ch">Diodo convencional</a></li>
-         <li><a href="led.html" class="no-ch">L.E.D.</a></li>
+         <li><a href="led.html" class="daddy">L.E.D.</a>
+         <ul class="other-section">
+            <li><a href="resistencia_de_polarizacin_de_un_led.html" class="no-ch">Resistencia de polarización de un LED</a></li>
+            <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
+         </ul>
+         </li>
          <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
       </ul>
       </li>
-      <li><a href="35_el_transistor.html" class="no-ch">3.5. El transistor.</a></li>
+      <li><a href="35_el_transistor.html" class="daddy">3.5. El transistor.</a>
+      <ul class="other-section">
+         <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
+         <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
+         <li><a href="circuitos_con_transistores.html" class="no-ch">Circuitos con transistores</a></li>
+      </ul>
+      </li>
    </ul>
    </li>
    <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
    <ul class="other-section">
-      <li><a href="bobina.html" class="no-ch">Bobina</a></li>
-      <li><a href="rel.html" class="no-ch">Relé</a></li>
       <li><a href="fusible.html" class="no-ch">Fusible</a></li>
-      <li><a href="pulsador.html" class="no-ch">Pulsador</a></li>
+      <li><a href="interruptores_y_pulsadores.html" class="no-ch">Interruptores y pulsadores</a></li>
+      <li><a href="rel.html" class="no-ch">Relé</a></li>
    </ul>
    </li>
-   <li><a href="5_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">5. Algunos circuitos elementales: simulación con Crocodile Clips</a>
+   <li><a href="5_circuitos_integrados.html" class="daddy">5. Circuitos integrados</a>
+   <ul class="other-section">
+      <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
+      <ul class="other-section">
+         <li><a href="el_741_en_lazo_abierto.html" class="no-ch">El 741 en lazo abierto</a></li>
+         <li><a href="el_741_en_lazo_cerrado.html" class="daddy">El 741 en lazo cerrado</a>
+         <ul class="other-section">
+            <li><a href="opamp_como_inversor.html" class="no-ch">OpAmp como inversor</a></li>
+            <li><a href="opamp_no_inversor.html" class="no-ch">OpAmp no inversor</a></li>
+            <li><a href="opamp_como_como_sumador.html" class="no-ch">OpAmp como como sumador</a></li>
+            <li><a href="opamp_como_restador.html" class="no-ch">OpAmp como restador</a></li>
+         </ul>
+         </li>
+      </ul>
+      </li>
+      <li><a href="52_temporizador_timer_555.html" class="daddy">5.2. Temporizador (timer) 555</a>
+      <ul class="other-section">
+         <li><a href="el_555_como_monoestable.html" class="no-ch">El 555 como monoestable</a></li>
+         <li><a href="el_555_como_astable_asimtrico.html" class="no-ch">El 555 como astable asimétrico</a></li>
+         <li><a href="el_555_como_biestable.html" class="no-ch">El 555 como biestable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="6_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">6. Algunos circuitos elementales: simulación con Crocodile Clips</a>
    <ul class="other-section">
       <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
       <li><a href="detectores.html" class="no-ch">Detectores</a></li>
@@ -80,8 +118,10 @@
    </ul>
    </li>
    <li><a href="apndice_i_leyes_de_kirchhoff.html" class="no-ch">Apéndice I: Leyes de Kirchhoff.</a></li>
-   <li><a href="apndice_ii_estudio_terico_del_transistor.html" class="no-ch">Apéndice II: estudio teórico del transistor</a></li>
-   <li><a href="apndice_iii_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice III: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="apndice_ii_conversin_estrellatringulo_y_tringuloestrella.html" class="no-ch">Apéndice II: conversión estrella-triángulo y triángulo-estrella</a></li>
+   <li><a href="apndice_iii_estudio_terico_del_transistor.html" class="no-ch">Apéndice III: estudio teórico del transistor</a></li>
+   <li><a href="apndice_iv_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice IV: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="apndice_v_pulse_width_modulation_pwm.html" class="no-ch">Apéndice V: Pulse Width Modulation (PWM)</a></li>
    <li><a href="6_ejercicios_y_problemas.html" class="daddy">6. Ejercicios y problemas</a>
    <ul class="other-section">
       <li><a href="resistencias.html" class="no-ch">Resistencias</a></li>
@@ -116,20 +156,37 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id26">
 <div class="iDevice emphasis0">
 <div id="ta26_1" class="block iDevice_content">
-
-<div align="justify">
-<font face="comic sans ms,sand" size="4"><img src="342e5f50c3a167696e615f30375f496d6167656e5f30303031.jpg" title="símbolo del diodo convencional" align="right" height="60" hspace="5" width="120" /></font><font face="comic sans ms,sand" size="4">El diodo es un elemento unidireccional, es decir, no es lo mismo col</font><font face="comic sans ms,sand" size="4">oc</font><font face="comic sans ms,sand" size="4">arl</font><font face="comic sans ms,sand" size="4">o con una orientación que con otra. En un sentido deja pasar la corriente; en el otro, no.</font> 
+<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: large;"><img src="342e5f50c3a167696e615f30375f496d6167656e5f30303031.jpg" title="símbolo del diodo convencional" align="right" height="60" hspace="5" width="120" /></span>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Al unir un semiconductor del tipo N con otro del tipo P, en la zona de contacto se produce una marcha de electrones de la zona N a la P, cargándose positivamente la zona N y negativamente la zona P.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Aparece entonces un pequeño voltaje (“pila”) en el cristal, que en el silicio es de unos 0,7 V y en el germanio de unos 0,3 V.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Si se conecta la zona P a positivo y la zona N a negativo, la tensión exterior se opone a la tensión interior, favoreciendo el paso de electrones de la zona N hacia la zona P. Se dice entonces que la unión P-N se comporta en este caso como un <strong>diodo en </strong><a href="#circ55_diodopd"><strong>polarización directa</strong></a>, dejando pasar la corriente (funcionaría como un interruptor cerrado). En caso contrario, se habla de <a href="#circ56_diodopi"><strong>polarización inversa</strong></a>, y la corriente no circulará.</span></p>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; text-align: center;"><img src="DiodoPD.png" alt="" title="Diodo en polarización directa" width="52" height="148" /></td>
+<td style="width: 50%; text-align: center;"><img src="DiodoPI.png" alt="" title="Diodo en polarización inversa" width="76" height="148" /></td>
+</tr>
+<tr>
+<td style="width: 50%; text-align: center;"><strong>Diodo en polarización directa</strong></td>
+<td style="width: 50%; text-align: center;"><strong>Diodo en polarización inversa</strong></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Echa un vistazo a estos vídeos para entender todo esto: <a href="https://www.youtube.com/watch?v=bhSJwBV-Vms"></a></span></p>
+<p style="text-align: center;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><iframe width="560" height="314" src="//www.youtube.com/embed/bhSJwBV-Vms" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"> </span></p>
+<p style="text-align: center;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><iframe width="560" height="314" src="//www.youtube.com/embed/fPRnb9D17nA" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"> </span></p>
+<img src="342e5f50c3a167696e615f30375f496d6167656e5f30303032.jpg" title="diodo convencional" align="left" height="150" hspace="5" width="150" style="font-family: 'comic sans ms', sand; font-size: large;" />
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Podemos decir, que un <strong>diodo</strong> es una <strong>unión P-N encapsulada</strong>. Tiene dos terminales: uno positivo, llamado <strong>ánodo (A)</strong>, y otro negativo, llamado <strong>cátodo (K)</strong>, que se identifica con una línea en el cuerpo del diodo. </span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">El diodo convencional tiene una aplicación típica: el <strong>circuito rectificador </strong>que convierte la corriente alterna (la que tenemos en la red de casa) en continua (la que consumen nuestros dispositivos electrónicos, por ejemplo). Puedes ver su esquema a continuación:</span></p>
+<p><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="Rectificador.png" width="455" height="244" title="Circuito rectificador" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
 </div>
-<p align="justify">
-<font face="comic sans ms,sand" size="4"><br />
-<img src="342e5f50c3a167696e615f30375f496d6167656e5f30303032.jpg" title="diodo convencional" align="left" height="150" hspace="5" width="150" />El diodo está compuesto por dos terminales, uno positivo, llamado ánodo, y que se identifica con la letra P; y otro negativo, llamado cátodo, indicado por la letra N. La identificación de los terminales se realiza mediante una raya que lleva dibujada, y que se corresponde con el lado N.</font>
-</p>
-<p align="justify">
-<font face="comic sans ms,sand" size="4">Observa que la raya vertical corresponde al lado negativo (cátodo) del diodo. Si este lado está en contacto con el lado negativo de la fuente de tensión (o de forma equivalente, el ánodo en contacto con el lado positivo de la fuente), circulará la corriente. En caso contrario, no habrá corriente.</font>
-</p>
-
 </div>
 </div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
 </div>
 </div>

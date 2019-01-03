@@ -6,10 +6,12 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Diodos </title>
+<title>Diodos | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="exe_lightbox.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
@@ -19,7 +21,7 @@
 <body class="exe-web-site" id="exe-node-40"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
@@ -32,25 +34,27 @@
       <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
    </ul>
    </li>
-   <li><a href="3_componentes_bsicos_en_electrnica_analgica.html" class="daddy">3. Componentes básicos en electrónica analógica</a>
+   <li><a href="3_componentes_electrnicos_discretos.html" class="daddy">3. Componentes electrónicos discretos</a>
    <ul class="other-section">
       <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
       <ul class="other-section">
-         <li><a href="311_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.1. Resistencias variables o potenciómetros.</a></li>
-         <li><a href="312_asociacin_de_resistencias.html" class="no-ch">3.1.2. Asociación de resistencias.</a></li>
+         <li><a href="311_resistencias_fijas_cdigo_de_colores.html" class="no-ch">3.1.1. Resistencias fijas. Código de colores.</a></li>
+         <li><a href="312_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.2. Resistencias variables o potenciómetros.</a></li>
+         <li><a href="313_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">3.1.3. Resistencias dependientes de parámetros físicos.</a>
+         <ul class="other-section">
+            <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+            <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
+            <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+            <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+         </ul>
+         </li>
+         <li><a href="314_asociacin_de_resistencias.html" class="no-ch">3.1.4. Asociación de resistencias.</a></li>
       </ul>
       </li>
-      <li><a href="32_componentes_dependientes_de_parmetros_fsicos.html" class="daddy">3.2. Componentes dependientes de parámetros físicos.</a>
+      <li><a href="32_condensadores.html" class="daddy">3.2. Condensadores.</a>
       <ul class="other-section">
-         <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
-         <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
-         <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
-         <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
-      </ul>
-      </li>
-      <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
-      <ul class="other-section">
-         <li><a href="utilidad_en_un_circuito.html" class="no-ch">Utilidad en un circuito</a></li>
+         <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
+         <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
          <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
          <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
       </ul>
@@ -58,22 +62,56 @@
       <li><a href="34_semiconductores_unin_pn_diodos.html" class="daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
       <ul class="other-section">
          <li><a href="diodo_convencional.html" class="no-ch">Diodo convencional</a></li>
-         <li><a href="led.html" class="no-ch">L.E.D.</a></li>
+         <li><a href="led.html" class="daddy">L.E.D.</a>
+         <ul class="other-section">
+            <li><a href="resistencia_de_polarizacin_de_un_led.html" class="no-ch">Resistencia de polarización de un LED</a></li>
+            <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
+         </ul>
+         </li>
          <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
       </ul>
       </li>
-      <li><a href="35_el_transistor.html" class="no-ch">3.5. El transistor.</a></li>
+      <li><a href="35_el_transistor.html" class="daddy">3.5. El transistor.</a>
+      <ul class="other-section">
+         <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
+         <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
+         <li><a href="circuitos_con_transistores.html" class="no-ch">Circuitos con transistores</a></li>
+      </ul>
+      </li>
    </ul>
    </li>
    <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
    <ul class="other-section">
-      <li><a href="bobina.html" class="no-ch">Bobina</a></li>
-      <li><a href="rel.html" class="no-ch">Relé</a></li>
       <li><a href="fusible.html" class="no-ch">Fusible</a></li>
-      <li><a href="pulsador.html" class="no-ch">Pulsador</a></li>
+      <li><a href="interruptores_y_pulsadores.html" class="no-ch">Interruptores y pulsadores</a></li>
+      <li><a href="rel.html" class="no-ch">Relé</a></li>
    </ul>
    </li>
-   <li><a href="5_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">5. Algunos circuitos elementales: simulación con Crocodile Clips</a>
+   <li><a href="5_circuitos_integrados.html" class="daddy">5. Circuitos integrados</a>
+   <ul class="other-section">
+      <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
+      <ul class="other-section">
+         <li><a href="el_741_en_lazo_abierto.html" class="no-ch">El 741 en lazo abierto</a></li>
+         <li><a href="el_741_en_lazo_cerrado.html" class="daddy">El 741 en lazo cerrado</a>
+         <ul class="other-section">
+            <li><a href="opamp_como_inversor.html" class="no-ch">OpAmp como inversor</a></li>
+            <li><a href="opamp_no_inversor.html" class="no-ch">OpAmp no inversor</a></li>
+            <li><a href="opamp_como_como_sumador.html" class="no-ch">OpAmp como como sumador</a></li>
+            <li><a href="opamp_como_restador.html" class="no-ch">OpAmp como restador</a></li>
+         </ul>
+         </li>
+      </ul>
+      </li>
+      <li><a href="52_temporizador_timer_555.html" class="daddy">5.2. Temporizador (timer) 555</a>
+      <ul class="other-section">
+         <li><a href="el_555_como_monoestable.html" class="no-ch">El 555 como monoestable</a></li>
+         <li><a href="el_555_como_astable_asimtrico.html" class="no-ch">El 555 como astable asimétrico</a></li>
+         <li><a href="el_555_como_biestable.html" class="no-ch">El 555 como biestable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="6_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">6. Algunos circuitos elementales: simulación con Crocodile Clips</a>
    <ul class="other-section">
       <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
       <li><a href="detectores.html" class="no-ch">Detectores</a></li>
@@ -82,8 +120,10 @@
    </ul>
    </li>
    <li><a href="apndice_i_leyes_de_kirchhoff.html" class="no-ch">Apéndice I: Leyes de Kirchhoff.</a></li>
-   <li><a href="apndice_ii_estudio_terico_del_transistor.html" class="no-ch">Apéndice II: estudio teórico del transistor</a></li>
-   <li><a href="apndice_iii_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice III: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="apndice_ii_conversin_estrellatringulo_y_tringuloestrella.html" class="no-ch">Apéndice II: conversión estrella-triángulo y triángulo-estrella</a></li>
+   <li><a href="apndice_iii_estudio_terico_del_transistor.html" class="no-ch">Apéndice III: estudio teórico del transistor</a></li>
+   <li><a href="apndice_iv_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice IV: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="apndice_v_pulse_width_modulation_pwm.html" class="no-ch">Apéndice V: Pulse Width Modulation (PWM)</a></li>
    <li class="current-page-parent"><a href="6_ejercicios_y_problemas.html" class="current-page-parent daddy">6. Ejercicios y problemas</a>
    <ul>
       <li><a href="resistencias.html" class="no-ch">Resistencias</a></li>
@@ -332,6 +372,9 @@ resistencia mínima que habría que colocar para que no se quemara el LED amaril
 </div>
 </div>
 </div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
 </div>
 </div>

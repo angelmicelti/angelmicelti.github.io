@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Apéndice II: conversión estrella-triángulo y triángulo-estrella | Electrónica analógica 4º E.S.O. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-76"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción.</a></li>
+   <li><a href="2_electricidad_y_electrnica_electrnica_analgica.html" class="daddy">2. Electricidad y electrónica. Electrónica analógica.</a>
+   <ul class="other-section">
+      <li><a href="21_la_ley_de_ohm.html" class="no-ch">2.1. La ley de Ohm.</a></li>
+      <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
+      <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
+      <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
+   </ul>
+   </li>
+   <li><a href="3_componentes_electrnicos_discretos.html" class="daddy">3. Componentes electrónicos discretos</a>
+   <ul class="other-section">
+      <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
+      <ul class="other-section">
+         <li><a href="311_resistencias_fijas_cdigo_de_colores.html" class="no-ch">3.1.1. Resistencias fijas. Código de colores.</a></li>
+         <li><a href="312_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.2. Resistencias variables o potenciómetros.</a></li>
+         <li><a href="313_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">3.1.3. Resistencias dependientes de parámetros físicos.</a>
+         <ul class="other-section">
+            <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+            <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
+            <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+            <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+         </ul>
+         </li>
+         <li><a href="314_asociacin_de_resistencias.html" class="no-ch">3.1.4. Asociación de resistencias.</a></li>
+      </ul>
+      </li>
+      <li><a href="32_condensadores.html" class="daddy">3.2. Condensadores.</a>
+      <ul class="other-section">
+         <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
+         <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
+         <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
+         <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
+      </ul>
+      </li>
+      <li><a href="34_semiconductores_unin_pn_diodos.html" class="daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
+      <ul class="other-section">
+         <li><a href="diodo_convencional.html" class="no-ch">Diodo convencional</a></li>
+         <li><a href="led.html" class="daddy">L.E.D.</a>
+         <ul class="other-section">
+            <li><a href="resistencia_de_polarizacin_de_un_led.html" class="no-ch">Resistencia de polarización de un LED</a></li>
+            <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
+         </ul>
+         </li>
+         <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
+      </ul>
+      </li>
+      <li><a href="35_el_transistor.html" class="daddy">3.5. El transistor.</a>
+      <ul class="other-section">
+         <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
+         <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
+         <li><a href="circuitos_con_transistores.html" class="no-ch">Circuitos con transistores</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
+   <ul class="other-section">
+      <li><a href="fusible.html" class="no-ch">Fusible</a></li>
+      <li><a href="interruptores_y_pulsadores.html" class="no-ch">Interruptores y pulsadores</a></li>
+      <li><a href="rel.html" class="no-ch">Relé</a></li>
+   </ul>
+   </li>
+   <li><a href="5_circuitos_integrados.html" class="daddy">5. Circuitos integrados</a>
+   <ul class="other-section">
+      <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
+      <ul class="other-section">
+         <li><a href="el_741_en_lazo_abierto.html" class="no-ch">El 741 en lazo abierto</a></li>
+         <li><a href="el_741_en_lazo_cerrado.html" class="daddy">El 741 en lazo cerrado</a>
+         <ul class="other-section">
+            <li><a href="opamp_como_inversor.html" class="no-ch">OpAmp como inversor</a></li>
+            <li><a href="opamp_no_inversor.html" class="no-ch">OpAmp no inversor</a></li>
+            <li><a href="opamp_como_como_sumador.html" class="no-ch">OpAmp como como sumador</a></li>
+            <li><a href="opamp_como_restador.html" class="no-ch">OpAmp como restador</a></li>
+         </ul>
+         </li>
+      </ul>
+      </li>
+      <li><a href="52_temporizador_timer_555.html" class="daddy">5.2. Temporizador (timer) 555</a>
+      <ul class="other-section">
+         <li><a href="el_555_como_monoestable.html" class="no-ch">El 555 como monoestable</a></li>
+         <li><a href="el_555_como_astable_asimtrico.html" class="no-ch">El 555 como astable asimétrico</a></li>
+         <li><a href="el_555_como_biestable.html" class="no-ch">El 555 como biestable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="6_algunos_circuitos_elementales_simulacin_con_crocodile_clips.html" class="daddy">6. Algunos circuitos elementales: simulación con Crocodile Clips</a>
+   <ul class="other-section">
+      <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
+      <li><a href="detectores.html" class="no-ch">Detectores</a></li>
+      <li><a href="circuitos_con_condensadores.html" class="no-ch">Circuitos con condensadores</a></li>
+      <li><a href="multivibradores.html" class="no-ch">Multivibradores</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_i_leyes_de_kirchhoff.html" class="no-ch">Apéndice I: Leyes de Kirchhoff.</a></li>
+   <li id="active"><a href="apndice_ii_conversin_estrellatringulo_y_tringuloestrella.html" class="active no-ch">Apéndice II: conversión estrella-triángulo y triángulo-estrella</a></li>
+   <li><a href="apndice_iii_estudio_terico_del_transistor.html" class="no-ch">Apéndice III: estudio teórico del transistor</a></li>
+   <li><a href="apndice_iv_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice IV: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="apndice_v_pulse_width_modulation_pwm.html" class="no-ch">Apéndice V: Pulse Width Modulation (PWM)</a></li>
+   <li><a href="6_ejercicios_y_problemas.html" class="daddy">6. Ejercicios y problemas</a>
+   <ul class="other-section">
+      <li><a href="resistencias.html" class="no-ch">Resistencias</a></li>
+      <li><a href="ley_de_ohm.html" class="no-ch">Ley de Ohm</a></li>
+      <li><a href="ley_de_joule.html" class="no-ch">Ley de Joule</a></li>
+      <li><a href="leyes_de_kirchoff.html" class="no-ch">Leyes de Kirchoff</a></li>
+      <li><a href="condensadores.html" class="no-ch">Condensadores</a></li>
+      <li><a href="diodos.html" class="no-ch">Diodos</a></li>
+      <li><a href="transistores.html" class="daddy">Transistores</a>
+      <ul class="other-section">
+         <li><a href="bloque_1.html" class="no-ch">Bloque 1</a></li>
+         <li><a href="bloque_2.html" class="no-ch">Bloque 2</a></li>
+         <li><a href="bloque_3.html" class="no-ch">Bloque 3</a></li>
+         <li><a href="bloque_4.html" class="no-ch">Bloque 4</a></li>
+         <li><a href="bloque_5.html" class="no-ch">Bloque 5</a></li>
+      </ul>
+      </li>
+      <li><a href="actividades_de_refuerzo.html" class="no-ch">Actividades de refuerzo</a></li>
+      <li><a href="actividades_de_ampliacin.html" class="no-ch">Actividades de ampliación</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="apndice_i_leyes_de_kirchhoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_iii_estudio_terico_del_transistor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Apéndice II: conversión estrella-triángulo y triángulo-estrella</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id176">
+<div class="iDevice emphasis0">
+<div id="ta176_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="ap21.png" width="308" height="195" style="float: right; margin: 5px 10px 5px 10px;" title="Figura 1: circuito con problemas" />En ocasiones puede ser muy conveniente tener recursos adicionales para calcular resistencias equivalentes. Por ejemplo, en el circuito de la figura, la resistencia de 5 KΩ nos está planteando un problema, porque genera una asociación que no es serie ni paralelo.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si te fijas y comparas con la figura 1, la resistencia de 5 KΩ participa en dos asociaciones que se conocen como <strong>triángulo </strong>o <strong>delta</strong>. Una de estas asociaciones sería con las resistencias de 3 y 6 KΩ, y la segunda con las de 10 y 12 KΩ.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El conocido como <strong>Teorema de Kennelly</strong> nos permite transformar una asociación en triángulo en otra asociación a la que se llama en <strong>estrella</strong> (figura 2), y que en este caso nos permitiría resolver el problema muy fácilmente.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="ap22.png" alt="" title="Figura 2: asociación triángulo y asociación estrella" width="1009" height="486" style="margin: 5px 10px 5px 10px;" /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Las fórmulas para la conversión de una en otra son las siguientes:</span></p>
+<table style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td width="216" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong>CONVERSIÓN DE<br />TRIÁNGULO A ESTRELLA</strong></span></p>
+</td>
+<td width="102" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong> </strong></span></p>
+</td>
+<td width="247" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong>CONVERSIÓN DE<br />ESTRELLA A TRIÁNGULO</strong></span></p>
+</td>
+</tr>
+<tr>
+<td width="216" style="text-align: center;"><img src="ap2ta1.png" alt="" width="163" height="59" /></td>
+<td width="102" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+</td>
+<td width="247" style="text-align: center;"><img src="ap2et1.png" alt="" width="284" height="59" /></td>
+</tr>
+<tr>
+<td width="216" style="text-align: center;"><img src="ap2ta2.png" alt="" width="164" height="59" /></td>
+<td width="102" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+</td>
+<td width="247" style="text-align: center;"><img src="ap2et2.png" alt="" width="283" height="59" /></td>
+</tr>
+<tr>
+<td width="216" style="text-align: center;"><img src="ap2ta3.png" alt="" width="164" height="59" /></td>
+<td width="102" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+</td>
+<td width="247" style="text-align: center;"><img src="ap2et3.png" alt="" width="284" height="59" /></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Una regla para que te acuerdes fácilmente puede ser la siguiente:</span></p>
+<ul style="text-align: justify;">
+<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">De <strong><em>triángulo a estrella</em></strong>, la resistencia equivalente a cada una se calcula efectuando el cociente entre el producto de las adyacentes y la suma de todas las resistencias.</span></li>
+<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">De <strong><em>estrella a triángulo</em></strong>, la resistencia equivalente se obtiene haciendo el cociente entre el sumatorio de todos los productos posibles entre resistencias y la resistencia opuesta a la calculada.</span></li>
+</ul>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Vamos a aplicar estas fórmulas a nuestro ejemplo:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Como habíamos dicho, las resistencias de 3, 5 y 6 KΩ estaban asociadas en triángulo. Vamos a llamarlas, respectivamente,<em> R<sub>A</sub></em>, <em>R<sub>B</sub></em> y <em>R<sub>C</sub></em>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Convertimos a estrella a través de las fórmulas:</span><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> <img src="ap2ej1.png" alt="" width="413" height="59" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="ap2ej2.png" alt="" width="415" height="60" /></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="ap2ej3.png" alt="" width="414" height="60" /></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Con lo que el montaje se transforma en el siguiente:</span></p>
+<p style="text-align: center;"><img src="ap2ej4.png" alt="" width="349" height="156" /></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Y, aplicando ya las reglas de los equivalentes serie y paralelo, tendremos:</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="ap2ej5.png" alt="" width="206" height="159" /></span></p>
+<p style="text-align: left;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Y, finalmente:</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="ap2ej6.png" alt="" width="130" height="50" /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong> </strong></span></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="apndice_i_leyes_de_kirchhoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_iii_estudio_terico_del_transistor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_seamist_js.js"></script></body></html>
