@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>El 741 en lazo abierto | Electrónica analógica 4º E.S.O. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-86"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
+   <li><a href="1_introduccin.html" class="no-ch">1. Introducción.</a></li>
+   <li><a href="2_electricidad_y_electrnica_electrnica_analgica.html" class="daddy">2. Electricidad y electrónica. Electrónica analógica.</a>
+   <ul class="other-section">
+      <li><a href="21_la_ley_de_ohm.html" class="no-ch">2.1. La ley de Ohm.</a></li>
+      <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
+      <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
+      <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
+   </ul>
+   </li>
+   <li><a href="3_componentes_electrnicos_discretos.html" class="daddy">3. Componentes electrónicos discretos</a>
+   <ul class="other-section">
+      <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
+      <ul class="other-section">
+         <li><a href="311_resistencias_fijas_cdigo_de_colores.html" class="no-ch">3.1.1. Resistencias fijas. Código de colores.</a></li>
+         <li><a href="312_resistencias_variables_o_potencimetros.html" class="no-ch">3.1.2. Resistencias variables o potenciómetros.</a></li>
+         <li><a href="313_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">3.1.3. Resistencias dependientes de parámetros físicos.</a>
+         <ul class="other-section">
+            <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+            <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
+            <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+            <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+         </ul>
+         </li>
+         <li><a href="314_asociacin_de_resistencias.html" class="no-ch">3.1.4. Asociación de resistencias.</a></li>
+      </ul>
+      </li>
+      <li><a href="32_condensadores.html" class="daddy">3.2. Condensadores.</a>
+      <ul class="other-section">
+         <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
+         <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
+         <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
+         <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
+      </ul>
+      </li>
+      <li><a href="34_semiconductores_unin_pn_diodos.html" class="daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
+      <ul class="other-section">
+         <li><a href="diodo_convencional.html" class="no-ch">Diodo convencional</a></li>
+         <li><a href="led.html" class="daddy">L.E.D.</a>
+         <ul class="other-section">
+            <li><a href="resistencia_de_polarizacin_de_un_led.html" class="no-ch">Resistencia de polarización de un LED</a></li>
+            <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
+            <li><a href="datasheet_de_un_led.html" class="no-ch">Datasheet de un LED</a></li>
+         </ul>
+         </li>
+         <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
+         <li><a href="unidad.html" class="no-ch">Unidad</a></li>
+      </ul>
+      </li>
+      <li><a href="35_el_transistor.html" class="daddy">3.5. El transistor.</a>
+      <ul class="other-section">
+         <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
+         <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
+         <li><a href="circuitos_con_transistores.html" class="no-ch">Circuitos con transistores</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
+   <ul class="other-section">
+      <li><a href="fusible.html" class="no-ch">Fusible</a></li>
+      <li><a href="interruptores_y_pulsadores.html" class="no-ch">Interruptores y pulsadores</a></li>
+      <li><a href="rel.html" class="no-ch">Relé</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="5_circuitos_integrados.html" class="current-page-parent daddy">5. Circuitos integrados</a>
+   <ul>
+      <li class="current-page-parent"><a href="51_el_amplificador_operacional_opamp_lm741.html" class="current-page-parent daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
+      <ul>
+         <li id="active"><a href="el_741_en_lazo_abierto.html" class="active no-ch">El 741 en lazo abierto</a></li>
+         <li><a href="el_741_en_lazo_cerrado.html" class="daddy">El 741 en lazo cerrado</a>
+         <ul class="other-section">
+            <li><a href="opamp_como_inversor.html" class="no-ch">OpAmp como inversor</a></li>
+            <li><a href="opamp_no_inversor.html" class="no-ch">OpAmp no inversor</a></li>
+            <li><a href="opamp_como_como_sumador.html" class="no-ch">OpAmp como como sumador</a></li>
+            <li><a href="opamp_como_restador.html" class="no-ch">OpAmp como restador</a></li>
+         </ul>
+         </li>
+      </ul>
+      </li>
+      <li><a href="52_temporizador_timer_555.html" class="daddy">5.2. Temporizador (timer) 555</a>
+      <ul class="other-section">
+         <li><a href="el_555_como_monoestable.html" class="no-ch">El 555 como monoestable</a></li>
+         <li><a href="el_555_como_astable.html" class="no-ch">El 555 como astable</a></li>
+         <li><a href="el_555_como_biestable.html" class="no-ch">El 555 como biestable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="6_simulaciones.html" class="daddy">6. Simulaciones</a>
+   <ul class="other-section">
+      <li><a href="crocodile_clips.html" class="daddy">Crocodile Clips</a>
+      <ul class="other-section">
+         <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
+         <li><a href="detectores.html" class="no-ch">Detectores</a></li>
+         <li><a href="circuitos_con_condensadores.html" class="no-ch">Circuitos con condensadores</a></li>
+         <li><a href="multivibradores.html" class="no-ch">Multivibradores</a></li>
+      </ul>
+      </li>
+      <li><a href="tinkercad.html" class="daddy">TinkerCAD</a>
+      <ul class="other-section">
+         <li><a href="01__resistencias.html" class="no-ch">01 - Resistencias</a></li>
+         <li><a href="02__potencimetros.html" class="no-ch">02 - Potenciómetros</a></li>
+         <li><a href="03__ldr.html" class="no-ch">03 - LDR</a></li>
+         <li><a href="04__pulsadores_pullup_y_pulldown.html" class="no-ch">04 - Pulsadores pull-up y pull-down</a></li>
+         <li><a href="05__diodo_convencional_y_led.html" class="no-ch">05 - Diodo convencional y LED</a></li>
+         <li><a href="06__led_rgb.html" class="no-ch">06 - LED RGB</a></li>
+         <li><a href="07__condensador_carga_y_descarga.html" class="no-ch">07 - Condensador: carga y descarga</a></li>
+         <li><a href="08__transistor_i.html" class="no-ch">08 - Transistor (I)</a></li>
+         <li><a href="09__transistor_ii.html" class="no-ch">09 - Transistor (II)</a></li>
+         <li><a href="10__transistor_iii.html" class="no-ch">10 - Transistor (III)</a></li>
+         <li><a href="11__transistor_iv.html" class="no-ch">11 - Transistor (IV)</a></li>
+         <li><a href="12__interruptor_crepuscular.html" class="no-ch">12 - Interruptor crepuscular</a></li>
+         <li><a href="13__intermitente_con_555.html" class="no-ch">13 - Intermitente con 555</a></li>
+      </ul>
+      </li>
+      <li><a href="livewire.html" class="no-ch">Livewire</a></li>
+   </ul>
+   </li>
+   <li><a href="7_ejercicios_y_problemas.html" class="daddy">7. Ejercicios y problemas</a>
+   <ul class="other-section">
+      <li><a href="resistencias.html" class="no-ch">Resistencias</a></li>
+      <li><a href="ley_de_ohm.html" class="no-ch">Ley de Ohm</a></li>
+      <li><a href="ley_de_joule.html" class="no-ch">Ley de Joule</a></li>
+      <li><a href="leyes_de_kirchoff.html" class="no-ch">Leyes de Kirchoff</a></li>
+      <li><a href="condensadores.html" class="no-ch">Condensadores</a></li>
+      <li><a href="diodos.html" class="no-ch">Diodos</a></li>
+      <li><a href="transistores.html" class="daddy">Transistores</a>
+      <ul class="other-section">
+         <li><a href="bloque_1.html" class="no-ch">Bloque 1</a></li>
+         <li><a href="bloque_2.html" class="no-ch">Bloque 2</a></li>
+         <li><a href="bloque_3.html" class="no-ch">Bloque 3</a></li>
+         <li><a href="bloque_4.html" class="no-ch">Bloque 4</a></li>
+         <li><a href="bloque_5.html" class="no-ch">Bloque 5</a></li>
+      </ul>
+      </li>
+      <li><a href="actividades_de_refuerzo.html" class="no-ch">Actividades de refuerzo</a></li>
+      <li><a href="actividades_de_ampliacin.html" class="no-ch">Actividades de ampliación</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_i_leyes_de_kirchhoff.html" class="daddy">Apéndice I: Leyes de Kirchhoff.</a>
+   <ul class="other-section">
+      <li><a href="seccin.html" class="no-ch">Sección</a></li>
+   </ul>
+   </li>
+   <li><a href="apndice_ii_conversin_estrellatringulo_y_tringuloestrella.html" class="no-ch">Apéndice II: conversión estrella-triángulo y triángulo-estrella</a></li>
+   <li><a href="apndice_iii_estudio_terico_del_transistor.html" class="no-ch">Apéndice III: estudio teórico del transistor</a></li>
+   <li><a href="apndice_iv_equivalente_thvenin_de_un_circuito_con_transistor.html" class="no-ch">Apéndice IV: equivalente Thèvenin de un circuito con transistor</a></li>
+   <li><a href="apndice_v_pulse_width_modulation_pwm.html" class="no-ch">Apéndice V: Pulse Width Modulation (PWM)</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="51_el_amplificador_operacional_opamp_lm741.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_741_en_lazo_cerrado.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">El 741 en lazo abierto</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id178">
+<div class="iDevice emphasis0">
+<div id="ta178_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Hablamos de <strong>lazo abierto </strong>cuando la entrada y la salida del amplificador no tienen ninguna conexión. Se suele hablar en esta configuración de la <strong>ganancia en lazo abierto</strong>, <em>A<sub>OL</sub>, </em>como el valor que cumple:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><em>V<sub>out</sub></em> = <em>A<sub>OL</sub></em> (<em>V<sub>+</sub></em> – <em>V<sub>- </sub></em>)</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Suele ser un valor muy alto, de diez mil o cien mil. Esto hace que una pequeña diferencia entre las entradas se vea enormemente amplificada, al menos teóricamente. En realidad, <em>V<sub>out</sub></em> nunca superará el valor de las tensiones de alimentación. A esto se le conoce como <strong>saturación</strong>. Raramente se utiliza el OpAmp como amplificador en lazo abierto. En este caso, las reglas básicas a tener en cuenta son las siguientes:</span></p>
+<ul style="text-align: justify;">
+<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Regla 1: (impedancia infinita)</span></li>
+<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Regla 2: Si <em>V<sub>+</sub></em> &gt; <em>V<sub>-</sub></em>, entonces <em>V<sub>out</sub></em><sub> </sub>= <em>V<sub>cc</sub></em></span></li>
+<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Regla 3: Si <em>V<sub>+</sub></em> &lt; <em>V<sub>-</sub></em>, entonces <em>V<sub>out</sub></em><sub> </sub>= -<em>V<sub>cc</sub></em></span></li>
+</ul>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Veamos, para aclarar estas reglas, dos posibles casos:</span></p>
+<table style="width: 75%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td width="244" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong><em>CASO 1: </em></strong><strong><em>V<sub>+</sub> &gt; V<sub>-</sub></em></strong></span></p>
+</td>
+<td width="24" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong><em> </em></strong></span></p>
+</td>
+<td width="204" style="text-align: center;">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong><em>CASO 2: </em></strong><strong><em>V<sub>+</sub> &lt; V<sub>-</sub></em></strong></span></p>
+</td>
+</tr>
+<tr>
+<td width="244"><img src="OpAmpCaso1.png" alt="" width="467" height="496" /></td>
+<td width="24">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+</td>
+<td width="204"><img src="OpAmpCaso2.png" alt="" width="432" height="500" /></td>
+</tr>
+<tr>
+<td width="244">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><em>En esta situación V<sub>+</sub> = 3 V y V<sub>-</sub> = 1 V. Según la regla 2, la salida debe ser +V­<sub>cc</sub>. Efectivamente, 9,46 V rondan los 10 V que hay en V<sub>cc</sub>.</em></span></p>
+</td>
+<td width="24">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
+</td>
+<td width="204">
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><em>En esta situación V<sub>+</sub> = 1 V y V<sub>-</sub> = 3 V. Según la regla 3, la salida debe ser -V­<sub>cc</sub>. Efectivamente, -10,26 V rondan los -10 V de V<sub>cc</sub>.</em></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El uso básico del OpAmp en lazo abierto es el de <strong>comparador</strong>, como el montaje de abajo. Tenemos en él una LDR en divisor de tensión con una resistencia R<sub>2</sub> = 100K. El punto medio de este divisor de tensión va a la entrada inversora del OpAmp. En ese punto, el voltaje disminuye al disminuir la luz ambiene. Más a la derecha, tenemos otro divisor de tensión, formado por un potenciómetro de 20K y una resistencia R<sub>3 </sub>= 10K. En el punto medio de ambas sacamos un cable hasta la patilla no inversora del OpAmp. Con los datos del montaje, tenemos ahí 3,3 V. Si en la patilla inversora introducimos menos de 3,3 V, el OpAmp nos dará una salida de 9 V. Esto sucede cuando la resistencia de la LDR es muy elevada (en la oscuridad). Por el contrario, al iluminar la LDR la mayor parte de la tensión estará en R<sub>2</sub>, que será mayor que la tensión de la patilla no inversora y, por tanto, producirá una salida de 0 V.</span><sub></sub></p>
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="OpAmpCaso3.png" alt="" title="Detector de luz construido con un OpAmp" width="480" height="369" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="51_el_amplificador_operacional_opamp_lm741.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_741_en_lazo_cerrado.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_seamist_js.js"></script></body></html>
