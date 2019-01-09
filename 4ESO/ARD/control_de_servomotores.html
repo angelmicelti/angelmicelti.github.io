@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Control de servomotores | Arduino para 4º de ESO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán León" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.3 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Arduino para 4º de ESO</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Arduino (en fase beta, todavía)</a></li>
+   <li><a href="todo.html" class="no-ch">TO-DO</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="ide_de_arduino.html" class="no-ch">IDE de Arduino</a></li>
+   <li><a href="lenguaje_de_programacin.html" class="no-ch">Lenguaje de programación</a></li>
+   <li class="current-page-parent"><a href="programacin_con_arduino.html" class="current-page-parent daddy">Programación con Arduino</a>
+   <ul>
+      <li><a href="salidas_digitales.html" class="daddy">Salidas digitales</a>
+      <ul class="other-section">
+         <li><a href="controlando_ledes.html" class="no-ch">Controlando LEDes</a></li>
+         <li><a href="semforo_para_trfico_rodado.html" class="no-ch">Semáforo para tráfico rodado</a></li>
+         <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="semforo_con_led_rgb.html" class="no-ch">Semáforo con LED RGB</a></li>
+         <li><a href="coche_fantstico.html" class="daddy">Coche fantástico</a>
+         <ul class="other-section">
+            <li><a href="programa_a_lo_bestia.html" class="no-ch">Programa "a lo bestia"</a></li>
+            <li><a href="programa_elegante_uso_del_bucle_for.html" class="no-ch">Programa "elegante": uso del bucle for</a></li>
+         </ul>
+         </li>
+      </ul>
+      </li>
+      <li><a href="entradas_digitales.html" class="daddy">Entradas digitales</a>
+      <ul class="other-section">
+         <li><a href="led_encendido_mediante_pulsador.html" class="no-ch">LED encendido mediante pulsador</a></li>
+      </ul>
+      </li>
+      <li><a href="entradas_analgicas.html" class="no-ch">Entradas analógicas</a></li>
+      <li id="active"><a href="control_de_servomotores.html" class="active no-ch">Control de servomotores</a></li>
+      <li><a href="control_de_motores.html" class="daddy">Control de motores</a>
+      <ul class="other-section">
+         <li><a href="el_circuito_integrado_l293d.html" class="no-ch">El circuito integrado L293D</a></li>
+      </ul>
+      </li>
+      <li><a href="teclado_matricial.html" class="no-ch">Teclado matricial</a></li>
+      <li><a href="display_de_siete_segmentos.html" class="no-ch">Display de siete segmentos</a></li>
+      <li><a href="control_de_rels.html" class="no-ch">Control de relés</a></li>
+      <li><a href="control_de_maquetas_reales.html" class="daddy">Control de maquetas reales</a>
+      <ul class="other-section">
+         <li><a href="ascensor.html" class="no-ch">Ascensor</a></li>
+         <li><a href="puente_levadizo.html" class="no-ch">Puente levadizo</a></li>
+         <li><a href="puerta_de_cochera.html" class="no-ch">Puerta de cochera</a></li>
+         <li><a href="barrera_de_aparcamiento.html" class="no-ch">Barrera de aparcamiento</a></li>
+      </ul>
+      </li>
+      <li><a href="proyectos.html" class="daddy">PROYECTOS</a>
+      <ul class="other-section">
+         <li><a href="hola_mundo.html" class="no-ch">Hola mundo</a></li>
+         <li><a href="leyendo_entradas_digitales.html" class="no-ch">Leyendo entradas digitales</a></li>
+         <li><a href="lectura_de_seales_analgicas.html" class="no-ch">Lectura de señales analógicas</a></li>
+         <li><a href="escritura_de_seales_analgicas_pwm.html" class="no-ch">Escritura de señales analógicas: PWM</a></li>
+         <li><a href="control_de_motores_dc_con_l293.html" class="no-ch">Control de motores DC con L293</a></li>
+         <li><a href="control_de_servomotores0.html" class="no-ch">Control de servomotores</a></li>
+         <li><a href="generacin_de_sonido.html" class="no-ch">Generación de sonido</a></li>
+         <li><a href="registros_de_desplazamiento.html" class="no-ch">Registros de desplazamiento</a></li>
+         <li><a href="uso_del_puerto_serie.html" class="no-ch">Uso del puerto serie</a></li>
+         <li><a href="sensores_capacitivos.html" class="no-ch">Sensores capacitivos</a></li>
+         <li><a href="botonera_digital_en_entrada_analgica.html" class="no-ch">Botonera digital en entrada analógica</a></li>
+         <li><a href="control_de_varios_servos_simultneamente.html" class="no-ch">Control de varios servos simultáneamente</a></li>
+         <li><a href="ms.html" class="no-ch">MÁS</a></li>
+         <li><a href="pinza_robtica_con_servos_leantec.html" class="no-ch">Pinza robótica con servos (LEANTEC)</a></li>
+      </ul>
+      </li>
+      <li><a href="sensores.html" class="daddy">Sensores</a>
+      <ul class="other-section">
+         <li><a href="sensor_de_gas_mq2.html" class="no-ch">Sensor de gas MQ-2</a></li>
+         <li><a href="sensor_de_metano_mq4.html" class="no-ch">Sensor de metano MQ-4</a></li>
+         <li><a href="sensor_de_temperatura_y_humedad_dht11.html" class="no-ch">Sensor de temperatura y humedad DHT11</a></li>
+         <li><a href="sensor_de_sonido_hcsr04.html" class="no-ch">Sensor de sonido HC-SR04</a></li>
+      </ul>
+      </li>
+      <li><a href="matriz_de_ledes_8x8.html" class="no-ch">Matriz de ledes 8x8</a></li>
+      <li><a href="el_bus_spi.html" class="no-ch">El bus SPI</a></li>
+   </ul>
+   </li>
+   <li><a href="shields_arduino.html" class="daddy">Shields Arduino</a>
+   <ul class="other-section">
+      <li><a href="picuino.html" class="no-ch">Picuino</a></li>
+      <li><a href="kiwibot.html" class="no-ch">Kiwibot</a></li>
+      <li><a href="edubsica.html" class="daddy">EduBásica</a>
+      <ul class="other-section">
+         <li><a href="tests_de_la_tarjeta.html" class="no-ch">Tests de la tarjeta</a></li>
+      </ul>
+      </li>
+      <li><a href="arduino_basic_io_v2.html" class="no-ch">Arduino Basic I/O V2</a></li>
+   </ul>
+   </li>
+   <li><a href="simuladores_de_arduino.html" class="no-ch">Simuladores de Arduino</a></li>
+   <li><a href="programacin_grfica_de_arduino.html" class="daddy">Programación gráfica de Arduino</a>
+   <ul class="other-section">
+      <li><a href="arduinoblocks.html" class="no-ch">Arduinoblocks</a></li>
+      <li><a href="visualino.html" class="no-ch">Visualino</a></li>
+      <li><a href="ardublock.html" class="no-ch">Ardublock</a></li>
+      <li><a href="mblock.html" class="no-ch">mBlock</a></li>
+      <li><a href="bitbloq.html" class="no-ch">BitBloq</a></li>
+      <li><a href="snap4arduino.html" class="no-ch">Snap4Arduino</a></li>
+      <li><a href="s4a_scratch_4_arduino.html" class="daddy">S4A (Scratch 4 Arduino)</a>
+      <ul class="other-section">
+         <li><a href="proyectos_con_s4a.html" class="no-ch">Proyectos con S4A</a></li>
+      </ul>
+      </li>
+      <li><a href="mixly.html" class="no-ch">Mixly</a></li>
+      <li><a href="otros_entornos_visuales.html" class="daddy">Otros entornos visuales</a>
+      <ul class="other-section">
+         <li><a href="ardublockly.html" class="no-ch">Ardublockly</a></li>
+         <li><a href="easyarduino.html" class="no-ch">EasyArduino</a></li>
+         <li><a href="mind.html" class="no-ch">Mind+</a></li>
+         <li><a href="minibloq.html" class="no-ch">Minibloq</a></li>
+         <li><a href="scratchx.html" class="no-ch">ScratchX</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="3_eso_proyectos_santillana.html" class="daddy">3º E.S.O.: Proyectos Santillana</a>
+   <ul class="other-section">
+      <li><a href="simular_latidos_de_un_corazn.html" class="no-ch">Simular latidos de un corazón</a></li>
+      <li><a href="encender_dos_ledes_alternativamente.html" class="no-ch">Encender dos ledes alternativamente</a></li>
+      <li><a href="semforo_con_ledes.html" class="no-ch">Semáforo con ledes</a></li>
+      <li><a href="mostrar_informacin_en_un_display_de_7_segmentos.html" class="no-ch">Mostrar información en un display de 7 segmentos</a></li>
+      <li><a href="producir_sonido_con_un_altavoz.html" class="no-ch">Producir sonido con un altavoz</a></li>
+      <li><a href="reproducir_distintas_notas.html" class="no-ch">Reproducir distintas notas</a></li>
+      <li><a href="reproducir_una_meloda.html" class="no-ch">Reproducir una melodía</a></li>
+      <li><a href="encender_un_led_con_un_pulsador.html" class="no-ch">Encender un LED con un pulsador</a></li>
+      <li><a href="encender_un_led_con_un_pulsador_pullup.html" class="no-ch">Encender un LED con un pulsador pull-up</a></li>
+      <li><a href="dejar_encendido_un_led_con_un_pulsador_pulldown.html" class="no-ch">Dejar encendido un LED con un pulsador pull-down</a></li>
+      <li><a href="crear_un_juego_el_duelo_de_reflejos.html" class="no-ch">Crear un juego: el duelo de reflejos</a></li>
+      <li><a href="generar_un_dado_electrnico.html" class="no-ch">Generar un dado electrónico</a></li>
+      <li><a href="construye_un_reloj_digital.html" class="no-ch">Construye un reloj digital</a></li>
+   </ul>
+   </li>
+   <li><a href="4_eso.html" class="no-ch">4º E.S.O.</a></li>
+   <li><a href="ms_info.html" class="daddy">Más info</a>
+   <ul class="other-section">
+      <li><a href="vdeos.html" class="no-ch">Vídeos</a></li>
+      <li><a href="oye_maker_diy_construye_tu_arduino.html" class="no-ch">Oye, Maker, DIY: construye tu Arduino</a></li>
+      <li><a href="control_bluetooth_de_un_brazo_robtico.html" class="no-ch">Control bluetooth de un brazo robótico</a></li>
+   </ul>
+   </li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="entradas_analgicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="control_de_motores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Control de servomotores</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id61">
+<div class="iDevice emphasis0">
+<div id="ta61_85" class="block iDevice_content">
+<p><img src="servo.jpg" width="625" height="343" title="Servomotor comercial" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="entradas_analgicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="control_de_motores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>
