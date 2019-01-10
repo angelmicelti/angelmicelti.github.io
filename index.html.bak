@@ -4,7 +4,7 @@
     <title>Inicio</title>
     <meta name="author" content="angelmicelti">
   </head>
-  <body style="               background-color: #99ff99;">
+  <body style="                background-color: #99ff99;">
     <div style="text-align: center; background-color: #99ff99;"><big style="font-weight: bold;"><big><big>PÁGINA
             WEB DE ANGELMICELTI</big></big></big></div>
     <div style="text-align: center; background-color: #99ff99;"><big style="font-weight: bold;"><big><big><br>
@@ -23,7 +23,7 @@
                         4º E.S.O.</a></big></big></big></b></td>
           </tr>
           <tr>
-            <td><br>
+            <td style="text-align: center;">Mecánica (próximamente)<br>
             </td>
             <td><br>
             </td>
@@ -31,40 +31,41 @@
                     target="_blank">Instalaciones en viviendas</a></big></b></td>
           </tr>
           <tr>
-            <td><br>
-            </td>
-            <td><br>
-            </td>
-            <td style="text-align: center;"><br>
-            </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
+            <td style="text-align: center;">Introducción a la electrónica
+              (próximamente) </td>
             <td><br>
             </td>
             <td style="text-align: center;"><big><b><a href="4ESO/EAN/index.html"
                     target="_blank">Electrónica analógica</a></b></big></td>
           </tr>
           <tr>
-            <td style="width: 706.317px;"><br>
+            <td style="text-align: center;">Circuitos eléctricos (próximamente)
             </td>
-            <td style="width: 157.4px;"><br>
+            <td><br>
             </td>
-            <td style="text-align: center; width: 703.317px;"><b><big><a href="4ESO/EDI/index.html"
+            <td style="text-align: center;"><b><big><a href="4ESO/EDI/index.html"
                     target="_blank">Electrónica digital</a></big></b></td>
           </tr>
           <tr>
-            <td><br>
+            <td style="width: 706.317px; text-align: center;">Dibujo técnico
+              (próximamente) </td>
+            <td style="width: 157.4px;"><br>
             </td>
-            <td><br>
-            </td>
-            <td style="text-align: center;"><b><a href="4ESO/CYR/index.html"><big>Control
+            <td style="text-align: center; width: 703.317px;"><b><a href="4ESO/CYR/index.html"><big>Control
                     y robótica</big></a></b><br>
               (en constante revisión)</td>
           </tr>
           <tr>
+            <td style="text-align: center;">El proceso tecnológico
+              (próximamente) </td>
             <td><br>
+            </td>
+            <td style="text-align: center;"><b><a href="4ESO/ARD/index.html"><big>Arduino
+                    </big></a></b><a href="4ESO/ARD/index.html"><br>
+              </a>(en constante revisión)</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">Materiales: plásticos (próximamente)
             </td>
             <td><br>
             </td>
@@ -72,14 +73,14 @@
                     target="_blank">Tecnología y sociedad</a></big></b></td>
           </tr>
           <tr>
-            <td><br>
-            </td>
+            <td style="text-align: center;">Materiales: nuevos materiales
+              (próximamente) </td>
             <td><br>
             </td>
             <td style="text-align: center;"><b><a href="4ESO/CAD/index.html"><big>C.A.D.</big></a></b></td>
           </tr>
           <tr>
-            <td style="background-color: rgba(153, 255, 153, 0.52);"><br>
+            <td style="text-align: center;">Diseño 3D con Sketchup<br>
             </td>
             <td><br>
             </td>
@@ -90,8 +91,9 @@
             </td>
             <td><br>
             </td>
-            <td><br>
-            </td>
+            <td style="text-align: center;"><b><big>Tecnologías de la
+                  Información y la Comunicación</big><a href="4ESO/AUT/index.html"><big><br>
+                  </big></a></b></td>
           </tr>
           <tr>
             <th style="text-align: center; background-color: rgba(51, 255, 51, 0.52);"><b><big><big><big><a
@@ -110,14 +112,6 @@
           <tr align="center">
             <td rowspan="1" colspan="3"><b><big><big><big><a href="https://angelmicelti.github.io/PROY/index.html">Documentos
                         para Proyecto y Memoria Final</a></big></big></big></b></td>
-          </tr>
-          <tr>
-            <td style="text-align: center;"><br>
-            </td>
-            <td><br>
-            </td>
-            <td style="text-align: center;"><br>
-            </td>
           </tr>
         </tbody>
       </table>
