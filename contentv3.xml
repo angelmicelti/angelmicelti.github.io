@@ -213,40 +213,40 @@ text through the text editing buttons associated with the field."></unicode>
                      <string role="key" value="anchors_linked_from_fields"></string>
                      <dictionary></dictionary>
                      <string role="key" value="content_w_resourcePaths"></string>
-                     <unicode content="true" value="&lt;table border=&quot;2&quot; style=&quot;height: 231px; width: 723px; margin-left: auto; margin-right: auto;&quot;&gt;
+                     <unicode content="true" value="&lt;table border=&quot;2&quot; style=&quot;margin-left: auto; margin-right: auto;&quot; width=&quot;771&quot; height=&quot;541&quot;&gt;
 &lt;tbody&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/INS/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Instalaciones en viviendas&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/INS/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Instalaciones en viviendas&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/EAN/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Electrónica analógica&lt;/a&gt;&lt;/b&gt;&lt;/big&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/EAN/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Electrónica analógica&lt;/a&gt;&lt;/b&gt;&lt;/big&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/EDI/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Electrónica digital&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/EDI/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Electrónica digital&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 31px;&quot;&gt;
-&lt;td style=&quot;height: 31px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/CYR/index.html&quot;&gt;&lt;big&gt;Control y robótica&lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;(en constante revisión)&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 31px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/CYR/index.html&quot;&gt;&lt;big&gt;Control y robótica&lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;(en constante revisión)&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 31px;&quot;&gt;
-&lt;td style=&quot;height: 31px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/ARD/index.html&quot;&gt;&lt;big&gt;Arduino &lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/ARD/index.html&quot;&gt;&lt;br /&gt;&lt;/a&gt;(en constante revisión)&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 31px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/ARD/index.html&quot;&gt;&lt;big&gt;Arduino &lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/ARD/index.html&quot;&gt;&lt;br /&gt;&lt;/a&gt;(en constante revisión)&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/TYS/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Tecnología y sociedad&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/TYS/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Tecnología y sociedad&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/CAD/index.html&quot;&gt;&lt;big&gt;C.A.D.&lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/CAD/index.html&quot;&gt;&lt;big&gt;C.A.D.&lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/AUT/index.html&quot;&gt;&lt;big&gt;AutoCAD&lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/AUT/index.html&quot;&gt;&lt;big&gt;AutoCAD&lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;Diseño 3D con Sketchup (próximamente)&lt;/big&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;Diseño 3D con Sketchup (próximamente)&lt;/big&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 14px;&quot;&gt;
-&lt;td style=&quot;width: 711px; height: 14px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;Tecnologías de la Información y la Comunicación&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;td style=&quot;width: 760px; height: 14px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;Tecnologías de la Información y la Comunicación&lt;/big&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr style=&quot;height: 36px;&quot;&gt;
-&lt;th style=&quot;height: 36px; width: 711px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/FPGAndo-por-la-E.S.O.&quot;&gt;FPGAndo por la E.S.O.&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
+&lt;th style=&quot;height: 36px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/FPGAndo-por-la-E.S.O.&quot;&gt;FPGAndo por la E.S.O.&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;"></unicode>
@@ -764,7 +764,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="compatibleWithVersion9"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="15"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2013,7 +2013,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="scowwebsite"></string>
   <bool value="0"></bool>
   <string role="key" value="style"></string>
-  <unicode value="garden"></unicode>
+  <unicode value="Kahurangi"></unicode>
   <string role="key" value="sugaractivityname"></string>
   <string value=""></string>
   <string role="key" value="sugarservicename"></string>
