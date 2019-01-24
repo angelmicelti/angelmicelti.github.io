@@ -1,0 +1,1 @@
+Con la cinta métrica podemos medir longitudes de objetos de gran tamaño, del orden de metros o decenas de metros.

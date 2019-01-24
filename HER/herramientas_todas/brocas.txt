@@ -1,0 +1,6 @@
+Las brocas son un accesorio fundamental para todas las herramientas de taladrado, porque son las que van a provocar el orificio en el material.
+Precisamente, cada material necesita un tipo específico de broca, por lo que encontramos las siguientes:
+- Brocas para madera.
+- Brocas para metal.
+- Brocas para hormigón (de widia).
+Cuando el orificio que se quiere hacer es de cierto diámetro (superior a los 10 milímetros), se utilizan brocas especiales, como las de pala (en materiales como madera y derivados).

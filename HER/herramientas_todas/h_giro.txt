@@ -1,0 +1,3 @@
+Las herrramientas de giro se usan para hacer que determinados elementos, como tornillos o tuercas, den vueltas, con la finalidad de que entren o salgan de un material, según de quien se trate. Hay dos grandes grupos:
+- las llaves (que pueden ser fijas, si tienen siempre la misma apertura en la boca, o ajustables, cuya boca puede adaptarse al tamaño del elemento que van a girar)
+- los destornilladores, que pueden tener diversas puntas, según la forma de la cabeza del tornillo que van a girar.

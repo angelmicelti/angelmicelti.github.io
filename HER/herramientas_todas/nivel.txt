@@ -1,0 +1,1 @@
+El nivel es una herramienta que nos permite comprobar si una superficie o pieza está alineada con la horizontal o con la vertical.
