@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>3.4. Semiconductores. Unión P-N. Diodos. | Electrónica analógica 4º E.S.O. </title>
+<title>3.4. El transistor. | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
-<body class="exe-web-site" id="exe-node-13"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
@@ -41,8 +41,7 @@
          <li><a href="313_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">3.1.3. Resistencias dependientes de parámetros físicos.</a>
          <ul class="other-section">
             <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
-            <li><a href="termistores_ntc.html" class="no-ch">Termistores N.T.C.</a></li>
-            <li><a href="termistores_ptc.html" class="no-ch">Termistores P.T.C.</a></li>
+            <li><a href="termistores.html" class="no-ch">Termistores</a></li>
             <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
          </ul>
          </li>
@@ -57,8 +56,8 @@
          <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
       </ul>
       </li>
-      <li id="active"><a href="34_semiconductores_unin_pn_diodos.html" class="active daddy">3.4. Semiconductores. Unión P-N. Diodos.</a>
-      <ul>
+      <li><a href="33_semiconductores_unin_pn_diodos.html" class="daddy">3.3. Semiconductores. Unión P-N. Diodos.</a>
+      <ul class="other-section">
          <li><a href="diodo_convencional.html" class="no-ch">Diodo convencional</a></li>
          <li><a href="led.html" class="daddy">L.E.D.</a>
          <ul class="other-section">
@@ -70,8 +69,8 @@
          <li><a href="diodo_zener.html" class="no-ch">Diodo Zener</a></li>
       </ul>
       </li>
-      <li><a href="35_el_transistor.html" class="daddy">3.5. El transistor.</a>
-      <ul class="other-section">
+      <li id="active"><a href="34_el_transistor.html" class="active daddy">3.4. El transistor.</a>
+      <ul>
          <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
          <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
          <li><a href="circuitos_con_transistores.html" class="no-ch">Circuitos con transistores</a></li>
@@ -81,13 +80,13 @@
    </li>
    <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
    <ul class="other-section">
-      <li><a href="fusible.html" class="no-ch">Fusible</a></li>
-      <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
+      <li><a href="41fusible.html" class="no-ch">4.1.Fusible</a></li>
+      <li><a href="42interruptores_y_pulsadores.html" class="daddy">4.2.Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="montajes_pulldown_y_pullup.html" class="no-ch">Montajes pull-down y pull-up</a></li>
       </ul>
       </li>
-      <li><a href="rel.html" class="no-ch">Relé</a></li>
+      <li><a href="43rel.html" class="no-ch">4.3.Relé</a></li>
    </ul>
    </li>
    <li><a href="5_circuitos_integrados.html" class="daddy">5. Circuitos integrados</a>
@@ -191,51 +190,131 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="asociacin_de_condensadores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="diodo_convencional.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="diodo_zener.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="funcionamiento_estados_del_transistor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">3.4. Semiconductores. Unión P-N. Diodos.</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id25">
+<div id="nodeDecoration"><h1 id="nodeTitle">3.4. El transistor.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id33">
 <div class="iDevice emphasis0">
-<div id="ta25_1" class="block iDevice_content">
-<div align="justify"><a title="34" name="34"></a><span style="font-family: comic sans ms,sand; font-size: large;">Los semiconductores son materiales que están a medio camino entre los aislantes y los conductores.</span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;">Un semiconductor puro se llama <b>semiconductor intrínseco</b>. Materiales como el <strong>silicio</strong> y el <strong>germanio</strong> forman cristales de semiconductores intrínsecos. El más utilizado, sin duda, es el silicio.</span><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify">
-<table border="1" style="width: 100%; margin-left: auto; margin-right: auto;">
+<div id="ta33_1" class="block iDevice_content">
+<p align="justify"><a title="35" name="35"></a><span style="font-family: comic sans ms,sand; font-size: large;">Estructuralmente, un transistor es una doble unión P-N, colocadas como se indican en las figuras de abajo. Según se dispongan se obtienen los transistores PNP o NPN, respectivamente, cuyos gráficos se disponen debajo. </span></p>
+<div align="justify"></div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto;">
 <tbody>
 <tr>
-<td style="width: 33.3333%; text-align: center;"><img src="SCIntrinseco.jpg" width="328" height="317" title="Cristal de semiconductor intrínseco" /></td>
-<td style="width: 33.3333%; text-align: center;"><img src="SCTipoP.jpg" alt="" title="Cristal de semiconductor tipo P" width="331" height="311" /></td>
-<td style="width: 33.3333%; text-align: center;"><img src="SCTipoN.jpg" alt="" title="Cristal de semiconductor tipo N" width="331" height="320" /></td>
+<td style="background-color: #9e9a94; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> P </span></p>
+</td>
+<td style="background-color: #d5d4d7; width: 49px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> N </span></p>
+</td>
+<td style="background-color: #9e9a94; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> P </span></p>
+</td>
+<td style="width: 50px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> </span></p>
+</td>
+<td style="background-color: #d5d4d7; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> N </span></p>
+</td>
+<td style="background-color: #9e9a94; width: 49px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> P </span></p>
+</td>
+<td style="background-color: #d5d4d7; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> N </span></p>
+</td>
 </tr>
 <tr>
-<td style="width: 33.3333%; text-align: center;"><strong>Semiconductor intrínseco</strong></td>
-<td style="width: 33.3333%; text-align: center;"><strong>Semiconductor tipo P</strong></td>
-<td style="width: 33.3333%; text-align: center;"><strong>Semiconductor tipo N</strong></td>
+<td style="background-color: #9e9a94; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> Emisor </span></p>
+</td>
+<td style="background-color: #d5d4d7; width: 49px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> Base </span></p>
+</td>
+<td style="background-color: #9e9a94; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> Colector </span></p>
+</td>
+<td valign="top" width="15">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> </span></p>
+</td>
+<td style="background-color: #d5d4d7; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> Emisor </span></p>
+</td>
+<td style="background-color: #9e9a94; width: 49px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> Base </span></p>
+</td>
+<td style="background-color: #d5d4d7; width: 73px;" valign="top">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> Colector </span></p>
+</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div align="justify"><br /><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;">Si en un semiconductor intrínseco se introducen elementos como el boro, el galio o el indio (elementos del Grupo III de la tabla periódica), aumenta la conductividad eléctrica y se obtiene lo que se conoce como <b>semiconductor de tipo P</b>.</span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"><br />Si en el semiconductor intrínseco se introducen elementos como fósforo, arsénico o antimonio (elementos del Grupo V de la tabla periódica), la conductividad también aumenta, y se obtiene lo que se conoce como <b>semiconductor de tipo N</b>.</span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;">Ve algo más en este vídeo:</span></div>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify" style="text-align: center;"><span style="font-family: comic sans ms,sand; font-size: large;"><iframe width="560" height="314" src="//www.youtube.com/embed/fFVU7-kfPe8" allowfullscreen="allowfullscreen"></iframe><br /></span><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify" style="text-align: justify;"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
-<div align="justify" style="text-align: justify;"><span style="font-family: comic sans ms,sand; font-size: large;">Al unir un semiconductor del tipo N con otro del tipo P, en la zona de contacto se produce una marcha de electrones de la zona N a la P, cargándose positivamente la zona N y negativamente la zona P. Aparece entonces una tensión eléctrica en una zona del cristal, que se llama <b>unión P-N</b>. Esta tensión, en el silicio, es de unos 0,7 V, y de 0,4 V en el germanio. Si se conecta la zona P a potencial positivo y la zona N a potencial negativo, la tensión exterior se opone a la tensión interior, favoreciendo el paso de electrones de la zona N hacia la zona P. Se dice entonces que la unión P-N se comporta en este caso como un diodo en <b><i>polarización directa</i></b>, dejando pasar la corriente (funcionaría como un interruptor cerrado).<br />En caso contrario, se habla de <b><i>polarización inversa</i></b>, y la corriente no circula.</span></div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper ExternalUrlIdevice" id="id197">
-<div class="iDevice emphasis0" >
-<div class="iDevice_content">
-<iframe src="https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=pol_polovodice&l=es" width="100%" height="800px"></iframe>
+<div align="justify"></div>
+<p align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"> En el primer caso tenemos el transistor tipo PNP y en el segundo el transistor tipo NPN. En cualquiera de los dos casos puede considerarse el transistor como dos diodos enfrentados. </span></p>
+<div align="justify"></div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="564" style="width: 564px; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td valign="top" width="227">
+<p align="center"><!-- [if gte vml 1]>
+			<![endif]--><span style="font-family: comic sans ms,sand; font-size: large;"><img src="TransistorPNP.png" title="símbolo del transistor PNP" v:shapes="_x0000_i1025" height="96" width="96" /></span><!-- [if gte mso 9]><xml>
+			</xml><![endif]--></p>
+</td>
+<td valign="top" width="127">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> </span></p>
+</td>
+<td valign="top" width="210">
+<p align="center"><!-- [if gte vml 1]>
+			<![endif]--><span style="font-family: comic sans ms,sand; font-size: large;"><img src="TransistorNPN.png" title="símbolo del transistor NPN" v:shapes="_x0000_i1026" height="96" width="96" /></span><!-- [if gte mso 9]><xml>
+			</xml><![endif]--></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="227">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: small;"><span style="font-family: verdana,geneva;"> Símbolo de un transistor PNP (observa que la flecha "Pincha" al transistor)</span> </span></p>
+</td>
+<td valign="top" width="127">
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"> </span></p>
+</td>
+<td valign="top" width="210">
+<p align="center"><span style="font-family: verdana,geneva; font-size: large;"><span style="font-size: small;"> Símbolo de un transistor NPN (observa que la flecha "No Pincha" al transistor)</span> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p align="justify" style="text-align: justify;"></p>
+<p align="justify" style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/dIV5l9cx_ck" allowfullscreen="allowfullscreen"></iframe></p>
+<div align="justify" style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"></span></div>
+<div align="justify" style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El funcionamiento de ambos transistores es similar, por lo que vamos a analizar el que va a ser más fácil de comprender para ti: el NPN. En ambos casos, también, se distinguen tres zonas en el interior del transistor, que hacen las funciones de terminales: emisor (E), base (B) y colector (C).</span></div>
+<table style="height: 213px;" dir="ltr" align="left" border="0" cellpadding="0" cellspacing="0" width="309">
+<tbody>
+<tr style="height: 15px;">
+<td valign="top" width="305">
+<div align="center"></div>
+<h6 align="center"><span style="font-family: verdana,geneva; font-size: small;">Algunos modelos comerciales de transistor</span></h6>
+</td>
+</tr>
+<tr>
+<td valign="top" width="305">
+<p><!-- [if gte vml 1]>
+			<![endif]--><span style="font-family: comic sans ms,sand; font-size: large;"></span></p>
+<div style="text-align: center;"><img src="342e5f50c3a167696e615f31305f496d6167656e5f30303031.jpg" v:shapes="_x0000_i1027" height="169" width="287" /></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div align="justify"></div>
+<p align="justify"></p>
+<div align="justify"></div>
+<p align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"> Para disparar el transistor bipolar, hay que proporcionar algo más de la tensión de la unión P-N que forman base y emisor (0,7 V en silicio y 0,4 V en germanio).</span></p>
+<p align="justify"><span style="font-family: comic sans ms,sand; font-size: large;">Según polaricemos cada unión, obtendremos las distintas formas de funcionamiento que puede adoptar el transistor. Lo vemos en el <a href="funcionamiento_estados_del_transistor.html">siguiente apartado</a>.</span></p>
+<div align="justify"></div>
+<p align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"> </span></p>
+<div align="justify"></div>
+<div align="justify"></div>
+<p align="justify"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En el apéndice I hacemos un estudio detallado del transistor, en lo que se refiere a las tensiones que hay entre sus terminales y las corrientes que circulan en su interior. Esto te puede ser de utilidad para el cálculo de circuitos.</span></p>
 </div>
 </div>
 </div>
@@ -246,7 +325,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="asociacin_de_condensadores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="diodo_convencional.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="diodo_zener.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="funcionamiento_estados_del_transistor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
