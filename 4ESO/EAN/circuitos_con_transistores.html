@@ -74,7 +74,16 @@
       <ul>
          <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
          <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
-         <li id="active"><a href="circuitos_con_transistores.html" class="active no-ch">Circuitos con transistores</a></li>
+         <li id="active"><a href="circuitos_con_transistores.html" class="active daddy">Circuitos con transistores</a>
+         <ul>
+            <li><a href="detector_de_oscuridad.html" class="no-ch">Detector de oscuridad</a></li>
+            <li><a href="ventilador_activado_por_ntc.html" class="no-ch">Ventilador activado por NTC</a></li>
+            <li><a href="temporizador.html" class="no-ch">Temporizador</a></li>
+            <li><a href="multivibrador_astable.html" class="no-ch">Multivibrador astable</a></li>
+            <li><a href="par_darlington.html" class="no-ch">Par Darlington</a></li>
+            <li><a href="polarizacin_por_divisor_de_tensin.html" class="no-ch">Polarización por divisor de tensión</a></li>
+         </ul>
+         </li>
       </ul>
       </li>
    </ul>
@@ -198,7 +207,7 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="identificacin_de_los_terminales.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_otros_componentes_electrnicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="identificacin_de_los_terminales.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="detector_de_oscuridad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
@@ -208,32 +217,34 @@
 <div class="iDevice emphasis0">
 <div id="ta171_85" class="block iDevice_content">
 <p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Las aplicaciones del transistor, como componente discreto, son innumerables. Puedes verlas a continuación: detector de luz, ventilador activado por NTC (detector de temperatura); detector de humedad con <a href="#circ511_par_darlington">par Darlington</a>; multivibrador astable (oscilador), o un montaje que se llama <strong>polarización por divisor de tensión</strong>, que es bastante habitual en los circuitos con transistores. Por cierto, este último lo tienes resuelto en el <a href="apndice_iv_equivalente_thvenin_de_un_circuito_con_transistor.html">apéndice IV</a>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En los encabezados de la siguiente tabla puedes descargar las correspondientes simulaciones en Livewire.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si pulsas en las imágenes, podrás ir al <strong>análisis del circuito.</strong></span></p>
 <p></p>
-<table border="1" style="width: 100%; height: 84px;">
+<table border="1" style="width: 100%; height: 554px;">
 <tbody>
 <tr style="height: 14px;">
 <td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="detluz"></a><a href="detector_oscuridad.lvw">DETECTOR DE OSCURIDAD</a></span></td>
 <td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="ventilador"></a><a href="ventilador_NTC.lvw">VENTILADOR ACTIVADO POR NTC</a></span></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 50%; height: 14px; text-align: center;"><img src="TDetectorLuz.png" alt="" title="Detector de luz con transistor" width="304" height="446" /></td>
-<td style="width: 50%; height: 14px; text-align: center;"><img src="TVentilador.png" alt="" title="Ventilador activado por NTC" width="424" height="437" /></td>
+<td style="width: 50%; height: 14px; text-align: center;"><a href="detector_de_oscuridad.html"><img src="TDetectorLuz.png" title="Detector de oscuridad con transistor" width="304" height="446" /></a></td>
+<td style="width: 50%; height: 14px; text-align: center;"><a href="ventilador_activado_por_ntc.html"><img src="TVentilador.png" alt="" title="Ventilador activado por NTC" width="424" height="437" /></a></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="par"></a><a href="darlington.lvw">PAR DARLINGTON</a></span></td>
+<td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="temporizador"></a><a href="temporizador1.lvw">CIRCUITO TEMPORIZADOR</a></span></td>
 <td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="mva"></a><a href="MV_astable.lvw">MULTIVIBRADOR ASTABLE</a></span></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 50%; height: 14px; text-align: center;"><img src="TParDarlington.png" alt="" title="Par Darlington" width="404" height="440" /></td>
-<td style="width: 50%; height: 14px; text-align: center;"><img src="TMVA.png" alt="" title="Multivibrador Astable" width="474" height="414" /></td>
+<td style="width: 50%; height: 14px; text-align: center;"><a href="temporizador.html"><img src="TTemporizador.png" alt="" title="Circuito temporizador con transistor" width="244" height="403" /></a></td>
+<td style="width: 50%; height: 14px; text-align: center;"><a href="multivibrador_astable.html"><img src="TMVA.png" alt="" title="Multivibrador Astable" width="474" height="414" /></a></td>
 </tr>
 <tr style="height: 14px;">
+<td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="par"></a><a href="darlington.lvw">PAR DARLINGTON</a></span></td>
 <td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="poldt"></a><a href="tran_pol_universal.lvw">POLARIZACIÓN POR DIVISOR DE TENSIÓN (UNIVERSAL)</a></span></td>
-<td style="width: 50%; height: 14px; text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a id="temporizador"></a><a href="temporizador1.lvw">CIRCUITO TEMPORIZADOR</a></span></td>
 </tr>
 <tr style="height: 14px;">
-<td style="width: 50%; height: 14px; text-align: center;"><img src="TPolDT.png" width="173" height="416" title="Polarización de un transistor por divisor de tensión" /></td>
-<td style="width: 50%; height: 14px; text-align: center;"><img src="TTemporizador.png" alt="" title="Circuito temporizador con transistor" width="194" height="321" /></td>
+<td style="width: 50%; height: 14px; text-align: center;"><a href="par_darlington.html"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="TParDarlington.png" alt="" title="Par Darlington" width="404" height="440" /></span></a></td>
+<td style="width: 50%; height: 14px; text-align: center;"><a href="polarizacin_por_divisor_de_tensin.html"><img src="TPolDT.png" width="173" height="416" title="Polarización de un transistor por divisor de tensión" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -248,7 +259,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="identificacin_de_los_terminales.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_otros_componentes_electrnicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="identificacin_de_los_terminales.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="detector_de_oscuridad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

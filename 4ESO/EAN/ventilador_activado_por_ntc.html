@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>01 - Resistencias | Electrónica analógica 4º E.S.O. </title>
+<title>Ventilador activado por NTC | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
-<body class="exe-web-site" id="exe-node-101"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-133"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
@@ -32,8 +32,8 @@
       <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
    </ul>
    </li>
-   <li><a href="3_componentes_electrnicos_discretos.html" class="daddy">3. Componentes electrónicos discretos</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="3_componentes_electrnicos_discretos.html" class="current-page-parent daddy">3. Componentes electrónicos discretos</a>
+   <ul>
       <li><a href="31_resistencias_tipos_identificacin.html" class="daddy">3.1. Resistencias. Tipos. Identificación.</a>
       <ul class="other-section">
          <li><a href="resistencias_fijas_cdigo_de_colores.html" class="no-ch">Resistencias fijas. Código de colores.</a></li>
@@ -70,14 +70,14 @@
          <li><a href="capacitor_lab.html" class="no-ch">Capacitor lab</a></li>
       </ul>
       </li>
-      <li><a href="34_ms_de_semiconductores_el_transistor.html" class="daddy">3.4. Más de semiconductores: el transistor.</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="34_ms_de_semiconductores_el_transistor.html" class="current-page-parent daddy">3.4. Más de semiconductores: el transistor.</a>
+      <ul>
          <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
          <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
-         <li><a href="circuitos_con_transistores.html" class="daddy">Circuitos con transistores</a>
-         <ul class="other-section">
+         <li class="current-page-parent"><a href="circuitos_con_transistores.html" class="current-page-parent daddy">Circuitos con transistores</a>
+         <ul>
             <li><a href="detector_de_oscuridad.html" class="no-ch">Detector de oscuridad</a></li>
-            <li><a href="ventilador_activado_por_ntc.html" class="no-ch">Ventilador activado por NTC</a></li>
+            <li id="active"><a href="ventilador_activado_por_ntc.html" class="active no-ch">Ventilador activado por NTC</a></li>
             <li><a href="temporizador.html" class="no-ch">Temporizador</a></li>
             <li><a href="multivibrador_astable.html" class="no-ch">Multivibrador astable</a></li>
             <li><a href="par_darlington.html" class="no-ch">Par Darlington</a></li>
@@ -134,8 +134,8 @@
       <li><a href="63_otros_montajes_pcbprint_cucocb.html" class="no-ch">6.3. Otros montajes: PCBPrint, CucoCB</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="7_simulaciones.html" class="current-page-parent daddy">7. Simulaciones</a>
-   <ul>
+   <li><a href="7_simulaciones.html" class="daddy">7. Simulaciones</a>
+   <ul class="other-section">
       <li><a href="crocodile_clips.html" class="daddy">Crocodile Clips</a>
       <ul class="other-section">
          <li><a href="divisor_de_tensin.html" class="no-ch">Divisor de tensión</a></li>
@@ -144,9 +144,9 @@
          <li><a href="multivibradores.html" class="no-ch">Multivibradores</a></li>
       </ul>
       </li>
-      <li class="current-page-parent"><a href="tinkercad.html" class="current-page-parent daddy">TinkerCAD</a>
-      <ul>
-         <li id="active"><a href="01__resistencias.html" class="active no-ch">01 - Resistencias</a></li>
+      <li><a href="tinkercad.html" class="daddy">TinkerCAD</a>
+      <ul class="other-section">
+         <li><a href="01__resistencias.html" class="no-ch">01 - Resistencias</a></li>
          <li><a href="02__potencimetros.html" class="no-ch">02 - Potenciómetros</a></li>
          <li><a href="03__ldr.html" class="no-ch">03 - LDR</a></li>
          <li><a href="04__pulsadores_pullup_y_pulldown.html" class="no-ch">04 - Pulsadores pull-up y pull-down</a></li>
@@ -207,16 +207,25 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="tinkercad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="02__potencimetros.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="detector_de_oscuridad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="temporizador.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">01 - Resistencias</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id247">
+<div id="nodeDecoration"><h1 id="nodeTitle">Ventilador activado por NTC</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id229">
 <div class="iDevice emphasis0">
-<div id="ta247_85" class="block iDevice_content">
-<p style="text-align: center;"><iframe width="725" height="453" src="https://www.tinkercad.com/embed/gYX2YoAVIOv"></iframe></p>
+<div id="ta229_85" class="block iDevice_content">
+<p style="text-align: justify;"><a href="ventilador_NTC.lvw" title="Clic para descargar la simulación en Livewire"><img src="TVentilador.png" alt="Ventilador activado por NTC" width="386" height="396" style="float: left; margin: 10px;" /></a><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Una vez que hemos analizado el circuito detector de oscuridad, analizar éste será bastante más fácil, aunque el aspecto sea más complejo.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Como elementos de entrada tenemos una NTC (parte superior izquierda) y un potenciómetro (abajo izquierda).</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Como elemento de salida tenemos un relé conectado al colector del transistor. </span><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El relé es de un contacto, y en reposo el contacto no activa el motor que está en la parte inferior derecha.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Cuando el relé se activa, se cierra la alimentación del motor, y éste se pondrá en marcha.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Pues vamos allá con el análisis:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">la NTC es una resistencia cuyo valor óhmico va disminuyendo con la temperatura. Así si la temperatura es baja (fresco), tendrá un valor resistivo alto. Esto hará que se lleve la mayor parte del voltaje de alimentación, dejando poco para el potenciómetro.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En este caso, ese poco voltaje no será suficiente para activar el diodo base-emisor del transistor, con lo cual éste se encontrará en corte, y no fluirá corriente del colector al emisor. Como consecuencia, el relé se quedará en reposo.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si <strong>la temperatura aumenta, </strong>la resistencia de la NTC disminuirá, y entonces gran cantidad del voltaje de alimentación irá a parar al potenciómetro y, como consecuencia, al circuito de base del transistor. El diodo-base emisor se podrá activar y el transistor se pondrá a conducir. Como consecuencia, el relé moverá el contacto y el motor se pondrá en marcha.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Resumiendo, a baja temperatura tenemos un circuito con un motor parado (el del ventilador, por ejemplo, aunque también podría ser el aire acondicionado) y, a partir de un valor de temperatura, el motor se pone en marcha.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Fácil, ¿no?</span></p>
 </div>
 </div>
 </div>
@@ -227,7 +236,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="tinkercad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="02__potencimetros.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="detector_de_oscuridad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="temporizador.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
