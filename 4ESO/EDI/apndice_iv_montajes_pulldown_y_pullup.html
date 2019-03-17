@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>APÉNDICE II: Implementación de funciones lógicas sólo con puertas NOR o NAND | Electrónica digital </title>
+<title>APÉNDICE IV: Montajes pull-down y pull-up | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Ángel Millán León" />
 <meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
-<body class="exe-web-site" id="exe-node-35"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-55"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></header>
@@ -84,9 +84,9 @@
    </li>
    <li><a href="9prcticas_de_ed.html" class="no-ch">9.Prácticas de E.D.</a></li>
    <li><a href="apndice_i_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE I: método de Karnaugh de simplificación de funciones lógicas.</a></li>
-   <li id="active"><a href="apndice_ii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="active no-ch">APÉNDICE II: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
+   <li><a href="apndice_ii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE II: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
    <li><a href="apndice_iii_fpgando_por_la_eso.html" class="no-ch">APÉNDICE III. FPGAndo por la E.S.O.</a></li>
-   <li><a href="apndice_iv_montajes_pulldown_y_pullup.html" class="no-ch">APÉNDICE IV: Montajes pull-down y pull-up</a></li>
+   <li id="active"><a href="apndice_iv_montajes_pulldown_y_pullup.html" class="active no-ch">APÉNDICE IV: Montajes pull-down y pull-up</a></li>
    <li><a href="apndice_v_aplicaciones_para_smartphone.html" class="no-ch">APÉNDICE V: Aplicaciones para smartphone</a></li>
    <li><a href="apndice_vi_cdigos.html" class="daddy">APÉNDICE VI: códigos</a>
    <ul class="other-section">
@@ -99,44 +99,56 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="apndice_i_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_iii_fpgando_por_la_eso.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="apndice_iii_fpgando_por_la_eso.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_v_aplicaciones_para_smartphone.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE II: Implementación de funciones lógicas sólo con puertas NOR o NAND</h1></header>
-<article class="iDevice_wrapper FreeTextIdevice" id="id124">
+<header id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE IV: Montajes pull-down y pull-up</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id256">
 <div class="iDevice emphasis0">
-<div id="ta124_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Como decíamos al final del apartado 5, es muy habitual (además de práctico, porque sólo necesitaríamos un solo tipo de circuito integrado), implementar las funciones lógicas de nuestros problemas sólo con puertas NAND o sólo con puertas NOR.</span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Para ello, basta con utilizar adecuadamente los teoremas del Álgebra de Boole que hemos estudiado a lo largo de la Unidad. Además, deberás darte cuenta que necesitarás en ocasiones hacer la negación de una variable o un resultado. Para ello, comprueba que tanto la puerta NAND como la puerta NOR, cortocircuitadas con la misma entrada, producen la negación de la misma:</span></p>
-<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="nand.jpg" width="149" height="36" /></span></p>
-<p style="text-align: center;"></p>
-<p><img src="nor.jpg" width="150" height="32" style="display: block; margin-left: auto; margin-right: auto;" /></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Veamos qué se puede hacer con nuestra función: <i>F = A·C + B</i></span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;"><b><span style="text-decoration: underline;">Implementación sólo con puertas NAND.</span></b></span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Manipulamos algebraicamente la expresión de F: </span></p>
-<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_6.2.gif" width="176" height="22"  style="font-size: 0.75em; line-height: 1.5;" />,</span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">y ahora aplicamos la Primera Ley de De Morgan, con lo cual queda:</span></p>
-<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_9.1.gif" width="88" height="20"  /></span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Si te das cuenta, <img src="eXe_LaTeX_math_11.gif" width="32" height="16"  /> y <img src="eXe_LaTeX_math_12.1.gif" width="16" height="16"  /> ya tienen la forma adecuada para ser implementadas con puertas NAND. El paso final lo verás más claro si hacemos lo que se llama un cambio de variable. Por ejemplo, llamamos:</span></p>
-<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_13.gif" width="72" height="16"  /> e <img src="eXe_LaTeX_math_14.1.gif" width="56" height="16"  /></span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Entonces, la expresión de <i>F</i> nos queda <img src="eXe_LaTeX_math_15.1.gif" width="72" height="16"  />, que es justamente la forma que puede ser implementada por otra puerta NAND, con lo cual ya habríamos terminado, y el resultado sería el siguiente:</span></p>
-<p><span style="font-size: medium; font-family: verdana, geneva;"><img src="F1.png" width="743" height="354" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Como vemos, ahorramos bastante, ya que sólo hemos empleado un C.I., el 7400., mientras que en el apartado 5 habíamos necesitado dos (un 7408 y un 7432).</span></p>
+<div id="ta256_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En Electrónica Digital es totalmente necesario saber cuándo un pulsador está conduciendo o no la corriente eléctrica.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Un pulsador normalmente abierto que no pulsamos, nos indicará un estado de "OFF", que asociaremos a un 0 lógico.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si lo pulsamos, nos indicará un estado de "ON", que asociaremos a un 1 lógico.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Bueno, pues esto no sucede cuando colocamos sólo el pulsador. Necesitamos añadir una resistencia en serie, que puede colocarse bien delante o bien detrás del pulsador. </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Dependiendo de ello, tenemos las siguientes configuraciones o montajes:</span></p>
 </div>
 </div>
 </article>
-<article class="iDevice_wrapper FreeTextIdevice" id="id125">
-<div class="iDevice emphasis0">
-<div id="ta125_85" class="block iDevice_content">
-<p><span style="font-size: medium; font-family: verdana, geneva;"><b><span style="text-decoration: underline;">Implementación sólo con puertas NOR.</span></b></span></p>
-<p><span style="font-size: medium; font-family: verdana, geneva;">Procederemos igualmente, manipulando la expresión de la función <i>F</i>, pero ahora utilizando la Segunda Ley de De Morgan:</span></p>
-<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_23.2.gif" width="368" height="30"  /></span></p>
-<p><span style="font-size: medium; font-family: verdana, geneva;"> que, implementado, nos quedará algo más complicado que el anterior.</span></p>
-<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="F2.png" width="721" height="371" /></span></p>
-<p><span style="font-size: medium; font-family: verdana, geneva;">Es por ello que conviene explorar las tres posibles implementaciones: con puertas cualesquiera, sólo con puertas NAND y sólo con puertas NOR, para elegir aquélla que resulte más económica.</span></p>
-<p><span style="font-size: medium; font-family: verdana, geneva;">En nuestro caso, elegiríamos la implementación sólo con puertas NAND, que precisa únicamente de un circuito integrado 7400.</span></p>
+<article class="iDevice_wrapper objectivesIdevice em_iDevice" id="id257">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Montaje pull-up</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta257_238_2" class="block iDevice_content">
+<p style="text-align: justify;"><img src="pullup.png" alt="" title="Configuración pull-up" width="184" height="366" style="float: left; margin: 5px 10px 5px 10px;" /><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si colocamos el pulsador entre la resistencia y masa, tendremos la configuración que se conoce como <strong>pull-up</strong>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En estado de reposo del pulsador SW1, la intensidad que atraviesa la resistencia es nula.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Por tanto, el terminal inferior de la resistencia (o el superior del voltímetro) se encuentra a 5 V. Por su parte, el terminal inferior del voltímetro se encuentra conectado a masa, es decir, a 0 V. Es por ello que la lectura del voltímetro será de 5 V ("1 lógico")</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Cuando se pulsa SW1, el terminal inferior de la resistencia se coloca a masa, y la lectura del voltímetro, lógicamente, es de 0 V ("0 lógico").</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Echa un vistazo al vídeo para profundizar.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a href="pullup.lvw">PULSADOR EN MONTAJE PULL-UP</a></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/fu1YtQs8Ut4" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper objectivesIdevice em_iDevice" id="id258">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Montaje pull-down</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta258_237_2" class="block iDevice_content">
+<p style="text-align: justify;"><img src="pulldown.png" title="Montaje en configuración pull-down" width="184" height="366" style="float: left; margin: 5px 10px 5px 10px;" /><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si colocamos el pulsador entre la alimentación y la resistencia, tendremos la configuración que se conoce como <strong>pull-down.</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Hemos colocado un voltímetro para que entiendas lo que sucede.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Cuando el pulsador (NA) no se activa, no pasa corriente por la resistencia. En tal caso, aplicando la ley de Ohm, tendremos que la lectura del voltímetro será 0 V. Esto lo asociaremos a un "0 lógico".</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En cambio, al pulsar SW1, ya pasará corriente por la resistencia, cuyo extremo superior se habrá colocado a la tensión de alimentación (5 V), y el inferior a masa, por lo que la lectura del voltímetro será de 5 V. Esto lo asociaremos a un "1 lógico".</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Echa un vistazo al vídeo para profundizar.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><a href="pulldown.lvw">PULSADOR EN MONTAJE PULL-DOWN</a></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/D0HWm__pN5c" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
+</div>
+</div>
 </div>
 </div>
 </article>
@@ -144,7 +156,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="apndice_i_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_iii_fpgando_por_la_eso.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="apndice_iii_fpgando_por_la_eso.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_v_aplicaciones_para_smartphone.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
