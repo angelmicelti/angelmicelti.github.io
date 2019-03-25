@@ -1,81 +1,253 @@
-/*
+/* ==========================================
 Copyright University of Auckland 2004
-Copyright 2004-2007 eXe Project, New Zealand Tertiary Education Commission
-Created by Brent Simpson, brent@exelearning.org
+Created by Brent Simpson, brent.simpson@auckland.ac.nz
+Centre for Flexible and Distance Learning
 
-Modified by Ignacio Gros for eXeLearning.net
-See Help - eXe Tutorial for more info on how to modify this style for your needs.
-*/
-body{background:#DBDAD2}
-#content{background:#E0DFD8 url(_default_side_bg.gif) repeat-y;width:100%;position:relative;padding-bottom:21px;min-width:380px;border:2px solid #E5E4E0;border-radius:5px}
-#main-wrapper{padding:10px 20px 0 250px}
-#main{width:100%}
-#header,#emptyHeader{border-top:none;background:#D9D9CE;padding-right:220px}
-#nodeDecoration{padding:0;margin:0;background:none;border:none}
-#nodeTitle{padding:.1em 0 .6em 0;border-bottom:2px solid #E5E4E0}
-#siteFooter{padding-left:250px}
-/* Navigation */
-#skipNav{text-align:center}
-#skipNav a{background:#706F61}
-#siteNav{width:230px;float:left;padding-right:20px}
-#siteNav,#siteNav ul{border-color:#E5E4E0}
-#siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
-#siteNav a{display:block;padding:4px 0 4px 15px;color:#4D4D4D;border-bottom:1px solid #FFF;border-right:2px solid #E5E4E0}
-#siteNav a:hover,#siteNav a:focus{background-color:#C7C5B9;color:#222}
-* html #siteNav a{display:inline-block;width:100%} /* IE6 */
-#siteNav .main-node{font-weight:bold;font-variant:small-caps;letter-spacing:1px;font-size:1.1em}
-#siteNav ul ul a{padding-left:30px;font-size:.95em}
-#siteNav .active,#siteNav .active:hover,#siteNav .active:focus{color:#fff;background:#706F61 url(_default_current_page.gif) no-repeat 5px 50%}
-#siteNav ul ul .active,#siteNav ul ul .active:hover,#siteNav ul ul .active:focus{background-position:20px 50%}
-#siteNav ul ul ul .active,#siteNav ul ul ul .active:hover,#siteNav ul ul ul .active:focus{background-position:35px 50%}
-#siteNav .other-section{display:none}
-#siteNav ul ul ul a{padding-left:45px}
-/* Pagination */
-.pagination{border-top:2px solid #E5E4E0;padding-top:20px;text-align:right}
-.pagination .sep{display:none}
-.pagination a{padding:0;color:#B34700;margin-left:20px}
-.pagination a:hover,.pagination a:focus{color:#E65C00}
-#topPagination{position:absolute;top:-2px;width:100%;right:20px}
-#topPagination .pagination{border:none}
-#bottomPagination{padding:0 20px 0 250px;clear:both}
-#bottomPagination .page-counter{margin-left:20px;margin-right:0}
-/* Autoclear */
-#content:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0} 
-#content{display:inline-block}
-html[xmlns] #content{display:block}
-* html #content{height: 1%;overflow:visible}
+	Modificado: Aníbal de la Torre /Juan Diego Pérez
+	
+	
+============================================= */
 
-/* No menu */
-.no-nav #main-wrapper,.no-nav #bottomPagination,.no-nav #siteFooter{padding-left:20px}
-.no-nav #content{background-image:none}
-
-/* IE6 */
-* html #content{width:99%;margin:0 auto}
-* html #main{width:auto}
-* html #siteNav a{width:213px}
-* html #siteNav ul ul a{width:198px}
-* html #siteNav ul ul ul a{width:183px}
-
-/* Responsive design */
-@media all and (max-width: 980px) {
-	body{padding:0}
-	#content{border:none;background-position:-30px 0}
-	#main-wrapper,#siteFooter,#bottomPagination{padding-left:220px}
-	#siteNav{width:200px}
+#header {
+    color: #8b8b8b;
+    background-color: #FFFFFF;
+    height: 60px;
+    padding: 20px 20px 0;
+   
+    font-weight: bold;
 }
-@media all and (max-width: 780px) {
-	#header,#emptyHeader{padding-right:20px}
-	#siteNav .main-node{font-weight:normal;font-variant:normal;letter-spacing:0;font-size:1em}
-	#main-wrapper,.no-nav #main-wrapper{padding:10px}
-	#siteNav{width:100%;float:none;padding-right:0}
-	#content{background-image:none}
-	#siteFooter,.no-nav #siteFooter{padding:0 10px}
-	.pagination{font-weight:bold;font-size:1.1em}
-	#topPagination{position:relative;top:auto;width:100%;right:auto;padding:0}
-	#topPagination .pagination{padding:0;text-align:center;background:#706F61;border-bottom:1px solid #fff}
-	#topPagination .prev,#topPagination .next,#topPagination .page-counter{display:none}
-	#bottomPagination,.no-nav #bottomPagination{position:relative;padding:0 10px 15px 10px}
-	#bottomPagination .page-counter{position:absolute;width:50%;left:25%;text-align:center;margin:0;font-weight:normal}
-	#bottomPagination .prev{position:absolute;left:10px;margin-left:0}
-	#nav-toggler a,#nav-toggler a:focus{display:inline-block;padding:4px;width:80%;color:#fff;font-variant:small-caps;letter-spacing:1px;outline:none;text-decoration:none}
+
+#navcontainer {
+   z-index:1000;
+   width: 220px;
+   float: left;
+   text-align:left;
+   font: .9em;
+   padding-right: 5px;
+   border: 1px solid #FFF;
+   border-right: 1px dashed #365475;
+}
+
+#navcontainer ul {
+   margin-left: 0px;
+   padding-left: 0px;
+   margin-top: 0px;
+   list-style-type: none;
+   font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+
+#navcontainer a {
+   display: block;
+   padding: 4px 0px 4px 18px;
+   border-bottom: 0px;
+}
+
+#navcontainer a:link, #navlist a:visited {
+   color: #666666;
+   font-weight: bold;
+   background-color: #FFFFF;
+   text-decoration: none;
+   width: 202px;
+}
+
+#navcontainer a:hover {
+   color: #666666;
+   font-weight:bold;
+   background-color:#F5F5F5;
+   border: 1px dashed #CCCCCC;
+}
+
+/* Hide from IE5-mac. Only IE-win sees this. Fixes the peek-a-boo bug!!! */
+* html #navcontainer {
+margin-right: 10px;
+}
+* html p {
+height: 1%;
+margin-left: 0;
+}
+/* End hide from IE5/mac */
+
+
+/* nodes with children get expandable icon */
+.withChild {
+ background-image: url(collapse2.gif);
+ background-repeat: no-repeat;
+ background-position: 2px 9px;
+}
+
+#active.withChild {
+padding: 4px 0px 4px 18px;
+background-color: #fdfaf9;
+background-image: url(collapse.gif) !important;
+background-repeat: no-repeat;
+color: #666666;
+font-weight: bold;
+}
+
+#active.withoutChild {
+padding: 4px 0px 4px 18px;
+background-color: #FDFAF9;
+color: #666666;
+font-weight: bold;
+}
+
+/* subnav is for displaying sections and units */
+
+#subnav a {
+width: 190px;
+border: 0 !important;
+padding: 4px 0px 4px 30px;
+}
+
+#subnav a:hover {
+color: #8b8b8b;
+background-color: #F5F5F5;
+font-weight: bold;
+padding: 4px 0 4px 30px;
+border: 1px dashed #CCCCCC !important;
+}	
+
+#subnav #active {
+background-color: #FDFAF9;
+color: #666666;
+font-weight: bold;
+padding: 4px 0 4px 30px;
+}	
+
+div > #subnav .withChild {
+background-image: url(collapse.gif) !important;
+background-repeat: no-repeat !important;
+background-position: 14px 9px !important;
+}
+
+#subnav  div.withChild {
+background-image: url(collapse.gif) !important;
+background-repeat: no-repeat !important;
+background-position: 14px 9px !important;
+}
+
+.withoutChild
+{
+	font-size: 10px;
+}
+
+#subnav .withoutChild  div {
+padding-left: 12px;
+width:190px;
+}
+
+#subnav .withoutChild #active {
+width:180px;
+margin-left: 0px;
+padding-left: 40px;
+}
+
+#subnav .withoutChild div a:hover {
+width:178px;
+margin-left: -12px;
+padding-left: 42px;
+}
+	
+/* MAIN CONTENT STYLES */
+#container {
+border-top: 0px solid #CCC;
+position:absolute;
+}
+
+#main {
+	padding: 18px;
+	padding-top: 0px;
+	margin: 0px 10px 10px 180px;
+	margin-left: 220px;
+	margin-top: 10px;
+	text-align:justify;
+	width: 72%;
+}
+
+/* ITE elements */
+
+#siteNav{
+	z-index:1000;
+	width: 220px;
+	float: left;
+	text-align:left;
+	padding-right: 5px;
+	border: 1px solid #FFF;
+	border-right: 1px dashed #365475;
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+}
+
+#siteNav ul,#siteNav li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	list-style-image:none;
+}
+
+#siteNav a{
+	display: block;
+	padding: 4px 0px 4px 18px;
+	color: #598AC3;
+	font-weight: bold;
+	background-color: #FFFFF;
+	text-decoration: none;
+	width: 198px;
+}
+
+#siteNav a:hover{
+	color: #8b8b8b;
+	font-weight:bold;
+	background-color:#F5F5F5;
+	border: 1px dashed #CCCCCC;
+}
+
+#siteNav .daddy{
+	background-image: url(collapse2.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 6px;
+}
+
+#siteNav .active{
+	background-color: #FDFAF9;
+	background-repeat: no-repeat;
+	color: #666666;
+	font-weight: bold;
+}
+
+#siteNav .daddy.active{
+	background-image: url(collapse.gif) !important;
+}
+
+#siteNav ul .active{
+	background-image:none !important;
+}
+
+#siteNav ul ul a{
+	padding-left:28px;
+	width: 188px;
+	font-size:.82em;
+}
+
+#siteNav ul ul ul a{
+	padding-left:38px;
+}
+
+#siteNav .other-section{
+	display:none; /* Remove if you want all levels to be displayed */
+}
+
+.pagination{
+	text-align:right;
+}
+
+#bottomPagination .page-counter{
+	margin-left:20px;
+}
+
+/* Invisible content (visible for screen reader users) */
+#topPagination{
+	position:absolute;
+	overflow:hidden;
+	clip:rect(0,0,0,0);
+	height:0;
 }
