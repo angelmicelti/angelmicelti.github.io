@@ -1,253 +1,660 @@
-/* ==========================================
-Copyright University of Auckland 2004
-Created by Brent Simpson, brent.simpson@auckland.ac.nz
-Centre for Flexible and Distance Learning
-
-	Modificado: Aníbal de la Torre /Juan Diego Pérez
-	
-	
-============================================= */
-
-#header {
-    color: #8b8b8b;
-    background-color: #FFFFFF;
-    height: 60px;
-    padding: 20px 20px 0;
-   
-    font-weight: bold;
+body{
+	padding: 0;
+	text-align: center;
+	background-color: #fff;
 }
 
-#navcontainer {
-   z-index:1000;
-   width: 220px;
-   float: left;
-   text-align:left;
-   font: .9em;
-   padding-right: 5px;
-   border: 1px solid #FFF;
-   border-right: 1px dashed #365475;
+#lbOverlay{
+	background:#000;
 }
 
-#navcontainer ul {
-   margin-left: 0px;
-   padding-left: 0px;
-   margin-top: 0px;
-   list-style-type: none;
-   font-family: Verdana,Arial, Helvetica, sans-serif;
+#content{
+	width: 100%;
+	text-align: left;
+	position: relative;
+	min-width: 965px;
+	border-radius: 5px;
+	background-color: #Fff;
+	background-repeat: repeat-y;
+	background-position: 0 0;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-#navcontainer a {
-   display: block;
-   padding: 4px 0px 4px 18px;
-   border-bottom: 0px;
-}
-
-#navcontainer a:link, #navlist a:visited {
-   color: #666666;
-   font-weight: bold;
-   background-color: #FFFFF;
-   text-decoration: none;
-   width: 202px;
-}
-
-#navcontainer a:hover {
-   color: #666666;
-   font-weight:bold;
-   background-color:#F5F5F5;
-   border: 1px dashed #CCCCCC;
-}
-
-/* Hide from IE5-mac. Only IE-win sees this. Fixes the peek-a-boo bug!!! */
-* html #navcontainer {
-margin-right: 10px;
-}
-* html p {
-height: 1%;
-margin-left: 0;
-}
-/* End hide from IE5/mac */
-
-
-/* nodes with children get expandable icon */
-.withChild {
- background-image: url(collapse2.gif);
- background-repeat: no-repeat;
- background-position: 2px 9px;
-}
-
-#active.withChild {
-padding: 4px 0px 4px 18px;
-background-color: #fdfaf9;
-background-image: url(collapse.gif) !important;
-background-repeat: no-repeat;
-color: #666666;
-font-weight: bold;
-}
-
-#active.withoutChild {
-padding: 4px 0px 4px 18px;
-background-color: #FDFAF9;
-color: #666666;
-font-weight: bold;
-}
-
-/* subnav is for displaying sections and units */
-
-#subnav a {
-width: 190px;
-border: 0 !important;
-padding: 4px 0px 4px 30px;
-}
-
-#subnav a:hover {
-color: #8b8b8b;
-background-color: #F5F5F5;
-font-weight: bold;
-padding: 4px 0 4px 30px;
-border: 1px dashed #CCCCCC !important;
-}	
-
-#subnav #active {
-background-color: #FDFAF9;
-color: #666666;
-font-weight: bold;
-padding: 4px 0 4px 30px;
-}	
-
-div > #subnav .withChild {
-background-image: url(collapse.gif) !important;
-background-repeat: no-repeat !important;
-background-position: 14px 9px !important;
-}
-
-#subnav  div.withChild {
-background-image: url(collapse.gif) !important;
-background-repeat: no-repeat !important;
-background-position: 14px 9px !important;
-}
-
-.withoutChild
-{
-	font-size: 10px;
-}
-
-#subnav .withoutChild  div {
-padding-left: 12px;
-width:190px;
-}
-
-#subnav .withoutChild #active {
-width:180px;
-margin-left: 0px;
-padding-left: 40px;
-}
-
-#subnav .withoutChild div a:hover {
-width:178px;
-margin-left: -12px;
-padding-left: 42px;
+.no-nav #content{
+	background-color: #FFF;
 }
 	
-/* MAIN CONTENT STYLES */
-#container {
-border-top: 0px solid #CCC;
-position:absolute;
+#main-wrapper{
+	padding-top: 80px;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 250px;
 }
-
-#main {
-	padding: 18px;
-	padding-top: 0px;
-	margin: 0px 10px 10px 180px;
-	margin-left: 220px;
-	margin-top: 10px;
-	text-align:justify;
-	width: 72%;
+	
+.no-nav #main-wrapper{
+	padding-left:20px;
 }
+	
+#main{
+	width:100%;
+	margin-bottom: 100px;
+}
+	
+#header,#emptyHeader{
+	border-top: none;
+	background-image: url(tknika_adarrak.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index:97;
+}
+	
+#main #nodeDecoration{
+	padding:0;
+	background:none;
+}
+	
+/* Navigation */
 
-/* ITE elements */
-
+#skipNav{
+	width:50%;
+	padding:10px;
+}
+	
+#skipNav a{
+	background:#9A042F;
+}
+	
 #siteNav{
-	z-index:1000;
-	width: 220px;
+	width: 230px;
 	float: left;
-	text-align:left;
-	padding-right: 5px;
-	border: 1px solid #FFF;
-	border-right: 1px dashed #365475;
-	font-family: Verdana,Arial, Helvetica, sans-serif;
+	/*padding-right: 20px;*/
+	margin-top: 80px;
+	/*	position: fixed;
+	left: 0px;
+	top: 80px;*/
 }
-
+	
+#siteNav,#siteNav ul{
+	background: #fff;
+	border-top-color: #f1f1f1;
+	border-right-color: #f1f1f1;
+	border-bottom-color: #f1f1f1;
+	border-left-color: #f1f1f1;
+}
+	
+#siteNav li:hover,{
+	background: #c6d644;
+	border: 1px dotted #000;
+}
+	
 #siteNav ul,#siteNav li{
 	margin:0;
 	padding:0;
 	list-style:none;
-	list-style-image:none;
 }
-
+	
 #siteNav a{
 	display: block;
-	padding: 4px 0px 4px 18px;
-	color: #598AC3;
+	padding: 4px 20px;
+	color: #4D4D4D;
+	font-weight: 600;
+	border-top-width: 0;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #c6d644;
+	border-right-color: #C6D644;
+	border-bottom-color: #c6d644;
+	border-left-color: #c6d644;
+}
+	
+#siteNav a:hover,#siteNav a:focus{
+	color: #000;
+	background-color: #c6d644;
+}
+	
+* html #siteNav a{
+	display:inline-block;
+	width:100%;
+}
+	
+ /* IE6 */
+ 
+#siteNav .main-node{
 	font-weight: bold;
-	background-color: #FFFFF;
-	text-decoration: none;
-	width: 198px;
+	letter-spacing: 1px;
+	font-size: 1.1em;
+	text-transform: uppercase;
 }
-
-#siteNav a:hover{
-	color: #8b8b8b;
-	font-weight:bold;
-	background-color:#F5F5F5;
-	border: 1px dashed #CCCCCC;
+	
+#siteNav a.main-node:hover{
+	text-decoration:underline;
+	background:none;
 }
-
-#siteNav .daddy{
-	background-image: url(collapse2.gif);
-	background-repeat: no-repeat;
-	background-position: 2px 6px;
-}
-
-#siteNav .active{
-	background-color: #FDFAF9;
-	background-repeat: no-repeat;
-	color: #666666;
-	font-weight: bold;
-}
-
-#siteNav .daddy.active{
-	background-image: url(collapse.gif) !important;
-}
-
-#siteNav ul .active{
-	background-image:none !important;
-}
-
+	
 #siteNav ul ul a{
-	padding-left:28px;
-	width: 188px;
-	font-size:.82em;
+	padding-left:25px;
+	font-size:.95em;
+	color:#555;
 }
-
-#siteNav ul ul ul a{
-	padding-left:38px;
+	
+#siteNav .active{
+	color: #C6D644;
+	font-weight: bold;
 }
-
+	
 #siteNav .other-section{
-	display:none; /* Remove if you want all levels to be displayed */
+	display:none;
 }
+	
+#siteNav ul ul ul a{
+	padding-left:50px;
+}
+	
+#siteFooter{
+	padding: 10px 0 0 250px;
+	border: none;
+}
+	
+.no-nav #siteFooter{
+	padding-left:20px;
+}
+	
+/* Pagination */
 
 .pagination{
-	text-align:right;
+	padding-top: 30px;
+	text-align: right;
+/*	color: #fff;
+*/	padding-right: 20px;
+	padding-bottom: 20px;
+	
+
+}
+	
+.pagination a{
+	padding:4px 8px;
+	border-radius:5px;
+	background:#C6D644;
+	color:#000;
+}
+
+.pagination a:hover,.pagination a:focus,#topPagination .pagination a:hover,#topPagination .pagination a:focus{
+	text-decoration: none;
+	background-color: #919D22;
+	color: #fff;
+}
+	
+#topPagination{
+	/*position: fixed;*/
+	top: 0;
+	width: 100%;
+	height: 75px;
+	background-image: url(tknika_logo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	z-index:98;
+}
+	
+#topPagination .pagination{
+	border:none;
+	background:none;
+}
+	
+#bottomPagination{
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #C6D644;
+	position: fixed;
+	width: 100%;
+	height:4px;
+	left: 0px;
+	bottom: 0px;
+	background-image: url(tknika_adarrak.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	z-index: 99;
 }
 
 #bottomPagination .page-counter{
-	margin-left:20px;
+	position:absolute;
+	padding:5px 0 5px 10px;
+	border-radius:2px;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+	background:#FFF;
+	top:-39px;
+	right:0;
+	font-size:.95em
 }
 
-/* Invisible content (visible for screen reader users) */
-#topPagination{
+#bottomPagination .pagination a{
+	display: none;	
+}
+	
+/*.no-nav #bottomPagination{
+	padding-left:20px;
+}*/
+	
+/* Autoclear */
+
+#content:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+} 
+	
+#content{
+	display:inline-block;
+}
+	
+html[xmlns] #content{
+	display:block;
+}
+	
+* html #content{
+	height: 1%;
+	overflow:visible;
+}
+
+#nav-toggler{
+	margin: 0;
+	top: 8.3em;
+	right: 20px;
+	position: absolute;
+}
+	
+#nav-toggler a{
+	display:block;
+	width:11px;
+	height:11px;
+	background:url(tknika_max_min.gif) no-repeat 0 0;
+	outline:none;
+}
+	
+#nav-toggler .hide-nav{
+	background-position:0 -11px;
+}
+	
+#nav-toggler span{
 	position:absolute;
 	overflow:hidden;
 	clip:rect(0,0,0,0);
 	height:0;
 }
+	
+
+@media screen and (min-width: 701px) and (max-width: 1015px) {
+	body{
+		background:#fff;
+
+	}
+	
+	#nav-toggler{
+		display:none;
+		}
+		
+	#main-wrapper{
+	top: 28px;
+	position: relative;
+		}
+		
+	#main-wrapper,#siteFooter{
+		padding-left:20px;
+		padding-top:0px;
+
+	}
+		
+	#content{
+	width: 100%;
+	min-width: 0;
+	background: #fff;
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	top: 80px;
+	}
+		
+	#nodeTitle{
+	background-image: url(tknika_tit.gif);
+	background-position: left bottom;
+	background-repeat: repeat-y;
+	}
+	#bottomPagination .pagination{
+	background-position: left bottom;
+	background-repeat: repeat-y;
+	color:#000000;
+		}
+		
+	#bottomPagination{
+/*		margin-bottom:15px;
+*/		padding-left:20px;
+		position: fixed;
+		
+	}
+		
+	/* Horizontal navigation */
+	
+	#siteNav .other-section{
+		display:block;
+	}
+		
+	#siteNav .main-node{
+	font-weight: 600;
+	letter-spacing: 0;
+	font-size: 1.1em;
+	}
+		
+	#siteNav,#siteNav ul{
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	line-height: 1.3em;
+	background-color: #C6D644;
+	padding: 0px 0px 0px 10px;
+	}
+		
+	#siteNav ul ul{
+	line-height: 1.1em;
+	}
+		
+	#siteNav{
+	margin-bottom: 20px;
+	position: fixed;
+	z-index: 999;
+	top: 80px;
+	border-bottom: solid 2px #C6D644;
+	}
+		
+	#siteNav a{
+		display:block;
+		text-decoration:none;
+		padding:.4em 10px;
+		border:none;
+	}
+	#siteNav a:hover{
+	text-decoration: underline;		
+	}
+	
+	#siteNav .active{
+	font-weight: bold;
+	color: #000;
+	font-size: 1.2em;
+	background-color: #c6d644;
+		}
+	
+	a.current-page-parent.daddy{
+	font-weight: bold;
+	color: #000;
+	font-size: 1.2em;
+	background-color: #c6d644;		
+		}
+		
+	#siteNav li{
+		float:left;
+	}
+		
+    #siteNav ul ul .daddy{
+		background:url(tknika_nav.gif) no-repeat right 50%;
+	}
+		
+	#siteNav li ul{
+		position:absolute;
+		left:-999em;
+		height:auto;
+		width:14.4em;
+		w\idth:13.9em;
+		border-width:0.25em;
+	}
+		
+	* html #siteNav li ul{
+		width:13em;
+	}
+		
+	#siteNav li li{
+		padding-right:1em;
+		width:13em;
+	}
+		
+	#siteNav li ul a,#siteNav li ul ul a{
+	border-bottom: 1px solid #c6d644;
+	font-size: .95em;
+	width: 89%;
+	padding-top: 0.45em;
+	padding-right: 10px;
+	padding-bottom: 0.45em;
+	padding-left: 20px;
+	}
+	
+	
+		
+	#siteNav li ul ul{
+		margin:-2.15em 0 0 14em;/*margin:-1.95em 0 0 14em*/
+	}
+		
+	* html #siteNav li ul ul{
+		margin-left:13em;
+	}
+		
+	#siteNav li:hover ul ul,#siteNav li:hover ul ul ul,#siteNav li.sfhover ul ul,#siteNav li.sfhover ul ul ul{
+		left:-999em;
+	}
+		
+	#siteNav li:hover ul,#siteNav li li:hover ul,#siteNav li li li:hover ul,#siteNav li.sfhover ul,#siteNav li li.sfhover ul,#siteNav li li li.sfhover ul{
+		left:auto;
+	}
+		
+	/*#toggle-nav{
+		display:none; !important
+	}*/
+			
+}
+
+/*@media all and (max-width: 700px) {
+*/@media (max-width: 700px) {
+
+    body{
+		background:#fff;
+	}
+		
+	#header, #emptyHeader{
+	padding-left: 10px;
+	/*height: 3.8em;*/
+	/*line-height: 3.8em;*/
+	font-size: 1em;
+	background-color: #000;
+	background-image: url(tknika_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align:center;
+	}
+		
+	#content{
+		width:100%;
+		min-width:0;
+		background:#fff;
+		border:none;
+		box-shadow:none;
+		margin:0;
+	}
+		
+    #skipNav{
+		width:100%;
+		padding:10px 0;
+		text-align:right;
+	}
+		
+    #skipNav a{
+		border-right:10px solid #fff;
+	}
+		
+    #siteNav{
+		float:none;
+		width:100%;
+		padding-top:40px;
+	}
+		
+	#siteNav a{
+	background-color: #d6e178;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	}
+	
+	#siteNav .active{
+	font-weight: bold;
+	color: #000;
+	font-size: 1em;
+	background-color: #c6d644;
+		}
+		
+    #main-wrapper,.no-nav #main-wrapper{
+		padding:0 10px;
+	}
+		
+    #nodeTitle{
+		margin-top: 5.7em;
+	}
+		
+	#siteFooter,.no-nav #siteFooter{
+		padding:15px 10px 0 10px;
+	}
+		
+    #content .exe-col{
+		float:none;
+		width:100%;
+		padding:0;
+	}
+		
+    iframe,object,embed{
+		max-width:100%;
+	}
+		
+    img,video{
+		max-width:100%;
+		height:auto;
+	}
+		
+	#topPagination{
+		display:none;
+	}
+		
+    #bottomPagination,.no-nav #bottomPagination{
+		height:50px;
+		position: fixed;
+	}
+		
+	#bottomPagination .pagination a{
+	display: inline;
+	}
+	.pagination a{
+		padding:3px 8px;
+		margin:0;
+	}
+		
+    .pagination{
+		text-align:center;
+		height:35px;
+		position:relative;
+		padding-top: 10px;
+	}
+		
+    .pagination .prev{
+		/*position:absolute;*/
+		left:0;
+		
+	}
+		
+    .pagination .next{
+		/*position:absolute;*/
+		right:0;
+		
+	}
+		
+	#nav-toggler span{
+		position:static;
+		overflow:visible;
+		clip:auto;
+		height:auto;
+	} 
+		
+/* Reset */
+
+    #nav-toggler{
+	position: relative;
+	top: 68px;
+	left: 0;
+	margin: 0;
+	text-align: center;
+	}
+		
+    #nav-toggler a{
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-variant: normal;
+	background-color: #000;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 2em;
+	position: fixed;
+	left: 0px;
+	top: 68px;
+	z-index: 100;
+	background-attachment: fixed;
+	}
+	
+	#nav-toggler .hide-nav{
+	background-image: url(ocultar.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 70px;
+	background-color: #000;
+	
+}
+	#nav-toggler .show-nav{
+	background-image: url(ver.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 65px;
+	background-color: #000;
+
+}
+		
+	#nav-toggler a:hover{
+	text-decoration: none;
+	color: #fff;
+	/*background-color: #000000;*/
+	}
+		
+	#nav-toggler a:focus{
+		text-decoration:none;
+	}
+}
+
+@media (max-width: 500px) {
+	#header, #emptyHeader{
+	padding-left: 10px;
+	/*height: 3.8em;
+	line-height: 3.8em;
+	font-size: 1.3em;
+	background-color: #000;
+	background-image: url(tknika_logo_res.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+	}
