@@ -114,6 +114,84 @@
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Sumador completo</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id171">
+<div class="iDevice emphasis0">
+<div id="ta171_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El sumador completo supone un circuito un poco más complejo. A diferencia del semisumador, nos permite incluir en la suma de dos bits el <strong>acarreo</strong> de una suma anterior a través de una entrada que se llama C<sub>in</sub>, con lo que ya podremos realizar cualesquiera sumas.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Según lo dicho, tendremos tres variables de entrada, a las que llamaremos A, B y la propia C<sub>in </sub>y dos de salida: <strong>S</strong>, la suma y <strong>C<sub>out</sub></strong>, el acarreo de la misma (si procede). Entonces, la tabla de verdad quedará:</span></p>
+<table border="1" style="height: 300px; width: 35.4801%; background-color: #ffffff; margin-left: auto; margin-right: auto;" class="exe-table">
+<tbody>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><strong><span style="font-size: 14pt;">A</span></strong></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><strong><span style="font-size: 14pt;">B</span></strong></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><strong><span style="font-size: 14pt;">C<sub>in</sub></span></strong></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><strong><span style="font-size: 14pt;">S</span></strong></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><strong><span style="font-size: 14pt;">C<sub>out</sub></span></strong></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">0</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px; width: 12.8833%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 12.7396%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 11.4477%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="height: 15px; width: 10.1085%; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+<td style="width: 8.52987%; height: 15px; text-align: center;"><span style="font-size: 14pt;">1</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Una vez simplificadas las funciones e implementadas, obtenemos el siguiente circuito:</span></p>
+<p><img src="SumadorCompleto.png" title="Sumador completo" width="689" height="413" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Puedes descargarlo en formato Digital y practicar con él haciendo clic en <a href="SumadorCompleto.dig">este enlace</a>.</span></p>
+</div>
+</div>
+</div>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>

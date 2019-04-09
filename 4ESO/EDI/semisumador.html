@@ -114,6 +114,52 @@
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Semisumador</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id170">
+<div class="iDevice emphasis0">
+<div id="ta170_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Un <strong>semisumador</strong> es un circuito digital sencillo que nos permite sumar dos bits y registrar el acarreo. Son tres los resultados de la suma de dos bits: 0+0 = 0; 0+1 = 1+0 = 1 y 1+1 =10<sub>2)</sub>.</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Como siempre que generamos un circuito digital, necesitamos trasladar estos resultados o condiciones a una tabla de verdad. Es la siguiente:</span><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"></span></p>
+<table border="1" style="width: 39.0173%; margin-left: auto; margin-right: auto;" class="exe-table">
+<tbody>
+<tr>
+<td style="width: 7.02381%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">A</span></strong></td>
+<td style="width: 6.25001%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">B</span></strong></td>
+<td style="width: 7.20239%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Suma</span></strong></td>
+<td style="width: 18.5529%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Carry out</span></strong></td>
+</tr>
+<tr>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+</tr>
+<tr>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+</tr>
+<tr>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+</tr>
+<tr>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Para implementar estas tablas no es necesaria simplificación, y obtenemos:</span></p>
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><img src="semisumador.png" width="805" height="190" style="display: block; margin-left: auto; margin-right: auto;" title="Circuito semisumador en Digital" /></span></p>
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">(observa que la columna suma se corresponde con la puerta <a href="46_puerta_xor_u_orex.html">OR exclusiva</a>, por eso la hemos utilizado).</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Puedes descargar el archivo en formato .dig (aplicación Digital) para comprobar su funcionamiento en <a href="Semisumador.dig">este enlace</a>.</span></p>
+</div>
+</div>
+</div>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
