@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Control con el driver L293D </title>
+<title>Control con el driver L293D | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+	</head>
 <body class="exe-web-site" id="exe-node-28"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -116,6 +117,7 @@
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -152,7 +154,7 @@
    <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
    <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -166,10 +168,10 @@
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Control con el driver L293D</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id125">
+<div class="iDevice_wrapper FreeTextIdevice" id="id135">
 <div class="iDevice emphasis0">
-<div id="ta125_85" class="block iDevice_content">
-<p>El integrado L293D es uno de los más utilizados en el control de motores de corriente continua.<img src="circuito-integrado-L293D.jpg" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;" title="Aspecto de un L293D comercial" /></p>
+<div id="ta135_85" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El integrado L293D es uno de los más utilizados en el control de motores de corriente continua.<img src="circuito-integrado-L293D.jpg" width="600" height="400" style="display: block; margin-left: auto; margin-right: auto;" title="Aspecto de un L293D comercial" /></span></p>
 <p></p>
 </div>
 </div>
@@ -182,93 +184,93 @@
 <div id="ta119_42_2" class="block iDevice_content">
 <p style="text-align: center;"><img src="pins_diagram_l293d.jpg" width="497" height="420" /></p>
 <p style="text-align: center;"></p>
-<p>Tiene dieciséis patillas, cuya distribución te doy en la tabla siguiente:</p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Tiene dieciséis patillas, cuya distribución te doy en la tabla siguiente:</span></p>
 <table border="1" align="center" cellpadding="1" cellspacing="1" style="width: 487px; height: 439px;">
 <tbody>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;"><strong>NÚMERO</strong></span></td>
-<td style="text-align: center;"><span style="font-size: medium;"><strong>NOMBRE</strong></span></td>
-<td style="text-align: center;"><span style="font-size: medium;"><strong>FUNCIÓN</strong></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>NÚMERO</strong></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>NOMBRE</strong></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>FUNCIÓN</strong></span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">1</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">1,2 EN</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Activa las líneas 1 y 2</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1,2 EN</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Activa las líneas 1 y 2</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">2</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">1A</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Entrada 1</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">2</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1A</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Entrada 1</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">3</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">1Y</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Salida 1</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">3</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1Y</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Salida 1</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">4</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">GND</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Masa</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">4</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">GND</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Masa</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">5</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">GND</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Masa</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">5</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">GND</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Masa</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">6</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">2Y</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Salida 2</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">6</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">2Y</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Salida 2</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">7</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">2A</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Entrada 2</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">7</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">2A</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Entrada 2</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">8</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">V<sub>m<br /></sub></span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Alimentación del motor</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">8</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">V<sub>m<br /></sub></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Alimentación del motor</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">9</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">3,4 EN</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Activa las líneas 3 y 4</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">9</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">3,4 EN</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Activa las líneas 3 y 4</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">10</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">3A</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Entrada 3</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">10</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">3A</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Entrada 3</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">11</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">3Y</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Salida 3</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">11</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">3Y</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Salida 3</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">12</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">GND</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Masa</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">12</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">GND</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Masa</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">13</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">GND</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Masa</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">13</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">GND</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Masa</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">14</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">4Y</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Salida 4</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">14</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">4Y</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Salida 4</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">15</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">4A</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Entrada 4</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">15</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">4A</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Entrada 4</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">16</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">V<sub>cc</sub></span></td>
-<td style="text-align: center;"><span style="font-size: medium;">Alimentación del circuito integrado<br /></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">16</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">V<sub>cc</sub></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Alimentación del circuito integrado<br /></span></td>
 </tr>
 </tbody>
 </table>
@@ -277,78 +279,78 @@
 </div>
 </div>
 </div>
-<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id123">
+<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id136">
 <div class="iDevice emphasis1" >
 <div class="iDevice_header"><h2 class="iDeviceTitle">TABLA DE VERDAD DEL CIRCUITO</h2></div>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta123_43_2" class="block iDevice_content">
+<div id="ta136_43_2" class="block iDevice_content">
 <table border="1" cellpadding="1" cellspacing="1" align="center" style="width: 298px; height: 121px;">
 <tbody>
 <tr>
-<td colspan="2" style="text-align: center;"><strong><span style="font-size: medium;">INPUTS</span></strong></td>
-<td style="text-align: center;"><strong><span style="font-size: medium;">OUTPUT</span></strong></td>
+<td colspan="2" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>INPUTS</strong></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>OUTPUT</strong></span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><em><strong><span style="font-size: medium;">A</span></strong></em></td>
-<td style="text-align: center;"><em><strong><span style="font-size: medium;">EN</span></strong></em></td>
-<td style="text-align: center;"><em><strong><span style="font-size: medium;">Y</span></strong></em></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><em><strong>A</strong></em></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><em><strong>EN</strong></em></span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><em><strong>Y</strong></em></span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">ALTO</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">ALTO</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">ALTO</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">ALTO</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">ALTO</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">ALTO</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">BAJO</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">ALTO</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">BAJO</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">BAJO</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">ALTO</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">BAJO</span></td>
 </tr>
 <tr>
-<td style="text-align: center;"><span style="font-size: medium;">X</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">BAJO</span></td>
-<td style="text-align: center;"><span style="font-size: medium;">ALTA IMPEDANCIA</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">X</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">BAJO</span></td>
+<td style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">ALTA IMPEDANCIA</span></td>
 </tr>
 </tbody>
 </table>
-<p>Teniendo en cuenta esto, conectaremos los dos terminales de nuestro motor a las líneas 1 y 2 del L293D, por ejemplo.</p>
-<p>Si hacemos eso, podremos poner los terminales 1A y 2A en 0 ó en 1, lo cual producirá el siguiente efecto (siempre que EN 1,2 esté habilitada):</p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Teniendo en cuenta esto, conectaremos los dos terminales de nuestro motor a las líneas 1 y 2 del L293D, por ejemplo.</span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Si hacemos eso, podremos poner los terminales 1A y 2A en 0 ó en 1, lo cual producirá el siguiente efecto (siempre que EN 1,2 esté habilitada):</span></p>
 <table border="1" cellpadding="1" cellspacing="1" align="center" style="width: 334px; height: 118px;">
 <tbody>
 <tr>
-<td align="center" valign="middle"><strong><span style="font-size: medium;">1A</span></strong></td>
-<td align="center" valign="middle"><strong><span style="font-size: medium;">1Y</span></strong></td>
-<td align="center" valign="middle"><strong><span style="font-size: medium;">2A</span></strong></td>
-<td align="center" valign="middle"><strong><span style="font-size: medium;">2Y</span></strong></td>
-<td align="center" valign="middle"><strong><span style="font-size: medium;">MOTOR</span></strong></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>1A</strong></span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>1Y</strong></span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>2A</strong></span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>2Y</strong></span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>MOTOR</strong></span></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">PARO</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">PARO</span></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">GIRO A DERECHAS</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">GIRO A DERECHAS</span></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">0</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">GIRO A IZQUIERDAS</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">GIRO A IZQUIERDAS</span></td>
 </tr>
 <tr>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">1</span></td>
-<td align="center" valign="middle"><span style="font-size: medium;">PARO</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td align="center" valign="middle"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">PARO</span></td>
 </tr>
 </tbody>
 </table>
@@ -365,4 +367,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

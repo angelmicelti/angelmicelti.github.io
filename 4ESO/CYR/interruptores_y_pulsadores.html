@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Interruptores y pulsadores </title>
+<title>Interruptores y pulsadores | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-<body class="exe-web-site" id="exe-node-25"><script type="text/javascript">document.body.className+=" js"</script>
+	</head>
+<body class="exe-web-site" id="exe-node-86"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li id="active"><a href="interruptores_y_pulsadores.html" class="active daddy">Interruptores y pulsadores</a>
       <ul>
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -116,6 +117,7 @@
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -152,7 +154,7 @@
    <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
    <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -166,58 +168,108 @@
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Interruptores y pulsadores</h1></div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id30">
+<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id127">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Interruptor</h2></div>
+<div class="iDevice_header"><h2 class="iDeviceTitle">Interruptores</h2></div>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta30_41_2" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;">Evidentemente, el interruptor que llevamos conociendo tanto tiempo constituye un elemento de control. Vamos a analizarlo con un poco más de detenimiento:</span></p>
-<ul>
-<li style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;">Se llama <strong>polo</strong> al punto por donde entra la corriente al interruptor.</span></li>
-<li style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;">Se llama <strong>contacto</strong> al punto por el que sale la corriente.</span></li>
-</ul>
-<p><span style="font-size: small; font-family: verdana, geneva;">Según esto, podemos encontrar los siguiente tipos de interruptores:</span></p>
-<table border="0" align="center">
+<div id="ta127_240_2" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Son componentes esenciales en la <strong>activación</strong> o <strong>desactivación</strong> de los circuitos electrónicos. Tenemos los siguientes tipos:</span></p>
+<table style="width: 100%; margin-left: auto; margin-right: auto;" border="2">
 <tbody>
 <tr>
-<td style="text-align: center;"><strong>UPUD</strong></td>
-<td style="text-align: center;"><strong>UPDD</strong></td>
-<td style="text-align: center;"><strong>DPUD</strong></td>
-<td style="text-align: center;"><strong>DPDD</strong></td>
+<td width="122" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><strong><em>UPUD (SPST)</em></strong></span></p>
+</td>
+<td width="133" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><strong><em>UPDD (SPDT)</em></strong></span></p>
+</td>
+<td width="132" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><strong><em>DPUD (DPST)</em></strong></span></p>
+</td>
+<td width="137" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><strong><em>DPDD (DPDT)</em></strong></span></p>
+</td>
 </tr>
 <tr>
-<td style="text-align: center;"><strong><img src="upud.jpg" width="81" height="64" title="Un Polo, Una Dirección" /></strong></td>
-<td style="text-align: center;"><strong><img src="updd.jpg" width="81" height="80" title="Un polo, Dos Direcciones" /></strong></td>
-<td style="text-align: center;"><strong><img src="dpud.jpg" width="81" height="80" title="Dos Polos, Una Dirección" /></strong></td>
-<td style="text-align: center;"><img src="dpdd.jpg" width="81" height="112" title="Dos Polos, Dos Direcciones" /></td>
+<td width="122" style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><img src="upud.jpg" width="81" height="64" title="Interruptor UPUD" /></span></td>
+<td width="133" style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><img src="updd.jpg" width="81" height="80" title="Interruptor UPDD" /></span></td>
+<td width="132" style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><img src="dpud.jpg" width="81" height="80" title="Interruptor DPUD" /></span></td>
+<td width="137" style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><img src="dpdd.jpg" alt="" title="Interruptor DPDD (DPDT)" width="81" height="112" /></span></td>
+</tr>
+<tr>
+<td width="122" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Un Polo, Una Dirección</span></p>
+</td>
+<td width="133" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Un Polo, Dos Direcciones</span></p>
+</td>
+<td width="132" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Dos Polos, Una Dirección</span></p>
+</td>
+<td width="137" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Dos Polos, Dos Direcciones</span></p>
+</td>
+</tr>
+<tr>
+<td width="122" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><em>(Single Pole, Single Throw)</em></span></p>
+</td>
+<td width="133" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><em>(Single Pole, Double Throw)</em></span></p>
+</td>
+<td width="132" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><em>(Double Pole, Single Throw)</em></span></p>
+</td>
+<td width="137" style="text-align: center;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><em>(Double Pole, Double Throw)</em></span></p>
+</td>
 </tr>
 </tbody>
 </table>
-<p style="text-align: justify;"></p>
-<p style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;">Nota: Una dirección son los posibles caminos por los que puede pasar corriente una vez que acciones el interruptor, cuando, según como esté accionado el interruptor, hay un camino por el que pasa la corriente, y otro camino se queda desconectado, se dice que tiene dos direcciones.</span><br /><span style="font-size: small; font-family: verdana, geneva;">Cuando al accionar el interruptor, todos los posibles caminos quedan conectados, y no se queda ninguno suelto, se dice que tiene una dirección.</span></p>
-<p style="text-align: justify;"><span style="font-size: small; line-height: 1.5; text-align: left; font-family: verdana, geneva;">Según si en su posición inicial dejan pasar o no corriente, se designan del siguiente modo:</span></p>
 <ul>
-<li><span style="font-size: small; font-family: verdana, geneva;"><strong>Normalmente abierto</strong> (N.A.), que no dejan pasar la corriente.</span></li>
-<li><span style="font-size: small; font-family: verdana, geneva;"><strong>Normalmente cerrado</strong> (N.C.), que sí dejan pasar la corriente.</span></li>
+<li style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Se llama <strong><em>polo</em></strong> al punto por donde entra la corriente al interruptor.</span></li>
+<li style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Se llama <strong><em>contacto</em></strong> al punto por el que sale la corriente.</span></li>
+<li style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><strong><em>Dirección</em></strong> es el posible camino por el que puede pasar corriente una vez accionado el interruptor. Cuando al accionarlo, todos los caminos quedan conectados, se dice que tiene <strong><em>una dirección</em></strong>. Si hay un camino por el que pasa la corriente, y otro queda desconectado, tiene <strong><em>dos direcciones.</em></strong></span></li>
 </ul>
-<table border="0" align="center" class="exe-col-1">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">A los interruptores de dos direcciones se les suele llamar habitualmente <strong><em>conmutadores.</em></strong></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id128">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Pulsadores</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta128_241_2" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 10pt;">Un <strong>pulsador</strong> es un componente que deja pasar la corriente o la interrumpe sólo cuando se actúa sobre él. Según esto, se llaman del siguiente modo:</span></p>
+<table style="height: 155px; width: 50%; margin-left: auto; margin-right: auto;" border="2">
 <tbody>
-<tr>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><strong>INTERRUPTOR N.A.</strong></span></td>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><strong>INTERRUPTOR N.C.</strong></span></td>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><strong>PULSADOR N.A.</strong></span></td>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><strong>PULSADOR N.C.</strong></span></td>
+<tr style="height: 46px;">
+<td colspan="2" width="206" style="text-align: center; height: 46px;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 10pt;"><strong><em>TIPOS DE PULSADORES</em></strong></span></p>
+</td>
 </tr>
-<tr>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><img src="upud.jpg" width="81" height="64" title="interruptor normalmente abierto" /></span></td>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><img src="inc.jpg" width="81" height="64" title="interruptor normalmente cerrado" /></span></td>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><img src="pna.jpg" width="81" height="60" title="pulsador normalmente abierto" /></span></td>
-<td style="text-align: center;"><span style="font-size: small; font-family: verdana, geneva;"><img src="pnc.jpg" width="81" height="62" title="pulsador normalmente cerrado" /></span></td>
+<tr style="height: 46px;">
+<td width="103" style="text-align: center; height: 46px;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 10pt;"><strong><em>Pulsador N.A.</em></strong></span></p>
+</td>
+<td width="103" style="text-align: center; height: 46px;">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 10pt;"><strong><em>Pulsador N.C.</em></strong></span></p>
+</td>
+</tr>
+<tr style="height: 63px;">
+<td width="103" style="text-align: center; height: 63px;"><span style="font-size: 10pt; font-family: verdana, geneva, sans-serif;"><img src="pna.jpg" alt="" title="Pulsador normalmente abierto (NA)" width="81" height="60" /><img src="PulsNA.jpg" alt="" title="Pulsador NA" width="81" height="60" /></span></td>
+<td width="103" style="text-align: center; height: 63px;"><img src="PulsNC.jpg" alt="" title="Pulsador NC" width="81" height="62" /><span style="font-size: 10pt; font-family: verdana, geneva, sans-serif;"><img src="pnc.jpg" alt="" title="Pulsador normalmente cerrado (NC)" width="81" height="62" /></span></td>
 </tr>
 </tbody>
 </table>
-<p></p>
+<ul>
+<li style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><strong>Normalmente abierto</strong> (N.A.), que no deja pasar la corriente hasta que no se actúa sobre él.</span></li>
+<li style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><strong>Normalmente cerrado</strong> (N.C.), que sí deja pasar la corriente y abre el circuito al actuar sobre él.</span></li>
+</ul>
 <p style="text-align: justify;"></p>
 </div>
 </div>
@@ -232,4 +284,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

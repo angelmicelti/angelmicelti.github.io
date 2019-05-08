@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>5.3. Arquitectura de un robot </title>
+<title>5.3. Arquitectura de un robot | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+	</head>
 <body class="exe-web-site" id="exe-node-21"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -116,6 +117,7 @@
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -152,7 +154,7 @@
    <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
    <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -169,13 +171,13 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id35">
 <div class="iDevice emphasis0">
 <div id="ta35_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;"><img src="control-y-robtica-12-728.jpg" width="642" height="353" title="arquitectura de un robot" style="float: right; margin-left: 10px; margin-right: 10px;" />Los robots tienen las siguientes unidades funcionales:</span></p>
+<p style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;"><img src="control-y-robtica-12-728.jpg" width="642" height="353" title="arquitectura de un robot" style="float: right; margin-left: 10px; margin-right: 10px;" /><span style="font-size: 12pt;">Los robots tienen las siguientes unidades funcionales:</span></span></p>
 <ul>
-<li style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;"><b>Sensores:</b> miden magnitudes físicas (velocidad, temperatura, humedad) y los transforman en magnitudes eléctricas. Dentro del robot hay dos tipos de sensores: los que se ocupan del estado interno de la máquina y los que se ocupan del entorno. Equivalen a los sentidos.<b></b></span></li>
-<li style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;"><b>Actuadores:</b> reciben las órdenes desde el controlador y efectúan movimientos. Los más habituales son motores, relés o accionadores hidráulicos o neumáticos. Equivalen a los músculos.<b></b></span></li>
-<li style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;"><b>Estructura:</b> es la que conforma la apariencia del robot, y la que permite realizar sus tareas y soportar los esfuerzos que sufra. En nuestro símil, equivale al propio cuerpo.</span></li>
-<li style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;"><b>Alimentación: </b>proporciona la energía para el funcionamiento de todo el sistema. Suelen ser baterías o placas fotovoltaicas, para garantizar autonomía.<b></b></span></li>
-<li style="text-align: justify;"><span style="font-size: small; font-family: verdana, geneva;"><b>Unidad de control:</b> dirige el trabajo de los actuadores. La entrada es la información obtenida de los sensores. La salida está formada por las órdenes eléctricas enviadas a los actuadores (paro/puesta en marcha). La mayor parte de los robots están controlados por ordenadores. Equivale, pues al cerebro.</span><b></b></li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva;"><b>Sensores:</b> miden magnitudes físicas (velocidad, temperatura, humedad) y los transforman en magnitudes eléctricas. Dentro del robot hay dos tipos de sensores: los que se ocupan del estado interno de la máquina y los que se ocupan del entorno. Equivalen a los sentidos.<b></b></span></li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva;"><b>Actuadores:</b> reciben las órdenes desde el controlador y efectúan movimientos. Los más habituales son motores, relés o accionadores hidráulicos o neumáticos. Equivalen a los músculos.<b></b></span></li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva;"><b>Estructura:</b> es la que conforma la apariencia del robot, y la que permite realizar sus tareas y soportar los esfuerzos que sufra. En nuestro símil, equivale al propio cuerpo.</span></li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva;"><b>Alimentación: </b>proporciona la energía para el funcionamiento de todo el sistema. Suelen ser baterías o placas fotovoltaicas, para garantizar autonomía.<b></b></span></li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva;"><b>Unidad de control:</b> dirige el trabajo de los actuadores. La entrada es la información obtenida de los sensores. La salida está formada por las órdenes eléctricas enviadas a los actuadores (paro/puesta en marcha). La mayor parte de los robots están controlados por ordenadores. Equivale, pues al cerebro.</span><b></b></li>
 </ul>
 </div>
 </div>
@@ -188,4 +190,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

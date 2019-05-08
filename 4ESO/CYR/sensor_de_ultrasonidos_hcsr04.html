@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Sensor de ultrasonidos HC-SR04 </title>
+<title>Sensor de ultrasonidos HC-SR04 | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+	</head>
 <body class="exe-web-site" id="exe-node-60"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -116,6 +117,7 @@
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -152,7 +154,7 @@
    <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
    <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -174,18 +176,18 @@
 <div id="ta71_177_2" class="block iDevice_content">
 <p style="text-align: center;"><img src="hcsr04.png" width="501" height="296" /></p>
 <p></p>
-<p style="text-align: justify;">Un sensor de ultra sonidos es un dispositivo para medir distancias. Su funcionamiento se base en el envío de un pulso de alta frecuencia, no audible por el ser humano. Este pulso rebota en los objetos cercanos y es reflejado hacia el sensor, que dispone de un micrófono adecuado para esa frecuencia.</p>
-<p style="text-align: justify;">Midiendo el tiempo entre pulsos, conociendo la velocidad del sonido, podemos estimar la distancia del objeto contra cuya superficie impacto el impulso de ultrasonidos</p>
-<p style="text-align: justify;">Los sensores de ultrasonidos son sensores baratos, y sencillos de usar. El rango de medición teórico del sensor HC-SR04 es de 2cm a 400 cm, con una resolución de 0.3 cm. En la práctica, sin embargo, el rango de medición real es mucho más limitado, en torno a 20 cm a 2 metros.</p>
-<p style="text-align: justify;">Los sensores de ultrasonidos son sensores de baja precisión. La orientación de la superficie a medir puede provocar que la onda se refleje, falseando la medición. Además, no resultan adecuados en entornos con gran número de objetos, dado que el sonido rebota en las superficies generando ecos y falsas mediciones. Tampoco son apropiados para el funcionamiento en el exterior y al aire libre.</p>
-<p style="text-align: justify;">Pese a esta baja precisión, que impide conocer con precisión la distancia a un objeto, los sensores de ultrasonidos son ampliamente empleados. En robótica es habitual montar uno o varios de estos sensores, por ejemplo, para detección de obstáculos, determinar la posición del robot, crear mapas de entorno, o resolver laberintos.</p>
-<p style="text-align: justify;">En aplicaciones en que se requiera una precisión superior en la medición de la distancia, suelen acompañarse de medidores de distancia por infrarrojos y sensores ópticos.</p>
-<p><strong>¿CÓMO FUNCIONA UN SENSOR DE ULTRASONIDOS?</strong><br />El sensor se basa simplemente en medir el tiempo entre el envío y la recepción de un pulso sonoro. Sabemos que la velocidad del sonido es 343 m/s en condiciones de temperatura 20 ºC, 50% de humedad, presión atmosférica a nivel del mar. Transformando unidades resulta:</p>
-<p style="text-align: center;"><img src="quicklatex.com-83780eae753d9e35a70b0ebb4f6803fa_l3.png" alt="" width="309" height="29" /></p>
-<p>Es decir, el sonido tarda 29,2 microsegundos en recorrer un centímetro. Por tanto, podemos obtener la distancia a partir del tiempo entre la emisión y recepción del pulso mediante la siguiente ecuación.</p>
-<p style="text-align: center;"><img src="quicklatex.com-9819e4766edeb37d3571e0b9656bd98d_l3.png" alt="" width="254" height="29" /></p>
-<p>El motivo de dividir por dos el tiempo (además de la velocidad del sonido en las unidades apropiadas, que hemos calculado antes) es porque hemos medido el tiempo que tarda el pulso en ir y volver, por lo que la distancia recorrida por el pulso es el doble de la que queremos medir.</p>
-<p style="text-align: center;"><img src="sensor-ultrasonico-explicacion.png" width="307" height="207" /></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Un sensor de ultrasonidos es un dispositivo para medir distancias. Su funcionamiento se base en el envío de un pulso de alta frecuencia, no audible por el ser humano. Este pulso rebota en los objetos cercanos y es reflejado hacia el sensor, que dispone de un micrófono adecuado para esa frecuencia.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Midiendo el tiempo entre pulsos, conociendo la velocidad del sonido, podemos estimar la distancia del objeto contra cuya superficie impacto el impulso de ultrasonidos</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Los sensores de ultrasonidos son sensores baratos, y sencillos de usar. El rango de medición teórico del sensor HC-SR04 es de 2cm a 400 cm, con una resolución de 0.3 cm. En la práctica, sin embargo, el rango de medición real es mucho más limitado, en torno a 20 cm a 2 metros.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Los sensores de ultrasonidos son sensores de baja precisión. La orientación de la superficie a medir puede provocar que la onda se refleje, falseando la medición. Además, no resultan adecuados en entornos con gran número de objetos, dado que el sonido rebota en las superficies generando ecos y falsas mediciones. Tampoco son apropiados para el funcionamiento en el exterior y al aire libre.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Pese a esta baja precisión, que impide conocer con precisión la distancia a un objeto, los sensores de ultrasonidos son ampliamente empleados. En robótica es habitual montar uno o varios de estos sensores, por ejemplo, para detección de obstáculos, determinar la posición del robot, crear mapas de entorno, o resolver laberintos.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En aplicaciones en que se requiera una precisión superior en la medición de la distancia, suelen acompañarse de medidores de distancia por infrarrojos y sensores ópticos.</span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>¿CÓMO FUNCIONA UN SENSOR DE ULTRASONIDOS?</strong></span><br /><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El sensor se basa simplemente en medir el tiempo entre el envío y la recepción de un pulso sonoro. Sabemos que la velocidad del sonido es 343 m/s en condiciones de temperatura 20 ºC, 50% de humedad, presión atmosférica a nivel del mar. Transformando unidades resulta:</span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="quicklatex.com-83780eae753d9e35a70b0ebb4f6803fa_l3.png" alt="" width="309" height="29" /></span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Es decir, el sonido tarda 29,2 microsegundos en recorrer un centímetro. Por tanto, podemos obtener la distancia a partir del tiempo entre la emisión y recepción del pulso mediante la siguiente ecuación.</span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="quicklatex.com-9819e4766edeb37d3571e0b9656bd98d_l3.png" alt="" width="254" height="29" /></span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El motivo de dividir por dos el tiempo (además de la velocidad del sonido en las unidades apropiadas, que hemos calculado antes) es porque hemos medido el tiempo que tarda el pulso en ir y volver, por lo que la distancia recorrida por el pulso es el doble de la que queremos medir.</span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="sensor-ultrasonico-explicacion.png" width="307" height="207" /></span></p>
 </div>
 </div>
 </div>
@@ -199,4 +201,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Sensor de efecto Hall </title>
+<title>Sensor de efecto Hall | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+	</head>
 <body class="exe-web-site" id="exe-node-79"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -116,6 +117,7 @@
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -152,7 +154,7 @@
    <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
    <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -170,22 +172,22 @@
 <div class="iDevice emphasis0">
 <div id="ta106_85" class="block iDevice_content">
 <p style="text-align: center;"><img src="hall.JPG" alt="Sensor de efecto Hall" width="300" height="300" /></p>
-<p style="text-align: justify;">Un sensor Hall es un dispositivo que nos permite realizar mediciones de campo magnético.</p>
-<p style="text-align: justify;">Los sensores Hall son ampliamente utilizados. Por ejemplo, en la industria del automóvil se usan para funciones tan dispares como para el accionamiento de los cinturones de seguridad, o la medición de la posición del árbol de levas. También se usan para medir velocidades de fluidos, detección de metales, factores de inducción, entre otras muchas aplicaciones.</p>
-<p style="text-align: justify;">Una ventaja importante de los sensores Hall es que realizan la medición a distancia, sin necesidad de contacto físico. Aunque su alcance es limitado (típicamente pocos centímetros) esto supone que apenas presentan desgaste mecánico. Además son inmunes a ruidos y polvo. Esto los convierte en sensores fiables y duraderos.</p>
-<p style="text-align: justify;">En general, encontramos dos tipos de sensores Hall:</p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Un sensor Hall es un dispositivo que nos permite realizar mediciones de campo magnético.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Los sensores Hall son ampliamente utilizados. Por ejemplo, en la industria del automóvil se usan para funciones tan dispares como para el accionamiento de los cinturones de seguridad, o la medición de la posición del árbol de levas. También se usan para medir velocidades de fluidos, detección de metales, factores de inducción, entre otras muchas aplicaciones.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Una ventaja importante de los sensores Hall es que realizan la medición a distancia, sin necesidad de contacto físico. Aunque su alcance es limitado (típicamente pocos centímetros) esto supone que apenas presentan desgaste mecánico. Además son inmunes a ruidos y polvo. Esto los convierte en sensores fiables y duraderos.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En general, encontramos dos tipos de sensores Hall:</span></p>
 <ul>
-<li style="text-align: justify;"><strong>Analógicos</strong>. Generan una salida proporcional a la intensidad del campo magnético. Empleados para medir la intensidad de un campo magnético</li>
-<li style="text-align: justify;"><strong>Digitales</strong>. Proporcionan un valor Alto en presencia de campo magnético, y bajo en ausencia del mismo. Por tanto, son empleados para detectar la existencia de campos magnéticos. A su vez se dividen en:
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>Analógicos</strong>. Generan una salida proporcional a la intensidad del campo magnético. Empleados para medir la intensidad de un campo magnético</span></li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>Digitales</strong>. Proporcionan un valor Alto en presencia de campo magnético, y bajo en ausencia del mismo. Por tanto, son empleados para detectar la existencia de campos magnéticos. A su vez se dividen en:</span>
 <ul>
-<li style="text-align: justify;"><em><strong>Switch</strong></em>, se activan al acercar el polo, y se desactivan al retirar el polo</li>
-<li style="text-align: justify;"><em><strong>Latch</strong></em>, se activan al acercar un polo, y mantienen su valor hasta que se acerca un polo contrario</li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><em><strong>Switch</strong></em>, se activan al acercar el polo, y se desactivan al retirar el polo</span></li>
+<li style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><em><strong>Latch</strong></em>, se activan al acercar un polo, y mantienen su valor hasta que se acerca un polo contrario</span></li>
 </ul>
 </li>
 </ul>
 <p></p>
-<p>Un sensor Hall A3144 como el que recogemos aquí es de tipo digital Switch. Podemos emplear este sensor para detectar la presencia de un objeto, al que previamente habremos colocado un pequeño imán, o para fabricar tacómetros (contadores de revoluciones) simplemente acoplando un pequeño imán de neodimio al eje.</p>
-<p style="text-align: center;"><img src="arduino-hall-esquema.png" alt="" width="400" height="320" /></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Un sensor Hall A3144 como el que recogemos aquí es de tipo digital Switch. Podemos emplear este sensor para detectar la presencia de un objeto, al que previamente habremos colocado un pequeño imán, o para fabricar tacómetros (contadores de revoluciones) simplemente acoplando un pequeño imán de neodimio al eje.</span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="arduino-hall-esquema.png" alt="" width="400" height="320" /></span></p>
 <p></p>
 </div>
 </div>
@@ -198,4 +200,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

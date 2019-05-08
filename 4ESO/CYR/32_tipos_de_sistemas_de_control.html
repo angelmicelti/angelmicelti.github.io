@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>3.2. Tipos de sistemas de control </title>
+<title>3.2. Tipos de sistemas de control | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+	</head>
 <body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -116,6 +117,7 @@
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -152,7 +154,7 @@
    <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
    <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -169,7 +171,7 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id10">
 <div class="iDevice emphasis0">
 <div id="ta10_85" class="block iDevice_content">
-<p><span style="font-size: small; font-family: verdana, geneva;">Hay dos tipos principales de sistemas de control: en <b>lazo abierto</b> y en <b>lazo cerrado.</b></span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva;">Hay dos tipos principales de sistemas de control: en <b>lazo abierto</b> y en <b>lazo cerrado.</b></span></p>
 </div>
 </div>
 </div>
@@ -179,8 +181,8 @@
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta9_49_2" class="block iDevice_content">
-<p><span style="font-size: small; font-family: verdana, geneva;">En ellos no se tiene en cuenta el estado de la salida para realizar el proceso de control. Sistemas de este tipo son, por ejemplo, todos los programados: lavavajillas, lavadora, temporizador del horno, temporizador del microondas. También pertenecería a este grupo, por ejemplo, una estufa sin termostato.</span></p>
-<p><img src="lazo_abierto.png" width="721" height="107" title="esquema de un sistema de control en lazo abierto" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva;">En ellos no se tiene en cuenta el estado de la salida para realizar el proceso de control. Sistemas de este tipo son, por ejemplo, todos los programados: lavavajillas, lavadora, temporizador del horno, temporizador del microondas. También pertenecería a este grupo, por ejemplo, una estufa sin termostato.</span></p>
+<p><span style="font-size: 12pt;"><img src="lazo_abierto.png" width="721" height="107" title="esquema de un sistema de control en lazo abierto" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
 </div>
 </div>
 </div>
@@ -192,7 +194,7 @@
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta11_51_2" class="block iDevice_content">
-<p><span style="font-family: verdana, geneva; font-size: small;">En ellos se compara la salida con la entrada para corregir posibles perturbaciones en el sistema. Este proceso se llama <b>realimentación</b>. Ejemplos: cisterna de un inodoro, control de la temperatura del cuerpo humano, conducción con automóvil, sistemas automáticos de iluminación, sistemas de calefacción o de aire acondicionado con termostato, etc.</span><img src="lazo_cerrado.png" width="740" height="226" title="esquema de un sistema de control en lazo cerrado" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><span style="font-size: 12pt;"><span style="font-family: verdana, geneva;">En ellos se compara la salida con la entrada para corregir posibles perturbaciones en el sistema. Este proceso se llama <b>realimentación</b>. Ejemplos: cisterna de un inodoro, control de la temperatura del cuerpo humano, conducción con automóvil, sistemas automáticos de iluminación, sistemas de calefacción o de aire acondicionado con termostato, etc.</span><img src="lazo_cerrado.png" width="740" height="226" title="esquema de un sistema de control en lazo cerrado" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
 </div>
 </div>
 </div>
@@ -206,4 +208,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

@@ -7,8 +7,8 @@ var myTheme = {
                 myTheme.reset();
             });
         },1000);
-        var l = $('<p id="nav-toggler"><a href="#" onclick="myTheme.toggleMenu(this)" class="hide-nav" id="toggle-nav" title="'+$exe_i18n.hide+'"><span>'+$exe_i18n.menu+'</span></a></p>');
-        $("#siteNav").before(l);
+        var l = $('<span id="nav-toggler"><a href="#" onclick="myTheme.toggleMenu(this)" class="hide-nav" id="toggle-nav" title="'+$exe_i18n.hide+'"><span>'+$exe_i18n.menu+'</span></a><span class="sep"> |</span> </span>');
+        $("#topPagination .pagination").prepend(l);
         var url = window.location.href;
         url = url.split("?");
         if (url.length>1){
@@ -29,7 +29,7 @@ var myTheme = {
         
         var l = $("#toggle-nav");
         
-        if (!e && $(window).width()<900 && l.css("display")!='none') return false; // No reset in mobile view
+        if (!e && $(window).width()<790 && l.css("display")!='none') return false; // No reset in mobile view
         if (!e) l.attr("class","show-nav").attr("title",$exe_i18n.show); // Reset
         
         myTheme.isToggling = true;

@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Display de 7 segmentos </title>
+<title>Display de 7 segmentos | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-<body class="exe-web-site" id="exe-node-23"><script type="text/javascript">document.body.className+=" js"</script>
+	</head>
+<body class="exe-web-site" id="exe-node-87"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -111,11 +112,12 @@
       <li><a href="sensor_de_efecto_hall.html" class="no-ch">Sensor de efecto Hall</a></li>
    </ul>
    </li>
-   <li><a href="7_actuadores.html" class="daddy">7. Actuadores</a>
-   <ul class="other-section">
-      <li><a href="led.html" class="daddy">LED</a>
-      <ul class="other-section">
+   <li class="current-page-parent"><a href="7_actuadores.html" class="current-page-parent daddy">7. Actuadores</a>
+   <ul>
+      <li class="current-page-parent"><a href="led.html" class="current-page-parent daddy">LED</a>
+      <ul>
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li id="active"><a href="display_de_7_segmentos.html" class="active no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -149,10 +151,10 @@
       <li><a href="buzzer.html" class="no-ch">Buzzer</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="proyectos_para_el_aula.html" class="current-page-parent daddy">Proyectos para el aula</a>
-   <ul>
+   <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
+   <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li id="active"><a href="display_de_7_segmentos.html" class="active no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -160,44 +162,19 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="semforo_con_bote_programador.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="otros.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="led_rgb.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="rels.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Display de 7 segmentos</h1></div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id31">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Display de 7 segmentos</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta31_41_2" class="block iDevice_content">
-<p>Recuerda que los primeros ordenadores y máquinas automáticas recibían instrucciones codificadas en <b>tarjetas perforadas.</b> Podemos aplicar esta técnica para el control de determinados sistemas como, por ejemplo, un marcador luminoso (display) que indique números del 0 al 9 o las letras que quieras.</p>
-<p>Vamos a ver cómo indicar los números del 0 al 9. Para ello, en un rectángulo de cartulina, cartón o contrachapado podemos dibujar la siguiente trama, en la que se han indicado los contactos (filas) y los diferentes números que se pueden obtener (columnas)</p>
-<div align="center"></div>
-<p style="text-align: center;"> <img src="codificacion_display.png" width="779" height="286" title="tarjeta perforada codificadora de números" /></p>
-<p><img src="display.png" width="193" height="268" title="display con indicación de los segmentos" style="float: right; margin-left: 10px; margin-right: 10px;" /><span></span>Cada contacto controla una de las lámparas que se han colocado y numerado como indica la figura de la derecha.</p>
-<p>Las zonas sombreadas en gris son zonas que habremos eliminado de la tarjeta controladora, para que el contacto que se sitúe sobre ella pueda tocar sobre el material conductor que habremos colocado bajo la mencionada tarjeta, lo cual provocará, en ese caso, el encendido de la luz correspondiente.</p>
-<p>Un posible montaje de este proyecto es el que aparece en el croquis de la figura de abajo.</p>
-<p>¿Te animas a diseñar una tarjeta para codificar letras?</p>
-<p><img src="display.jpg" width="890" height="847" title="croquis del display" style="display: block; margin-left: auto; margin-right: auto;" /></p>
-<p></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id37">
+<div class="iDevice_wrapper FreeTextIdevice" id="id133">
 <div class="iDevice emphasis0">
-<div id="ta37_85" class="block iDevice_content">
-<p style="text-align: center;"><iframe width="640" height="360" src="https://www.youtube.com/embed/xwL4EoiB8II" frameborder="0" allowfullscreen=""></iframe></p>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id124">
-<div class="iDevice emphasis0">
-<div id="ta124_85" class="block iDevice_content">
-<p><img src="display.1.png" width="600" height="725" style="display: block; margin-left: auto; margin-right: auto;" title="Display realizado por Nuria Muñoz en el curso 2017-18" /></p>
+<div id="ta133_85" class="block iDevice_content">
+<p><img src="display-de-7-segmentos.jpg" alt="" title="Display de 7 segmentos" width="700" height="700" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Un display de 7 segmentos es un dispositivo que contiene siete (u ocho) ledes, y que nos permite visualizar caracteres alfanuméricos.</p>
+<p>Un ejemplo de codificación lo tenemos en la siguiente imagen:</p>
+<p><img src="im-display-7-segmentos-catodo-comun.jpg" alt="" title="Caracteres en un display de 7 segmentos" width="1004" height="625" /></p>
 </div>
 </div>
 </div>
@@ -205,8 +182,8 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="semforo_con_bote_programador.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="otros.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="led_rgb.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="rels.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>

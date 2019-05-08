@@ -5,19 +5,20 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>MPU-6050: 6DOF acelerómetro y giroscopio </title>
+<title>MPU-6050: 6DOF acelerómetro y giroscopio | Control y robótica </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
-<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+	</head>
 <body class="exe-web-site" id="exe-node-77"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="emptyHeader"></div>
+<div id="header" ><div id="headerContent">Control y robótica</div></div>
 <div id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
@@ -66,7 +67,7 @@
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
-         <li><a href="interruptores_tctiles_capacitivos.html" class="no-ch">Interruptores táctiles capacitivos</a></li>
+         <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       </ul>
       </li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
@@ -116,6 +117,7 @@
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+         <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
       </ul>
       </li>
       <li><a href="rels.html" class="daddy">Relés</a>
@@ -152,7 +154,7 @@
    <li><a href="proyectos_para_el_aula.html" class="daddy">Proyectos para el aula</a>
    <ul class="other-section">
       <li><a href="semforo_con_bote_programador.html" class="no-ch">Semáforo con bote programador</a></li>
-      <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
+      <li><a href="display_de_7_segmentos0.html" class="no-ch">Display de 7 segmentos</a></li>
       <li><a href="otros.html" class="no-ch">Otros</a></li>
    </ul>
    </li>
@@ -176,60 +178,60 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id98">
 <div class="iDevice emphasis0">
 <div id="ta98_85" class="block iDevice_content">
-<p style="text-align: justify;"><strong>Sensor Giroscópico</strong></p>
-<p style="text-align: justify;">Un giroscopio es un dispositivo que funciona para miden velocidades angulares basándose en el mantenimiento del impulso de rotación. Si intentamos hacer girar un objeto que está girando sobre un eje que no es el eje sobre el que está rotando, el objeto ejercerá un momento contrario al movimiento con el fin de preservar el impulso de rotación total.</p>
-<p style="text-align: justify;">El giroscopio muestra el cambio de rango en rotación en sus ejes X, Y y Z.</p>
-<p style="text-align: justify;"><strong>Acelerómetro</strong></p>
-<p style="text-align: justify;">Mide la aceleración, inclinación o vibración y transforma la magnitud física de aceleración en otra magnitud eléctrica que será la que emplearemos en los equipos de adquisición estándar. Los rangos de medida van desde las décimas de g, hasta los miles de g.</p>
-<p style="text-align: justify;"><strong>MPU-6050</strong></p>
-<p style="text-align: justify;">El circuito integrado MPU-6050 contiene un acelerómetro y giroscopio MEMS en un solo empaque. Cuenta con una resolución de 16-bits, lo cual significa que divide el rango dinámico en 65536 fracciones,  estos aplican para cada eje X, Y y Z al igual que en la velocidad angular. El sensor es ideal para diseñar control de robótica, medición de vibración, sistemas de medición inercial (IMU), detector de caídas, sensor de distancia y velocidad, y muchas cosas más. El MPU-6050 contiene un giroscópico, un acelerómetro, además de un sensor de temperatura, mediante I2C  regresa unos valores conocidos como raw o “crudos” según el registro seleccionado.</p>
-<p>A continuación se mostraron los rangos de escala y el valor máximo raw.</p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>Sensor Giroscópico</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Un giroscopio es un dispositivo que funciona para miden velocidades angulares basándose en el mantenimiento del impulso de rotación. Si intentamos hacer girar un objeto que está girando sobre un eje que no es el eje sobre el que está rotando, el objeto ejercerá un momento contrario al movimiento con el fin de preservar el impulso de rotación total.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El giroscopio muestra el cambio de rango en rotación en sus ejes X, Y y Z.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>Acelerómetro</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Mide la aceleración, inclinación o vibración y transforma la magnitud física de aceleración en otra magnitud eléctrica que será la que emplearemos en los equipos de adquisición estándar. Los rangos de medida van desde las décimas de g, hasta los miles de g.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>MPU-6050</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El circuito integrado MPU-6050 contiene un acelerómetro y giroscopio MEMS en un solo empaque. Cuenta con una resolución de 16-bits, lo cual significa que divide el rango dinámico en 65536 fracciones,  estos aplican para cada eje X, Y y Z al igual que en la velocidad angular. El sensor es ideal para diseñar control de robótica, medición de vibración, sistemas de medición inercial (IMU), detector de caídas, sensor de distancia y velocidad, y muchas cosas más. El MPU-6050 contiene un giroscópico, un acelerómetro, además de un sensor de temperatura, mediante I2C  regresa unos valores conocidos como raw o “crudos” según el registro seleccionado.</span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">A continuación se mostraron los rangos de escala y el valor máximo raw.</span></p>
 <table class=" table table-hover" style="margin-left: auto; margin-right: auto;">
 <tbody>
 <tr>
-<td width="196" style="text-align: center;">Rango De Escala Completa Giroscopio</td>
-<td width="123" style="text-align: center;">Sensibilidad del Giroscopio</td>
-<td width="149" style="text-align: center;">Rango De Escala Completa Acelerómetro</td>
-<td width="128" style="text-align: center;">Sensibilidad del Acelerómetro</td>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Rango De Escala Completa Giroscopio</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Sensibilidad del Giroscopio</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Rango De Escala Completa Acelerómetro</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Sensibilidad del Acelerómetro</span></td>
 </tr>
 <tr>
-<td width="196" style="text-align: center;">±250</td>
-<td width="123" style="text-align: center;">131</td>
-<td width="149" style="text-align: center;">±2</td>
-<td width="128" style="text-align: center;">16384</td>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±250</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">131</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±2</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">16384</span></td>
 </tr>
 <tr>
-<td width="196" style="text-align: center;">±500</td>
-<td width="123" style="text-align: center;">65.5</td>
-<td width="149" style="text-align: center;">±4</td>
-<td width="128" style="text-align: center;">8192</td>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±500</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">65.5</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±4</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">8192</span></td>
 </tr>
 <tr>
-<td width="196" style="text-align: center;">±1000</td>
-<td width="123" style="text-align: center;">32.8</td>
-<td width="149" style="text-align: center;">±8</td>
-<td width="128" style="text-align: center;">4096</td>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±1000</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">32.8</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±8</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">4096</span></td>
 </tr>
 <tr>
-<td width="196" style="text-align: center;">±2000</td>
-<td width="123" style="text-align: center;">16.4</td>
-<td width="149" style="text-align: center;">±16</td>
-<td width="128" style="text-align: center;">2048</td>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±2000</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">16.4</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±16</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">2048</span></td>
 </tr>
 </tbody>
 </table>
-<p><em>ESPECIFICACIONES</em></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><em>ESPECIFICACIONES</em></span></p>
 <ul>
-<li>Salida digital de 6 ejes.</li>
-<li>Giroscopio con sensibilidad de ±250, ±500, ±1000, y ±2000dps</li>
-<li>Acelerómetro con sensibilidad de ±2g, ±4g, ±8g y ±16g</li>
-<li>Algoritmos embebidos para calibración</li>
-<li>Sensor de temperatura digital</li>
-<li>Entrada digital de video FSYNC</li>
-<li>Interrupciones programables</li>
-<li>Voltaje de alimentación: 2,37 a 3,46 V</li>
-<li>Voltaje lógico: 1,8 V ± 5% o VDD</li>
-<li>10000 g tolerancia de aceleración máxima</li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Salida digital de 6 ejes.</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Giroscopio con sensibilidad de ±250, ±500, ±1000, y ±2000dps</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Acelerómetro con sensibilidad de ±2g, ±4g, ±8g y ±16g</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Algoritmos embebidos para calibración</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Sensor de temperatura digital</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Entrada digital de video FSYNC</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Interrupciones programables</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Voltaje de alimentación: 2,37 a 3,46 V</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Voltaje lógico: 1,8 V ± 5% o VDD</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">10000 g tolerancia de aceleración máxima</span></li>
 </ul>
 </div>
 </div>
@@ -242,4 +244,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="my_js.js"></script></body></html>
+<script type="text/javascript" src="_silver_js.js"></script></body></html>
