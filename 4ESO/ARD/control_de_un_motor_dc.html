@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>TinkerCAD 3º E.S.O. | Arduino para 4º de ESO </title>
+<title>Control de un motor DC | Arduino para 4º de ESO </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
-<body class="exe-web-site" id="exe-node-114"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Arduino para 4º de ESO</div></div>
@@ -27,8 +27,8 @@
    <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
    <li><a href="ide_de_arduino.html" class="no-ch">IDE de Arduino</a></li>
    <li><a href="lenguaje_de_programacin.html" class="no-ch">Lenguaje de programación</a></li>
-   <li><a href="programacin_con_arduino.html" class="daddy">Programación con Arduino</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="programacin_con_arduino.html" class="current-page-parent daddy">Programación con Arduino</a>
+   <ul>
       <li><a href="salidas_digitales.html" class="daddy">Salidas digitales</a>
       <ul class="other-section">
          <li><a href="hola_mundo_led_blink.html" class="no-ch">Hola mundo: led blink</a></li>
@@ -57,8 +57,8 @@
       </ul>
       </li>
       <li><a href="control_de_servomotores.html" class="no-ch">Control de servomotores</a></li>
-      <li><a href="control_de_un_motor_dc.html" class="daddy">Control de un motor DC</a>
-      <ul class="other-section">
+      <li id="active"><a href="control_de_un_motor_dc.html" class="active daddy">Control de un motor DC</a>
+      <ul>
          <li><a href="el_circuito_integrado_l293d.html" class="no-ch">El circuito integrado L293D</a></li>
       </ul>
       </li>
@@ -140,8 +140,8 @@
       <li><a href="labview_nxg.html" class="no-ch">LabView NXG</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="proyectos.html" class="current-page-parent daddy">PROYECTOS</a>
-   <ul>
+   <li><a href="proyectos.html" class="daddy">PROYECTOS</a>
+   <ul class="other-section">
       <li><a href="lectura_de_seales_analgicas.html" class="no-ch">Lectura de señales analógicas</a></li>
       <li><a href="escritura_de_seales_analgicas_pwm.html" class="no-ch">Escritura de señales analógicas: PWM</a></li>
       <li><a href="control_de_motores_dc_con_l293.html" class="no-ch">Control de motores DC con L293</a></li>
@@ -200,8 +200,8 @@
          <li><a href="semforo_con_micrfono.html" class="no-ch">Semáforo con micrófono</a></li>
       </ul>
       </li>
-      <li id="active"><a href="tinkercad_3_eso.html" class="active daddy">TinkerCAD 3º E.S.O.</a>
-      <ul>
+      <li><a href="tinkercad_3_eso.html" class="daddy">TinkerCAD 3º E.S.O.</a>
+      <ul class="other-section">
          <li><a href="1_hola_mundo_led_blink.html" class="no-ch">1. Hola mundo: LED blink</a></li>
          <li><a href="2_ledes_alternativos.html" class="no-ch">2. Ledes alternativos</a></li>
          <li><a href="3_coche_fantstico.html" class="no-ch">3. Coche fantástico</a></li>
@@ -239,12 +239,23 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="semforo_con_micrfono.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="1_hola_mundo_led_blink.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="control_de_servomotores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_circuito_integrado_l293d.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">TinkerCAD 3º E.S.O.</h1></div>
+<div id="nodeDecoration"><h1 id="nodeTitle">Control de un motor DC</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id8">
+<div class="iDevice emphasis0">
+<div id="ta8_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Para el control de un motor de corriente continua (DC), se nos presenta un problema, y es que las salidas de Arduino sólo pueden proporcionar un máximo de 40 mA en cada una de ellas.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Esto es insuficiente para el encendido de un motor, por lo que hay que pensar en formas alternativas de conseguir la intensidad suficiente para mover un motor eléctrico (que puede llegar al amperio de consumo).</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Necesitaremos, pues, añadir un componente que amplifique la señal de la salida de Arduino.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Podemos empezar con un transistor.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Más adelante utilizaremos un circuito integrado, el L293D.</span></p>
+</div>
+</div>
+</div>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
@@ -252,7 +263,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="semforo_con_micrfono.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="1_hola_mundo_led_blink.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="control_de_servomotores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_circuito_integrado_l293d.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

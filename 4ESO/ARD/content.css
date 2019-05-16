@@ -1,52 +1,51 @@
 /* Imágenes utilizadas */
-/* my_logo.jpg - Imagen de la cabecera de los documentos exportados como Página sola */
 /* my_list.gif - Sustituye al punto de las listas no numeradas introducidas desde eXeLearning  */
 /* my_ims_header.jpg - Imagen de fondo para el título de cada página en los IMS y en los documentos exportados como Página sola */
 /* my_header.jpg - Imagen de la cabecera de los documentos exportados como Sitio web */
-/* Los iconos de los iDevices también se controlan mediante CSS (ver iDevice icons) */ 
+/* my_nav_bg.jpg - Imagen de fondo del menú al exportar como Sitio web */
 
 /* Colores */
 body{
-	color:#333333; /* Cuerpo de texto */
+	color:#000; /* Cuerpo de texto */
 	background:#ffffff; /* Color de fondo */
 }
 a{
-	color:#0055A6; /* Enlaces */
+	color:#38565F; /* Enlaces */
 }
 #header{
-	color:#666666; /* Título del proyecto */
+	color:#005F6F; /* Título del proyecto */	
 }
 #nodeTitle{
-	color:#008F75; /* Título de cada página */
-    text-shadow:1px 1px 1px #ffffff; /* Sombra  */
+	color:#FFFFFF; /* Título de cada página */
 }
 #main #nodeDecoration{
 	border-color:#E7EBEE; /* Borde del título de cada página */
-	background-color:#DEE5EB; /* Color de fondo */
+	background-color:#6D95A1; /* Color de fondo */
+	text-shadow:1px 1px 1px #466A76; /* Sombra del texto */
 }
 .iDeviceTitle{
-	color: #8A5F31; /* Títulos de los iDevices */
+	color: #38565F; /* Títulos de los iDevices */
 }
 .iDevice_inner{
-	background-color:#FAF8F2; /* Fondo del cuerpo del iDevice */
-	color:#4d4d4d; /* Texto de los iDevices */
-	border-color:#EBE3CC; /* Borde del cuerpo de los iDevices */
+	background-color:#F2F4EB; /* Fondo del cuerpo del iDevice */
+	color:#2C4E46; /* Texto de los iDevices */
+	border-color:#C7CFAB; /* Borde del cuerpo de los iDevices */
 }
 #siteFooter{
-	color:#666666; /* Texto del pie de página */
+	color:#38565F; /* Texto del pie de página */
 }
 #siteFooter a{
-	color:#8A5F31; /* Enlaces del pie de página */
+	color:#6A3A4A; /* Enlaces del pie de página */
 }
-input.feedbackbutton{
-	background-color: #DBE992; /* Color de fondo del botón de feedback */
+.pre-code{
+	background:#243338; /* Color de fondo del código de ordenador intertado desde TinyMCE */
 }
 
 /* Otras definiciones */
-body{font:.82em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left}
+body{font:.75em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left}
 #nodeTitle{font-size:1.5em;margin:0;text-align:left;font-weight:bold}
-#main #nodeDecoration{padding:17px 15px 5px 15px;margin-bottom:15px;background-repeat:no-repeat;background-position:right 0;border-width:1px;border-style:solid;background-image:url(my_ims_header.jpg);text-align:left}
-#header{height:54px;background-repeat:no-repeat;background-position:0 0;background-image:url(my_logo.jpg);padding-bottom:10px;padding-left:10px;font-size:1.1em;font-weight:bold}
+#main #nodeDecoration{padding:20px 15px 5px 15px;margin-bottom:15px;background-repeat:no-repeat;background-position:right 0;border-width:1px;border-style:solid;background-image:url(my_ims_header.jpg);text-align:left}
+#header{height:auto;padding:0;font-size:1.5em;font-weight:bold}
 #header h1{margin:0;font-size:1em}
 #main ul li{width:auto;list-style-image:url(my_list.gif);margin-bottom:0.2em}
 #wikipedia-content ul li{list-style-image:none;margin-bottom:auto}
@@ -55,12 +54,12 @@ body{font:.82em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;tex
 #main h4{font-size:1.2em}
 #main h5{font-size:1.1em}
 .iDevice{margin:10px 0 20px 0}
-.iDeviceTitle{font-size:1.2em;vertical-align:bottom;top:auto} 
+.iDeviceTitle{font-size:1.2em;vertical-align:bottom;top:auto}
 #main .iDeviceTitle{display:inline;font-size:1.2em}
 
 /* iDevice icons */
 .iDevice_icon{width:30px;height:auto;margin-right:5px} /* Legacy: old iDevices */
-.iDevice_header{background-image:url(icon_generic.gif);padding:5px 0 5px 37px;margin-bottom:5px}
+.iDevice_header{background-image:url(icon_generic.gif);padding:5px 0 5px 37px;margin-bottom:3px}
 .activityIdevice .iDevice_header{background-image:url(icon_activity.gif)}
 .readingIdevice .iDevice_header{background-image:url(icon_reading.gif);padding-left:41px}
 .ListaIdevice .iDevice_header,
@@ -68,39 +67,30 @@ body{font:.82em/1.5 Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;tex
 .MultichoiceIdevice .iDevice_header,
 .TrueFalseIdevice .iDevice_header,
 .MultiSelectIdevice .iDevice_header,
-.ClozeIdevice .iDevice_header{background-image:url(icon_question.gif)}
+.ClozeIdevice .iDevice_header{background-image:url(icon_question.gif);padding-left:35px}
 .CasestudyIdevice .iDevice_header{background-image:url(icon_casestudy.gif)}
 .preknowledgeIdevice .iDevice_header{background-image:url(icon_preknowledge.gif);padding-left:39px}
-.GalleryIdevice .iDevice_header{background-image:url(icon_gallery.gif)}
+.GalleryIdevice .iDevice_header{background-image:url(icon_gallery.gif);padding-left:38px}
 .objectivesIdevice .iDevice_header{background-image:url(icon_objectives.gif)}
 .ReflectionIdevice .iDevice_header{background-image:url(icon_reflection.gif)}
 
-.iDevice_inner{padding: 10px 20px;border-width:1px 0 1px 0;border-style:dotted}
-.iDevice_content:before,.iDevice_content:after{content:"";display:table}
-.iDevice_content:after{clear:both}
-.iDevice_content{*zoom:1}/* IE6/7: Trigger hasLayout and contain floats */
-
+.iDevice_content{overflow:auto}
+.iDevice_inner{padding: 10px 20px;border-width:1px;border-style:solid;border-radius:10px}
 /* base.css */
 .block,.feedback{padding:0}
+input.feedbackbutton{margin:0}
 .feedback{font-family:Arial,Verdana,Helvetica,sans-serif;font-size:1em}
 li{list-style-position:outside}
-.exe-dl .icon{line-height:18px}
-.js .exe-dl dd{margin-left:36px}
-
+.exe-dl .icon{line-height:17px}
+.js .exe-dl dd{margin-left:34px}
+.exe-enlarge-icon b{font-size:1.7em}
 /* Hide/Show iDevice */
-.toggle-idevice{display:block;margin:0;text-align:right}
+.toggle-idevice{margin:12px 0 0;text-align:right;display:block}
 .iDevice_header .toggle-idevice{float:right;padding-top:2px;margin:0}
-.toggle-idevice a{display:inline-block;width:16px;height:16px;background:url(my_hide_show.png) no-repeat 0 -16px}
+.toggle-idevice a{display:inline-block;width:16px;height:16px;background:url(my_hide_show.gif) no-repeat 0 -16px}
 .toggle-idevice .show-idevice{background-position:0 0}
 .toggle-idevice span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
 
-/* Effects */
-.exe-fx .fx-C2,
-.exe-fx .fx-C2 a,
-.fx-pagination a{
-	background:#EEF2F5;
+@media all and (max-width: 600px) {
+	#main #nodeDecoration{background-image:none}
 }
-
-/* To review */
-.TrueFalseIdevice .question{margin-bottom:25px}
-.TrueFalseIdevice .question:last-child{margin-bottom:0}

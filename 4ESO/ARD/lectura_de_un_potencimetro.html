@@ -2,21 +2,23 @@
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_highlighter.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>TinkerCAD 3º E.S.O. | Arduino para 4º de ESO </title>
+<title>Lectura de un potenciómetro | Arduino para 4º de ESO </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_highlighter.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
-<body class="exe-web-site" id="exe-node-114"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-152"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Arduino para 4º de ESO</div></div>
@@ -27,8 +29,8 @@
    <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
    <li><a href="ide_de_arduino.html" class="no-ch">IDE de Arduino</a></li>
    <li><a href="lenguaje_de_programacin.html" class="no-ch">Lenguaje de programación</a></li>
-   <li><a href="programacin_con_arduino.html" class="daddy">Programación con Arduino</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="programacin_con_arduino.html" class="current-page-parent daddy">Programación con Arduino</a>
+   <ul>
       <li><a href="salidas_digitales.html" class="daddy">Salidas digitales</a>
       <ul class="other-section">
          <li><a href="hola_mundo_led_blink.html" class="no-ch">Hola mundo: led blink</a></li>
@@ -50,10 +52,10 @@
          <li><a href="semforo_con_pulsador.html" class="no-ch">Semáforo con pulsador</a></li>
       </ul>
       </li>
-      <li><a href="entradas_analgicas.html" class="daddy">Entradas analógicas</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="entradas_analgicas.html" class="current-page-parent daddy">Entradas analógicas</a>
+      <ul>
          <li><a href="lectura_de_una_ldr.html" class="no-ch">Lectura de una LDR</a></li>
-         <li><a href="lectura_de_un_potencimetro.html" class="no-ch">Lectura de un potenciómetro</a></li>
+         <li id="active"><a href="lectura_de_un_potencimetro.html" class="active no-ch">Lectura de un potenciómetro</a></li>
       </ul>
       </li>
       <li><a href="control_de_servomotores.html" class="no-ch">Control de servomotores</a></li>
@@ -140,8 +142,8 @@
       <li><a href="labview_nxg.html" class="no-ch">LabView NXG</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="proyectos.html" class="current-page-parent daddy">PROYECTOS</a>
-   <ul>
+   <li><a href="proyectos.html" class="daddy">PROYECTOS</a>
+   <ul class="other-section">
       <li><a href="lectura_de_seales_analgicas.html" class="no-ch">Lectura de señales analógicas</a></li>
       <li><a href="escritura_de_seales_analgicas_pwm.html" class="no-ch">Escritura de señales analógicas: PWM</a></li>
       <li><a href="control_de_motores_dc_con_l293.html" class="no-ch">Control de motores DC con L293</a></li>
@@ -200,8 +202,8 @@
          <li><a href="semforo_con_micrfono.html" class="no-ch">Semáforo con micrófono</a></li>
       </ul>
       </li>
-      <li id="active"><a href="tinkercad_3_eso.html" class="active daddy">TinkerCAD 3º E.S.O.</a>
-      <ul>
+      <li><a href="tinkercad_3_eso.html" class="daddy">TinkerCAD 3º E.S.O.</a>
+      <ul class="other-section">
          <li><a href="1_hola_mundo_led_blink.html" class="no-ch">1. Hola mundo: LED blink</a></li>
          <li><a href="2_ledes_alternativos.html" class="no-ch">2. Ledes alternativos</a></li>
          <li><a href="3_coche_fantstico.html" class="no-ch">3. Coche fantástico</a></li>
@@ -239,12 +241,50 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="semforo_con_micrfono.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="1_hola_mundo_led_blink.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="lectura_de_una_ldr.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="control_de_servomotores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">TinkerCAD 3º E.S.O.</h1></div>
+<div id="nodeDecoration"><h1 id="nodeTitle">Lectura de un potenciómetro</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id288">
+<div class="iDevice emphasis0">
+<div id="ta288_85" class="block iDevice_content">
+<div class="highlighted-code language-cpp line-numbers">
+<div>
+<pre><code>void setup()
+{
+  Serial.begin(9600);
+
+pinMode(A0, INPUT);
+  // Inicializo el puerto serie
+
+}
+
+
+void loop()
+{
+
+    Serial.print(String("Porcentaje del valor resistivo: "));
+    Serial.println((map(analogRead(A0), 0,1023,0,100)));
+    delay(500);
+
+}
+	
+</code></pre>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id289">
+<div class="iDevice emphasis0">
+<div id="ta289_85" class="block iDevice_content">
+<p style="text-align: center;"><iframe width="725" height="453" src="https://www.tinkercad.com/embed/ek8m2sYTPiX"></iframe></p>
+</div>
+</div>
+</div>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
@@ -252,7 +292,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="semforo_con_micrfono.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="1_hola_mundo_led_blink.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="lectura_de_una_ldr.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="control_de_servomotores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
