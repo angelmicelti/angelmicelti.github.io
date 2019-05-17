@@ -245,7 +245,6 @@
       <li><a href="robtica_fcil_con_arduino_anbal_de_la_torre.html" class="no-ch">Robótica fácil con Arduino (Aníbal de la Torre)</a></li>
    </ul>
    </li>
-   <li><a href="todo.html" class="no-ch">TO-DO</a></li>
 </ul>
 </div>
 <div id='topPagination'>
@@ -259,91 +258,91 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id222">
 <div class="iDevice emphasis0">
 <div id="ta222_85" class="block iDevice_content">
-<h1 id="detector-de-aparcamiento-con-ultrasonidos">Detector de aparcamiento con ultrasonidos</h1>
-<p class="comments-section"><span style="font-size: 12pt;">El objetivo de esta práctica es medir la distancia entre objetos simulando el detector de aparcamiento con zumbador existente en algunos vehículos. Para ello se va a utilizar un sensor de ultrasonidos.</span></p>
-<p><img src="https://programoergosum.gitbooks.io/practicas-educativas-con-arduino/content/Practicas/Detector-de-aparcamiento/practica.gif" alt="" /></p>
+<h1 id="detector-de-aparcamiento-con-ultrasonidos"><span style="font-family: verdana, geneva, sans-serif;">Detector de aparcamiento con ultrasonidos</span></h1>
+<p class="comments-section" style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">El objetivo de esta práctica es medir la distancia entre objetos simulando el detector de aparcamiento con zumbador existente en algunos vehículos. Para ello se va a utilizar un sensor de ultrasonidos.</span></p>
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><img src="https://programoergosum.gitbooks.io/practicas-educativas-con-arduino/content/Practicas/Detector-de-aparcamiento/practica.gif" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
 <table>
 <thead>
 <tr>
-<th>Autor de la práctica</th>
+<th><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;">Autor de la práctica</span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><img src="https://avatars0.githubusercontent.com/u/12022187?s=20" alt="" /><span> </span><a href="https://github.com/migueabellan" target="_blank" rel="noopener">Miguel Ángel Abellán</a></td>
+<td><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><img src="https://avatars0.githubusercontent.com/u/12022187?s=20" alt="" /> <a href="https://github.com/migueabellan" target="_blank" rel="noopener">Miguel Ángel Abellán</a></span></td>
 </tr>
 </tbody>
 </table>
 <hr />
-<p><br /><br /></p>
-<h2 id="materiales">Materiales</h2>
-<ul>
-<li><span style="font-size: 12pt;">1 Arduino UNO</span></li>
-<li><span style="font-size: 12pt;">1 Protoboard</span></li>
-<li><span style="font-size: 12pt;">6 Latiguillos</span></li>
-<li><span style="font-size: 12pt;">1 Ultrasonidos</span></li>
-<li><span style="font-size: 12pt;">1 Zumbador</span></li>
+<p style="text-align: justify;"><br /><br /></p>
+<h2 id="materiales" style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;">Materiales</span></h2>
+<ul style="text-align: justify;">
+<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1 Arduino UNO</span></li>
+<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1 Protoboard</span></li>
+<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">6 Latiguillos</span></li>
+<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1 Ultrasonidos</span></li>
+<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1 Zumbador</span></li>
 </ul>
-<p><br /><br /></p>
-<h2 id="esquema-eléctrico">Esquema eléctrico</h2>
-<p class="comments-section"><span style="font-size: 12pt;">Teniendo en cuenta las características técnicas de los diodos led que utilizamos en esta práctica, calculamos la resistencia del circuito aplicando la Ley de Ohm.</span></p>
-<table>
+<p style="text-align: justify;"><br /><br /></p>
+<h2 id="esquema-eléctrico" style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;">Esquema eléctrico</span></h2>
+<p class="comments-section" style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Teniendo en cuenta las características técnicas de los diodos led que utilizamos en esta práctica, calculamos la resistencia del circuito aplicando la Ley de Ohm.</span></p>
+<table style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
-<th><span style="font-size: 12pt;">Sensor de proximidad HC-SR04</span></th>
+<th><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Sensor de proximidad HC-SR04</span></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span style="font-size: 12pt;">Polarizado</span></td>
-<td><span style="font-size: 12pt;">Si</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Polarizado</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Si</span></td>
 </tr>
 <tr>
-<td><span style="font-size: 12pt;">Tensión</span></td>
-<td><span style="font-size: 12pt;">5V</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Tensión</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">5V</span></td>
 </tr>
 <tr>
-<td><span style="font-size: 12pt;">Rango de medición</span></td>
-<td><span style="font-size: 12pt;">2cm a 4m</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Rango de medición</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">2cm a 4m</span></td>
 </tr>
 </tbody>
 </table>
 <table>
 <thead>
 <tr>
-<th><span style="font-size: 12pt;">Características Zumbador</span></th>
+<th><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Características Zumbador</span></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span style="font-size: 12pt;">Polarizado</span></td>
-<td><span style="font-size: 12pt;">Sí</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Polarizado</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Sí</span></td>
 </tr>
 <tr>
-<td><span style="font-size: 12pt;">Tensión de trabajo</span></td>
-<td><span style="font-size: 12pt;">3-12V</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Tensión de trabajo</span></td>
+<td><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">3-12V</span></td>
 </tr>
 </tbody>
 </table>
-<p class="comments-section"><span style="font-size: 12pt;">Fijándonos en los pines del sensor de ultrasonidos, se conecta el pin Vcc al pin 5V de la placa de arduino, el GND al GND de la placa de arduino, y los pines triger y echo a los pines 12 y 11 respectivamente. Por otro lado se conecta el zumbador al pin digital 13 de la placa de arduino.</span></p>
-<p><img src="https://programoergosum.gitbooks.io/practicas-educativas-con-arduino/content/Practicas/Detector-de-aparcamiento/fritzing.png" alt="" /></p>
-<p><br /><br /></p>
-<h2 id="programación-en-mblock">Programación en mBlock</h2>
-<p class="comments-section"><span style="font-size: 12pt;">Al ejecutar el código se deberá detectar la distancia mediante el bloque que devuelve la distancia en centímetros y almacenarla en una variable. De esta forma en caso de estar a más de 30 centímetros el zumbador permanecerá desactivado. En caso de estar a menos 10 centímetros se activará de forma fija, y si se encuentra entre 10 y 30 centímetros irá aumentando la velocidad del zumbador en base a una constante de 5 milisegundos.</span></p>
-<p><img src="https://programoergosum.gitbooks.io/practicas-educativas-con-arduino/content/Practicas/Detector-de-aparcamiento/mblock.png" alt="" /></p>
-<p><br /><br /></p>
-<h2 id="programación-en-arduino">Programación en Arduino</h2>
-<p class="comments-section"><span style="font-size: 12pt;">En primer lugar, se configura el pin digitales 13 y 12 en modo salida (OUTPUT) y el pin digital 11 en modo entrada (INPUT). Esta configuración se establece en la función setup(), ya que solamente se ejecuta una vez. Además se establece el pin digital 12 a un valor bajo (LOW).</span></p>
-<p class="comments-section"><span style="font-size: 12pt;">Al ejecutar el código se deberá detectar la distancia mediante el bloque que devuelve la distancia en centímetros y almacenarla en una variable. De esta forma en caso de estar a más de 30 centímetros el zumbador permanecerá desactivado. En caso de estar a menos 10 centímetros se activará de forma fija, y si se encuentra entre 10 y 30 centímetros irá aumentando la velocidad del zumbador en base a una constante de 5 milisegundos.</span></p>
-<pre><span style="font-size: 12pt;"><code class="lang-cpp+lineNumbers:true"></code></span></pre>
+<p class="comments-section" style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Fijándonos en los pines del sensor de ultrasonidos, se conecta el pin Vcc al pin 5V de la placa de arduino, el GND al GND de la placa de arduino, y los pines triger y echo a los pines 12 y 11 respectivamente. Por otro lado se conecta el zumbador al pin digital 13 de la placa de arduino.</span></p>
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><img src="https://programoergosum.gitbooks.io/practicas-educativas-con-arduino/content/Practicas/Detector-de-aparcamiento/fritzing.png" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;"><br /><br /></p>
+<h2 id="programación-en-mblock" style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;">Programación en mBlock</span></h2>
+<p class="comments-section" style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Al ejecutar el código se deberá detectar la distancia mediante el bloque que devuelve la distancia en centímetros y almacenarla en una variable. De esta forma en caso de estar a más de 30 centímetros el zumbador permanecerá desactivado. En caso de estar a menos 10 centímetros se activará de forma fija, y si se encuentra entre 10 y 30 centímetros irá aumentando la velocidad del zumbador en base a una constante de 5 milisegundos.</span></p>
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><img src="https://programoergosum.gitbooks.io/practicas-educativas-con-arduino/content/Practicas/Detector-de-aparcamiento/mblock.png" alt="" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;"><br /><br /></p>
+<h2 id="programación-en-arduino" style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;">Programación en Arduino</span></h2>
+<p class="comments-section" style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">En primer lugar, se configura el pin digitales 13 y 12 en modo salida (OUTPUT) y el pin digital 11 en modo entrada (INPUT). Esta configuración se establece en la función setup(), ya que solamente se ejecuta una vez. Además se establece el pin digital 12 a un valor bajo (LOW).</span></p>
+<p class="comments-section" style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Al ejecutar el código se deberá detectar la distancia mediante el bloque que devuelve la distancia en centímetros y almacenarla en una variable. De esta forma en caso de estar a más de 30 centímetros el zumbador permanecerá desactivado. En caso de estar a menos 10 centímetros se activará de forma fija, y si se encuentra entre 10 y 30 centímetros irá aumentando la velocidad del zumbador en base a una constante de 5 milisegundos.</span></p>
+<pre><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><code class="lang-cpp+lineNumbers:true"></code></span></pre>
 <div class="sunlight-container sunlight-theme-dark">
 <div class="sunlight-code-container">
-<div class="sunlight-line-number-margin"></div>
+<div class="sunlight-line-number-margin" style="text-align: justify;"></div>
 <div class="highlighted-code language-cpp line-numbers">
 <div>
-<pre><code>/**
+<pre><span style="font-family: verdana, geneva, sans-serif;"><code>/**
  * Detector de aparcamiento
  */
 
@@ -380,7 +379,7 @@ void loop() {
     }else{
         digitalWrite(13, LOW);
     }
-}</code></pre>
+}</code></span></pre>
 </div>
 </div>
 <pre class="sunlight-highlight-cpp sunlight-highlighted"><br /><br /></pre>
