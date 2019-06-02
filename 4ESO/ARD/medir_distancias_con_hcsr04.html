@@ -2,21 +2,23 @@
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_highlighter.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>9.3. Puerta NOR | Arduino para 4º de ESO </title>
+<title>Medir distancias con HC-SR04 | Arduino para 4º de ESO </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_highlighter.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
-<body class="exe-web-site" id="exe-node-110"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-168"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Arduino para 4º de ESO</div></div>
@@ -26,8 +28,8 @@
    <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
    <li><a href="ide_de_arduino.html" class="no-ch">IDE de Arduino</a></li>
    <li><a href="lenguaje_de_programacin.html" class="no-ch">Lenguaje de programación</a></li>
-   <li><a href="programacin_con_arduino.html" class="daddy">Programación con Arduino</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="programacin_con_arduino.html" class="current-page-parent daddy">Programación con Arduino</a>
+   <ul>
       <li><a href="salidas_digitales.html" class="daddy">Salidas digitales</a>
       <ul class="other-section">
          <li><a href="hola_mundo_led_blink.html" class="no-ch">Hola mundo: led blink</a></li>
@@ -70,13 +72,13 @@
       </li>
       <li><a href="el_puerto_serie.html" class="no-ch">El puerto serie</a></li>
       <li><a href="control_de_rels.html" class="no-ch">Control de relés</a></li>
-      <li><a href="sensores.html" class="daddy">Sensores</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="sensores.html" class="current-page-parent daddy">Sensores</a>
+      <ul>
          <li><a href="sensor_tctil_capacitivo.html" class="no-ch">Sensor táctil capacitivo</a></li>
          <li><a href="tcrt5000.html" class="no-ch">TCRT5000</a></li>
-         <li><a href="hcsr04.html" class="daddy">HC-SR04</a>
-         <ul class="other-section">
-            <li><a href="medir_distancias_con_hcsr04.html" class="no-ch">Medir distancias con HC-SR04</a></li>
+         <li class="current-page-parent"><a href="hcsr04.html" class="current-page-parent daddy">HC-SR04</a>
+         <ul>
+            <li id="active"><a href="medir_distancias_con_hcsr04.html" class="active no-ch">Medir distancias con HC-SR04</a></li>
          </ul>
          </li>
          <li><a href="lm35.html" class="no-ch">LM35</a></li>
@@ -170,8 +172,8 @@
       <li><a href="labview_nxg.html" class="no-ch">LabView NXG</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="proyectos.html" class="current-page-parent daddy">Proyectos</a>
-   <ul>
+   <li><a href="proyectos.html" class="daddy">Proyectos</a>
+   <ul class="other-section">
       <li><a href="generacin_de_sonido.html" class="no-ch">Generación de sonido</a></li>
       <li><a href="cucoclock.html" class="no-ch">Cucoclock</a></li>
       <li><a href="pinza_robtica_con_servos_leantec.html" class="no-ch">Pinza robótica con servos (LEANTEC)</a></li>
@@ -221,8 +223,8 @@
          <li><a href="construye_un_girasol.html" class="no-ch">Construye un girasol</a></li>
       </ul>
       </li>
-      <li class="current-page-parent"><a href="tinkercad_4_eso.html" class="current-page-parent daddy">TinkerCAD 4º E.S.O.</a>
-      <ul>
+      <li><a href="tinkercad_4_eso.html" class="daddy">TinkerCAD 4º E.S.O.</a>
+      <ul class="other-section">
          <li><a href="1_hola_mundo_led_blink0.html" class="no-ch">1. Hola mundo: LED Blink</a></li>
          <li><a href="2_ledes_alternativos0.html" class="no-ch">2. Ledes alternativos</a></li>
          <li><a href="3_coche_fantstico0.html" class="no-ch">3. Coche fantástico</a></li>
@@ -232,7 +234,7 @@
          <li><a href="8_puerta_not.html" class="no-ch">8. Puerta NOT</a></li>
          <li><a href="91_puerta_or.html" class="no-ch">9.1. Puerta OR</a></li>
          <li><a href="92_puerta_and.html" class="no-ch">9.2. Puerta AND</a></li>
-         <li id="active"><a href="93_puerta_nor.html" class="active no-ch">9.3. Puerta NOR</a></li>
+         <li><a href="93_puerta_nor.html" class="no-ch">9.3. Puerta NOR</a></li>
          <li><a href="94_puerta_nand.html" class="no-ch">9.4. Puerta NAND</a></li>
       </ul>
       </li>
@@ -259,16 +261,66 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="92_puerta_and.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="94_puerta_nand.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="hcsr04.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lm35.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">9.3. Puerta NOR</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id201">
+<div id="nodeDecoration"><h1 id="nodeTitle">Medir distancias con HC-SR04</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id338">
 <div class="iDevice emphasis0">
-<div id="ta201_85" class="block iDevice_content">
-<p style="text-align: center;"><iframe width="725" height="453" src="https://www.tinkercad.com/embed/c1jbfBMjwg2?editbtn=1"></iframe></p>
+<div id="ta338_85" class="block iDevice_content">
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/" target="_blank" rel="noopener">Medir distancias con el sensor HC-SR04</a>, por Luis Llamas</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id339">
+<div class="iDevice emphasis0">
+<div id="ta339_85" class="block iDevice_content">
+<div class="highlighted-code language-cpp line-numbers">
+<div>
+<pre><code>const int EchoPin = 5;
+const int TriggerPin = 6;
+const int LedPin = 13;
+ 
+void setup() {
+ Serial.begin(9600);
+ pinMode(LedPin, OUTPUT);
+ pinMode(TriggerPin, OUTPUT);
+ pinMode(EchoPin, INPUT);
+}
+ 
+void loop() {
+ int cm = ping(TriggerPin, EchoPin);
+ Serial.print("Distancia: ");
+ Serial.println(cm);
+ delay(1000);
+}
+ 
+int ping(int TriggerPin, int EchoPin) {
+ long duration, distanceCm;
+ 
+ digitalWrite(TriggerPin, LOW);  //para generar un pulso limpio ponemos a LOW 4us
+ delayMicroseconds(4);
+ digitalWrite(TriggerPin, HIGH);  //generamos Trigger (disparo) de 10us
+ delayMicroseconds(10);
+ digitalWrite(TriggerPin, LOW);
+ 
+ duration = pulseIn(EchoPin, HIGH);  //medimos el tiempo entre pulsos, en microsegundos
+ 
+ distanceCm = duration * 10 / 292/ 2;   //convertimos a distancia, en cm
+ return distanceCm;
+}</code></pre>
+</div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id338">
+<div class="iDevice emphasis0">
+<div id="ta338_85" class="block iDevice_content">
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="https://www.luisllamas.es/medir-distancia-con-arduino-y-sensor-de-ultrasonidos-hc-sr04/" target="_blank" rel="noopener">Medir distancias con el sensor HC-SR04</a>, por Luis Llamas</span></p>
 </div>
 </div>
 </div>
@@ -279,7 +331,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="92_puerta_and.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="94_puerta_nand.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="hcsr04.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lm35.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
