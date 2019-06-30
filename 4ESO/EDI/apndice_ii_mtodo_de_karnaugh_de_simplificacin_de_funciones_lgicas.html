@@ -10,7 +10,7 @@
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
-<meta name="generator" content="eXeLearning 2.3.1 - exelearning.net" />
+<meta name="generator" content="eXeLearning 2.4.1 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -140,7 +140,7 @@
 <p align="center"><img src="mapas_karnaugh.jpg" height="301" width="756" /></p>
 <p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> Se numera cada celda con el número decimal correspondiente al término binario que contiene, para facilitar el trabajo a la hora de colocar la función. Para simplificar una función lógica por el método de Karnaugh se seguirán los siguientes pasos: </span></p>
 <div align="justify"></div>
-<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 1º) Se coloca un 1 en los cuadros correspondientes a los términos que valen 1 en la función. </span></p>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 1º) Se coloca un 1 en los cuadros correspondientes a los términos que valen 1 en la función (minitérminos). </span></p>
 <div align="justify"></div>
 <p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 2º) Se agrupan mediante lazos los unos de casillas adyacentes siguiendo estrictamente las siguientes reglas: </span></p>
 <div align="justify">
@@ -152,7 +152,9 @@
 </div>
 <p align="justify"><span style="font-family: verdana, geneva; font-size: medium;"> </span></p>
 <div align="justify"></div>
-<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 3º) La función simplificada tendrá tantos términos como lazos posea el diagrama. Cada término se obtiene eliminando la o las variables que cambien de estado en el mismo lazo. </span></p>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> 3º) Cada término simplificado se obtiene eliminando la o las variables que cambien de estado en el mismo lazo.</span></p>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"></span></p>
+<p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;">4º) La forma simplificada de la función tendrá tantos términos como lazos posea el diagrama, y dichos términos estarán sumados. </span></p>
 <div align="justify"></div>
 <p align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> Vamos a ver todo el proceso con una función que nos sirve de ejemplo: </span></p>
 <div align="justify"></div>
@@ -161,11 +163,12 @@
 </xml><![endif]--></span></p>
 <div align="justify"></div>
 <div align="justify"><span face="verdana,geneva" size="3" style="font-family: verdana, geneva; font-size: medium;"> En primer lugar, obtenemos la tabla de verdad de la función. Fíjate bien cómo se hace: vamos haciendo los productos o sumas más sencillos, y de ahí vamos pasando a las operaciones más complicadas:</span></div>
-<div align="justify"><span style="font-family: verdana, geneva; font-size: medium;"><img src="tv02.jpg" height="537" width="799" /></span></div>
+<div align="justify"><span style="font-family: verdana, geneva; font-size: medium;"><img src="tv02.jpg" height="537" width="799" style="display: block; margin-left: auto; margin-right: auto;" /></span></div>
 <div align="justify"></div>
 <div align="justify"></div>
-<div align="justify"></div>
-<div align="justify"></div>
+<div align="justify"><span style="font-family: verdana, geneva, sans-serif;">Podríamos escribir ahora que:</span></div>
+<div align="justify"><span style="font-family: verdana, geneva, sans-serif;"></span></div>
+<div align="justify" style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif;">F = m(0,2,4,6,7,12,13,14,15)</span></div>
 <p align="justify"></p>
 <p class="MsoBodyText" style="margin-bottom: 6pt;" align="justify"><span style="font-family: verdana, geneva; font-size: medium;"><img src="karnaugh.png" height="216" width="216" style="float: right; margin: 10px;" /><span lang="ES-TRAD">A continuación, escribimos el cuadrado de 16 casillas (2<sup>4</sup>).<o:p></o:p></span></span></p>
 <div align="justify"></div>
@@ -194,6 +197,17 @@
 </div>
 </div>
 </div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id186">
+<div class="iDevice emphasis0">
+<div id="ta186_85" class="block iDevice_content">
+<p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/nIgIREYHbx4" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/vacBsx_ZljY" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/9dd6eW6-p1M" allowfullscreen="allowfullscreen"></iframe></p>
+</div>
+</div>
+</div>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
@@ -205,4 +219,4 @@
 </div>
 </div>
 </div>
-<script type="text/javascript" src="tknika_js.js"></script></body></html>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
