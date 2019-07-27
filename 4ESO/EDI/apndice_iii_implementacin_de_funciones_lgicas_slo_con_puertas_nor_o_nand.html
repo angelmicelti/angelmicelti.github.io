@@ -134,13 +134,14 @@
 <div class="iDevice emphasis0">
 <div id="ta124_85" class="block iDevice_content">
 <p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Como decíamos al final del apartado 5, es muy habitual (además de práctico, porque sólo necesitaríamos un solo tipo de circuito integrado), implementar las funciones lógicas de nuestros problemas sólo con puertas NAND o sólo con puertas NOR.</span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Para ello, basta con utilizar adecuadamente los teoremas del Álgebra de Boole que hemos estudiado a lo largo de la Unidad. Además, deberás darte cuenta que necesitarás en ocasiones hacer la negación de una variable o un resultado. Para ello, comprueba que tanto la puerta NAND como la puerta NOR, cortocircuitadas con la misma entrada, producen la negación de la misma:</span></p>
-<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="nand.jpg" width="149" height="36" /></span></p>
-<p style="text-align: center;"></p>
-<p><img src="nor.jpg" width="150" height="32" style="display: block; margin-left: auto; margin-right: auto;" /></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Veamos qué se puede hacer con nuestra función: <i>F = A·C + B</i></span></p>
+<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Para ello, basta con utilizar adecuadamente los teoremas del Álgebra de Boole que hemos estudiado a lo largo de la Unidad. Además, deberás darte cuenta que necesitarás en ocasiones hacer la negación de una variable o un resultado. Para ello, comprueba que tanto la puerta NAND como la puerta NOR, cortocircuitadas con la misma entrada, funcionan como una puerta NOT:</span></p>
+<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="NAND1.png" width="350" height="68" title="Negación de una variable con la puerta NAND" /></span></p>
+<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"></span></p>
+<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="NOR1.png" alt="" title="Negación de una variable con la puerta NOR" width="350" height="68" /></span></p>
+<p style="text-align: justify;">Sorprendente, ¿no? Pues vamos a seguir explorando. <span style="font-size: medium; font-family: verdana, geneva;">Veamos qué se puede hacer con nuestra función:</span></p>
+<p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><i>F = A·C + B</i></span></p>
 <p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;"><b><span style="text-decoration: underline;">Implementación sólo con puertas NAND.</span></b></span></p>
-<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Manipulamos algebraicamente la expresión de F: </span></p>
+<p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Manipulamos algebraicamente la expresión de F, teniendo en cuenta las propiedades del Álgebra de Boole vistas en el tema: </span></p>
 <p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_6.2.gif" width="176" height="22"  style="font-size: 0.75em; line-height: 1.5;" />,</span></p>
 <p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">y ahora aplicamos la Primera Ley de De Morgan, con lo cual queda:</span></p>
 <p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_9.1.gif" width="88" height="20"  /></span></p>
@@ -148,6 +149,8 @@
 <p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_13.gif" width="72" height="16"  /> e <img src="eXe_LaTeX_math_14.1.gif" width="56" height="16"  /></span></p>
 <p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Entonces, la expresión de <i>F</i> nos queda <img src="eXe_LaTeX_math_15.1.gif" width="72" height="16"  />, que es justamente la forma que puede ser implementada por otra puerta NAND, con lo cual ya habríamos terminado, y el resultado sería el siguiente:</span></p>
 <p><span style="font-size: medium; font-family: verdana, geneva;"><img src="F1.png" width="743" height="354" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p><span style="font-family: verdana, geneva, sans-serif;">Podemos ver la simulación de este circuito en el siguiente montaje de TinkerCAD:</span></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif;"><a href="https://www.tinkercad.com/things/kFgOo3q2Dbr">https://www.tinkercad.com/things/kFgOo3q2Dbr</a></span></p>
 <p style="text-align: justify;"><span style="font-size: medium; font-family: verdana, geneva;">Como vemos, ahorramos bastante, ya que sólo hemos empleado un C.I., el 7400., mientras que en el apartado 5 habíamos necesitado dos (un 7408 y un 7432).</span></p>
 </div>
 </div>
@@ -160,8 +163,11 @@
 <p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="eXe_LaTeX_math_23.2.gif" width="368" height="30"  /></span></p>
 <p><span style="font-size: medium; font-family: verdana, geneva;"> que, implementado, nos quedará algo más complicado que el anterior.</span></p>
 <p style="text-align: center;"><span style="font-size: medium; font-family: verdana, geneva;"><img src="F2.png" width="721" height="371" /></span></p>
+<p><span style="font-family: verdana, geneva, sans-serif;">Podemos ver la implementación en la siguiente simulación de TinkerCAD:</span></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif;"><a href="https://www.tinkercad.com/things/0rTmQ8AvSLg">https://www.tinkercad.com/things/0rTmQ8AvSLg</a></span></p>
+<p><span style="font-family: verdana, geneva, sans-serif;">El <strong>diseño digital óptimo</strong> es aquel que emplea el menor número posible de circuitos integrados, ya que esto reducirá el coste.</span></p>
 <p><span style="font-size: medium; font-family: verdana, geneva;">Es por ello que conviene explorar las tres posibles implementaciones: con puertas cualesquiera, sólo con puertas NAND y sólo con puertas NOR, para elegir aquélla que resulte más económica.</span></p>
-<p><span style="font-size: medium; font-family: verdana, geneva;">En nuestro caso, elegiríamos la implementación sólo con puertas NAND, que precisa únicamente de un circuito integrado 7400.</span></p>
+<p><span style="font-size: medium; font-family: verdana, geneva;">En nuestro caso, <em><strong>elegiríamos la implementación sólo con puertas NAND</strong></em>, que precisa únicamente de un circuito integrado 7400.</span></p>
 </div>
 </div>
 </div>
