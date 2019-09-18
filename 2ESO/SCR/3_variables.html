@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3. Variables | UD Scratch </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.4.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">UD Scratch</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Programación con Scratch</a></li>
+   <li><a href="el_entorno_de_scratch.html" class="no-ch">El entorno de Scratch</a></li>
+   <li><a href="venga_profe_vamos_a_programar.html" class="daddy">Venga profe, vamos a programar</a>
+   <ul class="other-section">
+      <li><a href="0_hola_mundo.html" class="no-ch">0. ¡Hola mundo!</a></li>
+      <li><a href="1_movimiento_en_scratch.html" class="daddy">1. Movimiento en Scratch</a>
+      <ul class="other-section">
+         <li><a href="11_seguimiento_del_ratn.html" class="no-ch">1.1. Seguimiento del ratón</a></li>
+         <li><a href="12_movimiento_y_rebote.html" class="no-ch">1.2. Movimiento y rebote</a></li>
+         <li><a href="13_persecucin.html" class="no-ch">1.3. Persecución</a></li>
+      </ul>
+      </li>
+      <li><a href="2_sensores.html" class="no-ch">2. Sensores</a></li>
+      <li><a href="3_interaccin.html" class="daddy">3. Interacción</a>
+      <ul class="other-section">
+         <li><a href="31_interaccin_1.html" class="no-ch">3.1. Interacción (1)</a></li>
+         <li><a href="32_interaccin_2.html" class="no-ch">3.2. Interacción (2)</a></li>
+      </ul>
+      </li>
+      <li><a href="4_control_con_el_teclado.html" class="daddy">4. Control con el teclado</a>
+      <ul class="other-section">
+         <li><a href="41_control_con_el_teclado_simple.html" class="no-ch">4.1. Control con el teclado simple</a></li>
+         <li><a href="42_control_con_el_teclado_ms_elaborado.html" class="no-ch">4.2. Control con el teclado más elaborado</a></li>
+         <li><a href="43_mezclando_todo_juego_sencillo.html" class="no-ch">4.3. Mezclando todo: juego sencillo</a></li>
+      </ul>
+      </li>
+      <li><a href="5_modularidad_procedimientos.html" class="daddy">5. Modularidad: procedimientos</a>
+      <ul class="other-section">
+         <li><a href="51_bloques_simples.html" class="no-ch">5.1. Bloques simples</a></li>
+         <li><a href="52_bloques_con_parmetros_de_entrada.html" class="no-ch">5.2. Bloques con parámetros de entrada</a></li>
+      </ul>
+      </li>
+      <li><a href="6_variables_aprendemos_a_contar.html" class="daddy">6. Variables: aprendemos a contar</a>
+      <ul class="other-section">
+         <li><a href="61_aplicacin_juego_de_frontn_con_dos_pelotas.html" class="no-ch">6.1. Aplicación: juego de frontón con dos pelotas</a></li>
+         <li><a href="62_aplicacin_el_gato_y_el_vampiro.html" class="no-ch">6.2. Aplicación: el gato y el vampiro</a></li>
+         <li><a href="63_aplicacin_repaso_de_clculo_para_escolares.html" class="no-ch">6.3. Aplicación: repaso de cálculo para escolares</a></li>
+      </ul>
+      </li>
+      <li><a href="7_listas_todo_guardadito_en_un_sitio.html" class="no-ch">7. Listas: todo guardadito en un sitio</a></li>
+      <li><a href="8_preguntas.html" class="daddy">8. Preguntas</a>
+      <ul class="other-section">
+         <li><a href="81_combinar_preguntas_y_variables.html" class="no-ch">8.1. Combinar preguntas y variables</a></li>
+         <li><a href="82_combinar_preguntas_y_listas.html" class="no-ch">8.2. Combinar preguntas y listas</a></li>
+      </ul>
+      </li>
+      <li><a href="9_audio_con_scratch.html" class="daddy">9. Audio con Scratch</a>
+      <ul class="other-section">
+         <li><a href="91_insercin_de_un_mp3_en_un_sprite.html" class="no-ch">9.1. Inserción de un mp3 en un sprite</a></li>
+         <li><a href="92_programando_una_meloda.html" class="no-ch">9.2. Programando una melodía</a></li>
+      </ul>
+      </li>
+      <li><a href="10_dibujando_con_scratch.html" class="daddy">10. Dibujando con Scratch</a>
+      <ul class="other-section">
+         <li><a href="101_dibujando_con_el_lpiz.html" class="no-ch">10.1. Dibujando con el lápiz</a></li>
+         <li><a href="102_dibujando_funciones.html" class="no-ch">10.2. Dibujando funciones</a></li>
+         <li><a href="103_dibujando_un_fractal.html" class="no-ch">10.3. Dibujando un fractal</a></li>
+      </ul>
+      </li>
+      <li><a href="11_fsica_en_tus_programas.html" class="daddy">11. Física en tus programas</a>
+      <ul class="other-section">
+         <li><a href="111_aceleracin_y_frenado.html" class="no-ch">11.1. Aceleración y frenado</a></li>
+         <li><a href="112_tiro_parablico_chuta_y_marca.html" class="no-ch">11.2. Tiro parabólico: chuta y marca</a></li>
+      </ul>
+      </li>
+      <li><a href="12_cuenta_una_historia.html" class="daddy">12. Cuenta una historia</a>
+      <ul class="other-section">
+         <li><a href="121_los_diodos.html" class="no-ch">12.1. Los diodos</a></li>
+         <li><a href="122_resistencia_de_polarizacin_de_un_led.html" class="no-ch">12.2. Resistencia de polarización de un LED</a></li>
+      </ul>
+      </li>
+      <li><a href="13_juegos_simples.html" class="daddy">13. Juegos simples</a>
+      <ul class="other-section">
+         <li><a href="131_juego_de_ping_pong.html" class="no-ch">13.1. Juego de ping pong</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="retos_de_scratch.html" class="current-page-parent daddy">Retos de Scratch</a>
+   <ul>
+      <li><a href="1_bsicos.html" class="no-ch">1. Básicos</a></li>
+      <li><a href="2_interaccin.html" class="no-ch">2. Interacción</a></li>
+      <li id="active"><a href="3_variables.html" class="active no-ch">3. Variables</a></li>
+      <li><a href="4_esto_ya_va_en_serio.html" class="daddy">4. Esto ya va en serio...</a>
+      <ul class="other-section">
+         <li><a href="programa_un_semforo.html" class="no-ch">Programa un semáforo</a></li>
+         <li><a href="programa_un_da.html" class="no-ch">Programa un día</a></li>
+         <li><a href="modifica_un_juego.html" class="no-ch">Modifica un juego</a></li>
+         <li><a href="cajero_automtico.html" class="no-ch">Cajero automático</a></li>
+         <li><a href="puerta_parking.html" class="no-ch">Puerta parking</a></li>
+         <li><a href="parking.html" class="no-ch">Parking</a></li>
+      </ul>
+      </li>
+      <li><a href="5_programa_un_videojuego.html" class="no-ch">5. Programa un videojuego</a></li>
+   </ul>
+   </li>
+   <li><a href="webs_de_inters.html" class="no-ch">Webs de interés</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="2_interaccin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_esto_ya_va_en_serio.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">3. Variables</h1></div>
+<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id9">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">¿Serás capaz de ...?</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta9_48_2" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: medium;">3.1- Modificar el ejercicio 1.1 de modo que una variable contabilice el número de rectángulos que describe el gato y al finalizar éste lo diga en una burbuja de texto. Además debes conseguir que no haga falta mantener pulsada la tecla “p” hasta que el gato inicie un nuevo rectángulo, sino que una vez pulsada brevemente, se guarde este hecho en alguna variable para que el gato se pare cuando termine el rectángulo que esté haciendo en ese momento.</span></p>
+<p style="text-align: justify;"><br /><span style="font-family: 'comic sans ms', sans-serif; font-size: medium;">3.2.- Modificar el ejercicio 1.3 de modo que en vez de moverse siempre en línea recta hasta chocar con bordes, cambie de dirección un ángulo al azar entre 10º y 20º hacia un lado o hacia otro cada 20 pasos.</span></p>
+<p style="text-align: justify;"><br /><span style="font-family: 'comic sans ms', sans-serif; font-size: medium;">3.3.- Escribir un programa que resuelva ecuaciones de 2º grado del tipo ax<sup>2</sup> + bx + c = 0. Si no tiene solución debe decirlo, si tiene una solución única también y si tiene dos soluciones debe dar ambas.</span></p>
+<p style="text-align: justify;"><br /><span style="font-family: 'comic sans ms', sans-serif; font-size: medium;">3.4.- Escribir un programa que haga aparecer dos personajes en pantalla, quietos. Habrá dos pelotas moviéndose por la pantalla, una verde (la de tenis) y una naranja (la de baloncesto). Cuando la pelota verde choca con un personaje, le añade una vida, mientras que cuando la que choca es la naranja, le quita una vida. Cada personaje empieza con 5 vidas. Cada vez que un personaje recibe un pelotazo dice ¡Ay! El primero que se quede sin vidas pierde. El personaje que acaba con sus vidas, dice el mensaje ¡Adiós mundo cruel! y se volcará. Para que no se eternice, podemos hacer la pelota naranja más grande que la verde, para que sea más fácil su choque. Cuando las pelotas choquen con los personajes conviene que reboten (girando, por ejemplo, un ángulo al azar entre 135º y 225º).</span></p>
+<p style="text-align: justify;"><br /><span style="font-family: 'comic sans ms', sans-serif; font-size: medium;">3.5.- Escribir un proggrama en el que varios objetos (bombas por ejemplo) se mueven al azar por la pantalla. Cada vez que uno choca con el gato, le resta una vida de las 7 iniciales (debe emitir un ¡Boom! La bomba y un ¡Ay! el gato). El gato consigue un punto cada vez que consigue chocar con una estrella que habrá en la pantalla. La estrella puede estar fija o moverse al azar rebotando en las paredes. Cada vez que el gato consigue atraparla, aparece en otro punto al azar en la pantalla. El gato se moverá con las teclas de flechas. Las vidas restantes y los puntos obtenidos aparecerán en pantalla. </span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: medium;">3.6.- Diseñar un juego en el que el gato empieza en la esquina inferior izquierda de la pantalla y debe avanzar mediante las teclas de flechas hasta alcanzar un premio en la esquina inferior derecha. Cuando la alcanza aparece un nuevo premio en la esquina contraria y tendrá que volver a alcanzarlo, y así irá sumando puntos. Sin embargo, en el camino habrá unas pelotas que se mueven verticalmente rebotando, (pueden ir a diferentes velocidades). Cuando una pelota toca al gato le quita una de las vidas iniciales y cambia momentáneamente de disfraz la pelota. Cuando el gato se queda sin vidas acaba el juego y gana el jugador que haya conseguido más puntos.</span></p>
+<p style="margin-left: 30px; text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: medium;">b) Complicar el juego de forma que cuando el gato lleve 10 puntos las pelotas vayan más deprisa. O bien cuando haya pasado un cierto tiempo.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="2_interaccin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_esto_ya_va_en_serio.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>

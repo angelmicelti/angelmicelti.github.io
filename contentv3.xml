@@ -65,7 +65,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -285,7 +285,7 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 14px;&quot;&gt;
 &lt;td style=&quot;height: 14px; width: 562px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Programación con Scratch (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://angelmicelti.github.io/2ESO/SCR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Programación con Scratch&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1291,7 +1291,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="nextImageId"></string>
                   <int value="0"></int>
                   <string role="key" value="parentNode"></string>
-                  <none></none>
+                  <reference key="31"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="edit"></string>
@@ -1448,7 +1448,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="31"></reference>
+  <reference key="7"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
