@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>9. CÁLCULOS MECÁNICOS | Proyecto: Máquina de sorteos </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Ángel Millán León" />
+<meta name="generator" content="eXeLearning 2.4.2 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-30"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Proyecto: Máquina de sorteos</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">PROYECTO: MOTORREDUCTOR A POLEAS</a></li>
+   <li><a href="1_propuesta_de_trabajo.html" class="no-ch">1. PROPUESTA DE TRABAJO</a></li>
+   <li><a href="2_investigacin_y_documentacin.html" class="no-ch">2. INVESTIGACIÓN Y DOCUMENTACIÓN</a></li>
+   <li><a href="3_descripcin_de_la_solucin.html" class="daddy">3. DESCRIPCIÓN DE LA SOLUCIÓN</a>
+   <ul class="other-section">
+      <li><a href="soluciones_elctricas.html" class="no-ch">Soluciones eléctricas</a></li>
+      <li><a href="componentes_mecnicos.html" class="no-ch">Componentes mecánicos</a></li>
+   </ul>
+   </li>
+   <li><a href="4_planos.html" class="daddy">4. PLANOS</a>
+   <ul class="other-section">
+      <li><a href="boceto.html" class="no-ch">Boceto</a></li>
+      <li><a href="croquis.html" class="no-ch">Croquis</a></li>
+      <li><a href="vistas_del_motorreductor.html" class="no-ch">Vistas del motorreductor</a></li>
+      <li><a href="esquema_elctrico.html" class="no-ch">Esquema eléctrico</a></li>
+      <li><a href="lista_de_piezas.html" class="no-ch">Lista de piezas</a></li>
+   </ul>
+   </li>
+   <li><a href="5_lista_de_herramientas.html" class="daddy">5. LISTA DE HERRAMIENTAS</a>
+   <ul class="other-section">
+      <li><a href="de_medida_y_trazado.html" class="no-ch">De medida y trazado</a></li>
+      <li><a href="herramientas_de_corte.html" class="no-ch">Herramientas de corte</a></li>
+      <li><a href="herramientas_de_taladrado.html" class="no-ch">Herramientas de taladrado</a></li>
+      <li><a href="herramientas_de_acabado.html" class="no-ch">Herramientas de acabado</a></li>
+      <li><a href="herramientas_de_sujecin.html" class="no-ch">Herramientas de sujeción</a></li>
+      <li><a href="herramientas_de_percusin.html" class="no-ch">Herramientas de percusión</a></li>
+      <li><a href="herramientas_de_giro.html" class="no-ch">Herramientas de giro</a></li>
+      <li><a href="herramientas_para_unin_y_pegado.html" class="no-ch">Herramientas para unión y pegado</a></li>
+   </ul>
+   </li>
+   <li><a href="6_lista_de_materiales.html" class="no-ch">6. LISTA DE MATERIALES</a></li>
+   <li><a href="7_hoja_de_proceso.html" class="no-ch">7. HOJA DE PROCESO</a></li>
+   <li><a href="8_presupuesto.html" class="no-ch">8. PRESUPUESTO</a></li>
+   <li id="active"><a href="9_clculos_mecnicos.html" class="active no-ch">9. CÁLCULOS MECÁNICOS</a></li>
+   <li><a href="10clculos_elctricos.html" class="no-ch">10.CÁLCULOS ELÉCTRICOS</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="8_presupuesto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="10clculos_elctricos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">9. CÁLCULOS MECÁNICOS</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id46">
+<div class="iDevice emphasis0">
+<div id="ta46_85" class="block iDevice_content">
+<p style="text-align: justify;">Es interesante calcular la <strong>relación de transmisión</strong> de la reductora, así como la <strong>velocidad final de salida del motorreductor</strong>, ya que de ello van a depender sus aplicaciones. A dicha velocidad la llamaremos <em>n<sub>p2</sub></em>.</p>
+<p style="text-align: justify;">En nuestro montaje, tenemos dos transmisiones, a saber: 1ª) motor → polea número 1; 2) eje de la polea número 1 → polea número 2.</p>
+<p style="text-align: justify;">Vamos a identificar cada una de las medidas de los ejes implicados:</p>
+<ul>
+<li style="text-align: justify;"><em>D</em><sub>m</sub> es el diámetro del eje del motor.</li>
+<li style="text-align: justify;"><em>D<sub>p1</sub><sup> </sup></em>es el diámetro de la polea número 1.</li>
+<li style="text-align: justify;"><em>D<sub>e1</sub><sup> </sup></em>es el diámetro del eje de la polea número 1.</li>
+<li style="text-align: justify;"><em>D<sub>p2</sub> </em>es el diámetro de la polea número 2.</li>
+<li style="text-align: justify;"><em>D<sub>e2</sub><sup> </sup></em>es el diámetro del eje de la polea número 2.</li>
+</ul>
+<p style="text-align: justify;">Siempre se va a cumplir la ley fundamental de cualquier transmisión:</p>
+<p style="text-align: center;"><img src="eq1.gif" width="153" height="18" style="vertical-align: middle;" />   (1)                 <img src="eq2.gif" width="155" height="18" style="vertical-align: middle;" />   (2)</p>
+<p style="text-align: justify;">Los ejes de las poleas son <strong>solidarios</strong> con ellas. Esto se traduce en que:</p>
+<p style="text-align: center;"><span style="font-family: 'times new roman', times, serif;"><em>n<sub>p1</sub> = n<sub>e1</sub></em>  (3) </span>            y            <em><span style="font-family: 'times new roman', times, serif;">n<sub>p2</sub> = n<sub>e2</sub></span>  </em>(4)</p>
+<p style="text-align: justify;">por lo que podemos escribir la fórmula (1) como:</p>
+<p> <img src="eq1p.gif" alt="" width="152" height="18" style="vertical-align: middle; float: left;" /> (1’)                </p>
+<p style="text-align: justify;">Si despejamos <span style="font-family: 'times new roman', times, serif;"><em>n<sub>p2</sub></em> </span>en la fórmula (2), y <span style="font-family: 'times new roman', times, serif;"><em>n<sub>p1</sub></em></span> en la (1) tenemos que:</p>
+<p style="text-align: center;"><img src="eq5.gif" width="396" height="42" style="vertical-align: middle;" />     (5)</p>
+<p style="text-align: justify;">Que es lo que buscábamos: calcular la velocidad de la polea (o el eje) de salida a partir de la de giro del motor y los correspondientes diámetros. Si ahora sustituimos valores:</p>
+<p style="text-align: justify;">La velocidad de giro de nuestro motor (<em>n<sub>m</sub></em>) oscila en torno a las 1.200 r.p.m.</p>
+<p style="text-align: justify;">Los diámetros de las poleas implicadas en el movimiento son:</p>
+<p style="text-align: justify;">Eje del motor: <em>D<sub>m</sub> = </em>2 mm</p>
+<p style="text-align: justify;">Diámetros interiores de las poleas: <em>D<sub>p1</sub><sup> </sup>= D<sub>p2</sub> = </em>48 mm</p>
+<p style="text-align: justify;">Ejes de las poleas: <em>D<sub>e1</sub><sup> </sup>=</em> <em>D<sub>e2</sub><sup> </sup>= </em>8 mm</p>
+<p style="text-align: justify;">Sustituyendo los valores encontraremos que:</p>
+<p style="text-align: center;"><img src="eqfinal.gif" alt="" width="390" height="38" /></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="8_presupuesto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="10clculos_elctricos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
