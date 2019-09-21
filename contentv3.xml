@@ -913,7 +913,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="anchors_linked_from_fields"></string>
                   <dictionary></dictionary>
                   <string role="key" value="content_w_resourcePaths"></string>
-                  <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/index.html&quot;&gt;PLANTILLAS PARA GENERAR DOCUMENTACIÓN TÉCNICA EN CURSOS DE E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+                  <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/index.html&quot;&gt;PLANTILLAS PARA GENERAR DOCUMENTACIÓN TÉCNICA EN CURSOS DE E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                   <int value="4"></int>
                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1567,7 +1567,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="34"></reference>
+  <reference key="22"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
