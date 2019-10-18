@@ -422,7 +422,7 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
 &lt;td style=&quot;height: 17px; width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Circuitos eléctricos (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/ELE/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Circuitos eléctricos&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 31px;&quot;&gt;
@@ -1567,7 +1567,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="31"></reference>
+  <reference key="12"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
