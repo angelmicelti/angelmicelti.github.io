@@ -1,145 +1,115 @@
-/* Colores */
-
-body{
-	color:#000; /* Cuerpo de texto */
-	background:#F0F0F0; /* Color de fondo */
+html,body{min-height:100%}
+html{background:#FFF url(_intef_bg.png) repeat 0 -2px}
+body{padding:0;
+	text-align:center;
+	background:url(_intef_header.png) no-repeat 50% 0
 }
-
-#content{
-	border-color:#ADADAD; /* Border del contenedor principal */
-	background:#ffffff; /* Color de fondo del contenedor principal */
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); /* Sombra */
+@media all and (min-width:1px) {
+	body{
+		background-image:url(_intef_header.png),url(_intef_footer.png);
+		background-repeat:no-repeat,no-repeat;
+		background-position:50% 0,50% bottom
+	}
 }
-
-.pagination{
-	border-color:#ADADAD; /* Color de borde del bloque: borde superior */
-}
-
-.pagination a{
-	background-color:#F0F0F0; /* Color de fondo de los enlaces Anterior/Siguiente */
-	color:#6A3A4A; /* Color de texto de estos enlaces */
-}
-
-.pagination a:hover{
-	background-color:#E8EDF1; /* Color de fondo de los enlaces Anterior/Siguiente al pasar sobre ellos */
-	color:#000; /* Color de texto de estos enlaces al pasar sobre ellos */
-}
-
-#topPagination .pagination, #topPagination a{ /* En esta plantilla esta paginación se encuentra oculta por defecto (busca "Invisible content" en este mismo archivo) */
-	color:#DADADA; /* Color de texto de la paginación de la cabecera */
-}
-
-#topPagination a:hover{
-	color:#FFF; /* Color de texto de estos enlaces al pasar sobre ellos */
-}
-
-#main #nodeDecoration{
-	text-shadow:none; /* Sombra del texto del título de la página */
-}
-
-#header{
-	color:#FFFFFF; /* Título del proyecto */
-	text-shadow:1px 1px 1px #466A76; /* Sombra del texto */
-}
-
-#nodeTitle{
-	color:#005F6F; /* Título de cada página */
-}
-
-#skipNav a{
-    background:#436974;
-}
-
-#siteNav a{
-	background:#f0f0f0; /* Color fondo menú */
-	color:#0F5E87; /* Enlaces del menú */
-	border-color:#ADADAD; /* Borde que separa a los enlaces */
-}
-
-#siteNav a:hover{
-	color:#6A3A4A; /* Enlaces al pasar sobre ellos */
-	background:#fff; /* Fondo de los enlaces al pasar sobre ellos */
-}
-
-#siteNav ul ul a{
-	color:#38565F; /* Menú: enlaces de segundo nivel */
-}
-
-#siteNav .active{
-	color:#6A3A4A; /* Enlace activo en el menú principal */
-	font-weight:bold; /* Peso fuente */
-	border-color:#ADADAD;  /* Borde del enlace activo */
-}
-
-#siteNav .other-section{
-	display:none; /* Eliminar si se quiere que se muestren todos los niveles */
-}
-
-/* Otras definiciones */
-body{padding:0;text-align:center}
-#content{width:985px;margin:0 auto 25px auto;padding-bottom:10px;text-align:left;position:relative;border-style:solid;border-width:1px;border-top:0;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
-#main-wrapper{padding:10px 20px 0 250px}
+#lbOverlay{background:#f3f3f3}
+#content{width:100%;max-width:1230px;min-width:300px;margin:0 auto;text-align:left;position:relative;padding-bottom:21px}
+#main-wrapper{padding:0 25px 1px 305px;background:#fff url(_intef_left_column.gif) repeat-y 0 0;box-shadow:rgba(0, 0, 0, 0.4) 3px 3px 8px}
+.no-nav #main-wrapper{padding-left:25px;background:#fff}
 #main{width:100%}
-#header,#emptyHeader{height:40px;background:url(my_header.jpg) no-repeat 0 0;padding:69px 20px 0 314px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-#nodeTitle{font-size:1.6em;margin:10px 10px 0 0}
-#main #nodeDecoration{background:none;padding:0;border:none}
-#siteNav{width:230px;float:left;padding-right:20px;padding-bottom:59px;background:url(my_nav_bg.jpg) no-repeat 0 bottom}
-* html #siteNav{width:250px} /* IE6 */
+#header,#emptyHeader{border:none;padding:40px 210px 20px 20px;background:none;font-size:1.55em}
+#emptyHeader{height:42px}
+#headerContent{color:#004F66;text-shadow:1px 1px 1px #FFF}
+#nodeDecoration{padding:0;margin:0 0 25px 0;border:none;text-shadow:none;background:none;border-bottom:1px dotted #97afb2}
+#nodeTitle{padding:17px 0 15px 0;color:#798B8C;letter-spacing:.5px;font-size:1.7em;font-weight:normal}
+#siteFooter{padding:5px 20px 20px 20px;text-align:right;margin-top:-56px}
+/* Navigation */
+#skipNav{font-size:.95em;text-align:center;padding-top:25px}
+#skipNav a{padding:5px 15px;background:#3a4749}
+#siteNav{width:279px;float:left;padding-right:20px;margin:15px 0 70px 0}
 #siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
-#siteNav a{display:block;padding:4px 0 4px 10px;border-width:0 0 1px 0;border-style:dotted}
-* html #siteNav a{display:inline-block;width:100%} /* IE6 */
-#siteNav .main-node{font-weight:bold;font-variant:small-caps;letter-spacing:1px;font-size:1.1em}
-#siteNav a.main-node:hover{text-decoration:underline;background:none}
-#siteNav ul ul a{padding-left:25px;font-size:.95em}
-#siteNav ul ul ul a{font-size:1em;padding-left:50px}
-#siteFooter{padding:5px 0 10px 250px}
-.pagination{border-style:dotted;border-width:1px 0 0 0;padding-top:10px;text-align:right}
+#siteNav a{font-size:.95em;display:block;padding:7px 10px 7px 20px;border-bottom:1px solid #F0F0F0;color:#3a4749;background:#F0F0F0}
+#siteNav a:hover,#siteNav a:focus{color:#007691;background:#f5f7f8;border-color:#f5f7f8}
+#siteNav ul ul a{padding-left:35px;font-size:.9em;background:#f5f7f8;border-color:#f5f7f8;color:#007691}
+#siteNav ul ul a:hover,#siteNav ul ul a:focus{background:#fff;border-color:#fff;color:#3a4749}
+#siteNav .active{color:#007691;text-decoration:underline;background:#fff;border-color:#fff}
+#siteNav .other-section{display:none}
+#siteNav ul ul ul a{padding-left:50px}
+/* IE6 */
+* html #siteNav a{display:inline-block;width:249px}
+* html #siteNav ul ul a{width:234px}
+* html #siteNav ul ul ul a{width:219px}
+* html #main{width:auto}
+/* Pagination */
+.pagination{padding-top:27px;text-align:right;font-size:.95em}
 .pagination .sep{display:none}
-.pagination a{padding:3px 5px;border-radius:5px;margin-left:20px}
-.pagination a:hover{text-decoration:none}
-#topPagination{position:absolute;top:7px;right:20px}
-#topPagination .pagination{border:none}
-#topPagination a{padding:0 5px;background:none}
-#topPagination a:hover{text-decoration:underline}
-#bottomPagination{padding:0 20px 10px 250px}
-#bottomPagination .pagination{padding-top:20px}
-#bottomPagination .page-counter{margin-left:20px;margin-right:0}
-.iDeviceTitle{vertical-align:top}
+.pagination a{padding:5px 15px;background:#526668;color:#FFF;margin-left:18px;
+text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3), 0px 0px 5px rgba(0, 0, 0, 0.3), 0px 0px 2px rgba(0, 0, 0, 0.6);
+box-shadow:rgba(0, 0, 0, 0.25) 3px 3px 4px}
+.pagination a span span{display:none}
+.pagination a:hover,.pagination a:focus{background:#7A989C}
+#topPagination{position:absolute;top:-2px;width:100%;right:20px}
+#topPagination .prev{margin-left:18px}
+.pagination .prev{box-shadow:rgba(0, 0, 0, 0.25) -3px 3px 4px}
+#topPagination .pagination{text-align:right}
+#bottomPagination{padding:0 20px 71px 0}
+.no-nav #bottomPagination{padding-left:20px}
+/* Page counter */
+#topPagination .page-counter{margin-left:16px}
+#bottomPagination .page-counter{margin-left:16px;margin-right:0}
+
+#exe-client-search-form{text-align:left;padding:25px 0 0;margin:0;font-size:.95em}
+
+@media all and (min-width:1230px) {
+	#bottomPagination,#siteFooter{padding-right:0}
+	#topPagination{right:0}
+	#header{padding-left:0}
+}
+
 /* Autoclear */
 #content:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0} 
 #content{display:inline-block}
 html[xmlns] #content{display:block}
 * html #content{height: 1%;overflow:visible}
 
-/* No menu */
-.no-nav #main-wrapper,.no-nav #bottomPagination,.no-nav #siteFooter{padding-left:20px}
-.no-nav #content{background-image:none}
+#header-options{margin:20px 0 0;position:absolute;top:5.9em;right:20px}
+#header-options a{font-size:.95em;margin-left:15px;background:#fff url(_intef_print.png) no-repeat 5px 50%;padding:0 10px 0 32px;color:#7A989C}
+#header-options a:hover,#header-options a:focus{color:#526668}
+#header-options #toggle-nav{background-image:url(_intef_menu.gif)}
+#exe-client-search-text{max-width:50%}
+.exe-client-search-result{background:#ecd078;padding:0 2px}
+a .exe-client-search-result{color:#00566a}
 
-/* IE6 */
-* html #main{width:auto}
-* html #siteNav a{width:219px}
-* html #siteNav ul ul a{width:204px}
-* html #siteNav ul ul ul a{width:179px}
-
-/* Responsive design */
-@media all and (max-width: 1020px) {
-	#content{width:100%;margin:0 auto;border:none;border-radius:0;box-shadow:none}
+@media all and (max-width: 768px) {
+	#content{width:100%;border:none;margin:0}
+	#main-wrapper{background:#fff}
+	#header,#emptyHeader{padding-left:20px;padding-right:20px;background-position:50% 23px}
+	#exe-client-search-text{max-width:70%}
+	#topPagination{display:none}
+	#bottomPagination,.no-nav #bottomPagination{padding:0 20px}
+	#siteNav{float:none;width:100%;padding:0;margin:0;font-size:.95em}
+	#siteNav a{padding:10px 20px}
+	#siteNav ul ul a{padding-left:40px}
+	#siteNav ul ul ul a{padding-left:60px}		
+	#main-wrapper,.no-nav #main-wrapper{padding-left:20px;padding-right:20px}
+	#siteFooter,.no-nav #siteFooter{padding:20px;text-align:center;margin:0}
+	#content .exe-col{float:none;width:100%;padding:0}
+	iframe,object,embed{max-width:100%}
+	img,video{max-width:100%;height:auto}
+	.pagination{text-align:center;height:35px;position:relative}
+	.pagination .prev{position:absolute;left:0;margin:0}
+	.pagination .next{position:absolute;right:0}	
+	#header-options{position:relative;top:0;left:0;margin:0;background:#FFF;font-size:.95em}
+	#header-options a{margin-left:0;display:block;width:100%;height:auto;color:#3a4749;border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb;line-height:2.6em;letter-spacing:1px;padding:0;text-transform:lowercase}
+	#header-options a span{background:url(_intef_menu.gif) no-repeat 18px 1px;padding-left:45px}
+	#header-options #print-page{display:none}
+	#header-options #toggle-nav{background:none}
+	#bottomPagination .page-counter{margin:0;padding-top:5px;display:inline-block}
 }
 
-@media all and (max-width: 780px) {
-	#header,#emptyHeader{background-position:-294px 0;padding:69px 10px 0 10px;font-size:1.3em}
-	#siteNav{width:100%;float:none;padding:0;background-image:none}
-	#siteNav .main-node{font-weight:normal;font-variant:normal;letter-spacing:0;font-size:1em}
-	#main-wrapper,.no-nav #main-wrapper{padding:10px 10px 0 10px}
-	#siteFooter,.no-nav #siteFooter{padding:10px;text-align:center}
-	.pagination{font-weight:bold;font-size:1.1em}
-	#topPagination{position:relative;top:auto;width:100%;right:auto;padding:0}
-	#topPagination .pagination{padding:0;text-align:center;background:#4B737F;border-bottom:1px dotted #ADADAD}
-	.no-nav #topPagination .pagination{border-top:1px solid #fff}
-	#topPagination .prev,#topPagination .next,#topPagination .page-counter{display:none}
-	#bottomPagination,.no-nav #bottomPagination{position:relative;padding:0 10px 10px 10px}
-	#bottomPagination a{padding:3px 10px;display:inline-block}
-	#bottomPagination .prev{position:absolute;left:10px;margin-left:0}
-	#bottomPagination .page-counter{position:absolute;width:50%;left:25%;text-align:center;margin:0;font-weight:normal;padding-top:3px}
-	#nav-toggler a,#nav-toggler a:focus{display:inline-block;padding:4px;width:80%;color:#fff;font-variant:small-caps;letter-spacing:1px;outline:none;text-decoration:none}
+@media print{
+	#header,#emptyHeader{margin:0;padding-top:30px;padding-left:0}
+	#siteNav,#header-options,.noprt,.toggle-idevice,#exe-client-search{display:none!important}
+	#main-wrapper,.no-nav #main-wrapper{padding:20px 0;box-shadow:none}
+	body #content{background:#FFF}
+	#content{max-width:100%}
 }
