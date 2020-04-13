@@ -1,81 +1,115 @@
-/*  
-Copyright University of Auckland 2004
-Created by Brent Simpson, brent.simpson@auckland.ac.nz
-Centre for Flexible and Distance Learning
-
-Modified by Ignacio Gros for eXeLearning.net
-See Help - eXe Tutorial for more info on how to modify this style for your needs.
-*/
-body{padding:15px 20px 20px 20px}
-#content{width:100%;position:relative;padding-bottom:10px;min-width:380px;background:#EDEFF0 url(_seamist_side_bg.gif) repeat-y 0 0}
-#main-wrapper{padding:20px 20px 0 260px;background:none}
-#main{width:100%;padding:0}
-#content{padding-bottom:21px}
-#header,#emptyHeader{border-top:none;background:#fff;padding-right:220px}
-#nodeDecoration{padding:0;margin:0;background:none;border:none}
-#nodeTitle{padding:.5em 0;border-top:1px solid #fff;border-bottom:1px solid #fff}
-#siteFooter{margin-top:10px;padding-left:260px}
+html,body{min-height:100%}
+html{background:#FFF url(_intef_bg.png) repeat 0 -2px}
+body{padding:0;
+	text-align:center;
+	background:url(_intef_header.png) no-repeat 50% 0
+}
+@media all and (min-width:1px) {
+	body{
+		background-image:url(_intef_header.png),url(_intef_footer.png);
+		background-repeat:no-repeat,no-repeat;
+		background-position:50% 0,50% bottom
+	}
+}
+#lbOverlay{background:#f3f3f3}
+#content{width:100%;max-width:1230px;min-width:300px;margin:0 auto;text-align:left;position:relative;padding-bottom:21px}
+#main-wrapper{padding:0 25px 1px 305px;background:#fff url(_intef_left_column.gif) repeat-y 0 0;box-shadow:rgba(0, 0, 0, 0.4) 3px 3px 8px}
+.no-nav #main-wrapper{padding-left:25px;background:#fff}
+#main{width:100%}
+#header,#emptyHeader{border:none;padding:40px 210px 20px 20px;background:none;font-size:1.55em}
+#emptyHeader{height:42px}
+#headerContent{color:#004F66;text-shadow:1px 1px 1px #FFF}
+#nodeDecoration{padding:0;margin:0 0 25px 0;border:none;text-shadow:none;background:none;border-bottom:1px dotted #97afb2}
+#nodeTitle{padding:17px 0 15px 0;color:#798B8C;letter-spacing:.5px;font-size:1.7em;font-weight:normal}
+#siteFooter{padding:5px 20px 20px 20px;text-align:right;margin-top:-56px}
 /* Navigation */
-#skipNav{text-align:center}
-#skipNav a{background:#51778A}
-#siteNav{width:220px;float:left;padding-right:20px}
-#siteNav,#siteNav ul{border-color:#FAFFE6}
+#skipNav{font-size:.95em;text-align:center;padding-top:25px}
+#skipNav a{padding:5px 15px;background:#3a4749}
+#siteNav{width:279px;float:left;padding-right:20px;margin:15px 0 70px 0}
 #siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
-#siteNav a{display:block;padding:4px 0 4px 15px;color:#96852C;border-bottom:1px solid #D3D8DA;background:#fff}
-#siteNav .main-node{border-top:1px solid #D3D8DA}
-#siteNav a:hover,#siteNav a:focus{background-color:#EDEFF0;color:#517793}
-* html #siteNav a{display:inline-block;width:100%} /* IE6 */
-#siteNav ul ul a{padding-left:30px;font-size:.95em}
-#siteNav .active,#siteNav .active:hover,#siteNav .active:focus{color:#fff;background:#51778A}
+#siteNav a{font-size:.95em;display:block;padding:7px 10px 7px 20px;border-bottom:1px solid #F0F0F0;color:#3a4749;background:#F0F0F0}
+#siteNav a:hover,#siteNav a:focus{color:#007691;background:#f5f7f8;border-color:#f5f7f8}
+#siteNav ul ul a{padding-left:35px;font-size:.9em;background:#f5f7f8;border-color:#f5f7f8;color:#007691}
+#siteNav ul ul a:hover,#siteNav ul ul a:focus{background:#fff;border-color:#fff;color:#3a4749}
+#siteNav .active{color:#007691;text-decoration:underline;background:#fff;border-color:#fff}
 #siteNav .other-section{display:none}
-#siteNav ul ul ul a{padding-left:45px}
+#siteNav ul ul ul a{padding-left:50px}
+/* IE6 */
+* html #siteNav a{display:inline-block;width:249px}
+* html #siteNav ul ul a{width:234px}
+* html #siteNav ul ul ul a{width:219px}
+* html #main{width:auto}
 /* Pagination */
-.pagination{border-top:1px solid #fff;padding-top:20px;text-align:right}
+.pagination{padding-top:27px;text-align:right;font-size:.95em}
 .pagination .sep{display:none}
-.pagination a{padding:0;margin-left:20px}
-.pagination a:hover,.pagination a:focus{color:#8B7B73}
-#topPagination{position:absolute;top:-2px;width:100%;right:0}
-#topPagination .prev{margin-left:20px}
-#topPagination .pagination{border:none}
-#bottomPagination{padding:0 20px 0 260px}
-#bottomPagination .page-counter{margin-left:20px;margin-right:0}
+.pagination a{padding:5px 15px;background:#526668;color:#FFF;margin-left:18px;
+text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3), 0px 0px 5px rgba(0, 0, 0, 0.3), 0px 0px 2px rgba(0, 0, 0, 0.6);
+box-shadow:rgba(0, 0, 0, 0.25) 3px 3px 4px}
+.pagination a span span{display:none}
+.pagination a:hover,.pagination a:focus{background:#7A989C}
+#topPagination{position:absolute;top:-2px;width:100%;right:20px}
+#topPagination .prev{margin-left:18px}
+.pagination .prev{box-shadow:rgba(0, 0, 0, 0.25) -3px 3px 4px}
+#topPagination .pagination{text-align:right}
+#bottomPagination{padding:0 20px 71px 0}
+.no-nav #bottomPagination{padding-left:20px}
+/* Page counter */
+#topPagination .page-counter{margin-left:16px}
+#bottomPagination .page-counter{margin-left:16px;margin-right:0}
+
+#exe-client-search-form{text-align:left;padding:25px 0 0;margin:0;font-size:.95em}
+
+@media all and (min-width:1230px) {
+	#bottomPagination,#siteFooter{padding-right:0}
+	#topPagination{right:0}
+	#header{padding-left:0}
+}
+
 /* Autoclear */
 #content:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0} 
 #content{display:inline-block}
 html[xmlns] #content{display:block}
 * html #content{height: 1%;overflow:visible}
 
-/* IE6 */
-* html #main{width:auto}
-* html #siteNav a{width:205px}
-* html #siteNav ul ul a{width:190px}
-* html #siteNav ul ul ul a{width:175px}
+#header-options{margin:20px 0 0;position:absolute;top:5.9em;right:20px}
+#header-options a{font-size:.95em;margin-left:15px;background:#fff url(_intef_print.png) no-repeat 5px 50%;padding:0 10px 0 32px;color:#7A989C}
+#header-options a:hover,#header-options a:focus{color:#526668}
+#header-options #toggle-nav{background-image:url(_intef_menu.gif)}
+#exe-client-search-text{max-width:50%}
+.exe-client-search-result{background:#ecd078;padding:0 2px}
+a .exe-client-search-result{color:#00566a}
 
-/* No menu */
-.no-nav #main-wrapper,.no-nav #siteFooter,.no-nav #bottomPagination{padding-left:20px}
-.no-nav #content{background-image:none}
-
-/* Responsive design */
-@media all and (max-width: 980px) {
-	#content{background-position:-30px 0}
-	#main-wrapper,#siteFooter,#bottomPagination{padding-left:230px}
-	#siteNav{width:190px}
+@media all and (max-width: 768px) {
+	#content{width:100%;border:none;margin:0}
+	#main-wrapper{background:#fff}
+	#header,#emptyHeader{padding-left:20px;padding-right:20px;background-position:50% 23px}
+	#exe-client-search-text{max-width:70%}
+	#topPagination{display:none}
+	#bottomPagination,.no-nav #bottomPagination{padding:0 20px}
+	#siteNav{float:none;width:100%;padding:0;margin:0;font-size:.95em}
+	#siteNav a{padding:10px 20px}
+	#siteNav ul ul a{padding-left:40px}
+	#siteNav ul ul ul a{padding-left:60px}		
+	#main-wrapper,.no-nav #main-wrapper{padding-left:20px;padding-right:20px}
+	#siteFooter,.no-nav #siteFooter{padding:20px;text-align:center;margin:0}
+	#content .exe-col{float:none;width:100%;padding:0}
+	iframe,object,embed{max-width:100%}
+	img,video{max-width:100%;height:auto}
+	.pagination{text-align:center;height:35px;position:relative}
+	.pagination .prev{position:absolute;left:0;margin:0}
+	.pagination .next{position:absolute;right:0}	
+	#header-options{position:relative;top:0;left:0;margin:0;background:#FFF;font-size:.95em}
+	#header-options a{margin-left:0;display:block;width:100%;height:auto;color:#3a4749;border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb;line-height:2.6em;letter-spacing:1px;padding:0;text-transform:lowercase}
+	#header-options a span{background:url(_intef_menu.gif) no-repeat 18px 1px;padding-left:45px}
+	#header-options #print-page{display:none}
+	#header-options #toggle-nav{background:none}
+	#bottomPagination .page-counter{margin:0;padding-top:5px;display:inline-block}
 }
 
-@media all and (max-width: 780px) {
-	body{padding:10px}
-	#main-wrapper,.no-nav #main-wrapper{padding:15px 15px 0 15px;border-top:10px solid #fff}
-	#header,#emptyHeader{padding-right:0}
-	#content{background-image:none}
-	#siteNav{width:100%;float:none;padding-right:0}
-	#siteFooter{padding:0 15px;text-align:center}
-	.pagination{font-weight:bold;font-size:1.1em}
-	.pagination a{margin:0}
-	#topPagination{position:relative;top:auto;width:100%;right:auto;padding:0}
-	#topPagination .pagination{padding:0;text-align:center;background:#96852C;border-bottom:1px solid #D3D8DA}
-	#topPagination .prev,#topPagination .next,#topPagination .page-counter{display:none}
-	#bottomPagination,.no-nav #bottomPagination{margin:0 15px;padding:0;position:relative}
-	#bottomPagination .prev{position:absolute;left:0}
-	#bottomPagination .page-counter{position:absolute;width:50%;left:25%;text-align:center;margin:0;font-weight:normal}
-	#nav-toggler a,#nav-toggler a:focus{display:inline-block;padding:4px;width:80%;color:#fff;letter-spacing:1px;outline:none;text-decoration:none}
+@media print{
+	#header,#emptyHeader{margin:0;padding-top:30px;padding-left:0}
+	#siteNav,#header-options,.noprt,.toggle-idevice,#exe-client-search{display:none!important}
+	#main-wrapper,.no-nav #main-wrapper{padding:20px 0;box-shadow:none}
+	body #content{background:#FFF}
+	#content{max-width:100%}
 }
