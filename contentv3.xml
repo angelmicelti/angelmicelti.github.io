@@ -417,7 +417,7 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
 &lt;td style=&quot;height: 17px; width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Introducción a la electrónica (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/IEL/index.html&quot;&gt;Introducción a la electrónica&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
@@ -1594,7 +1594,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="165"></int>
+                    <int value="203"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -1608,7 +1608,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="13_85.3"></unicode>
+                  <unicode value="13_85.4"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="38">
                    <dictionary>
@@ -1619,7 +1619,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="GlideApp.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp2byvw9\\GlideApp.png"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmprwoobk\\GlideApp.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="5cddcba63eac983a1e96ca177f66ab64"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1648,7 +1648,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="4"></int>
+             <int value="5"></int>
              <string role="key" value="parentNode"></string>
              <reference key="37"></reference>
             </dictionary>
@@ -1680,66 +1680,6 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="userResources"></string>
            <list>
             <reference key="38"></reference>
-            <instance class="exe.engine.resource.Resource" reference="39">
-             <dictionary>
-              <string role="key" value="_idevice"></string>
-              <reference key="35"></reference>
-              <string role="key" value="_package"></string>
-              <reference key="8"></reference>
-              <string role="key" value="_storageName"></string>
-              <string value="GlideApp.png"></string>
-              <string role="key" value="_userName"></string>
-              <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp2byvw9\\GlideApp.png"></string>
-              <string role="key" value="checksum"></string>
-              <string value="5cddcba63eac983a1e96ca177f66ab64"></string>
-              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="warningMsg"></string>
-              <string value=""></string>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.resource.Resource" reference="40">
-             <dictionary>
-              <string role="key" value="_idevice"></string>
-              <reference key="35"></reference>
-              <string role="key" value="_package"></string>
-              <reference key="8"></reference>
-              <string role="key" value="_storageName"></string>
-              <string value="GlideApp.png"></string>
-              <string role="key" value="_userName"></string>
-              <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp2byvw9\\GlideApp.png"></string>
-              <string role="key" value="checksum"></string>
-              <string value="5cddcba63eac983a1e96ca177f66ab64"></string>
-              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="warningMsg"></string>
-              <string value=""></string>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.resource.Resource" reference="41">
-             <dictionary>
-              <string role="key" value="_idevice"></string>
-              <reference key="35"></reference>
-              <string role="key" value="_package"></string>
-              <reference key="8"></reference>
-              <string role="key" value="_storageName"></string>
-              <string value="GlideApp.png"></string>
-              <string role="key" value="_userName"></string>
-              <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp2byvw9\\GlideApp.png"></string>
-              <string role="key" value="checksum"></string>
-              <string value="5cddcba63eac983a1e96ca177f66ab64"></string>
-              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-              <int value="2"></int>
-              <string role="key" value="warningMsg"></string>
-              <string value=""></string>
-             </dictionary>
-            </instance>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -1812,7 +1752,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="15"></reference>
+  <reference key="12"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3050,14 +2990,13 @@ text through the text editing buttons associated with the field."></unicode>
   <string value=""></string>
   <string role="key" value="mxmlwidth"></string>
   <string value=""></string>
+  <string role="key" value="release"></string>
+  <string value="2.5"></string>
   <string role="key" value="resources"></string>
   <dictionary>
    <string role="key" value="5cddcba63eac983a1e96ca177f66ab64"></string>
    <list>
     <reference key="38"></reference>
-    <reference key="39"></reference>
-    <reference key="40"></reference>
-    <reference key="41"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
