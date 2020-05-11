@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,10 +7,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>Decodificador | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -19,8 +19,8 @@
 <body class="exe-web-site" id="exe-node-65"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></header>
+<nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA DIGITAL</a></li>
    <li><a href="1_introduccin_de_lo_analgico_a_lo_digital.html" class="no-ch">1. Introducción: de lo analógico a lo digital</a></li>
@@ -88,6 +88,7 @@
       <li><a href="otros.html" class="daddy">Otros</a>
       <ul class="other-section">
          <li><a href="crocodileclips.html" class="no-ch">Crocodile-Clips</a></li>
+         <li><a href="livewire.html" class="no-ch">Livewire</a></li>
          <li><a href="cedarlogic.html" class="no-ch">Cedar-Logic</a></li>
       </ul>
       </li>
@@ -124,69 +125,69 @@
    </ul>
    </li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="multiplexor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="8_software_para_ed.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Decodificador</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id177">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Decodificador</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id177">
 <div class="iDevice emphasis0">
 <div id="ta177_85" class="block iDevice_content">
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Un <strong>decodificador</strong> es un circuito digital que transforma N bits de entrada en una cantidad inferior o igual a 2<sup>N</sup> de salidas.</span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Vamos a ver un sencillo ejemplo, para que te resulte fácil comprenderlo.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Un <strong>decodificador</strong> es un circuito digital que transforma N bits de entrada en una cantidad inferior o igual a 2<sup>N</sup> de salidas.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Vamos a ver un sencillo ejemplo, para que te resulte fácil comprenderlo.</span></p>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id178">
+</article>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id178">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Decodificador de 1 bit a 7 segmentos</h2></div>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Decodificador de 1 bit a 7 segmentos</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta178_260_2" class="block iDevice_content">
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Este circuito puede parecerte muy "tonto", pero valdrá para que comprendas la función de un decodificador.</span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Se trata de convertir el contenido de 1 bit (0 ó 1, no más) en su correspondiente representación en un display de 7 segmentos.</span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><img src="7segmentos.jpg" title="Nombres de los segmentos de un display" width="195" height="308" style="float: right; margin: 10px;" />Para construir este circuito, diseñamos primero la tabla de verdad. Y, para ello, recordamos del tema de analógica cómo se nombran los segmentos de un display. Puedes verlo en la imagen.</span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Un "1" nos indicará el correspondiente segmento encendido y un "0" nos indicará que está apagado.</span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Así, la tabla de verdad nos quedará realmente fácil:</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Este circuito puede parecerte muy "tonto", pero valdrá para que comprendas la función de un decodificador.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Se trata de convertir el contenido de 1 bit (0 ó 1, no más) en su correspondiente representación en un display de 7 segmentos.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><img src="7segmentos.jpg" title="Nombres de los segmentos de un display" width="195" height="308" style="float: right; margin: 10px;" />Para construir este circuito, diseñamos primero la tabla de verdad. Y, para ello, recordamos del tema de analógica cómo se nombran los segmentos de un display. Puedes verlo en la imagen.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Un "1" nos indicará el correspondiente segmento encendido y un "0" nos indicará que está apagado.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Así, la tabla de verdad nos quedará realmente fácil:</span></p>
 <table border="1" class="exe-table" style="margin-left: auto; margin-right: auto; height: 170px; width: 315px;">
 <tbody>
 <tr style="height: 27px;">
-<td style="width: 15.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>A</strong></span></td>
-<td style="width: 12.8px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>a</strong></span></td>
-<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>b</strong></span></td>
-<td style="width: 11.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>c</strong></span></td>
-<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-family: verdana, geneva, sans-serif;"><span style="font-size: 18.6667px;"><b>d</b></span></span></td>
-<td style="width: 12.8px; text-align: center;"><span style="font-family: verdana, geneva, sans-serif;"><span style="font-size: 18.6667px;"><b>e</b></span></span></td>
-<td style="width: 10.4px; text-align: center;"><span style="font-family: verdana, geneva, sans-serif;"><span style="font-size: 18.6667px;"><b>f</b></span></span></td>
-<td style="width: 13.6px; text-align: center;"><span style="font-family: verdana, geneva, sans-serif;"><span style="font-size: 18.6667px;"><b>g</b></span></span></td>
+<td style="width: 15.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>A</strong></span></td>
+<td style="width: 12.8px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>a</strong></span></td>
+<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>b</strong></span></td>
+<td style="width: 11.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>c</strong></span></td>
+<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b>d</b></span></td>
+<td style="width: 12.8px; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b>e</b></span></td>
+<td style="width: 10.4px; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b>f</b></span></td>
+<td style="width: 13.6px; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b>g</b></span></td>
 </tr>
 <tr style="height: 27px;">
-<td style="width: 15.2px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 12.8px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 11.2px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 12.8px; text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 10.4px; text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 13.6px; text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 15.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 12.8px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 11.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 12.8px; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 10.4px; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 13.6px; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
 </tr>
 <tr style="height: 27px;">
-<td style="width: 15.2px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 12.8px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 11.2px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 12.8px; text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 10.4px; text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 13.6px; text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 15.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 12.8px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 11.2px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 13.6px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 12.8px; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 10.4px; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 13.6px; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
 </tr>
 </tbody>
 </table>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Con esto, las expresiones de los estados de los segmentos nos quedan así:</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Con esto, las expresiones de los estados de los segmentos nos quedan así:</span></p>
 <div class="exe-math show-code exe-math-engine position-center">
 <p class="exe-math-img"></p>
 <table border="0" class="exe-table-minimalist" width="497" height="52" style="height: 121px; width: 279px; margin-left: auto; margin-right: auto;">
@@ -202,24 +203,24 @@
 </tr>
 </tbody>
 </table>
-<p style="text-align: left;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Finalmente, la implementación del circuito queda como sigue:</span></p>
-<p><img src="Deco1bit7Seg.png" alt="" title="Implementación del decodificador de 1 bit a 7 segmentos" width="300" height="332" /></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Puedes descargar el circuito en formato Digital en <a href="comparador2bits.dig" title="[dig - 4,08 KB]">este enlace</a><span class="exe-link-data file-size"> (dig - 4,08 <abbr title="KiloBytes" lang="en">KB</abbr>)</span>.</span></p>
+<p style="text-align: left;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Finalmente, la implementación del circuito queda como sigue:</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="Deco1bit7Seg.png" alt="" title="Implementación del decodificador de 1 bit a 7 segmentos" width="300" height="332" /></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Puedes descargar el circuito en formato Digital en <a href="comparador2bits.dig" title="[dig - 4,08 KB]">este enlace</a><span class="exe-link-data file-size"> (dig - 4,08 <abbr title="KiloBytes" lang="en">KB</abbr>)</span>.</span></p>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="multiplexor.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="8_software_para_ed.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>

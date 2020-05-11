@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,10 +7,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>Semisumador | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -19,8 +19,8 @@
 <body class="exe-web-site" id="exe-node-49"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></header>
+<nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA DIGITAL</a></li>
    <li><a href="1_introduccin_de_lo_analgico_a_lo_digital.html" class="no-ch">1. Introducción: de lo analógico a lo digital</a></li>
@@ -88,6 +88,7 @@
       <li><a href="otros.html" class="daddy">Otros</a>
       <ul class="other-section">
          <li><a href="crocodileclips.html" class="no-ch">Crocodile-Clips</a></li>
+         <li><a href="livewire.html" class="no-ch">Livewire</a></li>
          <li><a href="cedarlogic.html" class="no-ch">Cedar-Logic</a></li>
       </ul>
       </li>
@@ -124,70 +125,70 @@
    </ul>
    </li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="7_circuitos_lgicos_de_inters.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="sumador_completo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Semisumador</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id170">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Semisumador</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id170">
 <div class="iDevice emphasis0">
 <div id="ta170_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Un <strong>semisumador</strong> es un circuito digital sencillo que nos permite sumar dos bits y registrar el acarreo. Son tres los resultados de la suma de dos bits: 0+0 = 0; 0+1 = 1+0 = 1 y 1+1 =10<sub>2)</sub>.</span></p>
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Como siempre que generamos un circuito digital, necesitamos trasladar estos resultados o condiciones a una tabla de verdad. Es la siguiente:</span><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"></span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Un <strong>semisumador</strong> es un circuito digital sencillo que nos permite sumar dos bits y registrar el acarreo. Son tres los resultados de la suma de dos bits: 0+0 = 0; 0+1 = 1+0 = 1 y 1+1 =10<sub>2)</sub>.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Como siempre que generamos un circuito digital, necesitamos trasladar estos resultados o condiciones a una tabla de verdad. Es la siguiente:</span></p>
 <table border="1" style="width: 39.0173%; margin-left: auto; margin-right: auto;" class="exe-table">
 <tbody>
 <tr>
-<td style="width: 7.02381%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">A</span></strong></td>
-<td style="width: 6.25001%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">B</span></strong></td>
-<td style="width: 7.20239%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Suma</span></strong></td>
-<td style="width: 18.5529%; text-align: center;"><strong><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Carry out</span></strong></td>
+<td style="width: 7.02381%; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>A</strong></span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>B</strong></span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>Suma</strong></span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>Carry out</strong></span></td>
 </tr>
 <tr>
-<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
 </tr>
 <tr>
-<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
 </tr>
 <tr>
-<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
 </tr>
 <tr>
-<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
+<td style="width: 7.02381%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 6.25001%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 7.20239%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 18.5529%; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
 </tr>
 </tbody>
 </table>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Para implementar estas tablas no es necesaria simplificación, y obtenemos:</span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><img src="semisumador.png" width="805" height="190" style="display: block; margin-left: auto; margin-right: auto;" title="Circuito semisumador en Digital" /></span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">(observa que la columna suma se corresponde con la puerta <a href="46_puerta_xor_u_orex.html">OR exclusiva</a>, por eso la hemos utilizado).</span></p>
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Puedes descargar el archivo en formato .dig (aplicación Digital) para comprobar su funcionamiento en <a href="Semisumador.dig">este enlace</a>.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para implementar estas tablas no es necesaria simplificación, y obtenemos:</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><img src="semisumador.png" width="805" height="190" style="display: block; margin-left: auto; margin-right: auto;" title="Circuito semisumador en Digital" /></span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">(observa que la columna suma se corresponde con la puerta <a href="46_puerta_xor_u_orex.html">OR exclusiva</a>, por eso la hemos utilizado).</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Puedes descargar el archivo en formato .dig (aplicación Digital) para comprobar su funcionamiento en <a href="Semisumador.dig">este enlace</a>.</span></p>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="7_circuitos_lgicos_de_inters.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="sumador_completo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>

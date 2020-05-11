@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,10 +7,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>2.8. Diferencia de dos números binarios. | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -19,8 +19,8 @@
 <body class="exe-web-site" id="exe-node-8"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></header>
+<nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA DIGITAL</a></li>
    <li><a href="1_introduccin_de_lo_analgico_a_lo_digital.html" class="no-ch">1. Introducción: de lo analógico a lo digital</a></li>
@@ -88,6 +88,7 @@
       <li><a href="otros.html" class="daddy">Otros</a>
       <ul class="other-section">
          <li><a href="crocodileclips.html" class="no-ch">Crocodile-Clips</a></li>
+         <li><a href="livewire.html" class="no-ch">Livewire</a></li>
          <li><a href="cedarlogic.html" class="no-ch">Cedar-Logic</a></li>
       </ul>
       </li>
@@ -124,62 +125,44 @@
    </ul>
    </li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="27_suma_de_dos_nmeros_binarios.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_funcin_lgica_tabla_de_verdad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">2.8. Diferencia de dos números binarios.</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id13">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2.8. Diferencia de dos números binarios.</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id13">
 <div class="iDevice emphasis0">
 <div id="ta13_1" class="block iDevice_content">
-<p>
-<font face="verdana,geneva" size="3">Para hacer la diferencia binaria, utilizaremos el siguiente <b>algoritmo o procedimiento</b>, que obtiene la diferencia binaria a partir de una suma<b>:</b></font>
-</p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para hacer la diferencia binaria, utilizaremos el siguiente <b>algoritmo o procedimiento</b>, que obtiene la diferencia binaria a partir de una suma<b>:</b></span></p>
 <ol>
-	<li><font face="verdana,geneva" size="3">Colocar el minuendo.</font></li>
-	<li><font face="verdana,geneva" size="3">Colocar el sustraendo bajo el minuendo, pero con las cifras invertidas,
-	cambiando ceros por unos y unos por ceros.</font></li>
-	<li><font face="verdana,geneva" size="3">Colocar tantos &quot;1&quot;
-	a la izquierda del nuevo sustraendo como sea necesario para que ambos tengan
-	las mismas cifras.</font></li>
-	<li><font face="verdana,geneva" size="3">Añadir un &quot;1&quot;
-	como tercera fila de la suma.</font></li>
-	<li><font face="verdana,geneva" size="3">Efectuar la suma.</font></li>
-	<li><font face="verdana,geneva" size="3">Quitar la cifra de la izquierda del resultado. Nos ha quedado escrito el
-	número que es la diferencia de los dos que nos han dado.</font></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Colocar el minuendo.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Colocar el sustraendo bajo el minuendo, pero con las cifras invertidas, cambiando ceros por unos y unos por ceros.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Colocar tantos "1" a la izquierda del nuevo sustraendo como sea necesario para que ambos tengan las mismas cifras.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Añadir un "1" como tercera fila de la suma.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Efectuar la suma.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Quitar la cifra de la izquierda del resultado. Nos ha quedado escrito el número que es la diferencia de los dos que nos han dado.</span></li>
 </ol>
-<p>
-<font face="verdana,geneva" size="3">Desarrollemos este
-algoritmo para hacer la diferencia de 13<sub>10)</sub> = 1101<sub>2)</sub> y 5<sub>10)</sub>
-= 101<sub>2)</sub>:</font>
-</p>
-<p align="center">
-&nbsp;
-</p>
-<div style="text-align: center">
-<img src="diferencia_binaria.jpg" height="433" width="803" />
-</div>
- <br />
-<p>
-&nbsp;
-</p>
-
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Desarrollemos este algoritmo para hacer la diferencia de 13<sub>10)</sub> = 1101<sub>2)</sub> y 5<sub>10)</sub> = 101<sub>2)</sub>:</span></p>
+<p align="center"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
+<div style="text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="diferencia_binaria.jpg" height="433" width="803" /></span></div>
+<p></p>
+<p> </p>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="27_suma_de_dos_nmeros_binarios.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_funcin_lgica_tabla_de_verdad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>

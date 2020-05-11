@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,10 +7,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>4.6. Puerta XOR u OR-EX. | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -19,8 +19,8 @@
 <body class="exe-web-site" id="exe-node-19"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></header>
+<nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA DIGITAL</a></li>
    <li><a href="1_introduccin_de_lo_analgico_a_lo_digital.html" class="no-ch">1. Introducción: de lo analógico a lo digital</a></li>
@@ -88,6 +88,7 @@
       <li><a href="otros.html" class="daddy">Otros</a>
       <ul class="other-section">
          <li><a href="crocodileclips.html" class="no-ch">Crocodile-Clips</a></li>
+         <li><a href="livewire.html" class="no-ch">Livewire</a></li>
          <li><a href="cedarlogic.html" class="no-ch">Cedar-Logic</a></li>
       </ul>
       </li>
@@ -124,96 +125,96 @@
    </ul>
    </li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="45_puerta_nand.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="47_puerta_xnor_o_norex.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">4.6. Puerta XOR u OR-EX.</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id47">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">4.6. Puerta XOR u OR-EX.</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id47">
 <div class="iDevice emphasis0">
 <div id="ta47_1" class="block iDevice_content">
-<p align="justify"><span style="font-family: verdana,geneva; font-size: medium;">Esta puerta recibe el nombre de XOR, OR-Exclusiva o, resumido, OR-EX. En la figura se muestra el símbolo de una puerta XOR de dos entradas. La salida es 1 lógico si y solo si A es diferente de B. Si A y B son ambas 0 lógico o ambas son 1 lógico entonces la salida vale 0.</span></p>
+<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Esta puerta recibe el nombre de XOR, OR-Exclusiva o, resumido, OR-EX. En la figura se muestra el símbolo de una puerta XOR de dos entradas. La salida es 1 lógico si y solo si A es diferente de B. Si A y B son ambas 0 lógico o ambas son 1 lógico entonces la salida vale 0.</span></p>
 <div align="justify"></div>
-<p align="justify"><span style="font-family: verdana,geneva; font-size: medium;">La tabla de verdad la tienes junto al símbolo de la puerta. Observa que es parecido al de la puerta OR.</span></p>
-<p align="justify" style="text-align: justify;"><span style="font-family: verdana,geneva; font-size: medium;">Puede representarse como la función siguiente:</span></p>
+<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">La tabla de verdad la tienes junto al símbolo de la puerta. Observa que es parecido al de la puerta OR.</span></p>
+<p align="justify" style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Puede representarse como la función siguiente:</span></p>
 <div class="exe-math show-image position-center">
-<p class="exe-math-img"><img alt="" src="eXe_LaTeX_math_0.1.gif" width="184" height="18" /></p>
-<p class="exe-math-code">F = \overline A \cdot B + A \cdot \overline B = A \oplus B</p>
+<p class="exe-math-img"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img alt="" src="eXe_LaTeX_math_0.1.gif" width="184" height="18" /></span></p>
+<p class="exe-math-code"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">F = \overline A \cdot B + A \cdot \overline B = A \oplus B</span></p>
 </div>
 <div align="justify">
 <table border="1" class="exe-table" style="margin-left: auto; margin-right: auto; height: 135px;">
 <tbody>
 <tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>A</strong></span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>B</strong></span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>XOR</strong></span></td>
-<td style="width: 330.417px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>SÍMBOLO</strong></span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>A</strong></span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>B</strong></span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>XOR</strong></span></td>
+<td style="width: 330.417px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>SÍMBOLO</strong></span></td>
 </tr>
 <tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt;">0</span></td>
-<td style="width: 330.417px; height: 108px; text-align: center; vertical-align: middle;" rowspan="4"><img src="XOR.png" width="262" height="124" title="Símbolo de la puerta XOR" /></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 330.417px; height: 108px; text-align: center; vertical-align: middle;" rowspan="4"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="XOR.png" width="262" height="124" title="Símbolo de la puerta XOR" /></span></td>
 </tr>
 <tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt;">1</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
 </tr>
 <tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt;">1</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
 </tr>
 <tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt;">0</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper textIdevice em_iDevice" id="id194">
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id194">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Fija ideas</h2></div>
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Fija ideas</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta194_266_2" class="block iDevice_content">
-<div class="exe-text"><p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Para recordar el comportamiento de esta puerta lógica, piensa en esta situación: vamos en nuestro coche por la autovía y, de repente, nos damos cuenta que hemos pinchado. Tenemos dos opciones para arreglar el pinchazo: lo hacemos nosotros o llamamos al seguro, para que nos lo hagan en un taller. Evidentemente, el pinchazo hay que arreglarlo, por lo que descartamos (0) la opción de no arreglarlo nosotros ni tampoco el seguro (0). Y, por supuesto,  descartamos la opción de, si lo arreglamos nosotros (1), llamar al seguro (1). Eso sería absurdo, ¿verdad? En los otros dos casos, el pinchazo quedará arreglado y estaremos contentos.</span></p></div>
+<div class="exe-text"><p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para recordar el comportamiento de esta puerta lógica, piensa en esta situación: vamos en nuestro coche por la autovía y, de repente, nos damos cuenta que hemos pinchado. Tenemos dos opciones para arreglar el pinchazo: lo hacemos nosotros o llamamos al seguro, para que nos lo hagan en un taller. Evidentemente, el pinchazo hay que arreglarlo, por lo que descartamos (0) la opción de no arreglarlo nosotros ni tampoco el seguro (0). Y, por supuesto,  descartamos la opción de, si lo arreglamos nosotros (1), llamar al seguro (1). Eso sería absurdo, ¿verdad? En los otros dos casos, el pinchazo quedará arreglado y estaremos contentos.</span></p></div>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper textIdevice em_iDevice" id="id221">
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id221">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Juega con la puerta XOR</h2></div>
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Juega con la puerta XOR</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta221_268_2" class="block iDevice_content">
-<div class="exe-text"><p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif;">Activa y desactiva las entradas, y observa qué sucede a la salida de esta puerta.</span></p>
+<div class="exe-text"><p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Activa y desactiva las entradas, y observa qué sucede a la salida de esta puerta.</span></p>
 <p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif;"><iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/87786" id="projectPreview"></iframe><br /></span></p></div>
 </div>
 </div>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="45_puerta_nand.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="47_puerta_xnor_o_norex.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>
