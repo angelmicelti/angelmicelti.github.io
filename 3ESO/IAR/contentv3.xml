@@ -13,7 +13,7 @@
   <string role="key" value="_author"></string>
   <unicode value="Ángel Millán León"></unicode>
   <string role="key" value="_backgroundImg"></string>
-  <instance class="exe.engine.resource.Resource" reference="33">
+  <instance class="exe.engine.resource.Resource" reference="35">
    <dictionary>
     <string role="key" value="_idevice"></string>
     <none></none>
@@ -22,7 +22,7 @@
     <string role="key" value="_storageName"></string>
     <string value="arduinoblockslogo.png"></string>
     <string role="key" value="_userName"></string>
-    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpxdp_9g\\arduinoblockslogo.png"></string>
+    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpwl5q1i\\arduinoblockslogo.png"></string>
     <string role="key" value="checksum"></string>
     <string value="0e2f8f33e3b7075c95e87e885443cdbf"></string>
     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -104,7 +104,7 @@
   <string role="key" value="_name"></string>
   <unicode value="IntroArduinoblocks"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="11"></int>
+  <int value="13"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="179"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -472,7 +472,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <none></none>
+             <reference key="11"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -1086,6 +1086,130 @@ text through the text editing buttons associated with the field."></unicode>
               <int value="0"></int>
              </dictionary>
             </instance>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="26">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Lisa de prácticas de Arduinoblocks en Wakelet"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="27">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="394_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="26"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;iframe width=&quot;100%&quot; height=&quot;760px&quot; src=&quot;https://embed.wakelet.com/wakes/AEGK04Yb7xAe7nQvIkNKP/list?border=1&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;Estas prácticas han sido extraídas de &lt;a href=&quot;https://practicasarduinoblocks.blogspot.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;este blog&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="27"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <none></none>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="12"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="25"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
            </list>
            <string role="key" value="_id"></string>
            <unicode value="176"></unicode>
@@ -1107,7 +1231,7 @@ text through the text editing buttons associated with the field."></unicode>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="26">
+         <instance class="exe.engine.node.Node" reference="28">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Curso en Didactrónica"></unicode>
@@ -1147,7 +1271,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="26"></reference>
+              <reference key="28"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1196,7 +1320,7 @@ and select the size of the area to display it in."></unicode>
    <unicode role="key" value="176"></unicode>
    <reference key="25"></reference>
    <unicode role="key" value="177"></unicode>
-   <reference key="26"></reference>
+   <reference key="28"></reference>
    <unicode role="key" value="178"></unicode>
    <reference key="11"></reference>
   </dictionary>
@@ -1211,7 +1335,7 @@ and select the size of the area to display it in."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="11"></reference>
+  <reference key="25"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -1548,7 +1672,7 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="27">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="29">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -1587,7 +1711,7 @@ and select the size of the area to display it in."></unicode>
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="28">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="30">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -1602,7 +1726,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="29">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="31">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -1652,10 +1776,10 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="27"></reference>
+         <reference key="29"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="28"></reference>
+          <reference key="30"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -1663,7 +1787,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="29"></reference>
+           <reference key="31"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -2055,7 +2179,7 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="30">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="32">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -2094,7 +2218,7 @@ and select the size of the area to display it in."></unicode>
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="31">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="33">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -2109,7 +2233,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="32">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="34">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -2159,10 +2283,10 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="30"></reference>
+         <reference key="32"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="31"></reference>
+          <reference key="33"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -2170,7 +2294,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="32"></reference>
+           <reference key="34"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -2347,7 +2471,7 @@ and select the size of the area to display it in."></unicode>
   <dictionary>
    <string role="key" value="0e2f8f33e3b7075c95e87e885443cdbf"></string>
    <list>
-    <reference key="33"></reference>
+    <reference key="35"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
