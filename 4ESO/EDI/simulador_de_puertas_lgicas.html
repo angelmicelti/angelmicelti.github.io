@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>APÉNDICE VIII: radiografía de las puertas lógicas básicas | Electrónica digital </title>
+<title>Simulador de puertas lógicas | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-60"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-89"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -47,8 +47,8 @@
       <li><a href="33_lgebra_de_boole.html" class="no-ch">3.3. Álgebra de Boole</a></li>
    </ul>
    </li>
-   <li><a href="4_puertas_lgicas.html" class="daddy">4. Puertas lógicas.</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="4_puertas_lgicas.html" class="current-page-parent daddy">4. Puertas lógicas.</a>
+   <ul>
       <li><a href="41_puerta_not.html" class="no-ch">4.1. Puerta NOT.</a></li>
       <li><a href="42_puerta_or.html" class="no-ch">4.2. Puerta OR.</a></li>
       <li><a href="43_puerta_and.html" class="no-ch">4.3. Puerta AND.</a></li>
@@ -56,7 +56,7 @@
       <li><a href="45_puerta_nand.html" class="no-ch">4.5. Puerta NAND.</a></li>
       <li><a href="46_puerta_xor_u_orex.html" class="no-ch">4.6. Puerta XOR u OR-EX.</a></li>
       <li><a href="47_puerta_xnor_o_norex.html" class="no-ch">4.7. Puerta XNOR o NOR-EX.</a></li>
-      <li><a href="simulador_de_puertas_lgicas.html" class="no-ch">Simulador de puertas lógicas</a></li>
+      <li id="active"><a href="simulador_de_puertas_lgicas.html" class="active no-ch">Simulador de puertas lógicas</a></li>
    </ul>
    </li>
    <li><a href="5_la_electrnica_digital_en_el_mercado.html" class="daddy">5. La electrónica digital en el mercado.</a>
@@ -105,8 +105,8 @@
    </ul>
    </li>
    <li><a href="9_prcticas_de_ed.html" class="no-ch">9. Prácticas de E.D.</a></li>
-   <li class="current-page-parent"><a href="10_apndices.html" class="current-page-parent daddy">10. Apéndices</a>
-   <ul>
+   <li><a href="10_apndices.html" class="daddy">10. Apéndices</a>
+   <ul class="other-section">
       <li><a href="apndice_i_primera_y_segunda_formas_cannicas.html" class="no-ch">APÉNDICE I: primera y segunda formas canónicas</a></li>
       <li><a href="apndice_ii_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE II: método de Karnaugh de simplificación de funciones lógicas.</a></li>
       <li><a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE III: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
@@ -122,58 +122,23 @@
          <li><a href="cdigo_ascii.html" class="no-ch">Código ASCII</a></li>
       </ul>
       </li>
-      <li id="active"><a href="apndice_viii_radiografa_de_las_puertas_lgicas_bsicas.html" class="active no-ch">APÉNDICE VIII: radiografía de las puertas lógicas básicas</a></li>
+      <li><a href="apndice_viii_radiografa_de_las_puertas_lgicas_bsicas.html" class="no-ch">APÉNDICE VIII: radiografía de las puertas lógicas básicas</a></li>
    </ul>
    </li>
 </ul>
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="cdigo_ascii.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+<a href="47_puerta_xnor_o_norex.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5_la_electrnica_digital_en_el_mercado.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE VIII: radiografía de las puertas lógicas básicas</h1></div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id164">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Puerta NOT con transistor</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta164_259_2" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">En este circuito, observa que, si no tenemos el pulsador apretado (0 lógico), el ánodo del LED estará a una tensión suficiente como para encenderse (1 lógico), porque el transistor está en corte.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">En cambio, si apretamos el pulsador (1 lógico), ponemos el transistor en conducción, con lo que no habrá tensión suficiente para encender el LED, y éste permanecerá apagado (0 lógico)<img src="PuertaNOT.png" title="Puerta NOT con un transistor" width="481" height="398" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><a href="PuertaNOT.lvw">Puerta NOT con transistor</a></span></p>
-<p></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id165">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Puerta AND con transistores</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta165_260_2" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 12pt;"><span style="font-family: verdana, geneva, sans-serif;">En este circuito es necesario cerrar los dos interruptores (1 lógico) para que ambos transistores se pongan en conducción y podamos activar la salida. Éste es el comportamiento de una puerta AND.</span><img src="PuertaAND.png" title="Puerta AND con transistores" width="482" height="534" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="PuertaAND.lvw">Puerta AND con transistores</a></span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id166">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Puerta OR con transistores</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta166_261_2" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En este circuito basta con cerrar uno de los dos interruptores (1 lógico) para que el correspondiente transistor se ponga en conducción y podamos activar la salida.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt;"><span style="font-family: verdana, geneva, sans-serif;">Si se cierran los dos, también se tiene la salida a 1. Éste es el comportamiento de una puerta OR.</span><img src="PuertaOR.png" alt="" title="Puerta OR con transistores" width="540" height="598" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="PuertaOR.lvw">Puerta OR con transistores</a></span></p>
-</div>
-</div>
+<div id="nodeDecoration"><h1 id="nodeTitle">Simulador de puertas lógicas</h1></div>
+<div class="iDevice_wrapper ExternalUrlIdevice" id="id223">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content">
+<iframe src="https://www.inventable.eu/simulador-compuertas-logicas/" width="100%" height="500px"></iframe>
 </div>
 </div>
 </div>
@@ -184,7 +149,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="cdigo_ascii.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+<a href="47_puerta_xnor_o_norex.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5_la_electrnica_digital_en_el_mercado.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
