@@ -600,6 +600,9 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
 &lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/TYS/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Tecnología y sociedad&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 760px; text-align: center;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;Hidráulica y neumática&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
 &lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/CAD/index.html&quot;&gt;&lt;big&gt;C.A.D.&lt;/big&gt;&lt;/a&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -610,7 +613,7 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;td style=&quot;height: 17px; width: 760px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/SKP/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Diseño 3D con Sketchup&lt;/a&gt;&lt;/big&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
-&lt;td style=&quot;width: 760px; height: 14px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;Tecnologías de la Información y la Comunicación&lt;/big&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 760px; height: 14px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;big&gt;Tecnologías de la Información y la Comunicación&lt;/big&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
 &lt;th style=&quot;height: 36px; width: 760px;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 18pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/FPGAndo-por-la-E.S.O.&quot;&gt;FPGAndo por la E.S.O.&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/th&gt;
@@ -1294,7 +1297,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <string role="key" value="nextImageId"></string>
                      <int value="0"></int>
                      <string role="key" value="parentNode"></string>
-                     <none></none>
+                     <reference key="31"></reference>
                     </dictionary>
                    </instance>
                    <string role="key" value="edit"></string>
@@ -1575,6 +1578,7 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/SOR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MÁQUINA PARA HACER UN SORTEO&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/MTR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MOTORREDUCTOR A POLEAS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/PUE/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PUERTA ENROLLABLE&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;JERINGÓFORO&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;strong&gt;4º E.S.O.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CONSTRUYENDO UNA SMARTROOM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
@@ -1715,7 +1719,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="205"></int>
+                    <int value="206"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -1729,7 +1733,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="13_85.6"></unicode>
+                  <unicode value="13_85.7"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="41">
                    <dictionary>
@@ -1740,7 +1744,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="GlideApp.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpisfafm\\GlideApp.png"></string>
+                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpumqfjf\\GlideApp.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="5cddcba63eac983a1e96ca177f66ab64"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1769,7 +1773,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="7"></int>
+             <int value="8"></int>
              <string role="key" value="parentNode"></string>
              <reference key="40"></reference>
             </dictionary>
@@ -1875,7 +1879,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="34"></reference>
+  <reference key="37"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
