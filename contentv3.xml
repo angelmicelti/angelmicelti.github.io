@@ -1698,8 +1698,8 @@ text through the text editing buttons associated with the field."></unicode>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
              <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;Escanea este código para instalar la app del Departamento:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;&lt;img src=&quot;resources/GlideApp.png&quot; alt=&quot;Enlace a la aplicación&quot; title=&quot;Enlace a la aplicación&quot; width=&quot;270&quot; height=&quot;270&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;O haz click en &lt;a href=&quot;Enlace a la aplicación&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;este enlace &lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;&lt;img src=&quot;resources/GlideApp.png&quot; alt=&quot;Enlace a la aplicación&quot; title=&quot;Enlace a la aplicación&quot; width=&quot;180&quot; height=&quot;180&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;O haz click en &lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;este enlace &lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1719,7 +1719,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="206"></int>
+                    <int value="208"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -1733,7 +1733,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="13_85.7"></unicode>
+                  <unicode value="13_85.9"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="41">
                    <dictionary>
@@ -1744,9 +1744,9 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="GlideApp.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpumqfjf\\GlideApp.png"></string>
+                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpmw4lpu.eXe\\previews\\allyourbase\\GlideApp.png"></string>
                     <string role="key" value="checksum"></string>
-                    <string value="5cddcba63eac983a1e96ca177f66ab64"></string>
+                    <string value="51f70db635c1d66cb36945311d742546"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                     <int value="2"></int>
                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1773,7 +1773,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="8"></int>
+             <int value="10"></int>
              <string role="key" value="parentNode"></string>
              <reference key="40"></reference>
             </dictionary>
@@ -1879,7 +1879,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="37"></reference>
+  <reference key="40"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3121,7 +3121,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string value="2.5"></string>
   <string role="key" value="resources"></string>
   <dictionary>
-   <string role="key" value="5cddcba63eac983a1e96ca177f66ab64"></string>
+   <string role="key" value="51f70db635c1d66cb36945311d742546"></string>
    <list>
     <reference key="41"></reference>
    </list>
