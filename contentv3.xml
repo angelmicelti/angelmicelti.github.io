@@ -251,40 +251,40 @@ text through the text editing buttons associated with the field."></unicode>
                           <string role="key" value="anchors_linked_from_fields"></string>
                           <dictionary></dictionary>
                           <string role="key" value="content_w_resourcePaths"></string>
-                          <unicode content="true" value="&lt;table border=&quot;2&quot; style=&quot;height: 159px; width: 574px; margin-left: auto; margin-right: auto;&quot;&gt;
+                          <unicode content="true" value="&lt;table border=&quot;2&quot; style=&quot;height: 159px; width: 669px; margin-left: auto; margin-right: auto;&quot;&gt;
 &lt;tbody&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 562px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;El proceso tecnológico (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;height: 17px; width: 656.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;El proceso tecnológico (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 562px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Dibujo técnico (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;height: 17px; width: 656.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Dibujo técnico (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 31px;&quot;&gt;
-&lt;td style=&quot;height: 31px; width: 562px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: comic sans ms, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 18.6667px;&quot;&gt;Introducción a los materiales (próximamente)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;height: 31px; width: 656.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 24pt;&quot;&gt;Introducción a los materiales (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 562px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Materiales: la madera (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;height: 17px; width: 656.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Materiales: la madera (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 46px;&quot;&gt;
-&lt;td style=&quot;width: 562px; text-align: center; height: 46px;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Materiales: los metales(próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;width: 656.667px; text-align: center; height: 46px;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Materiales: los metales(próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 562px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Circuitos eléctricos (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;height: 17px; width: 656.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Circuitos eléctricos (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 14px;&quot;&gt;
-&lt;td style=&quot;height: 14px; width: 562px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 14px; width: 656.667px; text-align: center;&quot;&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/2ESO/SCR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif;&quot;&gt;Programación con Scratch&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
@@ -408,56 +408,56 @@ text through the text editing buttons associated with the field."></unicode>
                           <string role="key" value="anchors_linked_from_fields"></string>
                           <dictionary></dictionary>
                           <string role="key" value="content_w_resourcePaths"></string>
-                          <unicode content="true" value="&lt;table border=&quot;2&quot; style=&quot;height: 161px; width: 586px; margin-left: auto; margin-right: auto;&quot;&gt;
+                          <unicode content="true" value="&lt;table border=&quot;2&quot; style=&quot;height: 161px; width: 719px; margin-left: auto; margin-right: auto;&quot;&gt;
 &lt;tbody&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/MEC/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mecánica&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/IEL/index.html&quot;&gt;Introducción a la electrónica&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 706.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;El proceso tecnológico (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/IAR/index.html&quot;&gt;Arduinoblocks&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;width: 706.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Dibujo técnico (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 574px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 706.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/MEC/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mecánica&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 14px;&quot;&gt;
+&lt;td style=&quot;height: 14px; width: 706.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/SKP/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Diseño 3D con Sketchup&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 17px;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 706.667px; text-align: center;&quot;&gt;
 &lt;p&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/ELE/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Circuitos eléctricos&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 31px;&quot;&gt;
-&lt;td style=&quot;height: 31px; width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Dibujo técnico (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;height: 31px; width: 706.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/IAR/index.html&quot;&gt;Arduinoblocks&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 31px;&quot;&gt;
-&lt;td style=&quot;height: 31px; width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;El proceso tecnológico (próximamente)&lt;/span&gt;&lt;/p&gt;
+&lt;td style=&quot;height: 31px; width: 706.667px; text-align: center;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/IEL/index.html&quot;&gt;Introducción a la electrónica&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 574px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 706.667px; text-align: center;&quot;&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Materiales: plásticos (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 574px; text-align: center;&quot;&gt;
+&lt;td style=&quot;width: 706.667px; text-align: center;&quot;&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Materiales de construcción (próximamente)&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
-&lt;td style=&quot;height: 17px; width: 574px; text-align: center;&quot;&gt;
+&lt;td style=&quot;height: 17px; width: 706.667px; text-align: center;&quot;&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;Materiales: nuevos materiales (próximamente)&lt;/span&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr style=&quot;height: 14px;&quot;&gt;
-&lt;td style=&quot;height: 14px; width: 574px; text-align: center;&quot;&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'comic sans ms', sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/3ESO/SKP/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Diseño 3D con Sketchup&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -1719,7 +1719,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="208"></int>
+                    <int value="209"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -1733,7 +1733,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="13_85.9"></unicode>
+                  <unicode value="13_85.10"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="41">
                    <dictionary>
@@ -1744,7 +1744,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="GlideApp.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpmw4lpu.eXe\\previews\\allyourbase\\GlideApp.png"></string>
+                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmplbyaw6\\GlideApp.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="51f70db635c1d66cb36945311d742546"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1773,7 +1773,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="10"></int>
+             <int value="11"></int>
              <string role="key" value="parentNode"></string>
              <reference key="40"></reference>
             </dictionary>
@@ -1879,7 +1879,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="40"></reference>
+  <reference key="12"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
