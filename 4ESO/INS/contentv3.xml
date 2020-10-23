@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="UDInstalaciones"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="124"></int>
+  <int value="125"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="66"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -22150,12 +22150,14 @@ text through the text editing buttons associated with the field."></unicode>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Dentro del proyecto &lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Del Solar a la SmartRoom&lt;/a&gt;, se realizan diversas actividades relacionadas con las instalaciones de una habitación (que se podrían hacer extensivas a una vivienda).&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-01:-plano-de-planta&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Dibujo del plano de planta de la maqueta&lt;/a&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a id=&quot;user-content-actividad-02-trazado-corte-y-distribución-de-la-base-de-la-maqueta&quot; class=&quot;anchor md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot; href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki#actividad-02-trazado-corte-y-distribuci%C3%B3n-de-la-base-de-la-maqueta&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-02:-base-de-la-maqueta&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Trazado, corte y distribución de la base de la maqueta&lt;/a&gt;.&lt;/h3&gt;
-&lt;h3&gt;&lt;a id=&quot;user-content-actividad-03-qcad2-dibujo-de-las-piezas-que-formarán-las-paredes&quot; class=&quot;anchor md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot; href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki#actividad-03-qcad2-dibujo-de-las-piezas-que-formar%C3%A1n-las-paredes&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-03:-alzamiento-de-muros&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Dibujo de las piezas que formarán las paredes&lt;/a&gt;&lt;/h3&gt;
-&lt;h3&gt;&lt;a id=&quot;user-content-actividad-04-construcción-de-la-habitación&quot; class=&quot;anchor md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot; href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki#actividad-04-construcci%C3%B3n-de-la-habitaci%C3%B3n&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-04:-construcci%C3%B3n-de-la-habitaci%C3%B3n&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Construcción de la habitación&lt;/a&gt;.&lt;/h3&gt;
-&lt;h3&gt;&lt;a id=&quot;user-content-actividad-05-qcad3-plano-de-la-instalación-eléctrica-de-la-habitación&quot; class=&quot;anchor md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot; href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki#actividad-05-qcad3-plano-de-la-instalaci%C3%B3n-el%C3%A9ctrica-de-la-habitaci%C3%B3n&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-05:-plano-de-la-instalaci%C3%B3n-el%C3%A9ctrica&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Plano de la instalación eléctrica de la habitación&lt;/a&gt;.&lt;/h3&gt;
-&lt;h3&gt;&lt;a id=&quot;user-content-actividad-06-montaje-de-la-instalación-eléctrica&quot; class=&quot;anchor md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot; href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki#actividad-06-montaje-de-la-instalaci%C3%B3n-el%C3%A9ctrica&quot; aria-hidden=&quot;true&quot;&gt;&lt;svg class=&quot;octicon octicon-link&quot; viewbox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-06:-montaje-de-la-instalaci%C3%B3n-el%C3%A9ctrica&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Montaje de la instalación eléctrica&lt;/a&gt;.&lt;/h3&gt;&lt;/div&gt;"></unicode>
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-01:-plano-de-planta&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Dibujo del plano de planta de la maqueta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-02:-base-de-la-maqueta&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Trazado, corte y distribución de la base de la maqueta&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-03:-alzamiento-de-muros&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Dibujo de las piezas que formarán las paredes&lt;/a&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-04:-construcci%C3%B3n-de-la-habitaci%C3%B3n&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-04:-construcci%C3%B3n-de-la-habitaci%C3%B3n&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Construcción de la habitación&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;user-content-actividad-05-qcad3-plano-de-la-instalación-eléctrica-de-la-habitación&quot; class=&quot;anchor md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot; href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki#actividad-05-qcad3-plano-de-la-instalaci%C3%B3n-el%C3%A9ctrica-de-la-habitaci%C3%B3n&quot; aria-hidden=&quot;true&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-05:-plano-de-la-instalaci%C3%B3n-el%C3%A9ctrica&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Plano de la instalación eléctrica de la habitación&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki/Actividad-06:-montaje-de-la-instalaci%C3%B3n-el%C3%A9ctrica&quot; class=&quot;md-opjjpmhoiojifppkkcdabiobhakljdgm_doc&quot;&gt;Montaje de la instalación eléctrica&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -22227,62 +22229,10 @@ text through the text editing buttons associated with the field."></unicode>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="452">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Dibuja el CGMP de tu vivienda"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="62"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="3"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:INSTALACIONES%20EN%20VIVIENDAS:10.ACTIVIDADES%20COMPETENCIALES:Dibuja%20el%20CGMP%20de%20tu%20vivienda"></string>
-           <string role="key" value="parent"></string>
-           <reference key="448"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="453">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Dibuja los planos de la instalación de tu cuarto"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="63"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="3"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:INSTALACIONES%20EN%20VIVIENDAS:10.ACTIVIDADES%20COMPETENCIALES:Dibuja%20los%20planos%20de%20la%20instalaci%C3%B3n%20de%20tu%20cuarto"></string>
-           <string role="key" value="parent"></string>
-           <reference key="448"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
          <instance class="exe.engine.node.Node" reference="451">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Plano de la instalación de una casa de campo"></unicode>
+           <unicode value="Dibuja el CGMP de tu vivienda"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="449">
@@ -22318,6 +22268,203 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="anchors_linked_from_fields"></string>
                 <dictionary></dictionary>
                 <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;img src=&quot;resources/CGMPmano.png&quot; alt=&quot;CGMP&quot; title=&quot;CGMP&quot; width=&quot;869&quot; height=&quot;301&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list>
+                   <instance class="exe.engine.galleryidevice.GalleryImage">
+                    <dictionary>
+                     <string role="key" value="_caption"></string>
+                     <instance class="exe.engine.field.TextField">
+                      <dictionary>
+                       <string role="key" value="_id"></string>
+                       <int value="2436"></int>
+                       <string role="key" value="_idevice"></string>
+                       <none></none>
+                       <string role="key" value="_instruc"></string>
+                       <string value=""></string>
+                       <string role="key" value="_name"></string>
+                       <string value=""></string>
+                       <string role="key" value="content"></string>
+                       <string value=""></string>
+                       <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                       <int value="4"></int>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_id"></string>
+                     <unicode value="124_85.0"></unicode>
+                     <string role="key" value="_imageResource"></string>
+                     <instance class="exe.engine.resource.Resource" reference="452">
+                      <dictionary>
+                       <string role="key" value="_idevice"></string>
+                       <reference key="449"></reference>
+                       <string role="key" value="_package"></string>
+                       <reference key="3"></reference>
+                       <string role="key" value="_storageName"></string>
+                       <string value="CGMPmano.png"></string>
+                       <string role="key" value="_userName"></string>
+                       <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpg1xqwa.eXe\\previews\\allyourbase\\CGMPmano.png"></string>
+                       <string role="key" value="checksum"></string>
+                       <string value="f8bcc70018197a9e393b6638f61ed974"></string>
+                       <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                       <int value="2"></int>
+                       <string role="key" value="warningMsg"></string>
+                       <string value=""></string>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="_parent"></string>
+                     <reference key="450"></reference>
+                     <string role="key" value="_thumbnailResource"></string>
+                     <none></none>
+                     <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="makeThumbnail"></string>
+                     <bool value="0"></bool>
+                    </dictionary>
+                   </instance>
+                  </list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="450"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="1"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="451"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="124"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="451"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="452"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="62"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="3"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:INSTALACIONES%20EN%20VIVIENDAS:10.ACTIVIDADES%20COMPETENCIALES:Dibuja%20el%20CGMP%20de%20tu%20vivienda"></string>
+           <string role="key" value="parent"></string>
+           <reference key="448"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="456">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Dibuja los planos de la instalación de tu cuarto"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="63"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="3"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:INSTALACIONES%20EN%20VIVIENDAS:10.ACTIVIDADES%20COMPETENCIALES:Dibuja%20los%20planos%20de%20la%20instalaci%C3%B3n%20de%20tu%20cuarto"></string>
+           <string role="key" value="parent"></string>
+           <reference key="448"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="455">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Plano de la instalación de una casa de campo"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="453">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="454">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="453"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
                 <unicode content="true" value="&lt;p&gt;Dibuja la instalación eléctrica de una pequeña vivienda de campo, con tres estancias, y una extensión máxima de 70 m&lt;sup&gt;2&lt;/sup&gt;. Dichas estancias serán:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Salón principal.&lt;/li&gt;
@@ -22338,7 +22485,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value=".listitems"></string>
                   <list></list>
                   <string role="key" value="idevice"></string>
-                  <reference key="450"></reference>
+                  <reference key="454"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="intlinks_to_anchors"></string>
@@ -22346,7 +22493,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <reference key="451"></reference>
+                <reference key="455"></reference>
                </dictionary>
               </instance>
               <string role="key" value="edit"></string>
@@ -22366,7 +22513,7 @@ text through the text editing buttons associated with the field."></unicode>
               <string role="key" value="parent"></string>
               <none></none>
               <string role="key" value="parentNode"></string>
-              <reference key="451"></reference>
+              <reference key="455"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="type"></string>
@@ -22509,11 +22656,11 @@ text through the text editing buttons associated with the field."></unicode>
    <unicode role="key" value="61"></unicode>
    <reference key="447"></reference>
    <unicode role="key" value="62"></unicode>
-   <reference key="452"></reference>
-   <unicode role="key" value="63"></unicode>
-   <reference key="453"></reference>
-   <unicode role="key" value="64"></unicode>
    <reference key="451"></reference>
+   <unicode role="key" value="63"></unicode>
+   <reference key="456"></reference>
+   <unicode role="key" value="64"></unicode>
+   <reference key="455"></reference>
    <unicode role="key" value="65"></unicode>
    <reference key="15"></reference>
    <unicode role="key" value="7"></unicode>
@@ -22545,7 +22692,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="353"></reference>
+  <reference key="455"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -22780,7 +22927,7 @@ text through the text editing buttons associated with the field."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="454">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="457">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -22819,7 +22966,7 @@ text through the text editing buttons associated with the field."></unicode>
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="455">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="458">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -22834,7 +22981,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="456">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="459">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -22884,10 +23031,10 @@ text through the text editing buttons associated with the field."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="454"></reference>
+         <reference key="457"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="455"></reference>
+          <reference key="458"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -22895,7 +23042,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="456"></reference>
+           <reference key="459"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -23183,7 +23330,7 @@ text through the text editing buttons associated with the field."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="457">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="460">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -23222,7 +23369,7 @@ text through the text editing buttons associated with the field."></unicode>
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="458">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="461">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -23237,7 +23384,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="459">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="462">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -23287,10 +23434,10 @@ text through the text editing buttons associated with the field."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="457"></reference>
+         <reference key="460"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="458"></reference>
+          <reference key="461"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -23298,7 +23445,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="459"></reference>
+           <reference key="462"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -24266,6 +24413,10 @@ text through the text editing buttons associated with the field."></unicode>
    <string role="key" value="f74ed4efdbd4443d9a866573ee79222a"></string>
    <list>
     <reference key="286"></reference>
+   </list>
+   <string role="key" value="f8bcc70018197a9e393b6638f61ed974"></string>
+   <list>
+    <reference key="452"></reference>
    </list>
    <string role="key" value="fa3ef5f423c66f770ea1fbe2a17e4cd4"></string>
    <list>
