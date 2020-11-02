@@ -90,7 +90,7 @@
    <instance class="exe.engine.node.Node" reference="16">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="TecnoVilladiego"></unicode>
+     <unicode value="INICIO"></unicode>
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="1">
@@ -126,15 +126,19 @@ text through the text editing buttons associated with the field."></unicode>
           <string role="key" value="anchors_linked_from_fields"></string>
           <dictionary></dictionary>
           <string role="key" value="content_w_resourcePaths"></string>
-          <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:APUNTES#auto_top&quot;&gt;APUNTES DE TECNOLOGÍA&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:HERRAMIENTAS#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+          <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:APUNTES#auto_top&quot;&gt;APUNTES DE TECNOLOGÍA&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:HERRAMIENTAS#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:HERRAMIENTAS#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HERRAMIENTAS TÉCNICAS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:HERRAMIENTAS#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HERRAMIENTAS TÉCNICAS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:TECNODOCUMENTOS#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TECNODOCUMENTOS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 36pt;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:TECNODOCUMENTOS#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TECNODOCUMENTOS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:WEBS%20DE%20INTER%C3%89S#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;WEBS DE INTERÉS&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 36pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:PROYECTOS#auto_top&quot;&gt;PROYECTOS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:WEBS%20DE%20INTER%C3%89S#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 36pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:TecnoVilladiegoApp#auto_top&quot;&gt;APP PARA MÓVIL&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:WEBS%20DE%20INTER%C3%89S#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;WEBS DE INTERÉS&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:WEBS%20DE%20INTER%C3%89S#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
           <int value="4"></int>
           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -154,7 +158,7 @@ text through the text editing buttons associated with the field."></unicode>
           </instance>
           <string role="key" value="intlinks_to_anchors"></string>
           <dictionary>
-           <unicode role="key" value="exe-node:TecnoVilladiego:APUNTES#auto_top"></unicode>
+           <unicode role="key" value="exe-node:INICIO:APUNTES#auto_top"></unicode>
            <instance class="exe.engine.node.Node" reference="9">
             <dictionary>
              <string role="key" value="_title"></string>
@@ -197,19 +201,19 @@ text through the text editing buttons associated with the field."></unicode>
                   <unicode content="true" value="&lt;table border=&quot;0&quot; style=&quot;width: 100%; margin-left: auto; margin-right: auto;&quot;&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:APUNTES:4%C2%BA%20E.S.O.#auto_top&quot;&gt;4º E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:APUNTES:4%C2%BA%20E.S.O.#auto_top&quot;&gt;4º E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;/td&gt;
-&lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:APUNTES:3%C2%BA%20E.S.O.#auto_top&quot;&gt;3º E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:APUNTES:3%C2%BA%20E.S.O.#auto_top&quot;&gt;3º E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;/td&gt;
-&lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:TecnoVilladiego:APUNTES:2%C2%BA%20E.S.O.#auto_top&quot;&gt;2º E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 33.3333%; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;exe-node:INICIO:APUNTES:2%C2%BA%20E.S.O.#auto_top&quot;&gt;2º E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -235,7 +239,7 @@ text through the text editing buttons associated with the field."></unicode>
                   </instance>
                   <string role="key" value="intlinks_to_anchors"></string>
                   <dictionary>
-                   <unicode role="key" value="exe-node:TecnoVilladiego:APUNTES:2%C2%BA%20E.S.O.#auto_top"></unicode>
+                   <unicode role="key" value="exe-node:INICIO:APUNTES:2%C2%BA%20E.S.O.#auto_top"></unicode>
                    <instance class="exe.engine.node.Node" reference="7">
                     <dictionary>
                      <string role="key" value="_title"></string>
@@ -381,7 +385,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <string role="key" value="exportType"></string>
                      <string value="website"></string>
                      <string role="key" value="last_full_node_path"></string>
-                     <string value="exe-node:TecnoVilladiego:APUNTES:2%C2%BA%20E.S.O."></string>
+                     <string value="exe-node:INICIO:APUNTES:2%C2%BA%20E.S.O."></string>
                      <string role="key" value="parent"></string>
                      <reference key="9"></reference>
                      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -392,7 +396,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <list></list>
                     </dictionary>
                    </instance>
-                   <unicode role="key" value="exe-node:TecnoVilladiego:APUNTES:3%C2%BA%20E.S.O.#auto_top"></unicode>
+                   <unicode role="key" value="exe-node:INICIO:APUNTES:3%C2%BA%20E.S.O.#auto_top"></unicode>
                    <instance class="exe.engine.node.Node" reference="12">
                     <dictionary>
                      <string role="key" value="_title"></string>
@@ -553,7 +557,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <string role="key" value="exportType"></string>
                      <string value="website"></string>
                      <string role="key" value="last_full_node_path"></string>
-                     <string value="exe-node:TecnoVilladiego:APUNTES:3%C2%BA%20E.S.O."></string>
+                     <string value="exe-node:INICIO:APUNTES:3%C2%BA%20E.S.O."></string>
                      <string role="key" value="parent"></string>
                      <reference key="9"></reference>
                      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -564,7 +568,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <list></list>
                     </dictionary>
                    </instance>
-                   <unicode role="key" value="exe-node:TecnoVilladiego:APUNTES:4%C2%BA%20E.S.O.#auto_top"></unicode>
+                   <unicode role="key" value="exe-node:INICIO:APUNTES:4%C2%BA%20E.S.O.#auto_top"></unicode>
                    <instance class="exe.engine.node.Node" reference="15">
                     <dictionary>
                      <string role="key" value="_title"></string>
@@ -716,7 +720,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <string role="key" value="exportType"></string>
                      <string value="website"></string>
                      <string role="key" value="last_full_node_path"></string>
-                     <string value="exe-node:TecnoVilladiego:APUNTES:4%C2%BA%20E.S.O."></string>
+                     <string value="exe-node:INICIO:APUNTES:4%C2%BA%20E.S.O."></string>
                      <string role="key" value="parent"></string>
                      <reference key="9"></reference>
                      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -776,7 +780,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="exportType"></string>
              <string value="website"></string>
              <string role="key" value="last_full_node_path"></string>
-             <string value="exe-node:TecnoVilladiego:APUNTES"></string>
+             <string value="exe-node:INICIO:APUNTES"></string>
              <string role="key" value="parent"></string>
              <reference key="16"></reference>
              <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -791,7 +795,7 @@ text through the text editing buttons associated with the field."></unicode>
              </list>
             </dictionary>
            </instance>
-           <unicode role="key" value="exe-node:TecnoVilladiego:HERRAMIENTAS#auto_top"></unicode>
+           <unicode role="key" value="exe-node:INICIO:HERRAMIENTAS#auto_top"></unicode>
            <instance class="exe.engine.node.Node" reference="19">
             <dictionary>
              <string role="key" value="_title"></string>
@@ -900,7 +904,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="exportType"></string>
              <string value="website"></string>
              <string role="key" value="last_full_node_path"></string>
-             <string value="exe-node:TecnoVilladiego:HERRAMIENTAS"></string>
+             <string value="exe-node:INICIO:HERRAMIENTAS"></string>
              <string role="key" value="parent"></string>
              <reference key="16"></reference>
              <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -911,11 +915,11 @@ text through the text editing buttons associated with the field."></unicode>
              <list></list>
             </dictionary>
            </instance>
-           <unicode role="key" value="exe-node:TecnoVilladiego:TECNODOCUMENTOS#auto_top"></unicode>
+           <unicode role="key" value="exe-node:INICIO:PROYECTOS#auto_top"></unicode>
            <instance class="exe.engine.node.Node" reference="22">
             <dictionary>
              <string role="key" value="_title"></string>
-             <unicode value="TECNODOCUMENTOS"></unicode>
+             <unicode value="PROYECTOS"></unicode>
              <string role="key" value="idevices"></string>
              <list>
               <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="20">
@@ -951,8 +955,14 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="anchors_linked_from_fields"></string>
                   <dictionary></dictionary>
                   <string role="key" value="content_w_resourcePaths"></string>
-                  <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/index.html&quot;&gt;PLANTILLAS PARA GENERAR DOCUMENTACIÓN TÉCNICA EN CURSOS DE E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://www.sesametime.com/assets/wp-content/uploads/2020/02/plantilla-para-hoja-de-proyecto.jpg&quot; alt=&quot;Plantillas&quot; title=&quot;Plantillas&quot; width=&quot;800&quot; height=&quot;616&quot; /&gt;&lt;/a&gt;&lt;/p&gt;"></unicode>
+                  <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;strong&gt;3º E.S.O.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/SOR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MÁQUINA PARA HACER UN SORTEO&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/MTR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MOTORREDUCTOR A POLEAS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/PUE/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PUERTA ENROLLABLE&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;JERINGÓFORO&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;strong&gt;4º E.S.O.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CONSTRUYENDO UNA SMARTROOM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                   <int value="4"></int>
                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -987,7 +997,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="icon"></string>
                 <string value=""></string>
                 <string role="key" value="id"></string>
-                <unicode value="4"></unicode>
+                <unicode value="11"></unicode>
                 <string role="key" value="lastIdevice"></string>
                 <bool value="0"></bool>
                 <string role="key" value="originalicon"></string>
@@ -996,6 +1006,126 @@ text through the text editing buttons associated with the field."></unicode>
                 <none></none>
                 <string role="key" value="parentNode"></string>
                 <reference key="22"></reference>
+                <string role="key" value="systemResources"></string>
+                <list></list>
+                <string role="key" value="type"></string>
+                <none></none>
+                <string role="key" value="undo"></string>
+                <bool value="1"></bool>
+                <string role="key" value="userResources"></string>
+                <list></list>
+                <string role="key" value="version"></string>
+                <int value="0"></int>
+               </dictionary>
+              </instance>
+             </list>
+             <string role="key" value="_id"></string>
+             <unicode value="11"></unicode>
+             <string role="key" value="_package"></string>
+             <reference key="8"></reference>
+             <string role="key" value="anchor_fields"></string>
+             <list></list>
+             <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exportType"></string>
+             <string value="website"></string>
+             <string role="key" value="last_full_node_path"></string>
+             <string value="exe-node:INICIO:PROYECTOS"></string>
+             <string role="key" value="parent"></string>
+             <reference key="16"></reference>
+             <string role="key" value="top_anchors_linked_from_fields"></string>
+             <list>
+              <reference key="2"></reference>
+             </list>
+             <string role="key" value="children"></string>
+             <list></list>
+            </dictionary>
+           </instance>
+           <unicode role="key" value="exe-node:INICIO:TECNODOCUMENTOS#auto_top"></unicode>
+           <instance class="exe.engine.node.Node" reference="25">
+            <dictionary>
+             <string role="key" value="_title"></string>
+             <unicode value="TECNODOCUMENTOS"></unicode>
+             <string role="key" value="idevices"></string>
+             <list>
+              <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="23">
+               <dictionary>
+                <string role="key" value="_title"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="_author"></string>
+                <unicode value="University of Auckland"></unicode>
+                <string role="key" value="_purpose"></string>
+                <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+                <string role="key" value="_tip"></string>
+                <string value=""></string>
+                <string role="key" value="childs"></string>
+                <list></list>
+                <string role="key" value="content"></string>
+                <instance class="exe.engine.field.TextAreaField" reference="24">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="85"></int>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="23"></reference>
+                  <string role="key" value="_instruc"></string>
+                  <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                  <string role="key" value="_name"></string>
+                  <unicode value="Free Text"></unicode>
+                  <string role="key" value="anchor_names"></string>
+                  <list></list>
+                  <string role="key" value="anchors_linked_from_fields"></string>
+                  <dictionary></dictionary>
+                  <string role="key" value="content_w_resourcePaths"></string>
+                  <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/index.html&quot;&gt;PLANTILLAS PARA GENERAR DOCUMENTACIÓN TÉCNICA EN CURSOS DE E.S.O.&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://www.sesametime.com/assets/wp-content/uploads/2020/02/plantilla-para-hoja-de-proyecto.jpg&quot; alt=&quot;Plantillas&quot; title=&quot;Plantillas&quot; width=&quot;800&quot; height=&quot;616&quot; /&gt;&lt;/a&gt;&lt;/p&gt;"></unicode>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="htmlTag"></string>
+                  <string value="div"></string>
+                  <string role="key" value="images"></string>
+                  <instance class="exe.engine.galleryidevice.GalleryImages">
+                   <dictionary>
+                    <string role="key" value=".listitems"></string>
+                    <list></list>
+                    <string role="key" value="idevice"></string>
+                    <reference key="24"></reference>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="intlinks_to_anchors"></string>
+                  <dictionary></dictionary>
+                  <string role="key" value="nextImageId"></string>
+                  <int value="0"></int>
+                  <string role="key" value="parentNode"></string>
+                  <reference key="25"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="edit"></string>
+                <bool value="0"></bool>
+                <string role="key" value="emphasis"></string>
+                <int value="0"></int>
+                <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+                <int value="7"></int>
+                <string role="key" value="icon"></string>
+                <string value=""></string>
+                <string role="key" value="id"></string>
+                <unicode value="4"></unicode>
+                <string role="key" value="lastIdevice"></string>
+                <bool value="0"></bool>
+                <string role="key" value="originalicon"></string>
+                <string value=""></string>
+                <string role="key" value="parent"></string>
+                <none></none>
+                <string role="key" value="parentNode"></string>
+                <reference key="25"></reference>
                 <string role="key" value="systemResources"></string>
                 <list></list>
                 <string role="key" value="type"></string>
@@ -1020,7 +1150,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="exportType"></string>
              <string value="website"></string>
              <string role="key" value="last_full_node_path"></string>
-             <string value="exe-node:TecnoVilladiego:TECNODOCUMENTOS"></string>
+             <string value="exe-node:INICIO:TECNODOCUMENTOS"></string>
              <string role="key" value="parent"></string>
              <reference key="16"></reference>
              <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1029,127 +1159,10 @@ text through the text editing buttons associated with the field."></unicode>
              </list>
              <string role="key" value="children"></string>
              <list>
-              <instance class="exe.engine.node.Node" reference="25">
-               <dictionary>
-                <string role="key" value="_title"></string>
-                <unicode value="Anteproyecto"></unicode>
-                <string role="key" value="idevices"></string>
-                <list>
-                 <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="23">
-                  <dictionary>
-                   <string role="key" value="_title"></string>
-                   <unicode value="Free Text"></unicode>
-                   <string role="key" value="_author"></string>
-                   <unicode value="University of Auckland"></unicode>
-                   <string role="key" value="_purpose"></string>
-                   <unicode value="The majority of a learning resource will be 
-establishing context, delivering instructions and providing general information.
-This provides the framework within which the learning activities are built and 
-delivered."></unicode>
-                   <string role="key" value="_tip"></string>
-                   <string value=""></string>
-                   <string role="key" value="childs"></string>
-                   <list></list>
-                   <string role="key" value="content"></string>
-                   <instance class="exe.engine.field.TextAreaField" reference="24">
-                    <dictionary>
-                     <string role="key" value="_id"></string>
-                     <int value="85"></int>
-                     <string role="key" value="_idevice"></string>
-                     <reference key="23"></reference>
-                     <string role="key" value="_instruc"></string>
-                     <unicode value="Use this field to enter text. This 
-iDevice has no emphasis applied although limited formatting can be applied to 
-text through the text editing buttons associated with the field."></unicode>
-                     <string role="key" value="_name"></string>
-                     <unicode value="Free Text"></unicode>
-                     <string role="key" value="anchor_names"></string>
-                     <list></list>
-                     <string role="key" value="anchors_linked_from_fields"></string>
-                     <dictionary></dictionary>
-                     <string role="key" value="content_w_resourcePaths"></string>
-                     <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anteproyecto.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DOCUMENTOS PARA ELABORAR UN &lt;strong&gt;ANTEPROYECTO ESCOLAR&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anteproyecto.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://2arquitectos.com/sites/default/files/styles/thumbnail_940x529/public/image.jpg?itok=oIwRr-cA&quot; alt=&quot;Anteproyecto&quot; title=&quot;Anteproyecto&quot; width=&quot;705&quot; height=&quot;529&quot; /&gt;&lt;/a&gt;&lt;/p&gt;"></unicode>
-                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                     <int value="4"></int>
-                     <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                     <int value="2"></int>
-                     <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                     <int value="3"></int>
-                     <string role="key" value="htmlTag"></string>
-                     <string value="div"></string>
-                     <string role="key" value="images"></string>
-                     <instance class="exe.engine.galleryidevice.GalleryImages">
-                      <dictionary>
-                       <string role="key" value=".listitems"></string>
-                       <list></list>
-                       <string role="key" value="idevice"></string>
-                       <reference key="24"></reference>
-                      </dictionary>
-                     </instance>
-                     <string role="key" value="intlinks_to_anchors"></string>
-                     <dictionary></dictionary>
-                     <string role="key" value="nextImageId"></string>
-                     <int value="0"></int>
-                     <string role="key" value="parentNode"></string>
-                     <reference key="25"></reference>
-                    </dictionary>
-                   </instance>
-                   <string role="key" value="edit"></string>
-                   <bool value="0"></bool>
-                   <string role="key" value="emphasis"></string>
-                   <int value="0"></int>
-                   <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
-                   <int value="7"></int>
-                   <string role="key" value="icon"></string>
-                   <string value=""></string>
-                   <string role="key" value="id"></string>
-                   <unicode value="5"></unicode>
-                   <string role="key" value="lastIdevice"></string>
-                   <bool value="0"></bool>
-                   <string role="key" value="originalicon"></string>
-                   <string value=""></string>
-                   <string role="key" value="parent"></string>
-                   <none></none>
-                   <string role="key" value="parentNode"></string>
-                   <reference key="25"></reference>
-                   <string role="key" value="systemResources"></string>
-                   <list></list>
-                   <string role="key" value="type"></string>
-                   <none></none>
-                   <string role="key" value="undo"></string>
-                   <bool value="1"></bool>
-                   <string role="key" value="userResources"></string>
-                   <list></list>
-                   <string role="key" value="version"></string>
-                   <int value="0"></int>
-                  </dictionary>
-                 </instance>
-                </list>
-                <string role="key" value="_id"></string>
-                <unicode value="7"></unicode>
-                <string role="key" value="_package"></string>
-                <reference key="8"></reference>
-                <string role="key" value="anchor_fields"></string>
-                <list></list>
-                <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exportType"></string>
-                <string value="website"></string>
-                <string role="key" value="last_full_node_path"></string>
-                <string value="exe-node:TecnoVilladiego:TECNODOCUMENTOS:Anteproyecto"></string>
-                <string role="key" value="parent"></string>
-                <reference key="22"></reference>
-                <string role="key" value="top_anchors_linked_from_fields"></string>
-                <list></list>
-                <string role="key" value="children"></string>
-                <list></list>
-               </dictionary>
-              </instance>
               <instance class="exe.engine.node.Node" reference="28">
                <dictionary>
                 <string role="key" value="_title"></string>
-                <unicode value="Memoria final"></unicode>
+                <unicode value="Anteproyecto"></unicode>
                 <string role="key" value="idevices"></string>
                 <list>
                  <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="26">
@@ -1185,9 +1198,8 @@ text through the text editing buttons associated with the field."></unicode>
                      <string role="key" value="anchors_linked_from_fields"></string>
                      <dictionary></dictionary>
                      <string role="key" value="content_w_resourcePaths"></string>
-                     <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/memoria_final.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PLANTILLAS PARA ELABORAR UNA &lt;strong&gt;MEMORIA FINAL&lt;/strong&gt; DE UN PROYECTO ESCOLAR&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/memoria_final.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://www.difundiaediciones.com/wp-content/uploads/2019/07/como-escribir-carta-655x368.jpg&quot; alt=&quot;Memoria final&quot; title=&quot;Memoria final&quot; width=&quot;655&quot; height=&quot;368&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;/p&gt;"></unicode>
+                     <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anteproyecto.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DOCUMENTOS PARA ELABORAR UN &lt;strong&gt;ANTEPROYECTO ESCOLAR&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anteproyecto.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://2arquitectos.com/sites/default/files/styles/thumbnail_940x529/public/image.jpg?itok=oIwRr-cA&quot; alt=&quot;Anteproyecto&quot; title=&quot;Anteproyecto&quot; width=&quot;705&quot; height=&quot;529&quot; /&gt;&lt;/a&gt;&lt;/p&gt;"></unicode>
                      <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                      <int value="4"></int>
                      <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1222,7 +1234,7 @@ text through the text editing buttons associated with the field."></unicode>
                    <string role="key" value="icon"></string>
                    <string value=""></string>
                    <string role="key" value="id"></string>
-                   <unicode value="6"></unicode>
+                   <unicode value="5"></unicode>
                    <string role="key" value="lastIdevice"></string>
                    <bool value="0"></bool>
                    <string role="key" value="originalicon"></string>
@@ -1245,7 +1257,7 @@ text through the text editing buttons associated with the field."></unicode>
                  </instance>
                 </list>
                 <string role="key" value="_id"></string>
-                <unicode value="8"></unicode>
+                <unicode value="7"></unicode>
                 <string role="key" value="_package"></string>
                 <reference key="8"></reference>
                 <string role="key" value="anchor_fields"></string>
@@ -1255,9 +1267,9 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="exportType"></string>
                 <string value="website"></string>
                 <string role="key" value="last_full_node_path"></string>
-                <string value="exe-node:TecnoVilladiego:TECNODOCUMENTOS:Memoria%20final"></string>
+                <string value="exe-node:INICIO:TECNODOCUMENTOS:Anteproyecto"></string>
                 <string role="key" value="parent"></string>
-                <reference key="22"></reference>
+                <reference key="25"></reference>
                 <string role="key" value="top_anchors_linked_from_fields"></string>
                 <list></list>
                 <string role="key" value="children"></string>
@@ -1267,7 +1279,7 @@ text through the text editing buttons associated with the field."></unicode>
               <instance class="exe.engine.node.Node" reference="31">
                <dictionary>
                 <string role="key" value="_title"></string>
-                <unicode value="Análisis tecnológico"></unicode>
+                <unicode value="Memoria final"></unicode>
                 <string role="key" value="idevices"></string>
                 <list>
                  <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="29">
@@ -1303,7 +1315,8 @@ text through the text editing buttons associated with the field."></unicode>
                      <string role="key" value="anchors_linked_from_fields"></string>
                      <dictionary></dictionary>
                      <string role="key" value="content_w_resourcePaths"></string>
-                     <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anlisis_tecnolgico.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PLANTILLAS PARA ELABORAR UN &lt;strong&gt;ANÁLISIS TECNOLÓGICO&lt;/strong&gt; DE UN OBJETO&lt;/a&gt;&lt;/span&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anlisis_tecnolgico.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anlisis_tecnolgico.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://docs.google.com/drawings/d/e/2PACX-1vR0gAX0Vqj6evv0C1j2MuN4njf-4CWujH7LUZV3tg98cYVlz3YrGMZreijiRySq5ChYp1OxfKo1JvHI/pub?w=960&amp;amp;h=720&quot; alt=&quot;Análisis tecnológico&quot; title=&quot;Análisis tecnológico&quot; width=&quot;960&quot; height=&quot;720&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+                     <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/memoria_final.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PLANTILLAS PARA ELABORAR UNA &lt;strong&gt;MEMORIA FINAL&lt;/strong&gt; DE UN PROYECTO ESCOLAR&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/memoria_final.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://www.difundiaediciones.com/wp-content/uploads/2019/07/como-escribir-carta-655x368.jpg&quot; alt=&quot;Memoria final&quot; title=&quot;Memoria final&quot; width=&quot;655&quot; height=&quot;368&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;/p&gt;"></unicode>
                      <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                      <int value="4"></int>
@@ -1339,7 +1352,7 @@ text through the text editing buttons associated with the field."></unicode>
                    <string role="key" value="icon"></string>
                    <string value=""></string>
                    <string role="key" value="id"></string>
-                   <unicode value="15"></unicode>
+                   <unicode value="6"></unicode>
                    <string role="key" value="lastIdevice"></string>
                    <bool value="0"></bool>
                    <string role="key" value="originalicon"></string>
@@ -1348,6 +1361,123 @@ text through the text editing buttons associated with the field."></unicode>
                    <none></none>
                    <string role="key" value="parentNode"></string>
                    <reference key="31"></reference>
+                   <string role="key" value="systemResources"></string>
+                   <list></list>
+                   <string role="key" value="type"></string>
+                   <none></none>
+                   <string role="key" value="undo"></string>
+                   <bool value="1"></bool>
+                   <string role="key" value="userResources"></string>
+                   <list></list>
+                   <string role="key" value="version"></string>
+                   <int value="0"></int>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="_id"></string>
+                <unicode value="8"></unicode>
+                <string role="key" value="_package"></string>
+                <reference key="8"></reference>
+                <string role="key" value="anchor_fields"></string>
+                <list></list>
+                <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exportType"></string>
+                <string value="website"></string>
+                <string role="key" value="last_full_node_path"></string>
+                <string value="exe-node:INICIO:TECNODOCUMENTOS:Memoria%20final"></string>
+                <string role="key" value="parent"></string>
+                <reference key="25"></reference>
+                <string role="key" value="top_anchors_linked_from_fields"></string>
+                <list></list>
+                <string role="key" value="children"></string>
+                <list></list>
+               </dictionary>
+              </instance>
+              <instance class="exe.engine.node.Node" reference="34">
+               <dictionary>
+                <string role="key" value="_title"></string>
+                <unicode value="Análisis tecnológico"></unicode>
+                <string role="key" value="idevices"></string>
+                <list>
+                 <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="32">
+                  <dictionary>
+                   <string role="key" value="_title"></string>
+                   <unicode value="Free Text"></unicode>
+                   <string role="key" value="_author"></string>
+                   <unicode value="University of Auckland"></unicode>
+                   <string role="key" value="_purpose"></string>
+                   <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+                   <string role="key" value="_tip"></string>
+                   <string value=""></string>
+                   <string role="key" value="childs"></string>
+                   <list></list>
+                   <string role="key" value="content"></string>
+                   <instance class="exe.engine.field.TextAreaField" reference="33">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="85"></int>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="32"></reference>
+                     <string role="key" value="_instruc"></string>
+                     <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                     <string role="key" value="_name"></string>
+                     <unicode value="Free Text"></unicode>
+                     <string role="key" value="anchor_names"></string>
+                     <list></list>
+                     <string role="key" value="anchors_linked_from_fields"></string>
+                     <dictionary></dictionary>
+                     <string role="key" value="content_w_resourcePaths"></string>
+                     <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anlisis_tecnolgico.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PLANTILLAS PARA ELABORAR UN &lt;strong&gt;ANÁLISIS TECNOLÓGICO&lt;/strong&gt; DE UN OBJETO&lt;/a&gt;&lt;/span&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anlisis_tecnolgico.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://angelmicelti.github.io/DOC/anlisis_tecnolgico.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://docs.google.com/drawings/d/e/2PACX-1vR0gAX0Vqj6evv0C1j2MuN4njf-4CWujH7LUZV3tg98cYVlz3YrGMZreijiRySq5ChYp1OxfKo1JvHI/pub?w=960&amp;amp;h=720&quot; alt=&quot;Análisis tecnológico&quot; title=&quot;Análisis tecnológico&quot; width=&quot;960&quot; height=&quot;720&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;/p&gt;"></unicode>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                     <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                     <int value="3"></int>
+                     <string role="key" value="htmlTag"></string>
+                     <string value="div"></string>
+                     <string role="key" value="images"></string>
+                     <instance class="exe.engine.galleryidevice.GalleryImages">
+                      <dictionary>
+                       <string role="key" value=".listitems"></string>
+                       <list></list>
+                       <string role="key" value="idevice"></string>
+                       <reference key="33"></reference>
+                      </dictionary>
+                     </instance>
+                     <string role="key" value="intlinks_to_anchors"></string>
+                     <dictionary></dictionary>
+                     <string role="key" value="nextImageId"></string>
+                     <int value="0"></int>
+                     <string role="key" value="parentNode"></string>
+                     <reference key="34"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="edit"></string>
+                   <bool value="0"></bool>
+                   <string role="key" value="emphasis"></string>
+                   <int value="0"></int>
+                   <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+                   <int value="7"></int>
+                   <string role="key" value="icon"></string>
+                   <string value=""></string>
+                   <string role="key" value="id"></string>
+                   <unicode value="15"></unicode>
+                   <string role="key" value="lastIdevice"></string>
+                   <bool value="0"></bool>
+                   <string role="key" value="originalicon"></string>
+                   <string value=""></string>
+                   <string role="key" value="parent"></string>
+                   <none></none>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="34"></reference>
                    <string role="key" value="systemResources"></string>
                    <list></list>
                    <string role="key" value="type"></string>
@@ -1372,9 +1502,9 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="exportType"></string>
                 <string value="website"></string>
                 <string role="key" value="last_full_node_path"></string>
-                <string value="exe-node:TecnoVilladiego:TECNODOCUMENTOS:An%C3%A1lisis%20tecnol%C3%B3gico"></string>
+                <string value="exe-node:INICIO:TECNODOCUMENTOS:An%C3%A1lisis%20tecnol%C3%B3gico"></string>
                 <string role="key" value="parent"></string>
-                <reference key="22"></reference>
+                <reference key="25"></reference>
                 <string role="key" value="top_anchors_linked_from_fields"></string>
                 <list></list>
                 <string role="key" value="children"></string>
@@ -1384,14 +1514,14 @@ text through the text editing buttons associated with the field."></unicode>
              </list>
             </dictionary>
            </instance>
-           <unicode role="key" value="exe-node:TecnoVilladiego:WEBS%20DE%20INTER%C3%89S#auto_top"></unicode>
-           <instance class="exe.engine.node.Node" reference="34">
+           <unicode role="key" value="exe-node:INICIO:TecnoVilladiegoApp#auto_top"></unicode>
+           <instance class="exe.engine.node.Node" reference="37">
             <dictionary>
              <string role="key" value="_title"></string>
-             <unicode value="WEBS DE INTERÉS"></unicode>
+             <unicode value="TecnoVilladiegoApp"></unicode>
              <string role="key" value="idevices"></string>
              <list>
-              <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="32">
+              <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="35">
                <dictionary>
                 <string role="key" value="_title"></string>
                 <unicode value="Free Text"></unicode>
@@ -1407,12 +1537,188 @@ delivered."></unicode>
                 <string role="key" value="childs"></string>
                 <list></list>
                 <string role="key" value="content"></string>
-                <instance class="exe.engine.field.TextAreaField" reference="33">
+                <instance class="exe.engine.field.TextAreaField" reference="36">
                  <dictionary>
                   <string role="key" value="_id"></string>
                   <int value="85"></int>
                   <string role="key" value="_idevice"></string>
-                  <reference key="32"></reference>
+                  <reference key="35"></reference>
+                  <string role="key" value="_instruc"></string>
+                  <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                  <string role="key" value="_name"></string>
+                  <unicode value="Free Text"></unicode>
+                  <string role="key" value="anchor_names"></string>
+                  <list></list>
+                  <string role="key" value="anchors_linked_from_fields"></string>
+                  <dictionary></dictionary>
+                  <string role="key" value="content_w_resourcePaths"></string>
+                  <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;&quot;&gt;Escanea este código QR para instalar la app del Departamento:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;&lt;img src=&quot;resources/GlideApp.png&quot; alt=&quot;Enlace a la aplicación&quot; title=&quot;Enlace a la aplicación&quot; width=&quot;180&quot; height=&quot;180&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;&quot;&gt;O haz click en &lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;este enlace &lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="htmlTag"></string>
+                  <string value="div"></string>
+                  <string role="key" value="images"></string>
+                  <instance class="exe.engine.galleryidevice.GalleryImages">
+                   <dictionary>
+                    <string role="key" value=".listitems"></string>
+                    <list>
+                     <instance class="exe.engine.galleryidevice.GalleryImage">
+                      <dictionary>
+                       <string role="key" value="_caption"></string>
+                       <instance class="exe.engine.field.TextField">
+                        <dictionary>
+                         <string role="key" value="_id"></string>
+                         <int value="214"></int>
+                         <string role="key" value="_idevice"></string>
+                         <none></none>
+                         <string role="key" value="_instruc"></string>
+                         <string value=""></string>
+                         <string role="key" value="_name"></string>
+                         <string value=""></string>
+                         <string role="key" value="content"></string>
+                         <string value=""></string>
+                         <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                         <int value="4"></int>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_id"></string>
+                       <unicode value="13_85.15"></unicode>
+                       <string role="key" value="_imageResource"></string>
+                       <instance class="exe.engine.resource.Resource" reference="38">
+                        <dictionary>
+                         <string role="key" value="_idevice"></string>
+                         <reference key="35"></reference>
+                         <string role="key" value="_package"></string>
+                         <reference key="8"></reference>
+                         <string role="key" value="_storageName"></string>
+                         <string value="GlideApp.png"></string>
+                         <string role="key" value="_userName"></string>
+                         <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp4iy7oi\\GlideApp.png"></string>
+                         <string role="key" value="checksum"></string>
+                         <string value="51f70db635c1d66cb36945311d742546"></string>
+                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                         <int value="2"></int>
+                         <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                         <int value="2"></int>
+                         <string role="key" value="warningMsg"></string>
+                         <string value=""></string>
+                        </dictionary>
+                       </instance>
+                       <string role="key" value="_parent"></string>
+                       <reference key="36"></reference>
+                       <string role="key" value="_thumbnailResource"></string>
+                       <none></none>
+                       <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                       <int value="3"></int>
+                       <string role="key" value="makeThumbnail"></string>
+                       <bool value="0"></bool>
+                      </dictionary>
+                     </instance>
+                    </list>
+                    <string role="key" value="idevice"></string>
+                    <reference key="36"></reference>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="intlinks_to_anchors"></string>
+                  <dictionary></dictionary>
+                  <string role="key" value="nextImageId"></string>
+                  <int value="16"></int>
+                  <string role="key" value="parentNode"></string>
+                  <reference key="37"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="edit"></string>
+                <bool value="0"></bool>
+                <string role="key" value="emphasis"></string>
+                <int value="0"></int>
+                <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+                <int value="7"></int>
+                <string role="key" value="icon"></string>
+                <string value=""></string>
+                <string role="key" value="id"></string>
+                <unicode value="13"></unicode>
+                <string role="key" value="lastIdevice"></string>
+                <bool value="0"></bool>
+                <string role="key" value="originalicon"></string>
+                <string value=""></string>
+                <string role="key" value="parent"></string>
+                <none></none>
+                <string role="key" value="parentNode"></string>
+                <reference key="37"></reference>
+                <string role="key" value="systemResources"></string>
+                <list></list>
+                <string role="key" value="type"></string>
+                <none></none>
+                <string role="key" value="undo"></string>
+                <bool value="1"></bool>
+                <string role="key" value="userResources"></string>
+                <list>
+                 <reference key="38"></reference>
+                </list>
+                <string role="key" value="version"></string>
+                <int value="0"></int>
+               </dictionary>
+              </instance>
+             </list>
+             <string role="key" value="_id"></string>
+             <unicode value="13"></unicode>
+             <string role="key" value="_package"></string>
+             <reference key="8"></reference>
+             <string role="key" value="anchor_fields"></string>
+             <list></list>
+             <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exportType"></string>
+             <string value="website"></string>
+             <string role="key" value="last_full_node_path"></string>
+             <string value="exe-node:INICIO:TecnoVilladiegoApp"></string>
+             <string role="key" value="parent"></string>
+             <reference key="16"></reference>
+             <string role="key" value="top_anchors_linked_from_fields"></string>
+             <list>
+              <reference key="2"></reference>
+             </list>
+             <string role="key" value="children"></string>
+             <list></list>
+            </dictionary>
+           </instance>
+           <unicode role="key" value="exe-node:INICIO:WEBS%20DE%20INTER%C3%89S#auto_top"></unicode>
+           <instance class="exe.engine.node.Node" reference="41">
+            <dictionary>
+             <string role="key" value="_title"></string>
+             <unicode value="WEBS DE INTERÉS"></unicode>
+             <string role="key" value="idevices"></string>
+             <list>
+              <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="39">
+               <dictionary>
+                <string role="key" value="_title"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="_author"></string>
+                <unicode value="University of Auckland"></unicode>
+                <string role="key" value="_purpose"></string>
+                <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+                <string role="key" value="_tip"></string>
+                <string value=""></string>
+                <string role="key" value="childs"></string>
+                <list></list>
+                <string role="key" value="content"></string>
+                <instance class="exe.engine.field.TextAreaField" reference="40">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="85"></int>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="39"></reference>
                   <string role="key" value="_instruc"></string>
                   <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -1443,7 +1749,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value=".listitems"></string>
                     <list></list>
                     <string role="key" value="idevice"></string>
-                    <reference key="33"></reference>
+                    <reference key="40"></reference>
                    </dictionary>
                   </instance>
                   <string role="key" value="intlinks_to_anchors"></string>
@@ -1451,7 +1757,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="nextImageId"></string>
                   <int value="0"></int>
                   <string role="key" value="parentNode"></string>
-                  <reference key="34"></reference>
+                  <reference key="41"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="edit"></string>
@@ -1471,7 +1777,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="parent"></string>
                 <none></none>
                 <string role="key" value="parentNode"></string>
-                <reference key="34"></reference>
+                <reference key="41"></reference>
                 <string role="key" value="systemResources"></string>
                 <list></list>
                 <string role="key" value="type"></string>
@@ -1496,7 +1802,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="exportType"></string>
              <string value="website"></string>
              <string role="key" value="last_full_node_path"></string>
-             <string value="exe-node:TecnoVilladiego:WEBS%20DE%20INTER%C3%89S"></string>
+             <string value="exe-node:INICIO:WEBS%20DE%20INTER%C3%89S"></string>
              <string role="key" value="parent"></string>
              <reference key="16"></reference>
              <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1556,7 +1862,7 @@ text through the text editing buttons associated with the field."></unicode>
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:TecnoVilladiego"></string>
+     <string value="exe-node:INICIO"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1565,329 +1871,35 @@ text through the text editing buttons associated with the field."></unicode>
      <list>
       <reference key="9"></reference>
       <reference key="19"></reference>
+      <reference key="25"></reference>
       <reference key="22"></reference>
-      <instance class="exe.engine.node.Node" reference="37">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="PROYECTOS"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="35">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Free Text"></unicode>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_purpose"></string>
-           <unicode value="The majority of a learning resource will be 
-establishing context, delivering instructions and providing general information.
-This provides the framework within which the learning activities are built and 
-delivered."></unicode>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="childs"></string>
-           <list></list>
-           <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="36">
-            <dictionary>
-             <string role="key" value="_id"></string>
-             <int value="85"></int>
-             <string role="key" value="_idevice"></string>
-             <reference key="35"></reference>
-             <string role="key" value="_instruc"></string>
-             <unicode value="Use this field to enter text. This 
-iDevice has no emphasis applied although limited formatting can be applied to 
-text through the text editing buttons associated with the field."></unicode>
-             <string role="key" value="_name"></string>
-             <unicode value="Free Text"></unicode>
-             <string role="key" value="anchor_names"></string>
-             <list></list>
-             <string role="key" value="anchors_linked_from_fields"></string>
-             <dictionary></dictionary>
-             <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;strong&gt;3º E.S.O.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/SOR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MÁQUINA PARA HACER UN SORTEO&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/MTR/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MOTORREDUCTOR A POLEAS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/PROY/PUE/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PUERTA ENROLLABLE&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;JERINGÓFORO&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 24pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;strong&gt;4º E.S.O.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;&quot;&gt;&lt;a href=&quot;https://github.com/angelmicelti/Del-solar-a-la-smartroom/wiki&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CONSTRUYENDO UNA SMARTROOM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
-             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-             <int value="4"></int>
-             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-             <int value="2"></int>
-             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-             <int value="3"></int>
-             <string role="key" value="htmlTag"></string>
-             <string value="div"></string>
-             <string role="key" value="images"></string>
-             <instance class="exe.engine.galleryidevice.GalleryImages">
-              <dictionary>
-               <string role="key" value=".listitems"></string>
-               <list></list>
-               <string role="key" value="idevice"></string>
-               <reference key="36"></reference>
-              </dictionary>
-             </instance>
-             <string role="key" value="intlinks_to_anchors"></string>
-             <dictionary></dictionary>
-             <string role="key" value="nextImageId"></string>
-             <int value="0"></int>
-             <string role="key" value="parentNode"></string>
-             <reference key="37"></reference>
-            </dictionary>
-           </instance>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
-           <int value="7"></int>
-           <string role="key" value="icon"></string>
-           <string value=""></string>
-           <string role="key" value="id"></string>
-           <unicode value="11"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parent"></string>
-           <none></none>
-           <string role="key" value="parentNode"></string>
-           <reference key="37"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="type"></string>
-           <none></none>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="11"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="8"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:TecnoVilladiego:PROYECTOS"></string>
-        <string role="key" value="parent"></string>
-        <reference key="16"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="40">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="TecnoVilladiegoApp"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="38">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Free Text"></unicode>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_purpose"></string>
-           <unicode value="The majority of a learning resource will be 
-establishing context, delivering instructions and providing general information.
-This provides the framework within which the learning activities are built and 
-delivered."></unicode>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="childs"></string>
-           <list></list>
-           <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="39">
-            <dictionary>
-             <string role="key" value="_id"></string>
-             <int value="85"></int>
-             <string role="key" value="_idevice"></string>
-             <reference key="38"></reference>
-             <string role="key" value="_instruc"></string>
-             <unicode value="Use this field to enter text. This 
-iDevice has no emphasis applied although limited formatting can be applied to 
-text through the text editing buttons associated with the field."></unicode>
-             <string role="key" value="_name"></string>
-             <unicode value="Free Text"></unicode>
-             <string role="key" value="anchor_names"></string>
-             <list></list>
-             <string role="key" value="anchors_linked_from_fields"></string>
-             <dictionary></dictionary>
-             <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;&quot;&gt;Escanea este código QR para instalar la app del Departamento:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;&lt;img src=&quot;resources/GlideApp.png&quot; alt=&quot;Enlace a la aplicación&quot; title=&quot;Enlace a la aplicación&quot; width=&quot;180&quot; height=&quot;180&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;&quot;&gt;O haz click en &lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;este enlace &lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
-             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-             <int value="4"></int>
-             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-             <int value="2"></int>
-             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-             <int value="3"></int>
-             <string role="key" value="htmlTag"></string>
-             <string value="div"></string>
-             <string role="key" value="images"></string>
-             <instance class="exe.engine.galleryidevice.GalleryImages">
-              <dictionary>
-               <string role="key" value=".listitems"></string>
-               <list>
-                <instance class="exe.engine.galleryidevice.GalleryImage">
-                 <dictionary>
-                  <string role="key" value="_caption"></string>
-                  <instance class="exe.engine.field.TextField">
-                   <dictionary>
-                    <string role="key" value="_id"></string>
-                    <int value="213"></int>
-                    <string role="key" value="_idevice"></string>
-                    <none></none>
-                    <string role="key" value="_instruc"></string>
-                    <string value=""></string>
-                    <string role="key" value="_name"></string>
-                    <string value=""></string>
-                    <string role="key" value="content"></string>
-                    <string value=""></string>
-                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                    <int value="4"></int>
-                   </dictionary>
-                  </instance>
-                  <string role="key" value="_id"></string>
-                  <unicode value="13_85.14"></unicode>
-                  <string role="key" value="_imageResource"></string>
-                  <instance class="exe.engine.resource.Resource" reference="41">
-                   <dictionary>
-                    <string role="key" value="_idevice"></string>
-                    <reference key="38"></reference>
-                    <string role="key" value="_package"></string>
-                    <reference key="8"></reference>
-                    <string role="key" value="_storageName"></string>
-                    <string value="GlideApp.png"></string>
-                    <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp5pd2op\\GlideApp.png"></string>
-                    <string role="key" value="checksum"></string>
-                    <string value="51f70db635c1d66cb36945311d742546"></string>
-                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-                    <int value="2"></int>
-                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-                    <int value="2"></int>
-                    <string role="key" value="warningMsg"></string>
-                    <string value=""></string>
-                   </dictionary>
-                  </instance>
-                  <string role="key" value="_parent"></string>
-                  <reference key="39"></reference>
-                  <string role="key" value="_thumbnailResource"></string>
-                  <none></none>
-                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
-                  <int value="3"></int>
-                  <string role="key" value="makeThumbnail"></string>
-                  <bool value="0"></bool>
-                 </dictionary>
-                </instance>
-               </list>
-               <string role="key" value="idevice"></string>
-               <reference key="39"></reference>
-              </dictionary>
-             </instance>
-             <string role="key" value="intlinks_to_anchors"></string>
-             <dictionary></dictionary>
-             <string role="key" value="nextImageId"></string>
-             <int value="15"></int>
-             <string role="key" value="parentNode"></string>
-             <reference key="40"></reference>
-            </dictionary>
-           </instance>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
-           <int value="7"></int>
-           <string role="key" value="icon"></string>
-           <string value=""></string>
-           <string role="key" value="id"></string>
-           <unicode value="13"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parent"></string>
-           <none></none>
-           <string role="key" value="parentNode"></string>
-           <reference key="40"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="type"></string>
-           <none></none>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list>
-            <reference key="41"></reference>
-           </list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="13"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="8"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:TecnoVilladiego:TecnoVilladiegoApp"></string>
-        <string role="key" value="parent"></string>
-        <reference key="16"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <reference key="34"></reference>
+      <reference key="37"></reference>
+      <reference key="41"></reference>
      </list>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
    <reference key="7"></reference>
    <unicode role="key" value="11"></unicode>
-   <reference key="37"></reference>
+   <reference key="22"></reference>
    <unicode role="key" value="13"></unicode>
-   <reference key="40"></reference>
+   <reference key="37"></reference>
    <unicode role="key" value="14"></unicode>
-   <reference key="31"></reference>
+   <reference key="34"></reference>
    <unicode role="key" value="2"></unicode>
    <reference key="12"></reference>
    <unicode role="key" value="3"></unicode>
    <reference key="15"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="34"></reference>
+   <reference key="41"></reference>
    <unicode role="key" value="5"></unicode>
    <reference key="9"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="22"></reference>
-   <unicode role="key" value="7"></unicode>
    <reference key="25"></reference>
-   <unicode role="key" value="8"></unicode>
+   <unicode role="key" value="7"></unicode>
    <reference key="28"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="31"></reference>
    <unicode role="key" value="9"></unicode>
    <reference key="19"></reference>
   </dictionary>
@@ -1900,12 +1912,14 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="anchor_nodes"></string>
   <list>
    <reference key="9"></reference>
-   <reference key="34"></reference>
+   <reference key="41"></reference>
    <reference key="7"></reference>
    <reference key="12"></reference>
    <reference key="15"></reference>
-   <reference key="22"></reference>
+   <reference key="25"></reference>
    <reference key="19"></reference>
+   <reference key="37"></reference>
+   <reference key="22"></reference>
   </list>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
@@ -3154,7 +3168,7 @@ text through the text editing buttons associated with the field."></unicode>
   <dictionary>
    <string role="key" value="51f70db635c1d66cb36945311d742546"></string>
    <list>
-    <reference key="41"></reference>
+    <reference key="38"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
