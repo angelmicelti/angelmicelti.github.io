@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
@@ -8,10 +8,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>Condensadores | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="exe_lightbox.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
@@ -21,21 +21,23 @@
 <body class="exe-web-site" id="exe-node-39"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></header>
+<nav id="siteNav">
 <ul>
-   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA (Opción Aplicada)</a></li>
    <li><a href="1_historia_de_la_electrnica_analgica.html" class="no-ch">1. Historia de la electrónica analógica.</a></li>
-   <li><a href="2_electricidad_y_electrnica_electrnica_analgica.html" class="daddy">2. Electricidad y electrónica. Electrónica analógica.</a>
+   <li><a href="2_herramientas_para_la_electrnica.html" class="daddy">2. Herramientas para la electrónica</a>
    <ul class="other-section">
       <li><a href="21_la_ley_de_ohm.html" class="daddy">2.1. La ley de Ohm.</a>
       <ul class="other-section">
+         <li><a href="calculadora.html" class="no-ch">Calculadora</a></li>
          <li><a href="juega_con_la_ldo.html" class="no-ch">Juega con la LDO</a></li>
       </ul>
       </li>
       <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
       <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
       <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
+      <li><a href="25_divisor_de_tensin.html" class="no-ch">2.5. Divisor de tensión</a></li>
    </ul>
    </li>
    <li><a href="3_la_placa_arduino_tdr_steam.html" class="no-ch">3. La placa Arduino TDR STEAM</a></li>
@@ -56,9 +58,16 @@
       <li><a href="asociacin_de_resistencias.html" class="no-ch">Asociación de resistencias.</a></li>
    </ul>
    </li>
-   <li><a href="4el_led.html" class="daddy">4.El LED</a>
+   <li><a href="6_empezando_a_detectar_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">6. Empezando a detectar: resistencias dependientes de parámetros físicos.</a>
    <ul class="other-section">
-      <li><a href="resistencia_de_polarizacin_de_un_led.html" class="daddy">Resistencia de polarización de un LED</a>
+      <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+      <li><a href="termistores.html" class="no-ch">Termistores</a></li>
+      <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+   </ul>
+   </li>
+   <li><a href="7el_led.html" class="daddy">7.El LED</a>
+   <ul class="other-section">
+      <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
       <ul class="other-section">
          <li><a href="clculo_de_la_resistencia.html" class="no-ch">Cálculo de la resistencia</a></li>
       </ul>
@@ -67,41 +76,31 @@
       <li><a href="datasheet_de_un_led.html" class="no-ch">Datasheet de un LED</a></li>
    </ul>
    </li>
-   <li><a href="7_y_ahora_sin_luz_diodo.html" class="no-ch">7. Y ahora, sin luz: diodo</a></li>
-   <li><a href="6_empezando_a_detectar_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">6. Empezando a detectar: resistencias dependientes de parámetros físicos.</a>
+   <li><a href="8_y_ahora_sin_luz_diodo.html" class="no-ch">8. Y ahora, sin luz: diodo</a></li>
+   <li><a href="3_resumen_todos_los_componentes.html" class="no-ch">3. RESUMEN: todos los componentes</a></li>
+   <li><a href="10_el_transistor.html" class="daddy">10. El transistor.</a>
    <ul class="other-section">
-      <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
-      <li><a href="termistores.html" class="no-ch">Termistores</a></li>
-      <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+      <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
+      <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
+      <li><a href="circuitos_con_transistores.html" class="daddy">Circuitos con transistores</a>
+      <ul class="other-section">
+         <li><a href="detector_de_oscuridad.html" class="no-ch">Detector de oscuridad</a></li>
+         <li><a href="ventilador_activado_por_ntc.html" class="no-ch">Ventilador activado por NTC</a></li>
+         <li><a href="temporizador.html" class="no-ch">Temporizador</a></li>
+         <li><a href="multivibrador_astable.html" class="no-ch">Multivibrador astable</a></li>
+         <li><a href="par_darlington.html" class="no-ch">Par Darlington</a></li>
+         <li><a href="polarizacin_por_divisor_de_tensin.html" class="no-ch">Polarización por divisor de tensión</a></li>
+      </ul>
+      </li>
    </ul>
    </li>
-   <li><a href="3_resumen_todos_los_componentes.html" class="daddy">3. RESUMEN: todos los componentes</a>
+   <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
    <ul class="other-section">
-      <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
-      <ul class="other-section">
-         <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
-         <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
-         <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
-         <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
-         <li><a href="capacitor_lab.html" class="no-ch">Capacitor lab</a></li>
-      </ul>
-      </li>
-      <li><a href="34_ms_de_semiconductores_el_transistor.html" class="daddy">3.4. Más de semiconductores: el transistor.</a>
-      <ul class="other-section">
-         <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
-         <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
-         <li><a href="circuitos_con_transistores.html" class="daddy">Circuitos con transistores</a>
-         <ul class="other-section">
-            <li><a href="detector_de_oscuridad.html" class="no-ch">Detector de oscuridad</a></li>
-            <li><a href="ventilador_activado_por_ntc.html" class="no-ch">Ventilador activado por NTC</a></li>
-            <li><a href="temporizador.html" class="no-ch">Temporizador</a></li>
-            <li><a href="multivibrador_astable.html" class="no-ch">Multivibrador astable</a></li>
-            <li><a href="par_darlington.html" class="no-ch">Par Darlington</a></li>
-            <li><a href="polarizacin_por_divisor_de_tensin.html" class="no-ch">Polarización por divisor de tensión</a></li>
-         </ul>
-         </li>
-      </ul>
-      </li>
+      <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
+      <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
+      <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
+      <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
+      <li><a href="capacitor_lab.html" class="no-ch">Capacitor lab</a></li>
    </ul>
    </li>
    <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
@@ -114,8 +113,8 @@
    <ul class="other-section">
       <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="no-ch">5.1. El amplificador operacional (OpAmp): LM741</a></li>
       <li><a href="52_temporizador_timer_555.html" class="no-ch">5.2. Temporizador (timer) 555</a></li>
-      <li><a href="53_lm35.html" class="no-ch">5.3. LM35</a></li>
-      <li><a href="54_dht11.html" class="no-ch">5.4. DHT11</a></li>
+      <li><a href="53_lm35_sensor_de_temperatura.html" class="no-ch">5.3. LM35 sensor de temperatura</a></li>
+      <li><a href="54_dht11_sensor_de_temperatura_y_humedad.html" class="no-ch">5.4. DHT11 sensor de temperatura y humedad</a></li>
    </ul>
    </li>
    <li><a href="6_montaje_de_circuitos.html" class="daddy">6. Montaje de circuitos</a>
@@ -182,7 +181,6 @@
       </ul>
       </li>
       <li><a href="actividades_de_refuerzo.html" class="no-ch">Actividades de refuerzo</a></li>
-      <li><a href="actividades_de_ampliacin.html" class="no-ch">Actividades de ampliación</a></li>
    </ul>
    </li>
    <li><a href="9_prcticas_de_electrnica_analgica.html" class="daddy">9. Prácticas de electrónica analógica</a>
@@ -197,21 +195,20 @@
       <li><a href="leyes_de_kirchhoff.html" class="no-ch">Leyes de Kirchhoff</a></li>
    </ul>
    </li>
-   <li><a href="apndice_v_pulse_width_modulation_pwm.html" class="no-ch">Apéndice V: Pulse Width Modulation (PWM)</a></li>
    <li><a href="apndice_vi_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice VI: aplicaciones móviles para electrónica analógica</a></li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="leyes_de_kirchoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="diodos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Condensadores</h1></div>
-<div class="iDevice_wrapper activityIdevice em_iDevice" id="id66">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Condensadores</h1></header>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id66">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 1</h2></div>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Ejercicio 1</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta66_33_2" class="block iDevice_content">
@@ -230,10 +227,10 @@ sí?</font>
 </div>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper GalleryIdevice em_iDevice" id="id67">
+</article>
+<article class="iDevice_wrapper GalleryIdevice em_iDevice" id="id67">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 2</h2></div>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Ejercicio 2</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <ul class="exeImageGallery" id="exeImageGallery67">
@@ -245,10 +242,10 @@ sí?</font>
 </div>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper activityIdevice em_iDevice" id="id68">
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id68">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Ejercicio 3</h2></div>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Ejercicio 3</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta68_35_2" class="block iDevice_content">
@@ -265,16 +262,16 @@ circuito temporizador?</font></span>
 </div>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="leyes_de_kirchoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="diodos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>

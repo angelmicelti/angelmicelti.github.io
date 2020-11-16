@@ -1,39 +1,41 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Apéndice V: Pulse Width Modulation (PWM) | Electrónica analógica 4º E.S.O. </title>
+<title>7.El LED | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-77"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-23"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></header>
+<nav id="siteNav">
 <ul>
-   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA.</a></li>
+   <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA (Opción Aplicada)</a></li>
    <li><a href="1_historia_de_la_electrnica_analgica.html" class="no-ch">1. Historia de la electrónica analógica.</a></li>
-   <li><a href="2_electricidad_y_electrnica_electrnica_analgica.html" class="daddy">2. Electricidad y electrónica. Electrónica analógica.</a>
+   <li><a href="2_herramientas_para_la_electrnica.html" class="daddy">2. Herramientas para la electrónica</a>
    <ul class="other-section">
       <li><a href="21_la_ley_de_ohm.html" class="daddy">2.1. La ley de Ohm.</a>
       <ul class="other-section">
+         <li><a href="calculadora.html" class="no-ch">Calculadora</a></li>
          <li><a href="juega_con_la_ldo.html" class="no-ch">Juega con la LDO</a></li>
       </ul>
       </li>
       <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
       <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
       <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
+      <li><a href="25_divisor_de_tensin.html" class="no-ch">2.5. Divisor de tensión</a></li>
    </ul>
    </li>
    <li><a href="3_la_placa_arduino_tdr_steam.html" class="no-ch">3. La placa Arduino TDR STEAM</a></li>
@@ -54,9 +56,16 @@
       <li><a href="asociacin_de_resistencias.html" class="no-ch">Asociación de resistencias.</a></li>
    </ul>
    </li>
-   <li><a href="4el_led.html" class="daddy">4.El LED</a>
+   <li><a href="6_empezando_a_detectar_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">6. Empezando a detectar: resistencias dependientes de parámetros físicos.</a>
    <ul class="other-section">
-      <li><a href="resistencia_de_polarizacin_de_un_led.html" class="daddy">Resistencia de polarización de un LED</a>
+      <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
+      <li><a href="termistores.html" class="no-ch">Termistores</a></li>
+      <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="7el_led.html" class="active daddy">7.El LED</a>
+   <ul>
+      <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
       <ul class="other-section">
          <li><a href="clculo_de_la_resistencia.html" class="no-ch">Cálculo de la resistencia</a></li>
       </ul>
@@ -65,41 +74,31 @@
       <li><a href="datasheet_de_un_led.html" class="no-ch">Datasheet de un LED</a></li>
    </ul>
    </li>
-   <li><a href="7_y_ahora_sin_luz_diodo.html" class="no-ch">7. Y ahora, sin luz: diodo</a></li>
-   <li><a href="6_empezando_a_detectar_resistencias_dependientes_de_parmetros_fsicos.html" class="daddy">6. Empezando a detectar: resistencias dependientes de parámetros físicos.</a>
+   <li><a href="8_y_ahora_sin_luz_diodo.html" class="no-ch">8. Y ahora, sin luz: diodo</a></li>
+   <li><a href="3_resumen_todos_los_componentes.html" class="no-ch">3. RESUMEN: todos los componentes</a></li>
+   <li><a href="10_el_transistor.html" class="daddy">10. El transistor.</a>
    <ul class="other-section">
-      <li><a href="ldr_resistencias_dependientes_de_la_luz.html" class="no-ch">L.D.R.: resistencias dependientes de la luz</a></li>
-      <li><a href="termistores.html" class="no-ch">Termistores</a></li>
-      <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
+      <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
+      <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
+      <li><a href="circuitos_con_transistores.html" class="daddy">Circuitos con transistores</a>
+      <ul class="other-section">
+         <li><a href="detector_de_oscuridad.html" class="no-ch">Detector de oscuridad</a></li>
+         <li><a href="ventilador_activado_por_ntc.html" class="no-ch">Ventilador activado por NTC</a></li>
+         <li><a href="temporizador.html" class="no-ch">Temporizador</a></li>
+         <li><a href="multivibrador_astable.html" class="no-ch">Multivibrador astable</a></li>
+         <li><a href="par_darlington.html" class="no-ch">Par Darlington</a></li>
+         <li><a href="polarizacin_por_divisor_de_tensin.html" class="no-ch">Polarización por divisor de tensión</a></li>
+      </ul>
+      </li>
    </ul>
    </li>
-   <li><a href="3_resumen_todos_los_componentes.html" class="daddy">3. RESUMEN: todos los componentes</a>
+   <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
    <ul class="other-section">
-      <li><a href="33_condensadores.html" class="daddy">3.3. Condensadores.</a>
-      <ul class="other-section">
-         <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
-         <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
-         <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
-         <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
-         <li><a href="capacitor_lab.html" class="no-ch">Capacitor lab</a></li>
-      </ul>
-      </li>
-      <li><a href="34_ms_de_semiconductores_el_transistor.html" class="daddy">3.4. Más de semiconductores: el transistor.</a>
-      <ul class="other-section">
-         <li><a href="funcionamiento_estados_del_transistor.html" class="no-ch">Funcionamiento. Estados del transistor</a></li>
-         <li><a href="identificacin_de_los_terminales.html" class="no-ch">Identificación de los terminales</a></li>
-         <li><a href="circuitos_con_transistores.html" class="daddy">Circuitos con transistores</a>
-         <ul class="other-section">
-            <li><a href="detector_de_oscuridad.html" class="no-ch">Detector de oscuridad</a></li>
-            <li><a href="ventilador_activado_por_ntc.html" class="no-ch">Ventilador activado por NTC</a></li>
-            <li><a href="temporizador.html" class="no-ch">Temporizador</a></li>
-            <li><a href="multivibrador_astable.html" class="no-ch">Multivibrador astable</a></li>
-            <li><a href="par_darlington.html" class="no-ch">Par Darlington</a></li>
-            <li><a href="polarizacin_por_divisor_de_tensin.html" class="no-ch">Polarización por divisor de tensión</a></li>
-         </ul>
-         </li>
-      </ul>
-      </li>
+      <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
+      <li><a href="la_constante_de_tiempo_de_un_condensador.html" class="no-ch">La constante de tiempo de un condensador</a></li>
+      <li><a href="tipos_de_condensadores.html" class="no-ch">Tipos de condensadores</a></li>
+      <li><a href="asociacin_de_condensadores.html" class="no-ch">Asociación de condensadores</a></li>
+      <li><a href="capacitor_lab.html" class="no-ch">Capacitor lab</a></li>
    </ul>
    </li>
    <li><a href="4_otros_componentes_electrnicos.html" class="daddy">4. Otros componentes electrónicos.</a>
@@ -112,8 +111,8 @@
    <ul class="other-section">
       <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="no-ch">5.1. El amplificador operacional (OpAmp): LM741</a></li>
       <li><a href="52_temporizador_timer_555.html" class="no-ch">5.2. Temporizador (timer) 555</a></li>
-      <li><a href="53_lm35.html" class="no-ch">5.3. LM35</a></li>
-      <li><a href="54_dht11.html" class="no-ch">5.4. DHT11</a></li>
+      <li><a href="53_lm35_sensor_de_temperatura.html" class="no-ch">5.3. LM35 sensor de temperatura</a></li>
+      <li><a href="54_dht11_sensor_de_temperatura_y_humedad.html" class="no-ch">5.4. DHT11 sensor de temperatura y humedad</a></li>
    </ul>
    </li>
    <li><a href="6_montaje_de_circuitos.html" class="daddy">6. Montaje de circuitos</a>
@@ -180,7 +179,6 @@
       </ul>
       </li>
       <li><a href="actividades_de_refuerzo.html" class="no-ch">Actividades de refuerzo</a></li>
-      <li><a href="actividades_de_ampliacin.html" class="no-ch">Actividades de ampliación</a></li>
    </ul>
    </li>
    <li><a href="9_prcticas_de_electrnica_analgica.html" class="daddy">9. Prácticas de electrónica analógica</a>
@@ -195,52 +193,46 @@
       <li><a href="leyes_de_kirchhoff.html" class="no-ch">Leyes de Kirchhoff</a></li>
    </ul>
    </li>
-   <li id="active"><a href="apndice_v_pulse_width_modulation_pwm.html" class="active no-ch">Apéndice V: Pulse Width Modulation (PWM)</a></li>
    <li><a href="apndice_vi_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice VI: aplicaciones móviles para electrónica analógica</a></li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
-<a href="leyes_de_kirchhoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_vi_aplicaciones_mviles_para_electrnica_analgica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+<nav class="pagination noprt">
+<a href="vdr_varistores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_led_siempre_protegido.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Apéndice V: Pulse Width Modulation (PWM)</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id188">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">7.El LED</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id27">
 <div class="iDevice emphasis0">
-<div id="ta188_85" class="block iDevice_content">
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: 'comic sans ms', sans-serif;">Obtenido de la web <a href="https://www.rinconingenieril.es/">Rincón Ingenieril</a></span></p>
+<div id="ta27_1" class="block iDevice_content">
+<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;"><img src="342e5f50c3a167696e615f30375f496d6167656e5f30303033.jpg" title="símbolo del L.E.D." align="right" height="59" width="100" /></span><span style="font-family: 'comic sans ms', sand; font-size: 14pt;">El LED (siglas de Light Emitting Diode, o Diodo Emisor de Luz) es un diodo que puede emitir luz de diferentes colores: amarilla, roja, verde, blanca, naranja, infrarroja, ultravioleta, etc. El símbolo con el que lo encontraremos en un esquema circuital es el que tienes a la derecha.</span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sand; font-size: 14pt;">En el siguiente vídeo puedes ver qué es y cómo funciona.</span></div>
+<div align="justify" style="text-align: center;"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
+<div align="justify" style="text-align: center;"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
+<div align="justify" style="text-align: center;"><span style="font-family: comic sans ms,sand; font-size: large;"><iframe width="560" height="314" src="//www.youtube.com/embed/Y324Y55lm2E" allowfullscreen="allowfullscreen"></iframe><br /></span></div>
+<div align="justify" style="text-align: center;"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
+<div align="justify" style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">En este otro vídeo puedes ver las diferencias que hay en cuanto a la forma de polarizar el diodo (no te asustes, llamamos "polarizar" a poner una pila, y una pila se puede poner solo de dos formas)</span><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
+<div align="justify" style="text-align: center;"><span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
+<div align="justify" style="text-align: center;"><span style="font-family: comic sans ms,sand; font-size: large;"><iframe width="560" height="314" src="//www.youtube.com/embed/tKwf7T3CCAo" allowfullscreen="allowfullscreen"></iframe><br /></span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sand; font-size: 14pt;">La tensión de funcionamiento de cada LED depende de la luz que emita, aunque oscila entre 1,6 y 3 voltios.</span></div>
+<p><span style="font-size: 14pt;"><img src="342e5f50c3a167696e615f30385f496d6167656e5f30303031.jpg" title="algunos LED comerciales" align="left" height="211" hspace="5" width="276" style="font-family: 'comic sans ms', sand; text-align: justify;" /><span style="font-family: 'comic sans ms', sand; text-align: justify;"></span></span></p>
+<div align="justify"><span style="font-family: 'comic sans ms', sand; font-size: 14pt;">El LED se emplea en <b>señalización luminosa</b>, televisores, monitores, smartphones, etc.</span><br /><br /><span style="font-family: 'comic sans ms', sand; font-size: 14pt;">Combinaciones adecuadas de ledes nos permitirán , por ejemplo, presentar datos.</span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sand; font-size: 14pt;"></span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sand; font-size: 14pt;">Un ejemplo es el visualizador o display de siete segmentos utilizado en las calculadoras o en los marcadores electrónicos.<img src="Display7seg.jpg" title="Display de 7 segmentos" width="500" height="500" style="float: right;" /></span><br /><br /></div>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id175">
-<div class="iDevice emphasis0">
-<div id="ta175_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PWM son siglas en inglés que significan <strong><em>Pulse Width Modulation</em></strong> y que lo podemos traducir a español como <strong><em>Modulación de ancho de pulso</em></strong>.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Consiste en una señal de onda cuadrada que no siempre tiene la misma relación entre el tiempo que está en alto y el tiempo que está en bajo.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="pwm1.png" alt="" width="509" height="271" style="float: right; margin: 5px 10px 5px 10px;" />En la imagen vemos una señal que varía entre 5 voltios y 0 voltios. A lo largo del tiempo la señal varía entre dos valores de tensión. Durante un tiempo determinado la señal se encuentra en el nivel alto (por ejemplo, 5 V) y durante otro periodo de tiempo se encuentra en el segundo valor de tensión (en este caso 0 V).</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El tiempo que la señal se encuentra en el nivel alto (5 V) lo denominamos como tiempo ON (<em>T<sub>ON</sub></em>) mientras que el tiempo que está en nivel bajo lo denominamos tiempo OFF (<em>T<sub>OFF</sub></em>). La suma del tiempo ON y el tiempo OFF es el período de la señal (<em>T</em>). El inverso de del periodo (1/<em>T</em>) es la frecuencia (<em>f</em>) de la señal.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong><u>Ciclo de trabajo o Duty Cycle</u></strong></span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El Duty Cycle se define como:  <img src="pwm2.png" alt="" width="289" height="56" style="vertical-align: middle; margin-right: 5px; margin-left: 5px;" /></span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong><u>Para qué sirve el PWM</u></strong></span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Cuanto mayor sea el DC, mayor tiempo estará la tensión en alto, y más elevado será el valor medio (siempre inferior al valor máximo. Cuando una señal de tensión atraviesa ciertos componentes electrónicos, puede hacer que su comportamiento cambie. Por ejemplo, los ledes, los motores de corriente continua o ventiladores, incluso los altavoces y los zumbadores.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si le enviamos una señal de 100% de ciclo de trabajo, un LED se encenderá con todo su brillo. Si lo conectamos a una señal del 50% de Duty Cycle, el LED se encenderá con la mitad de su brillo.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong><u>Cómo generar una señal PWM</u></strong></span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="pwm3.png" alt="" width="484" height="338" style="float: right; margin: 5px 10px 5px 10px;" />Aunque hay varias alternativas (por ejemplo, usando un microcontrolador como Arduino), en este tema es interesante abordar el método del 555.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En el esquema de la derecha vemos la salida (OUT). La duración del Duty Cycle se modifica ajustando el valor de la resistencia variable RV1.</span></p>
-</div>
-</div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
-<a href="leyes_de_kirchhoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_vi_aplicaciones_mviles_para_electrnica_analgica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+<nav class="pagination noprt">
+<a href="vdr_varistores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_led_siempre_protegido.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>
