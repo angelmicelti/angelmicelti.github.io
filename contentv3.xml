@@ -237,7 +237,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <instance class="exe.engine.field.TextField">
                         <dictionary>
                          <string role="key" value="_id"></string>
-                         <int value="217"></int>
+                         <int value="218"></int>
                          <string role="key" value="_idevice"></string>
                          <none></none>
                          <string role="key" value="_instruc"></string>
@@ -251,7 +251,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </dictionary>
                        </instance>
                        <string role="key" value="_id"></string>
-                       <unicode value="8_85.0"></unicode>
+                       <unicode value="8_85.1"></unicode>
                        <string role="key" value="_imageResource"></string>
                        <instance class="exe.engine.resource.Resource" reference="16">
                         <dictionary>
@@ -262,7 +262,7 @@ text through the text editing buttons associated with the field."></unicode>
                          <string role="key" value="_storageName"></string>
                          <string value="Apuntes_electronica.png"></string>
                          <string role="key" value="_userName"></string>
-                         <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp16metf.eXe\\previews\\allyourbase\\Apuntes_electr\xc3\xb3nica.png"></string>
+                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgdlpxg\\Apuntes_electronica.png"></string>
                          <string role="key" value="checksum"></string>
                          <string value="b45a99740db00bc7eb2aa9afdff69687"></string>
                          <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -667,6 +667,9 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
 &lt;td style=&quot;height: 17px; width: 839.2px;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;big&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/EAN/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Electrónica analógica&lt;/a&gt;&lt;/b&gt;&lt;/big&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 839.2px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;big&gt;&lt;b&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/EAA/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Electrónica analógica&lt;/a&gt;&lt;/b&gt;&lt;/big&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 18pt;&quot;&gt;(Opción Aplicada)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr style=&quot;height: 20px; text-align: center;&quot;&gt;
 &lt;td style=&quot;height: 17px; width: 839.2px;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;b&gt;&lt;big&gt;&lt;a href=&quot;https://angelmicelti.github.io/4ESO/EDI/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Electrónica digital&lt;/a&gt;&lt;/big&gt;&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -784,7 +787,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </instance>
                   </dictionary>
                   <string role="key" value="nextImageId"></string>
-                  <int value="1"></int>
+                  <int value="2"></int>
                   <string role="key" value="parentNode"></string>
                   <reference key="9"></reference>
                  </dictionary>
@@ -1629,7 +1632,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <instance class="exe.engine.field.TextField">
                         <dictionary>
                          <string role="key" value="_id"></string>
-                         <int value="216"></int>
+                         <int value="219"></int>
                          <string role="key" value="_idevice"></string>
                          <none></none>
                          <string role="key" value="_instruc"></string>
@@ -1643,7 +1646,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </dictionary>
                        </instance>
                        <string role="key" value="_id"></string>
-                       <unicode value="13_85.17"></unicode>
+                       <unicode value="13_85.18"></unicode>
                        <string role="key" value="_imageResource"></string>
                        <instance class="exe.engine.resource.Resource" reference="39">
                         <dictionary>
@@ -1654,7 +1657,7 @@ text through the text editing buttons associated with the field."></unicode>
                          <string role="key" value="_storageName"></string>
                          <string value="GlideApp.png"></string>
                          <string role="key" value="_userName"></string>
-                         <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmp7ofau3\\GlideApp.png"></string>
+                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgdlpxg\\GlideApp.png"></string>
                          <string role="key" value="checksum"></string>
                          <string value="51f70db635c1d66cb36945311d742546"></string>
                          <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1683,7 +1686,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="intlinks_to_anchors"></string>
                   <dictionary></dictionary>
                   <string role="key" value="nextImageId"></string>
-                  <int value="18"></int>
+                  <int value="19"></int>
                   <string role="key" value="parentNode"></string>
                   <reference key="38"></reference>
                  </dictionary>
@@ -1977,7 +1980,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="9"></reference>
+  <reference key="15"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
