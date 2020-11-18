@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Leyes de Kirchhoff | Electrónica analógica 4º E.S.O. </title>
+<title>Semiconductores | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-117"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-163"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
@@ -63,7 +63,12 @@
       <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
    </ul>
    </li>
-   <li><a href="7el_led.html" class="daddy">7.El LED</a>
+   <li class="current-page-parent"><a href="7_el_diodo_ese_gran_desconocido.html" class="current-page-parent daddy">7. El diodo, ese gran desconocido</a>
+   <ul>
+      <li id="active"><a href="semiconductores.html" class="active no-ch">Semiconductores</a></li>
+   </ul>
+   </li>
+   <li><a href="8el_led.html" class="daddy">8.El LED</a>
    <ul class="other-section">
       <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
       <ul class="other-section">
@@ -74,7 +79,6 @@
       <li><a href="datasheet_de_un_led.html" class="no-ch">Datasheet de un LED</a></li>
    </ul>
    </li>
-   <li><a href="8_y_ahora_sin_luz_diodo.html" class="no-ch">8. Y ahora, sin luz: diodo</a></li>
    <li><a href="9_condensadores.html" class="daddy">9. Condensadores.</a>
    <ul class="other-section">
       <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
@@ -124,7 +128,6 @@
       </li>
       <li><a href="133_otros_montajes_pcbprint_cucocb.html" class="no-ch">13.3. Otros montajes: PCBPrint, CucoCB</a></li>
       <li><a href="134_montajes_en_clemas.html" class="no-ch">13.4. Montajes en clemas</a></li>
-      <li><a href="135_placas_de_circuito_impreso_pcb.html" class="no-ch">13.5. Placas de circuito impreso (PCB)</a></li>
       <li><a href="136_tecnologa_smt_y_componentes_smd.html" class="no-ch">13.6. Tecnología SMT y componentes SMD</a></li>
    </ul>
    </li>
@@ -164,29 +167,27 @@
    <ul class="other-section">
       <li><a href="nivel_pardillo.html" class="no-ch">Nivel pardillo</a></li>
       <li><a href="nivel_normalillo.html" class="no-ch">Nivel normalillo</a></li>
-      <li><a href="nivel_enterallo.html" class="no-ch">Nivel enteraíllo</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="apndice_i_leyes_de_kirchhoff.html" class="current-page-parent daddy">Apéndice I: Leyes de Kirchhoff.</a>
-   <ul>
-      <li id="active"><a href="leyes_de_kirchhoff.html" class="active no-ch">Leyes de Kirchhoff</a></li>
-   </ul>
-   </li>
-   <li><a href="apndice_ii_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice II: aplicaciones móviles para electrónica analógica</a></li>
+   <li><a href="apndice_i_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice I: aplicaciones móviles para electrónica analógica</a></li>
 </ul>
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="apndice_i_leyes_de_kirchhoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_ii_aplicaciones_mviles_para_electrnica_analgica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="7_el_diodo_ese_gran_desconocido.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="8el_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Leyes de Kirchhoff</h1></div>
-<div class="iDevice_wrapper ExternalUrlIdevice" id="id198">
-<div class="iDevice emphasis0" >
-<div class="iDevice_content">
-<iframe src="https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=ele_kirchhoff&l=es" width="100%" height="800px"></iframe>
+<div id="nodeDecoration"><h1 id="nodeTitle">Semiconductores</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id261">
+<div class="iDevice emphasis0">
+<div id="ta261_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Antes de conocer al diodo, conviene hablar un poco de los materiales semiconductores, como el germanio y, especialmente, el silicio.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Químicamente, coinciden con los semimetales de la tabla periódica, y físicamente, tienen un comportamiento intermedio entre conductores y aislantes. No son ni lo uno ni lo otro, y lo es debido a su estructura atómica.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El silicio puro sí es poco conductor de la corriente eléctrica. A esto se le llama <strong>semiconductor intrínseco</strong>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> Sin embargo, se observa que cuando se le añaden átomos de fósforo o arsénico (en un proceso que se llama <strong>dopado</strong>), su conductividad eléctrica mejora notablemente. Así, se forma un <strong>semiconductor tipo N</strong>, que es mejor conductor que el intrínseco.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">También se observa que al dopar un semiconductor intrínseco con átomos de boro, galio o talio también mejora su conductividad eléctrica. En este caso se ha construido un <strong>semiconductor tipo P</strong>.</span></p>
 </div>
 </div>
 </div>
@@ -197,7 +198,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="apndice_i_leyes_de_kirchhoff.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_ii_aplicaciones_mviles_para_electrnica_analgica.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="7_el_diodo_ese_gran_desconocido.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="8el_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

@@ -63,7 +63,12 @@
       <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
    </ul>
    </li>
-   <li><a href="7el_led.html" class="daddy">7.El LED</a>
+   <li><a href="7_el_diodo_ese_gran_desconocido.html" class="daddy">7. El diodo, ese gran desconocido</a>
+   <ul class="other-section">
+      <li><a href="semiconductores.html" class="no-ch">Semiconductores</a></li>
+   </ul>
+   </li>
+   <li><a href="8el_led.html" class="daddy">8.El LED</a>
    <ul class="other-section">
       <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
       <ul class="other-section">
@@ -74,7 +79,6 @@
       <li><a href="datasheet_de_un_led.html" class="no-ch">Datasheet de un LED</a></li>
    </ul>
    </li>
-   <li><a href="8_y_ahora_sin_luz_diodo.html" class="no-ch">8. Y ahora, sin luz: diodo</a></li>
    <li><a href="9_condensadores.html" class="daddy">9. Condensadores.</a>
    <ul class="other-section">
       <li><a href="caractersticas_de_un_condensador.html" class="no-ch">Características de un condensador</a></li>
@@ -124,7 +128,6 @@
       </li>
       <li><a href="133_otros_montajes_pcbprint_cucocb.html" class="no-ch">13.3. Otros montajes: PCBPrint, CucoCB</a></li>
       <li><a href="134_montajes_en_clemas.html" class="no-ch">13.4. Montajes en clemas</a></li>
-      <li><a href="135_placas_de_circuito_impreso_pcb.html" class="no-ch">13.5. Placas de circuito impreso (PCB)</a></li>
       <li><a href="136_tecnologa_smt_y_componentes_smd.html" class="no-ch">13.6. Tecnología SMT y componentes SMD</a></li>
    </ul>
    </li>
@@ -164,15 +167,9 @@
    <ul class="other-section">
       <li><a href="nivel_pardillo.html" class="no-ch">Nivel pardillo</a></li>
       <li><a href="nivel_normalillo.html" class="no-ch">Nivel normalillo</a></li>
-      <li><a href="nivel_enterallo.html" class="no-ch">Nivel enteraíllo</a></li>
    </ul>
    </li>
-   <li><a href="apndice_i_leyes_de_kirchhoff.html" class="daddy">Apéndice I: Leyes de Kirchhoff.</a>
-   <ul class="other-section">
-      <li><a href="leyes_de_kirchhoff.html" class="no-ch">Leyes de Kirchhoff</a></li>
-   </ul>
-   </li>
-   <li><a href="apndice_ii_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice II: aplicaciones móviles para electrónica analógica</a></li>
+   <li><a href="apndice_i_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice I: aplicaciones móviles para electrónica analógica</a></li>
 </ul>
 </div>
 <div id='topPagination'>
@@ -190,28 +187,31 @@
 <div align="justify"></div>
 <div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">La electricidad dio origen a la electrónica. La electrónica es la ciencia que estudia y diseña dispositivos relacionados con el comportamiento de los electrones en la materia.</span></div>
 <div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3"></span> </span></div>
-<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3"></span><span face="trebuchet ms,geneva" size="3">No podemos hablar de historia de la electrónica hasta finales del S. XIX, momento en que se realizó un estudio cuidadoso de los electrones que rodean al núcleo atómico.</span></span></div>
-<div align="justify"></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3">No podemos hablar de historia de la electrónica hasta finales del S. XIX, momento en que se realizó un estudio cuidadoso de los electrones que rodean al núcleo atómico.</span></span></div>
 <p align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"> </span></p>
 <p align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="jm_edison.jpg" title="Thomas Alva Edison" align="left" height="175" hspace="10" width="120" /><span face="trebuchet ms,geneva" size="3">En 1883 <b>Thomas Alva Edison</b> observó que al calentar un material metálico se producía una emisión de electrones (<b>efecto termoiónico</b>). Se puede considerar que éste fue el origen de lo que actualmente conocemos como ele</span><img src="jm_hertz.jpg" title="Heinrich Hertz" align="right" height="175" hspace="10" width="120" /><span face="trebuchet ms,geneva" size="3">ctrónica. No obstante, decir que todavía no se habían descubierto los electrones como partículas constituyentes de los átomos. Lo haría el físico inglés J.J. Thomson, en 1896.</span></span></p>
-<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3"> En 1887, <b>Heinrich Hertz</b> observó que al circular una corriente al</span><span face="trebuchet ms,geneva" size="3">terna por un conductor, se crean <b>ondas electromagnéticas</b> a su alrededor, las cuales dependen de la corriente que circula. Estas ondas se propagan a la velocidad de la luz (300.000 km/s).</span></span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3"> En 1887, <b>Heinrich Hertz</b> observó que al circular una corriente al</span><span face="trebuchet ms,geneva" size="3">terna por un conductor, se crean <b>ondas electromagnéticas</b> a su alrededor, las cuales dependen de la corriente que circula. Estas ondas se propagan a la velocidad de la luz (300.000 km/s). Hoy en día utilizamos las ondas electromagnéticas en telecomunicaciones.</span></span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3"></span></span></div>
 <div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">En 1897 <strong>Nikola Tesla</strong> construyó el primer transmisor de radio (tradicionalmente se ha atribuido este invento a Guillermo Marconi, pero desde 1943 se acepta que el invento es de Tesla).</span></div>
-<div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Poco después, <strong>John Ambrose</strong> <b>Fleming </b>utilizó la <b>válvula-diodo</b> para la detección de las señales de radio.</span></div>
 <div align="justify"></div>
 <div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">En 1902 se inventa la <b>célula fotoeléctrica</b>, aunque su funcionamiento no será explicado hasta 1905 por Albert Einstein.</span><br /><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"> </span></div>
+<div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"></span></div>
+<div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"></span></div>
 <div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><iframe width="480" height="360" style="display: block; margin-left: auto; margin-right: auto;" src="//www.youtube.com/embed/2jW33jZ6uhE" frameborder="0"></iframe></span></div>
-<p><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"> </span></p>
-<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="jm_lee_de_forest.jpg" title="Lee de Forest" align="left" height="175" hspace="10" width="120" /><span face="trebuchet ms,geneva" size="3"> En 1907, <b>Lee De Forest</b> inventa el <b>triodo </b>(o Audión, como él lo llamó) un dispositivo que permite amplificar señales eléctricas. Poco a poco van surgiendo diferentes componentes electrónicos, como el tetrodo o el pentodo.</span></span></div>
+<p></p>
+<div align="justify"><span face="trebuchet ms,geneva" size="3" style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Poco después, en 1904, <strong>John Ambrose</strong> <b>Fleming </b>utilizó la <b>válvula-diodo</b> para la detección de las señales de radio.</span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="jm_lee_de_forest.jpg" title="Lee de Forest" align="left" height="175" hspace="10" width="120" /><span face="trebuchet ms,geneva" size="3"> En 1906, <b>Lee De Forest</b> inventa el <b>triodo </b>(o Audión, como él lo llamó) un dispositivo que permite amplificar señales eléctricas. Poco a poco van surgiendo diferentes componentes electrónicos, como el tetrodo o el pentodo.</span></span></div>
 <div align="justify"></div>
-<div align="justify"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En 1920 se inventa un primer modelo de <strong>magnetrón</strong>, en 1937 se inventa el <strong>clistrón</strong>, y en 1940 el <strong>magnetrón de cavidad resonante</strong>. Ambos elementos son fundamentales en la fabricación del radar. Más adelante, se aplicarían al funcionamiento de los hornos <strong>microondas</strong>.</span></div>
+<div align="justify"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En 1920, <strong>Albert Hull</strong> inventa un primer modelo de <strong>magnetrón.</strong> En 1937, los hermanos Russell Harrison Varian y Sigurd Fergus Varian inventan el <strong>klistrón</strong>, y en 1940  los investigadores John Randall y Harry Boot inventan el <strong>magnetrón de cavidad resonante, </strong>en la universidad de Birminghan (Reino Unido). Ambos elementos son fundamentales en la fabricación del radar (que, a su vez, fue decisivo en la victoria de las potencias aliadas en la Segunda Guerra Mundial). Más adelante, se aplicarían al funcionamiento de los hornos <strong>microondas</strong>.</span></div>
 <div align="justify"></div>
-<div align="justify"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif; line-height: 1.5; text-align: left;">En 1938 se sentaron las bases teóricas para la fabricación de los elementos <strong>semiconductores</strong>. Desde este momento y gracias a la constante investigación, los nuevos descubrimientos no han dejado de sorprender a la Humanidad.</span></div>
+<div align="justify"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif; line-height: 1.5; text-align: left;">En 1938, el científico Alan Herries Wilson sienta las bases teóricas para la fabricación de los elementos <strong>semiconductores</strong>. Desde este momento y gracias a la constante investigación, los nuevos descubrimientos no han dejado de sorprender a la Humanidad.</span></div>
 <div align="justify"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="jm_bardeen.jpg" title="John Bardeen" align="right" height="175" hspace="10" width="120" /></span></div>
 <div align="justify"></div>
-<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3">En 1947, un equipo de investigación compuesto por <b>John Bar</b></span><span face="trebuchet ms,geneva" size="3"><b>deen, Walter Brattain y William Shockley</b> descubrían el <b>transistor</b>.</span></span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3">Así, por ejemplo, en 1947, un equipo de investigación compuesto por <b>John Bar</b></span><span face="trebuchet ms,geneva" size="3"><b>deen, Walter Brattain y William Shockley</b> inventan el <b>transistor</b>, que supone una gran innovación, ya que sustituye a las válvulas triodo, siendo más pequeño y duradero que éstas.</span></span></div>
 <div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3"></span><img src="jm-kilby.jpg" title="Jack St. Clair Kilby" align="left" height="175" hspace="10" width="120" /></span></div>
 <div align="justify"></div>
 <div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3">En 1958, <b>Jack Saint Clair Kilby</b> inventa el <b>chip </b>o <b>circuito integrado</b>, un soporte que contiene varios transistores. A partir de aquí, la evolución ha sido espectacular: el </span><span face="trebuchet ms,geneva" size="3">microprocesador, el ordenador, los smartphones, etc.</span></span></div>
+<div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><span face="trebuchet ms,geneva" size="3">La evolución a partir del chip ha sido espectacular, creciendo éste en capacidad de integración (es decir, de inclusión de componentes dentro de un mismo encapsulado). Ello ha dado lugar a inventos como el <strong>microprocesador</strong>, realizado por la empresa Intel en 1971.</span></span></div>
 </div>
 </div>
 </div>
