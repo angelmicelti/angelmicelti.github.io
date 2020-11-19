@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>6.3. Otros montajes: PCBPrint, CucoCB | Electrónica analógica 4º E.S.O. </title>
+<title>5.4. DHT11 sensor de temperatura y humedad | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-121"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-152"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></header>
@@ -119,8 +119,8 @@
       <li><a href="43rel.html" class="no-ch">4.3.Relé</a></li>
    </ul>
    </li>
-   <li><a href="5_circuitos_integrados.html" class="daddy">5. Circuitos integrados</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="5_circuitos_integrados.html" class="current-page-parent daddy">5. Circuitos integrados</a>
+   <ul>
       <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
       <ul class="other-section">
          <li><a href="el_741_en_lazo_abierto.html" class="no-ch">El 741 en lazo abierto</a></li>
@@ -142,18 +142,18 @@
       </ul>
       </li>
       <li><a href="53_lm35_sensor_de_temperatura.html" class="no-ch">5.3. LM35 sensor de temperatura</a></li>
-      <li><a href="54_dht11_sensor_de_temperatura_y_humedad.html" class="no-ch">5.4. DHT11 sensor de temperatura y humedad</a></li>
+      <li id="active"><a href="54_dht11_sensor_de_temperatura_y_humedad.html" class="active no-ch">5.4. DHT11 sensor de temperatura y humedad</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="6_montaje_de_circuitos.html" class="current-page-parent daddy">6. Montaje de circuitos</a>
-   <ul>
+   <li><a href="6_montaje_de_circuitos.html" class="daddy">6. Montaje de circuitos</a>
+   <ul class="other-section">
       <li><a href="61_placa_protoboard.html" class="no-ch">6.1. Placa protoboard</a></li>
       <li><a href="62_pcb_placas_de_circuito_impresas.html" class="daddy">6.2. PCB: Placas de Circuito Impresas</a>
       <ul class="other-section">
          <li><a href="ruteado_de_circuitos_easyeda_y_pcb_wizard.html" class="no-ch">Ruteado de circuitos: EasyEDA y PCB Wizard</a></li>
       </ul>
       </li>
-      <li id="active"><a href="63_otros_montajes_pcbprint_cucocb.html" class="active no-ch">6.3. Otros montajes: PCBPrint, CucoCB</a></li>
+      <li><a href="63_otros_montajes_pcbprint_cucocb.html" class="no-ch">6.3. Otros montajes: PCBPrint, CucoCB</a></li>
       <li><a href="64_montajes_en_clemas.html" class="no-ch">6.4. Montajes en clemas</a></li>
       <li><a href="65_tecnologa_smt_y_componentes_smd.html" class="no-ch">6.5. Tecnología SMT y componentes SMD</a></li>
    </ul>
@@ -231,39 +231,18 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="ruteado_de_circuitos_easyeda_y_pcb_wizard.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="64_montajes_en_clemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="53_lm35_sensor_de_temperatura.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="6_montaje_de_circuitos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">6.3. Otros montajes: PCBPrint, CucoCB</h1></header>
-<article class="iDevice_wrapper FreeTextIdevice" id="id201">
+<header id="nodeDecoration"><h1 id="nodeTitle">5.4. DHT11 sensor de temperatura y humedad</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id604">
 <div class="iDevice emphasis0">
-<div id="ta201_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="pcb-led-06.jpg" title="PCBPrint de un LED con resistencia" width="500" height="284" style="float: right; margin: 5px 10px 5px 10px;" />Una idea ingeniosa para construir circuitos aparece en este enlace: <a href="https://github.com/PCBPrints/PCbPrints">https://github.com/PCBPrints/PCbPrints</a> </span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Se genera una estructura de plástico, que se imprime con una impresora 3D. En dicha estructura se dejan unos surcos que sirven para insertar las patillas de los componentes. Entre las patillas se realizan las soldaduras con estaño. Se les conoce como <strong>PCBPrints</strong>.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">A la derecha puedes ver el correspondiente a nuestro circuito de polarización de un LED.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Usando esta idea como punto de partida, en el Departamento hemos fabricado este modelo, al que hemos llamado <strong>CucoCB</strong> (<strong><em>Cuco Circuit Board</em></strong>).</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">La idea es aún más simple que la de la impresión 3D: como soporte utilizamos una lámina de plástico rígido, con el tamaño suficiente para disponer el ruteado que hemos obtenido en una aplicación de las ya mencionadas (o lo hemos realizado a mano). Doblamos adecuadamente los terminales y realizamos las soldaduras con estaño, procurando que no haya cruces accidentales de patillas.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El resultado, para nuestro circuito de polarización de un LED, lo podemos ver en estas imágenes:</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"></span></p>
-<table style="margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td width="208"><img src="superior.jpg" alt="" title="Vista superior del CCB de un led con resistencia" width="509" height="426" /></td>
-<td width="174"><img src="inferior.jpg" alt="" title="Vista inferior del CCB de un led con resistencia" width="462" height="461" /></td>
-</tr>
-<tr>
-<td width="208" style="text-align: center;">
-<p><span style="font-size: 10pt; font-family: 'comic sans ms', sans-serif;"><strong>Vista superior del CCB de polarización de un LED</strong></span></p>
-</td>
-<td width="174" style="text-align: center;">
-<p><span style="font-size: 10pt; font-family: 'comic sans ms', sans-serif;"><strong>Vista inferior del CCB de polarización de un LED</strong></span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: 'comic sans ms', sans-serif;">(NOTA: hemos añadido pegamento termofusible sobre las soldaduras para evitar que con el uso se desprendan, se enganchen, etc.)</span></p>
+<div id="ta604_85" class="block iDevice_content">
+<p><img src="https://cdn-tienda.bricogeek.com/4098-thickbox_default/sensor-de-humedad-y-temperatura-dht11.jpg" alt="Sensor DHT11" title="Sensor DHT11" width="500" height="500" style="float: left; margin: 10px;" /></p>
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En este circuito integrado tenemos un sensor de humedad y un sensor de temperatura, que está basado en una NTC.</span></p>
+<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="https://carnotcycle.files.wordpress.com/2017/07/dew.jpg" alt="Interior del DHT11" title="Interior del DHT11" width="497" height="327" style="float: right; margin: 10px;" />Puedes ver el interior de este sensor en la imagen de la derecha. </span></p>
 </div>
 </div>
 </article>
@@ -274,7 +253,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="ruteado_de_circuitos_easyeda_y_pcb_wizard.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="64_montajes_en_clemas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="53_lm35_sensor_de_temperatura.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="6_montaje_de_circuitos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
