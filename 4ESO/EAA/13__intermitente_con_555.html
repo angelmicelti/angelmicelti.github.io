@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,10 +7,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>13 - Intermitente con 555 | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -19,8 +19,8 @@
 <body class="exe-web-site" id="exe-node-100"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></header>
+<nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA (Opción Aplicada)</a></li>
    <li><a href="1_historia_de_la_electrnica_analgica.html" class="no-ch">1. Historia de la electrónica analógica.</a></li>
@@ -62,11 +62,7 @@
       <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
    </ul>
    </li>
-   <li><a href="7_el_diodo_ese_gran_desconocido.html" class="daddy">7. El diodo, ese gran desconocido</a>
-   <ul class="other-section">
-      <li><a href="semiconductores.html" class="no-ch">Semiconductores</a></li>
-   </ul>
-   </li>
+   <li><a href="7_el_diodo_ese_gran_desconocido.html" class="no-ch">7. El diodo, ese gran desconocido</a></li>
    <li><a href="8el_led.html" class="daddy">8.El LED</a>
    <ul class="other-section">
       <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
@@ -76,7 +72,11 @@
       </li>
       <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
       <li><a href="datasheet_de_un_led.html" class="no-ch">Datasheet de un LED</a></li>
-      <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+      <li><a href="led_rgb.html" class="daddy">LED RGB</a>
+      <ul class="other-section">
+         <li><a href="simulador_de_colores_para_led_rgb.html" class="no-ch">Simulador de colores para LED RGB</a></li>
+      </ul>
+      </li>
    </ul>
    </li>
    <li><a href="9_condensadores.html" class="daddy">9. Condensadores.</a>
@@ -160,7 +160,7 @@
       </ul>
       </li>
       <li><a href="falstad.html" class="no-ch">Falstad</a></li>
-      <li><a href="simulador_de_colores_para_led_rgb.html" class="no-ch">Simulador de colores para LED RGB</a></li>
+      <li><a href="simulador_de_colores_para_led_rgb0.html" class="no-ch">Simulador de colores para LED RGB</a></li>
    </ul>
    </li>
    <li><a href="15_prcticas_de_electrnica_analgica.html" class="daddy">15. Prácticas de electrónica analógica</a>
@@ -171,31 +171,31 @@
    </li>
    <li><a href="apndice_i_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice I: aplicaciones móviles para electrónica analógica</a></li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="12__interruptor_crepuscular.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="falstad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">13 - Intermitente con 555</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id268">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">13 - Intermitente con 555</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id268">
 <div class="iDevice emphasis0">
 <div id="ta268_85" class="block iDevice_content">
 <p style="text-align: center;"><iframe width="725" height="453" src="https://www.tinkercad.com/embed/kKHqd71yXKe"></iframe></p>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="12__interruptor_crepuscular.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="falstad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>

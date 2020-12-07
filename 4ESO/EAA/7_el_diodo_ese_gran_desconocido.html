@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,10 +7,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>7. El diodo, ese gran desconocido | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -19,8 +19,8 @@
 <body class="exe-web-site" id="exe-node-147"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></header>
+<nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA (Opción Aplicada)</a></li>
    <li><a href="1_historia_de_la_electrnica_analgica.html" class="no-ch">1. Historia de la electrónica analógica.</a></li>
@@ -62,11 +62,7 @@
       <li><a href="vdr_varistores.html" class="no-ch">V.D.R.: varistores</a></li>
    </ul>
    </li>
-   <li id="active"><a href="7_el_diodo_ese_gran_desconocido.html" class="active daddy">7. El diodo, ese gran desconocido</a>
-   <ul>
-      <li><a href="semiconductores.html" class="no-ch">Semiconductores</a></li>
-   </ul>
-   </li>
+   <li id="active"><a href="7_el_diodo_ese_gran_desconocido.html" class="active no-ch">7. El diodo, ese gran desconocido</a></li>
    <li><a href="8el_led.html" class="daddy">8.El LED</a>
    <ul class="other-section">
       <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
@@ -76,7 +72,11 @@
       </li>
       <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
       <li><a href="datasheet_de_un_led.html" class="no-ch">Datasheet de un LED</a></li>
-      <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
+      <li><a href="led_rgb.html" class="daddy">LED RGB</a>
+      <ul class="other-section">
+         <li><a href="simulador_de_colores_para_led_rgb.html" class="no-ch">Simulador de colores para LED RGB</a></li>
+      </ul>
+      </li>
    </ul>
    </li>
    <li><a href="9_condensadores.html" class="daddy">9. Condensadores.</a>
@@ -160,7 +160,7 @@
       </ul>
       </li>
       <li><a href="falstad.html" class="no-ch">Falstad</a></li>
-      <li><a href="simulador_de_colores_para_led_rgb.html" class="no-ch">Simulador de colores para LED RGB</a></li>
+      <li><a href="simulador_de_colores_para_led_rgb0.html" class="no-ch">Simulador de colores para LED RGB</a></li>
    </ul>
    </li>
    <li><a href="15_prcticas_de_electrnica_analgica.html" class="daddy">15. Prácticas de electrónica analógica</a>
@@ -171,19 +171,31 @@
    </li>
    <li><a href="apndice_i_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice I: aplicaciones móviles para electrónica analógica</a></li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
-<a href="vdr_varistores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="semiconductores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+<nav class="pagination noprt">
+<a href="vdr_varistores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="8el_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">7. El diodo, ese gran desconocido</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id26">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">7. El diodo, ese gran desconocido</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id261">
+<div class="iDevice emphasis0">
+<div id="ta261_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Antes de conocer al diodo, conviene hablar un poco de los materiales semiconductores, como el germanio y, especialmente, el silicio.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Químicamente, coinciden con los semimetales de la tabla periódica, y físicamente, tienen un comportamiento intermedio entre conductores y aislantes. No son ni lo uno ni lo otro, y lo es debido a su estructura atómica.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El silicio puro sí es poco conductor de la corriente eléctrica. A esto se le llama <strong>semiconductor intrínseco</strong>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> Sin embargo, se observa que cuando se le añaden átomos de fósforo o arsénico (en un proceso que se llama <strong>dopado</strong>), su conductividad eléctrica mejora notablemente. Así, se forma un <strong>semiconductor tipo N</strong>, que es mejor conductor que el intrínseco.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">También se observa que al dopar un semiconductor intrínseco con átomos de boro, galio o talio también mejora su conductividad eléctrica. En este caso se ha construido un <strong>semiconductor tipo P</strong>.</span></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id26">
 <div class="iDevice emphasis0">
 <div id="ta26_1" class="block iDevice_content">
 <div align="justify"><span style="font-family: 'comic sans ms', sans-serif; font-size: large;"><img src="342e5f50c3a167696e615f30375f496d6167656e5f30303031.jpg" title="símbolo del diodo convencional" align="right" height="60" hspace="5" width="120" /></span>
+<p style="text-align: center;"><strong><span style="font-family: 'comic sans ms', sans-serif; font-size: 24pt;">EL DIODO</span></strong></p>
 <p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Al unir un semiconductor del tipo N con otro del tipo P, en la zona de contacto se produce una marcha de electrones de la zona N a la P, cargándose positivamente la zona N y negativamente la zona P.</span></p>
 <p style="text-align: center;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><iframe width="560" height="314" src="//www.youtube.com/embed/UxCtnTLKAh0" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
 <p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Aparece entonces un pequeño voltaje (“pila”) en el cristal, que en el silicio es de unos 0,7 V y en el germanio de unos 0,3 V, y que se opone al sentido de circulación de la corriente.</span></p>
@@ -217,16 +229,16 @@
 <span style="font-family: comic sans ms,sand; font-size: large;"></span></div>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
-<a href="vdr_varistores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="semiconductores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+<nav class="pagination noprt">
+<a href="vdr_varistores.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="8el_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>
