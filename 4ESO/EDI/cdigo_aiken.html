@@ -100,6 +100,7 @@
          <li><a href="circuitverse.html" class="no-ch">CircuitVerse</a></li>
          <li><a href="simulatorio.html" class="no-ch">Simulator.io</a></li>
          <li><a href="brainbox_simulator.html" class="no-ch">Brainbox Simulator</a></li>
+         <li><a href="karnaugh_map_solver.html" class="no-ch">Karnaugh Map Solver</a></li>
       </ul>
       </li>
    </ul>
@@ -115,29 +116,29 @@
       <li><a href="apndice_vi_fpgando_por_la_eso.html" class="no-ch">APÉNDICE VI. FPGAndo por la E.S.O.</a></li>
       <li class="current-page-parent"><a href="apndice_vii_cdigos.html" class="current-page-parent daddy">APÉNDICE VII: códigos</a>
       <ul>
-         <li><a href="continuos_y_cclicos.html" class="daddy">Continuos y cíclicos</a>
-         <ul class="other-section">
-            <li><a href="cdigo_gray.html" class="no-ch">Código Gray</a></li>
-            <li><a href="cdigo_johnson.html" class="no-ch">Código Johnson</a></li>
-         </ul>
-         </li>
          <li class="current-page-parent"><a href="cdigos_bcd.html" class="current-page-parent daddy">Códigos BCD</a>
          <ul>
-            <li><a href="no_ponderados.html" class="daddy">No ponderados</a>
-            <ul class="other-section">
-               <li><a href="bcd_exceso_3.html" class="no-ch">BCD exceso 3</a></li>
-               <li><a href="2_entre_5.html" class="no-ch">2 entre 5</a></li>
-            </ul>
-            </li>
             <li class="current-page-parent"><a href="ponderados.html" class="current-page-parent daddy">Ponderados</a>
             <ul>
                <li><a href="bcd_natural.html" class="no-ch">BCD natural</a></li>
                <li id="active"><a href="cdigo_aiken.html" class="active no-ch">Código Aiken</a></li>
                <li><a href="bcd_5421.html" class="no-ch">BCD 5421</a></li>
                <li><a href="bcd_7421.html" class="no-ch">BCD 7421</a></li>
+               <li><a href="2_entre_5.html" class="no-ch">2 entre 5</a></li>
+            </ul>
+            </li>
+            <li><a href="no_ponderados.html" class="daddy">No ponderados</a>
+            <ul class="other-section">
+               <li><a href="bcd_exceso_3.html" class="no-ch">BCD exceso 3</a></li>
                <li><a href="2_entre_50.html" class="no-ch">2 entre 5</a></li>
             </ul>
             </li>
+         </ul>
+         </li>
+         <li><a href="continuos_y_cclicos.html" class="daddy">Continuos y cíclicos</a>
+         <ul class="other-section">
+            <li><a href="cdigo_gray.html" class="no-ch">Código Gray</a></li>
+            <li><a href="cdigo_johnson.html" class="no-ch">Código Johnson</a></li>
          </ul>
          </li>
          <li><a href="cdigo_ascii.html" class="no-ch">Código ASCII</a></li>
@@ -156,10 +157,65 @@
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Código Aiken</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id146">
+<div class="iDevice_wrapper FreeTextIdevice" id="id234">
 <div class="iDevice emphasis0">
-<div id="ta146_85" class="block iDevice_content">
-
+<div id="ta234_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El <strong>código Aiken</strong> es un ejemplo de código <strong>ponderado</strong> y <strong>autocomplementario</strong> a 9.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El código es <em><strong>ponderado</strong></em>, porque el número decimal se puede obtener como consecuencia de la aplicación de los pesos 1-2-4-2, como se indica al final de la siguiente tabla.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El código es <b><i>autocomplementario </i></b>porque hay simetría entre los números que suman 9: la representación Aiken de 0 y de 9 tienen los ceros y unos invertidos. Así sucede con todos los que suman 9: 1 y 8; 2 y 7; 3 y 6 y 4 y 5.</span></p>
+<table border="1" style="width: 32.2659%; margin-left: auto; margin-right: auto; height: 286px;">
+<tbody>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; height: 26px; background-color: #21f01a; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>DECIMAL</strong></span></td>
+<td style="width: 21.555%; height: 26px; background-color: #6efad7; text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>BCD AIKEN</strong></span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #a5fae5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0000</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #a5fae5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0001</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">2</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #a5fae5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0010</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">3</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #a5fae5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0011</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">4</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #a5fae5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0100</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">5</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #d6fff5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1011</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">6</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #d6fff5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1100</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">7</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #d6fff5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1101</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">8</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #d6fff5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1110</span></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 10.7491%; text-align: center; height: 26px; background-color: #b7ffa1;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">9</span></td>
+<td style="width: 21.555%; text-align: center; height: 26px; background-color: #d6fff5;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1111</span></td>
+</tr>
+<tr>
+<td style="width: 10.7491%; background-color: #e1f7eb; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif;">Pesos</span></td>
+<td style="width: 21.555%; background-color: #e1f7eb; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif;">2-4-2-1</span></td>
+</tr>
+</tbody>
+</table>
+<p></p>
 </div>
 </div>
 </div>
