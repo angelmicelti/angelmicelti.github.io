@@ -121,7 +121,7 @@
             <li><a href="ponderados.html" class="daddy">Ponderados</a>
             <ul class="other-section">
                <li><a href="bcd_natural.html" class="no-ch">BCD natural</a></li>
-               <li><a href="cdigo_aiken.html" class="no-ch">Código Aiken</a></li>
+               <li><a href="bcd_aiken.html" class="no-ch">BCD Aiken</a></li>
                <li><a href="bcd_5421.html" class="no-ch">BCD 5421</a></li>
                <li><a href="bcd_7421.html" class="no-ch">BCD 7421</a></li>
                <li><a href="2_entre_5.html" class="no-ch">2 entre 5</a></li>
@@ -141,6 +141,7 @@
             <li><a href="cdigo_johnson.html" class="no-ch">Código Johnson</a></li>
          </ul>
          </li>
+         <li><a href="cdigo_7segmentos.html" class="no-ch">Código 7-segmentos</a></li>
          <li><a href="cdigo_ascii.html" class="no-ch">Código ASCII</a></li>
       </ul>
       </li>
@@ -160,135 +161,138 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id238">
 <div class="iDevice emphasis0">
 <div id="ta238_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El <strong>código binario reflejado</strong> o <strong>código Gray,</strong> nombrado así en honor del investigador Frank Gray, es un sistema de numeración binario en el que dos números consecutivos difieren solamente en uno de sus dígitos.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El código Gray fue diseñado originalmente para prevenir señales ilegales (señales falsas o viciadas en la representación) de los switches electromecánicos, y actualmente es usado para facilitar la corrección de errores en los sistemas de comunicaciones, tales como algunos sistemas de televisión por cable y la televisión digital terrestre. También se suele emplear bastante en los encoders, para codificar posiciones, por ejemplo, de un robot.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El <strong>código Gray o código binario reflejado</strong><strong>,</strong> nombrado así en honor del investigador Frank Gray, es un sistema de numeración binario en el que dos números consecutivos difieren solamente en uno de sus dígitos.</span></p>
 <p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">De un valor en código Gray al siguiente solo hay un cambio de un bit, como puede apreciarse en la siguiente tabla. Se han incluido en ella las expresiones BCD, que ya son conocidas.</span></p>
 <p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Observa también que los bits son simétricos respecto a la línea en la que se cambia de color.</span></p>
-<table border="1" style="width: 77.4811%; margin-left: auto; margin-right: auto; height: 476px;">
+<table border="1" style="width: 41.4807%; margin-left: auto; margin-right: auto; height: 476px;">
 <tbody>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">DECIMAL</span></strong></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">BCD</span></strong></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">GRAY 2 BITS</span></strong></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">GRAY 3 BITS</span></strong></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">GRAY 4 BITS</span></strong></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">BCD</span></strong></td>
+<td style="width: 24.7489%; text-align: center; height: 28px; background-color: #c3f7e0;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">GRAY 2 BITS</span></strong></td>
+<td style="width: 19.4878%; text-align: center; height: 28px; background-color: #c3f7e0;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">GRAY 3 BITS</span></strong></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">GRAY 4 BITS</span></strong></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0000</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">00</span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">000</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0000</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0000</span></td>
+<td style="width: 24.7489%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">00</span></td>
+<td style="width: 19.4878%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">000</span></td>
+<td style="width: 42.5451%; height: 28px; background-color: #c3f7e0; text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0000</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0001</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">01</span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">001</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0001</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0001</span></td>
+<td style="width: 24.7489%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">01</span></td>
+<td style="width: 19.4878%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">001</span></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0001</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">2</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0010</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">11</span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">011</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0011</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0010</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">11</span></td>
+<td style="width: 19.4878%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">011</span></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0011</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">3</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0011</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">10</span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">010</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0010</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0011</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">10</span></td>
+<td style="width: 19.4878%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">010</span></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0010</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">4</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0100</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">110</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0110</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0100</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">110</span></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0110</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">5</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0101</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">111</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0111</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0101</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">111</span></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0111</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">6</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0110</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">101</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0101</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0110</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">101</span></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0101</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0111</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">100</span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0100</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0111</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">100</span></td>
+<td style="width: 42.5451%; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0100</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">8</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1000</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1100</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1000</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1100</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">9</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1001</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1101</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1001</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1101</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">10</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1010</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1111</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1010</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1111</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">11</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1011</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1110</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1011</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1110</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">12</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1100</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1010</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1100</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1010</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">13</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1101</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1011</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1101</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1011</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">14</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1110</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1001</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1110</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1001</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 2.68347%; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">15</span></td>
-<td style="width: 9.02481%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1111</span></td>
-<td style="width: 20.8287%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 21.9115%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
-<td style="width: 84.5756%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1000</span></td>
+<td style="width: 13.5832%; text-align: center; background-color: #ccffd5; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1111</span></td>
+<td style="width: 24.7489%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 19.4878%; text-align: center; background-color: #e9f5e9; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></td>
+<td style="width: 42.5451%; text-align: center; background-color: #f0faf0; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1000</span></td>
 </tr>
 </tbody>
 </table>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Se emplea, por ejemplo, en la implementación de los diagramas de Karnaugh.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">ALGORITMOS DE CONVERSIÓN</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Se puede ver que el código Gray es también <strong>cíclico</strong>, ya que cuando llegamos al número más alto, con un solo cambio de bit se vuelve al inicio.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El código Gray fue diseñado originalmente para prevenir señales falsas o viciadas de los relés que se empleaban en las primeras computadoras, y actualmente es usado para facilitar la corrección de errores en los sistemas de comunicaciones, tales como algunos sistemas de televisión por cable y la televisión digital terrestre.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">En robótica, es utilizado principalmente en sistemas de posición (encoders), ya sea angular o lineal. Sus aplicaciones principales se encuentran en la industria y en robótica. Se suelen utilizar unos discos codificados para dar la información de posición que tiene un eje en particular. Esta información se da en código GRAY.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Una aplicación adicional, no la podemos olvidar, es la que se da en los diagramas de Karnaugh, para la simplificación de funciones lógicas.</span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"><span style="text-decoration: underline;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">ALGORITMOS DE CONVERSIÓN</span></strong></span></p>
 <p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para convertir entre Gray y binario, basta con seguir uno de estos algoritmos, según proceda.</span></p>
 <p style="text-align: justify;"><span style="text-decoration: underline;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Conversión de binario a Gray</span></strong></span></p>
 <ol>
@@ -297,7 +301,7 @@
 <li style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Colocamos el resultado de la operación tras el "1" inicial.</span></li>
 <li style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Repetimos la operación hasta que se acaben las posibles parejas.</span></li>
 </ol>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Un ejemplo: convertir 1100<sub>B)</sub> a Gray:</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Un ejemplo: <em><strong>convertir 1100<sub>B)</sub> a Gray:</strong></em></span></p>
 <p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1) Ponemos el primer "1"</span></p>
 <p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">2) Hacemos 1⊕1 = 0 y lo colocamos tras el 1 anterior. Ya tenemos "10".</span></p>
 <p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">3) Hacemos 1⊕0 = 1 y lo colocamos tras el "10". Ya tenemos "101".</span></p>
