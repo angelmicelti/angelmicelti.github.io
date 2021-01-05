@@ -116,7 +116,7 @@
       <li><a href="apndice_vi_fpgando_por_la_eso.html" class="no-ch">APÉNDICE VI. FPGAndo por la E.S.O.</a></li>
       <li class="current-page-parent"><a href="apndice_vii_cdigos.html" class="current-page-parent daddy">APÉNDICE VII: códigos</a>
       <ul>
-         <li><a href="cdigos_bcd.html" class="daddy">Códigos BCD</a>
+         <li><a href="cdigos_no_cclicos.html" class="daddy">Códigos no cíclicos</a>
          <ul class="other-section">
             <li><a href="ponderados.html" class="daddy">Ponderados</a>
             <ul class="other-section">
@@ -141,8 +141,12 @@
             <li id="active"><a href="cdigo_johnson.html" class="active no-ch">Código Johnson</a></li>
          </ul>
          </li>
-         <li><a href="cdigo_7segmentos.html" class="no-ch">Código 7-segmentos</a></li>
-         <li><a href="cdigo_ascii.html" class="no-ch">Código ASCII</a></li>
+         <li><a href="cdigos_alfanumricos.html" class="daddy">Códigos alfanuméricos</a>
+         <ul class="other-section">
+            <li><a href="cdigo_7segmentos.html" class="no-ch">Código 7-segmentos</a></li>
+            <li><a href="cdigo_ascii.html" class="no-ch">Código ASCII</a></li>
+         </ul>
+         </li>
       </ul>
       </li>
       <li><a href="apndice_viii_radiografa_de_las_puertas_lgicas_bsicas.html" class="no-ch">APÉNDICE VIII: radiografía de las puertas lógicas básicas</a></li>
@@ -152,7 +156,7 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="cdigo_gray.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cdigo_7segmentos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="cdigo_gray.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cdigos_alfanumricos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
@@ -161,8 +165,8 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id242">
 <div class="iDevice emphasis0">
 <div id="ta242_85" class="block iDevice_content">
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El código Johnson es otro modelo de código cíclico, que se obtiene por adición de "1" desde el bit menos significativo.</span></p>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Tiene una capacidad de codificación de 2·n números, siendo "n" el número de bits. Así, para codificar los diez primeros números, necesitaremos 5 bits.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El <strong>código Johnson</strong> es otro modelo de código cíclico, que se obtiene por adición y eliminación de "1" desde el bit menos significativo.</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Tiene una capacidad de codificación de 2·n números, siendo "n" el número de bits. Así, para codificar los diez primeros números, necesitaremos 5 bits, tal y como se ve en la tabla;</span></p>
 <table border="1" style="height: 476px; width: 400px; margin-left: auto; margin-right: auto;">
 <tbody>
 <tr style="height: 28px;">
@@ -187,30 +191,31 @@
 </tr>
 <tr style="height: 28px;">
 <td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">4</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> 01111</span></td>
+<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">01111</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">5</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> 11111</span></td>
+<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">11111</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">6</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> 11110</span></td>
+<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">11110</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> 11100</span></td>
+<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">11100</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">8</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> 11000</span></td>
+<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">11000</span></td>
 </tr>
 <tr style="height: 28px;">
 <td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">9</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> 10000</span></td>
+<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">10000</span></td>
 </tr>
 </tbody>
 </table>
+<p></p>
 </div>
 </div>
 </div>
@@ -221,7 +226,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="cdigo_gray.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cdigo_7segmentos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="cdigo_gray.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cdigos_alfanumricos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

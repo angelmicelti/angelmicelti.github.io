@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Códigos BCD | Electrónica digital </title>
+<title>Códigos alfanuméricos | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-98"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-101"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -116,8 +116,8 @@
       <li><a href="apndice_vi_fpgando_por_la_eso.html" class="no-ch">APÉNDICE VI. FPGAndo por la E.S.O.</a></li>
       <li class="current-page-parent"><a href="apndice_vii_cdigos.html" class="current-page-parent daddy">APÉNDICE VII: códigos</a>
       <ul>
-         <li id="active"><a href="cdigos_bcd.html" class="active daddy">Códigos BCD</a>
-         <ul>
+         <li><a href="cdigos_no_cclicos.html" class="daddy">Códigos no cíclicos</a>
+         <ul class="other-section">
             <li><a href="ponderados.html" class="daddy">Ponderados</a>
             <ul class="other-section">
                <li><a href="bcd_natural.html" class="no-ch">BCD natural</a></li>
@@ -141,8 +141,12 @@
             <li><a href="cdigo_johnson.html" class="no-ch">Código Johnson</a></li>
          </ul>
          </li>
-         <li><a href="cdigo_7segmentos.html" class="no-ch">Código 7-segmentos</a></li>
-         <li><a href="cdigo_ascii.html" class="no-ch">Código ASCII</a></li>
+         <li id="active"><a href="cdigos_alfanumricos.html" class="active daddy">Códigos alfanuméricos</a>
+         <ul>
+            <li><a href="cdigo_7segmentos.html" class="no-ch">Código 7-segmentos</a></li>
+            <li><a href="cdigo_ascii.html" class="no-ch">Código ASCII</a></li>
+         </ul>
+         </li>
       </ul>
       </li>
       <li><a href="apndice_viii_radiografa_de_las_puertas_lgicas_bsicas.html" class="no-ch">APÉNDICE VIII: radiografía de las puertas lógicas básicas</a></li>
@@ -152,40 +156,24 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="apndice_vii_cdigos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ponderados.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="cdigo_johnson.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cdigo_7segmentos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Códigos BCD</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id226">
+<div id="nodeDecoration"><h1 id="nodeTitle">Códigos alfanuméricos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id245">
 <div class="iDevice emphasis0">
-<div id="ta226_85" class="block iDevice_content">
-<table border="0" style="height: 221px; width: 69.7312%; margin-left: auto; margin-right: auto;">
+<div id="ta245_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Los <strong>códigos alfanuméricos</strong> son aquellos que nos permiten representar en lenguaje binario números y letras, así como otros caracteres necesarios (de control). Aunque hay algunos más (BCDIC, EBCDIC, UNICODE, etc.), nos vamos a centrar en estos dos:</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"></span></p>
+<table border="0" height="47" style="height: 40px; width: 48.3343%; margin-left: auto; margin-right: auto;">
 <tbody>
-<tr style="height: 24px;">
-<td style="width: 50%; text-align: center; height: 24px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 18pt;">NO PONDERADOS</span></strong></td>
-<td style="width: 50%; text-align: center; height: 24px;"><strong><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 18pt;">PONDERADOS</span></strong></td>
+<tr style="height: 20px;">
+<td style="width: 100%; text-align: center; height: 20px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><a href="cdigo_7segmentos.html">Código 7-segmentos</a></span></td>
 </tr>
-<tr style="height: 24px;">
-<td style="width: 50%; text-align: center; height: 24px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><a href="bcd_exceso_3.html">BCD exceso 3</a></span></td>
-<td style="width: 50%; text-align: center; height: 24px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><a href="bcd_natural.html">BCD natural</a></span></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 50%; text-align: center; height: 24px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><a href="2_entre_50.html">2 entre 5</a></span></td>
-<td style="width: 50%; text-align: center; height: 24px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><a href="bcd_aiken.html">BCD Aiken</a></span></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 50%; text-align: center; height: 24px;"></td>
-<td style="width: 50%; text-align: center; height: 24px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><a href="bcd_5421.html">BCD 5421</a></span></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 50%; text-align: center; height: 24px;"></td>
-<td style="width: 50%; text-align: center; height: 24px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif;"><a href="bcd_7421.html"><span style="font-size: 14pt;">BCD 7421</span></a></span></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 50%; text-align: center; height: 24px;"></td>
-<td style="width: 50%; text-align: center; height: 24px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif;"><span style="font-size: 14pt;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><a href="2_entre_5.html">2 entre 5</a></span></span></span></td>
+<tr style="height: 20px;">
+<td style="width: 100%; text-align: center; height: 20px;"><a href="cdigo_ascii.html"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Código ASCII</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -199,7 +187,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="apndice_vii_cdigos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ponderados.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="cdigo_johnson.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cdigo_7segmentos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
