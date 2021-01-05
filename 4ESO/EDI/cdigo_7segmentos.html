@@ -164,58 +164,72 @@
 <p><img src="https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-24/display-06.png" alt="Display de 7 segmentos con indicación de la numeración" title="Display de 7 segmentos con indicación de la numeración" width="254" height="326" style="float: right; margin: 5px;" /></p>
 <p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Mediante este código se pretende representar la representación de dígitos decimales (del 0 al 9) en un display de 7 segmentos. Para ello, se asimila que un 0 indica un segmento apagado y un 1 indicará un segmento encendido.</span></p>
 <p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Entonces, para representar un número, digamos, por ejemplo, el 7, bastará con indicar el estado de las los sietes segmentos para que se muestre dicho número.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">En este caso, tendrían que estar encendidos los segmentos a, b y c, y el resto apagados. Esto lo representaríamos con la secuencia binaria "1110000".</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Si repetimos un ejercicio de imaginación para el resto de dígitos, podríamos componer una tabla como la siguiente, que contiene los dígitos, del 0 al 9.</span></p>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"></span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"></span></p>
-<table border="1" style="height: 476px; width: 400px; margin-left: auto; margin-right: auto;">
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">En este caso, tendrían que estar encendidos los segmentos <em>a</em>, <em>b</em> y <em>c</em>, y el resto apagados. Esto lo representaríamos con la secuencia binaria "1110000".</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Si repetimos un ejercicio de imaginación para el resto de dígitos, algo parecido a lo que vemos en la siguiente imagen:</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><img src="https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-24/ejemplos-digitos-05.png" alt="Dígitos del 0 al 9 en display de 7 segmentos" title="Dígitos del 0 al 9 en display de 7 segmentos" width="800" height="801" style="vertical-align: middle; margin: 5px auto; display: block;" /></span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">podríamos componer una tabla como la siguiente, que contiene los dígitos, del 0 al 9 (incluimos en ella la expresión hexadecimal del código porque a veces es más práctica que escribir 7 bits).</span></p>
+<p><br /><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"></span></p>
+<table border="1" style="height: 476px; width: 663px; margin-left: auto; margin-right: auto;">
 <tbody>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>DECIMAL</strong></span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>CÓDIGO 7-SEGMENTOS</strong></span></td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>DECIMAL</strong></span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>CÓDIGO 7-SEGMENTOS</strong></span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><strong>HEXADECIMAL</strong></span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">111 1110</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">111 1110</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7E</span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">011 0000</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">011 0000</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">30 </span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">2</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">110 1101</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">2</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">110 1101</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">6D </span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">3</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">111 1001</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">3</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">111 1001</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">79</span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">4</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">011 0011</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">4</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">011 0011</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">33 </span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">5</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">101 1011</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">5</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">101 1011</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">5B </span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">6</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">101 1111</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">6</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">101 1111</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">5F</span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">111 0000</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">111 0000</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">70</span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">8</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">111 1111</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">8</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">111 1111</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7F</span></td>
 </tr>
 <tr style="height: 28px;">
-<td style="width: 105.333px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">9</span></td>
-<td style="width: 279.333px; text-align: center; height: 28px; background-color: #c3f7e0;">111 1011</td>
+<td style="width: 103.2px; text-align: center; background-color: #9af5ab; height: 28px;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">9</span></td>
+<td style="width: 271.2px; text-align: center; height: 28px; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">111 1011</span></td>
+<td style="width: 268px; text-align: center; background-color: #c3f7e0;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7B </span></td>
 </tr>
 </tbody>
 </table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Igualmente podríamos representar letras en un display de 7 segmentos utilizando este código. Aquí te dejo una imagen con el resultado:</span></p>
+<p><img src="https://github.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/raw/master/wiki/Tutorial-24/ejemplos-digitos-15.png" alt="Letras en código 7-segmentos" title="Letras en código 7-segmentos" width="887" height="1461" style="display: block; margin-left: auto; margin-right: auto;" /></p>
 </div>
 </div>
 </div>
