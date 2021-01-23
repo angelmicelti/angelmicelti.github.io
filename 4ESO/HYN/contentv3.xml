@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value="Hidráulica y neumática"></unicode>
@@ -85,22 +85,117 @@
   <string role="key" value="_name"></string>
   <unicode value="HYN"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="4"></int>
+  <int value="6"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="19"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
-   <instance class="exe.engine.node.Node" reference="5">
+   <instance class="exe.engine.node.Node" reference="3">
     <dictionary>
      <string role="key" value="_title"></string>
      <unicode value="HIDRÁULICA Y NEUMÁTICA"></unicode>
      <string role="key" value="idevices"></string>
-     <list></list>
+     <list>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="2">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="1"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="&lt;p style=&quot;text-align: justify;&quot;&gt;En este tema vamos a tratar el aprovechamiento tecnológico que podemos realizar de los fluidos.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;El concepto de fluido abarca dos tipos de sustancias: líquidos y gases.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;La aplicación de los primeros entra en el campo de la &lt;strong&gt;Hidráulica.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;https://i.pinimg.com/originals/21/c5/41/21c541b6dd51135dbfe7b4cdb7cfc530.gif&quot; alt=&quot;&quot; width=&quot;586&quot; height=&quot;336&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;La aplicación de los gases, especialmente el aire, es objetivo de la &lt;strong&gt;Neumática&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ytimg.com/vi/6zAheKV2r8A/maxresdefault.jpg&quot; alt=&quot;&quot; width=&quot;931&quot; height=&quot;566&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list></list>
+            <string role="key" value="idevice"></string>
+            <reference key="2"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="0"></int>
+          <string role="key" value="parentNode"></string>
+          <none></none>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="1"></reference>
+     <reference key="4"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -115,13 +210,13 @@
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="4">
+      <instance class="exe.engine.node.Node" reference="7">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="0. Criterios de evaluación"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="5">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Free Text"></unicode>
@@ -137,12 +232,12 @@ delivered."></unicode>
            <string role="key" value="childs"></string>
            <list></list>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="3">
+           <instance class="exe.engine.field.TextAreaField" reference="6">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="85"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="2"></reference>
+             <reference key="5"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -174,7 +269,7 @@ text through the text editing buttons associated with the field."></unicode>
                <string role="key" value=".listitems"></string>
                <list></list>
                <string role="key" value="idevice"></string>
-               <reference key="3"></reference>
+               <reference key="6"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
@@ -182,7 +277,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <none></none>
+             <reference key="7"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -202,7 +297,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="parent"></string>
            <none></none>
            <string role="key" value="parentNode"></string>
-           <reference key="4"></reference>
+           <reference key="7"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="type"></string>
@@ -219,7 +314,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="1"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -229,20 +324,20 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:0.%20Criterios%20de%20evaluaci%C3%B3n"></string>
         <string role="key" value="parent"></string>
-        <reference key="5"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="8">
+      <instance class="exe.engine.node.Node" reference="10">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="1. Magnitudes y leyes fundamentales"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="6">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Fluidos"></unicode>
@@ -301,18 +396,20 @@ text through the text editing buttons associated with the field."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="7">
+            <instance class="exe.engine.field.TextAreaField" reference="9">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="111_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="6"></reference>
+              <reference key="8"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;TO-DO&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -329,7 +426,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="7"></reference>
+                <reference key="9"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -337,7 +434,7 @@ text through the text editing buttons associated with the field."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="10"></reference>
              </dictionary>
             </instance>
            </list>
@@ -354,7 +451,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="8"></reference>
+           <reference key="10"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -369,7 +466,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="2"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -379,12 +476,12 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales"></string>
         <string role="key" value="parent"></string>
-        <reference key="5"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="23">
+         <instance class="exe.engine.node.Node" reference="25">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="2. Presión hidrostática"></unicode>
@@ -393,7 +490,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="_id"></string>
            <unicode value="3"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -403,59 +500,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:2.%20Presi%C3%B3n%20hidrost%C3%A1tica"></string>
            <string role="key" value="parent"></string>
-           <reference key="8"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="24">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="3. Principio de Pascal"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="4"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:3.%20Principio%20de%20Pascal"></string>
-           <string role="key" value="parent"></string>
-           <reference key="8"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="25">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="4. Vasos comunicantes"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="5"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:4.%20Vasos%20comunicantes"></string>
-           <string role="key" value="parent"></string>
-           <reference key="8"></reference>
+           <reference key="10"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -465,13 +510,13 @@ text through the text editing buttons associated with the field."></unicode>
          <instance class="exe.engine.node.Node" reference="26">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Principio de Arquímedes"></unicode>
+           <unicode value="3. Principio de Pascal"></unicode>
            <string role="key" value="idevices"></string>
            <list></list>
            <string role="key" value="_id"></string>
-           <unicode value="6"></unicode>
+           <unicode value="4"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -479,9 +524,9 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:Principio%20de%20Arqu%C3%ADmedes"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:3.%20Principio%20de%20Pascal"></string>
            <string role="key" value="parent"></string>
-           <reference key="8"></reference>
+           <reference key="10"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -491,13 +536,13 @@ text through the text editing buttons associated with the field."></unicode>
          <instance class="exe.engine.node.Node" reference="27">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Teorema de Bernouilli"></unicode>
+           <unicode value="4. Vasos comunicantes"></unicode>
            <string role="key" value="idevices"></string>
            <list></list>
            <string role="key" value="_id"></string>
-           <unicode value="7"></unicode>
+           <unicode value="5"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -505,9 +550,9 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:Teorema%20de%20Bernouilli"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:4.%20Vasos%20comunicantes"></string>
            <string role="key" value="parent"></string>
-           <reference key="8"></reference>
+           <reference key="10"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -517,13 +562,65 @@ text through the text editing buttons associated with the field."></unicode>
          <instance class="exe.engine.node.Node" reference="28">
           <dictionary>
            <string role="key" value="_title"></string>
+           <unicode value="Principio de Arquímedes"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:Principio%20de%20Arqu%C3%ADmedes"></string>
+           <string role="key" value="parent"></string>
+           <reference key="10"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="29">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Teorema de Bernouilli"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:Teorema%20de%20Bernouilli"></string>
+           <string role="key" value="parent"></string>
+           <reference key="10"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="30">
+          <dictionary>
+           <string role="key" value="_title"></string>
            <unicode value="Leyes de los gases"></unicode>
            <string role="key" value="idevices"></string>
            <list></list>
            <string role="key" value="_id"></string>
            <unicode value="8"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="1"></reference>
+           <reference key="4"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -532,216 +629,6 @@ text through the text editing buttons associated with the field."></unicode>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:1.%20Magnitudes%20y%20leyes%20fundamentales:Leyes%20de%20los%20gases"></string>
-           <string role="key" value="parent"></string>
-           <reference key="8"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-        </list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="9">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="2. Instalaciones hidráulicas"></unicode>
-        <string role="key" value="idevices"></string>
-        <list></list>
-        <string role="key" value="_id"></string>
-        <unicode value="9"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="1"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas"></string>
-        <string role="key" value="parent"></string>
-        <reference key="5"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list>
-         <instance class="exe.engine.node.Node" reference="16">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Bombas hidráulicas"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="10"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:Bombas%20hidr%C3%A1ulicas"></string>
-           <string role="key" value="parent"></string>
-           <reference key="9"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="17">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Actuadores: cilindros"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="11"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:Actuadores%3A%20cilindros"></string>
-           <string role="key" value="parent"></string>
-           <reference key="9"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="18">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Válvulas"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="12"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:V%C3%A1lvulas"></string>
-           <string role="key" value="parent"></string>
-           <reference key="9"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.node.Node" reference="19">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Elementos de protección"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="13"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:Elementos%20de%20protecci%C3%B3n"></string>
-           <string role="key" value="parent"></string>
-           <reference key="9"></reference>
-           <string role="key" value="top_anchors_linked_from_fields"></string>
-           <list></list>
-           <string role="key" value="children"></string>
-           <list></list>
-          </dictionary>
-         </instance>
-        </list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="21">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="3. Aplicaciones de la hidráulica"></unicode>
-        <string role="key" value="idevices"></string>
-        <list></list>
-        <string role="key" value="_id"></string>
-        <unicode value="16"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="1"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:3.%20Aplicaciones%20de%20la%20hidr%C3%A1ulica"></string>
-        <string role="key" value="parent"></string>
-        <reference key="5"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="10">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="4. Instalaciones neumáticas"></unicode>
-        <string role="key" value="idevices"></string>
-        <list></list>
-        <string role="key" value="_id"></string>
-        <unicode value="14"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="1"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:4.%20Instalaciones%20neum%C3%A1ticas"></string>
-        <string role="key" value="parent"></string>
-        <reference key="5"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list>
-         <instance class="exe.engine.node.Node" reference="20">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Compresores"></unicode>
-           <string role="key" value="idevices"></string>
-           <list></list>
-           <string role="key" value="_id"></string>
-           <unicode value="15"></unicode>
-           <string role="key" value="_package"></string>
-           <reference key="1"></reference>
-           <string role="key" value="anchor_fields"></string>
-           <list></list>
-           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exportType"></string>
-           <string value="website"></string>
-           <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:4.%20Instalaciones%20neum%C3%A1ticas:Compresores"></string>
            <string role="key" value="parent"></string>
            <reference key="10"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -753,7 +640,217 @@ text through the text editing buttons associated with the field."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="22">
+      <instance class="exe.engine.node.Node" reference="11">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2. Instalaciones hidráulicas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list></list>
+        <string role="key" value="_id"></string>
+        <unicode value="9"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="18">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Bombas hidráulicas"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="10"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:Bombas%20hidr%C3%A1ulicas"></string>
+           <string role="key" value="parent"></string>
+           <reference key="11"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="19">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Actuadores: cilindros"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="11"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:Actuadores%3A%20cilindros"></string>
+           <string role="key" value="parent"></string>
+           <reference key="11"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="20">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Válvulas"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="12"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:V%C3%A1lvulas"></string>
+           <string role="key" value="parent"></string>
+           <reference key="11"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="21">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Elementos de protección"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="13"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:2.%20Instalaciones%20hidr%C3%A1ulicas:Elementos%20de%20protecci%C3%B3n"></string>
+           <string role="key" value="parent"></string>
+           <reference key="11"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="23">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="3. Aplicaciones de la hidráulica"></unicode>
+        <string role="key" value="idevices"></string>
+        <list></list>
+        <string role="key" value="_id"></string>
+        <unicode value="16"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:3.%20Aplicaciones%20de%20la%20hidr%C3%A1ulica"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="12">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="4. Instalaciones neumáticas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list></list>
+        <string role="key" value="_id"></string>
+        <unicode value="14"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:4.%20Instalaciones%20neum%C3%A1ticas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="22">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Compresores"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="15"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="4"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:4.%20Instalaciones%20neum%C3%A1ticas:Compresores"></string>
+           <string role="key" value="parent"></string>
+           <reference key="12"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="24">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="5. Aplicaciones de la neumática"></unicode>
@@ -762,7 +859,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="17"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -772,20 +869,20 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:5.%20Aplicaciones%20de%20la%20neum%C3%A1tica"></string>
         <string role="key" value="parent"></string>
-        <reference key="5"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="13">
+      <instance class="exe.engine.node.Node" reference="15">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="APÉNDICE: máquinas hidráulicas motrices"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="13">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Rueda hidráulica"></unicode>
@@ -844,18 +941,20 @@ text through the text editing buttons associated with the field."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="12">
+            <instance class="exe.engine.field.TextAreaField" reference="14">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="109_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="11"></reference>
+              <reference key="13"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;TO-DO&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -872,7 +971,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="12"></reference>
+                <reference key="14"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -880,7 +979,7 @@ text through the text editing buttons associated with the field."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="15"></reference>
              </dictionary>
             </instance>
            </list>
@@ -897,7 +996,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="13"></reference>
+           <reference key="15"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -908,7 +1007,7 @@ text through the text editing buttons associated with the field."></unicode>
            <int value="0"></int>
           </dictionary>
          </instance>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="14">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="16">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Turbinas hidráulicas"></unicode>
@@ -967,18 +1066,20 @@ text through the text editing buttons associated with the field."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="15">
+            <instance class="exe.engine.field.TextAreaField" reference="17">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="110_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="14"></reference>
+              <reference key="16"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;TO-DO&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -995,7 +1096,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="15"></reference>
+                <reference key="17"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -1003,7 +1104,7 @@ text through the text editing buttons associated with the field."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="15"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1020,7 +1121,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="13"></reference>
+           <reference key="15"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -1035,7 +1136,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="18"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="1"></reference>
+        <reference key="4"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1045,7 +1146,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:HIDR%C3%81ULICA%20Y%20NEUM%C3%81TICA:AP%C3%89NDICE%3A%20m%C3%A1quinas%20hidr%C3%A1ulicas%20motrices"></string>
         <string role="key" value="parent"></string>
-        <reference key="5"></reference>
+        <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
@@ -1056,41 +1157,41 @@ text through the text editing buttons associated with the field."></unicode>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="4"></reference>
+   <reference key="7"></reference>
    <unicode role="key" value="10"></unicode>
-   <reference key="16"></reference>
-   <unicode role="key" value="11"></unicode>
-   <reference key="17"></reference>
-   <unicode role="key" value="12"></unicode>
    <reference key="18"></reference>
-   <unicode role="key" value="13"></unicode>
+   <unicode role="key" value="11"></unicode>
    <reference key="19"></reference>
-   <unicode role="key" value="14"></unicode>
-   <reference key="10"></reference>
-   <unicode role="key" value="15"></unicode>
+   <unicode role="key" value="12"></unicode>
    <reference key="20"></reference>
-   <unicode role="key" value="16"></unicode>
+   <unicode role="key" value="13"></unicode>
    <reference key="21"></reference>
-   <unicode role="key" value="17"></unicode>
+   <unicode role="key" value="14"></unicode>
+   <reference key="12"></reference>
+   <unicode role="key" value="15"></unicode>
    <reference key="22"></reference>
-   <unicode role="key" value="18"></unicode>
-   <reference key="13"></reference>
-   <unicode role="key" value="2"></unicode>
-   <reference key="8"></reference>
-   <unicode role="key" value="3"></unicode>
+   <unicode role="key" value="16"></unicode>
    <reference key="23"></reference>
-   <unicode role="key" value="4"></unicode>
+   <unicode role="key" value="17"></unicode>
    <reference key="24"></reference>
-   <unicode role="key" value="5"></unicode>
+   <unicode role="key" value="18"></unicode>
+   <reference key="15"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="10"></reference>
+   <unicode role="key" value="3"></unicode>
    <reference key="25"></reference>
-   <unicode role="key" value="6"></unicode>
+   <unicode role="key" value="4"></unicode>
    <reference key="26"></reference>
-   <unicode role="key" value="7"></unicode>
+   <unicode role="key" value="5"></unicode>
    <reference key="27"></reference>
-   <unicode role="key" value="8"></unicode>
+   <unicode role="key" value="6"></unicode>
    <reference key="28"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="29"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="30"></reference>
    <unicode role="key" value="9"></unicode>
-   <reference key="9"></reference>
+   <reference key="11"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -1101,7 +1202,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2136,7 +2237,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="resources"></string>
   <dictionary></dictionary>
   <string role="key" value="root"></string>
-  <reference key="5"></reference>
+  <reference key="3"></reference>
   <string role="key" value="scolinks"></string>
   <bool value="0"></bool>
   <string role="key" value="scowsinglepage"></string>
@@ -2144,7 +2245,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="scowwebsite"></string>
   <bool value="0"></bool>
   <string role="key" value="style"></string>
-  <unicode value="INTEF"></unicode>
+  <unicode value="cedec"></unicode>
   <string role="key" value="sugaractivityname"></string>
   <string value=""></string>
   <string role="key" value="sugarservicename"></string>
