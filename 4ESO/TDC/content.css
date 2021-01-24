@@ -1,324 +1,180 @@
-/*  =================================================
-
-     Fichero: content.css
-     Proyecto: cedec- Nueva plantilla para exeLearning
-     Autores: Mercedes Cotelo Lois / Antonio Monje Fernández / Francisco Javier Pulido Cuadrado
-     Fecha: Mayo 2011
-     Descripcion: Hoja de estilos principal
-     Company:   cedec - Centro Nacional de desarrollo Curricular en Sistemas No propietarios.
-     Referencias: Obra derivada de (ver config.xml)
-     
-   ================================================== */
-
-body,html  {
-    background-color:#fff;
-    color:#646464;
-    font-family:Verdana,Arial, Helvetica, sans-serif !important;
-    line-height: 120%;
+/* Kids Style for eXeLearning (see config.xml for details) */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(open-sans.woff2) format('woff2'), url(open-sans.woff) format('woff');
 }
-
-body {
-    font-size:0.8em;
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(open-sans-bold.woff2) format('woff2'), url(open-sans-bold.woff) format('woff');
 }
+html{font-size:105%}
+body{font:100%/1.5 'Open Sans',Arial,Verdana,Helvetica,sans-serif;line-height:1.5em;padding:15px;margin:0;text-align:left;color:#333;background-color:#aee7d3}
 
-h1, h2, h3, h4, h5 {
-	margin:0;
-	padding:0;
-	line-height: 120%;
-}
+h2{font-size:1.3em}
+h3{font-size:1.2em}
+h4{font-size:1.1em}
+h5{font-size:1em}
+p{margin:1em 0}
+a{color:#771F35}
+.iDevice_inner a{color:#B85F75}
+.score.js-feedback{margin-bottom:1em}
 
-p {
-	margin:.7em 0;
-}
+#header,#emptyHeader,#nodeDecoration{padding:28px 20px;height:auto!important;height:56px;min-height:56px;line-height:56px;font-size:1.8em;font-weight:700;background-color:#5ab493;border:10px solid #468770}
+#headerContent{color:#cff0e5}
+#header h1,#nodeDecoration h1{margin:0;font-size:1em;text-align:center;color:#cff0e5}
+#nodeDecoration{margin-bottom:15px} /* Single page */
+.nodeDecoration h1{font-size:1.5em}
 
-a:link,
-a:active,
-a:visited {
-	color:#598AC3;
-	text-decoration:none;
-}
+.exe-single-page #headerContent{padding-top:0}
+.exe-single-page .nodeTitle{font-size:1.8em;font-weight:700;margin:1.5em 0}
 
-a:hover {
-	color:#598AC3;
-	text-decoration:underline;
-}
+/* iDevices */
+.iDevice{margin:20px 0 30px 0}
+.iDevice_header{letter-spacing:.5px;height:auto!important;height:60px;min-height:60px;border:#60c29e solid;border-width:8px 8px 0 8px;padding-left:13px;border-top-left-radius:15px;border-top-right-radius:15px;background:#7ca2d7 url(_style_idevice_header.gif) repeat-x 0 bottom;position:static;background-image:none!important}
+.iDeviceTitle{height:auto!important;height:30px;min-height:30px;line-height:30px;font-size:1.3em;vertical-align:bottom;top:auto;display:inline-block;font-weight:700;padding:15px 45px 15px 130px;background-repeat:no-repeat;background-position:0 50%;margin:0;color:#FFF}
+.iDevice_header_noIcon .iDeviceTitle{background-image:none;padding-left:20px}
+.iDevice_inner{padding:10px 20px 20px 20px;border:8px solid #60c29e;border-bottom-right-radius:15px;border-bottom-left-radius:15px;border-top:0;background-color:#f9fffc}
 
-img {
-	margin:0 5px -3px 5px;
-}
+/* Clearfix */
+.iDevice_content{overflow:auto}
+.FileAttachIdeviceInc .iDevice_content{margin-bottom:-.5em}
 
-a img {
-	border:0;
-	margin:0
-}
+/* Hide/Show iDevice */
+.toggle-idevice{display:block;margin:0;text-align:right}
+.iDevice_header .toggle-idevice{line-height:25px;position:absolute;top:53px;right:8px}
+.toggle-idevice a{display:inline-block;width:25px;height:25px;background:url(_style_icons.png) no-repeat 0 -200px;outline:none}
+.toggle-em0 a{background-position:0 -300px}
+.toggle-idevice .show-idevice{background-position:-100px -200px}
+.toggle-em0 .show-idevice{background-position:-100px -300px}
 
-/*Tablas*/
-table {
-	margin:10px;
-	border-collapse:collapse;
-	padding:3px;
-}
+.toggle-idevice span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
 
-table[align="center"] {
-	margin-left:auto;
-	margin-right:auto;
-}
+/* iDevice title with background-color */
+input.feedbackbutton{margin:0}
+.hidden-idevice .iDevice_header{border-radius:15px;border-width:8px}
+.iDevice_header .toggle-idevice{margin-right:15px}
 
-td {
-	border:0 solid;
-	border-color:inherit;
-	border-collapse:collapse;
-	padding:3px;
-}
+.ExternalUrlIdevice iframe{border:0}
 
-/* PARA QUE AL EXPORTAR SE QUITEN LOS BORDES DE LAS PREGUNTAS */
-.question table {
-	border:0;
-}
-
-.question td {
-	border:0;
-}
-
-/* Formato para las listas */
-/* Cambio el icono para las listas si numerar */
-ul li {
-	list-style-image:url(bullet.gif);
-	list-style-position:outside;
-}
-
-/* Cita con autoría */
+/* Reset base.css */
+.block,.feedback{padding:0}
+.feedback{font-family:inherit;font-size:1em}
+li{list-style-position:outside}
+.pre-code{font-size:1.2em}
 .styled-qc{margin-top:2.5em}
 .styled-qc:before{top:0}
-
-/* Estilo para el título del NODO, que es cada una de las entradas
-de la jerarquía de contenidos que crearemos con eXe */
-#main {
-	position:relative;
+.exe-dl .icon,.exe-dl-toggler a{width:24px;height:24px;border-radius:12px}
+.exe-dl-toggler a{line-height:22px}
+.js .exe-dl dd{margin-left:44px}
+/* Enlarge icon */
+.exe-enlarge-icon{width:50px;height:50px;margin:-25px 0 0 -25px;border-radius:25px;background:#468770}
+.exe-enlarge-icon b{width:50px;height:50px;line-height:50px}
+.exe-enlarge-icon b{font-size:1.7em}
+/* Forms */
+input,select{font-size:1em;font-family:inherit}
+.iDevice_hint_title a{padding-left:25px}
+.MultichoiceIdevice .activity-form,.MultiSelectIdevice .activity-form{margin-bottom:1em}
+.TrueFalseIdevice .activity-form{margin-top:1.5em}
+.TrueFalseIdevice .activity-form:first-child{margin-top:0}
+.TrueFalseIdevice label{margin:0 1em}
+.MultichoiceIdevice input,.MultiSelectIdevice input[type=checkbox],.QuizTestIdevice input[type=radio]{width:16px;height:16px;margin:5px 0 0 12px}
+.MultiSelectIdevice .feedback.iDevice_content{margin-top:1.5em}
+.right-option,.wrong-option{font-style:italic}
+.readingIdevice .iDevice_content:first-child p:last-child,
+.CasestudyIdevice .iDevice_content:first-child p:last-child{margin-bottom:0}
+/* Non-Interactive Activities */
+.readingIdevice .feedbackbutton,
+.CasestudyIdevice .feedbackbutton,
+.ReflectionIdevice .feedbackbutton{margin:.5em 0}
+ 
+/* Submit buttons */
+.iDevice_buttons input[type=submit],.iDevice_buttons input[type=button],.iDevice_buttons input[type=reset]{
+-moz-border-bottom-colors:none;
+-moz-border-left-colors:none;
+-moz-border-right-colors:none;
+-moz-border-top-colors:none;
+background-color:#f1f1f1;
+background-image:linear-gradient(to bottom, #f6f6f6, #eaeaea);
+background-repeat:repeat-x;
+border-color:#cfcfcf #cfcfcf #b5b5b5;
+border-image:none;
+border-radius:5px;
+border-style:solid;
+border-width:1px;
+box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+display:inline-block;
+line-height:2em;
+font-size:1em;
+padding:5px 15px;
+color:#444;
+margin-right:.5em;
+text-shadow:0 1px 1px rgba(255, 255, 255, 0.75)
 }
 
-#nodeTitle {
-	background-image: url(logo.png);
-	background-position: right center;
-	background-repeat: no-repeat;
-	color:#598AC3;
-	background-color:#fff;
-	font-weight:bold;
-	font-size:20px;
-	line-height:30px;
-	border-bottom:3px solid #BD4949;
-	padding-top:1px;
-	padding-bottom:5px;
-	padding-right:80px;
-}
+/* Hint & Feedback */
+.iDevice_hint_content{border-radius:10px;border:1px solid #EEE;background:#f9f9f9}
+.iDevice_inner .feedback{background:#fff6db;border-radius:10px;border:1px solid #ffe38e;padding:0 1em;margin-top:1em}
+.iDevice_inner .iDevice_answer-feedback{background:none;border:none;padding:0;margin:0}
+.TrueFalseIdevice .feedback{margin-top:1.5em}   
 
-#nodeDecoration{
-    text-align:left;
-}
+/* Icons */
+.iDeviceTitle{background-image:url(icon_attached.png)}
+.ListaIdevice .iDeviceTitle,
+.QuizTestIdevice .iDeviceTitle,
+.MultichoiceIdevice .iDeviceTitle,
+.TrueFalseIdevice .iDeviceTitle,
+.MultiSelectIdevice .iDeviceTitle,
+.ClozeIdevice .iDeviceTitle{background-image:url(icon_write.png)}
+.CasestudyIdevice .iDeviceTitle{background-image:url(icon_tool.png)}
+.preknowledgeIdevice .iDeviceTitle{background-image:url(icon_cabinet.png)}
+.GalleryIdevice .iDeviceTitle{background-image:url(icon_picture.png)}
+.objectivesIdevice .iDeviceTitle{background-image:url(icon_objective.png)}
+.ReflectionIdevice .iDeviceTitle{background-image:url(icon_reflection.png)}
+.readingIdevice .iDeviceTitle{background-image:url(icon_reading.png)}
+.activityIdevice .iDeviceTitle{background-image:url(icon_task.png)}
+.WikipediaIdevice .iDeviceTitle{background-image:url(icon_wikipedia.png)}
 
-/* Cabecera para cuando exportemos a web sola para imprimir */
-#header{height:49px;background:url(my_header.jpg) no-repeat 0 0;padding:59px 0 0 10px;font-size:1.7em}
+.js .em_iDevice{position:relative;padding-top:10px}
+.icon_wrapper{width:120px;height:120px;background-repeat:no-repeat;position:absolute;top:0;left:20px}
+.js .iDevice_inner{padding-top:20px}
 
-/* IDEVICES */
+#siteFooter{padding:20px;text-align:center;border:1px solid #aee7d3}
 
-.iDeviceTitle{top:0;font-size:1.5em}
-.iDevice_header{background-position:0 0}
-/* Añadir algún contenido después del contenido del iDevice, hace que el alto del iDevice
-   se adapte al elemento más alto del contenido. Así se evita que las imágenes muy alargadas
-   sobresalgan por debajo */
-.iDevice_content{overflow:auto}
+/* Download package iDevice */
+.download-packageIdevice .exe-download-package-link a{background:#468770}
+.download-packageIdevice .exe-download-package-link a:hover,.download-packageIdevice .exe-download-package-link a:focus{background:#e9c34f;color:#000}
 
-/* SCORM y otros comparten apariencia: esta es la apariencia por defecto */
-/* El encabezado de los iDevices con imagen de fondo no debe ser mayor que
-   el alto de la imagen de fondo, o saldrán huecos
-   imagen (70px) = alto (20px) + padding (2 * 25px) */
-.emphasis1 .iDevice_header{
-    background:url(icon_question.gif) no-repeat 0 0;
-    padding:25px 25px 25px 100px;
-    color:#BE4D4C;
-    max-height: 20px;
-}
-.iDevice.emphasis1{
-    background:url(sup_der_hojas.gif) no-repeat right 0;
-    margin:20px auto;
-    width:95%;
-}
-.emphasis1 .iDevice_inner{
-    background:#fff url(inf_der_hojas.gif) no-repeat right bottom;
-}
-.emphasis1 .iDevice_content_wrapper{
-    background:url(inf_izq_hojas.gif) no-repeat 0 bottom;
-    padding:20px 30px 55px 30px;
-}
+/* Lightbox */
+.pp_overlay{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100)!important;opacity:1!important}
 
-/* Actividad */
-.activityIdevice .iDevice_header{
-    background:url(icon_activity.gif) no-repeat 0 0;
-    padding:25px 25px 25px 100px;
-    margin-left:-3px;
-    max-height: 20px;
-}
-.activityIdevice .iDevice{
-    background:url(sup_der_activity.gif) no-repeat right 0;
-}
-.activityIdevice .iDevice_inner{
-    background:#fff url(inf_der_activity.gif) no-repeat right bottom;
-}
-.activityIdevice .iDevice_content_wrapper{
-    background:url(inf_izq_activity.gif) no-repeat 0 bottom;
-    padding:20px 30px 55px 30px;
-}
+/* Effects */
+.exe-fx .fx-C2,.exe-fx .fx-C2 a,.fx-pagination a{background:#FFF}
+.exe-fx .fx-C1,.exe-fx .fx-C1 a{background:#468770;color:#FFF}
+/* iDevices with emphasis */
+.emphasis1 .exe-fx .fx-C1,.emphasis1 .exe-fx .fx-C1 a{background:#468770}
+.js .exe-fx .fx-accordion-title,.js .exe-fx.exe-accordion h2{background:#333}
+.emphasis1 .exe-fx .fx-C2,.emphasis1 .exe-fx .fx-C2 a,.emphasis1 .fx-pagination a{background:#E7F8F2}
+/* Licenses */
+#packageLicense{font-size:.85em}
 
-/* Actividad de lectura */
-.readingIdevice .iDevice_header{
-    background:url(icon_reading.gif) no-repeat 0 0;
-    color:#646464;
-    margin-left:-6px;
-    padding-top:35px
-}
-.readingIdevice .iDevice{
-    background:#E7EDCE url(sup_der_reading.gif) no-repeat right 0;
-}
-.readingIdevice .iDevice_inner{
-    background:url(inf_der_reading.gif) no-repeat right bottom;
-}
-.readingIdevice .iDevice_content_wrapper{
-    background:url(inf_izq_reading.gif) no-repeat 0 bottom;
-}
-
-/* Conocimiento previo */
-.preknowledgeIdevice .iDevice_header{
-    background:url(icon_preknowledge.gif) no-repeat 0 0;
-    color:#646464;
-    margin-left:-6px;
-    padding-top:30px
-}
-.preknowledgeIdevice .iDevice{
-    background:#FEE8F8 url(sup_der_preknowledge.gif) no-repeat right 0;
-}
-.preknowledgeIdevice .iDevice_inner{
-    background:url(inf_der_preknowledge.gif) no-repeat right bottom;
-}
-.preknowledgeIdevice .iDevice_content_wrapper{
-    background:url(inf_izq_preknowledge.gif) no-repeat 0 bottom;
-}
-
-/* Objetivos */
-.objectivesIdevice .iDevice_header{
-    background:url(icon_objectives.gif) no-repeat 0 0;
-    color:#646464;
-    margin-left:-5px;
-    padding-top:32px
-}
-.objectivesIdevice .iDevice{
-    background:#EFEBDC url(sup_der_objectives.gif) no-repeat right 0;
-}
-.objectivesIdevice .iDevice_inner{
-    background:url(inf_der_objectives.gif) no-repeat right bottom;
-}
-.objectivesIdevice .iDevice_content_wrapper{
-    background:url(inf_izq_objectives.gif) no-repeat 0 bottom;
-}
-
-/* Caso práctico */
-.CasestudyIdevice .iDevice_header{
-    background:url(icon_casestudy.gif) no-repeat 0 0;
-    color:#646464;
-    margin-left:-6px;
-    padding-top:30px
-}
-.CasestudyIdevice .iDevice{
-    background:#E2DFF0 url(sup_der_casestudy.gif) no-repeat right 0;
-}
-.CasestudyIdevice .iDevice_inner{
-    background:url(inf_der_casestudy.gif) no-repeat right bottom;
-}
-.CasestudyIdevice .iDevice_content_wrapper{
-    background:url(inf_izq_casestudy.gif) no-repeat 0 bottom;
-}
-
-/* Galería */
-.GalleryIdevice .iDevice{
-    width:100%
-}
-.GalleryIdevice .iDevice_header{
-    background:url(icon_gallery.gif) no-repeat 0 0;
-    color:#2C8384;
-    padding:15px 25px 35px 100px;
-}
-.GalleryIdevice .iDevice{
-    background:url(sup_der_gallery.gif) no-repeat right 0;
-}
-.GalleryIdevice .iDevice_inner{
-    background:#E2DFF0 url(inf_der_gallery.gif) no-repeat right bottom;
-}
-.GalleryIdevice .iDevice_content_wrapper{
-    background:url(inf_izq_galeria.gif) no-repeat 0 bottom;
-}
-
-/* Reflexión */
-.ReflectionIdevice .iDevice_header{
-    background:url(icon_reflection.gif) no-repeat 0 0;
-    color:#2C8384;
-    margin-left:-6px
-}
-.ReflectionIdevice .iDevice{
-    background:url(sup_der_reflection.gif) no-repeat right 0;
-}
-.ReflectionIdevice .iDevice_inner{
-    background:#E2DFF0 url(inf_der_reflection.gif) no-repeat right bottom;
-}
-.ReflectionIdevice .iDevice_content_wrapper{
-    background:url(inf_izq_reflection.gif) no-repeat 0 bottom;
-}
-
-/* Retroalimentaciones */
-.feedback {
-	border:1px dashed #4E4E4E;
-	color:#4E4E4E;
-	background-color:#fff;
-	padding:5px;
-	margin:5px;
-	font-size:1em;	
-    font-family:Verdana,Arial, Helvetica, sans-serif;
-	height:auto !important;
-	*height:auto !important;
-	*height:0;
-	margin-bottom:5px;
-	overflow-y:auto;
-}
-
-/* Formularios y botones*/
-input {
-	font-weight:bold;
-	color:inherit;
-	border-color:inherit;
-	border-style:solid;
-	border-width:1px;
-}
-
-select {
-	font-weight:bold;
-	color:inherit;
-	border-color:inherit;
-	border-style:solid;
-	border-width:1px;
-}
-
-/* Sugerencias y ayudas pedagógicas */
-.popupDiv {
-	background-color:#fff;
-	border:2px solid #607489;
-	padding:4px;
-	margin-left:15px;
-	text-align:left;
-}
-
-.popupDivLabel {
-	text-align:center;
-	font:message-box;
-	font-weight:bold;
-	color:#bd4949;
-	margin:4px;
-	background-color:#F00;
+@media print {
+    div.node{page-break-after:auto} /* base.css */
+    html body{background:#fff;color:#000;font-size:11pt}
+	@page{margin:1.5cm}
+	/* Uncomment this to print URL after links:
+	a{font-weight:bold;text-decoration:none!important}
+	a[href^=http]:after{content:" <" attr(href) "> "}
+	*/
+	.iDevice{margin-bottom:20px}	
+	#main .iDeviceTitle{background:none;padding-left:0}
+	.iDevice_header{border-width:1px 1px 0 1px}
+	.iDevice_inner{border-width:0 1px 1px 1px}
+	.icon_wrapper{display:none}	
+	#header h1,#nodeDecoration h1{text-align:left}
+	body #header,body #emptyHeader,body #nodeDecoration{height:auto!important;min-height:0;border:none;padding:0}
+	.toggle-idevice{display:none}
 }
