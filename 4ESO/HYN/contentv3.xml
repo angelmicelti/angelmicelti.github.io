@@ -22,7 +22,7 @@
     <string role="key" value="_storageName"></string>
     <string value="wpe5A.gif"></string>
     <string role="key" value="_userName"></string>
-    <string value="C:\\Users\\\xc3\x81ngel\\Desktop\\Temporal\\wpe5A.gif"></string>
+    <string value="c:\\users\\ngel~1\\appdata\\local\\temp\\tmpki6fsj\\wpe5A.gif"></string>
     <string role="key" value="checksum"></string>
     <string value="4135e491ea4c63fdaca9e599cc9c3c2d"></string>
     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -177,7 +177,7 @@ text through the text editing buttons associated with the field."></unicode>
           <string role="key" value="nextImageId"></string>
           <int value="0"></int>
           <string role="key" value="parentNode"></string>
-          <none></none>
+          <reference key="4"></reference>
          </dictionary>
         </instance>
         <string role="key" value="edit"></string>
@@ -268,12 +268,12 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif; font-size: 14pt;&quot;&gt;·       Que el alumno/a cite algunos hitos importantes sobre la evolución histórica de la Hidráulica y la Neumática.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif; font-size: 14pt;&quot;&gt;·       Que el alumno/a sepa describir cualitativa y cuantitativamente ciertos efectos sencillos relacionados con la Hidráulica y Neumática.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif; font-size: 14pt;&quot;&gt;·       Que el alumno/a plantee y resuelva ejercicios y problemas numéricos relacionados con magnitudes hidroneumáticas sencillas: densidad, presión, fuerza, volumen, etc.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif; font-size: 14pt;&quot;&gt;·       Que el alumno conozca las unidades fundamentales de la densidad y la presión.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif; font-size: 14pt;&quot;&gt;·       Que el alumno/a sea capaz de enumerar los Principios de la Hidráulica y la Neumática, así como explicar las aplicaciones en el ámbito de la Tecnología.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: verdana, geneva, sans-serif; font-size: 14pt;&quot;&gt;·       Que el alumno/a maneje con soltura y solvencia el lenguaje técnico en lo relativo a la Hidráulica y la Neumática, evitando el uso de expresiones inadecuadas, aunque populares.&lt;/span&gt;&lt;/p&gt;"></unicode>
+             <unicode content="true" value="&lt;p&gt;5.1.1. Describes las principales aplicaciones de las tecnologías hidráulica y neumática.&lt;/p&gt;
+&lt;p&gt;5.2.1. Identificas y describes las características y funcionamiento de este tipo de sistemas.&lt;/p&gt;
+&lt;p&gt;5.2.2. Explicas la función de cada uno de los elementos que constituyen un circuito neumático&lt;/p&gt;
+&lt;p&gt;5.3.1. Empleas la simbología y nomenclatura para representar circuitos cuya finalidad es la de resolver un problema tecnológico.&lt;/p&gt;
+&lt;p&gt;5.4.1. Realizas montajes de circuitos sencillos neumáticos e hidráulicos bien con componentes reales o mediante simulación.&lt;/p&gt;
+&lt;p&gt;5.5.1. Resuelves problemas reales sencillos: apertura de una puerta con un pulsador; desplazamiento de un objeto por una cadena de envasado, etc.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1221,7 +1221,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="7"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
