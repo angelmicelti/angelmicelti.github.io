@@ -266,7 +266,7 @@
 </tbody>
 </table>
 <div align="center"></div>
-<div align="center"></div>
+<div align="center" style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">(si alguna vez no te acuerdas de esta relación, piensa en que las intensidades que entran al transistor deben compensar a las que salen)</span></div>
 <div align="right"></div>
 <div align="right"></div>
 <p><span style="font-family: comic sans ms,sand; font-size: large;">Vamos a definir un parámetro característico del transistor, que es la <b>ganancia</b>:</span></p>
@@ -323,22 +323,22 @@
 <p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>V<sub>CE</sub> = V<sub>CC</sub></i></b></span></p>
 </td>
 <td width="137">
-<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>0,2 V (0 V) &lt; V<sub>CE</sub> &lt; V<sub>CC</sub></i></b></span></p>
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>0,2 V &lt; V<sub>CE</sub> &lt; V<sub>CC</sub></i></b></span></p>
 </td>
 <td width="130">
-<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>V<sub>CE</sub> ≈</i></b><b><i> 0,2V (0 V)</i></b></span></p>
+<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>V<sub>CE</sub> &lt;</i></b><b><i> 0,2V</i></b></span></p>
 </td>
 </tr>
 </tbody>
 </table>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">No olvides que  = 0,7 V si el transistor es de silicio (lo habitual en nuestros circuitos) y 0,2 V si es de germanio.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong>Resolver un transistor </strong>consiste en calcular los valores de <em>I<sub>C</sub></em> y de <em>V<sub>CE</sub></em>, ya que ellos nos indicarán en qué estado se encuentra el transistor, según esta tabla:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">No olvides que <strong>V<sub>BE</sub> = 0,7 V</strong> si el transistor es de <strong>silicio</strong> (lo habitual en nuestros circuitos) y <strong>0,2 V</strong> si es de <strong>germanio</strong>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong>Resolver un transistor </strong>consiste en calcular los valores de V<em><sub>CE</sub></em> e <em>I<sub>C</sub></em> del montaje, ya que ellos nos indicarán en qué estado se encuentra el transistor, según esta tabla:</span></p>
 <p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">A partir de las ecuaciones de los circuitos de base (4) y de colector (5) podremos encontrar dichos valores de I<sub>C</sub> y V<sub>CE. </sub>Hay que tener en cuenta que el procedimiento básico será el siguiente:</span></p>
-<ul style="text-align: justify;">
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Detectar claramente que el transistor no está en corte.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Suponer que se encuentra en activa. Si calculamos I<sub>C</sub> y V<sub>CE</sub> y no obtenemos ninguna incongruencia, habremos terminado.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si al calcular los valores de  obtenemos un resultado extraño, tendremos que suponer que el transistor está en saturación, y que V<sub>CE</sub> ≈ 0,2 V (ó 0 V, según sea necesario). En ese caso, no olvides que la ecuación que da el valor de la ganancia no sirve (pero siempre te quedará Kirchhoff, no te preocupes).</span></li>
-</ul>
+<ol>
+<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Detectar claramente que el transistor no está en corte.</span></li>
+<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Suponer que se encuentra en activa. Si calculamos I<sub>C</sub> y V<sub>CE</sub> y no obtenemos ninguna incongruencia, habremos terminado. Dentro de esta hipótesis, y teniendo en cuenta los valores de <em>β</em>, podremos suponer con buena aproximación que I<sub>E</sub> ≈ I<sub>C</sub>. </span></li>
+<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si al calcular los valores de  obtenemos un resultado extraño, tendremos que suponer que el transistor está en saturación, y que V<sub>CE</sub> ≈ 0,2 V (o menos). En ese caso, no olvides que la ecuación que da el valor de la ganancia no sirve (pero siempre te quedará Kirchhoff, no te preocupes).</span></li>
+</ol>
 </div>
 </div>
 </div>
