@@ -247,51 +247,40 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id40">
 <div class="iDevice emphasis0">
 <div id="ta40_1" class="block iDevice_content">
-<p><img src="thevenin.jpg" title="circuito teórico" align="left" height="280" width="215" /><a title="apen1" name="apen1"></a><span style="font-family: comic sans ms,sand; font-size: large;">A</span><span style="font-family: comic sans ms,sand; font-size: large;">quí tienes el circuito con transistor más complicado que te puedes encontrar. Como ves, tiene 3 resistencias, R<sub>B</sub>, R<sub>C</sub> y R<sub>E</sub>, una para cada terminal del transistor.</span></p>
+<p><img src="thevenin.jpg" title="circuito teórico" align="left" height="280" width="215" /><a title="apen1" name="apen1"></a><span style="font-family: comic sans ms,sand; font-size: large;">A</span><span style="font-family: comic sans ms,sand; font-size: large;">quí tienes el montaje con transistor más complicado que te puedes encontrar. Como ves, tiene 3 resistencias, R<sub>B</sub>, R<sub>C</sub> y R<sub>E</sub>, una para cada terminal.</span></p>
 <p><span style="font-family: comic sans ms,sand; font-size: large;">Por otro lado, como ya sabes, para las intensidades debe cumplirse:</span></p>
-<p> </p>
-<table border="1" cellpadding="0" cellspacing="0" style="height: 30px;">
-<tbody>
-<tr style="height: 30px;">
-<td valign="top" style="height: 30px; width: 112.4px;">
-<div align="right"></div>
-<div align="right"><!-- [if gte vml 1]>
-			<![endif]-->
-<div style="text-align: center;"><img src="eXe_LaTeX_math_2.2.gif" alt="ley de Kirchoff aplicada al transistor"   v:shapes="_x0000_i1033" align="right" /></div>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">I_E = I_B+I_C \ \ (1)</p>
 </div>
-<p align="center"><!-- [if gte mso 9]><xml>
-			</xml><![endif]--></p>
-</td>
-</tr>
-</tbody>
-</table>
-<div align="center"></div>
 <div align="center" style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">(si alguna vez no te acuerdas de esta relación, piensa en que las intensidades que entran al transistor deben compensar a las que salen)</span></div>
 <div align="right"></div>
-<div align="right"></div>
-<p><span style="font-family: comic sans ms,sand; font-size: large;">Vamos a definir un parámetro característico del transistor, que es la <b>ganancia</b>:</span></p>
-<p align="center"><!-- [if gte vml 1]>
-<![endif]--><span style="font-family: comic sans ms,sand; font-size: large;"><img src="eXe_LaTeX_math_6.1.gif"   v:shapes="_x0000_i1025" /></span><!-- [if gte mso 9]><xml>
-</xml><![endif]--></p>
-<p><span style="font-family: comic sans ms,sand; font-size: large;">La ganancia <i>β</i> es fuertemente dependiente de la temperatura. Suele valer entre 100 y 200. En nuestros cálculos, tomaremos casi siempre el primero de los valores.</span></p>
-<p><span style="font-family: comic sans ms,sand; font-size: large;">Según esto, <img src="eXe_LaTeX_math_2.3.gif"   v:shapes="_x0000_i1026" align="absmiddle" />, de donde podemos deducir que <img src="eXe_LaTeX_math_7.gif"   v:shapes="_x0000_i1027" align="absmiddle" />.</span></p>
-<table align="center" border="2" cellpadding="0" cellspacing="1">
-<tbody>
-<tr>
-<td colspan="2"><img src="eXe_LaTeX_math_2.4.gif"   /></td>
-</tr>
-</tbody>
-</table>
-<p> </p>
-<div align="justify"><span style="font-family: comic sans ms,sand; font-size: large;">Aplicamos ahora las leyes de Kirchoff a los dos circuitos que tenemos en el transistor:</span></div>
-<p align="center"> </p>
-<p><span style="font-family: comic sans ms,sand; font-size: large;">1) Circuito de base: <img src="eXe_LaTeX_math_7.1.gif" alt="circuito de base"   v:shapes="_x0000_i1029" align="absmiddle" /></span><!-- [if gte vml 1]>
+<p><span style="font-family: comic sans ms,sand; font-size: large;">Vamos a definir un parámetro característico del transistor, que es la <b>ganancia</b>:</span><!-- [if gte vml 1]>
+<![endif]--></p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">\beta = h_{FE} = \frac{I_C}{I_B} \ \ (2)</p>
+</div>
+<p style="text-align: justify;"><span style="font-family: comic sans ms,sand; font-size: large;">La ganancia <i>β</i> es fuertemente dependiente de la temperatura. Suele encontrarse entre 100 y 200. </span></p>
+<p style="text-align: justify;"><span style="font-family: comic sans ms,sand; font-size: large;">Según esto, <img src="eXe_LaTeX_math_2.3.gif"   v:shapes="_x0000_i1026" align="absmiddle" />, de donde podemos deducir que </span></p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">I_E=I_B+ \beta · I_B</p>
+</div>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">I_E = (\beta +1)·I_B \ \ (3)</p>
+</div>
+<p style="text-align: justify;"><br /><span style="font-size: 14pt;"> <span style="font-family: 'comic sans ms', sand;">Aplicamos ahora las leyes de Kirchhoff a los dos circuitos que tenemos en el transistor:</span> </span></p>
+<p style="text-align: justify;"><span style="font-family: comic sans ms,sand; font-size: large;">1) <strong>Circuito de base </strong>(desde la alimentación V<sub>BB</sub>, hasta la masa):</span><!-- [if gte vml 1]>
 <![endif]--><!-- [if gte mso 9]><xml>
 </xml><![endif]--></p>
-<p><span style="font-family: comic sans ms,sand; font-size: large;">2) Circuito de colector: <img src="eXe_LaTeX_math_6.2.gif" alt="ley de Kirchoff de las tensiones para el circuito de colector"   v:shapes="_x0000_i1030" align="absmiddle" /> </span><!-- [if gte vml 1]>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">V_{BB} = I_B·R_B+V_{BE}+I_E·R_E \ \ (4)</p>
+</div>
+<p style="text-align: justify;"><span style="font-family: comic sans ms,sand; font-size: large;"><em><strong> </strong></em></span><span style="font-family: comic sans ms,sand; font-size: large;">2) <strong>Circuito de colector </strong>(desde la alimentación V<sub>CC</sub>, hasta la masa):</span><!-- [if gte vml 1]>
 <![endif]--><!-- [if gte mso 9]><xml>
 </xml><![endif]--></p>
-<p><span style="font-family: comic sans ms,sand; font-size: large;">El objetivo es calcular los valores de <i>I<sub>C</sub></i> y de <i>V<sub>CE</sub></i>, ya que ellos nos indicarán el estado del transistor, según esta tabla:</span></p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">V_{CC} = I_C·R_C+V_{CE}+I_E·R_E \ \ (5)</p>
+</div>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong>Resolver el transistor </strong>consiste en calcular los valores de V<em><sub>CE</sub></em> e <em>I<sub>C</sub></em> del montaje, ya que ellos nos indicarán en qué estado se encuentra el transistor, según esta tabla:</span></p>
 <table align="center" border="1" cellpadding="0" cellspacing="0" style="width: 75%;">
 <tbody>
 <tr>
@@ -306,35 +295,44 @@
 </td>
 </tr>
 <tr>
-<td width="101">
-<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>I<sub>C</sub> = 0</i></b></span></p>
+<td width="101" style="text-align: center;">
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">I_C\approx 0</p>
+</div>
 </td>
-<td width="137">
-<p align="center"><img alt="" src="eXe_LaTeX_math_3.gif" width="128" height="33" style="font-size: 0.8em;" /><span style="font-family: comic sans ms,sand; font-size: large;"><b><i><!-- [if gte mso 9]><xml>
-			</xml><![endif]--></i></b></span></p>
+<td width="137" style="text-align: center;">
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">0&lt;I_C&lt; \frac{V_{CC}}{R_C+R_E}</p>
+</div>
 </td>
-<td width="130">
-<p align="center"><img alt="" src="eXe_LaTeX_math_5.1.gif" width="112" height="33" style="font-size: 0.8em;" /><span style="font-family: comic sans ms,sand; font-size: large;"><b><i><!-- [if gte mso 9]><xml>
-			</xml><![endif]--></i></b></span></p>
+<td width="130" style="text-align: center;">
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">I_C = \frac{V_{CC}}{R_C+R_E}</p>
+</div>
 </td>
 </tr>
 <tr>
-<td width="101">
-<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>V<sub>CE</sub> = V<sub>CC</sub></i></b></span></p>
+<td width="101" style="text-align: center;">
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">V_{CE}=V_{CC}</p>
+</div>
 </td>
-<td width="137">
-<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>0,2 V &lt; V<sub>CE</sub> &lt; V<sub>CC</sub></i></b></span></p>
+<td width="137" style="text-align: center;">
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">0,2 V &lt; V_{CE} &lt; V{CC}</p>
+</div>
 </td>
-<td width="130">
-<p align="center"><span style="font-family: comic sans ms,sand; font-size: large;"><b><i>V<sub>CE</sub> &lt;</i></b><b><i> 0,2V</i></b></span></p>
+<td width="130" style="text-align: center;">
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">V_{CE} &lt; 0,2 V</p>
+</div>
 </td>
 </tr>
 </tbody>
 </table>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">No olvides que <strong>V<sub>BE</sub> = 0,7 V</strong> si el transistor es de <strong>silicio</strong> (lo habitual en nuestros circuitos) y <strong>0,2 V</strong> si es de <strong>germanio</strong>.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><strong>Resolver un transistor </strong>consiste en calcular los valores de V<em><sub>CE</sub></em> e <em>I<sub>C</sub></em> del montaje, ya que ellos nos indicarán en qué estado se encuentra el transistor, según esta tabla:</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">No olvides que <strong>V<sub>BE</sub> = 0,7 V</strong> si el transistor es de <strong>silicio</strong> (lo habitual en nuestros circuitos) y <strong>0,2 V</strong> si es de <strong>germanio</strong>.</span></p>
 <p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">A partir de las ecuaciones de los circuitos de base (4) y de colector (5) podremos encontrar dichos valores de I<sub>C</sub> y V<sub>CE. </sub>Hay que tener en cuenta que el procedimiento básico será el siguiente:</span></p>
-<ol>
+<ol style="text-align: center;">
 <li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Detectar claramente que el transistor no está en corte.</span></li>
 <li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Suponer que se encuentra en activa. Si calculamos I<sub>C</sub> y V<sub>CE</sub> y no obtenemos ninguna incongruencia, habremos terminado. Dentro de esta hipótesis, y teniendo en cuenta los valores de <em>β</em>, podremos suponer con buena aproximación que I<sub>E</sub> ≈ I<sub>C</sub>. </span></li>
 <li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si al calcular los valores de  obtenemos un resultado extraño, tendremos que suponer que el transistor está en saturación, y que V<sub>CE</sub> ≈ 0,2 V (o menos). En ese caso, no olvides que la ecuación que da el valor de la ganancia no sirve (pero siempre te quedará Kirchhoff, no te preocupes).</span></li>
