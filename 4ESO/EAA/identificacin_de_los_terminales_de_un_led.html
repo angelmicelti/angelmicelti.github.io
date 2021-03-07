@@ -1,5 +1,5 @@
-\\?\<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+\\?\<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,10 +7,10 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>Identificación de los terminales de un LED | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.5.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -19,8 +19,8 @@
 <body class="exe-web-site" id="exe-node-79"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
-<div id="siteNav">
+<header id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></header>
+<nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">ELECTRÓNICA ANALÓGICA (Opción Aplicada)</a></li>
    <li><a href="1_historia_de_la_electrnica_analgica.html" class="no-ch">1. Historia de la electrónica analógica.</a></li>
@@ -35,7 +35,11 @@
       <li><a href="22_la_ley_de_joule.html" class="no-ch">2.2. La ley de Joule.</a></li>
       <li><a href="23_esquema_abierto_de_un_circuito_electrnico.html" class="no-ch">2.3. Esquema abierto de un circuito electrónico.</a></li>
       <li><a href="24_diagrama_tensinintensidad_de_un_circuito_electrnico.html" class="no-ch">2.4. Diagrama tensión-intensidad de un circuito electrónico.</a></li>
-      <li><a href="25_divisor_de_tensin.html" class="no-ch">2.5. Divisor de tensión</a></li>
+      <li><a href="25_divisor_de_tensin.html" class="daddy">2.5. Divisor de tensión</a>
+      <ul class="other-section">
+         <li><a href="interacta.html" class="no-ch">Interactúa</a></li>
+      </ul>
+      </li>
    </ul>
    </li>
    <li><a href="3_componentes_electrnicos.html" class="no-ch">3. Componentes electrónicos</a></li>
@@ -69,6 +73,7 @@
       <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
       <ul class="other-section">
          <li><a href="clculo_de_la_resistencia_de_polarizacin.html" class="no-ch">Cálculo de la resistencia de polarización</a></li>
+         <li><a href="interacta0.html" class="no-ch">Interactúa</a></li>
       </ul>
       </li>
       <li id="active"><a href="identificacin_de_los_terminales_de_un_led.html" class="active no-ch">Identificación de los terminales de un LED</a></li>
@@ -175,16 +180,16 @@
    </li>
    <li><a href="apndice_i_aplicaciones_mviles_para_electrnica_analgica.html" class="no-ch">Apéndice I: aplicaciones móviles para electrónica analógica</a></li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
-<a href="clculo_de_la_resistencia_de_polarizacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="datasheet_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+<nav class="pagination noprt">
+<a href="interacta0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="datasheet_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Identificación de los terminales de un LED</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id167">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Identificación de los terminales de un LED</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id167">
 <div class="iDevice emphasis0">
 <div id="ta167_85" class="block iDevice_content">
 <p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Es fundamental colocar correctamente un LED en el circuito para que funcione como queremos. ¿Cómo se hace esto sin equivocarnos? Es fácil, aunque se den varias circunstancias, como te comento a continuación:<img src="LED01.png" title="Elementos de un LED" width="444" height="297" style="float: right; margin: 10px;" /></span></p>
@@ -197,16 +202,16 @@
 </ul>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-nc-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
-<a href="clculo_de_la_resistencia_de_polarizacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="datasheet_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+<nav class="pagination noprt">
+<a href="interacta0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="datasheet_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
 </div>
 </div>
 <script type="text/javascript" src="_intef_js.js"></script></body></html>

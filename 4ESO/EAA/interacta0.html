@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>12.2. Temporizador (timer) 555 | Electrónica analógica 4º E.S.O. </title>
+<title>Interactúa | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-85"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-176"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></header>
@@ -68,12 +68,12 @@
    </ul>
    </li>
    <li><a href="7_el_diodo_ese_gran_desconocido.html" class="no-ch">7. El diodo, ese gran desconocido</a></li>
-   <li><a href="8el_led.html" class="daddy">8.El LED</a>
-   <ul class="other-section">
-      <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
-      <ul class="other-section">
+   <li class="current-page-parent"><a href="8el_led.html" class="current-page-parent daddy">8.El LED</a>
+   <ul>
+      <li class="current-page-parent"><a href="el_led_siempre_protegido.html" class="current-page-parent daddy">El LED, siempre protegido</a>
+      <ul>
          <li><a href="clculo_de_la_resistencia_de_polarizacin.html" class="no-ch">Cálculo de la resistencia de polarización</a></li>
-         <li><a href="interacta0.html" class="no-ch">Interactúa</a></li>
+         <li id="active"><a href="interacta0.html" class="active no-ch">Interactúa</a></li>
       </ul>
       </li>
       <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
@@ -118,10 +118,10 @@
       <li><a href="112rel.html" class="no-ch">11.2.Relé</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="12_circuitos_integrados.html" class="current-page-parent daddy">12. Circuitos integrados</a>
-   <ul>
+   <li><a href="12_circuitos_integrados.html" class="daddy">12. Circuitos integrados</a>
+   <ul class="other-section">
       <li><a href="121_el_amplificador_operacional_opamp_lm741.html" class="no-ch">12.1. El amplificador operacional (OpAmp): LM741</a></li>
-      <li id="active"><a href="122_temporizador_timer_555.html" class="active no-ch">12.2. Temporizador (timer) 555</a></li>
+      <li><a href="122_temporizador_timer_555.html" class="no-ch">12.2. Temporizador (timer) 555</a></li>
       <li><a href="123_lm35_sensor_de_temperatura.html" class="no-ch">12.3. LM35 sensor de temperatura</a></li>
       <li><a href="124_dht11_sensor_de_temperatura_y_humedad.html" class="no-ch">12.4. DHT11 sensor de temperatura y humedad</a></li>
    </ul>
@@ -183,38 +183,16 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="121_el_amplificador_operacional_opamp_lm741.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="123_lm35_sensor_de_temperatura.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="clculo_de_la_resistencia_de_polarizacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="identificacin_de_los_terminales_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">12.2. Temporizador (timer) 555</h1></header>
-<article class="iDevice_wrapper FreeTextIdevice" id="id184">
+<header id="nodeDecoration"><h1 id="nodeTitle">Interactúa</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id618">
 <div class="iDevice emphasis0">
-<div id="ta184_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="555.jpg" title="555 en encapsulado DIP-8" width="365" height="340" style="float: left; margin: 5px 10px 5px 10px;" />El <strong>temporizador</strong> (<strong>timer</strong>) <strong>555</strong> es un circuito integrado que genera señales temporales con mucha estabilidad y precisión, lo cual lo convierte en el circuito base de muchas aplicaciones que necesiten un control del tiempo: temporizadores, generadores de señales, relojes, retardadores, etc. Con él seremos capaces de que en la salida un tiempo determinado esté alta (a <em>V<sub>cc</sub></em>) y otro tiempo esté baja (a 0 V), y ambos tiempos los podamos controlar muy bien con este chip.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">La descripción de los pines de un 555 se refiere al de <strong>encapsulado DIP-8</strong>. El encapsulado es la cubierta de plástico con los contactos, y DIP 8 significa que tiene cuatro patas a un lado y cuatro a otro. El patillaje es el siguiente:</span><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"> </span></p>
-<ul>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="555patillas.png" alt="" title="Patillaje del 555" width="157" height="160" style="float: right; margin: 5px 10px 5px 10px;" />PATILLA 1.- Masa (<strong>GND</strong>). En ella se conecta el polo negativo de la fuente de alimentación. Es el terminal a 0 voltios.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PATILLA 2.- Entrada de disparo (<strong>Trigger</strong>). Es la entrada del circuito. Por ella se introducen las señales para dispararlo o ponerlo en marcha.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PATILLA 3.- Salida (<strong>Output</strong>). Cuando está activada proporciona una tensión aproximadamente igual a la de alimentación.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PATILLA 4.- <strong>Reset</strong>. Permite la interrupción del ciclo de trabajo. Cuando no se usa se conecta al positivo de la alimentación.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PATILLA 5.- Tensión de Control (<strong>Control Voltage</strong>). Esta tensión debe ser 1/3 de la de alimentación. Cuando no se usa, se debe conectar un condensador entre 10nF y 100 nF entre éste y tierra.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PATILLA 6.- Umbral (<strong>Threshold</strong>). Esta tensión debe ser 2/3 de la de alimentación. Permite finalizar el ciclo de trabajo.</span></li>
-<li><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PATILLA 7.- Descarga (<strong>Discharge</strong>). En este pin se conecta el condensador exterior que fija la duración de la temporización.</span></li>
-<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">PATILLA 8.- Alimentación (<strong><em>V</em></strong><strong><em><sub>+</sub></em></strong> o <strong><em>V</em></strong><strong><em><sub>cc</sub></em></strong>). Conexión de la alimentación de 4,5 a 16 V, respecto de masa.</span></li>
-</ul>
-<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Te dejo un vídeo para que entiendas su funcionamiento:</span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/n15R_n_TshA" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"></span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Se pueden montar infinidad de circuitos con el timer 555, pero vamos a ver algunos que son de especial interés, por su utilidad práctica o su vistosidad:</span></p>
-<ul>
-<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">555 como monoestable.</span></li>
-<li style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">555 como astable</span></li>
-<li style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">555 como biestable</span></li>
-</ul>
-<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Puedes ver estas configuraciones en el siguiente vídeo:</span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/pvXU8ei8S1U" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
+<div id="ta618_85" class="block iDevice_content">
+<p style="text-align: center;"><iframe width="700" height="450" src="https://everycircuit.com/embed/5011236975280128"></iframe></p>
 </div>
 </div>
 </article>
@@ -225,7 +203,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="121_el_amplificador_operacional_opamp_lm741.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="123_lm35_sensor_de_temperatura.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="clculo_de_la_resistencia_de_polarizacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="identificacin_de_los_terminales_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
