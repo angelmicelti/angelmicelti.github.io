@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>4.3. Puerta AND. | Electrónica digital </title>
+<title>APÉNDICE X: Bubble Pushing | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-16"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-107"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -47,11 +47,11 @@
       <li><a href="33_lgebra_de_boole.html" class="no-ch">3.3. Álgebra de Boole</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="4_puertas_lgicas.html" class="current-page-parent daddy">4. Puertas lógicas.</a>
-   <ul>
+   <li><a href="4_puertas_lgicas.html" class="daddy">4. Puertas lógicas.</a>
+   <ul class="other-section">
       <li><a href="41_puerta_not.html" class="no-ch">4.1. Puerta NOT.</a></li>
       <li><a href="42_puerta_or.html" class="no-ch">4.2. Puerta OR.</a></li>
-      <li id="active"><a href="43_puerta_and.html" class="active no-ch">4.3. Puerta AND.</a></li>
+      <li><a href="43_puerta_and.html" class="no-ch">4.3. Puerta AND.</a></li>
       <li><a href="44_puerta_nor.html" class="no-ch">4.4. Puerta NOR.</a></li>
       <li><a href="45_puerta_nand.html" class="no-ch">4.5. Puerta NAND.</a></li>
       <li><a href="46_puerta_xor_u_orex.html" class="no-ch">4.6. Puerta XOR u OR-EX.</a></li>
@@ -107,8 +107,8 @@
    </ul>
    </li>
    <li><a href="9_prcticas_de_ed.html" class="no-ch">9. Prácticas de E.D.</a></li>
-   <li><a href="10_apndices.html" class="daddy">10. Apéndices</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="10_apndices.html" class="current-page-parent daddy">10. Apéndices</a>
+   <ul>
       <li><a href="apndice_i_primera_y_segunda_formas_cannicas.html" class="no-ch">APÉNDICE I: primera y segunda formas canónicas</a></li>
       <li><a href="apndice_ii_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE II: método de Karnaugh de simplificación de funciones lógicas.</a></li>
       <li><a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE III: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
@@ -161,85 +161,106 @@
          </li>
       </ul>
       </li>
-      <li><a href="apndice_x_bubble_pushing.html" class="no-ch">APÉNDICE X: Bubble Pushing</a></li>
+      <li id="active"><a href="apndice_x_bubble_pushing.html" class="active no-ch">APÉNDICE X: Bubble Pushing</a></li>
    </ul>
    </li>
 </ul>
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="42_puerta_or.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="44_puerta_nor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="operaciones_binarias_con_nmeros_enteros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">4.3. Puerta AND.</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id44">
+<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE X: Bubble Pushing</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id267">
 <div class="iDevice emphasis0">
-<div id="ta44_1" class="block iDevice_content">
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">En la figura se muestra el símbolo de una puerta AND de dos entradas. La salida de la puerta AND es igual al producto lógico de las entradas.</span></p>
-<div align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> En otras palabras, la puerta AND es un circuito que opera en forma tal que su salida es ALTA sólo cuando las dos entradas son ALTAS.</span></div>
-<div align="justify">
-<div align="justify">
-<table border="1" class="exe-table" style="margin-left: auto; margin-right: auto; height: 135px;">
+<div id="ta267_85" class="block iDevice_content">
+<p><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>¿QUÉ ES EL "<em>BUBBLE PUSHING</em>"?</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Podemos tomárnoslo como un juego, que nos va a permitir expresar cualquier circuito lógico con un solo tipo de puerta universal, bien <a href="45_puerta_nand.html">NAND</a> o bien <a href="44_puerta_nor.html">NOR</a>.</span></p>
+<p><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>¿POR QUÉ "<em>BUBBLE PUSHING</em>"?</strong></span></p>
+<ol>
+<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque existen dos tipos de puertas universales: NAND y NOR, que nos permiten expresar nuestros circuitos lógicos utilizando solo una de ellas.</span></li>
+<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque esto presenta un evidente ahorro en cuanto a la diversidad de chips a utilizar: utilizaremos chips de un tipo o de otro.</span></li>
+<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque hacer esto algebraicamente (que se puede, por supuesto) sería excesivo en un curso como 4º de E.S.O. (lo dejamos para Bachillerato).</span></li>
+</ol>
+<p><strong><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;">REGLAS DEL "BUBBLE PUSHING"</span></strong></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Para jugar a este juego necesitamos unas sencillas reglas. No muchas: solo cinco.</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">PRIMERA REGLA: Primera ley de De Morgan.</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">La primera ley de De Morgan nos va a permitir cambiar una puerta OR por una puerta NAND. </span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si recuerdas, dice lo siguiente:</span></p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">\overline{A·B} = \overline{A} + \overline{B}</p>
+</div>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si traducimos esto a nivel gráfico, tenemos lo siguiente:</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
 <tbody>
-<tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>A</strong></span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>B</strong></span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>AND</strong></span></td>
-<td style="width: 330.417px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>SÍMBOLO</strong></span></td>
-</tr>
-<tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
-<td style="width: 330.417px; height: 108px; text-align: center; vertical-align: middle;" rowspan="4"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="AND.png" width="241" height="124" title="Símbolo de la puerta AND" /></span></td>
-</tr>
-<tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
-</tr>
-<tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">0</span></td>
-</tr>
-<tr style="height: 27px;">
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
-<td style="width: 98.4167px; text-align: center; height: 27px;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">1</span></td>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NAND.1.png" alt="" width="123" height="83" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="ORn.png" alt="" width="123" height="83" /></td>
 </tr>
 </tbody>
 </table>
-<p></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">SEGUNDA REGLA: segunda ley de De Morgan</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">La segunda ley de De Morgan nos va a permitir cambiar una puerta AND por una puerta NOR. </span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Recordando, dice lo siguiente:</span></p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">\overline {A+B} = \overline {A} \cdot \overline {B}</p>
+</div>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si traducimos esto a nivel gráfico, tenemos lo siguiente:</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOR.1.png" alt="" width="128" height="83" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="ANDn.png" alt="" width="123" height="83" /></td>
+</tr>
+</tbody>
+</table>
+<p><br /><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">TERCERA REGLA: transformación de un cable.</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Esta regla es muy sencilla conceptualmente: un cable se puede transformar en el mismo cable con dos negaciones (las dos burbujas), las cuales se pueden llevar al punto que quieras (un extremo, el otro o dejarla en el punto medio). </span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="cable.png" alt="" width="122" height="3" /></td>
+<td style="width: 13.2154%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 29.246%; height: 20px; text-align: center; vertical-align: middle;"><img src="cable1.png" alt="" width="123" height="23" /></td>
+<td style="width: 12.1954%; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 38.4219%; text-align: center; vertical-align: middle;"><img src="cable2.png" alt="" width="123" height="23" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">CUARTA REGLA: expresión de la negación con NAND</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Expresar una puerta NOT con una puerta NAND es tan sencillo como introducir el mismo valor por las dos entradas de ésta, y comprobar la operación que hace.</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOT.png" alt="" width="141" height="73" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOTNAND.png" alt="" width="182" height="83" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">QUINTA REGLA: e</span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">xpresión de la negación con NOR</span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Expresar una puerta NOT con una puerta NOR es igualmente sencillo, y consiste en repetir la misma receta que hemos empleado antes. Fíjate:</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOT.png" alt="" width="141" height="73" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOTNOR.png" alt="" width="185" height="83" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Y ahora, ¡a jugaaaaar!</span></p>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="iDevice_wrapper textIdevice em_iDevice" id="id190">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header" style="background-image:url(icon_stars.png)"><h2 class="iDeviceTitle">Fija ideas</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta190_262_2" class="block iDevice_content">
-<div class="exe-text"><p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para recordar el comportamiento de la puerta AND, ponte en esta situación: imagina que tu madre quiere daros una chocolatina a ti y otra a tu hermano. Pero tú, lógicamente, ¿qué vas a querer? Tú quieres, <strong>las dos chocolatinas. </strong>Tu chocolatina <em><strong>Y</strong></em> la de tu hermano. Si tu madre te diera tu chocolatina (1) <em><strong>y</strong></em> la de tu hermano (1), estarías contento. En los otras tres situaciones que podrían darse, no.</span></p></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper textIdevice em_iDevice" id="id216">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Juega con la puerta AND</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta216_263_2" class="block iDevice_content">
-<div class="exe-text"><p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Activa y desactiva las entradas (A y B) y observa qué sucede a la salida (LED).</span></p>
-<p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif;"><iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/87627" id="projectPreview"></iframe><br /></span></p></div>
-</div>
-</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id269">
+<div class="iDevice emphasis0">
+<div id="ta269_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Y ahora, te dejo un vídeo de Fernando Manso en el que vas a ver todo esto mucho más claro:</span></p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/rE0lyK-MuHA" allowfullscreen="allowfullscreen"></iframe></p>
 </div>
 </div>
 </div>
@@ -250,7 +271,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="42_puerta_or.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="44_puerta_nor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="operaciones_binarias_con_nmeros_enteros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
 </div>
 </div>
 </div>
