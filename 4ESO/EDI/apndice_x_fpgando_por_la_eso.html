@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>APÉNDICE IV: montajes pull-down y pull-up | Electrónica digital </title>
+<title>APÉNDICE X. FPGAndo por la E.S.O. | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-55"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-37"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -112,9 +112,9 @@
       <li><a href="apndice_i_primera_y_segunda_formas_cannicas.html" class="no-ch">APÉNDICE I: primera y segunda formas canónicas</a></li>
       <li><a href="apndice_ii_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE II: método de Karnaugh de simplificación de funciones lógicas.</a></li>
       <li><a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE III: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
-      <li id="active"><a href="apndice_iv_montajes_pulldown_y_pullup.html" class="active no-ch">APÉNDICE IV: montajes pull-down y pull-up</a></li>
-      <li><a href="apndice_v_apps_para_smartphone.html" class="no-ch">APÉNDICE V: apps para smartphone</a></li>
-      <li><a href="apndice_vi_fpgando_por_la_eso.html" class="no-ch">APÉNDICE VI. FPGAndo por la E.S.O.</a></li>
+      <li><a href="apndice_iv_bubble_pushing.html" class="no-ch">APÉNDICE IV: Bubble Pushing</a></li>
+      <li><a href="apndice_v_seales_lgicas_montajes_pulldown_y_pullup.html" class="no-ch">APÉNDICE V: señales lógicas. Montajes pull-down y pull-up</a></li>
+      <li><a href="apndice_vi_apps_para_smartphone.html" class="no-ch">APÉNDICE VI: apps para smartphone</a></li>
       <li><a href="apndice_vii_cdigos.html" class="daddy">APÉNDICE VII: códigos</a>
       <ul class="other-section">
          <li><a href="cdigos_no_cclicos.html" class="daddy">Códigos no cíclicos</a>
@@ -161,63 +161,30 @@
          </li>
       </ul>
       </li>
-      <li><a href="apndice_x_bubble_pushing.html" class="no-ch">APÉNDICE X: Bubble Pushing</a></li>
+      <li id="active"><a href="apndice_x_fpgando_por_la_eso.html" class="active no-ch">APÉNDICE X. FPGAndo por la E.S.O.</a></li>
    </ul>
    </li>
 </ul>
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_v_apps_para_smartphone.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="operaciones_binarias_con_nmeros_enteros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE IV: montajes pull-down y pull-up</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id256">
+<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE X. FPGAndo por la E.S.O.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id129">
 <div class="iDevice emphasis0">
-<div id="ta256_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">En Electrónica Digital es totalmente necesario saber cuándo un pulsador está conduciendo o no la corriente eléctrica.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Un pulsador normalmente abierto que no pulsamos, nos indicará un estado de "OFF", que asociaremos a un 0 lógico.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si lo pulsamos, nos indicará un estado de "ON", que asociaremos a un 1 lógico.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Bueno, pues esto no sucede cuando colocamos sólo el pulsador. Necesitamos añadir una resistencia en serie, que puede colocarse bien delante o bien detrás del pulsador. </span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Dependiendo de ello, tenemos las siguientes configuraciones o montajes:</span></p>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id257">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Montaje pull-up</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta257_238_2" class="block iDevice_content">
-<p style="text-align: justify;"><img src="pullup.png" alt="" title="Configuración pull-up" width="184" height="366" style="float: left; margin: 5px 10px 5px 10px;" /><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Si colocamos el pulsador entre la resistencia y masa, tendremos la configuración que se conoce como <strong>pull-up</strong>.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En estado de reposo del pulsador SW1, la intensidad que atraviesa la resistencia es nula.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Por tanto, el terminal inferior de la resistencia (o el superior del voltímetro) se encuentra a 5 V. Por su parte, el terminal inferior del voltímetro se encuentra conectado a masa, es decir, a 0 V. Es por ello que la lectura del voltímetro será de 5 V ("1 lógico")</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Cuando se pulsa SW1, el terminal inferior de la resistencia se coloca a masa, y la lectura del voltímetro, lógicamente, es de 0 V ("0 lógico").</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Echa un vistazo al vídeo para profundizar.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="pullup.lvw">PULSADOR EN MONTAJE PULL-UP</a></span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/fu1YtQs8Ut4" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id258">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Montaje pull-down</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta258_237_2" class="block iDevice_content">
-<p style="text-align: justify;"><img src="pulldown.png" title="Montaje en configuración pull-down" width="184" height="366" style="float: left; margin: 5px 10px 5px 10px;" /><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Si colocamos el pulsador entre la alimentación y la resistencia, tendremos la configuración que se conoce como <strong>pull-down.</strong></span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Hemos colocado un voltímetro para que entiendas lo que sucede.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Cuando el pulsador (NA) no se activa, no pasa corriente por la resistencia. En tal caso, aplicando la ley de Ohm, tendremos que la lectura del voltímetro será 0 V. Esto lo asociaremos a un "0 lógico".</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En cambio, al pulsar SW1, ya pasará corriente por la resistencia, cuyo extremo superior se habrá colocado a la tensión de alimentación (5 V), y el inferior a masa, por lo que la lectura del voltímetro será de 5 V. Esto lo asociaremos a un "1 lógico".</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Echa un vistazo al vídeo para profundizar.</span></p>
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><a href="pulldown.lvw">PULSADOR EN MONTAJE PULL-DOWN</a></span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/D0HWm__pN5c" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
-</div>
-</div>
+<div id="ta129_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Aunque el concepto de F.P.G.A. (<em>Field Programmable Gate Array</em>, o matriz de puertas programable) excede con creces el nivel de 4º de E.S.O., podemos utilizar la FPGA modelo <a href="https://github.com/FPGAwars/icezum/wiki" target="_blank" rel="noopener">IceZum Alhambra</a> (o la más moderna <a href="https://github.com/FPGAwars/Alhambra-II-FPGA" target="_blank" rel="noopener">Alhambra II</a>) que tenemos disponible en nuestro Departamento para simular sistemas electrónicos digitales sin necesidad de montar ningún circuito físicamente.<img src="fpga1.jpg" alt="" width="638" height="479" style="float: right; margin: 10px;" /></span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Ello abarata los costes y reduce los tiempos de espera, tanto del profesorado, como del alumnado. Además, facilita el éxito en la observación del funcionamiento del circuito lógico, algo que no siempre sucede cuando estamos montando el circuito en una placa protoboard (donde siempre queda algún cable por conectar, o no hace contacto, etc).</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para simular, basta con tener un esquema del circuito, y llevarlo a la herramienta de programación gráfica asociada a la placa, que es <a href="https://github.com/FPGAwars/icestudio">IceStudio</a>. Mira cómo queda el ejemplo de la función F = A·B + C</span></p>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><img src="fpga2.png" alt="Programación en IceStudio" width="886" height="485" /></span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">A, B y C los podemos implementar sencillamente: pulsadores en pull-down, con resistencias de 1K, conectados a las entradas digitales D0, D1 y D2 de la placa.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El LED que vemos como salida sería uno de los ocho ledes disponibles en la placa.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">En este repositorio de GitHub: <a href="https://github.com/angelmicelti/FPGAndo-por-la-E.S.O.">https://github.com/angelmicelti/FPGAndo-por-la-E.S.O.</a>.,  al que he llamado “FPGAndo por la E.S.O.” os he subido material para que paséis buenos ratos delante de la Alhambra y veáis lo emocionante y sencilla que puede llegar a ser la Electrónica Digital.</span></p>
+<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><img src="fpga3.jpg" alt="" title="Montaje de cuatro pulsadores en Alhambra I" width="852" height="592" style="float: right;" />Mira en la foto de la derecha cómo queda un montaje con cuatro pulsadores (cada uno de los cuales podría actuar como una variable lógica, ya sabes, como la que hemos visto en los problemas).</span><span style="font-family: 'comic sans ms', sans-serif; font-size: 18pt;"><a href="https://angelmicelti.github.io/FPGAndo-por-la-E.S.O./"></a></span></p>
 </div>
 </div>
 </div>
@@ -228,7 +195,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_v_apps_para_smartphone.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="operaciones_binarias_con_nmeros_enteros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
 </div>
 </div>
 </div>

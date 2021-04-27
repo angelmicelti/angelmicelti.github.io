@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>APÉNDICE X: Bubble Pushing | Electrónica digital </title>
+<title>APÉNDICE V: señales lógicas. Montajes pull-down y pull-up | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-107"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-55"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -112,9 +112,9 @@
       <li><a href="apndice_i_primera_y_segunda_formas_cannicas.html" class="no-ch">APÉNDICE I: primera y segunda formas canónicas</a></li>
       <li><a href="apndice_ii_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE II: método de Karnaugh de simplificación de funciones lógicas.</a></li>
       <li><a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE III: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
-      <li><a href="apndice_iv_montajes_pulldown_y_pullup.html" class="no-ch">APÉNDICE IV: montajes pull-down y pull-up</a></li>
-      <li><a href="apndice_v_apps_para_smartphone.html" class="no-ch">APÉNDICE V: apps para smartphone</a></li>
-      <li><a href="apndice_vi_fpgando_por_la_eso.html" class="no-ch">APÉNDICE VI. FPGAndo por la E.S.O.</a></li>
+      <li><a href="apndice_iv_bubble_pushing.html" class="no-ch">APÉNDICE IV: Bubble Pushing</a></li>
+      <li id="active"><a href="apndice_v_seales_lgicas_montajes_pulldown_y_pullup.html" class="active no-ch">APÉNDICE V: señales lógicas. Montajes pull-down y pull-up</a></li>
+      <li><a href="apndice_vi_apps_para_smartphone.html" class="no-ch">APÉNDICE VI: apps para smartphone</a></li>
       <li><a href="apndice_vii_cdigos.html" class="daddy">APÉNDICE VII: códigos</a>
       <ul class="other-section">
          <li><a href="cdigos_no_cclicos.html" class="daddy">Códigos no cíclicos</a>
@@ -161,106 +161,63 @@
          </li>
       </ul>
       </li>
-      <li id="active"><a href="apndice_x_bubble_pushing.html" class="active no-ch">APÉNDICE X: Bubble Pushing</a></li>
+      <li><a href="apndice_x_fpgando_por_la_eso.html" class="no-ch">APÉNDICE X. FPGAndo por la E.S.O.</a></li>
    </ul>
    </li>
 </ul>
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="operaciones_binarias_con_nmeros_enteros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+<a href="apndice_iv_bubble_pushing.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_vi_apps_para_smartphone.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE X: Bubble Pushing</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id267">
+<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE V: señales lógicas. Montajes pull-down y pull-up</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id256">
 <div class="iDevice emphasis0">
-<div id="ta267_85" class="block iDevice_content">
-<p><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>¿QUÉ ES EL "<em>BUBBLE PUSHING</em>"?</strong></span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Podemos tomárnoslo como un juego, que nos va a permitir expresar cualquier circuito lógico con un solo tipo de puerta universal, bien <a href="45_puerta_nand.html">NAND</a> o bien <a href="44_puerta_nor.html">NOR</a>.</span></p>
-<p><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>¿POR QUÉ "<em>BUBBLE PUSHING</em>"?</strong></span></p>
-<ol>
-<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque existen dos tipos de puertas universales: NAND y NOR, que nos permiten expresar nuestros circuitos lógicos utilizando solo una de ellas.</span></li>
-<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque esto presenta un evidente ahorro en cuanto a la diversidad de chips a utilizar: utilizaremos chips de un tipo o de otro.</span></li>
-<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque hacer esto algebraicamente (que se puede, por supuesto) sería excesivo en un curso como 4º de E.S.O. (lo dejamos para Bachillerato).</span></li>
-</ol>
-<p><strong><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;">REGLAS DEL "BUBBLE PUSHING"</span></strong></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Para jugar a este juego necesitamos unas sencillas reglas. No muchas: solo cinco.</span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">PRIMERA REGLA: Primera ley de De Morgan.</span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">La primera ley de De Morgan nos va a permitir cambiar una puerta OR por una puerta NAND. </span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si recuerdas, dice lo siguiente:</span></p>
-<div class="exe-math code-only exe-math-engine position-center">
-<p class="exe-math-code">\overline{A·B} = \overline{A} + \overline{B}</p>
-</div>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si traducimos esto a nivel gráfico, tenemos lo siguiente:</span></p>
-<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
-<tbody>
-<tr style="height: 20px;">
-<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NAND.1.png" alt="" width="123" height="83" style="display: block; margin-left: auto; margin-right: auto;" /></td>
-<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
-<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="ORn.png" alt="" width="123" height="83" /></td>
-</tr>
-</tbody>
-</table>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">SEGUNDA REGLA: segunda ley de De Morgan</span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">La segunda ley de De Morgan nos va a permitir cambiar una puerta AND por una puerta NOR. </span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Recordando, dice lo siguiente:</span></p>
-<div class="exe-math code-only exe-math-engine position-center">
-<p class="exe-math-code">\overline {A+B} = \overline {A} \cdot \overline {B}</p>
-</div>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si traducimos esto a nivel gráfico, tenemos lo siguiente:</span></p>
-<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
-<tbody>
-<tr style="height: 20px;">
-<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOR.1.png" alt="" width="128" height="83" /></td>
-<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
-<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="ANDn.png" alt="" width="123" height="83" /></td>
-</tr>
-</tbody>
-</table>
-<p><br /><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">TERCERA REGLA: transformación de un cable.</span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Esta regla es muy sencilla conceptualmente: un cable se puede transformar en el mismo cable con dos negaciones (las dos burbujas), las cuales se pueden llevar al punto que quieras (un extremo, el otro o dejarla en el punto medio). </span></p>
-<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
-<tbody>
-<tr style="height: 20px;">
-<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="cable.png" alt="" width="122" height="3" /></td>
-<td style="width: 13.2154%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
-<td style="width: 29.246%; height: 20px; text-align: center; vertical-align: middle;"><img src="cable1.png" alt="" width="123" height="23" /></td>
-<td style="width: 12.1954%; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
-<td style="width: 38.4219%; text-align: center; vertical-align: middle;"><img src="cable2.png" alt="" width="123" height="23" /></td>
-</tr>
-</tbody>
-</table>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">CUARTA REGLA: expresión de la negación con NAND</span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Expresar una puerta NOT con una puerta NAND es tan sencillo como introducir el mismo valor por las dos entradas de ésta, y comprobar la operación que hace.</span></p>
-<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
-<tbody>
-<tr style="height: 20px;">
-<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOT.png" alt="" width="141" height="73" /></td>
-<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
-<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOTNAND.png" alt="" width="182" height="83" /></td>
-</tr>
-</tbody>
-</table>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">QUINTA REGLA: e</span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">xpresión de la negación con NOR</span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Expresar una puerta NOT con una puerta NOR es igualmente sencillo, y consiste en repetir la misma receta que hemos empleado antes. Fíjate:</span></p>
-<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
-<tbody>
-<tr style="height: 20px;">
-<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOT.png" alt="" width="141" height="73" /></td>
-<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
-<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOTNOR.png" alt="" width="185" height="83" /></td>
-</tr>
-</tbody>
-</table>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Y ahora, ¡a jugaaaaar!</span></p>
+<div id="ta256_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">En Electrónica Digital es totalmente necesario saber cuándo un pulsador está conduciendo o no la corriente eléctrica.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Un pulsador normalmente abierto que no pulsamos, nos indicará un estado de "OFF", que asociaremos a un 0 lógico.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si lo pulsamos, nos indicará un estado de "ON", que asociaremos a un 1 lógico.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Bueno, pues esto no sucede cuando colocamos sólo el pulsador. Necesitamos añadir una resistencia en serie, que puede colocarse bien delante o bien detrás del pulsador. </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Dependiendo de ello, tenemos las siguientes configuraciones o montajes:</span></p>
 </div>
 </div>
 </div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id269">
-<div class="iDevice emphasis0">
-<div id="ta269_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Y ahora, te dejo un vídeo de Fernando Manso en el que vas a ver todo esto mucho más claro:</span></p>
-<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/rE0lyK-MuHA" allowfullscreen="allowfullscreen"></iframe></p>
+<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id257">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Montaje pull-up</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta257_238_2" class="block iDevice_content">
+<p style="text-align: justify;"><img src="pullup.png" alt="" title="Configuración pull-up" width="184" height="366" style="float: left; margin: 5px 10px 5px 10px;" /><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Si colocamos el pulsador entre la resistencia y masa, tendremos la configuración que se conoce como <strong>pull-up</strong>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En estado de reposo del pulsador SW1, la intensidad que atraviesa la resistencia es nula.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Por tanto, el terminal inferior de la resistencia (o el superior del voltímetro) se encuentra a 5 V. Por su parte, el terminal inferior del voltímetro se encuentra conectado a masa, es decir, a 0 V. Es por ello que la lectura del voltímetro será de 5 V ("1 lógico")</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Cuando se pulsa SW1, el terminal inferior de la resistencia se coloca a masa, y la lectura del voltímetro, lógicamente, es de 0 V ("0 lógico").</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Echa un vistazo al vídeo para profundizar.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="pullup.lvw">PULSADOR EN MONTAJE PULL-UP</a></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/fu1YtQs8Ut4" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper objectivesIdevice em_iDevice" id="id258">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Montaje pull-down</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta258_237_2" class="block iDevice_content">
+<p style="text-align: justify;"><img src="pulldown.png" title="Montaje en configuración pull-down" width="184" height="366" style="float: left; margin: 5px 10px 5px 10px;" /><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Si colocamos el pulsador entre la alimentación y la resistencia, tendremos la configuración que se conoce como <strong>pull-down.</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Hemos colocado un voltímetro para que entiendas lo que sucede.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Cuando el pulsador (NA) no se activa, no pasa corriente por la resistencia. En tal caso, aplicando la ley de Ohm, tendremos que la lectura del voltímetro será 0 V. Esto lo asociaremos a un "0 lógico".</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En cambio, al pulsar SW1, ya pasará corriente por la resistencia, cuyo extremo superior se habrá colocado a la tensión de alimentación (5 V), y el inferior a masa, por lo que la lectura del voltímetro será de 5 V. Esto lo asociaremos a un "1 lógico".</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Echa un vistazo al vídeo para profundizar.</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;"><a href="pulldown.lvw">PULSADOR EN MONTAJE PULL-DOWN</a></span></p>
+<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/D0HWm__pN5c" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -271,7 +228,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="operaciones_binarias_con_nmeros_enteros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+<a href="apndice_iv_bubble_pushing.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_vi_apps_para_smartphone.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

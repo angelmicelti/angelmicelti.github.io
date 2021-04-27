@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>APÉNDICE VI. FPGAndo por la E.S.O. | Electrónica digital </title>
+<title>APÉNDICE IV: Bubble Pushing | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-37"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-107"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -112,9 +112,9 @@
       <li><a href="apndice_i_primera_y_segunda_formas_cannicas.html" class="no-ch">APÉNDICE I: primera y segunda formas canónicas</a></li>
       <li><a href="apndice_ii_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE II: método de Karnaugh de simplificación de funciones lógicas.</a></li>
       <li><a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE III: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
-      <li><a href="apndice_iv_montajes_pulldown_y_pullup.html" class="no-ch">APÉNDICE IV: montajes pull-down y pull-up</a></li>
-      <li><a href="apndice_v_apps_para_smartphone.html" class="no-ch">APÉNDICE V: apps para smartphone</a></li>
-      <li id="active"><a href="apndice_vi_fpgando_por_la_eso.html" class="active no-ch">APÉNDICE VI. FPGAndo por la E.S.O.</a></li>
+      <li id="active"><a href="apndice_iv_bubble_pushing.html" class="active no-ch">APÉNDICE IV: Bubble Pushing</a></li>
+      <li><a href="apndice_v_seales_lgicas_montajes_pulldown_y_pullup.html" class="no-ch">APÉNDICE V: señales lógicas. Montajes pull-down y pull-up</a></li>
+      <li><a href="apndice_vi_apps_para_smartphone.html" class="no-ch">APÉNDICE VI: apps para smartphone</a></li>
       <li><a href="apndice_vii_cdigos.html" class="daddy">APÉNDICE VII: códigos</a>
       <ul class="other-section">
          <li><a href="cdigos_no_cclicos.html" class="daddy">Códigos no cíclicos</a>
@@ -161,30 +161,106 @@
          </li>
       </ul>
       </li>
-      <li><a href="apndice_x_bubble_pushing.html" class="no-ch">APÉNDICE X: Bubble Pushing</a></li>
+      <li><a href="apndice_x_fpgando_por_la_eso.html" class="no-ch">APÉNDICE X. FPGAndo por la E.S.O.</a></li>
    </ul>
    </li>
 </ul>
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="apndice_v_apps_para_smartphone.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_vii_cdigos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_v_seales_lgicas_montajes_pulldown_y_pullup.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE VI. FPGAndo por la E.S.O.</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id129">
+<div id="nodeDecoration"><h1 id="nodeTitle">APÉNDICE IV: Bubble Pushing</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id270">
 <div class="iDevice emphasis0">
-<div id="ta129_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Aunque el concepto de F.P.G.A. (<em>Field Programmable Gate Array</em>, o matriz de puertas programable) excede con creces el nivel de 4º de E.S.O., podemos utilizar la FPGA modelo <a href="https://github.com/FPGAwars/icezum/wiki" target="_blank" rel="noopener">IceZum Alhambra</a> (o la más moderna <a href="https://github.com/FPGAwars/Alhambra-II-FPGA" target="_blank" rel="noopener">Alhambra II</a>) que tenemos disponible en nuestro Departamento para simular sistemas electrónicos digitales sin necesidad de montar ningún circuito físicamente.<img src="fpga1.jpg" alt="" width="638" height="479" style="float: right; margin: 10px;" /></span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Ello abarata los costes y reduce los tiempos de espera, tanto del profesorado, como del alumnado. Además, facilita el éxito en la observación del funcionamiento del circuito lógico, algo que no siempre sucede cuando estamos montando el circuito en una placa protoboard (donde siempre queda algún cable por conectar, o no hace contacto, etc).</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para simular, basta con tener un esquema del circuito, y llevarlo a la herramienta de programación gráfica asociada a la placa, que es <a href="https://github.com/FPGAwars/icestudio">IceStudio</a>. Mira cómo queda el ejemplo de la función F = A·B + C</span></p>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><img src="fpga2.png" alt="Programación en IceStudio" width="886" height="485" /></span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">A, B y C los podemos implementar sencillamente: pulsadores en pull-down, con resistencias de 1K, conectados a las entradas digitales D0, D1 y D2 de la placa.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El LED que vemos como salida sería uno de los ocho ledes disponibles en la placa.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">En este repositorio de GitHub: <a href="https://github.com/angelmicelti/FPGAndo-por-la-E.S.O.">https://github.com/angelmicelti/FPGAndo-por-la-E.S.O.</a>.,  al que he llamado “FPGAndo por la E.S.O.” os he subido material para que paséis buenos ratos delante de la Alhambra y veáis lo emocionante y sencilla que puede llegar a ser la Electrónica Digital.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><img src="fpga3.jpg" alt="" title="Montaje de cuatro pulsadores en Alhambra I" width="852" height="592" style="float: right;" />Mira en la foto de la derecha cómo queda un montaje con cuatro pulsadores (cada uno de los cuales podría actuar como una variable lógica, ya sabes, como la que hemos visto en los problemas).</span><span style="font-family: 'comic sans ms', sans-serif; font-size: 18pt;"><a href="https://angelmicelti.github.io/FPGAndo-por-la-E.S.O./"></a></span></p>
+<div id="ta270_85" class="block iDevice_content">
+<p><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>¿QUÉ ES EL "<em>BUBBLE PUSHING</em>"?</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Podemos tomárnoslo como un juego, que nos va a permitir expresar cualquier circuito lógico con un solo tipo de puerta universal, bien <a href="45_puerta_nand.html">NAND</a> o bien <a href="44_puerta_nor.html">NOR</a>.</span></p>
+<p><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;"><strong>¿POR QUÉ "<em>BUBBLE PUSHING</em>"?</strong></span></p>
+<ol>
+<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque existen dos tipos de puertas universales: NAND y NOR, que nos permiten expresar nuestros circuitos lógicos utilizando solo una de ellas.</span></li>
+<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque esto presenta un evidente ahorro en cuanto a la diversidad de chips a utilizar: utilizaremos chips de un tipo o de otro.</span></li>
+<li><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Porque hacer esto algebraicamente (que se puede, por supuesto) sería excesivo en un curso como 4º de E.S.O. (lo dejamos para Bachillerato).</span></li>
+</ol>
+<p><strong><span style="font-size: 18pt; font-family: 'trebuchet ms', geneva, sans-serif;">REGLAS DEL "BUBBLE PUSHING"</span></strong></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Para jugar a este juego necesitamos unas sencillas reglas. No muchas: solo cinco.</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">PRIMERA REGLA: Primera ley de De Morgan.</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">La primera ley de De Morgan nos va a permitir cambiar una puerta OR por una puerta NAND. </span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si recuerdas, dice lo siguiente:</span></p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">\overline{A·B} = \overline{A} + \overline{B}</p>
+</div>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si traducimos esto a nivel gráfico, tenemos lo siguiente:</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NAND.1.png" alt="" width="123" height="83" style="display: block; margin-left: auto; margin-right: auto;" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="ORn.png" alt="" width="123" height="83" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">SEGUNDA REGLA: segunda ley de De Morgan</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">La segunda ley de De Morgan nos va a permitir cambiar una puerta AND por una puerta NOR. </span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Recordando, dice lo siguiente:</span></p>
+<div class="exe-math code-only exe-math-engine position-center">
+<p class="exe-math-code">\overline {A+B} = \overline {A} \cdot \overline {B}</p>
+</div>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Si traducimos esto a nivel gráfico, tenemos lo siguiente:</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOR.1.png" alt="" width="128" height="83" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="ANDn.png" alt="" width="123" height="83" /></td>
+</tr>
+</tbody>
+</table>
+<p><br /><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">TERCERA REGLA: transformación de un cable.</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Esta regla es muy sencilla conceptualmente: un cable se puede transformar en el mismo cable con dos negaciones (las dos burbujas), las cuales se pueden llevar al punto que quieras (un extremo, el otro o dejarla en el punto medio). </span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="cable.png" alt="" width="122" height="3" /></td>
+<td style="width: 13.2154%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 29.246%; height: 20px; text-align: center; vertical-align: middle;"><img src="cable1.png" alt="" width="123" height="23" /></td>
+<td style="width: 12.1954%; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 38.4219%; text-align: center; vertical-align: middle;"><img src="cable2.png" alt="" width="123" height="23" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">CUARTA REGLA: expresión de la negación con NAND</span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Expresar una puerta NOT con una puerta NAND es tan sencillo como introducir el mismo valor por las dos entradas de ésta, y comprobar la operación que hace.</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOT.png" alt="" width="141" height="73" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOTNAND.png" alt="" width="182" height="83" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">QUINTA REGLA: e</span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">xpresión de la negación con NOR</span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Expresar una puerta NOT con una puerta NOR es igualmente sencillo, y consiste en repetir la misma receta que hemos empleado antes. Fíjate:</span></p>
+<table border="0" style="height: 20px; width: auto; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 25.8953%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOT.png" alt="" width="141" height="73" /></td>
+<td style="width: 22.6702%; height: 20px; text-align: center; vertical-align: middle;"><span style="font-size: 36pt;">=</span></td>
+<td style="width: 32.768%; height: 20px; text-align: center; vertical-align: middle;"><img src="NOTNOR.png" alt="" width="185" height="83" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Y ahora, ¡a jugaaaaar!</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id269">
+<div class="iDevice emphasis0">
+<div id="ta269_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Y ahora, te dejo un vídeo de Fernando Manso en el que vas a ver todo esto mucho más claro:</span></p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/rE0lyK-MuHA" allowfullscreen="allowfullscreen"></iframe></p>
 </div>
 </div>
 </div>
@@ -195,7 +271,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="apndice_v_apps_para_smartphone.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_vii_cdigos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="apndice_v_seales_lgicas_montajes_pulldown_y_pullup.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
