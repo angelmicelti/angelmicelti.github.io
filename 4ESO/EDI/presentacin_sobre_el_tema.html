@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>3.3. Álgebra de Boole | Electrónica digital </title>
+<title>Presentación sobre el tema | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-108"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -40,11 +40,11 @@
       <li><a href="28_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.8. Diferencia de dos números binarios.</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="3_funcin_lgica_tabla_de_verdad.html" class="current-page-parent daddy">3. Función lógica. Tabla de verdad.</a>
-   <ul>
+   <li><a href="3_funcin_lgica_tabla_de_verdad.html" class="daddy">3. Función lógica. Tabla de verdad.</a>
+   <ul class="other-section">
       <li><a href="31_definiciones_bsicas.html" class="no-ch">3.1. Definiciones básicas.</a></li>
       <li><a href="32_funciones_bsicas.html" class="no-ch">3.2. Funciones básicas.</a></li>
-      <li id="active"><a href="33_lgebra_de_boole.html" class="active no-ch">3.3. Álgebra de Boole</a></li>
+      <li><a href="33_lgebra_de_boole.html" class="no-ch">3.3. Álgebra de Boole</a></li>
    </ul>
    </li>
    <li><a href="4_puertas_lgicas.html" class="daddy">4. Puertas lógicas.</a>
@@ -107,8 +107,8 @@
    </ul>
    </li>
    <li><a href="9_prcticas_de_ed.html" class="no-ch">9. Prácticas de E.D.</a></li>
-   <li><a href="10_apndices.html" class="daddy">10. Apéndices</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="10_apndices.html" class="current-page-parent daddy">10. Apéndices</a>
+   <ul>
       <li><a href="apndice_i_primera_y_segunda_formas_cannicas.html" class="no-ch">APÉNDICE I: primera y segunda formas canónicas</a></li>
       <li><a href="apndice_ii_mtodo_de_karnaugh_de_simplificacin_de_funciones_lgicas.html" class="no-ch">APÉNDICE II: método de Karnaugh de simplificación de funciones lógicas.</a></li>
       <li><a href="apndice_iii_implementacin_de_funciones_lgicas_slo_con_puertas_nor_o_nand.html" class="no-ch">APÉNDICE III: Implementación de funciones lógicas sólo con puertas NOR o NAND</a></li>
@@ -161,9 +161,9 @@
          </li>
       </ul>
       </li>
-      <li><a href="apndice_x_fpgando_por_la_eso.html" class="daddy">APÉNDICE X. FPGAndo por la E.S.O.</a>
-      <ul class="other-section">
-         <li><a href="presentacin_sobre_el_tema.html" class="no-ch">Presentación sobre el tema</a></li>
+      <li class="current-page-parent"><a href="apndice_x_fpgando_por_la_eso.html" class="current-page-parent daddy">APÉNDICE X. FPGAndo por la E.S.O.</a>
+      <ul>
+         <li id="active"><a href="presentacin_sobre_el_tema.html" class="active no-ch">Presentación sobre el tema</a></li>
       </ul>
       </li>
    </ul>
@@ -172,125 +172,16 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="32_funciones_bsicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_puertas_lgicas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="apndice_x_fpgando_por_la_eso.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">3.3. Álgebra de Boole</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id25">
+<div id="nodeDecoration"><h1 id="nodeTitle">Presentación sobre el tema</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id269">
 <div class="iDevice emphasis0">
-<div id="ta25_1" class="block iDevice_content">
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El álgebra de Boole es una estructura matemática, que cuenta con dos números (0 y 1) y tres operaciones (suma, producto y negación).</span></p>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Parte de unos <a href="#Postulados">postulados</a> iniciales, de los que se pueden deducir <a href="#Teoremas">teoremas</a> y leyes (como las de <a href="#DeMorgan">De Morgan</a>). Veámoslos:</span></p>
-<p><span style="font-family: verdana,geneva; font-size: medium;"> </span></p>
-<p><span style="font-family: verdana,geneva; font-size: medium;"> </span></p>
-<p><b><u> </u></b></p>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper activityIdevice em_iDevice" id="id26">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Postulados del Álgebra de Boole</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta26_46_2" class="block iDevice_content">
-<div align="justify"><span style="font-size: 14pt;"><span style="font-family: verdana,geneva;"><a id="Postulados"></a><span style="font-family: 'trebuchet ms', geneva, sans-serif;">Un <i><b>postulado </b></i>o<b></b><i><b> axioma </b></i>es un</span></span><span style="font-family: 'trebuchet ms', geneva, sans-serif;"> enunciado matemático que no necesita demostración. Es algo así como un punto de partida (en otros contextos se suelen llamar también <strong>axiomas</strong>). En el Álgebra de Boole tenemos los siguientes:</span></span></div>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 1.</u></b> El elemento identidad de la suma es el "0". (<i>A </i>+ 0 = <i>A</i>)</span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 2.</u></b> El elemento de identidad del producto es el "1". (<i>A </i>· 1 = <i>A</i>)</span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 3.</u></b> La suma es conmutativa <i>A</i> + <i>B</i> = <i>B</i> + <i>A</i></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 4.</u></b> El producto es conmutativo: <i>A</i> · <i>B</i> = <i>B</i> · <i>A</i></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 5.</u></b> La suma es asociativa: (<i>A</i> + <i>B</i>) + <i>C </i>= <i>A </i>+ (<i>B </i>+ <i>C</i>)</span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 6</u></b>. El producto es asociativo: (<i>A</i> · <i>B</i>) · <i>C </i>= <i>A</i> · (<i>B</i> · <i>C</i>)</span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 7.</u></b> El producto es distributivo respecto de la suma:</span></li>
-</ul>
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><i>A</i> · (<i>B </i>+ <i>C</i>) = (<i>A </i>· <i>B</i>) + (<i>A </i>· <i>C</i>)</span></p>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 8.</u></b> La suma es distributiva respecto del producto:</span></li>
-</ul>
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><i>A </i>+ (<i>B · C</i>) = (<i>A + B</i>) · ( <i>A + C</i>).</span></p>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 9.</u></b> Para cada valor <i>A </i>existe un valor <i>Ā</i> tal que <i>A</i>·<i> Ā</i> = 0 y <i>A</i> +<i> Ā</i> = 1. Éste valor es el <b>complemento lógico </b>o <b>negado </b>de <i>A</i>.</span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Postulado 10</u></b>. El álgebra de Boole es cerrada bajo las operaciones suma, producto y negación. </span></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper activityIdevice em_iDevice" id="id27">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Teoremas del Álgebra de Boole</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta27_47_2" class="block iDevice_content">
-<div align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif;"><span style="font-size: medium;"><a id="Teoremas"></a><span style="font-size: 14pt;">Un <i><b>teorema </b></i>es un</span></span><span style="font-size: 14pt;">a proposición matemática que se puede demostrar a partir de los postulados que se han enunciado anteriormente.</span></span></div>
-<div align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></div>
-<div align="justify"></div>
-<div align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> En el Álgebra de Boole tenemos los siguientes teoremas:</span></div>
-<div align="justify"></div>
-<div align="justify">
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Teorema 1</u></b>: <img src="eXe_LaTeX_math_7.gif"   align="absmiddle" /></span></li>
-<li>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Teorema 2</u></b>: <img src="eXe_LaTeX_math_5.gif"   align="absmiddle" /></span></p>
-</li>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Teorema 3</u></b>: <img src="eXe_LaTeX_math_10.gif"   align="middle" /></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Teorema 4</u></b>: <img src="eXe_LaTeX_math_12.gif"   align="absmiddle" /></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><u><b>Teorema 5:</b></u> <img src="eXe_LaTeX_math_15.gif"   align="absmiddle" /></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><u><b>Teorema 6:</b></u> <img src="eXe_LaTeX_math_9.gif"   /></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><u><b>Teorema 7:</b></u> <img src="eXe_LaTeX_math_17.gif"   align="absmiddle" /></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><u><b>Teorema 8</b></u><b>: </b><img src="eXe_LaTeX_math_23.gif"   align="absmiddle" height="25" width="160" /></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><u><b>Teorema 9</b></u>: <img src="eXe_LaTeX_math_27.gif"   align="absmiddle" /></span></li>
-</ul>
-<ul>
-<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b><u>Teorema 10</u>:</b> <img src="eXe_LaTeX_math_23.1.gif"   align="absmiddle" /></span></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper activityIdevice em_iDevice" id="id28">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Leyes de De Morgan</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta28_48_2" class="block iDevice_content">
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><a id="DeMorgan"></a>Son dos leyes importantísimas dentro del Álgebra de Boole. Afirman lo siguiente:</span></p>
-<p align="center"><span style="font-size: 14pt;"><img src="demorgan.jpg" height="101" width="214" /></span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt;"><span style="font-family: verdana, geneva;"></span><span style="font-family: 'trebuchet ms', geneva, sans-serif;">Si te das cuenta, se comportan complementariamente (como tantas otras cosas dentro del Álgebra de Boole): las fórmulas son la misma si intercambiamos la suma por el producto lógicos.</span></span></p>
-</div>
-</div>
+<div id="ta269_85" class="block iDevice_content">
+<p style="text-align: center;"><iframe width="960" height="569" src="https://docs.google.com/presentation/d/e/2PACX-1vR1TQZJ1WIf-ZG_LCykV1kD-fyVVVx7-acCzZxrpON2Mom8JCzEb3Q6zHhnybzC85Gf0GSoGzkKwxMu/embed?start=false&amp;loop=true&amp;delayms=3000"></iframe></p>
 </div>
 </div>
 </div>
@@ -301,7 +192,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="32_funciones_bsicas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_puertas_lgicas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="apndice_x_fpgando_por_la_eso.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
 </div>
 </div>
 </div>
