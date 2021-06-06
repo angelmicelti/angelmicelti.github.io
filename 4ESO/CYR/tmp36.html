@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Lumínicos | Control y robótica 4º E.S.O. </title>
+<title>TMP36 | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-52"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-92"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -73,8 +73,8 @@
       </li>
       <li><a href="potencimetro.html" class="no-ch">Potenciómetro</a></li>
       <li><a href="joystick.html" class="no-ch">Joystick</a></li>
-      <li id="active"><a href="lumnicos.html" class="active daddy">Lumínicos</a>
-      <ul>
+      <li><a href="lumnicos.html" class="daddy">Lumínicos</a>
+      <ul class="other-section">
          <li><a href="fotorresistencia_ldr.html" class="no-ch">Fotorresistencia LDR</a></li>
          <li><a href="fototransistor_bpw40.html" class="no-ch">Fototransistor BPW40</a></li>
          <li><a href="sensor_ir_vs1838.html" class="no-ch">Sensor IR VS1838</a></li>
@@ -82,14 +82,14 @@
          <li><a href="tcrt5000.html" class="no-ch">TCRT5000</a></li>
       </ul>
       </li>
-      <li><a href="trmicos.html" class="daddy">Térmicos</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="trmicos.html" class="current-page-parent daddy">Térmicos</a>
+      <ul>
          <li><a href="ntc.html" class="no-ch">NTC</a></li>
          <li><a href="ptc.html" class="no-ch">PTC</a></li>
          <li><a href="lm35.html" class="no-ch">LM35</a></li>
          <li><a href="dht11_temperatura_y_humedad.html" class="no-ch">DHT11 (temperatura y humedad)</a></li>
          <li><a href="ds18b20.html" class="no-ch">DS18B20</a></li>
-         <li><a href="tmp36.html" class="no-ch">TMP36</a></li>
+         <li id="active"><a href="tmp36.html" class="active no-ch">TMP36</a></li>
       </ul>
       </li>
       <li><a href="micrfono.html" class="no-ch">Micrófono</a></li>
@@ -166,20 +166,23 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="joystick.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="fotorresistencia_ldr.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="ds18b20.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="micrfono.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Lumínicos</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id129">
+<div id="nodeDecoration"><h1 id="nodeTitle">TMP36</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id144">
 <div class="iDevice emphasis0">
-<div id="ta129_85" class="block iDevice_content">
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="fotorresistencia_ldr.html">Fotorresistencia LDR</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="fototransistor_bpw40.html">Fototransistor BPW40</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="sensor_ir_vs1838.html">Sensor IR VS1838</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="cny70.html">CNY70</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="tcrt5000.html">TCRT5000</a></span></p>
+<div id="ta144_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;"><img src="https://www.prometec.net/wp-content/uploads/2014/10/Img_15_2-210x210.jpg" alt="Sensor TMP36" title="Sensor TMP36" width="210" height="210" style="float: right; margin: 5px;" />Un sensor de temperatura es simplemente un chip que nos devuelve un valor de tensión proporcional a la temperatura a la que está sometido. En esta sesión vamos a utilizar unos modelos comerciales muy extendidos y fáciles de encontrar por muy poco dinero: TMP36.</span></p>
+<ul>
+<li style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Mide la temperatura en grados centígrados. </span></li>
+<li style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Funciona entre -50º C y 125ºC.</span></li>
+<li style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">No es especialmente preciso, ya que tiene ± 1ºC de incertidumbre, pero normalmente nos sobra para proyectos sencillos</span></li>
+<li style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Es muy barato.</span></li>
+</ul>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">El encapsulado es similar al de un transistor y también tiene tres patas, así que mucho cuidado con confundirlos. Intenta leer las letras que lleva serigrafiadas (si puedes, porque suelen ser tan pequeñas que a veces no se leen ni con lupa). </span><br /><span style="font-family: verdana, geneva, sans-serif;"> </span><br /><span style="font-family: verdana, geneva, sans-serif;">El pin central es el de señal, pero para saber cuál es GND y 5V, el encapsulado tiene una cara plana y otra curva. Poniendo la cara plana mirando hacia ti con las patas hacia abajo (de modo que puedas leer el modelo),  el pin de la izquierda es alimentación 5V y naturalmente el otro es GND.</span></p>
 </div>
 </div>
 </div>
@@ -187,7 +190,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="joystick.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="fotorresistencia_ldr.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="ds18b20.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="micrfono.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

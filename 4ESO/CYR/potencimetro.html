@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Lumínicos | Control y robótica 4º E.S.O. </title>
+<title>Potenciómetro | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-52"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-93"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -71,10 +71,10 @@
          <li><a href="aplicaciones0.html" class="no-ch">Aplicaciones</a></li>
       </ul>
       </li>
-      <li><a href="potencimetro.html" class="no-ch">Potenciómetro</a></li>
+      <li id="active"><a href="potencimetro.html" class="active no-ch">Potenciómetro</a></li>
       <li><a href="joystick.html" class="no-ch">Joystick</a></li>
-      <li id="active"><a href="lumnicos.html" class="active daddy">Lumínicos</a>
-      <ul>
+      <li><a href="lumnicos.html" class="daddy">Lumínicos</a>
+      <ul class="other-section">
          <li><a href="fotorresistencia_ldr.html" class="no-ch">Fotorresistencia LDR</a></li>
          <li><a href="fototransistor_bpw40.html" class="no-ch">Fototransistor BPW40</a></li>
          <li><a href="sensor_ir_vs1838.html" class="no-ch">Sensor IR VS1838</a></li>
@@ -166,20 +166,24 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="joystick.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="fotorresistencia_ldr.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="aplicaciones0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="joystick.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Lumínicos</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id129">
+<div id="nodeDecoration"><h1 id="nodeTitle">Potenciómetro</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id145">
 <div class="iDevice emphasis0">
-<div id="ta129_85" class="block iDevice_content">
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="fotorresistencia_ldr.html">Fotorresistencia LDR</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="fototransistor_bpw40.html">Fototransistor BPW40</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="sensor_ir_vs1838.html">Sensor IR VS1838</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="cny70.html">CNY70</a></span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="tcrt5000.html">TCRT5000</a></span></p>
+<div id="ta145_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Un potenciómetro es una resistencia variable, cuyo valor óhmico se puede ajustar manualmente, entre 0 y el valor nominal. Más información en este enlace.</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Los hay de dos tipos, principalmente:</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">LINEALES: el cambio en el valor óhmico se produce por deslizamiento de un cursor (véase imagen).</span></p>
+<p><img src="https://wiki.keyestudio.com/images/a/a2/Ks0279_%E6%BB%91%E8%B0%83%E7%94%B5%E4%BD%8D%E5%99%A8.png" alt="Potenciómetro lineal" title="Potenciómetro lineal" width="430" height="136" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><span style="font-family: verdana, geneva, sans-serif;">Estos potenciómetros se pueden emplear como <strong>sensores de posición</strong>.</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">GIRATORIOS: el cambio en el valor óhmico se produce por el giro del cursor en un ángulo que nunca llega a los 360º.</span></p>
+<p><span style="font-family: verdana, geneva, sans-serif;"><img src="https://wiki.keyestudio.com/images/4/4d/KS0349_20-1.png" alt="Potenciómetro giratorio" title="Potenciómetro giratorio" width="192" height="177" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p><span style="font-family: verdana, geneva, sans-serif;">Estos potenciómetros se pueden emplear como <strong>sensores de giro</strong>.</span></p>
+<p><span style="font-family: verdana, geneva, sans-serif;">En ambos casos obtenemos de ellos una <strong>señal analógica</strong>, que puede estar indicada en un valor absoluto (normalmente de 0 a 1023) o en porcentaje (de 0 a 100%).</span></p>
 </div>
 </div>
 </div>
@@ -187,7 +191,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="joystick.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="fotorresistencia_ldr.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="aplicaciones0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="joystick.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
