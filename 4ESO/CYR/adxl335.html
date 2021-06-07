@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>LED RGB | Control y robótica 4º E.S.O. </title>
+<title>ADXL335 | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-63"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-96"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -58,8 +58,8 @@
       <li><a href="53_arquitectura_de_un_robot.html" class="no-ch">5.3. Arquitectura de un robot</a></li>
    </ul>
    </li>
-   <li><a href="6_sensores.html" class="daddy">6. Sensores</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="6_sensores.html" class="current-page-parent daddy">6. Sensores</a>
+   <ul>
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
@@ -100,9 +100,9 @@
          <li><a href="sharp_2y0a21.html" class="no-ch">Sharp 2Y0A21</a></li>
       </ul>
       </li>
-      <li><a href="acelermetros.html" class="daddy">Acelerómetros</a>
-      <ul class="other-section">
-         <li><a href="adxl335.html" class="no-ch">ADXL335</a></li>
+      <li class="current-page-parent"><a href="acelermetros.html" class="current-page-parent daddy">Acelerómetros</a>
+      <ul>
+         <li id="active"><a href="adxl335.html" class="active no-ch">ADXL335</a></li>
          <li><a href="mma7361.html" class="no-ch">MMA7361</a></li>
          <li><a href="mpu6050_6dof_acelermetro_y_giroscopio.html" class="no-ch">MPU-6050: 6DOF acelerómetro y giroscopio</a></li>
       </ul>
@@ -119,11 +119,11 @@
       <li><a href="sensor_de_humedad_fc28_higrmetro.html" class="no-ch">Sensor de humedad FC-28 (higrómetro)</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="7_actuadores.html" class="current-page-parent daddy">7. Actuadores</a>
-   <ul>
-      <li class="current-page-parent"><a href="led.html" class="current-page-parent daddy">LED</a>
-      <ul>
-         <li id="active"><a href="led_rgb.html" class="active no-ch">LED RGB</a></li>
+   <li><a href="7_actuadores.html" class="daddy">7. Actuadores</a>
+   <ul class="other-section">
+      <li><a href="led.html" class="daddy">LED</a>
+      <ul class="other-section">
+         <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
          <li><a href="display_de_7_segmentos.html" class="no-ch">Display de 7 segmentos</a></li>
          <li><a href="matrices_de_ledes.html" class="no-ch">Matrices de ledes</a></li>
       </ul>
@@ -171,19 +171,20 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="led.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="display_de_7_segmentos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="acelermetros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="mma7361.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">LED RGB</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id78">
+<div id="nodeDecoration"><h1 id="nodeTitle">ADXL335</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id148">
 <div class="iDevice emphasis0">
-<div id="ta78_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">En realidad no se trata de un solo L.E.D., sino de tres ledes discretos unidos en un solo encapsulado y con un cátodo o ánodo común.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Su ventaja es que la intensidad de cada elemento puede ser regulada mediante modulación del ancho de pulso (PWM) permitiendo obtener una parte importante del espectro RGB con un solo dispositivo.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Ofrecen la ventaja de ser muy luminosos al llevar los tres colores primarios directamente, prescindiendo del uso de filtros.</span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="RGB-LED.png" alt="LED RGB" width="600" height="353" /></span></p>
+<div id="ta148_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">El ADXL335 es un acelerómetro de 3 ejes, que mide la aceleración en los ejes X, Y y Z y proporciona una salida de tensión analógica proporcional a la aceleración en dichos ejes.</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Tiene un rango de ±3g, y una de sus grandes ventajas es su bajo precio.</span></p>
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">A continuación te dejo un ejemplo de cómo monitorizar la aceleración con un servo. </span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/aeScceN1D7w" allowfullscreen="allowfullscreen"></iframe></p>
 </div>
 </div>
 </div>
@@ -191,7 +192,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="led.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="display_de_7_segmentos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="acelermetros.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="mma7361.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
