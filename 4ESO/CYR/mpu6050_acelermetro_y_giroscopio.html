@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Sensor de humedad FC-28 (higrómetro) | Control y robótica 4º E.S.O. </title>
+<title>MPU6050: acelerómetro y giroscopio | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-90"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-77"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -65,6 +65,7 @@
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
       </ul>
       </li>
+      <li><a href="teclados.html" class="no-ch">Teclados</a></li>
       <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
       <ul class="other-section">
@@ -88,35 +89,39 @@
          <li><a href="ptc.html" class="no-ch">PTC</a></li>
          <li><a href="lm35.html" class="no-ch">LM35</a></li>
          <li><a href="tmp36.html" class="no-ch">TMP36</a></li>
-         <li><a href="dht11_temperatura_y_humedad.html" class="no-ch">DHT11 (temperatura y humedad)</a></li>
+         <li><a href="dht11.html" class="no-ch">DHT11</a></li>
+         <li><a href="dht22.html" class="no-ch">DHT22</a></li>
          <li><a href="ds18b20.html" class="no-ch">DS18B20</a></li>
       </ul>
       </li>
-      <li><a href="micrfono.html" class="no-ch">Micrófono</a></li>
-      <li><a href="sensor_pir_hcsr5011.html" class="no-ch">Sensor PIR HC-SR5011</a></li>
       <li><a href="de_distancia.html" class="daddy">De distancia</a>
       <ul class="other-section">
          <li><a href="sensor_de_ultrasonidos_hcsr04.html" class="no-ch">Sensor de ultrasonidos HC-SR04</a></li>
          <li><a href="sharp_2y0a21.html" class="no-ch">Sharp 2Y0A21</a></li>
       </ul>
       </li>
-      <li><a href="acelermetros.html" class="daddy">Acelerómetros</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="acelermetros.html" class="current-page-parent daddy">Acelerómetros</a>
+      <ul>
          <li><a href="adxl335.html" class="no-ch">ADXL335</a></li>
          <li><a href="mma7361.html" class="no-ch">MMA7361</a></li>
-         <li><a href="mpu6050_6dof_acelermetro_y_giroscopio.html" class="no-ch">MPU-6050: 6DOF acelerómetro y giroscopio</a></li>
+         <li id="active"><a href="mpu6050_acelermetro_y_giroscopio.html" class="active no-ch">MPU6050: acelerómetro y giroscopio</a></li>
       </ul>
       </li>
-      <li><a href="sensor_baromtrico_bmp180.html" class="no-ch">Sensor barométrico BMP180</a></li>
-      <li><a href="sensores_de_gas.html" class="daddy">Sensores de gas</a>
+      <li><a href="de_gas.html" class="daddy">De gas</a>
       <ul class="other-section">
          <li><a href="sensor_de_butano_mq2.html" class="no-ch">Sensor de butano MQ-2</a></li>
          <li><a href="sensor_de_metano_mq4.html" class="no-ch">Sensor de metano MQ-4</a></li>
       </ul>
       </li>
-      <li><a href="sensor_de_efecto_hall.html" class="no-ch">Sensor de efecto Hall</a></li>
-      <li><a href="teclados.html" class="no-ch">Teclados</a></li>
-      <li id="active"><a href="sensor_de_humedad_fc28_higrmetro.html" class="active no-ch">Sensor de humedad FC-28 (higrómetro)</a></li>
+      <li><a href="de_humedad.html" class="daddy">De humedad</a>
+      <ul class="other-section">
+         <li><a href="sensor_de_humedad_del_suelo_fc28.html" class="no-ch">Sensor de humedad del suelo FC28</a></li>
+      </ul>
+      </li>
+      <li><a href="micrfono.html" class="no-ch">Micrófono</a></li>
+      <li><a href="de_movimiento_pir_hcsr5011.html" class="no-ch">De movimiento PIR HC-SR5011</a></li>
+      <li><a href="baromtrico_bmp180.html" class="no-ch">Barométrico BMP180</a></li>
+      <li><a href="de_efecto_hall.html" class="no-ch">De efecto Hall</a></li>
    </ul>
    </li>
    <li><a href="7_actuadores.html" class="daddy">7. Actuadores</a>
@@ -171,17 +176,77 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="teclados.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="7_actuadores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="mma7361.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="de_gas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Sensor de humedad FC-28 (higrómetro)</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id143">
+<div id="nodeDecoration"><h1 id="nodeTitle">MPU6050: acelerómetro y giroscopio</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id97">
 <div class="iDevice emphasis0">
-<div id="ta143_85" class="block iDevice_content">
-<p style="text-align: center;"><img src="https://www.luisllamas.es/wp-content/uploads/2015/12/sensor-humedad-suelo-FC-28.png" alt="" width="400" height="300" /></p>
-<p style="text-align: center;"><img src="https://www.luisllamas.es/wp-content/uploads/2015/12/arduino-sensor-humedad-suelo-FC-28-esquema.png" alt="" width="500" height="311" /></p>
+<div id="ta97_85" class="block iDevice_content">
+<p style="text-align: center;"><img src="MPU6050.jpg" alt="Acelerómetro y giroscopio MPU-6050" width="425" height="400" title="Acelerómetro y giroscopio MPU-6050" /></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id98">
+<div class="iDevice emphasis0">
+<div id="ta98_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>Sensor Giroscópico</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Un giroscopio es un dispositivo que funciona para miden velocidades angulares basándose en el mantenimiento del impulso de rotación. Si intentamos hacer girar un objeto que está girando sobre un eje que no es el eje sobre el que está rotando, el objeto ejercerá un momento contrario al movimiento con el fin de preservar el impulso de rotación total.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El giroscopio muestra el cambio de rango en rotación en sus ejes X, Y y Z.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>Acelerómetro</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Mide la aceleración, inclinación o vibración y transforma la magnitud física de aceleración en otra magnitud eléctrica que será la que emplearemos en los equipos de adquisición estándar. Los rangos de medida van desde las décimas de g, hasta los miles de g.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><strong>MPU-6050</strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El circuito integrado MPU-6050 contiene un acelerómetro y giroscopio MEMS en un solo empaque. Cuenta con una resolución de 16-bits, lo cual significa que divide el rango dinámico en 65536 fracciones,  estos aplican para cada eje X, Y y Z al igual que en la velocidad angular. El sensor es ideal para diseñar control de robótica, medición de vibración, sistemas de medición inercial (IMU), detector de caídas, sensor de distancia y velocidad, y muchas cosas más. El MPU-6050 contiene un giroscópico, un acelerómetro, además de un sensor de temperatura, mediante I2C  regresa unos valores conocidos como raw o “crudos” según el registro seleccionado.</span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">A continuación se mostraron los rangos de escala y el valor máximo raw.</span></p>
+<table class=" table table-hover" style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Rango De Escala Completa Giroscopio</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Sensibilidad del Giroscopio</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Rango De Escala Completa Acelerómetro</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Sensibilidad del Acelerómetro</span></td>
+</tr>
+<tr>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±250</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">131</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±2</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">16384</span></td>
+</tr>
+<tr>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±500</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">65.5</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±4</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">8192</span></td>
+</tr>
+<tr>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±1000</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">32.8</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±8</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">4096</span></td>
+</tr>
+<tr>
+<td width="196" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±2000</span></td>
+<td width="123" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">16.4</span></td>
+<td width="149" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">±16</span></td>
+<td width="128" style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">2048</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><em>ESPECIFICACIONES</em></span></p>
+<ul>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Salida digital de 6 ejes.</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Giroscopio con sensibilidad de ±250, ±500, ±1000, y ±2000dps</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Acelerómetro con sensibilidad de ±2g, ±4g, ±8g y ±16g</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Algoritmos embebidos para calibración</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Sensor de temperatura digital</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Entrada digital de video FSYNC</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Interrupciones programables</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Voltaje de alimentación: 2,37 a 3,46 V</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Voltaje lógico: 1,8 V ± 5% o VDD</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">10000 g tolerancia de aceleración máxima</span></li>
+</ul>
 </div>
 </div>
 </div>
@@ -189,7 +254,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="teclados.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="7_actuadores.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="mma7361.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="de_gas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

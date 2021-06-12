@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>3.2. Tipos de sistemas de control | Control y robótica 4º E.S.O. </title>
+<title>DHT11 | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-59"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -24,10 +24,10 @@
    <li><a href="index.html" class="daddy main-node">Inicio</a></li>
    <li><a href="1_historia_de_la_automtica.html" class="no-ch">1. Historia de la automática</a></li>
    <li><a href="2_mecanismos_automatismos_y_robots.html" class="no-ch">2. Mecanismos, automatismos y robots</a></li>
-   <li class="current-page-parent"><a href="3_sistemas_de_control.html" class="current-page-parent daddy">3. Sistemas de control</a>
-   <ul>
+   <li><a href="3_sistemas_de_control.html" class="daddy">3. Sistemas de control</a>
+   <ul class="other-section">
       <li><a href="31_elementos_de_un_sistema_de_control.html" class="no-ch">3.1. Elementos de un sistema de control</a></li>
-      <li id="active"><a href="32_tipos_de_sistemas_de_control.html" class="active no-ch">3.2. Tipos de sistemas de control</a></li>
+      <li><a href="32_tipos_de_sistemas_de_control.html" class="no-ch">3.2. Tipos de sistemas de control</a></li>
       <li><a href="33_ejemplos.html" class="no-ch">3.3. Ejemplos</a></li>
    </ul>
    </li>
@@ -58,8 +58,8 @@
       <li><a href="53_arquitectura_de_un_robot.html" class="no-ch">5.3. Arquitectura de un robot</a></li>
    </ul>
    </li>
-   <li><a href="6_sensores.html" class="daddy">6. Sensores</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="6_sensores.html" class="current-page-parent daddy">6. Sensores</a>
+   <ul>
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
@@ -83,13 +83,13 @@
          <li><a href="tcrt5000.html" class="no-ch">TCRT5000</a></li>
       </ul>
       </li>
-      <li><a href="trmicos.html" class="daddy">Térmicos</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="trmicos.html" class="current-page-parent daddy">Térmicos</a>
+      <ul>
          <li><a href="ntc.html" class="no-ch">NTC</a></li>
          <li><a href="ptc.html" class="no-ch">PTC</a></li>
          <li><a href="lm35.html" class="no-ch">LM35</a></li>
          <li><a href="tmp36.html" class="no-ch">TMP36</a></li>
-         <li><a href="dht11.html" class="no-ch">DHT11</a></li>
+         <li id="active"><a href="dht11.html" class="active no-ch">DHT11</a></li>
          <li><a href="dht22.html" class="no-ch">DHT22</a></li>
          <li><a href="ds18b20.html" class="no-ch">DS18B20</a></li>
       </ul>
@@ -176,41 +176,26 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="31_elementos_de_un_sistema_de_control.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="33_ejemplos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="tmp36.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="dht22.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">3.2. Tipos de sistemas de control</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id10">
+<div id="nodeDecoration"><h1 id="nodeTitle">DHT11</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id81">
 <div class="iDevice emphasis0">
-<div id="ta10_85" class="block iDevice_content">
-<p><span style="font-size: 12pt; font-family: verdana, geneva;">Hay dos tipos principales de sistemas de control: en <b>lazo abierto</b> y en <b>lazo cerrado.</b></span></p>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id9">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Sistemas de control en lazo abierto</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta9_49_2" class="block iDevice_content">
-<p><span style="font-size: 12pt; font-family: verdana, geneva;">En ellos no se tiene en cuenta el estado de la salida para realizar el proceso de control. Sistemas de este tipo son, por ejemplo, todos los programados: lavavajillas, lavadora, temporizador del horno, temporizador del microondas. También pertenecería a este grupo, por ejemplo, una estufa sin termostato.</span></p>
-<p><span style="font-size: 12pt;"><img src="lazo_abierto.png" width="721" height="107" title="esquema de un sistema de control en lazo abierto" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id11">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Sistemas de control en lazo cerrado</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta11_51_2" class="block iDevice_content">
-<p><span style="font-size: 12pt;"><span style="font-family: verdana, geneva;">En ellos se compara la salida con la entrada para corregir posibles perturbaciones en el sistema. Este proceso se llama <b>realimentación</b>. Ejemplos: cisterna de un inodoro, control de la temperatura del cuerpo humano, conducción con automóvil, sistemas automáticos de iluminación, sistemas de calefacción o de aire acondicionado con termostato, etc.</span><img src="lazo_cerrado.png" width="740" height="226" title="esquema de un sistema de control en lazo cerrado" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-</div>
-</div>
+<div id="ta81_85" class="block iDevice_content">
+<p style="text-align: center;"><img src="dh11.jpg" alt="" width="225" height="225" /></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El DHT11 es un sensor que permite realizar la medición simultánea de <strong>temperatura y humedad</strong>.</span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Dispone de un procesador interno que realiza el proceso de medición, proporcionando la medición mediante una señal digital, por lo que resulta muy sencillo obtener la medición desde un microprocesador como Arduino.</span></p>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Las características del DHT11 son realmente escasas, especialmente en rango de medición y precisión:</span></p>
+<ul>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Medición de temperatura entre 0 a 50, con una precisión de 2ºC</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Medición de humedad entre 20 a 80%, con precisión del 5%.</span></li>
+<li><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Frecuencia de muestreo de 1 muestras por segundo (1 Hz)</span></li>
+</ul>
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El DHT11 es un sensor muy limitado que podemos usar con fines de formación, pruebas, o en proyectos que realmente no requieran una medición precisa, o para iniciarse en el mundillo de lo sensores.</span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="arduino-dht11-dht22-patillaje.png" alt="" width="155" height="179" /></span></p>
 </div>
 </div>
 </div>
@@ -218,7 +203,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="31_elementos_de_un_sistema_de_control.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="33_ejemplos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="tmp36.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="dht22.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Sensor barométrico BMP180 | Control y robótica 4º E.S.O. </title>
+<title>De gas | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-74"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-70"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -65,6 +65,7 @@
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
       </ul>
       </li>
+      <li><a href="teclados.html" class="no-ch">Teclados</a></li>
       <li><a href="sensores_tctiles_capacitivos.html" class="no-ch">Sensores táctiles capacitivos</a></li>
       <li><a href="finales_de_carrera.html" class="daddy">Finales de carrera</a>
       <ul class="other-section">
@@ -88,12 +89,11 @@
          <li><a href="ptc.html" class="no-ch">PTC</a></li>
          <li><a href="lm35.html" class="no-ch">LM35</a></li>
          <li><a href="tmp36.html" class="no-ch">TMP36</a></li>
-         <li><a href="dht11_temperatura_y_humedad.html" class="no-ch">DHT11 (temperatura y humedad)</a></li>
+         <li><a href="dht11.html" class="no-ch">DHT11</a></li>
+         <li><a href="dht22.html" class="no-ch">DHT22</a></li>
          <li><a href="ds18b20.html" class="no-ch">DS18B20</a></li>
       </ul>
       </li>
-      <li><a href="micrfono.html" class="no-ch">Micrófono</a></li>
-      <li><a href="sensor_pir_hcsr5011.html" class="no-ch">Sensor PIR HC-SR5011</a></li>
       <li><a href="de_distancia.html" class="daddy">De distancia</a>
       <ul class="other-section">
          <li><a href="sensor_de_ultrasonidos_hcsr04.html" class="no-ch">Sensor de ultrasonidos HC-SR04</a></li>
@@ -104,19 +104,24 @@
       <ul class="other-section">
          <li><a href="adxl335.html" class="no-ch">ADXL335</a></li>
          <li><a href="mma7361.html" class="no-ch">MMA7361</a></li>
-         <li><a href="mpu6050_6dof_acelermetro_y_giroscopio.html" class="no-ch">MPU-6050: 6DOF acelerómetro y giroscopio</a></li>
+         <li><a href="mpu6050_acelermetro_y_giroscopio.html" class="no-ch">MPU6050: acelerómetro y giroscopio</a></li>
       </ul>
       </li>
-      <li id="active"><a href="sensor_baromtrico_bmp180.html" class="active no-ch">Sensor barométrico BMP180</a></li>
-      <li><a href="sensores_de_gas.html" class="daddy">Sensores de gas</a>
-      <ul class="other-section">
+      <li id="active"><a href="de_gas.html" class="active daddy">De gas</a>
+      <ul>
          <li><a href="sensor_de_butano_mq2.html" class="no-ch">Sensor de butano MQ-2</a></li>
          <li><a href="sensor_de_metano_mq4.html" class="no-ch">Sensor de metano MQ-4</a></li>
       </ul>
       </li>
-      <li><a href="sensor_de_efecto_hall.html" class="no-ch">Sensor de efecto Hall</a></li>
-      <li><a href="teclados.html" class="no-ch">Teclados</a></li>
-      <li><a href="sensor_de_humedad_fc28_higrmetro.html" class="no-ch">Sensor de humedad FC-28 (higrómetro)</a></li>
+      <li><a href="de_humedad.html" class="daddy">De humedad</a>
+      <ul class="other-section">
+         <li><a href="sensor_de_humedad_del_suelo_fc28.html" class="no-ch">Sensor de humedad del suelo FC28</a></li>
+      </ul>
+      </li>
+      <li><a href="micrfono.html" class="no-ch">Micrófono</a></li>
+      <li><a href="de_movimiento_pir_hcsr5011.html" class="no-ch">De movimiento PIR HC-SR5011</a></li>
+      <li><a href="baromtrico_bmp180.html" class="no-ch">Barométrico BMP180</a></li>
+      <li><a href="de_efecto_hall.html" class="no-ch">De efecto Hall</a></li>
    </ul>
    </li>
    <li><a href="7_actuadores.html" class="daddy">7. Actuadores</a>
@@ -171,34 +176,37 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="mpu6050_6dof_acelermetro_y_giroscopio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="sensores_de_gas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="mpu6050_acelermetro_y_giroscopio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="sensor_de_butano_mq2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Sensor barométrico BMP180</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id94">
+<div id="nodeDecoration"><h1 id="nodeTitle">De gas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id132">
 <div class="iDevice emphasis0">
-<div id="ta94_85" class="block iDevice_content">
-<p style="text-align: center;"><img src="BMP180.jpg" width="400" height="400" alt="Sensor barométrico BMP180" /></p>
+<div id="ta132_85" class="block iDevice_content">
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="sensor_de_butano_mq2.html">Sensor de butano MQ-2</a></span></p>
+<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><a href="sensor_de_metano_mq4.html">Sensor de metano MQ-4</a></span></p>
 </div>
 </div>
 </div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id103">
+<div class="iDevice_wrapper FreeTextIdevice" id="id154">
 <div class="iDevice emphasis0">
-<div id="ta103_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Un barómetro digital es un dispositivo que mide la presión del aire y que puede usarse como altímetro. </span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">La presión barométrica está originada por el peso de la columna del aire de la atmósfera. La presión barométrica depende de diversos factores, especialmente de la temperatura, ya que esta influye en la densidad del aire y, por tanto, en el peso de la columna de aire. Otros factores que afectan a la medición son la humedad y el viento.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Dado que la presión barométrica depende de la altura de la columna de aire ubicada sobre el sensor también puede ser empleada para estimar la altitud a la que está ubicado en sensor respecto al nivel del mar.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Debemos tener en cuenta que la presión barométrica varia continuamente debido a las condiciones climatológicas por lo que no proporciona una medición absoluta de la altitud con precisión. Sin embargo, sí puede ser de utilidad en mediciones diferenciales de altitud, es decir, diferencias de cota en un desplazamiento vertical.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El BMP180 es un sensor barométrico digital, que incorpora un sensor de temperatura para compensar sus efectos en la medición de la presión barométrica. A su vez, el BMP180 es una versión mejorada del BMP085, siendo ambos modelos compatibles entre si tanto en hardware como software.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El BMP180 es un sensor de alta precisión y baja potencia. El rango de medición es de 300hPa a 1110 hPa, equivalente a una altitud de -500m a 9000m sobre el nivel del mar. La precisión es configurable, desde 0.06hPa (0.5 metros) en el modo de bajo consumo, a 0.02hPa (0.17 metros) en el modo de alta precisión.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">La comunicación se realiza a través del bus I2C, por lo que es sencillo obtener los datos medidos. La tensión de alimentación es de bajo voltaje entre 1.8 a 3.6V.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Frecuentemente se encuentran integrados en módulos como la GY-68 que incorporan la electrónica necesaria para conectarla de forma sencilla a un Arduino. En la mayoría de los módulos, éste incluye un regulador de voltaje que permite alimentar directamente a 5V.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">El consumo promedio es de 0.1µA en stand-by, y 650µA durante la medición, lo que supone un consumo promedio de 5µA tomando 1 muestra por segundo en precisión estándar. El tiempo de respuesta es de unos 5ms en resolución estándar, y 17ms en alta resolución</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Los barómetros BMP180 y BMP085 son ampliamente empleados en aplicaciones meteorológicas, como estaciones registradoras, relojes que muestran el clima, o para predecir cuándo va a llover, entre otras. También pueden ser empleadas en aplicaciones de climatización o control de ventilación.</span></p>
-<p style="text-align: justify;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">La capacidad para estimar alturas diferenciales también hace que sean usados en vehículos aéreos como aviones o cuadricópteros, o en aplicaciones que requieran medir la velocidad de desplazamiento vertical, por ejemplo, el ascenso de una máquina o el tiempo de caída de un dispositivo.</span></p>
-<p style="text-align: center;"><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="arduino-barometro-bmp180-esquema.png" alt="" width="388" height="138" /></span></p>
+<div id="ta154_85" class="block iDevice_content">
+<table border="0" style="width: 50%; margin-left: auto; margin-right: auto; height: 36px;">
+<tbody>
+<tr style="height: 20px;">
+<td style="width: 33.3333%; height: 20px; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>Sensor de butano MQ2</strong></span></td>
+<td style="width: 33.3333%; height: 20px; text-align: center;"></td>
+<td style="width: 33.3333%; height: 20px; text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><strong>Sensor de metano MQ4</strong></span></td>
+</tr>
+<tr style="height: 16px;">
+<td style="width: 33.3333%; height: 16px;"><a href="sensor_de_butano_mq2.html"><img src="gas_MQ2.png" alt="Sensor de butano MQ2" title="Sensor de butano MQ2" width="500" height="628" /></a></td>
+<td style="width: 33.3333%; height: 16px;"></td>
+<td style="width: 33.3333%; height: 16px;"><a href="sensor_de_metano_mq4.html"><img src="mq4-methane-gas-sensor-module-500x500.png" alt="Sensor de metano MQ4" title="Sensor de metano MQ4" width="358" height="333" /></a></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -206,7 +214,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="mpu6050_6dof_acelermetro_y_giroscopio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="sensores_de_gas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="mpu6050_acelermetro_y_giroscopio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="sensor_de_butano_mq2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
