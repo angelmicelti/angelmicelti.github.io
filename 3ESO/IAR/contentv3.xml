@@ -22,7 +22,7 @@
     <string role="key" value="_storageName"></string>
     <string value="arduinoblockslogo.png"></string>
     <string role="key" value="_userName"></string>
-    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjfjvsr\\arduinoblockslogo.png"></string>
+    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjrq5sp\\arduinoblockslogo.png"></string>
     <string role="key" value="checksum"></string>
     <string value="0e2f8f33e3b7075c95e87e885443cdbf"></string>
     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -88,7 +88,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -1460,7 +1460,7 @@ and select the size of the area to display it in."></unicode>
   <string role="key" value="anchor_nodes"></string>
   <list></list>
   <string role="key" value="backgroundImgTile"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
   <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
