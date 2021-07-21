@@ -22,7 +22,7 @@
     <string role="key" value="_storageName"></string>
     <string value="arduinoblockslogo.png"></string>
     <string role="key" value="_userName"></string>
-    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmphxab0q\\arduinoblockslogo.png"></string>
+    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjfjvsr\\arduinoblockslogo.png"></string>
     <string role="key" value="checksum"></string>
     <string value="0e2f8f33e3b7075c95e87e885443cdbf"></string>
     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -149,7 +149,7 @@ text through the text editing buttons associated with the field."></unicode>
           <string role="key" value="anchors_linked_from_fields"></string>
           <dictionary></dictionary>
           <string role="key" value="content_w_resourcePaths"></string>
-          <unicode content="true" value="&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com&quot; target=&quot;_blank&quot; onclick=&quot;window.open('http://www.arduinoblocks.com','Arduinoblocks','resizable=yes,width=800,height=600,left='+(screen.availWidth/2-400)+',top='+(screen.availHeight/2-300)+'');return false;&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRQgJpqnLdZjHnav3U9FvnhL-40WIxcY46bPoybF6Eqq3jYKey&amp;amp;usqp=CAU&quot; alt=&quot;&quot; width=&quot;828&quot; height=&quot;162&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+          <unicode content="true" value="&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com&quot; target=&quot;_blank&quot; onclick=&quot;window.open('http://www.arduinoblocks.com','Web de Arduinoblocks','scrollbars=yes,resizable=yes,width=800,height=600,left='+(screen.availWidth/2-400)+',top='+(screen.availHeight/2-300)+'');return false;&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRQgJpqnLdZjHnav3U9FvnhL-40WIxcY46bPoybF6Eqq3jYKey&amp;amp;usqp=CAU&quot; alt=&quot;&quot; width=&quot;828&quot; height=&quot;162&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;"></unicode>
           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
           <int value="4"></int>
@@ -239,7 +239,7 @@ text through the text editing buttons associated with the field."></unicode>
           <string role="key" value="anchors_linked_from_fields"></string>
           <dictionary></dictionary>
           <string role="key" value="content_w_resourcePaths"></string>
-          <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: impact, sans-serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;http://www.arduinoblocks.com&quot; target=&quot;_blank&quot; onclick=&quot;window.open('www.arduinoblocks.com','Arduinoblocks','scrollbars=yes,menubar=yes,resizable=yes,width=800,height=600,left='+(screen.availWidth/2-400)+',top='+(screen.availHeight/2-300)+'');return false;&quot; rel=&quot;noopener&quot;&gt;ACCESO A ARDUINOBLOCKS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+          <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: impact, sans-serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;http://www.arduinoblocks.com&quot; target=&quot;_blank&quot; onclick=&quot;window.open('http://www.arduinoblocks.com','Web de Arduinoblocks','scrollbars=yes,menubar=yes,resizable=yes,width=800,height=600,left='+(screen.availWidth/2-400)+',top='+(screen.availHeight/2-300)+'');return false;&quot; rel=&quot;noopener&quot;&gt;ACCESO A ARDUINOBLOCKS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
           <int value="4"></int>
           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
