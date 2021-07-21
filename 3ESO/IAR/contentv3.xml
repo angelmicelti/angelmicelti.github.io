@@ -22,7 +22,7 @@
     <string role="key" value="_storageName"></string>
     <string value="arduinoblockslogo.png"></string>
     <string role="key" value="_userName"></string>
-    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmp7mn2r_\\arduinoblockslogo.png"></string>
+    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpyiwrr_\\arduinoblockslogo.png"></string>
     <string role="key" value="checksum"></string>
     <string value="0e2f8f33e3b7075c95e87e885443cdbf"></string>
     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -149,7 +149,7 @@ text through the text editing buttons associated with the field."></unicode>
           <string role="key" value="anchors_linked_from_fields"></string>
           <dictionary></dictionary>
           <string role="key" value="content_w_resourcePaths"></string>
-          <unicode content="true" value="&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRQgJpqnLdZjHnav3U9FvnhL-40WIxcY46bPoybF6Eqq3jYKey&amp;amp;usqp=CAU&quot; alt=&quot;&quot; width=&quot;828&quot; height=&quot;162&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+          <unicode content="true" value="&lt;p&gt;&lt;a href=&quot;http://www.arduinoblocks.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRQgJpqnLdZjHnav3U9FvnhL-40WIxcY46bPoybF6Eqq3jYKey&amp;amp;usqp=CAU&quot; alt=&quot;&quot; width=&quot;828&quot; height=&quot;162&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;"></unicode>
           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
           <int value="4"></int>
@@ -239,7 +239,7 @@ text through the text editing buttons associated with the field."></unicode>
           <string role="key" value="anchors_linked_from_fields"></string>
           <dictionary></dictionary>
           <string role="key" value="content_w_resourcePaths"></string>
-          <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: impact, sans-serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;http://www.arduinoblocks.com&quot;&gt;ACCESO A ARDUINOBLOCKS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+          <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: impact, sans-serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;http://www.arduinoblocks.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ACCESO A ARDUINOBLOCKS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
           <int value="4"></int>
           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -329,11 +329,11 @@ text through the text editing buttons associated with the field."></unicode>
           <dictionary></dictionary>
           <string role="key" value="content_w_resourcePaths"></string>
           <unicode content="true" value="&lt;p&gt;Recuerda que debes hacer tu acceso mediante la cuenta gestionada por el centro. Tiene las siguientes características&lt;/p&gt;
-&lt;p&gt;nnaabb.iesvilladiego, con la siguiente nomenclatura:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;nnaabb.iesvilladiego&lt;/em&gt;, con la siguiente nomenclatura:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;nn indica las dos primeras letras del nombre.&lt;/li&gt;
-&lt;li&gt;aa indica las dos primeras letras del primer apellido&lt;/li&gt;
-&lt;li&gt;bb indica las dos primeras letras del segundo apellido.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;nn&lt;/em&gt; indica las dos primeras letras del nombre.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;aa&lt;/em&gt; indica las dos primeras letras del primer apellido&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;bb&lt;/em&gt; indica las dos primeras letras del segundo apellido.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Por ejemplo, en el caso de &lt;em&gt;&lt;strong&gt;Dolores Fuertes de Barriga&lt;/strong&gt;&lt;/em&gt;, el usuario sería: &lt;em&gt;&lt;strong&gt;dofuba.iesvilladiego&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;"></unicode>
           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1382,7 +1382,7 @@ will be viewed by learners online."></unicode>
               <unicode value="Enter the URL you wish to display
 and select the size of the area to display it in."></unicode>
               <string role="key" value="edit"></string>
-              <bool value="1"></bool>
+              <bool value="0"></bool>
               <string role="key" value="emphasis"></string>
               <int value="0"></int>
               <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
@@ -1394,7 +1394,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="id"></string>
               <unicode value="392"></unicode>
               <string role="key" value="lastIdevice"></string>
-              <bool value="1"></bool>
+              <bool value="0"></bool>
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
@@ -1462,7 +1462,7 @@ and select the size of the area to display it in."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="17"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
