@@ -1,1 +1,0 @@
-Las herramientas de medida y comprobación sirven para medir el tamaño de una pieza (o del objeto construido), así como para saber si la ejecución ha sido la correcta (está horizontal, vertical, o formando un cierto ángulo que se había previsto).

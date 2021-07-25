@@ -1,1 +1,0 @@
-El goniómetro es una herramienta que nos permite medir ángulos.
