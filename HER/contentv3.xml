@@ -65,7 +65,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -10335,13 +10335,13 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="content_w_resourcePaths"></string>
                 <unicode content="true" value="&lt;p&gt;Las llaves sirven para apretar tornillos o tuercas. Las hay de dos tipos principales: fijas o ajustables.&lt;br /&gt;Dentro de las &lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#auto_top&quot;&gt;fijas&lt;/a&gt;, tenemos las siguientes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveFija&quot;&gt;Llave española&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveEstrellaPlana&quot;&gt;Llave de estrella plana&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveEstrellaAcodada&quot; onclick=&quot;window.open(this.href,'eXeLearningPopup','width=800,height=600,left='+(screen.availWidth/2-400)+',top='+(screen.availHeight/2-300)+'');return false;&quot;&gt;Llave de estrella acodada&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveTubo&quot;&gt;Llave de tubo&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveCombinada&quot;&gt;Llave combinada&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#LlaveEspanola&quot;&gt;Llave española&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Llave de estrella plana.&lt;/li&gt;
+&lt;li&gt;Llave de estrella acodada.&lt;/li&gt;
+&lt;li&gt;Llave de tubo.&lt;/li&gt;
+&lt;li&gt;Llave combinada.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Dentro de las &lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Ajustables#auto_top&quot;&gt;ajustables&lt;/a&gt;, tenemos dos, principalmente: la &lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Ajustables#LlaveInglesa&quot;&gt;llave inglesa&lt;/a&gt; y la &lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Ajustables#LlaveGrifa&quot;&gt;llave de grifa&lt;/a&gt;.&lt;/p&gt;"></unicode>
+&lt;p&gt;Dentro de las &lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Ajustables#auto_top&quot;&gt;ajustables&lt;/a&gt;, tenemos dos, principalmente: la llave inglesa y la llave de grifa.&lt;/p&gt;"></unicode>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                 <int value="4"></int>
                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -10361,10 +10361,6 @@ text through the text editing buttons associated with the field."></unicode>
                 </instance>
                 <string role="key" value="intlinks_to_anchors"></string>
                 <dictionary>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Ajustables#LlaveGrifa"></unicode>
-                 <none></none>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Ajustables#LlaveInglesa"></unicode>
-                 <none></none>
                  <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Ajustables#auto_top"></unicode>
                  <instance class="exe.engine.node.Node" reference="238">
                   <dictionary>
@@ -10594,16 +10590,6 @@ text through the text editing buttons associated with the field."></unicode>
                    <list></list>
                   </dictionary>
                  </instance>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveCombinada"></unicode>
-                 <none></none>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveEstrellaAcodada"></unicode>
-                 <none></none>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveEstrellaPlana"></unicode>
-                 <none></none>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveFija"></unicode>
-                 <none></none>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveTubo"></unicode>
-                 <none></none>
                  <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#auto_top"></unicode>
                  <instance class="exe.engine.node.Node" reference="244">
                   <dictionary>
