@@ -10335,7 +10335,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="content_w_resourcePaths"></string>
                 <unicode content="true" value="&lt;p&gt;Las llaves sirven para apretar tornillos o tuercas. Las hay de dos tipos principales: fijas o ajustables.&lt;br /&gt;Dentro de las &lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#auto_top&quot;&gt;fijas&lt;/a&gt;, tenemos las siguientes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveEspanola&quot;&gt;Llave española&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;Anclas:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveEspanola&quot;&gt;Llave española&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Llave de estrella plana.&lt;/li&gt;
 &lt;li&gt;Llave de estrella acodada.&lt;/li&gt;
 &lt;li&gt;Llave de tubo.&lt;/li&gt;
@@ -10590,8 +10590,6 @@ text through the text editing buttons associated with the field."></unicode>
                    <list></list>
                   </dictionary>
                  </instance>
-                 <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#LlaveEspanola"></unicode>
-                 <none></none>
                  <unicode role="key" value="exe-node:HERRAMIENTAS:De%20giro:Llaves:Fijas#auto_top"></unicode>
                  <instance class="exe.engine.node.Node" reference="244">
                   <dictionary>
