@@ -1,1 +1,0 @@
-La ingletadora es una herramienta que nos permite cortar piezas formando ángulos diferentes al recto (90 grados). Contiene una sierra, que es la herramienta de corte, y una escala graduada que nos permite orientar la sierra con el ángulo deseado.

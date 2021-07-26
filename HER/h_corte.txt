@@ -1,1 +1,0 @@
-Las herramientas de corte son aquéllas que nos permiten extraer piezas definidas de un material, conforme a las características que necesitamos, o bien extraer parte del material de un bloque en el que se encuentre la pieza que vayamos a construir.
