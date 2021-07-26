@@ -91,7 +91,7 @@ li{list-style-position:outside}
 #wikipedia-content ul li{list-style-image:none;margin-bottom:auto}
 /* Form buttons */
 .iDevice_inner input[type=submit],.feedbackbutton{background:#007691;border:0;padding:4px 10px;color:#fff;margin-bottom:1em}
-.iDevice_inner input[type=submit]:hover,.feedbackbutton:hover{background:#3a4749}
+.iDevice_inner input[type=submit]:hover,.feedbackbutton:hover,.iDevice_inner input[type=submit]:focus,.feedbackbutton:focus{background:#3a4749}
 /* Hide/Show iDevice */
 .toggle-idevice{text-align:right;display:block;margin-right:13px}
 .iDevice_header .toggle-idevice{position:absolute;right:13px;bottom:13px;margin:0}
@@ -113,9 +113,10 @@ li{list-style-position:outside}
 #packageLicense.cc{padding:0 20px 0 110px;background:#526668 url(_intef_licenses.gif) no-repeat 20px 5px}
 #packageLicense.cc-by-sa{background-position:20px -95px}
 #packageLicense.cc-by-nd{background-position:20px -195px}
-#packageLicense.cc-by-nc-sa{background-position:20px -295px}
-#packageLicense.cc-by-nc-nd{background-position:20px -395px}
-#packageLicense.cc-0{background-position:20px -495px}
+#packageLicense.cc-by-nc{background-position:20px -295px}
+#packageLicense.cc-by-nc-sa{background-position:20px -395px}
+#packageLicense.cc-by-nc-nd{background-position:20px -495px}
+#packageLicense.cc-0{background-position:20px -595px}
 
 /* eXe Figures */
 .exe-figure{margin:2.5em 0}
