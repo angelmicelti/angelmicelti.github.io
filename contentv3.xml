@@ -237,7 +237,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <instance class="exe.engine.field.TextField">
                         <dictionary>
                          <string role="key" value="_id"></string>
-                         <int value="224"></int>
+                         <int value="226"></int>
                          <string role="key" value="_idevice"></string>
                          <none></none>
                          <string role="key" value="_instruc"></string>
@@ -251,7 +251,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </dictionary>
                        </instance>
                        <string role="key" value="_id"></string>
-                       <unicode value="8_85.4"></unicode>
+                       <unicode value="8_85.5"></unicode>
                        <string role="key" value="_imageResource"></string>
                        <instance class="exe.engine.resource.Resource" reference="16">
                         <dictionary>
@@ -262,7 +262,7 @@ text through the text editing buttons associated with the field."></unicode>
                          <string role="key" value="_storageName"></string>
                          <string value="Apuntes_electronica.png"></string>
                          <string role="key" value="_userName"></string>
-                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmp8ufgng\\Apuntes_electronica.png"></string>
+                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpzn59rp\\Apuntes_electronica.png"></string>
                          <string role="key" value="checksum"></string>
                          <string value="b45a99740db00bc7eb2aa9afdff69687"></string>
                          <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -787,7 +787,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </instance>
                   </dictionary>
                   <string role="key" value="nextImageId"></string>
-                  <int value="5"></int>
+                  <int value="6"></int>
                   <string role="key" value="parentNode"></string>
                   <reference key="9"></reference>
                  </dictionary>
@@ -1611,8 +1611,8 @@ text through the text editing buttons associated with the field."></unicode>
                   <dictionary></dictionary>
                   <string role="key" value="content_w_resourcePaths"></string>
                   <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;&quot;&gt;Escanea este código QR para instalar la app del Departamento:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;span style=&quot;font-family: 'comic sans ms', sans-serif; font-size: 14pt;&quot;&gt;&lt;img src=&quot;resources/GlideApp.png&quot; alt=&quot;Enlace a la aplicación&quot; title=&quot;Enlace a la aplicación&quot; width=&quot;180&quot; height=&quot;180&quot; /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;&quot;&gt;O haz click en &lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;este enlace &lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;resources/TecnoVilladiegoAppQR.png&quot; alt=&quot;QR de la App de Tecnovilladiego&quot; title=&quot;QR de la App de Tecnovilladiego&quot; width=&quot;197&quot; height=&quot;197&quot; style=&quot;margin: 10px;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;&quot;&gt;O haz click en &lt;a href=&quot;https://tecnovilladiego.glideapp.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;este enlace &lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                   <int value="4"></int>
                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1632,7 +1632,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <instance class="exe.engine.field.TextField">
                         <dictionary>
                          <string role="key" value="_id"></string>
-                         <int value="225"></int>
+                         <int value="228"></int>
                          <string role="key" value="_idevice"></string>
                          <none></none>
                          <string role="key" value="_instruc"></string>
@@ -1646,7 +1646,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </dictionary>
                        </instance>
                        <string role="key" value="_id"></string>
-                       <unicode value="13_85.21"></unicode>
+                       <unicode value="13_85.23"></unicode>
                        <string role="key" value="_imageResource"></string>
                        <instance class="exe.engine.resource.Resource" reference="39">
                         <dictionary>
@@ -1655,11 +1655,11 @@ text through the text editing buttons associated with the field."></unicode>
                          <string role="key" value="_package"></string>
                          <reference key="4"></reference>
                          <string role="key" value="_storageName"></string>
-                         <string value="GlideApp.png"></string>
+                         <string value="TecnoVilladiegoAppQR.png"></string>
                          <string role="key" value="_userName"></string>
-                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmp8ufgng\\GlideApp.png"></string>
+                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpon9ft8.eXe\\previews\\allyourbase\\TecnoVilladiegoAppQR.png"></string>
                          <string role="key" value="checksum"></string>
-                         <string value="51f70db635c1d66cb36945311d742546"></string>
+                         <string value="d7e034ff99b2046221870ca6c466714e"></string>
                          <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                          <int value="2"></int>
                          <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1686,7 +1686,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="intlinks_to_anchors"></string>
                   <dictionary></dictionary>
                   <string role="key" value="nextImageId"></string>
-                  <int value="22"></int>
+                  <int value="24"></int>
                   <string role="key" value="parentNode"></string>
                   <reference key="38"></reference>
                  </dictionary>
@@ -1965,7 +1965,7 @@ text through the text editing buttons associated with the field."></unicode>
           <string role="key" value="nextImageId"></string>
           <int value="0"></int>
           <string role="key" value="parentNode"></string>
-          <none></none>
+          <reference key="17"></reference>
          </dictionary>
         </instance>
         <string role="key" value="edit"></string>
@@ -2072,7 +2072,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="17"></reference>
+  <reference key="38"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3311,16 +3311,16 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="mxmlwidth"></string>
   <string value=""></string>
   <string role="key" value="release"></string>
-  <string value="2.5.1"></string>
+  <string value="2.6"></string>
   <string role="key" value="resources"></string>
   <dictionary>
-   <string role="key" value="51f70db635c1d66cb36945311d742546"></string>
-   <list>
-    <reference key="39"></reference>
-   </list>
    <string role="key" value="b45a99740db00bc7eb2aa9afdff69687"></string>
    <list>
     <reference key="16"></reference>
+   </list>
+   <string role="key" value="d7e034ff99b2046221870ca6c466714e"></string>
+   <list>
+    <reference key="39"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
