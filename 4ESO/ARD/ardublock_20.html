@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Ardublock | Arduino para 4º de ESO </title>
+<title>ArduBlock 2.0 | Arduino para 4º de ESO </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-25"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-178"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Arduino para 4º de ESO</div></div>
@@ -148,8 +148,9 @@
       <li><a href="snap4arduino.html" class="no-ch">Snap4Arduino</a></li>
       <li><a href="eblock.html" class="no-ch">eBlock</a></li>
       <li><a href="helloblocks.html" class="no-ch">Hello-blocks</a></li>
+      <li id="active"><a href="ardublock_20.html" class="active no-ch">ArduBlock 2.0</a></li>
       <li><a href="bitbloq.html" class="no-ch">BitBloq</a></li>
-      <li id="active"><a href="ardublock.html" class="active no-ch">Ardublock</a></li>
+      <li><a href="ardublock_extensin.html" class="no-ch">Ardublock (extensión)</a></li>
       <li><a href="kittenblock.html" class="no-ch">Kittenblock</a></li>
       <li><a href="mblock.html" class="no-ch">mBlock</a></li>
       <li><a href="mixly.html" class="no-ch">Mixly</a></li>
@@ -265,62 +266,20 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="bitbloq.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="kittenblock.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="helloblocks.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="bitbloq.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Ardublock</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id27">
+<div id="nodeDecoration"><h1 id="nodeTitle">ArduBlock 2.0</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id363">
 <div class="iDevice emphasis0">
-<div id="ta27_85" class="block iDevice_content">
-<p><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Ardublock es un applet de Java que se integra como una herramienta del IDE de Arduino.</span></p>
-<p><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><img src="2016-04-12_18_05_39-ArduBlock_untitled.png" width="643" height="481" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">El proceso de instalación es muy sencillo:</span></p>
-<ol>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Descarga Ardublock en <a href="https://sourceforge.net/projects/ardublock/files/latest/download?source=navbar">este enlace</a>.</span></li>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><span style="line-height: 1.5;">Desde Arduino IDE abrimos el menú Archivo → Preferencias y vemos donde guarda Arduino los 'sketchs'</span></span></li>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><span style="line-height: 1.5;">Cerramos Arduino IDE despues de marcar la casilla Verificar actualizaciones al iniciar.</span></span>
-<ul style="list-style-type: circle;">
-<li><span style="font-size: 14pt; line-height: 1.5; font-family: verdana, geneva, sans-serif;">En MAC <em>Documents/Arduino</em></span></li>
-<li><span style="font-size: 14pt; line-height: 1.5; font-family: verdana, geneva, sans-serif;">En Windows <em>Documents\Arduino</em></span></li>
-<li><span style="font-size: 14pt; line-height: 1.5; font-family: verdana, geneva, sans-serif;">En Linux <em>/home/usuario/sketchbook</em></span></li>
-</ul>
-</li>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><span style="line-height: 1.5;">Creamos la carpeta </span><em style="line-height: 1.5;"><strong>tools</strong> </em><span style="line-height: 1.5;">dentro de la carpeta sketchbook</span></span></li>
-<li><span style="font-size: 14pt; line-height: 1.5; font-family: verdana, geneva, sans-serif;">Creamos la carpeta <em><strong>ArduBlockTool</strong></em></span></li>
-<li><span style="font-size: 14pt; line-height: 1.5; font-family: verdana, geneva, sans-serif;">Creamos la carpeta <em><strong>tool</strong></em></span></li>
-<li><span style="font-size: 14pt; line-height: 1.5; font-family: verdana, geneva, sans-serif;">Y finalmente copiamos el fichero <em><strong>ardublock-all.jar</strong></em> allí. Quedará de la siguiente forma </span></li>
-<li><span style="font-size: 14pt; line-height: 1.5; font-family: verdana, geneva, sans-serif;">Para iniciar Arbublock arrancamos Arduino IDE y en el menú de Herramientas seleccionamos Ardublock.</span></li>
-</ol>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="http://blog.ardublock.com/2016/03/17/spanish-ardublock-video-tutorials-by-mazduino/" target="_blank" rel="noopener">Videotutoriales de Ardublock de MazDuino</a></span></p>
-<p><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"> </span></p>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice em_iDevice_preknowledge" id="id79">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">Ejemplos</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta79_41_2" class="block iDevice_content">
-<ol>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="https://brunetica.wordpress.com/2013/11/18/ardublock-leccin-1-intermitente/" target="_blank" rel="noopener">Intermitente.</a></span></li>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="https://brunetica.wordpress.com/2013/11/18/ardublock-leccin-2-funcin-repite/" target="_blank" rel="noopener">Función repite</a>.</span></li>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="https://brunetica.wordpress.com/2013/11/20/ardublock-leccin-3-condicional/" target="_blank" rel="noopener">Condicional.</a></span></li>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="https://brunetica.wordpress.com/2013/12/12/ardublock-leccin-4-leer-un-valor-analgico-y-mostrarlo-por-el-puerto-serial/" target="_blank" rel="noopener">Leer un valor analógico y mostrarlo por el puerto serie</a>.</span></li>
-<li><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="https://brunetica.wordpress.com/2014/01/15/ardublock-leccin-7-mapeado-de-una-variable-analgica/" target="_blank" style="line-height: 1.5;" rel="noopener">Mapeado de una variable analógica</a></span></li>
-</ol>
-<p><span style="font-size: medium;"></span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id204">
-<div class="iDevice emphasis0">
-<div id="ta204_85" class="block iDevice_content">
-<p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/YELw9l07qsg" allowfullscreen="allowfullscreen"></iframe></p>
+<div id="ta363_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Tiene buena pinta este recurso que he conocido recientemente.</span></p>
+<p><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><img src="http://ardublock.ru/en/software@2x8.png" alt="ArduBlock 2.0" title="ArduBlock 2.0" width="995" height="668" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Tiene una versión portable, que se puede descargar <a href="http://ardublock.ru/en/#doc" target="_blank" rel="noopener">aquí</a>. A la hora de descomprimir el archivo, emplea el código "0000".</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">También tiene disponible una <a href="http://ardublock.ru/pro/app2/www/" target="_blank" rel="noopener">versión on-line</a>.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Resulta sorprendente su <a href="http://ardublock.ru/wiki/en.html" target="_blank" rel="noopener">abundante documentación</a>, y tenemos disponible hasta <a href="https://www.youtube.com/channel/UCGJWZhMxCVJPY82_5RXPG5w/playlists" target="_blank" rel="noopener">varias listas de YouTube</a> con ejemplos con muchos sensores y actuadores.</span></p>
 </div>
 </div>
 </div>
@@ -331,7 +290,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="bitbloq.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="kittenblock.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="helloblocks.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="bitbloq.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
