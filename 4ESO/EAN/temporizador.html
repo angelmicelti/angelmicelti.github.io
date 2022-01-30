@@ -119,6 +119,7 @@
             <li><a href="multivibrador_astable.html" class="no-ch">Multivibrador astable</a></li>
             <li><a href="par_darlington.html" class="no-ch">Par Darlington</a></li>
             <li><a href="polarizacin_por_divisor_de_tensin.html" class="no-ch">Polarización por divisor de tensión</a></li>
+            <li><a href="detector_de_oscuridad_con_activacin_de_rel.html" class="no-ch">Detector de oscuridad con activación de relé</a></li>
          </ul>
          </li>
          <li><a href="recuerda_sobre_transistores.html" class="no-ch">Recuerda sobre transistores</a></li>
@@ -259,10 +260,19 @@
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Temporizador</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id230">
+<div class="iDevice_wrapper FreeTextIdevice" id="id275">
 <div class="iDevice emphasis0">
-<div id="ta230_85" class="block iDevice_content">
-<p><a href="temporizador1.lvw" title="Clic para descargar la simulación en Livewire"><img src="TTemporizador.png" alt="Temporizador con transistor" width="256" height="424" /></a></p>
+<div id="ta275_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a href="temporizador1.lvw"><img src="TTemporizador.png" alt="Haz clic para descargar el circuito en Livewire" title="Haz clic para descargar el circuito en Livewire" width="318" height="526" style="float: left; margin: 10px;" /></a>El funcionamiento de este circuito es bien sencillo.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">La clave del mismo es el estado del pulsador SW1.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si el pulsador SW1 está abierto, no habrá flujo de corriente ni hacia el condensador (que vamos a suponer que está inicialmente descargado), ni hacia la base del transistor. </span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Al no entrar corriente por la base del transistor, éste se encontrará en corte, por lo que el LED estará apagado (tampoco pasará corriente del colector al emisor).</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Cuando se pulsa el LED, la corriente fluye hacia el condensador y hacia la base del transistor. Vamos con lo primero:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Como en el recorrido hacia masa no hay ninguna resistencia, el condensador se cargará de forma instantánea (recuerda que la constante de tiempo es R·C, y R=0, por lo que el tiempo de carga será también 0 segundos). Una vez cargado, no habrá corriente que pase por el condensador (<a href="caractersticas_de_un_condensador.html" target="_blank" rel="noopener">recuerda el comportamiento</a>).</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Por otro lado, la corriente también podrá fluir hacia la base del transistor, haciéndolo conducir entre colector y emisor y provocando el encendido del LED. Esto sucederá, al menos, mientras se mantenga pulsado SW1.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Si se libera SW1, ya no fluye corriente desde el positivo de la alimentación. Sin embargo, recuerda que el condensador está cargado, y su terminal positivo toca a la base del transistor. Es por ello que puede funcionar como otra "pila", descargándose a través de la resistencia de 1K8.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En este caso, la constante de tiempo valdrá τ = R·C = 1800 Ω·150·10<sup>-6</sup> F = 1,35 s. Y el tiempo de descarga del condensador será 5·τ = 6,75 s. Esto garantiza que durante ese tiempo el transistor estará en conducción, permitiendo el paso de corriente entre colector y emisor y, por tanto, el encendido del LED.</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">En definitiva, podemos decir que, tras la activación del pulsador SW1 tendremos el LED encendido, produciéndose su apagado transcurridos 6,75 segundos desde la liberación del pulsador.</span></p>
 </div>
 </div>
 </div>
