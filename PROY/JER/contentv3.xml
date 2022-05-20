@@ -94,7 +94,7 @@
    <instance class="exe.engine.node.Node" reference="3">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="PROYECTO: PUERTA ENROLLABLE"></unicode>
+     <unicode value="PROYECTO: JERINGÓFORO"></unicode>
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.genericidevice.GenericIdevice" reference="1">
@@ -134,19 +134,8 @@
            <string role="key" value="buttonCaption"></string>
            <string value=""></string>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;
-&lt;span style=&quot;font-size: medium&quot;&gt;Bienvenid@s a este, vuestro primer proyecto de 3º de E.S.O.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p align=&quot;justify&quot;&gt;
-&lt;span style=&quot;font-size: medium&quot;&gt;No vamos a complicarnos demasiado. Lo que se trata es de que te acostumbres a manejar la documentación que empleamos en Tecnología.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p align=&quot;justify&quot;&gt;
-&lt;span style=&quot;font-size: medium&quot;&gt;Te voy a proporcionar el Anteproyecto ya redactado, para que te dediques sólo a la construcción.&lt;/span&gt;
-&lt;/p&gt;
-&lt;p align=&quot;justify&quot;&gt;
-&lt;span style=&quot;font-size: medium&quot;&gt;Más adelante, nos ocuparemos de redactar el propio documento. &lt;/span&gt;
-&lt;/p&gt;
-"></unicode>
+           <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Bienvenid@s a un nuevo proyecto para 3º de E.S.O.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Vamos a diseñar y construir un nuevo artilugio, que nos va a permitir manejar conceptos de electrónica analógica y, sí también, de programación.&lt;/span&gt;&lt;/p&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -342,7 +331,7 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE"></string>
+     <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -477,7 +466,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
                      <string role="key" value="_storageName"></string>
                      <string value="semaforo.jpg"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\semaforo.jpg"></string>
+                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\semaforo.jpg"></string>
                      <string role="key" value="checksum"></string>
                      <string value="abcf6e0251eca67958e862ff88022072"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -548,7 +537,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:1.%20PROPUESTA%20DE%20TRABAJO"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:1.%20PROPUESTA%20DE%20TRABAJO"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -697,7 +686,7 @@ mso-bidi-language:#0400;}
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:2.%20INVESTIGACI%C3%93N%20Y%20DOCUMENTACI%C3%93N"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:2.%20INVESTIGACI%C3%93N%20Y%20DOCUMENTACI%C3%93N"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -750,7 +739,7 @@ mso-bidi-language:#0400;}
               <string value=""></string>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;p style=&quot;text-align: justify;&quot;&gt;Como se puede ver en el croquis, se colocará una carcasa de contrachapado para encerrar el montaje electrónico sobre una jeringa de 10 ml, a la que se le cortará el extremo por el que sale el líquido.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;El montaje electrónico mencionado se montará en una clema recortada, siguiendo el lo que que se puede ver en el &lt;a href=&quot;exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top&quot;&gt;esquema eléctrico&lt;/a&gt;. &lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;El montaje electrónico mencionado se montará en una clema recortada, siguiendo el lo que que se puede ver en el &lt;a href=&quot;exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top&quot;&gt;esquema eléctrico&lt;/a&gt;. &lt;/p&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;La propia jeringa, aparte de ser un elemento estructural, servirá para ocultar los cables que provienen de la clema de la carcasa y llegarán hasta la clema exterior, que permitirá la conexión a la fuente de alimentación o al circuito que vaya a controlar el dispositivo.&lt;/p&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -771,7 +760,7 @@ mso-bidi-language:#0400;}
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary>
-               <unicode role="key" value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top"></unicode>
+               <unicode role="key" value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top"></unicode>
                <instance class="exe.engine.node.Node" reference="18">
                 <dictionary>
                  <string role="key" value="_title"></string>
@@ -907,7 +896,7 @@ mso-bidi-language:#0400;}
                               <string role="key" value="_storageName"></string>
                               <string value="EsquemaElectronico.png"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\EsquemaElectronico.png"></string>
+                              <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\EsquemaElectronico.png"></string>
                               <string role="key" value="checksum"></string>
                               <string value="4ddab9b37fd91c9ffe055b05d829cd30"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1115,7 +1104,7 @@ mso-bidi-language:#0400;}
                  <string role="key" value="exportType"></string>
                  <string value="website"></string>
                  <string role="key" value="last_full_node_path"></string>
-                 <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Esquema%20el%C3%A9ctrico"></string>
+                 <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Esquema%20el%C3%A9ctrico"></string>
                  <string role="key" value="parent"></string>
                  <instance class="exe.engine.node.Node" reference="28">
                   <dictionary>
@@ -1156,11 +1145,11 @@ text through the text editing buttons associated with the field."></unicode>
                         <string role="key" value="anchors_linked_from_fields"></string>
                         <dictionary></dictionary>
                         <string role="key" value="content_w_resourcePaths"></string>
-                        <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Boceto#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;BOCETO DEL PROYECTO&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Croquis#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CROQUIS&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Vistas#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;VISTAS&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ESQUEMA ELÉCTRICO&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Lista%20de%20piezas#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;LISTA DE PIEZAS&lt;/a&gt;&lt;/p&gt;"></unicode>
+                        <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Boceto#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;BOCETO DEL PROYECTO&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Croquis#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CROQUIS&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Vistas#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;VISTAS&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ESQUEMA ELÉCTRICO&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Lista%20de%20piezas#auto_top&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;LISTA DE PIEZAS&lt;/a&gt;&lt;/p&gt;"></unicode>
                         <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                         <int value="4"></int>
                         <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1180,7 +1169,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </instance>
                         <string role="key" value="intlinks_to_anchors"></string>
                         <dictionary>
-                         <unicode role="key" value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Boceto#auto_top"></unicode>
+                         <unicode role="key" value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Boceto#auto_top"></unicode>
                          <instance class="exe.engine.node.Node" reference="26">
                           <dictionary>
                            <string role="key" value="_title"></string>
@@ -1269,7 +1258,7 @@ text through the text editing buttons associated with the field."></unicode>
                                         <string role="key" value="_storageName"></string>
                                         <string value="jeringoforo.jpg"></string>
                                         <string role="key" value="_userName"></string>
-                                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\jeringoforo.jpg"></string>
+                                        <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\jeringoforo.jpg"></string>
                                         <string role="key" value="checksum"></string>
                                         <string value="e323a847ce81734ea9ba4368056541fb"></string>
                                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1340,7 +1329,7 @@ text through the text editing buttons associated with the field."></unicode>
                            <string role="key" value="exportType"></string>
                            <string value="website"></string>
                            <string role="key" value="last_full_node_path"></string>
-                           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Boceto"></string>
+                           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Boceto"></string>
                            <string role="key" value="parent"></string>
                            <reference key="28"></reference>
                            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1351,7 +1340,7 @@ text through the text editing buttons associated with the field."></unicode>
                            <list></list>
                           </dictionary>
                          </instance>
-                         <unicode role="key" value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Croquis#auto_top"></unicode>
+                         <unicode role="key" value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Croquis#auto_top"></unicode>
                          <instance class="exe.engine.node.Node" reference="31">
                           <dictionary>
                            <string role="key" value="_title"></string>
@@ -1456,7 +1445,7 @@ text through the text editing buttons associated with the field."></unicode>
                            <string role="key" value="exportType"></string>
                            <string value="website"></string>
                            <string role="key" value="last_full_node_path"></string>
-                           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Croquis"></string>
+                           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Croquis"></string>
                            <string role="key" value="parent"></string>
                            <reference key="28"></reference>
                            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1467,9 +1456,9 @@ text through the text editing buttons associated with the field."></unicode>
                            <list></list>
                           </dictionary>
                          </instance>
-                         <unicode role="key" value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top"></unicode>
+                         <unicode role="key" value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Esquema%20el%C3%A9ctrico#auto_top"></unicode>
                          <reference key="18"></reference>
-                         <unicode role="key" value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Lista%20de%20piezas#auto_top"></unicode>
+                         <unicode role="key" value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Lista%20de%20piezas#auto_top"></unicode>
                          <instance class="exe.engine.node.Node" reference="33">
                           <dictionary>
                            <string role="key" value="_title"></string>
@@ -1542,7 +1531,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza01.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza01.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza01.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="0f208bd07128d95682d234ed91ea191d"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1565,7 +1554,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza01Thumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza01Thumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza01Thumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="052ea97a7aa2cf20e349be57ae9db911"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1618,7 +1607,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza02.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza02.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza02.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="bad87e1846538b95a9b419b207586b6e"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1641,7 +1630,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza02Thumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza02Thumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza02Thumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="d71e84ab4c7d31b29d1a85c7b0a6f64f"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1694,7 +1683,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza03.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza03.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza03.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="07c1e2bd32706738580bc42fa8b0068e"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1717,7 +1706,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza03Thumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza03Thumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza03Thumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="9a314f50ee19768c265ee2237040acbe"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1770,7 +1759,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza04.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza04.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza04.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="99feece04a5f1efa2527e9d3470257b9"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1793,7 +1782,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza04Thumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza04Thumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza04Thumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="5ace40264fcf1fafd25016a0d2aa02d5"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1846,7 +1835,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza05.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza05.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza05.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="52c4cce3cf733753fd99fc42d1b4a14d"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1869,7 +1858,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza05Thumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza05Thumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza05Thumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="5ca55fb8ffbf709a38ddb17d79573049"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1922,7 +1911,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza06.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza06.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza06.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="5f5db5d1a8494b7975cd1eb14c44b4ab"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1945,7 +1934,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza06Thumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza06Thumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza06Thumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="68198014848253a883df39993ea04ae6"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1998,7 +1987,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza07.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza07.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza07.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="08c051963792a2c9f2dac81b72a5cb9f"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2021,7 +2010,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="Pieza07Thumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\Pieza07Thumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\Pieza07Thumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="fb5342ffdc243e31375152d8577cd9b6"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2074,7 +2063,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="clema4corta.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\clema4corta.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\clema4corta.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="01b04556ed74dc4040a65deb79ccf8e9"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2097,7 +2086,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="clema4cortaThumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\clema4cortaThumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\clema4cortaThumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="e368c2f24babbc9e4ba23378b7ba1ad3"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2150,7 +2139,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="clema4larga.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\clema4larga.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\clema4larga.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="aba71ebc6d90e85bfa828ee3ce6bc8cb"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2173,7 +2162,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="clema4largaThumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\clema4largaThumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\clema4largaThumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="a969734c811353e6e72fb2624f71ae98"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2226,7 +2215,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="CableDupontMM.jpg"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\CableDupontMM.jpg"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\CableDupontMM.jpg"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="372bfcafc63be5a4f7a25b43410e1bd7"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2249,7 +2238,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="CableDupontMMThumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\CableDupontMMThumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\CableDupontMMThumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="10b9882dc2d3954cf95ebde3b076c89e"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2302,7 +2291,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="MiniBreadboard.jpg"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\MiniBreadboard.jpg"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\MiniBreadboard.jpg"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="0ece9bd0adb5a62cba2144406c5d3724"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2325,7 +2314,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                                      <string role="key" value="_storageName"></string>
                                      <string value="MiniBreadboardThumbnail.png"></string>
                                      <string role="key" value="_userName"></string>
-                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\MiniBreadboardThumbnail.png"></string>
+                                     <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\MiniBreadboardThumbnail.png"></string>
                                      <string role="key" value="checksum"></string>
                                      <string value="62e4b406e07927eb1e6a29b7437079f4"></string>
                                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2405,7 +2394,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                            <string role="key" value="exportType"></string>
                            <string value="website"></string>
                            <string role="key" value="last_full_node_path"></string>
-                           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Lista%20de%20piezas"></string>
+                           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Lista%20de%20piezas"></string>
                            <string role="key" value="parent"></string>
                            <reference key="28"></reference>
                            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2416,7 +2405,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                            <list></list>
                           </dictionary>
                          </instance>
-                         <unicode role="key" value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Vistas#auto_top"></unicode>
+                         <unicode role="key" value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Vistas#auto_top"></unicode>
                          <instance class="exe.engine.node.Node" reference="56">
                           <dictionary>
                            <string role="key" value="_title"></string>
@@ -2434,7 +2423,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                            <string role="key" value="exportType"></string>
                            <string value="website"></string>
                            <string role="key" value="last_full_node_path"></string>
-                           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS:Vistas"></string>
+                           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS:Vistas"></string>
                            <string role="key" value="parent"></string>
                            <reference key="28"></reference>
                            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2494,7 +2483,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                    <string role="key" value="exportType"></string>
                    <string value="website"></string>
                    <string role="key" value="last_full_node_path"></string>
-                   <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:4.%20PLANOS"></string>
+                   <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:4.%20PLANOS"></string>
                    <string role="key" value="parent"></string>
                    <reference key="3"></reference>
                    <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2560,7 +2549,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:3.%20DESCRIPCI%C3%93N%20DE%20LA%20SOLUCI%C3%93N"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:3.%20DESCRIPCI%C3%93N%20DE%20LA%20SOLUCI%C3%93N"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2587,7 +2576,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2734,7 +2723,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:De%20medida%20y%20trazado"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:De%20medida%20y%20trazado"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2884,7 +2873,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20corte"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20corte"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3039,7 +3028,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20taladrado"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20taladrado"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3187,7 +3176,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20acabado"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20acabado"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3341,7 +3330,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20sujeci%C3%B3n"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20sujeci%C3%B3n"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3458,7 +3447,7 @@ font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20percusi%C3%B3n"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20percusi%C3%B3n"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3602,7 +3591,7 @@ mso-bidi-language:#0400;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20giro"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20de%20giro"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3717,7 +3706,7 @@ mso-bidi-language:#0400;}
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20para%20uni%C3%B3n%20y%20pegado"></string>
+           <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:5.%20LISTA%20DE%20HERRAMIENTAS:Herramientas%20para%20uni%C3%B3n%20y%20pegado"></string>
            <string role="key" value="parent"></string>
            <reference key="61"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4300,7 +4289,7 @@ mso-bidi-language:#0400;}
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:6.%20LISTA%20DE%20MATERIALES"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:6.%20LISTA%20DE%20MATERIALES"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4416,7 +4405,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:7.%20HOJA%20DE%20PROCESO"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:7.%20HOJA%20DE%20PROCESO"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4655,7 +4644,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:8.%20PRESUPUESTO"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:8.%20PRESUPUESTO"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4748,7 +4737,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="programaArduinoblocks.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpgkkzib\\programaArduinoblocks.png"></string>
+                    <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpjkdzti\\programaArduinoblocks.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="f15573c91f9bd3ad06883f52cff83c5d"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4826,7 +4815,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:PROYECTO%3A%20PUERTA%20ENROLLABLE:9.%20PROGRAMACI%C3%93N%20CON%20ARDUINOBLOCKS"></string>
+        <string value="exe-node:PROYECTO%3A%20JERING%C3%93FORO:9.%20PROGRAMACI%C3%93N%20CON%20ARDUINOBLOCKS"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4900,7 +4889,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="33"></reference>
+  <reference key="102"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
