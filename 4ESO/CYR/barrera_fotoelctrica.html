@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Pantallas LCD | Control y robótica 4º E.S.O. </title>
+<title>Barrera fotoeléctrica | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-95"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-100"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -58,8 +58,8 @@
       <li><a href="53_arquitectura_de_un_robot.html" class="no-ch">5.3. Arquitectura de un robot</a></li>
    </ul>
    </li>
-   <li><a href="6_sensores.html" class="daddy">6. Sensores</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="6_sensores.html" class="current-page-parent daddy">6. Sensores</a>
+   <ul>
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
@@ -74,14 +74,14 @@
       </li>
       <li><a href="potencimetro.html" class="no-ch">Potenciómetro</a></li>
       <li><a href="joystick.html" class="no-ch">Joystick</a></li>
-      <li><a href="lumnicos.html" class="daddy">Lumínicos</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="lumnicos.html" class="current-page-parent daddy">Lumínicos</a>
+      <ul>
          <li><a href="fotorresistencia_ldr.html" class="no-ch">Fotorresistencia LDR</a></li>
          <li><a href="fototransistor_bpw40.html" class="no-ch">Fototransistor BPW40</a></li>
          <li><a href="sensor_ir_vs1838.html" class="no-ch">Sensor IR VS1838</a></li>
          <li><a href="cny70.html" class="no-ch">CNY70</a></li>
          <li><a href="tcrt5000.html" class="no-ch">TCRT5000</a></li>
-         <li><a href="barrera_fotoelctrica.html" class="no-ch">Barrera fotoeléctrica</a></li>
+         <li id="active"><a href="barrera_fotoelctrica.html" class="active no-ch">Barrera fotoeléctrica</a></li>
       </ul>
       </li>
       <li><a href="trmicos.html" class="daddy">Térmicos</a>
@@ -126,8 +126,8 @@
       <li><a href="de_efecto_hall.html" class="no-ch">De efecto Hall</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="7_actuadores.html" class="current-page-parent daddy">7. Actuadores</a>
-   <ul>
+   <li><a href="7_actuadores.html" class="daddy">7. Actuadores</a>
+   <ul class="other-section">
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
@@ -135,7 +135,7 @@
          <li><a href="matrices_de_ledes.html" class="no-ch">Matrices de ledes</a></li>
       </ul>
       </li>
-      <li id="active"><a href="pantallas_lcd.html" class="active no-ch">Pantallas LCD</a></li>
+      <li><a href="pantallas_lcd.html" class="no-ch">Pantallas LCD</a></li>
       <li><a href="rels.html" class="daddy">Relés</a>
       <ul class="other-section">
          <li><a href="circuitos_sencillos_con_rels.html" class="no-ch">Circuitos sencillos con relés</a></li>
@@ -178,21 +178,18 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="matrices_de_ledes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="rels.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="tcrt5000.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="trmicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Pantallas LCD</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id147">
+<div id="nodeDecoration"><h1 id="nodeTitle">Barrera fotoeléctrica</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id155">
 <div class="iDevice emphasis0">
-<div id="ta147_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Las pantallas LCD nos permiten escribir texto, empleando caracteres alfanuméricos. Las hay, principalmente, de dos y de cuatro líneas.</span></p>
-<p style="text-align: center;"><em><strong><span style="font-family: verdana, geneva, sans-serif;">DE 16 COLUMNAS Y 2 FILAS (MÓDULOS 1602)</span></strong></em></p>
-<p style="text-align: center;"><em></em></p>
-<p><span style="font-family: verdana, geneva, sans-serif;"><img src="https://wiki.keyestudio.com/images/2/2b/KS0061_%286%29.png" alt="Módulo 1602 I2C" title="Módulo 1602 I2C" width="553" height="318" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p style="text-align: center;"><em><strong><span style="font-family: verdana, geneva, sans-serif;">DE 20 COLUMNAS Y 4 FILAS (MÓDULOS 2004)</span></strong></em></p>
-<p><span style="font-family: verdana, geneva, sans-serif;"><img src="https://wiki.keyestudio.com/images/6/67/Ks0062-2-1.png" alt="Módulo 2004 I2C" title="Módulo 2004 I2C" width="400" height="405" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<div id="ta155_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Este sensor contiene un emisor y un detector infrarrojos, de suerte tal que continuamente hay un haz de luz infrarroja de uno a otro. Se podrá detectar un objeto que interrumpa el haz, lo cual puede dar a diversas aplicaciones.</span></p>
+<p><a href="https://wiki.keyestudio.com/images/thumb/9/9c/KS0009_%283%29.jpg/750px-KS0009_%283%29.jpg" target="_blank" rel="noopener"><br /><img src="https://wiki.keyestudio.com/images/thumb/9/9c/KS0009_%283%29.jpg/750px-KS0009_%283%29.jpg" alt="Fotointerruptor" title="Fotointerruptor" width="400" height="400" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+<p><span style="font-family: verdana, geneva, sans-serif;">Puedes obtener mas información de carácter técnico en <a href="https://wiki.keyestudio.com/images/thumb/9/9c/KS0009_%283%29.jpg/750px-KS0009_%283%29.jpg" target="_blank" rel="noopener">este enlace</a>.</span></p>
 </div>
 </div>
 </div>
@@ -200,7 +197,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="matrices_de_ledes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="rels.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="tcrt5000.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="trmicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
