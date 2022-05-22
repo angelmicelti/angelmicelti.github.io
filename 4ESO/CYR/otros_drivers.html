@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Joystick | Control y robótica 4º E.S.O. </title>
+<title>Otros drivers | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -15,7 +15,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-89"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-104"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Control y robótica 4º E.S.O.</div></div>
@@ -58,8 +58,8 @@
       <li><a href="53_arquitectura_de_un_robot.html" class="no-ch">5.3. Arquitectura de un robot</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="6_sensores.html" class="current-page-parent daddy">6. Sensores</a>
-   <ul>
+   <li><a href="6_sensores.html" class="daddy">6. Sensores</a>
+   <ul class="other-section">
       <li><a href="interruptores_y_pulsadores.html" class="daddy">Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="aplicaciones.html" class="no-ch">Aplicaciones</a></li>
@@ -73,7 +73,7 @@
       </ul>
       </li>
       <li><a href="potencimetro.html" class="no-ch">Potenciómetro</a></li>
-      <li id="active"><a href="joystick.html" class="active no-ch">Joystick</a></li>
+      <li><a href="joystick.html" class="no-ch">Joystick</a></li>
       <li><a href="lumnicos.html" class="daddy">Lumínicos</a>
       <ul class="other-section">
          <li><a href="fotorresistencia_ldr.html" class="no-ch">Fotorresistencia LDR</a></li>
@@ -127,8 +127,8 @@
       <li><a href="de_efecto_hall.html" class="no-ch">De efecto Hall</a></li>
    </ul>
    </li>
-   <li><a href="7_actuadores.html" class="daddy">7. Actuadores</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="7_actuadores.html" class="current-page-parent daddy">7. Actuadores</a>
+   <ul>
       <li><a href="led.html" class="daddy">LED</a>
       <ul class="other-section">
          <li><a href="led_rgb.html" class="no-ch">LED RGB</a></li>
@@ -144,19 +144,19 @@
          <li><a href="prcticas_con_rels.html" class="no-ch">Prácticas con relés</a></li>
       </ul>
       </li>
-      <li><a href="motores.html" class="daddy">Motores</a>
-      <ul class="other-section">
-         <li><a href="motor_dc.html" class="daddy">Motor D.C.</a>
-         <ul class="other-section">
-            <li><a href="control_de_motores_dc.html" class="daddy">Control de motores D.C.</a>
-            <ul class="other-section">
+      <li class="current-page-parent"><a href="motores.html" class="current-page-parent daddy">Motores</a>
+      <ul>
+         <li class="current-page-parent"><a href="motor_dc.html" class="current-page-parent daddy">Motor D.C.</a>
+         <ul>
+            <li class="current-page-parent"><a href="control_de_motores_dc.html" class="current-page-parent daddy">Control de motores D.C.</a>
+            <ul>
                <li><a href="control_con_llave_de_cruce.html" class="no-ch">Control con llave de cruce</a></li>
                <li><a href="control_con_interruptor_dpdd.html" class="no-ch">Control con interruptor DPDD</a></li>
                <li><a href="control_mediante_puente_en_h.html" class="no-ch">Control mediante puente en H</a></li>
                <li><a href="control_con_rels.html" class="no-ch">Control con relés</a></li>
                <li><a href="control_con_circuito_electrnico_puente_en_h_con_transistores.html" class="no-ch">Control con circuito electrónico: puente en H con transistores</a></li>
                <li><a href="control_con_el_driver_l293d.html" class="no-ch">Control con el driver L293D</a></li>
-               <li><a href="otros_drivers.html" class="no-ch">Otros drivers</a></li>
+               <li id="active"><a href="otros_drivers.html" class="active no-ch">Otros drivers</a></li>
             </ul>
             </li>
          </ul>
@@ -182,20 +182,33 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="potencimetro.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lumnicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="control_con_el_driver_l293d.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="servomotor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Joystick</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id141">
-<div class="iDevice emphasis0">
-<div id="ta141_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Un joystick es un componente que nos permite transmitir dos variables analógicas, normalmente relacionadas con la posición.</span></p>
-<p><a href="https://wiki.keyestudio.com/index.php/Ks0008_keyestudio_Joystick_Module" target="_blank" rel="noopener"><span style="font-family: verdana, geneva, sans-serif;"><img src="https://images-na.ssl-images-amazon.com/images/I/41CScnrMzFL._SX425_.jpg" alt="Joystick" width="425" height="425" style="display: block; margin-left: auto; margin-right: auto;" title="Joystick" /></span></a></p>
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Consiste en dos potenciómetros, uno que regula el eje X, y otro que regula el eje Y. A estas direcciones se les llama <strong>grados de libertad</strong>. Diremos, pues, que el joystick nos permite obtener </span><span style="font-family: verdana, geneva, sans-serif;"><strong>dos señales analógicas,</strong> referidas a <strong>dos grados de libertad de un sistema.</strong></span></p>
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Podemos encontrar joysticks que tengan también un pulsador, que se acciona al empujar la palanca hacia abajo. Es el caso del joystick de la imagen, lo cual sabemos porque, junto a los pines analógicos (VRx y VRy) que vemos en la placa, encontramos también un tercero, SW (switch). Por tanto, en este pulsador tendremos un total de <strong>tres señales:</strong> dos analógicas y una digital.</span></p>
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Puedes obtener más información de carácter técnico en <a href="https://wiki.keyestudio.com/index.php/Ks0008_keyestudio_Joystick_Module" target="_blank" rel="noopener">este enlace</a>.</span></p>
+<div id="nodeDecoration"><h1 id="nodeTitle">Otros drivers</h1></div>
+<div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id161">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">TB6612FNG</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta161_181_2" class="block iDevice_content">
+<p><a href="https://wiki.keyestudio.com/Ks0066_keyestudio_TB6612FNG_Motor_Driver" target="_blank" rel="noopener"><img src="https://wiki.keyestudio.com/images/thumb/6/65/Ks0066-1.png/750px-Ks0066-1.png" alt="TB6612FNG" title="TB6612FNG" width="750" height="600" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id162">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">L9110</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta162_182_2" class="block iDevice_content">
+<p><a href="http://me.web2.ncut.edu.tw/ezfiles/39/1039/img/617/L9110_2_CHANNEL_MOTOR_DRIVER.pdf" target="_blank" rel="noopener"><img src="https://github.com/angelmicelti/Arduineando-en-la-E.S.O./raw/master/wiki/CocheBT/L293DPCB.jpg" alt="Driver L9110" title="Driver L9110" width="500" height="500" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -203,7 +216,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="potencimetro.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lumnicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="control_con_el_driver_l293d.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="servomotor.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
