@@ -272,7 +272,8 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: verdana, geneva;&quot;&gt;En 1977 Apple lanza al mercado el &lt;b&gt;Apple II&lt;/b&gt;, el que podemos considerar el primer ordenador personal (PC) de la Historia.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: verdana, geneva;&quot;&gt;En &lt;b&gt;1990&lt;/b&gt; comienzan a montarse las &lt;b&gt;fábricas totalmente automatizadas&lt;/b&gt;.&lt;img src=&quot;resources/arduino.jpg&quot; width=&quot;305&quot; height=&quot;306&quot; title=&quot;placa Arduino Uno&quot; style=&quot;margin-left: 10px; margin-right: 10px; float: right;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: verdana, geneva;&quot;&gt;En el año 2005, los ingenieros Massimo Banzi, Hernando Barragán y David Cuartielles inventan la plataforma &lt;b&gt;Arduino.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: verdana, geneva;&quot;&gt;Finalmente, en el año 2016, se presenta la &lt;a href=&quot;https://github.com/FPGAwars/icezum/wiki&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IceZum Alhambra&lt;/a&gt;, una FPGA (&lt;em&gt;Field Programmable Gate Array&lt;/em&gt;) que puede programarse con &lt;a href=&quot;https://icestudio.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IceStudio&lt;/a&gt;, una herramienta gráfica que nos permite múltiples posibilidades.&lt;/span&gt;&lt;/p&gt;"></unicode>
+&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: verdana, geneva;&quot;&gt;Finalmente, en el año 2016, se presenta la &lt;a href=&quot;https://github.com/FPGAwars/icezum/wiki&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IceZum Alhambra&lt;/a&gt;, una FPGA (&lt;em&gt;Field Programmable Gate Array&lt;/em&gt;) que puede programarse con &lt;a href=&quot;https://icestudio.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IceStudio&lt;/a&gt;, una herramienta gráfica que nos permite múltiples posibilidades.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: verdana, geneva;&quot;&gt;&lt;img src=&quot;https://github.com/FPGAwars/Alhambra-II-FPGA/raw/master/wiki/V1.0/Alhambra-II-01.jpg&quot; alt=&quot;Placa Alhambra II&quot; title=&quot;Placa Alhambra II&quot; width=&quot;465&quot; height=&quot;368&quot; style=&quot;float: left; margin: 10px 10º 10px 10º;&quot; /&gt;Posteriormente, se desarrolla su evolución, la placa Alhambra II, que tiene mejores prestaciones, y cuyo aspecto puedes ver a la izquierda.&lt;/span&gt;&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -26321,7 +26322,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="423"></reference>
+  <reference key="7"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
