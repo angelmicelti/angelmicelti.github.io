@@ -2,23 +2,21 @@
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
-<link rel="stylesheet" type="text/css" href="exe_highlighter.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Pinza robótica con servos (LEANTEC) | Arduino para 4º de ESO </title>
+<title>3º E.S.O. | Arduino para 4º de ESO </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
 <script type="text/javascript" src="exe_jquery.js"></script>
-<script type="text/javascript" src="exe_highlighter.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-94"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-181"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header" ><div id="headerContent">Arduino para 4º de ESO</div></div>
@@ -144,12 +142,12 @@
       <li><a href="arduino_simulator.html" class="no-ch">Arduino Simulator</a></li>
    </ul>
    </li>
-   <li><a href="programacin_grfica_de_arduino.html" class="daddy">Programación gráfica de Arduino</a>
-   <ul class="other-section">
-      <li><a href="arduinoblocks.html" class="daddy">Arduinoblocks</a>
-      <ul class="other-section">
+   <li class="current-page-parent"><a href="programacin_grfica_de_arduino.html" class="current-page-parent daddy">Programación gráfica de Arduino</a>
+   <ul>
+      <li class="current-page-parent"><a href="arduinoblocks.html" class="current-page-parent daddy">Arduinoblocks</a>
+      <ul>
          <li><a href="recursos.html" class="no-ch">Recursos</a></li>
-         <li><a href="3_eso.html" class="no-ch">3º E.S.O.</a></li>
+         <li id="active"><a href="3_eso.html" class="active no-ch">3º E.S.O.</a></li>
          <li><a href="4_eso.html" class="no-ch">4º E.S.O.</a></li>
       </ul>
       </li>
@@ -186,10 +184,10 @@
       <li><a href="labview_nxg.html" class="no-ch">LabView NXG</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="proyectos.html" class="current-page-parent daddy">Proyectos</a>
-   <ul>
+   <li><a href="proyectos.html" class="daddy">Proyectos</a>
+   <ul class="other-section">
       <li><a href="cucoclock.html" class="no-ch">Cucoclock</a></li>
-      <li id="active"><a href="pinza_robtica_con_servos_leantec.html" class="active no-ch">Pinza robótica con servos (LEANTEC)</a></li>
+      <li><a href="pinza_robtica_con_servos_leantec.html" class="no-ch">Pinza robótica con servos (LEANTEC)</a></li>
       <li><a href="barrera_de_aparcamiento.html" class="no-ch">Barrera de aparcamiento</a></li>
       <li><a href="puerta_de_cochera.html" class="no-ch">Puerta de cochera</a></li>
       <li><a href="puente_levadizo.html" class="no-ch">Puente levadizo</a></li>
@@ -274,74 +272,58 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="cucoclock.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="barrera_de_aparcamiento.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="recursos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_eso.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Pinza robótica con servos (LEANTEC)</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id171">
-<div class="iDevice emphasis0">
-<div id="ta171_85" class="block iDevice_content">
-<div class="highlighted-code language-cpp line-numbers">
-<div>
-<pre><code>#include &lt;Servo.h&gt; 
-
-Servo servomuneca;  //Creamos el servo de la muñeca
-Servo servopinza;  // Creamos el servo de la pinza
-
-int angulomuneca = 0;//Creamos la variable angulomuneca
-int angulopinza = 0;//Creamos la variable angulopinza
-
-int valorPotenciometro1 = 0;//Creamos la variable valorPotenciometro1
-int valorPotenciometro2 = 0;//Creamos la variable valorPotenciometro2
- 
-void setup() 
-{ 
-  Serial.begin(9600);//Inicializamos el puerto serie
-  servomuneca.attach(8);//Definimos el pin de servomuneca
-  servomuneca.write(90);//Ponemos el servo a 90 grados  
-  servopinza.attach(9);//Definimos el pin de servopinza
-  servopinza.write(90);//Ponemos el servo a 90 grados  
-  delay(2000);//Esperamos 2 segundos  
-} 
- 
-void loop() 
-{ 
-  //Lee el valor del potenciometro
-  valorPotenciometro1 = analogRead (0);//Leemos el valor del poten. 1
-  valorPotenciometro2 = analogRead (1);//Leemos el valor del poten. 2
-  
-  /*Mapeamos el valor de los potenciometros para que el valor leido
-  siempre este entre 10 y 180 grados y lo guardamos en la variables 
-  declaradas para almacenar los ángulos*/
-  angulomuneca = map (valorPotenciometro1, 0, 1023, 10, 180);
-  angulopinza = map (valorPotenciometro2, 0, 1023, 10, 180);
-  
-  
-  servomuneca.write(angulomuneca);//Damos al servo el ángulo resultante 
-  servopinza.write(angulopinza);//Damos al servo el ángulo resultante                   
-  
-
- } 
-</code></pre>
-</div>
-</div>
-<p></p>
+<div id="nodeDecoration"><h1 id="nodeTitle">3º E.S.O.</h1></div>
+<div class="iDevice_wrapper objectivesIdevice em_iDevice em_iDevice_objectives" id="id184">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Arduinoblocks para 3º de E.S.O.</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta184_184_2" class="block iDevice_content">
+<p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><a href="http://www.arduinoblocks.com/web/project/4874" target="_blank" rel="noopener">Coche fantástico (V1)</a></span></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><a href="http://www.arduinoblocks.com/web/project/editor/32637" target="_blank" rel="noopener">Coche fantástico (V2)</a></span></p>
+<p style="text-align: center;"><span style="font-family: verdana, geneva, sans-serif; font-size: 14pt;"><a href="http://www.arduinoblocks.com/web/project/editor/32649" target="_blank" rel="noopener">Coche fantástico (V3)</a></span></p>
 </div>
 </div>
 </div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id172">
-<div class="iDevice emphasis0">
-<div id="ta172_85" class="block iDevice_content">
-<p>Vamos a utilizar el kit proporcionado por la empresa sevillana LEANTEC, disponible en <a href="http://www.leantec.es/robotica/146-pinza-robotica-de-aluminio-con-servos.html" target="_blank">este enlace</a></p>
-<p></p>
-<p style="text-align: center;"><strong>DIMENSIONES DE LA PINZA</strong></p>
-<p style="text-align: center;"><img src="dimensiones_pinza.jpg" alt="" width="600" height="389" /></p>
-<p style="text-align: center;"><strong>CONEXIÓN DEL SERVO</strong></p>
-<p style="text-align: center;"><img src="futabaconnector.png" alt="" width="362" height="288" /></p>
-<p style="text-align: center;"><strong>ESQUEMA DE MONTAJE</strong></p>
-<p style="text-align: center;"><img src="esquema_de_conexion_de_la_pinza.jpg" alt="" width="800" height="1076" /></p>
+</div>
+</div>
+<div class="iDevice_wrapper preknowledgeIdevice em_iDevice em_iDevice_preknowledge" id="id186">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Proyectos abiertos para el alumnado de 3º</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta186_186_2" class="block iDevice_content">
+<table style="margin-left: auto; margin-right: auto; width: 489px;">
+<tbody>
+<tr data-key="8">
+<td style="width: 335.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="http://www.arduinoblocks.com/web/project/students/747">PMAR18: Servo1</a></span></td>
+<td style="width: 139.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">42q7Lmgz</span></td>
+</tr>
+<tr data-key="9">
+<td style="width: 335.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="http://www.arduinoblocks.com/web/project/students/742">PMAR18: Latido 7-5-2018</a></span></td>
+<td style="width: 139.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">Lo2oOiP9</span></td>
+</tr>
+<tr data-key="10">
+<td style="width: 335.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="http://www.arduinoblocks.com/web/project/students/741">PMAR18: Led blink 7-5-2018</a></span></td>
+<td style="width: 139.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">f6JXC0FL</span></td>
+</tr>
+<tr data-key="11">
+<td style="width: 335.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="http://www.arduinoblocks.com/web/project/students/704">PMAR18: Semáforo</a></span></td>
+<td style="width: 139.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">EBcno7ch</span></td>
+</tr>
+<tr data-key="12">
+<td style="width: 335.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;"><a href="http://www.arduinoblocks.com/web/project/students/694">PMAR18 - CucoClock</a></span></td>
+<td style="width: 139.2px;"><span style="font-size: 14pt; font-family: verdana, geneva, sans-serif;">@JWYM@gt</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -352,7 +334,7 @@ void loop()
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="cucoclock.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="barrera_de_aparcamiento.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="recursos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4_eso.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
