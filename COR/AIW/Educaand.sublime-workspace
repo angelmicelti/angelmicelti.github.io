@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"al",
+				"always\tpage-break-after"
+			],
+			[
+				"page",
+				"page-break-after\tproperty"
+			],
+			[
+				"modal",
+				"modaliaap\tmodaliaap"
+			],
+			[
+				"moda",
+				"modaliaap\tmodaliaap"
+			],
+			[
+				"mod",
+				"modaliaap\tmodaliaap"
+			],
+			[
+				"im",
+				"imageiiap\timageiiap"
+			],
+			[
+				"des",
+				"desindividualATRIAN\tdesplegableindividualATRIAN"
+			],
+			[
+				"quotete",
+				"quotetext3_des"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"com",
+				"common/"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: modal",
+				"Snippet: modaliaap"
+			],
+			[
+				"Snippet: c",
+				"Snippet: Create new LiveReload plugin"
+			],
+			[
+				"packag",
+				"Package Control: Disable Package"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"colorcode"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ADULTOS"
+	],
+	"file_history":
+	[
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/exelib/locale/es/LC_MESSAGES/exe.po",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/exelib/locale/es/LC_MESSAGES/exe.mo",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/exelib/locale/messages.pot",
+		"/D/usuarios.sql",
+		"/D/minerva_mix_02.sql",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/INTEF2/nav.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/INTEF2/content.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/INTEF2/config.xml",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLARES/content.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ADULTOS/content.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/kids/content.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLARES/nav.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/base.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/exelib/scripts/exe_effects/exe_effects.css",
+		"/C/Program Files (x86)/exe/style/ESCOLARES/content.css",
+		"/D/Plantilla_Tour_Alejandria/common/css/style.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLARES/RobotoCondensed-Regular.ttf",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLARES/config.xml",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLARES/content.css.bak",
+		"/C/Users/smmartinez/Desktop/base.css",
+		"/C/Users/smmartinez/Desktop/la_oralidad_a_travs_del_debate.html",
+		"/C/Users/smmartinez/Desktop/infografa_final.html",
+		"/C/Users/smmartinez/Desktop/XLIFF_Vista.xlf",
+		"/C/Users/smmartinez/Desktop/scorm_adultos/estructura_de_un_debate.html",
+		"/C/Users/smmartinez/Desktop/scorm_adultos/content.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ADULTOS/_adultos_js.js",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ADULTOS/_adultos_js_ORG.js",
+		"/C/Users/smmartinez/Desktop/scorm_adultos/_adultos_js.js",
+		"/C/Users/smmartinez/Desktop/vimpresion/Proyecto-ComunicA-Debate/impresion.html",
+		"/C/Users/smmartinez/Desktop/vimpresion/Proyecto-ComunicA-Debate/index.html",
+		"/C/Users/smmartinez/Desktop/vimpresion/Proyecto-ComunicA-Debate/content.css",
+		"/C/Users/smmartinez/Desktop/vimpresion/Proyecto-ComunicA-Debate/base.css",
+		"/D/iconos/icon_sabermas.svg",
+		"/D/iconos/icon_adjunto.svg",
+		"/D/iconos/Mesa de trabajo 1.svg",
+		"/D/iconos/Mesa de trabajo 6.svg",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/base.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLAR/config.xml",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLAR/nav.css",
+		"/C/Users/smmartinez/Desktop/portable-INTEF-exe-2.4.1-win/style/ESCOLAR/content.css",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/imsmanifest.xml",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_12.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_11.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_04.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_03.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_02.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_01.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_07.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_08.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_09_II.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_10.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_06.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_05.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/Modulo03/page_13.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/moodle/contenido/completo.html",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_24.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Plantilla_css/pagina_02.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_01.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_02.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_03.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_04.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_05.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_06.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_07.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_08.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_09.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_10.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_11.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_12.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_13.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_14.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_15.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_16.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_17.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_18.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_19.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_20.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_21.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_22.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_23.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_01.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_02.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_03.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_04.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_05.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_06.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_07.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_08.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_09.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/page_25.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad03/Modulo03/page_13.htm",
+		"/C/Users/smmartinez/Desktop/UNIDAD2.html",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad02/moodle/Modulo02/css/contenido.css",
+		"/C/Users/smmartinez/AppData/Roaming/Sublime Text 3/Packages/User/modaliaap.sublime-snippet",
+		"/C/Users/smmartinez/AppData/Roaming/Sublime Text 3/Packages/User/despliegaiiap.sublime-snippet",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Plantilla_css/pagina_01.htm",
+		"/C/Users/smmartinez/AppData/Roaming/Sublime Text 3/Packages/User/desplegableindividualATRIAN.sublime-snippet",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/page_09_.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/plantilla/page_02.htm",
+		"/C/Users/smmartinez/OneDrive - AYESA/ATRIAN/2019_07_TributosPropios/Unidad01/moodle/Modulo01/css/contenido.css",
+		"/C/Users/smmartinez/AppData/Roaming/Sublime Text 3/Packages/User/imageiiap.sublime-snippet",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_inicio/css/style.css",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion04/css/style.css",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion03/css/style.css",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion02/css/style.css",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion01/css/style.css",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/common/css/style.css",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/common/js/script_seccion03.js",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion02/page01.htm",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion03/page01.htm",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion04/page01.htm",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/common/js/script_seccion04.js",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion01/page01.htm",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion01/page03.htm",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_seccion01/page02.htm",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/common/js/script_seccion01.js",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/Mooc_inicio/index.htm",
+		"/C/Users/smmartinez/Downloads/Prototipo_Tour_Alejandria_v1/common/js/script_seccion02.js",
+		"/C/Users/smmartinez/Desktop/estudiante",
+		"/C/Users/smmartinez/Desktop/userident",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/common/js/script_seccion02.js",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/Mooc_seccion02/css/style.css",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/Mooc_seccion02/page01.htm",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/Mooc_seccion01/page03.htm",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/Mooc_seccion01/page01.htm",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/Mooc_seccion01/page02.htm",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/Mooc_seccion03/page01.htm",
+		"/D/Paseos Virtuales/Prototipo_Tour_Alejandria_v1/Mooc_seccion04/page01.htm"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Educaand.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
