@@ -34,16 +34,11 @@ input,select,textarea,.feedback{font-family:"Encode Sans",​Arial,Helvetica,san
 
 a{color:#00843D}
 /* Header is also in single page */
-header#header #headerContent h1 {
-    color: #cc6715;
-    border: none;
-    margin-right: 70px
-}
 #header h1{margin:0;font-size:1em;color:#CC6713}
 #emptyHeader,#nodeDecoration{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding: 16px 25px 16px 10px;border-bottom: 3px solid #00843D;margin-bottom: 0;background: url(logo_junta.png) no-repeat 100% 50%;}
 #header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding: 16px 25px 16px 0px;border:none;margin-bottom: 0;background: url(logo_junta.png) no-repeat 100% 50%;}
 .exe-single-page #header{font-size:1.55em}
-#nodeTitle{font-size:1.55em;margin:0;color:#00843d;padding-right: 60px;}
+#nodeTitle{font-size:1.55em;margin:0;color:#00843d}
 #header h1,#nodeTitle{text-shadow:0 0 8px rgba(255,255,255,.6),0 0 5px rgba(255,255,255,.6),0 0 2px rgba(255,255,255,.9)}
 #exe-node-0 header.nodeDecoration h1.nodeTitle {
     color: #fff;
@@ -52,13 +47,12 @@ header#header #headerContent h1 {
     margin: 5px 0 0 0 !important;border:none!important;}
 h1#nodeTitle{margin-right:30px}/*en scorm se metia titulo en logo*/
 
-@media (max-width: 420px){
+@media (max-width: 390px){
   #header{font-size: 21px!important}
   h1#nodeTitle{    margin-right: 80px;
     line-height: 1.1em;
     font-size: 21px;}
     body{font-size:16px}
-table{font-size:0.5em!important; width: 100%!important}
     .iDeviceTitle{font-size:20px!important}
   .iDevice_header .toggle-idevice {
     position: absolute;
@@ -181,17 +175,21 @@ padding-top: 10px!important}
 /*iDevice title*/
 .iDeviceTitle{font-size:1.4em;display:inline;font-weight:normal;vertical-align:middle;top:15px;color:#2E2E2E;letter-spacing:.5px;font-weight: bold;} /*color gris para diferenciar los iDevices que crean manualmente, identificando rapidamente que no han utilizado los iDevices indicados en la lista*/
 .hidden-idevice .iDeviceTitle{color:#526668}
-
+/*.download-packageIdevice.hidden-idevice h1.iDeviceTitle, .GeoGebraIdevice.hidden-idevice h1.iDeviceTitle {
+    padding-left: 75px!important;
+}*/
 /*titulos en azul*/
-.download-packageIdevice .iDeviceTitle, .objectivesIdevice .iDeviceTitle, .IdeviceObjetivo .iDeviceTitle, .RssIdevice .iDeviceTitle, .IdeviceTemporalizacin .iDeviceTitle, .IdeviceOrientaciones .iDeviceTitle,  .IdeviceNotas .iDeviceTitle, .textIdeviceAprendizaje .iDeviceTitle{color:#0065ab;}
+.download-packageIdevice .iDeviceTitle, .objectivesIdevice .iDeviceTitle, .IdeviceObjetivo .iDeviceTitle, .RssIdevice .iDeviceTitle, .IdeviceTemporalizacin .iDeviceTitle, .IdeviceOrientaciones .iDeviceTitle,  .IdeviceNotas .iDeviceTitle{color:#0065ab;}
 
 .textIdevice .iDeviceTitle{color:#2E2E2E;}/*titulo gris para diferenciar iDevice que crean manualmente por lo que no siguen las indicaciones del manual*/
 /*titulos en verde*/
- .FileAttachIdeviceInc .iDeviceTitle, .GalleryIdevice .iDeviceTitle, .WikipediaIdevice .iDeviceTitle,.IdeviceEscucha .iDeviceTitle, .IdevicePiensa .iDeviceTitle, .IdeviceParainformarse .iDeviceTitle, .IdeviceDestacado .iDeviceTitle, .IdeviceEjemplo .iDeviceTitle, .preknowledgeIdevice h1.iDeviceTitle ,.ReflectionIdevice h1.iDeviceTitle ,.CasestudyIdevice h1.iDeviceTitle, .preknowledgeIdevice h2.iDeviceTitle ,.ReflectionIdevice h2.iDeviceTitle ,.CasestudyIdevice h2.iDeviceTitle, .IdeviceLee .iDeviceTitle, .textIdeviceComprende .iDeviceTitle{color:#00843d;}
+ .FileAttachIdeviceInc .iDeviceTitle, .GalleryIdevice .iDeviceTitle, .IdeviceEscucha .iDeviceTitle, .IdevicePiensa .iDeviceTitle, .IdeviceParainformarse .iDeviceTitle, .IdeviceDestacado .iDeviceTitle, .IdeviceEjemplo .iDeviceTitle, .preknowledgeIdevice h1.iDeviceTitle ,.ReflectionIdevice h1.iDeviceTitle ,.CasestudyIdevice h1.iDeviceTitle, .preknowledgeIdevice h2.iDeviceTitle ,.ReflectionIdevice h2.iDeviceTitle ,.CasestudyIdevice h2.iDeviceTitle, .IdeviceLee .iDeviceTitle {color:#00843d;}
 
 /*titulos en naranja*/
-.textIdeviceExpresa .iDeviceTitle, .ListaIdevice .iDeviceTitle,.QuizTestIdevice .iDeviceTitle,.MultichoiceIdevice .iDeviceTitle,.TrueFalseIdevice .iDeviceTitle,.MultiSelectIdevice .iDeviceTitle,.ClozeIdevice .iDeviceTitle,.ScrambledListIdevice .iDeviceTitle, .readingIdevice h1.iDeviceTitle , .IdeviceTrabajaenequipo .iDeviceTitle, .IdeviceGraba .iDeviceTitle, .IdeviceHabla .iDeviceTitle, .IdeviceActividad .iDeviceTitle, .IdeviceTareas .iDeviceTitle, .IdeviceEjercicios .iDeviceTitle,.GeoGebraIdevice header.iDevice_header h2.iDeviceTitle, .activityIdevice header.iDevice_header h2, .interactive-videoIdevice header.iDevice_header h2.iDeviceTitle, .GeoGebraIdevice header.iDevice_header h1.iDeviceTitle, .activityIdevice header.iDevice_header h1, .readingIdevice h2.iDeviceTitle , .interactive-videoIdevice header.iDevice_header h1.iDeviceTitle{color:#cc6715;}
+.ListaIdevice .iDeviceTitle,.QuizTestIdevice .iDeviceTitle,.MultichoiceIdevice .iDeviceTitle,.TrueFalseIdevice .iDeviceTitle,.MultiSelectIdevice .iDeviceTitle,.ClozeIdevice .iDeviceTitle,.ScrambledListIdevice .iDeviceTitle, .readingIdevice h1.iDeviceTitle , .IdeviceTrabajaenequipo .iDeviceTitle, .IdeviceGraba .iDeviceTitle, .IdeviceHabla .iDeviceTitle, .IdeviceActividad .iDeviceTitle, .IdeviceTareas .iDeviceTitle, .IdeviceEjercicios .iDeviceTitle{color:#cc6715;}
 
+
+.GeoGebraIdevice header.iDevice_header h2.iDeviceTitle, .activityIdevice header.iDevice_header h2, .interactive-videoIdevice header.iDevice_header h2.iDeviceTitle, .GeoGebraIdevice header.iDevice_header h1.iDeviceTitle, .activityIdevice header.iDevice_header h1, .readingIdevice h2.iDeviceTitle , .interactive-videoIdevice header.iDevice_header h1.iDeviceTitle{color:#cc6715;}
 .download-packageIdevice header.iDevice_header_noIcon, .GeoGebraIdevice header.iDevice_header_noIcon{padding-right: 30px!important;
     padding-left: 75px;}
 
@@ -215,11 +213,10 @@ header[style*='icon_reproduccion'] h2.iDeviceTitle {color:#499113;}
 /* iDevice content */
 .iDevice_content{overflow:auto;text-align:left}
 /*.iDevice_inner*/
-.iDevice_inner{margin-top: 5px;padding: 10px 20px 20px 20px;background: #fff;-webkit-box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);-moz-box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);border: 1px solid #2E2E2E;} /*gris para diferenciar los iDevices que crean */
+.iDevice_inner{margin-top: 5px;padding: 10px 20px 20px 20px;background: #fff;-webkit-box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);-moz-box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);border: 1px solid #2E2e2E;} /*gris para diferenciar los iDevices que crean */
 
 /*.iDevice_inner azul APR*/
-.textIdeviceAprendizaje .iDevice_inner, .objectivesIdevice .iDevice_inner,.IdeviceObjetivo .iDevice_inner, .RssIdevice .iDevice_inner, .IdeviceTemporalizacin .iDevice_inner, .IdeviceOrientaciones .iDevice_inner,  .IdeviceNotas .iDevice_inner{border: 1px solid #0065AB}
-
+.objectivesIdevice .iDevice_inner,.IdeviceObjetivo .iDevice_inner, .RssIdevice .iDevice_inner, .IdeviceTemporalizacin .iDevice_inner, .IdeviceOrientaciones .iDevice_inner,  .IdeviceNotas .iDevice_inner{border: 1px solid #0065AB;}
 
 /*iDevice_inner libre en gris para cuando crean un iDevice libremente diferenciarlo*/
 .textIdevice  .iDevice_inner{border: 1px solid #2e2e2e;}
@@ -227,15 +224,12 @@ header[style*='icon_reproduccion'] h2.iDeviceTitle {color:#499113;}
 
 /*iDevice_inner verde COMP*/
 
-.textIdeviceComprende .iDevice_inner, .FileAttachIdeviceInc  .iDevice_inner, .GalleryIdevice  .iDevice_inner, .IdeviceEscucha  .iDevice_inner, .IdevicePiensa  .iDevice_inner, .IdeviceParainformarse  .iDevice_inner, .IdeviceDestacado  .iDevice_inner, .IdeviceEjemplo .iDevice_inner, .preknowledgeIdevice .iDevice_inner,.ReflectionIdevice .iDevice_inner,.CasestudyIdevice .iDevice_inner, .IdeviceLee .iDevice_inner{border: 1px solid #00843d;}
-
+.FileAttachIdeviceInc  .iDevice_inner, .GalleryIdevice  .iDevice_inner, .IdeviceEscucha  .iDevice_inner, .IdevicePiensa  .iDevice_inner, .IdeviceParainformarse  .iDevice_inner, .IdeviceDestacado  .iDevice_inner, .IdeviceEjemplo .iDevice_inner, .preknowledgeIdevice .iDevice_inner,.ReflectionIdevice .iDevice_inner,.CasestudyIdevice .iDevice_inner, .IdeviceLee .iDevice_inner{border: 1px solid #00843d;}
 
 /*iDevice_inner naranja EXP*/
 
-.textIdeviceExpresa .iDevice_inner, .ListaIdevice .iDevice_inner,.QuizTestIdevice .iDevice_inner,.MultichoiceIdevice .iDevice_inner,.TrueFalseIdevice .iDevice_inner,.MultiSelectIdevice .iDevice_inner,.ClozeIdevice .iDevice_inner,.ScrambledListIdevice .iDevice_inner, .IdeviceTrabajaenequipo .iDevice_inner, .GeoGebraIdevice .iDevice_inner, .activityIdevice .iDevice_inner, .pblIdevice .iDevice_inner,
-.activityIdevice .iDevice_inner, .readingIdevice .iDevice_inner, .IdeviceActividad .iDevice_inner, .IdeviceTareas .iDevice_inner, .IdeviceGraba .iDevice_inner, .IdeviceHabla .iDevice_inner, .IdeviceEscribe .iDevice_inner, .IdeviceEjercicios .iDevice_inner{border: 1px solid #cc6715}
-
-
+.ListaIdevice .iDevice_inner,.QuizTestIdevice .iDevice_inner,.MultichoiceIdevice .iDevice_inner,.TrueFalseIdevice .iDevice_inner,.MultiSelectIdevice .iDevice_inner,.ClozeIdevice .iDevice_inner,.ScrambledListIdevice .iDevice_inner, .IdeviceTrabajaenequipo .iDevice_inner, .GeoGebraIdevice .iDevice_inner, .activityIdevice .iDevice_inner, .pblIdevice .iDevice_inner,
+.activityIdevice .iDevice_inner, .readingIdevice .iDevice_inner, .IdeviceActividad .iDevice_inner, .IdeviceTareas .iDevice_inner, .IdeviceGraba .iDevice_inner, .IdeviceHabla .iDevice_inner, .IdeviceEscribe .iDevice_inner, .IdeviceEjercicios .iDevice_inner{border: 1px solid #cc6715;}
 
 .interactive-videoIdevice .iDevice_inner{border-top:1px solid #cc6715 !important;box-shadow:none; border-bottom:none;border-left:none;border-right:none}
 
@@ -280,7 +274,21 @@ header[style*='icon_reproduccion'] h2.iDeviceTitle {color:#499113;}
 .fx-carousel-pagination .fx-carousel-prev-next a:focus{text-decoration:none;color:#444}
 .fx-carousel-pagination .fx-carousel-next{left:auto;right:0}
 .fx-carousel-pagination .fx-carousel-next a{text-indent:14px}
-
+/* Tabs */
+.exe-tabs{margin:2em auto;width:90%}
+.js .exe-tabs{width:96%;}
+.exe-tabs .fx-tabs{margin:0;padding:0;list-style:none;overflow:auto;}
+.exe-tabs h2{margin-top:2em}
+.js .exe-tabs h2{margin-top:.5em}
+* html .exe-tabs .fx-tabs{width:100%} /* IE6 */
+.exe-tabs .fx-tabs li{display:inline}
+.exe-tabs .fx-tabs a{display:block;padding:20PX 15px;outline:none;float:left;text-decoration:none;color:#0065ab;}
+.exe-tabs .fx-tabs a:hover,.exe-tabs .fx-tabs a:focus{text-decoration:none}
+.fx-tabs .fx-current a{background: #f3f3f3;border-top:  5px solid #0065ab;padding:15px;}
+.exe-tabs .fx-tabs a:before{color:#0065ab; content:'\229C'; padding-right:10px; text-decoration: none}
+.exe-tabs .fx-tab-content{display:none;background: #f3f3f3;padding:15px;border-top: 5px solid #0065ab;position: relative;z-index: 99;bottom: 10px;}
+.exe-tabs .fx-default-panel{border-top-left-radius:0}
+.exe-tabs .fx-tab-content.fx-current{display:block;}
 /* Paginacion */
 .exe-paginated{margin:2em auto;width:90%}
 .js .exe-paginated{width:96%}
@@ -296,21 +304,6 @@ header[style*='icon_reproduccion'] h2.iDeviceTitle {color:#499113;}
 .fx-pagination .fx-disabled,.fx-pagination .fx-disabled a,.fx-pagination .fx-disabled a:hover{cursor:text;text-decoration:none}
 .fx-pagination .fx-current a{background:#0065AB;color:#fff; text-decoration: none!important}
 .fx-page-content{display:none;background:#fff;padding:1px 15px .5em 15px;border-radius:5px; border:1px solid #444;}
-/* Tabs  */
-.exe-tabs{margin:2em auto;width:90%}
-.js .exe-tabs{width:96%;}
-.exe-tabs .fx-tabs{margin:0;padding:0;list-style:none;overflow:auto;}
-.exe-tabs h2{margin-top:2em}
-.js .exe-tabs h2{margin-top:.5em}
-* html .exe-tabs .fx-tabs{width:100%} /* IE6 */
-.exe-tabs .fx-tabs li{display:inline}
-.exe-tabs .fx-tabs a{display:block;padding:20PX 15px;outline:none;float:left;text-decoration:none;color:#0065ab;}
-.exe-tabs .fx-tabs a:hover,.exe-tabs .fx-tabs a:focus{text-decoration:none}
-.fx-tabs .fx-current a{background: #f3f3f3;border-top:  5px solid #0065ab;padding:15px;}
-.exe-tabs .fx-tabs a:before{color:#0065ab; content:'\229C'; padding-right:10px; text-decoration: none}
-.exe-tabs .fx-tab-content{display:none;background: #f3f3f3;padding:15px;border-top: 5px solid #0065ab;position: relative;z-index: 99;bottom: 10px;}
-.exe-tabs .fx-default-panel{border-top-left-radius:0}
-.exe-tabs .fx-tab-content.fx-current{display:block;}
 
 /*Linea de tiempo*/
 div.fx-timeline-container{border-left:2px solid #0065ab!important;margin:20px auto;width:95%}
@@ -324,12 +317,11 @@ div.fx-timeline-container{border-left:2px solid #0065ab!important;margin:20px au
     cursor: pointer;
     background: #fff!important;
     border-radius: 4px;
-border: 1px solid #1c4560
     font-size: .95em;
     padding: 3px 5px;
     display: block;
     text-decoration: none!important;
-    font-weight: bold;
+    font-weight: bold;border: 1px solid #1c4560
 }
 .fx-timeline-container a.fx-timeline-expand:hover{filter:alpha(opacity=80);opacity:.8;color: #1c4560!important;
     background: #fff!important;font-weight: bold;border: 1px solid #1c4560}
@@ -385,23 +377,15 @@ li{list-style-position:outside}
 
 #wikipedia-content ul li{list-style-image:none;margin-bottom:auto}
 /* Form buttons */
-.iDevice_inner input[type=submit],.iDevice_inner input[type=button],.feedbackbutton, .textIdeviceExpresa .iDevice_inner input[type=button],.textIdeviceExpresa .feedbackbutton{background:#cc6715;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
-.iDevice_inner input[type=submit]:hover,.iDevice_inner input[type=button]:hover,.feedbackbutton:hover, .textIdeviceExpresa .iDevice_inner input[type=button]:hover,.textIdeviceExpresa .feedbackbutton:hover{background:#876034}
+.iDevice_inner input[type=submit],.iDevice_inner input[type=button],.feedbackbutton{background:#cc6715;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
+.iDevice_inner input[type=submit]:hover,.iDevice_inner input[type=button]:hover,.feedbackbutton:hover{background:#876034}
 
-
-/*button azul APREND*/
-.textIdeviceAprendizaje .iDevice_inner input[type=button],.textIdeviceAprendizaje .feedbackbutton{background:#0065ab!important;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
-.textIdeviceAprendizaje .iDevice_inner input[type=button]:hover,.textIdeviceAprendizaje .feedbackbutton:hover{background:#01558F!important;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
-
-/*button verde COMP*/
-.textIdeviceComprende .iDevice_inner input[type=button],.CasestudyIdevice .iDevice_inner input[type=button], .ReflectionIdevice .iDevice_inner input[type=button],.EjercicioresueltofpdIdevice .iDevice_inner input[type=button], .ReflectionfpdIdevice .iDevice_inner input[type=button] {
-    background: #2D6305!important;border:1px solid #499113;
+.CasestudyIdevice .iDevice_inner input[type=button], .ReflectionIdevice .iDevice_inner input[type=button],.EjercicioresueltofpdIdevice .iDevice_inner input[type=button], .ReflectionfpdIdevice .iDevice_inner input[type=button] {
+    background: #2D6305;border:1px solid #499113;
 }
-.textIdeviceComprende .iDevice_inner input[type=button]:hover,.CasestudyIdevice .iDevice_inner input[type=button]:hover, .ReflectionIdevice .iDevice_inner input[type=button]:hover,  .EjercicioresueltofpdIdevice .iDevice_inner input[type=button]:hover,.ReflectionfpdIdevice .iDevice_inner input[type=button]:hover {
-    background: #499113!important;border:1px solid #2D6305;
+.CasestudyIdevice .iDevice_inner input[type=button]:hover, .ReflectionIdevice .iDevice_inner input[type=button]:hover,  .EjercicioresueltofpdIdevice .iDevice_inner input[type=button]:hover,.ReflectionfpdIdevice .iDevice_inner input[type=button]:hover {
+    background: #499113;;border:1px solid #2D6305;
 }
-
-
 .block.iDevice_content> .exe-text +.iDevice_buttons input[type=button]{background: #1c4560;;border:1px solid #fff;color:white;}
 .block.iDevice_content> .exe-text +.iDevice_buttons input[type=button]:hover{background: #0C3149;;border:1px solid #fff;color:white;}
 /* Hide/Show iDevice */
@@ -419,7 +403,7 @@ li{list-style-position:outside}
 .iDevice a,#siteFooter a,#packageLicense a,.toggle-idevice a{text-decoration:underline}
 .iDevice a:hover,#siteFooter a:hover,#packageLicense a:hover,.toggle-idevice a:hover{text-decoration:none}
 /* Licenses */
- #packageLicense{text-align:left;font-size:.8em;padding:0 20px;color:#444;line-height:1em;margin:0 0 25px 0;background:#fff;border-top: 1px solid #00843d ;}
+ #packageLicense{text-align:left;font-size:.8em;padding:0 20px;color:#444;line-height:1em;margin:0 0 25px 0;background:#fff;border-top: 1px solid #73D413 ;}
 #packageLicense p{margin:20px 0}
 #packageLicense a{color:#444;text-decoration:underline}
 #packageLicense.propietary{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
@@ -432,7 +416,7 @@ li{list-style-position:outside}
 
 /* eXe Figures */
 .exe-figure{margin:2.5em 0}
-.exe-figure,.exe-figure span,.exe-figure a{color:#444;font-size: 12px!important}
+.exe-figure,.exe-figure span,.exe-figure a{color:#888;font-size: 15px!important}
 .position-center{margin:2.5em auto}
 .position-right{margin:2.5em 0 2.5em auto}
 .float-left{margin:.5em 1.5em 1em 0}
@@ -442,46 +426,11 @@ li{list-style-position:outside}
 #printNode.with-toggler{margin-bottom:0}
 #printNode a{display:block;width:30px;height:30px;background:#fff url(_adultos_print.png) no-repeat 50% 50%;box-shadow:rgba(0, 0, 0, 0.3) 3px 3px 4px;border-radius:15px}
 
-/* Accordion */
-.exe-accordion,.exe-accordion *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.exe-accordion{width:90%;margin:2em 0 2em 5%;border-top:1px solid #cc6715;border-left:1px solid #cc6715;border-right:2px solid #cc6715;border-bottom: 2px solid #cc6715;}
-.js .exe-accordion{overflow:hidden;box-shadow:0px 1px 3px rgba(0,0,0,0.25);border-radius:3px;background:#f1f1f1;width:86%;margin:0px auto}
-.fx-accordion-title,.exe-accordion h2{width:100%;padding:15px;display:inline-block;background:#fff;transition:all linear 0.15s;color:#cc6715;}
-
- a.fx-accordion-title h2:before {content:'+';font-size:1em;background-color:#cc6715;color:white; transition:transform .5s ease-in;position: relative;left:-15px;}
-
- a.fx-accordion-title h2:hover:before {
-  content:"\25be";
-  font-size:1em;
-  background-color:#cc6715;color:white;transition:transform .5s ease-in;position: relative;left:-15px;}
-
-.fx-accordion-title{border-top:1px solid #cc6715!important}
-.fx-accordion-title-0{border-bottom:1px solid #cc6715;}
-#main .exe-accordion h2{margin:0;font-size:1em;font-weight: bold}
-.js .exe-accordion h2{padding:0;border:0;display:block;background:none;}
-.js .fx-accordion-title{text-decoration:none;padding: 10px 15px 10px 0px;}
-.fx-accordion-title.active,.fx-accordion-title:hover{/*background:#4c4c4c;*/filter:alpha(opacity=90);opacity:.9;text-decoration:none}
-.fx-accordion-section:last-child .fx-accordion-title{border-left:20px solid #cc6715!important;}
-.fx-afx-accordion-titleccordion-content{padding:0 15px;display:none; background-color: #f1f1f1;border-top: 1px solid #cc6715;}
-.fx-accordion-content p:first-child {margin:0px;}
-
-/* Hint & Feedback */
-.iDevice_hint_content{border: 1px solid #cec486;background: #ecf0f1;}
-.iDevice_inner .feedback{background:#cec486;border:1px solid #cc6715 ;padding:0 1em;margin:1em 0}
-.ReflectionIdevice .iDevice_inner .feedback,.CasestudyIdevice .iDevice_inner .feedback,.EjercicioresueltofpdIdevice .iDevice_inner .feedback,.ReflectionfpdIdevice .iDevice_inner .feedback{background:#cec486;border:1px solid #444 ;padding:0 1em;margin:1em 0}
-.iDevice_inner .feedback-right{background:#E9F9DF}
-.iDevice_inner .feedback-wrong{background:#FDFDDB}
-.iDevice_inner .iDevice_answer-feedback{background:none;border:none;padding:0;margin:0}
-.TrueFalseIdevice .feedback{margin-top:1.5em}
-
 /*version imprimible*/
 @media print{
-  #header{padding-top:0px!important;}
-  body{text-align: justify!important;color:#000!important;}
-  ol,ul{color:#000!important}
 #header #headerContent h1{padding-left:15px;margin-right:80px!important}
  header.nodeDecoration  h1.nodeTitle {page-break-after: none!important;}
- #header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding: 0px 25px 16px 0px;border:none;margin-bottom: 0;}
+ #header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding: 16px 25px 16px 0px;border:none;margin-bottom: 0;}
  #headerContent{height:auto;background: url(logo_junta.png) no-repeat 100% 20%;}
  #nodeDecoration,#emptyHeader{color:#000;text-shadow:none;background:none;border:2px solid #CC6715;padding:5px 5px 10px 15px; margin-left:10px;}
  #nodeDecoration,#header,#emptyHeader{color:#000;text-shadow:none;background:none;border:none;padding:20px 0}
@@ -503,7 +452,7 @@ li{list-style-position:outside}
  .iDevice_header{padding:5px 0}
  .iDevice_header h2{padding-left:75px}
  .nodeTitle {color:#00843d;}
- .GeoGebraIdevice header.iDevice_header h2.iDeviceTitle, .download-packageIdevice h2.iDeviceTitle{padding-left: 0px}
+ .GeoGebraIdevice header.iDevice_header h2.iDeviceTitle, .download-packageIdevice h2.iDeviceTitle{padding-left: 75px}
 .FileAttachIdeviceInc header h2{padding-left: 75px}
 .textIdevice header.iDevice_header_noIcon .iDeviceTitle{padding-left: 0px!important}
 .ListaIdevice .iDevice_header,
@@ -515,8 +464,8 @@ li{list-style-position:outside}
 .interactive-videoIdevice .iDevice_header,
 .QuizTestIdevice .iDevice_header {padding-left:0px;}
 .iDevice_inner .feedback {background: #fff!important;}
-.iDevice_inner input[value*="respuestas"]{display:none!important}
-  .iDevice_inner input[type=submit],  .iDevice_inner input[value*="Averiguar"], .iDevice_inner input[value*="Mostrar"], .feedbackbutton{display:none;}
+
+ .iDevice_inner input[type=submit],.feedbackbutton{display: none}
   ul.fx-tabs{display:none!important}
   a[href*=pdf]:after{
       content:" >> Documento de descarga";color:#666;font-weight:normal;font-size: 10px;
@@ -560,20 +509,16 @@ li{list-style-position:outside}
   .external-iframe-src{display:block!important;font-size:.70em;text-align:left; padding:5px 10px 10px 50px}
     .exe-dialog-text{display:block!important;}
     .fx-accordion-content, .fx-timeline-event{display: block!important}
-  .exe-accordion{width:100%!important;background-color: #fff!important}
-  .fx-accordion-section:last-child .fx-accordion-title{padding-left:10px!important}
-  .exe-accordion{border:1px solid #fff!important}
-  .fx-accordion-title{border-top:1px solid #fff!important}
-  .fx-accordion-content{padding: 15px 15px 10px 0px;}
+  .exe-accordion{width:100%!important}
   .container-wrapper-genially{max-height: 800px!important}
-  h2.pp_title{color: #00843d ;}
+  h2.pp_title{color: #73D413 ;}
   a.fx-accordion-title h2:before,  a.fx-accordion-title h2:hover {content: none!important; }
-.fx-accordion-title-0{border-bottom:1px solid #fff;!important}
+
  .exe-paginated .fx-pagination, .fx-carousel-pagination .fx-carousel-next, .fx-carousel-pagination .fx-carousel-prev, .fx-carousel-pagination {display:none}
  .fx-page-content{border: none;margin:0px auto;padding:5px;}
  .exe-paginated h2, .fx-tab-content h2{margin-top:-30px!important;margin-bottom:0px;color:#0065ab;}
  .js .exe-carousel{margin-top:30px;}
- .fx-carousel-content{border:none;display: inline;margin-left: -1.2em;margin-right: 0px;padding-top: 20px}
+ .fx-carousel-content{border:none;display: inline;margin-left: -1.2em;margin-right: 0px;}
  .js .exe-carousel h2{margin-top: -1.5em}
   .exe-tabs .fx-tab-content{display:none;background: #fff;}
   .exe-tabs .fx-tab-content{display:none;background: #fff;padding:15px;border-top: 1px solid #fff;position: relative;z-index: 99;bottom: 10px;}
@@ -585,18 +530,39 @@ li{list-style-position:outside}
 article.node:last-child{page-break-after:initial;}
 .iDevice_solution.feedback h1{font-size:12px!important;color:#444;}
 .fx-timeline-container a.fx-timeline-expand {display: none}
-.iDevice_destacadofpd{margin-top: 35px;border-top: 1px solid #2E2e2E!important;border-right:none!important;border-left:none!important;border-bottom:1px solid #2E2e2E!important;box-shadow: none!important;text-align: justify!important;}
-
-.iDevice_inner{margin-top: 5px;padding: 10px 20px 0px 10px;background: #fff;border-top: 1px solid #2E2e2E!important;border-right:none!important;border-left:none!important;border-bottom:1px solid #2E2e2E!important;box-shadow: none!important;text-align: justify!important;} 
-
-.iDevice_content{text-align: justify!important;color:#000;}
-.iDevice_inner p, .iDevice_inner ul li, .iDevice_inner ol li{text-align: justify!important;}
-
-.iDeviceTitle{top:25px!important;display: inline}
-.iDevice{margin: 10px 0!important;}
+.iDevice_destacadofpd{margin-top: 35px}
 }
 
 
 /*fin media print*/
 
+/* Accordion */
+.exe-accordion,.exe-accordion *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.exe-accordion{width:90%;margin:2em 0 2em 5%;border-top:1px solid #cc6715;border-left:1px solid #cc6715;border-right:2px solid #cc6715;border-bottom: 2px solid #cc6715;}
+.js .exe-accordion{overflow:hidden;box-shadow:0px 1px 3px rgba(0,0,0,0.25);border-radius:3px;background:#f1f1f1;width:86%;margin:0px auto}
+.fx-accordion-title,.exe-accordion h2{width:100%;padding:15px;display:inline-block;background:#fff;transition:all linear 0.15s;color:#cc6715;}
 
+ a.fx-accordion-title h2:before {content:'+';font-size:1em;background-color:#cc6715;color:white; transition:transform .5s ease-in;position: relative;left:-15px;}
+
+ a.fx-accordion-title h2:hover:before {
+  content:"\25be";
+  font-size:1em;
+  background-color:#cc6715;color:white;transition:transform .5s ease-in;position: relative;left:-15px;}
+
+.fx-accordion-title{border-top:1px solid #cc6715!important}
+.fx-accordion-title-0{border-bottom:1px solid #cc6715;}
+#main .exe-accordion h2{margin:0;font-size:1em;font-weight: bold}
+.js .exe-accordion h2{padding:0;border:0;display:block;background:none;}
+.js .fx-accordion-title{text-decoration:none;padding: 10px 15px 10px 0px;}
+.fx-accordion-title.active,.fx-accordion-title:hover{/*background:#4c4c4c;*/filter:alpha(opacity=90);opacity:.9;text-decoration:none}
+.fx-accordion-section:last-child .fx-accordion-title{border-left:20px solid #cc6715!important;}
+.fx-afx-accordion-titleccordion-content{padding:0 15px;display:none; background-color: #f1f1f1;border-top: 1px solid #cc6715;}
+.fx-accordion-content p:first-child {margin:0px;}
+
+/* Hint & Feedback */
+.iDevice_hint_content{border: 1px solid #cec486;background: #ecf0f1;}
+.iDevice_inner .feedback{background:#cec486;border:1px solid #cc6715 ;padding:0 1em;margin:1em 0}
+.iDevice_inner .feedback-right{background:#E9F9DF}
+.iDevice_inner .feedback-wrong{background:#FDFDDB}
+.iDevice_inner .iDevice_answer-feedback{background:none;border:none;padding:0;margin:0}
+.TrueFalseIdevice .feedback{margin-top:1.5em}
