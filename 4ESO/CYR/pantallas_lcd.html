@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Pantallas LCD | Control y robótica 4º E.S.O. </title>
+<title>PANTALLAS LCD | Control y robótica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -167,8 +167,15 @@
          <li><a href="matrices_de_ledes.html" class="no-ch">Matrices de ledes</a></li>
       </ul>
       </li>
-      <li id="active"><a href="pantallas_lcd.html" class="active no-ch">Pantallas LCD</a></li>
-      <li><a href="pantallas_oled.html" class="no-ch">Pantallas OLED</a></li>
+      <li id="active"><a href="pantallas_lcd.html" class="active daddy">PANTALLAS LCD</a>
+      <ul>
+         <li><a href="lcd_hitachi_hd44780.html" class="no-ch">LCD Hitachi HD44780</a></li>
+         <li><a href="pcd8544_nokia_5110.html" class="no-ch">PCD8544 (Nokia 5110)</a></li>
+         <li><a href="pcf8833_stn_rgb.html" class="no-ch">PCF8833 STN RGB</a></li>
+         <li><a href="tft_ili9341.html" class="no-ch">TFT ILI9341</a></li>
+      </ul>
+      </li>
+      <li><a href="pantallas_oled.html" class="no-ch">PANTALLAS OLED</a></li>
       <li><a href="rels.html" class="daddy">RELÉS</a>
       <ul class="other-section">
          <li><a href="circuitos_sencillos_con_rels.html" class="no-ch">Circuitos sencillos con relés</a></li>
@@ -213,23 +220,51 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="matrices_de_ledes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="pantallas_oled.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="matrices_de_ledes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lcd_hitachi_hd44780.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Pantallas LCD</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id147">
+<div id="nodeDecoration"><h1 id="nodeTitle">PANTALLAS LCD</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id183">
 <div class="iDevice emphasis0">
-<div id="ta147_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: verdana, geneva, sans-serif;">Las pantallas LCD nos permiten escribir texto, empleando caracteres alfanuméricos. Las hay, principalmente, de dos y de cuatro líneas.</span></p>
-<p style="text-align: center;"><em><strong><span style="font-family: verdana, geneva, sans-serif;">DE 16 COLUMNAS Y 2 FILAS (MÓDULOS 1602)</span></strong></em></p>
-<p style="text-align: center;"><em></em></p>
-<p><a href="https://wiki.keyestudio.com/Ks0061_keyestudio_1602_I2C_Module" target="_blank" rel="noopener"><span style="font-family: verdana, geneva, sans-serif;"><img src="https://wiki.keyestudio.com/images/2/2b/KS0061_%286%29.png" alt="Módulo 1602 I2C" title="Módulo 1602 I2C" width="553" height="318" style="display: block; margin-left: auto; margin-right: auto;" /></span></a></p>
-<p><span style="font-family: verdana, geneva, sans-serif;">Puedes tener más información de carácter técnico haciendo clic en <a href="https://wiki.keyestudio.com/Ks0061_keyestudio_1602_I2C_Module" target="_blank" rel="noopener">este enlace</a>.</span></p>
-<p style="text-align: center;"><em><strong><span style="font-family: verdana, geneva, sans-serif;">DE 20 COLUMNAS Y 4 FILAS (MÓDULOS 2004)</span></strong></em></p>
-<p><a href="https://wiki.keyestudio.com/Ks0062_keyestudio_I2C_LCD2004_Module" target="_blank" rel="noopener"><span style="font-family: verdana, geneva, sans-serif;"><img src="https://wiki.keyestudio.com/images/6/67/Ks0062-2-1.png" alt="Módulo 2004 I2C" title="Módulo 2004 I2C" width="400" height="405" style="display: block; margin-left: auto; margin-right: auto;" /></span></a></p>
-<p><span style="font-family: verdana, geneva, sans-serif;">Puedes tener más información de carácter técnico haciendo clic en <a href="https://wiki.keyestudio.com/Ks0062_keyestudio_I2C_LCD2004_Module" target="_blank" rel="noopener">este enlace</a>.</span></p>
+<div id="ta183_85" class="block iDevice_content">
+<p>Las <strong>pantallas LCD</strong> (<em>Liquid Crystal Display,</em> o pantallas de cristal líquido) nos permiten escribir texto, empleando caracteres alfanuméricos.</p>
+<p>El cristal líquido se ha convertido en un elemento muy interesante para la presentación de información. Puedes encontrar más información en <a href="https://es.wikipedia.org/wiki/Pantalla_de_cristal_l%C3%ADquido" target="_blank" rel="noopener">este enlace</a> de Wikipedia.</p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id187">
+<div class="iDevice emphasis0">
+<div id="ta187_85" class="block iDevice_content">
+<table border="0" style="height: 64px; width: 80%; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 22px;">
+<td style="width: 25%; text-align: center; height: 22px;"><strong><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">HD44780</span></strong></td>
+<td style="width: 25%; text-align: center; height: 22px;"></td>
+<td style="width: 25%; text-align: center; height: 22px;"><strong><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">PCD8544</span></strong></td>
+<td style="width: 25%; text-align: center; height: 22px;"></td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 25%; text-align: center; height: 10px;"><a href="lcd_hitachi_hd44780.html"><img src="https://wiki.keyestudio.com/images/2/2b/KS0061_%286%29.png" alt="HD44780" title="HD44780" width="553" height="318" /></a></td>
+<td style="width: 25%; text-align: center; height: 10px;">c</td>
+<td style="width: 25%; text-align: center; height: 10px;"><a href="pcd8544_nokia_5110.html"><img src="https://www.espruino.com/refimages/PCD8544_5110_front.jpg" alt="PCD8544" title="PCD8544" width="600" height="505" /></a></td>
+<td style="width: 25%; text-align: center; height: 10px;"></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 25%; text-align: center; height: 22px;"></td>
+<td style="width: 25%; text-align: center; height: 22px;"><strong><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">PCF8833</span></strong></td>
+<td style="width: 25%; text-align: center; height: 22px;"></td>
+<td style="width: 25%; text-align: center; height: 22px;"><strong><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">ILI9341</span></strong></td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 25%; text-align: center; height: 10px;"></td>
+<td style="width: 25%; text-align: center; height: 10px;"><a href="pcf8833_stn_rgb.html"><img src="https://camo.githubusercontent.com/172f05122c91bcf712d07137976ab5ac291700b698f9210968a24c3d9d07cddb/68747470733a2f2f7261772e6769746875622e636f6d2f656e67706564726f72616661656c2f706366383833332f6d61737465722f646f632f696d616765732f4c4344363130302e6a7067" alt="PCF8833" title="PCF8833" width="302" height="367" /></a></td>
+<td style="width: 25%; text-align: center; height: 10px;"></td>
+<td style="width: 25%; text-align: center; height: 10px;"><a href="tft_ili9341.html"><img src="https://electronilab.co/wp-content/uploads/2014/05/Display-LCD-2.8-240x320-Touch-SPI-TFT-controlador-ILI9341-1.webp" alt="TFT ILI9341" title="TFT ILI9341" width="500" height="1007" /></a></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -237,7 +272,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="matrices_de_ledes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="pantallas_oled.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="matrices_de_ledes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lcd_hitachi_hd44780.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
