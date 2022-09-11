@@ -242,7 +242,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <instance class="exe.engine.field.TextField">
                         <dictionary>
                          <string role="key" value="_id"></string>
-                         <int value="259"></int>
+                         <int value="262"></int>
                          <string role="key" value="_idevice"></string>
                          <none></none>
                          <string role="key" value="_instruc"></string>
@@ -256,7 +256,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </dictionary>
                        </instance>
                        <string role="key" value="_id"></string>
-                       <unicode value="8_85.16"></unicode>
+                       <unicode value="8_85.17"></unicode>
                        <string role="key" value="_imageResource"></string>
                        <instance class="exe.engine.resource.Resource" reference="16">
                         <dictionary>
@@ -267,7 +267,7 @@ text through the text editing buttons associated with the field."></unicode>
                          <string role="key" value="_storageName"></string>
                          <string value="Apuntes_electronica.png"></string>
                          <string role="key" value="_userName"></string>
-                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpoohxea\\Apuntes_electronica.png"></string>
+                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpudavhd\\Apuntes_electronica.png"></string>
                          <string role="key" value="checksum"></string>
                          <string value="b45a99740db00bc7eb2aa9afdff69687"></string>
                          <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -339,31 +339,31 @@ text through the text editing buttons associated with the field."></unicode>
 &lt;table border=&quot;0&quot; style=&quot;width: 80%; margin-left: auto; margin-right: auto;&quot;&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/COR/IMS/index.html&quot;&gt;IMPACTO SOCIAL&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/CYR/IMS/index.html&quot;&gt;IMPACTO SOCIAL&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/COR/PRO/index.html&quot;&gt;PROGRAMACIÓN&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/CYR/PRO/index.html&quot;&gt;PROGRAMACIÓN&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/COR/SRS/index.html&quot;&gt;SISTEMAS ROBÓTICOS SENCILLOS&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/CYR/SRS/index.html&quot;&gt;SISTEMAS ROBÓTICOS SENCILLOS&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/COR/IAR/index.html&quot;&gt;INTELIGENCIA ARTIFICIAL&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/CYR/IAR/index.html&quot;&gt;INTELIGENCIA ARTIFICIAL&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/COR/AIW/index.html&quot;&gt;APLICACIONES INFORMÁTICAS Y WEB&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;&quot;&gt;&lt;a href=&quot;https://angelmicelti.github.io/CYR/AIW/index.html&quot;&gt;APLICACIONES INFORMÁTICAS Y WEB&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;width: 100%;&quot;&gt;&lt;/td&gt;
@@ -789,7 +789,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </instance>
                   </dictionary>
                   <string role="key" value="nextImageId"></string>
-                  <int value="17"></int>
+                  <int value="18"></int>
                   <string role="key" value="parentNode"></string>
                   <reference key="9"></reference>
                  </dictionary>
@@ -1788,7 +1788,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <instance class="exe.engine.field.TextField">
                         <dictionary>
                          <string role="key" value="_id"></string>
-                         <int value="261"></int>
+                         <int value="264"></int>
                          <string role="key" value="_idevice"></string>
                          <none></none>
                          <string role="key" value="_instruc"></string>
@@ -1802,7 +1802,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </dictionary>
                        </instance>
                        <string role="key" value="_id"></string>
-                       <unicode value="13_85.34"></unicode>
+                       <unicode value="13_85.35"></unicode>
                        <string role="key" value="_imageResource"></string>
                        <instance class="exe.engine.resource.Resource" reference="42">
                         <dictionary>
@@ -1813,7 +1813,7 @@ text through the text editing buttons associated with the field."></unicode>
                          <string role="key" value="_storageName"></string>
                          <string value="TecnoVilladiegoAppQR.png"></string>
                          <string role="key" value="_userName"></string>
-                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpoohxea\\TecnoVilladiegoAppQR.png"></string>
+                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpudavhd\\TecnoVilladiegoAppQR.png"></string>
                          <string role="key" value="checksum"></string>
                          <string value="d7e034ff99b2046221870ca6c466714e"></string>
                          <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1842,7 +1842,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="intlinks_to_anchors"></string>
                   <dictionary></dictionary>
                   <string role="key" value="nextImageId"></string>
-                  <int value="35"></int>
+                  <int value="36"></int>
                   <string role="key" value="parentNode"></string>
                   <reference key="41"></reference>
                  </dictionary>
@@ -1963,7 +1963,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <instance class="exe.engine.field.TextField">
                         <dictionary>
                          <string role="key" value="_id"></string>
-                         <int value="260"></int>
+                         <int value="263"></int>
                          <string role="key" value="_idevice"></string>
                          <none></none>
                          <string role="key" value="_instruc"></string>
@@ -1977,7 +1977,7 @@ text through the text editing buttons associated with the field."></unicode>
                         </dictionary>
                        </instance>
                        <string role="key" value="_id"></string>
-                       <unicode value="17_85.10"></unicode>
+                       <unicode value="17_85.11"></unicode>
                        <string role="key" value="_imageResource"></string>
                        <instance class="exe.engine.resource.Resource" reference="46">
                         <dictionary>
@@ -1988,7 +1988,7 @@ text through the text editing buttons associated with the field."></unicode>
                          <string role="key" value="_storageName"></string>
                          <string value="logo.png"></string>
                          <string role="key" value="_userName"></string>
-                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpoohxea\\logo.png"></string>
+                         <string value="c:\\users\\angel\\appdata\\local\\temp\\tmpudavhd\\logo.png"></string>
                          <string role="key" value="checksum"></string>
                          <string value="311a589691063b1e7463f3731d722bba"></string>
                          <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2017,7 +2017,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <string role="key" value="intlinks_to_anchors"></string>
                   <dictionary></dictionary>
                   <string role="key" value="nextImageId"></string>
-                  <int value="11"></int>
+                  <int value="12"></int>
                   <string role="key" value="parentNode"></string>
                   <reference key="45"></reference>
                  </dictionary>
@@ -2556,7 +2556,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="9"></reference>
+  <reference key="8"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
