@@ -51,13 +51,12 @@ header#header #headerContent h1 {
     margin: 5px 0 0 0 !important;border:none!important;}
 h1#nodeTitle{margin-right:30px}/*en scorm se metia titulo en logo*/
 
-@media (max-width: 420px){
+@media (max-width: 390px){
   #header{font-size: 21px!important}
   h1#nodeTitle{    margin-right: 80px;
     line-height: 1.1em;
     font-size: 21px;}
     body{font-size:16px}
-    table{font-size:0.5em!important; width: 100%!important}
     .iDeviceTitle{font-size:20px!important}
   .iDevice_header .toggle-idevice {
     position: absolute;
@@ -181,14 +180,14 @@ padding-top: 10px!important}
 .hidden-idevice .iDeviceTitle{color:#526668}
 
 /*titulos en azul*/
-.download-packageIdevice .iDeviceTitle, .objectivesIdevice .iDeviceTitle, .IdeviceObjetivo .iDeviceTitle, .RssIdevice .iDeviceTitle, .IdeviceTemporalizacin .iDeviceTitle, .IdeviceOrientaciones .iDeviceTitle,  .IdeviceNotas .iDeviceTitle, .textIdeviceAprendizaje .iDeviceTitle{color:#107062;}
+.download-packageIdevice .iDeviceTitle, .objectivesIdevice .iDeviceTitle, .IdeviceObjetivo .iDeviceTitle, .RssIdevice .iDeviceTitle, .IdeviceTemporalizacin .iDeviceTitle, .IdeviceOrientaciones .iDeviceTitle,  .IdeviceNotas .iDeviceTitle{color:#107062;}
 
 .textIdevice .iDeviceTitle{color:#2E2E2E ;}/*titulo gris para diferenciar iDevice que crean manualmente por lo que no siguen las indicaciones del manual*/
 /*titulos en verde*/
-.FileAttachIdeviceInc .iDeviceTitle, .GalleryIdevice .iDeviceTitle, .WikipediaIdevice .iDeviceTitle,.IdeviceEscucha .iDeviceTitle, .IdevicePiensa .iDeviceTitle, .IdeviceParainformarse .iDeviceTitle, .IdeviceDestacado .iDeviceTitle, .IdeviceEjemplo .iDeviceTitle, .preknowledgeIdevice h1.iDeviceTitle ,.ReflectionIdevice h1.iDeviceTitle ,.CasestudyIdevice h1.iDeviceTitle, .preknowledgeIdevice h2.iDeviceTitle ,.ReflectionIdevice h2.iDeviceTitle ,.CasestudyIdevice h2.iDeviceTitle,  .IdeviceLee .iDeviceTitle, .textIdeviceComprende .iDeviceTitle{color: #549b0d}
+.FileAttachIdeviceInc .iDeviceTitle, .GalleryIdevice .iDeviceTitle, .WikipediaIdevice .iDeviceTitle,.IdeviceEscucha .iDeviceTitle, .IdevicePiensa .iDeviceTitle, .IdeviceParainformarse .iDeviceTitle, .IdeviceDestacado .iDeviceTitle, .IdeviceEjemplo .iDeviceTitle, .preknowledgeIdevice h1.iDeviceTitle ,.ReflectionIdevice h1.iDeviceTitle ,.CasestudyIdevice h1.iDeviceTitle, .preknowledgeIdevice h2.iDeviceTitle ,.ReflectionIdevice h2.iDeviceTitle ,.CasestudyIdevice h2.iDeviceTitle,  .IdeviceLee .iDeviceTitle{color: #549b0d}
 
 /*titulos en naranja*/
-.textIdeviceExpresa .iDeviceTitle, .ListaIdevice .iDeviceTitle,.QuizTestIdevice .iDeviceTitle,.MultichoiceIdevice .iDeviceTitle,.TrueFalseIdevice .iDeviceTitle,.MultiSelectIdevice .iDeviceTitle,.ClozeIdevice .iDeviceTitle,.ScrambledListIdevice .iDeviceTitle, .readingIdevice h1.iDeviceTitle , .IdeviceTrabajaenequipo .iDeviceTitle, .IdeviceGraba .iDeviceTitle, .IdeviceHabla .iDeviceTitle, .IdeviceActividad .iDeviceTitle, .IdeviceTareas .iDeviceTitle, .IdeviceEjercicios .iDeviceTitle, .GeoGebraIdevice header.iDevice_header h2.iDeviceTitle, .activityIdevice header.iDevice_header h2, .interactive-videoIdevice header.iDevice_header h2.iDeviceTitle, .GeoGebraIdevice header.iDevice_header h1.iDeviceTitle, .activityIdevice header.iDevice_header h1, .readingIdevice h2.iDeviceTitle , .interactive-videoIdevice header.iDevice_header h1.iDeviceTitle{color:#cc6715;}
+.ListaIdevice .iDeviceTitle,.QuizTestIdevice .iDeviceTitle,.MultichoiceIdevice .iDeviceTitle,.TrueFalseIdevice .iDeviceTitle,.MultiSelectIdevice .iDeviceTitle,.ClozeIdevice .iDeviceTitle,.ScrambledListIdevice .iDeviceTitle, .readingIdevice h1.iDeviceTitle , .IdeviceTrabajaenequipo .iDeviceTitle, .IdeviceGraba .iDeviceTitle, .IdeviceHabla .iDeviceTitle, .IdeviceActividad .iDeviceTitle, .IdeviceTareas .iDeviceTitle, .IdeviceEjercicios .iDeviceTitle, .GeoGebraIdevice header.iDevice_header h2.iDeviceTitle, .activityIdevice header.iDevice_header h2, .interactive-videoIdevice header.iDevice_header h2.iDeviceTitle, .GeoGebraIdevice header.iDevice_header h1.iDeviceTitle, .activityIdevice header.iDevice_header h1, .readingIdevice h2.iDeviceTitle , .interactive-videoIdevice header.iDevice_header h1.iDeviceTitle{color:#cc6715;}
 .download-packageIdevice header.iDevice_header_noIcon, .GeoGebraIdevice header.iDevice_header_noIcon{padding-right: 30px!important;
     padding-left: 75px;}
 
@@ -212,18 +211,18 @@ header[style*='icon_reproduccion'] h2.iDeviceTitle {color:#3d700a;}
 .iDevice_inner{margin-top: 5px;padding: 10px 20px 20px 20px;background: #fff;-webkit-box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);-moz-box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37);box-shadow: 0px 18px 16px -6px rgba(0,0,0,0.37)!important;border: 1px solid #2E2e2E;} /*gris para diferenciar los iDevices que crean */
 
 /*.iDevice_inner azul APR*/
-.textIdeviceAprendizaje .iDevice_inner, .objectivesIdevice .iDevice_inner,.IdeviceObjetivo .iDevice_inner, .RssIdevice .iDevice_inner, .IdeviceTemporalizacin .iDevice_inner, .IdeviceOrientaciones .iDevice_inner,  .IdeviceNotas .iDevice_inner{border: 1px solid #1AB09B;}
+.objectivesIdevice .iDevice_inner,.IdeviceObjetivo .iDevice_inner, .RssIdevice .iDevice_inner, .IdeviceTemporalizacin .iDevice_inner, .IdeviceOrientaciones .iDevice_inner,  .IdeviceNotas .iDevice_inner{border: 1px solid #1AB09B;}
 /*iDevice_inner libre en gris para cuando crean un iDevice libremente diferenciarlo*/
 .textIdevice  .iDevice_inner{border: 1px solid #2e2e2e;}
 .download-packageIdevice .iDevice_inner{border-top:1px solid #1AB09B !important;box-shadow:none!important; border-bottom:none!important;border-left:none!important;border-right:none!important}
 
 /*iDevice_inner verde COMP*/
 
-.textIdeviceComprende .iDevice_inner, .FileAttachIdeviceInc  .iDevice_inner, .GalleryIdevice  .iDevice_inner, .IdeviceEscucha  .iDevice_inner, .IdevicePiensa  .iDevice_inner, .IdeviceParainformarse  .iDevice_inner, .IdeviceDestacado  .iDevice_inner, .IdeviceEjemplo .iDevice_inner, .preknowledgeIdevice .iDevice_inner,.ReflectionIdevice .iDevice_inner,.CasestudyIdevice .iDevice_inner,  .WikipediaIdevice .iDevice_inner,  .IdeviceLee .iDevice_inner{border: 1px solid #549b0d;}
+.FileAttachIdeviceInc  .iDevice_inner, .GalleryIdevice  .iDevice_inner, .IdeviceEscucha  .iDevice_inner, .IdevicePiensa  .iDevice_inner, .IdeviceParainformarse  .iDevice_inner, .IdeviceDestacado  .iDevice_inner, .IdeviceEjemplo .iDevice_inner, .preknowledgeIdevice .iDevice_inner,.ReflectionIdevice .iDevice_inner,.CasestudyIdevice .iDevice_inner,  .WikipediaIdevice .iDevice_inner,  .IdeviceLee .iDevice_inner{border: 1px solid #549b0d;}
 
 /*iDevice_inner naranja EXP*/
 
-.textIdeviceExpresa .iDevice_inner, .ListaIdevice .iDevice_inner,.QuizTestIdevice .iDevice_inner,.MultichoiceIdevice .iDevice_inner,.TrueFalseIdevice .iDevice_inner,.MultiSelectIdevice .iDevice_inner,.ClozeIdevice .iDevice_inner,.ScrambledListIdevice .iDevice_inner, .IdeviceTrabajaenequipo .iDevice_inner, .GeoGebraIdevice .iDevice_inner, .activityIdevice .iDevice_inner, .pblIdevice .iDevice_inner,
+.ListaIdevice .iDevice_inner,.QuizTestIdevice .iDevice_inner,.MultichoiceIdevice .iDevice_inner,.TrueFalseIdevice .iDevice_inner,.MultiSelectIdevice .iDevice_inner,.ClozeIdevice .iDevice_inner,.ScrambledListIdevice .iDevice_inner, .IdeviceTrabajaenequipo .iDevice_inner, .GeoGebraIdevice .iDevice_inner, .activityIdevice .iDevice_inner, .pblIdevice .iDevice_inner,
 .activityIdevice .iDevice_inner,.readingIdevice .iDevice_inner, .IdeviceActividad .iDevice_inner, .IdeviceTareas .iDevice_inner, .IdeviceGraba .iDevice_inner, .IdeviceHabla .iDevice_inner, .IdeviceEscribe .iDevice_inner, .IdeviceEjercicios .iDevice_inner, .readingIdevice .iDevice_inner{border: 1px solid #ee7f1a;}
 
 .interactive-videoIdevice .iDevice_inner{border-top:1px solid #ee7f1a !important;box-shadow:none; border-bottom:none;border-left:none;border-right:none}
@@ -372,21 +371,14 @@ li{list-style-position:outside}
 
 #wikipedia-content ul li{list-style-image:none;margin-bottom:auto}
 /* Form buttons */
-.iDevice_inner input[type=submit],.iDevice_inner input[type=button],.feedbackbutton, .textIdeviceExpresa .iDevice_inner input[type=button],.textIdeviceExpresa .feedbackbutton{background:#cc6715!important;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
-.iDevice_inner input[type=submit]:hover,.iDevice_inner input[type=button]:hover,.feedbackbutton:hover, .textIdeviceExpresa .iDevice_inner input[type=button]:hover,.textIdeviceExpresa .feedbackbutton:hover{background:#E38011!important}
+.iDevice_inner input[type=submit],.iDevice_inner input[type=button],.feedbackbutton{background:#cc6715;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
+.iDevice_inner input[type=submit]:hover,.iDevice_inner input[type=button]:hover,.feedbackbutton:hover{background:#876034}
 
-
-/*button azul APREND*/
-.textIdeviceAprendizaje .iDevice_inner input[type=button],.textIdeviceAprendizaje .feedbackbutton{background:#3F9286!important;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
-.textIdeviceAprendizaje .iDevice_inner input[type=button]:hover,.textIdeviceAprendizaje .feedbackbutton:hover{background:#177A6C!important;border:0;padding:4px 10px;color:#fff;margin-bottom:1em;border-radius: 5px}
-
-
-/*button verde COMP*/
-.textIdeviceComprende .iDevice_inner input[type=button],.CasestudyIdevice .iDevice_inner input[type=button], .ReflectionIdevice .iDevice_inner input[type=button],.EjercicioresueltofpdIdevice .iDevice_inner input[type=button], .ReflectionfpdIdevice .iDevice_inner input[type=button]{
-    background: #2D6305!important;border:1px solid #499113;
+.CasestudyIdevice .iDevice_inner input[type=button], .ReflectionIdevice .iDevice_inner input[type=button],.EjercicioresueltofpdIdevice .iDevice_inner input[type=button], .ReflectionfpdIdevice .iDevice_inner input[type=button]{
+    background: #2D6305;border:1px solid #499113;
 }
-.textIdeviceComprende .iDevice_inner input[type=button]:hover,.CasestudyIdevice .iDevice_inner input[type=button]:hover, .ReflectionIdevice .iDevice_inner input[type=button]:hover,  .EjercicioresueltofpdIdevice .iDevice_inner input[type=button]:hover,.ReflectionfpdIdevice .iDevice_inner input[type=button]:hover {
-    background: #499113!important;border:1px solid #2D6305;
+.CasestudyIdevice .iDevice_inner input[type=button]:hover, .ReflectionIdevice .iDevice_inner input[type=button]:hover,  .EjercicioresueltofpdIdevice .iDevice_inner input[type=button]:hover,.ReflectionfpdIdevice .iDevice_inner input[type=button]:hover{
+    background: #499113;;border:1px solid #2D6305;
 }
 .block.iDevice_content> .exe-text +.iDevice_buttons input[type=button]{background: #107062;;border:1px solid #fff;color:white;}
 .block.iDevice_content> .exe-text +.iDevice_buttons input[type=button]:hover{background: #095248;;border:1px solid #fff;color:white;}
@@ -427,38 +419,6 @@ li{list-style-position:outside}
 #printNode{margin:0;position:absolute;top:33px;right:33px}
 #printNode.with-toggler{margin-bottom:0}
 #printNode a{display:block;width:30px;height:30px;background:#fff url(_escolares_print.png) no-repeat 50% 50%;box-shadow:rgba(0, 0, 0, 0.3) 3px 3px 4px;border-radius:15px}
-/* Accordion */
-.exe-accordion,.exe-accordion *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.exe-accordion{width:90%;margin:2em 0 2em 5%;border-top:1px solid #cc6715;border-left:1px solid #cc6715;border-right:2px solid #cc6715;border-bottom: 2px solid #cc6715;}
-.js .exe-accordion{overflow:hidden;box-shadow:0px 1px 3px rgba(0,0,0,0.25);border-radius:3px;background:#f1f1f1;width:86%;margin:0px auto}
-.fx-accordion-title,.exe-accordion h2{width:100%;padding:15px;display:inline-block;background:#fff;transition:all linear 0.15s;color:#cc6715;}
-
- a.fx-accordion-title h2:before {content:'+';font-size:1em;background-color:#cc6715;color:white; transition:transform .5s ease-in;position: relative;left:-15px;}
-
- a.fx-accordion-title h2:hover:before {
-  content:"\25be";
-  font-size:1em;
-  background-color:#cc6715;color:white;transition:transform .5s ease-in;position: relative;left:-15px;}
-
-.fx-accordion-title{border-top:1px solid #cc6715!important}
-.fx-accordion-title-0{border-bottom:1px solid #cc6715;}
-#main .exe-accordion h2{margin:0;font-size:1em;font-weight: bold}
-.js .exe-accordion h2{padding:0;border:0;display:block;background:none;}
-.js .fx-accordion-title{text-decoration:none;padding: 10px 15px 10px 0px;}
-.fx-accordion-title.active,.fx-accordion-title:hover{/*background:#4c4c4c;*/filter:alpha(opacity=90);opacity:.9;text-decoration:none}
-.fx-accordion-section:last-child .fx-accordion-title{border-left:20px solid #cc6715!important;}
-.fx-afx-accordion-titleccordion-content{padding:0 15px;display:none; background-color: #f1f1f1;border-top: 1px solid #cc6715;}
-.fx-accordion-content p:first-child {margin:0px;}
-
-/* Hint & Feedback */
-.iDevice_hint_content{border: 1px solid #cec486;background: #ecf0f1;}
-.iDevice_inner .feedback{background:#cec486;border:1px solid #cc6715 ;padding:0 1em;margin:1em 0}
-
-.ReflectionIdevice .iDevice_inner .feedback,.CasestudyIdevice .iDevice_inner .feedback,.EjercicioresueltofpdIdevice .iDevice_inner .feedback,.ReflectionfpdIdevice .iDevice_inner .feedback{background:#cec486;border:1px solid #444 ;padding:0 1em;margin:1em 0}
-.iDevice_inner .feedback-right{background:#E9F9DF}
-.iDevice_inner .feedback-wrong{background:#FDFDDB}
-.iDevice_inner .iDevice_answer-feedback{background:none;border:none;padding:0;margin:0}
-.TrueFalseIdevice .feedback{margin-top:1.5em}
 /*version imprimible*/
 @media print{
   #header{padding-top:0px!important;}
@@ -583,3 +543,33 @@ article.node:last-child{page-break-after:initial;}
 
 /*fin media print*/
 
+/* Accordion */
+.exe-accordion,.exe-accordion *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.exe-accordion{width:90%;margin:2em 0 2em 5%;border-top:1px solid #cc6715;border-left:1px solid #cc6715;border-right:2px solid #cc6715;border-bottom: 2px solid #cc6715;}
+.js .exe-accordion{overflow:hidden;box-shadow:0px 1px 3px rgba(0,0,0,0.25);border-radius:3px;background:#f1f1f1;width:86%;margin:0px auto}
+.fx-accordion-title,.exe-accordion h2{width:100%;padding:15px;display:inline-block;background:#fff;transition:all linear 0.15s;color:#cc6715;}
+
+ a.fx-accordion-title h2:before {content:'+';font-size:1em;background-color:#cc6715;color:white; transition:transform .5s ease-in;position: relative;left:-15px;}
+
+ a.fx-accordion-title h2:hover:before {
+  content:"\25be";
+  font-size:1em;
+  background-color:#cc6715;color:white;transition:transform .5s ease-in;position: relative;left:-15px;}
+
+.fx-accordion-title{border-top:1px solid #cc6715!important}
+.fx-accordion-title-0{border-bottom:1px solid #cc6715;}
+#main .exe-accordion h2{margin:0;font-size:1em;font-weight: bold}
+.js .exe-accordion h2{padding:0;border:0;display:block;background:none;}
+.js .fx-accordion-title{text-decoration:none;padding: 10px 15px 10px 0px;}
+.fx-accordion-title.active,.fx-accordion-title:hover{/*background:#4c4c4c;*/filter:alpha(opacity=90);opacity:.9;text-decoration:none}
+.fx-accordion-section:last-child .fx-accordion-title{border-left:20px solid #cc6715!important;}
+.fx-afx-accordion-titleccordion-content{padding:0 15px;display:none; background-color: #f1f1f1;border-top: 1px solid #cc6715;}
+.fx-accordion-content p:first-child {margin:0px;}
+
+/* Hint & Feedback */
+.iDevice_hint_content{border: 1px solid #cec486;background: #ecf0f1;}
+.iDevice_inner .feedback{background:#cec486;border:1px solid #cc6715 ;padding:0 1em;margin:1em 0}
+.iDevice_inner .feedback-right{background:#E9F9DF}
+.iDevice_inner .feedback-wrong{background:#FDFDDB}
+.iDevice_inner .iDevice_answer-feedback{background:none;border:none;padding:0;margin:0}
+.TrueFalseIdevice .feedback{margin-top:1.5em}

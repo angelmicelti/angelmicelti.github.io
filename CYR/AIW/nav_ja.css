@@ -2,11 +2,11 @@ html,body{min-height:100%}
 html{padding:0}
 
 html,body{min-height:100%}
-html{background:#fff url(_escolares_bg.png);/* repeat 0 -2px */background-size: cover; background-position: top left; background-repeat: no-repeat;}
+html{background:#fefefe url(_escolares_bg.png) top left  no-repeat;}
 body{padding:0;
 	text-align:center;}
 @media all and (min-width:1px) {
-	body{background-image:url(_escolares_bg.png);background-size: cover; background-position: top left; background-repeat: no-repeat;
+	body{background:#fefefe url(_escolares_bg.png) top left no-repeat;
 
 	}
 }
@@ -22,30 +22,30 @@ body{padding:0;
 #nodeTitle{padding: 17px 0px 15px 10px;color:#00843D ;letter-spacing:.5px;font-size:1.7em;font-weight:bold;margin-right: 2.3em;}
 #siteFooter{padding:5px 20px 20px 20px;text-align:right;margin-top:-56px}
 /* Navigation */
-#skipNav{font-size:.95em;text-align:center;padding-top:25px}
+#skipNav{font-size:18px;text-align:center;padding-top:25px}
 #skipNav a{padding:5px 15px;background:#3a4749}
 #siteNav{width:279px;float:left;padding-right:20px;margin:0px 0 70px 0}
 #siteNav ul,#siteNav li{margin:0;padding:0;list-style:none}
-#siteNav a{font-size:.95em;display:block;padding:7px 10px 7px 20px;border-bottom:1px solid #5a4532;color: #000;background: #f96919;font-weight: bold;text-decoration: none}
-#siteNav a:hover{color: #000;background: #fd6f6c ;border-color:#5A4532;}
-#siteNav a:focus{color: #000;background: #fd6f6c ;border-color:#5A4532;}
-#siteNav ul ul a{    padding-left: 35px;
-    font-size: .9em;
-    background: #b84a63;
+#siteNav a{font-size: 18px;display:block;padding:7px 10px 7px 20px;border-bottom:1px solid #5a4532;color: #465655;background: #98d1a8;font-weight: bold;}
+#siteNav a:hover{color: #465655;background: #64bcaf ;border-color:#5A4532;text-decoration:none}
+#siteNav a:focus{color: #465655;background: #64bcaf ;border-color:#5A4532;text-decoration:none}
+#siteNav ul ul a{
+    padding-left: 35px;
+    font-size: 18px;
+    background: #edfbc4;
     border-color: #AC7949;
-    color: #fff;}
-#siteNav ul ul a:hover,#siteNav ul ul a:focus{background:#b84a63;border-color:#AC7949;color:#fff}
-#siteNav .active{color:#000;text-decoration:none;background:#f7f7f7;border-color:#fff}
-#siteNav .active:hover{color:#000;text-decoration:none;background:#aaf9e9;border-color:#fff}
+    color: #c92945;
+    }
+#siteNav ul ul a:hover,#siteNav ul ul a:focus{background:#64bcaf;border-color:#AC7949;color:#465655;text-decoration:none}
+#siteNav .active{color:#34771a;text-decoration:none;background:#fff;border-color:#fff}
 #siteNav .other-section{display:none}
-#siteNav ul ul ul a{    padding-left: 50px;
-    background-color: #86d3c7;
-    color: #000;}
+#siteNav ul ul ul a{padding-left:50px}
 /* IE6 */
 * html #siteNav a{display:inline-block;width:249px}
 * html #siteNav ul ul a{width:234px}
 * html #siteNav ul ul ul a{width:219px}
 * html #main{width:auto}
+
 /* Pagination */
 .pagination{text-align:right;font-size:.95em}
 .pagination .sep{display:none}
@@ -116,7 +116,7 @@ a .exe-client-search-result{color:#00566a}
 	#siteNav a{padding:10px 20px}
 	#siteNav ul ul a{padding-left:40px}
 	#siteNav ul ul ul a{padding-left:60px}		
-	#main-wrapper,.no-nav #main-wrapper{padding-left:20px;padding-right:20px}
+#main-wrapper,.no-nav #main-wrapper{padding-left:20px;padding-right:20px;margin-bottom: 10px}
 	#siteFooter,.no-nav #siteFooter{padding:20px;text-align:center;margin:0}
 	#content .exe-col{float:none;width:100%;padding:0}
 	iframe,object,embed{max-width:100%}
