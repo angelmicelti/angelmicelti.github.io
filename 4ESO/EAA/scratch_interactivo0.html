@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Ruteado de circuitos: EasyEDA y PCB Wizard | Electrónica analógica 4º E.S.O. </title>
+<title>Scratch interactivo | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-122"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-183"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
@@ -73,13 +73,13 @@
       <li><a href="scratch_interactivo.html" class="no-ch">Scratch interactivo</a></li>
    </ul>
    </li>
-   <li><a href="8el_led.html" class="daddy">8.El LED</a>
-   <ul class="other-section">
-      <li><a href="el_led_siempre_protegido.html" class="daddy">El LED, siempre protegido</a>
-      <ul class="other-section">
+   <li class="current-page-parent"><a href="8el_led.html" class="current-page-parent daddy">8.El LED</a>
+   <ul>
+      <li class="current-page-parent"><a href="el_led_siempre_protegido.html" class="current-page-parent daddy">El LED, siempre protegido</a>
+      <ul>
          <li><a href="clculo_de_la_resistencia_de_polarizacin.html" class="no-ch">Cálculo de la resistencia de polarización</a></li>
          <li><a href="interacta0.html" class="no-ch">Interactúa</a></li>
-         <li><a href="scratch_interactivo0.html" class="no-ch">Scratch interactivo</a></li>
+         <li id="active"><a href="scratch_interactivo0.html" class="active no-ch">Scratch interactivo</a></li>
       </ul>
       </li>
       <li><a href="identificacin_de_los_terminales_de_un_led.html" class="no-ch">Identificación de los terminales de un LED</a></li>
@@ -132,16 +132,16 @@
       <li><a href="124_dht11_sensor_de_temperatura_y_humedad.html" class="no-ch">12.4. DHT11 sensor de temperatura y humedad</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="13_montaje_de_circuitos.html" class="current-page-parent daddy">13. Montaje de circuitos</a>
-   <ul>
+   <li><a href="13_montaje_de_circuitos.html" class="daddy">13. Montaje de circuitos</a>
+   <ul class="other-section">
       <li><a href="131_placa_protoboard.html" class="daddy">13.1. Placa protoboard</a>
       <ul class="other-section">
          <li><a href="pb_interactiva.html" class="no-ch">PB interactiva</a></li>
       </ul>
       </li>
-      <li class="current-page-parent"><a href="132_pcb_placas_de_circuito_impresas.html" class="current-page-parent daddy">13.2. PCB: Placas de Circuito Impresas</a>
-      <ul>
-         <li id="active"><a href="ruteado_de_circuitos_easyeda_y_pcb_wizard.html" class="active no-ch">Ruteado de circuitos: EasyEDA y PCB Wizard</a></li>
+      <li><a href="132_pcb_placas_de_circuito_impresas.html" class="daddy">13.2. PCB: Placas de Circuito Impresas</a>
+      <ul class="other-section">
+         <li><a href="ruteado_de_circuitos_easyeda_y_pcb_wizard.html" class="no-ch">Ruteado de circuitos: EasyEDA y PCB Wizard</a></li>
       </ul>
       </li>
       <li><a href="133_otros_montajes_pcbprint_cucocb.html" class="no-ch">13.3. Otros montajes: PCBPrint, CucoCB</a></li>
@@ -193,43 +193,16 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="132_pcb_placas_de_circuito_impresas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="133_otros_montajes_pcbprint_cucocb.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="interacta0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="identificacin_de_los_terminales_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Ruteado de circuitos: EasyEDA y PCB Wizard</h1></div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice em_iDevice_preknowledge" id="id205">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">PCBWizard</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta205_242_2" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="pcbwizard.jpg" alt="" title="Entorno de trabajo de PCB Wizard" width="512" height="288" style="float: right; margin: 5px 10px 5px 10px;" />PCB Wizard es una aplicación de rutado muy sencilla. Necesita ejecutarse simultáneamente con LiveWire.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">El procedimiento a seguir es muy simple:</span></p>
-<ol>
-<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Crea tu esquemático en LiveWire.</span></li>
-<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Con PCB Wizard ejecutándose, elige la instrucción <em>Tools &gt; Convert &gt; Design to Printed Circuit Board</em></span></li>
-<li style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Mantén las opciones por defecto, y verás el resultado en pocos segundos.</span></li>
-</ol>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Puedes descargar PCB Wizard en <a href="https://github.com/angelmicelti/TecnoVilladiego4/raw/master/EAN/software/PCB%20WIZARD%203.5.zip">este enlace</a>.</span></p>
-<p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Te dejo un vídeo para que aprendas a manejar ambos:</span></p>
-<p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><iframe width="560" height="314" src="//www.youtube.com/embed/Ik3_e90AhPQ" allowfullscreen="allowfullscreen"></iframe><br /></span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="iDevice_wrapper preknowledgeIdevice em_iDevice em_iDevice_preknowledge" id="id204">
-<div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">EasyEDA</h2></div>
-<div class="iDevice_inner">
-<div class="iDevice_content_wrapper">
-<div id="ta204_241_2" class="block iDevice_content">
-<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="easyeda.png" alt="" title="Pantalla de EasyEDA" width="540" height="258" style="float: right; margin: 5px 10px 5px 10px;" />Una aplicación web un poco más profesional es EasyEDA. Puedes acceder a ella en <a href="http://www.easyeda.com/es">este enlace</a>.</span></p>
-<p><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Para guardar tus proyectos, necesitarás registrarte. Utiliza, por ejemplo, tu cuenta de GMail de trabajo.</span></p>
-</div>
-</div>
+<div id="nodeDecoration"><h1 id="nodeTitle">Scratch interactivo</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id272">
+<div class="iDevice emphasis0">
+<div id="ta272_85" class="block iDevice_content">
+<p style="text-align: center;"><iframe width="800" height="663" src="https://scratch.mit.edu/projects/123383696/embed" allowfullscreen="allowfullscreen"></iframe><br /><br /><br /></p>
 </div>
 </div>
 </div>
@@ -240,7 +213,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="132_pcb_placas_de_circuito_impresas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="133_otros_montajes_pcbprint_cucocb.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="interacta0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="identificacin_de_los_terminales_de_un_led.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
