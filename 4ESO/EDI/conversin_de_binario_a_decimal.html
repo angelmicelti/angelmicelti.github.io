@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>2.5. Conversión de decimal a binario. | Electrónica digital </title>
+<title>Conversión de binario a decimal. | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -29,15 +29,19 @@
       <li><a href="21_ideas_previas.html" class="no-ch">2.1. Ideas previas.</a></li>
       <li><a href="22_el_nibble_o_cuado.html" class="no-ch">2.2. El nibble o cuado</a></li>
       <li><a href="23_el_byte.html" class="no-ch">2.3. El byte</a></li>
-      <li><a href="24_conversin_de_binario_a_decimal.html" class="no-ch">2.4. Conversión de binario a decimal.</a></li>
-      <li id="active"><a href="25_conversin_de_decimal_a_binario.html" class="active no-ch">2.5. Conversión de decimal a binario.</a></li>
-      <li><a href="26_el_sistema_hexadecimal.html" class="daddy">2.6. El sistema hexadecimal</a>
+      <li class="current-page-parent"><a href="24el_sistema_binario.html" class="current-page-parent daddy">2.4.El sistema binario</a>
+      <ul>
+         <li id="active"><a href="conversin_de_binario_a_decimal.html" class="active no-ch">Conversión de binario a decimal.</a></li>
+         <li><a href="conversin_de_decimal_a_binario.html" class="no-ch">Conversión de decimal a binario.</a></li>
+      </ul>
+      </li>
+      <li><a href="25_el_sistema_hexadecimal.html" class="daddy">2.5. El sistema hexadecimal</a>
       <ul class="other-section">
          <li><a href="conversin_entre_sistemas_de_numeracin.html" class="no-ch">Conversión entre sistemas de numeración</a></li>
       </ul>
       </li>
-      <li><a href="27_suma_de_dos_nmeros_binarios.html" class="no-ch">2.7. Suma de dos números binarios.</a></li>
-      <li><a href="28_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.8. Diferencia de dos números binarios.</a></li>
+      <li><a href="26_suma_de_dos_nmeros_binarios.html" class="no-ch">2.6. Suma de dos números binarios.</a></li>
+      <li><a href="27_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.7. Diferencia de dos números binarios.</a></li>
    </ul>
    </li>
    <li><a href="3_funcin_lgica_tabla_de_verdad.html" class="daddy">3. Función lógica. Tabla de verdad.</a>
@@ -181,42 +185,60 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="24_conversin_de_binario_a_decimal.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="26_el_sistema_hexadecimal.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="24el_sistema_binario.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="conversin_de_decimal_a_binario.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">2.5. Conversión de decimal a binario.</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id10">
+<div id="nodeDecoration"><h1 id="nodeTitle">Conversión de binario a decimal.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
 <div class="iDevice emphasis0">
-<div id="ta10_1" class="block iDevice_content">
-<p align="justify"><!-- [if gte vml 1]>
-<![endif]--><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Para convertir de decimal, el proceso es un poco más complicado. Necesitamos una técnica, a la que llamaremos <b>algoritmo de la división</b>. Consiste en dividir tantas veces por dos como se pueda, y los restos y el último cociente obtenido nos proporcionan la expresión binaria (invertida) de nuestro número decimal.<img src="algoritmo_division.jpg" align="right" height="153" hspace="5" vspace="5" width="186" /></span></p>
-<div align="justify"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> Veámoslo con un ejemplo, calculando la expresión binaria de 147<sub>10)</sub> (ver figura de la derecha). Se van haciendo las sucesivas divisiones por 2. Los restos y el último cociente nos dan la expresión binaria que buscamos, <b><i>pero en orden invertido</i></b>. A saber: 1001 0011</span></div>
+<div id="ta7_1" class="block iDevice_content">
+<p align="justify"><img src="posiciones.jpg" align="right" height="200" hspace="5" vspace="5" width="500" /><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><span face="verdana,geneva" size="3">En el diagrama de la</span><span face="verdana,geneva" size="3"> derecha, vemos que cada cifra (<b>bit</b>)</span><span face="verdana,geneva" size="3"> puede tomar únicamente dos valores, los ya citad</span><span face="verdana,geneva" size="3">os 0 y 1. Pero, dependiendo de la posición del bit, la importancia o <b>peso</b> que tiene cada uno no es la misma. A</span><span face="verdana,geneva" size="3">sí, por ejemplo, mientras que un uno en la primera casilla tendría un peso de "1", en la cuarta casilla desde la derecha tendría un peso de 2<sup>3</sup> = 8.</span><span face="verdana,geneva" size="3"> Unos ejemplos: </span></span></p>
+<div align="center"><span face="verdana,geneva" size="4" style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> 10<sub>2)</sub> = 0·2<sup>0</sup> + 1·2<sup>1</sup> = 2<sub>10)</sub></span></div>
+<div align="center"><span face="verdana,geneva" size="4" style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">101<sub>2)</sub> = 1·2<sup>0</sup> + 0·2<sup>1</sup> + 1·2<sup>2</sup> = 5<sub>10)</sub></span></div>
+<p></p>
 </div>
 </div>
 </div>
-<div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id115">
+<div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id9">
 <div class="iDevice emphasis1" >
 <div class="iDevice_header"><h2 class="iDeviceTitle">Ahora, tú</h2></div>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta115_59_2" class="block iDevice_content">
-<p><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;">Convierte de decimal a binario los siguientes números:</span></p>
-<table align="center" border="0">
+<div id="ta9_29_2" class="block iDevice_content">
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"> Fácil, ¿no? Pues anímate a averiguar los siguientes números en sistema decimal para entrenarte: </span></p>
+<table border="0" cellpadding="0" cellspacing="0">
 <tbody>
 <tr>
-<td><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;">25<sub>10)</sub><br /></span></td>
-<td><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"><sub></sub> <br /></span></td>
-<td><span style="font-size: 14pt;"><span style="font-family: 'trebuchet ms', geneva;"> </span><span style="font-family: 'trebuchet ms', geneva;">101<sub>10)</sub></span></span></td>
-<td><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"><sub></sub> <br /></span></td>
-<td><span style="font-size: 14pt;"><span style="font-family: 'trebuchet ms', geneva;"> </span><span style="font-family: 'trebuchet ms', geneva;">255<sub>10)</sub></span></span></td>
+<td valign="top" width="127">
+<p align="center"><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"> 1001 </span></p>
+</td>
+<td valign="top" width="127">
+<p align="center"><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"> 1 1010 </span></p>
+</td>
+<td valign="top" width="127">
+<p align="center"><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"> 1011 </span></p>
+</td>
+<td valign="top" width="127">
+<p align="center"><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"> 100 1001 </span></p>
+</td>
+<td valign="top" width="127">
+<p align="center"><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"> 101 1001 </span></p>
+</td>
 </tr>
 </tbody>
 </table>
-<p><span style="font-size: 14pt;"> </span></p>
+<p align="justify"><span style="font-size: 14pt;"><i><b><span style="font-family: verdana,geneva;"><u>Nota</u>: observa que hemos dejado un espacio entre cada cuatro bits. Conviene que te acostumbres a esto, ya que te será de utilidad de aquí en adelante. </span></b></i></span></p>
 </div>
 </div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id143">
+<div class="iDevice emphasis0">
+<div id="ta143_85" class="block iDevice_content">
+<p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/bScw3CNb_fM" allowfullscreen="allowfullscreen"></iframe></p>
 </div>
 </div>
 </div>
@@ -227,7 +249,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="24_conversin_de_binario_a_decimal.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="26_el_sistema_hexadecimal.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="24el_sistema_binario.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="conversin_de_decimal_a_binario.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

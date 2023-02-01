@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>2.6. El sistema hexadecimal | Electrónica digital </title>
+<title>Conversión de decimal a binario. | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-5"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -29,15 +29,19 @@
       <li><a href="21_ideas_previas.html" class="no-ch">2.1. Ideas previas.</a></li>
       <li><a href="22_el_nibble_o_cuado.html" class="no-ch">2.2. El nibble o cuado</a></li>
       <li><a href="23_el_byte.html" class="no-ch">2.3. El byte</a></li>
-      <li><a href="24_conversin_de_binario_a_decimal.html" class="no-ch">2.4. Conversión de binario a decimal.</a></li>
-      <li><a href="25_conversin_de_decimal_a_binario.html" class="no-ch">2.5. Conversión de decimal a binario.</a></li>
-      <li id="active"><a href="26_el_sistema_hexadecimal.html" class="active daddy">2.6. El sistema hexadecimal</a>
+      <li class="current-page-parent"><a href="24el_sistema_binario.html" class="current-page-parent daddy">2.4.El sistema binario</a>
       <ul>
+         <li><a href="conversin_de_binario_a_decimal.html" class="no-ch">Conversión de binario a decimal.</a></li>
+         <li id="active"><a href="conversin_de_decimal_a_binario.html" class="active no-ch">Conversión de decimal a binario.</a></li>
+      </ul>
+      </li>
+      <li><a href="25_el_sistema_hexadecimal.html" class="daddy">2.5. El sistema hexadecimal</a>
+      <ul class="other-section">
          <li><a href="conversin_entre_sistemas_de_numeracin.html" class="no-ch">Conversión entre sistemas de numeración</a></li>
       </ul>
       </li>
-      <li><a href="27_suma_de_dos_nmeros_binarios.html" class="no-ch">2.7. Suma de dos números binarios.</a></li>
-      <li><a href="28_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.8. Diferencia de dos números binarios.</a></li>
+      <li><a href="26_suma_de_dos_nmeros_binarios.html" class="no-ch">2.6. Suma de dos números binarios.</a></li>
+      <li><a href="27_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.7. Diferencia de dos números binarios.</a></li>
    </ul>
    </li>
    <li><a href="3_funcin_lgica_tabla_de_verdad.html" class="daddy">3. Función lógica. Tabla de verdad.</a>
@@ -181,95 +185,42 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="25_conversin_de_decimal_a_binario.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="conversin_entre_sistemas_de_numeracin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="conversin_de_binario_a_decimal.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="25_el_sistema_hexadecimal.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">2.6. El sistema hexadecimal</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id11">
+<div id="nodeDecoration"><h1 id="nodeTitle">Conversión de decimal a binario.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id10">
 <div class="iDevice emphasis0">
-<div id="ta11_1" class="block iDevice_content">
-<p align="justify"><img src="hexadecimal.jpg" align="right" height="382" hspace="5" vspace="5" width="241" /><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Aunque los circuitos electrónicos digitales y los ordenadores utilizan el sistema binario, trabajar con este sistema de numeración resulta pesado, y suele producir equivocaciones cuando se trabaja con números binarios demasiado largos.</span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">El <b>sistema hexadecimal</b> está en base <b>16</b>, sus números están representados por los 10 primeros dígitos de la numeración decimal, y el intervalo que va del número 10 al 15 están representados por las letras del alfabeto de la A a la F.</span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Actualmente el sistema hexadecimal es uno de los más utilizados en el procesamiento de datos, debido principalmente a 2 ventajas:</span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">La primera ventaja es la simplificación en la escritura de los números decimales, <b>cada 4 cifras binarias se representan por una hexadecimal</b>.</span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">La segunda es que cada cifra hexadecimal se pueden expresar mediante 4 cifras binarias, con lo que se facilita la transposición entre estos 2 sistemas. Para convertir un número binario en hexadecimal se realiza el mismo proceso, pero a la inversa.</span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b>Ejemplo: </b></span></p>
-<div align="justify"></div>
-<table align="center" border="0" cellpadding="0" cellspacing="0">
+<div id="ta10_1" class="block iDevice_content">
+<p align="justify"><!-- [if gte vml 1]>
+<![endif]--><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;">Para convertir de decimal, el proceso es un poco más complicado. Necesitamos una técnica, a la que llamaremos <b>algoritmo de la división</b>. Consiste en dividir tantas veces por dos como se pueda, y los restos y el último cociente obtenido nos proporcionan la expresión binaria (invertida) de nuestro número decimal.<img src="algoritmo_division.jpg" align="right" height="153" hspace="5" vspace="5" width="186" /></span></p>
+<div align="justify"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> Veámoslo con un ejemplo, calculando la expresión binaria de 147<sub>10)</sub> (ver figura de la derecha). Se van haciendo las sucesivas divisiones por 2. Los restos y el último cociente nos dan la expresión binaria que buscamos, <b><i>pero en orden invertido</i></b>. A saber: 1001 0011</span></div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id115">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ahora, tú</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta115_59_2" class="block iDevice_content">
+<p><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;">Convierte de decimal a binario los siguientes números:</span></p>
+<table align="center" border="0">
 <tbody>
 <tr>
-<td valign="top" width="316">
-<div align="center"></div>
-<p align="center"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><b>Número Hexadecimal: B7E<sub>16)</sub></b></span></p>
-<div align="center"></div>
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">B: 1011 (11)</span></p>
-<div align="center"></div>
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">7: 0111</span></p>
-<div align="center"></div>
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">E: 1110 (14)</span></p>
-</td>
-<td valign="top" width="316">
-<div align="center"></div>
-<p align="center"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><b>Número Binario:</b></span></p>
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1011 0111 1110<sub>2)</sub></span></p>
-</td>
+<td><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;">25<sub>10)</sub><br /></span></td>
+<td><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"><sub></sub> <br /></span></td>
+<td><span style="font-size: 14pt;"><span style="font-family: 'trebuchet ms', geneva;"> </span><span style="font-family: 'trebuchet ms', geneva;">101<sub>10)</sub></span></span></td>
+<td><span style="font-family: 'trebuchet ms', geneva; font-size: 14pt;"><sub></sub> <br /></span></td>
+<td><span style="font-size: 14pt;"><span style="font-family: 'trebuchet ms', geneva;"> </span><span style="font-family: 'trebuchet ms', geneva;">255<sub>10)</sub></span></span></td>
 </tr>
 </tbody>
 </table>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para <b>pasar del número hexadecimal al sistema decimal</b>, se han de multiplicar los dígitos hexadecimales por las distintas potencias de base 16 que representan cada dígito del sistema de numeración hexadecimal (16<sup>0</sup>, 16<sup>1</sup>, 16<sup>2</sup>...).</span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b>Ejemplo:</b></span></p>
-<div align="justify"></div>
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">B7E<sub>16)</sub> = 11•16<sup>2</sup> + 7•16<sup>1</sup> + 14•16<sup>0</sup> = 2816 + 112 + 14 = 2.942<sub>10)</sub></span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">A la inversa, <b>para convertir el número decimal en hexadecimal</b>, éste se irá dividiendo por el número 16 sucesivamente hasta que ya no se puedan realizar más divisiones con el mismo número. El número hexadecimal resultante estará formado por el último cociente seguido de todos los restos sucesivos obtenidos desde el último hasta el primero. Veamos, por ejemplo, qué sucede con el 350</span></p>
-<div align="justify"></div>
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td align="center" width="316">
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><b>Expresión decimal:</b></span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="expresion_hexadecimal.jpg" align="bottom" height="77" width="120" /></span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> <!-- [if gte vml 1]>
-			<![endif]--></span></p>
-</td>
-<td align="center" valign="top" width="316">
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b>Nº Hexadecimal:</b></span></p>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"><b></b><b>15E<sub>16)</sub></b></span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<div align="justify"></div>
-<p align="justify"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><!-- [if gte vml 1]>
-<![endif]-->Otra posibilidad en la conversión de números decimales y hexadecimales es utilizar los binarios como intermediarios, es decir, en cualquiera de los sentidos, se obtendría en primer lugar el número binario y después éste pasaría al código definitivo.</span></p>
-<div align="justify"></div>
-<p align="justify"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><!-- [if gte vml 1]>
-<![endif]-->Por último, otra posibilidad de cálculo la ofrecen las calculadoras de sobremesa o las que suelen venir con algunos sistemas operativos. En ese caso basta teclear la cantidad estando seleccionado un sistema: binario, octal, hexadecimal o decimal, y después conmutar al sistema de destino deseado y el número aparecerá automáticamente.</span></p>
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Aquí vemos la <i><b>expresión decimal</b></i>: </span></p>
-<p align="justify"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
-<div style="text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="calculadora01.jpg" height="306" width="468" /></span></div>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> y aquí la <i><b>expresión hexadecimal</b></i>:</span></p>
-<p align="center"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="calculadora02.jpg" height="299" width="470" /></span></p>
-<div style="text-align: center;"></div>
-<div style="text-align: center;" align="left"></div>
-<p></p>
-<p> </p>
+<p><span style="font-size: 14pt;"> </span></p>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id144">
-<div class="iDevice emphasis0">
-<div id="ta144_85" class="block iDevice_content">
-<p style="text-align: center;"><iframe width="560" height="314" src="//www.youtube.com/embed/6Fq4Ah0ORK4" allowfullscreen="allowfullscreen"></iframe></p>
 </div>
 </div>
 </div>
@@ -280,7 +231,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="25_conversin_de_decimal_a_binario.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="conversin_entre_sistemas_de_numeracin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="conversin_de_binario_a_decimal.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="25_el_sistema_hexadecimal.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>

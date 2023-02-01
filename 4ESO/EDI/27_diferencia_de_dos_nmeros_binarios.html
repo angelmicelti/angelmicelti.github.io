@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>2.7. Suma de dos números binarios. | Electrónica digital </title>
+<title>2.7. Diferencia de dos números binarios. | Electrónica digital </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán León" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-7"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-8"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(Electronica-sistema-binario-y-digital.jpg); background-repeat: no-repeat;"><div id="headerContent">Electrónica digital</div></div>
@@ -29,15 +29,19 @@
       <li><a href="21_ideas_previas.html" class="no-ch">2.1. Ideas previas.</a></li>
       <li><a href="22_el_nibble_o_cuado.html" class="no-ch">2.2. El nibble o cuado</a></li>
       <li><a href="23_el_byte.html" class="no-ch">2.3. El byte</a></li>
-      <li><a href="24_conversin_de_binario_a_decimal.html" class="no-ch">2.4. Conversión de binario a decimal.</a></li>
-      <li><a href="25_conversin_de_decimal_a_binario.html" class="no-ch">2.5. Conversión de decimal a binario.</a></li>
-      <li><a href="26_el_sistema_hexadecimal.html" class="daddy">2.6. El sistema hexadecimal</a>
+      <li><a href="24el_sistema_binario.html" class="daddy">2.4.El sistema binario</a>
+      <ul class="other-section">
+         <li><a href="conversin_de_binario_a_decimal.html" class="no-ch">Conversión de binario a decimal.</a></li>
+         <li><a href="conversin_de_decimal_a_binario.html" class="no-ch">Conversión de decimal a binario.</a></li>
+      </ul>
+      </li>
+      <li><a href="25_el_sistema_hexadecimal.html" class="daddy">2.5. El sistema hexadecimal</a>
       <ul class="other-section">
          <li><a href="conversin_entre_sistemas_de_numeracin.html" class="no-ch">Conversión entre sistemas de numeración</a></li>
       </ul>
       </li>
-      <li id="active"><a href="27_suma_de_dos_nmeros_binarios.html" class="active no-ch">2.7. Suma de dos números binarios.</a></li>
-      <li><a href="28_diferencia_de_dos_nmeros_binarios.html" class="no-ch">2.8. Diferencia de dos números binarios.</a></li>
+      <li><a href="26_suma_de_dos_nmeros_binarios.html" class="no-ch">2.6. Suma de dos números binarios.</a></li>
+      <li id="active"><a href="27_diferencia_de_dos_nmeros_binarios.html" class="active no-ch">2.7. Diferencia de dos números binarios.</a></li>
    </ul>
    </li>
    <li><a href="3_funcin_lgica_tabla_de_verdad.html" class="daddy">3. Función lógica. Tabla de verdad.</a>
@@ -181,61 +185,29 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="conversin_entre_sistemas_de_numeracin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="28_diferencia_de_dos_nmeros_binarios.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="26_suma_de_dos_nmeros_binarios.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_funcin_lgica_tabla_de_verdad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">2.7. Suma de dos números binarios.</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id12">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.7. Diferencia de dos números binarios.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id13">
 <div class="iDevice emphasis0">
-<div id="ta12_1" class="block iDevice_content">
-<p align="justify"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para sumar en sistema binario, basta recordar que sólo disponemos de dos números, el cero y el uno. Así pues, cuando nos pasemos del 1, habrá que "llevarse" una cifra y colocarla a la izquierda de la que tenemos. O, simplemente, tener en cuenta que 1+1 sigue siendo igual a 2, salvo que en binario "2" se escribe "10". En definitiva, puedes utilizar las siguientes reglas:</span></p>
-<div align="justify"></div>
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td valign="top" width="127">
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0 + 0 = 0</span></p>
-</td>
-<td valign="top" width="127">
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></p>
-</td>
-<td valign="top" width="127">
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">0 + 1 = 1</span></p>
-</td>
-<td valign="top" width="127">
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;"> </span></p>
-</td>
-<td valign="top" width="127">
-<p align="center"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">1 + 1 = 1</span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<div align="justify"></div>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
-<hr size="3" />
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
-<p><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
-<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Veamos algunos ejemplos:</span></p>
-<p align="justify"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
-<table style="border-collapse: collapse;" align="center" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td style="padding: 0cm 3.5pt; width: 94.9pt;" valign="top" width="127">
-<p class="MsoBodyText" style="margin-top: 0cm; text-align: center;" align="center"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="suma1.jpg" align="absmiddle" height="188" width="302" /></span></p>
-</td>
-<td style="padding: 0cm 3.5pt; width: 94.95pt;" valign="top" width="127">
-<p class="MsoBodyText" style="margin-top: 0cm; text-align: center;" align="center"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><span lang="ES-TRAD"><o:p> </o:p></span><img src="suma2.jpg" height="173" width="308" /></span></p>
-</td>
-<td style="padding: 0cm 3.5pt; width: 94.95pt;" valign="top" width="127">
-<p class="MsoBodyText" style="margin-top: 0cm; text-align: center;" align="center"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="suma3.jpg" height="237" width="341" /></span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p align="justify"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
+<div id="ta13_1" class="block iDevice_content">
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Para hacer la diferencia binaria, utilizaremos el siguiente <b>algoritmo o procedimiento</b>, que obtiene la diferencia binaria a partir de una suma<b>:</b></span></p>
+<ol>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Colocar el minuendo.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Colocar el sustraendo bajo el minuendo, pero con las cifras invertidas, cambiando ceros por unos y unos por ceros.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Colocar tantos "1" a la izquierda del nuevo sustraendo como sea necesario para que ambos tengan las mismas cifras.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Añadir un "1" como tercera fila de la suma.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Efectuar la suma.</span></li>
+<li><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Quitar la cifra de la izquierda del resultado. Nos ha quedado escrito el número que es la diferencia de los dos que nos han dado.</span></li>
+</ol>
+<div><span style="color: #3a4749; font-family: trebuchet ms, geneva, sans-serif;"><span style="font-size: 18.6667px;">Los pasos 2), 3) y 4) coinciden con la operación de obtener el llamado "complemento a dos" del sustraendo. Más información en <a href="complemento_a_2.html">este enlace</a>.</span></span></div>
+<p><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 14pt;">Desarrollemos este algoritmo para hacer la diferencia de 13<sub>10)</sub> = 1101<sub>2)</sub> y 5<sub>10)</sub> = 101<sub>2)</sub>:</span><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"> </span></p>
+<div style="text-align: center;"><span style="font-size: 14pt; font-family: 'trebuchet ms', geneva, sans-serif;"><img src="diferencia_binaria.jpg" height="433" width="803" /></span></div>
+<p></p>
+<p> </p>
 </div>
 </div>
 </div>
@@ -246,7 +218,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="conversin_entre_sistemas_de_numeracin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="28_diferencia_de_dos_nmeros_binarios.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="26_suma_de_dos_nmeros_binarios.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_funcin_lgica_tabla_de_verdad.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
