@@ -269,9 +269,9 @@
 <p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><em>R<sub>A</sub></em> toma valores entre 1KΩ y 10MΩ, y <em>R<sub>B</sub></em> siempre tiene que ser menor que <em>R<sub>A</sub></em></span></p>
 <p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><img src="DutyCicle2.png" alt="" title="Cálculo del tiempo de pulso alto y pulso bajo" width="228" height="159" style="float: right; margin: 5px 10px 5px 10px;" />En este caso, se tiene que los tiempos de pulso bajo (T<sub>1</sub>) y pulso alto (T<sub>2</sub>) son los que aparecen a la derecha.</span></p>
 <p style="text-align: justify;"><span style="font-family: comic sans ms, sans-serif;"><span style="font-size: 18.6667px;">Si calculamos el duty cycle de este circuito, obtenemos que:</span></span></p>
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">D = {{{R_A+R_B}} \over {{R_A+2 \cdot R_B}}}</span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">D = {{{{R_A+R_B}} \over {{R_A+2 \cdot R_B}}} \cdot 100}</span></span></p>
 <p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">También podemos despejar la relación entre las resistencias en función del duty cycle que queramos implementar:</span></p>
-<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">R_{B} = {{1-D} \over {2D-1}} \cdot R_{A}</span></span></p>
+<p><span class="exe-math code-only exe-math-engine position-center"><span class="exe-math-code">R_{A} = {{2D -1} \over {1-D}} \cdot R_{B}</span></span></p>
 <p style="text-align: justify;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;">Esta configuración es la base del control por PWM (ver <a href="apndice_v_pulse_width_modulation_pwm.html">apéndice V</a>).</span></p>
 <p style="text-align: center;"><span style="font-size: 14pt; font-family: 'comic sans ms', sans-serif;"><a href="555astable.lvw">555 COMO ASTABLE</a></span></p>
 </div>
