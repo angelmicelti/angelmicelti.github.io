@@ -427,7 +427,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <none></none>
+             <reference key="10"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
