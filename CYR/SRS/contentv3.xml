@@ -171,7 +171,7 @@
       <instance class="exe.engine.node.Node" reference="7">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Microbit"></unicode>
+        <unicode value="Micro:bit"></unicode>
         <string role="key" value="idevices"></string>
         <list></list>
         <string role="key" value="_id"></string>
@@ -185,7 +185,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Microbit"></string>
+        <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Micro%3Abit"></string>
         <string role="key" value="parent"></string>
         <reference key="2"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -350,7 +350,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Microbit:Recursos"></string>
+           <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Micro%3Abit:Recursos"></string>
            <string role="key" value="parent"></string>
            <reference key="7"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -742,7 +742,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="6"></reference>
+  <reference key="7"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
