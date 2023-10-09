@@ -1158,7 +1158,7 @@
   <string role="key" value="mxmlwidth"></string>
   <string value=""></string>
   <string role="key" value="release"></string>
-  <string value="2.7"></string>
+  <string value="2.8.1"></string>
   <string role="key" value="resources"></string>
   <dictionary></dictionary>
   <string role="key" value="root"></string>
@@ -1170,7 +1170,7 @@
   <string role="key" value="scowwebsite"></string>
   <bool value="0"></bool>
   <string role="key" value="style"></string>
-  <unicode value="EducaAnd_adultos"></unicode>
+  <unicode value="Educaand_Escolares-1"></unicode>
   <string role="key" value="sugaractivityname"></string>
   <string value=""></string>
   <string role="key" value="sugarservicename"></string>
