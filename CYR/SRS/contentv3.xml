@@ -85,9 +85,9 @@
   <string role="key" value="_name"></string>
   <unicode value="SRS"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="6"></int>
+  <int value="12"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="11"></int>
+  <int value="13"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -139,7 +139,7 @@
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="14">
+         <instance class="exe.engine.node.Node" reference="15">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Recursos"></unicode>
@@ -168,7 +168,7 @@
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="7">
+      <instance class="exe.engine.node.Node" reference="4">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Micro:bit"></unicode>
@@ -192,153 +192,12 @@
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="6">
+         <instance class="exe.engine.node.Node" reference="20">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Recursos"></unicode>
            <string role="key" value="idevices"></string>
-           <list>
-            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="4">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="Free Text"></unicode>
-              <string role="key" value="_author"></string>
-              <unicode value="University of Auckland"></unicode>
-              <string role="key" value="_purpose"></string>
-              <unicode value="The majority of a learning resource will be 
-establishing context, delivering instructions and providing general information.
-This provides the framework within which the learning activities are built and 
-delivered."></unicode>
-              <string role="key" value="_tip"></string>
-              <string value=""></string>
-              <string role="key" value="_typeName"></string>
-              <unicode value="Free Text"></unicode>
-              <string role="key" value="childs"></string>
-              <list></list>
-              <string role="key" value="content"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="5">
-               <dictionary>
-                <string role="key" value="_id"></string>
-                <int value="85"></int>
-                <string role="key" value="_idevice"></string>
-                <reference key="4"></reference>
-                <string role="key" value="_instruc"></string>
-                <unicode value="Use this field to enter text. This 
-iDevice has no emphasis applied although limited formatting can be applied to 
-text through the text editing buttons associated with the field."></unicode>
-                <string role="key" value="_name"></string>
-                <unicode value="Free Text"></unicode>
-                <string role="key" value="anchor_names"></string>
-                <list></list>
-                <string role="key" value="anchors_linked_from_fields"></string>
-                <dictionary></dictionary>
-                <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://fgcoca.github.io/Guia-de-trabajo-para-microbit/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Guía de trabajo para micro:bit&lt;/a&gt; (@fgcoca)&lt;/strong&gt;&lt;/h2&gt;"></unicode>
-                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-                <int value="4"></int>
-                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-                <int value="2"></int>
-                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-                <int value="3"></int>
-                <string role="key" value="htmlTag"></string>
-                <string value="div"></string>
-                <string role="key" value="images"></string>
-                <instance class="exe.engine.galleryidevice.GalleryImages">
-                 <dictionary>
-                  <string role="key" value=".listitems"></string>
-                  <list></list>
-                  <string role="key" value="idevice"></string>
-                  <reference key="5"></reference>
-                 </dictionary>
-                </instance>
-                <string role="key" value="intlinks_to_anchors"></string>
-                <dictionary></dictionary>
-                <string role="key" value="nextImageId"></string>
-                <int value="0"></int>
-                <string role="key" value="parentNode"></string>
-                <none></none>
-               </dictionary>
-              </instance>
-              <string role="key" value="edit"></string>
-              <bool value="0"></bool>
-              <string role="key" value="emphasis"></string>
-              <int value="0"></int>
-              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
-              <int value="7"></int>
-              <string role="key" value="icon"></string>
-              <string value=""></string>
-              <string role="key" value="id"></string>
-              <unicode value="5"></unicode>
-              <string role="key" value="lastIdevice"></string>
-              <bool value="0"></bool>
-              <string role="key" value="originalicon"></string>
-              <string value=""></string>
-              <string role="key" value="parent"></string>
-              <none></none>
-              <string role="key" value="parentNode"></string>
-              <reference key="6"></reference>
-              <string role="key" value="systemResources"></string>
-              <list></list>
-              <string role="key" value="type"></string>
-              <none></none>
-              <string role="key" value="undo"></string>
-              <bool value="1"></bool>
-              <string role="key" value="userResources"></string>
-              <list></list>
-              <string role="key" value="version"></string>
-              <int value="0"></int>
-             </dictionary>
-            </instance>
-            <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
-             <dictionary>
-              <string role="key" value="_title"></string>
-              <unicode value="External Web Site"></unicode>
-              <string role="key" value="_author"></string>
-              <unicode value="University of Auckland"></unicode>
-              <string role="key" value="_purpose"></string>
-              <unicode value="The external website iDevice loads an external website 
-into an inline frame in your eXe content rather then opening it in a popup box. 
-This means learners are not having to juggle windows. 
-This iDevice should only be used if your content 
-will be viewed by learners online."></unicode>
-              <string role="key" value="_tip"></string>
-              <string value=""></string>
-              <string role="key" value="_typeName"></string>
-              <unicode value="External Web Site"></unicode>
-              <string role="key" value="_urlInstruc"></string>
-              <unicode value="Enter the URL you wish to display
-and select the size of the area to display it in."></unicode>
-              <string role="key" value="edit"></string>
-              <bool value="0"></bool>
-              <string role="key" value="emphasis"></string>
-              <int value="0"></int>
-              <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
-              <int value="3"></int>
-              <string role="key" value="height"></string>
-              <unicode value="800"></unicode>
-              <string role="key" value="icon"></string>
-              <string value=""></string>
-              <string role="key" value="id"></string>
-              <unicode value="4"></unicode>
-              <string role="key" value="lastIdevice"></string>
-              <bool value="0"></bool>
-              <string role="key" value="originalicon"></string>
-              <string value=""></string>
-              <string role="key" value="parentNode"></string>
-              <reference key="6"></reference>
-              <string role="key" value="systemResources"></string>
-              <list></list>
-              <string role="key" value="undo"></string>
-              <bool value="1"></bool>
-              <string role="key" value="url"></string>
-              <unicode value="https://fgcoca.github.io/Guia-de-trabajo-para-microbit/"></unicode>
-              <string role="key" value="userResources"></string>
-              <list></list>
-              <string role="key" value="version"></string>
-              <int value="0"></int>
-             </dictionary>
-            </instance>
-           </list>
+           <list></list>
            <string role="key" value="_id"></string>
            <unicode value="9"></unicode>
            <string role="key" value="_package"></string>
@@ -352,7 +211,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Micro%3Abit:Recursos"></string>
            <string role="key" value="parent"></string>
-           <reference key="7"></reference>
+           <reference key="4"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -362,7 +221,7 @@ and select the size of the area to display it in."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="8">
+      <instance class="exe.engine.node.Node" reference="5">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Raspberry Pi"></unicode>
@@ -386,7 +245,33 @@ and select the size of the area to display it in."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="15">
+         <instance class="exe.engine.node.Node" reference="17">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="RP3"></unicode>
+           <string role="key" value="idevices"></string>
+           <list></list>
+           <string role="key" value="_id"></string>
+           <unicode value="12"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Raspberry%20Pi:RP3"></string>
+           <string role="key" value="parent"></string>
+           <reference key="5"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="18">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="RP4"></unicode>
@@ -405,14 +290,14 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Raspberry%20Pi:RP4"></string>
            <string role="key" value="parent"></string>
-           <reference key="8"></reference>
+           <reference key="5"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
          </instance>
-         <instance class="exe.engine.node.Node" reference="16">
+         <instance class="exe.engine.node.Node" reference="19">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Pi Pico"></unicode>
@@ -431,7 +316,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Raspberry%20Pi:Pi%20Pico"></string>
            <string role="key" value="parent"></string>
-           <reference key="8"></reference>
+           <reference key="5"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -441,64 +326,14 @@ and select the size of the area to display it in."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="9">
+      <instance class="exe.engine.node.Node" reference="16">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Retos de domótica simulada (Pedro Ruiz)"></unicode>
+        <unicode value="ESP32 STEAMakers"></unicode>
         <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="External Web Site"></unicode>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_purpose"></string>
-           <unicode value="The external website iDevice loads an external website 
-into an inline frame in your eXe content rather then opening it in a popup box. 
-This means learners are not having to juggle windows. 
-This iDevice should only be used if your content 
-will be viewed by learners online."></unicode>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="_typeName"></string>
-           <unicode value="External Web Site"></unicode>
-           <string role="key" value="_urlInstruc"></string>
-           <unicode value="Enter the URL you wish to display
-and select the size of the area to display it in."></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
-           <int value="3"></int>
-           <string role="key" value="height"></string>
-           <unicode value="800"></unicode>
-           <string role="key" value="icon"></string>
-           <string value=""></string>
-           <string role="key" value="id"></string>
-           <unicode value="2"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parentNode"></string>
-           <reference key="9"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="url"></string>
-           <unicode value="https://pedroruizf.github.io/retosDomoticaSimulada/index.html"></unicode>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
+        <list></list>
         <string role="key" value="_id"></string>
-        <unicode value="7"></unicode>
+        <unicode value="11"></unicode>
         <string role="key" value="_package"></string>
         <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
@@ -508,7 +343,7 @@ and select the size of the area to display it in."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Retos%20de%20dom%C3%B3tica%20simulada%20%28Pedro%20Ruiz%29"></string>
+        <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:ESP32%20STEAMakers"></string>
         <string role="key" value="parent"></string>
         <reference key="2"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -517,89 +352,13 @@ and select the size of the area to display it in."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="10">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="Robótica simulada (fgcoca)"></unicode>
-        <string role="key" value="idevices"></string>
-        <list>
-         <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="External Web Site"></unicode>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_purpose"></string>
-           <unicode value="The external website iDevice loads an external website 
-into an inline frame in your eXe content rather then opening it in a popup box. 
-This means learners are not having to juggle windows. 
-This iDevice should only be used if your content 
-will be viewed by learners online."></unicode>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="_typeName"></string>
-           <unicode value="External Web Site"></unicode>
-           <string role="key" value="_urlInstruc"></string>
-           <unicode value="Enter the URL you wish to display
-and select the size of the area to display it in."></unicode>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
-           <int value="3"></int>
-           <string role="key" value="height"></string>
-           <unicode value="500"></unicode>
-           <string role="key" value="icon"></string>
-           <string value=""></string>
-           <string role="key" value="id"></string>
-           <unicode value="3"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parentNode"></string>
-           <reference key="10"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="url"></string>
-           <unicode value="https://fgcoca.github.io/domotica-simulada/"></unicode>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="_id"></string>
-        <unicode value="8"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="1"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:Rob%C3%B3tica%20simulada%20%28fgcoca%29"></string>
-        <string role="key" value="parent"></string>
-        <reference key="2"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.node.Node" reference="13">
+      <instance class="exe.engine.node.Node" reference="11">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="RECURSOS"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="11">
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Free Text"></unicode>
@@ -612,15 +371,17 @@ This provides the framework within which the learning activities are built and
 delivered."></unicode>
            <string role="key" value="_tip"></string>
            <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Free Text"></unicode>
            <string role="key" value="childs"></string>
            <list></list>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="12">
+           <instance class="exe.engine.field.TextAreaField" reference="7">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="85"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="11"></reference>
+             <reference key="6"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -632,7 +393,8 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/0d1266b3-f173-4ae8-aada-2fbffea186de/1/nuestra_placa_robotica_se_comunica_con_el_mundo.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Nuestra placa robótica se conecta con el mundo (REA 1º E.S.O.)&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+             <unicode content="true" value="&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:RECURSOS:REAs#auto_top&quot;&gt;REAs&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:RECURSOS:Webs#auto_top&quot;&gt;Páginas web&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -647,15 +409,346 @@ text through the text editing buttons associated with the field."></unicode>
                <string role="key" value=".listitems"></string>
                <list></list>
                <string role="key" value="idevice"></string>
-               <reference key="12"></reference>
+               <reference key="7"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
-             <dictionary></dictionary>
+             <dictionary>
+              <unicode role="key" value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:RECURSOS:REAs#auto_top"></unicode>
+              <instance class="exe.engine.node.Node" reference="10">
+               <dictionary>
+                <string role="key" value="_title"></string>
+                <unicode value="REAs"></unicode>
+                <string role="key" value="idevices"></string>
+                <list>
+                 <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
+                  <dictionary>
+                   <string role="key" value="_title"></string>
+                   <unicode value="REAs (Recursos Educativos Abiertos)"></unicode>
+                   <string role="key" value="_attributes"></string>
+                   <list>
+                    <tuple>
+                     <string value="title"></string>
+                     <list>
+                      <string value="Title"></string>
+                      <int value="0"></int>
+                      <int value="0"></int>
+                     </list>
+                    </tuple>
+                    <tuple>
+                     <string value="category"></string>
+                     <list>
+                      <string value="Category"></string>
+                      <int value="0"></int>
+                      <int value="1"></int>
+                     </list>
+                    </tuple>
+                    <tuple>
+                     <string value="css-class"></string>
+                     <list>
+                      <string value="CSS class"></string>
+                      <int value="0"></int>
+                      <int value="2"></int>
+                     </list>
+                    </tuple>
+                    <tuple>
+                     <string value="icon"></string>
+                     <list>
+                      <string value="Icon"></string>
+                      <int value="0"></int>
+                      <int value="3"></int>
+                     </list>
+                    </tuple>
+                   </list>
+                   <string role="key" value="_author"></string>
+                   <string value=""></string>
+                   <string role="key" value="_iDeviceDir"></string>
+                   <string value="text"></string>
+                   <string role="key" value="_purpose"></string>
+                   <string value=""></string>
+                   <string role="key" value="_tip"></string>
+                   <string value=""></string>
+                   <string role="key" value="_typeName"></string>
+                   <unicode value="Text"></unicode>
+                   <string role="key" value="_valid"></string>
+                   <bool value="1"></bool>
+                   <string role="key" value="class_"></string>
+                   <unicode value="text"></unicode>
+                   <string role="key" value="edit"></string>
+                   <bool value="0"></bool>
+                   <string role="key" value="emphasis"></string>
+                   <int value="1"></int>
+                   <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                   <int value="1"></int>
+                   <string role="key" value="fields"></string>
+                   <list>
+                    <instance class="exe.engine.field.TextAreaField" reference="9">
+                     <dictionary>
+                      <string role="key" value="_id"></string>
+                      <unicode value="121_2"></unicode>
+                      <string role="key" value="_idevice"></string>
+                      <reference key="8"></reference>
+                      <string role="key" value="_instruc"></string>
+                      <string value=""></string>
+                      <string role="key" value="_name"></string>
+                      <string value=""></string>
+                      <string role="key" value="anchor_names"></string>
+                      <list></list>
+                      <string role="key" value="anchors_linked_from_fields"></string>
+                      <dictionary></dictionary>
+                      <string role="key" value="content_w_resourcePaths"></string>
+                      <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;1º E.S.O.&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/0d1266b3-f173-4ae8-aada-2fbffea186de/1/nuestra_placa_robotica_se_comunica_con_el_mundo.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Nuestra placa robótica se conecta con el mundo&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/2ad150d5-5c90-4499-a505-67e45fb886ea/2/COM_1ESO_REA_02_V02.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Te cuento mi historia&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/9f13a0da-4170-451f-92de-00843f0242f4/2/COM_1ESO_REA_03_V02.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mi propio videojuego&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/da31533f-4a4a-4149-81bb-b5938d4c83ec/1/COM_1ESO_REA_04_v01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Periodismo de datos&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/c15dc290-25a7-491a-a2ba-e9adf12d357d/1/COM_1ESO_REA_05_v01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Los sentidos artificiales&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;2º E.S.O.&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/9eaaccaa-81d3-4a07-9766-3e4a10462e57/2/COM_2ESO_REA_01_V02.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dame una app&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/a586be99-48fa-4361-a7ea-085daad37764/1/COM_2ESO_REA_02_V01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Adiós, agenda escolar, adiós&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/e8f13365-e17f-4540-888a-54d0d24144e2/1/COM_2ESO_REA_03_v01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mi smart home&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/de45a21d-2428-4ebd-bb31-57e76ff1a6f7/1/COM_2ESO_REA_04_v01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;¿Qué tiempo hace hoy?&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;3º E.S.O.&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/d1bb5f09-682f-4e93-a799-e90b1c3364ed/2/COM_3ESO_REA_01_V02.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hola, ¿necesitas ayuda?&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/29709ceb-b590-4dab-bd9d-74b701a385ef/1/COM_3ESO_REA_03_v01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;¿Par o impar?&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/13c62b25-81f3-434f-8f8f-d42c7293053b/1/COM_3ESO_REA_04_v01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Nos desplazamos con seguridad&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://edea.juntadeandalucia.es/bancorecursos/file/f9f50655-cd56-4dec-b6c0-9c80cff51872/1/COM_3ESO_REA_05_v01.zip/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Computación y robótica para todos&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                      <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                      <int value="4"></int>
+                      <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                      <int value="2"></int>
+                      <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="htmlTag"></string>
+                      <string value="div"></string>
+                      <string role="key" value="images"></string>
+                      <instance class="exe.engine.galleryidevice.GalleryImages">
+                       <dictionary>
+                        <string role="key" value=".listitems"></string>
+                        <list></list>
+                        <string role="key" value="idevice"></string>
+                        <reference key="9"></reference>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="intlinks_to_anchors"></string>
+                      <dictionary></dictionary>
+                      <string role="key" value="nextImageId"></string>
+                      <int value="0"></int>
+                      <string role="key" value="parentNode"></string>
+                      <reference key="10"></reference>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="icon"></string>
+                   <unicode value=""></unicode>
+                   <string role="key" value="id"></string>
+                   <unicode value="7"></unicode>
+                   <string role="key" value="ideviceCategory"></string>
+                   <unicode value="Text and Tasks"></unicode>
+                   <string role="key" value="lastIdevice"></string>
+                   <bool value="0"></bool>
+                   <string role="key" value="nextFieldId"></string>
+                   <int value="3"></int>
+                   <string role="key" value="originalicon"></string>
+                   <string value=""></string>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="10"></reference>
+                   <string role="key" value="systemResources"></string>
+                   <list></list>
+                   <string role="key" value="undo"></string>
+                   <bool value="1"></bool>
+                   <string role="key" value="userResources"></string>
+                   <list></list>
+                   <string role="key" value="version"></string>
+                   <int value="0"></int>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="_id"></string>
+                <unicode value="8"></unicode>
+                <string role="key" value="_package"></string>
+                <reference key="1"></reference>
+                <string role="key" value="anchor_fields"></string>
+                <list></list>
+                <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exportType"></string>
+                <string value="website"></string>
+                <string role="key" value="last_full_node_path"></string>
+                <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:RECURSOS:REAs"></string>
+                <string role="key" value="parent"></string>
+                <reference key="11"></reference>
+                <string role="key" value="top_anchors_linked_from_fields"></string>
+                <list>
+                 <reference key="7"></reference>
+                </list>
+                <string role="key" value="children"></string>
+                <list></list>
+               </dictionary>
+              </instance>
+              <unicode role="key" value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:RECURSOS:Webs#auto_top"></unicode>
+              <instance class="exe.engine.node.Node" reference="14">
+               <dictionary>
+                <string role="key" value="_title"></string>
+                <unicode value="Webs"></unicode>
+                <string role="key" value="idevices"></string>
+                <list>
+                 <instance class="exe.engine.jsidevice.JsIdevice" reference="12">
+                  <dictionary>
+                   <string role="key" value="_title"></string>
+                   <unicode value="Webs"></unicode>
+                   <string role="key" value="_attributes"></string>
+                   <list>
+                    <tuple>
+                     <string value="title"></string>
+                     <list>
+                      <string value="Title"></string>
+                      <int value="0"></int>
+                      <int value="0"></int>
+                     </list>
+                    </tuple>
+                    <tuple>
+                     <string value="category"></string>
+                     <list>
+                      <string value="Category"></string>
+                      <int value="0"></int>
+                      <int value="1"></int>
+                     </list>
+                    </tuple>
+                    <tuple>
+                     <string value="css-class"></string>
+                     <list>
+                      <string value="CSS class"></string>
+                      <int value="0"></int>
+                      <int value="2"></int>
+                     </list>
+                    </tuple>
+                    <tuple>
+                     <string value="icon"></string>
+                     <list>
+                      <string value="Icon"></string>
+                      <int value="0"></int>
+                      <int value="3"></int>
+                     </list>
+                    </tuple>
+                   </list>
+                   <string role="key" value="_author"></string>
+                   <string value=""></string>
+                   <string role="key" value="_iDeviceDir"></string>
+                   <string value="text"></string>
+                   <string role="key" value="_purpose"></string>
+                   <string value=""></string>
+                   <string role="key" value="_tip"></string>
+                   <string value=""></string>
+                   <string role="key" value="_typeName"></string>
+                   <unicode value="Text"></unicode>
+                   <string role="key" value="_valid"></string>
+                   <bool value="1"></bool>
+                   <string role="key" value="class_"></string>
+                   <unicode value="text"></unicode>
+                   <string role="key" value="edit"></string>
+                   <bool value="0"></bool>
+                   <string role="key" value="emphasis"></string>
+                   <int value="1"></int>
+                   <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                   <int value="1"></int>
+                   <string role="key" value="fields"></string>
+                   <list>
+                    <instance class="exe.engine.field.TextAreaField" reference="13">
+                     <dictionary>
+                      <string role="key" value="_id"></string>
+                      <unicode value="122_2"></unicode>
+                      <string role="key" value="_idevice"></string>
+                      <reference key="12"></reference>
+                      <string role="key" value="_instruc"></string>
+                      <string value=""></string>
+                      <string role="key" value="_name"></string>
+                      <string value=""></string>
+                      <string role="key" value="anchor_names"></string>
+                      <list></list>
+                      <string role="key" value="anchors_linked_from_fields"></string>
+                      <dictionary></dictionary>
+                      <string role="key" value="content_w_resourcePaths"></string>
+                      <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://fgcoca.github.io/Guia-de-trabajo-para-microbit/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Guía de trabajo para Micro:bit (@fgcoca)&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://pedroruizf.github.io/retos_microbit_microblocks/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Retos de Micro:bit con Microblocks (@pedroruizf)&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                      <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                      <int value="4"></int>
+                      <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                      <int value="2"></int>
+                      <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="htmlTag"></string>
+                      <string value="div"></string>
+                      <string role="key" value="images"></string>
+                      <instance class="exe.engine.galleryidevice.GalleryImages">
+                       <dictionary>
+                        <string role="key" value=".listitems"></string>
+                        <list></list>
+                        <string role="key" value="idevice"></string>
+                        <reference key="13"></reference>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="intlinks_to_anchors"></string>
+                      <dictionary></dictionary>
+                      <string role="key" value="nextImageId"></string>
+                      <int value="0"></int>
+                      <string role="key" value="parentNode"></string>
+                      <reference key="14"></reference>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="icon"></string>
+                   <unicode value=""></unicode>
+                   <string role="key" value="id"></string>
+                   <unicode value="8"></unicode>
+                   <string role="key" value="ideviceCategory"></string>
+                   <unicode value="Text and Tasks"></unicode>
+                   <string role="key" value="lastIdevice"></string>
+                   <bool value="0"></bool>
+                   <string role="key" value="nextFieldId"></string>
+                   <int value="3"></int>
+                   <string role="key" value="originalicon"></string>
+                   <string value=""></string>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="14"></reference>
+                   <string role="key" value="systemResources"></string>
+                   <list></list>
+                   <string role="key" value="undo"></string>
+                   <bool value="1"></bool>
+                   <string role="key" value="userResources"></string>
+                   <list></list>
+                   <string role="key" value="version"></string>
+                   <int value="0"></int>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="_id"></string>
+                <unicode value="7"></unicode>
+                <string role="key" value="_package"></string>
+                <reference key="1"></reference>
+                <string role="key" value="anchor_fields"></string>
+                <list></list>
+                <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exportType"></string>
+                <string value="website"></string>
+                <string role="key" value="last_full_node_path"></string>
+                <string value="exe-node:COMPUTACI%C3%93N%20Y%20ROB%C3%93TICA%3A%20SISTEMAS%20ROB%C3%93TICOS%20SENCILLOS:RECURSOS:Webs"></string>
+                <string role="key" value="parent"></string>
+                <reference key="11"></reference>
+                <string role="key" value="top_anchors_linked_from_fields"></string>
+                <list>
+                 <reference key="7"></reference>
+                </list>
+                <string role="key" value="children"></string>
+                <list></list>
+               </dictionary>
+              </instance>
+             </dictionary>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="13"></reference>
+             <reference key="11"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -667,7 +760,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="icon"></string>
            <string value=""></string>
            <string role="key" value="id"></string>
-           <unicode value="1"></unicode>
+           <unicode value="11"></unicode>
            <string role="key" value="lastIdevice"></string>
            <bool value="0"></bool>
            <string role="key" value="originalicon"></string>
@@ -675,7 +768,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="parent"></string>
            <none></none>
            <string role="key" value="parentNode"></string>
-           <reference key="13"></reference>
+           <reference key="11"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="type"></string>
@@ -706,7 +799,10 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
-        <list></list>
+        <list>
+         <reference key="10"></reference>
+         <reference key="14"></reference>
+        </list>
        </dictionary>
       </instance>
      </list>
@@ -715,23 +811,27 @@ text through the text editing buttons associated with the field."></unicode>
    <unicode role="key" value="1"></unicode>
    <reference key="3"></reference>
    <unicode role="key" value="10"></unicode>
-   <reference key="14"></reference>
-   <unicode role="key" value="2"></unicode>
-   <reference key="7"></reference>
-   <unicode role="key" value="3"></unicode>
-   <reference key="8"></reference>
-   <unicode role="key" value="4"></unicode>
    <reference key="15"></reference>
-   <unicode role="key" value="5"></unicode>
+   <unicode role="key" value="11"></unicode>
    <reference key="16"></reference>
+   <unicode role="key" value="12"></unicode>
+   <reference key="17"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="5"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="18"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="19"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="13"></reference>
+   <reference key="11"></reference>
    <unicode role="key" value="7"></unicode>
-   <reference key="9"></reference>
+   <reference key="14"></reference>
    <unicode role="key" value="8"></unicode>
    <reference key="10"></reference>
    <unicode role="key" value="9"></unicode>
-   <reference key="6"></reference>
+   <reference key="20"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -739,10 +839,15 @@ text through the text editing buttons associated with the field."></unicode>
   <unicode value=""></unicode>
   <string role="key" value="_templateFile"></string>
   <string value="Base"></string>
+  <string role="key" value="anchor_nodes"></string>
+  <list>
+   <reference key="10"></reference>
+   <reference key="14"></reference>
+  </list>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="7"></reference>
+  <reference key="20"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
