@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
@@ -7,11 +7,11 @@
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>Repositorio de TecnoVilladiego </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
 <meta name="description" content="Página de introducción al sitio de TecnoVilladiego" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
@@ -20,8 +20,8 @@
 <body class="exe-web-site" id="exe-node-0"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header" ><div id="headerContent">Repositorio de TecnoVilladiego</div></div>
-<div id="siteNav">
+<header id="header" ><div id="headerContent">Repositorio de TecnoVilladiego</div></header>
+<nav id="siteNav">
 <ul>
    <li id="active"><a href="index.html" class="active daddy main-node">INICIO</a></li>
    <li><a href="apuntes.html" class="daddy">APUNTES</a>
@@ -33,7 +33,16 @@
    </ul>
    </li>
    <li><a href="herramientas.html" class="no-ch">HERRAMIENTAS</a></li>
-   <li><a href="situaciones_de_aprendizaje.html" class="no-ch">SITUACIONES DE APRENDIZAJE</a></li>
+   <li><a href="situaciones_de_aprendizaje.html" class="daddy">SITUACIONES DE APRENDIZAJE</a>
+   <ul class="other-section">
+      <li><a href="recursos.html" class="daddy">RECURSOS</a>
+      <ul class="other-section">
+         <li><a href="reas.html" class="no-ch">REAs</a></li>
+         <li><a href="webs.html" class="no-ch">Webs</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
    <li><a href="tecnodocumentos.html" class="daddy">TECNODOCUMENTOS</a>
    <ul class="other-section">
       <li><a href="anteproyecto.html" class="no-ch">Anteproyecto</a></li>
@@ -56,16 +65,16 @@
    </ul>
    </li>
 </ul>
-</div>
+</nav>
 <div id='topPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="apuntes.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 <div id="main-wrapper">
-<div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">INICIO</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id0">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">INICIO</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
 <div class="iDevice emphasis0">
 <div id="ta0_85" class="block iDevice_content">
 <p style="text-align: center;"><span style="font-size: 24pt;"><span style="font-family: 'trebuchet ms', geneva, sans-serif;"><a href="apuntes.html">APUNTES DE TECNOLOGÍA</a></span><span style="font-family: 'trebuchet ms', geneva, sans-serif;"><a href="herramientas.html" target="_blank" rel="noopener"></a></span></span></p>
@@ -86,8 +95,8 @@
 <p style="text-align: center;"><span style="font-family: 'trebuchet ms', geneva, sans-serif; font-size: 24pt;"><a href="webs_de_inters.html">WEBS DE INTERÉS</a></span></p>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id16">
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id16">
 <div class="iDevice emphasis0">
 <div id="ta16_85" class="block iDevice_content">
 <p>
@@ -96,8 +105,8 @@
 </p>
 </div>
 </div>
-</div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id22">
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id22">
 <div class="iDevice emphasis0">
 <div id="ta22_85" class="block iDevice_content">
 <p style="text-align: center;"><span style="font-size: 24pt; font-family: 'arial black', sans-serif;">Estoy adaptando el sitio a la LOMLOE</span></p>
@@ -105,16 +114,16 @@
 <p style="text-align: center;"><img src="https://www.kontsumobide.euskadi.eus/contenidos/informacion/y10_en_construccion/es_def/images/y10-en_construccion.jpg" width="300" height="253" style="vertical-align: text-top; display: block; margin: 10px auto 10px auto;" /></p>
 </div>
 </div>
-</div>
+</article>
 <div id="packageLicense" class="cc cc-by-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
 </div>
-</div>
+</section>
 </div>
 <div id='bottomPagination'>
-<div class="pagination noprt">
+<nav class="pagination noprt">
 <a href="apuntes.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-</div>
+</nav>
 </div>
 </div>
 <p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
