@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Registrador de temperaturas | Computación y Robótica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Ángel Millán León" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-46"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Computación y Robótica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">COMPUTACIÓN Y ROBÓTICA</a></li>
+   <li><a href="1_introduccin_a_la_programacin.html" class="daddy">1. INTRODUCCIÓN A LA PROGRAMACIÓN</a>
+   <ul class="other-section">
+      <li><a href="pseint.html" class="no-ch">Pseint</a></li>
+      <li><a href="scratch.html" class="no-ch">Scratch</a></li>
+      <li><a href="otros_lenguajes_de_programacin.html" class="daddy">Otros lenguajes de programación</a>
+      <ul class="other-section">
+         <li><a href="python.html" class="no-ch">Python</a></li>
+         <li><a href="c.html" class="no-ch">C++</a></li>
+      </ul>
+      </li>
+      <li><a href="recursos.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="2_internet_de_las_cosas.html" class="no-ch">2. INTERNET DE LAS COSAS</a></li>
+   <li><a href="3_robtica.html" class="daddy">3. ROBÓTICA</a>
+   <ul class="other-section">
+      <li><a href="robot_maqueen.html" class="no-ch">Robot Maqueen</a></li>
+   </ul>
+   </li>
+   <li><a href="4_desarrollo_mvil.html" class="daddy">4. DESARROLLO MÓVIL</a>
+   <ul class="other-section">
+      <li><a href="bravo_studio.html" class="no-ch">Bravo Studio</a></li>
+      <li><a href="thunkable.html" class="no-ch">Thunkable</a></li>
+      <li><a href="appcreator24.html" class="no-ch">AppCreator24</a></li>
+      <li><a href="appinventor.html" class="no-ch">AppInventor</a></li>
+      <li><a href="glideapps.html" class="no-ch">Glideapps</a></li>
+      <li><a href="recursos0.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="5_desarrollo_web.html" class="no-ch">5. DESARROLLO WEB</a></li>
+   <li class="current-page-parent"><a href="6_fundamentos_de_la_computacin_fsica.html" class="current-page-parent daddy">6. FUNDAMENTOS DE LA COMPUTACIÓN FÍSICA</a>
+   <ul>
+      <li class="current-page-parent"><a href="microbit.html" class="current-page-parent daddy">Micro:bit</a>
+      <ul>
+         <li><a href="makecode.html" class="no-ch">Makecode</a></li>
+         <li class="current-page-parent"><a href="microbit_2_eso.html" class="current-page-parent daddy">Microbit 2º ESO</a>
+         <ul>
+            <li><a href="qu_pretendemos.html" class="no-ch">¿Qué pretendemos?</a></li>
+            <li><a href="repasamos_conceptos.html" class="no-ch">Repasamos conceptos</a></li>
+            <li><a href="ejercicios_sencillos.html" class="no-ch">Ejercicios sencillos</a></li>
+            <li><a href="controlamos_la_oscuridad.html" class="no-ch">Controlamos la oscuridad</a></li>
+            <li><a href="juegos_con_pulsadores.html" class="no-ch">Juegos con pulsadores</a></li>
+            <li><a href="balizas_de_sealizacin.html" class="no-ch">Balizas de señalización</a></li>
+            <li><a href="controlamos_la_luz.html" class="no-ch">Controlamos la luz</a></li>
+            <li id="active"><a href="registrador_de_temperaturas.html" class="active no-ch">Registrador de temperaturas</a></li>
+            <li><a href="alarmas.html" class="no-ch">Alarmas</a></li>
+            <li><a href="pequeo_proyecto.html" class="no-ch">Pequeño proyecto</a></li>
+            <li><a href="autora_y_licencia.html" class="no-ch">Autoría y Licencia</a></li>
+         </ul>
+         </li>
+         <li><a href="recursos1.html" class="no-ch">Recursos</a></li>
+      </ul>
+      </li>
+      <li><a href="arduino.html" class="daddy">Arduino</a>
+      <ul class="other-section">
+         <li><a href="arduinoblocks.html" class="no-ch">Arduinoblocks</a></li>
+      </ul>
+      </li>
+      <li><a href="raspberry_pi.html" class="daddy">Raspberry Pi</a>
+      <ul class="other-section">
+         <li><a href="pi_pico.html" class="no-ch">Pi Pico</a></li>
+         <li><a href="rp3.html" class="no-ch">RP3</a></li>
+         <li><a href="rp4.html" class="no-ch">RP4</a></li>
+      </ul>
+      </li>
+      <li><a href="processing.html" class="no-ch">Processing</a></li>
+      <li><a href="recursos2.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="7_datos_masivos.html" class="no-ch">7. DATOS MASIVOS</a></li>
+   <li><a href="8_inteligencia_artificial.html" class="daddy">8. INTELIGENCIA ARTIFICIAL</a>
+   <ul class="other-section">
+      <li><a href="learningml.html" class="no-ch">LearningML</a></li>
+      <li><a href="chatgpt.html" class="no-ch">ChatGPT</a></li>
+      <li><a href="recursos3.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="9_ciberseguridad.html" class="daddy">9. CIBERSEGURIDAD</a>
+   <ul class="other-section">
+      <li><a href="recursos4.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="controlamos_la_luz.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="alarmas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Registrador de temperaturas</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id179">
+<div class="iDevice emphasis0" >
+<div id="ta179_119_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="retor_escolares_conbocadillo.gif" alt="rétor" style="float: left;" width="150" height="150">¿Sabes que la placa dispone de un sensor de temperatura? Este sensor es muy practico que las casas o los coches inteligentes pongan en marcha sus actuadores para refrigerar.</p>
+<p>¿Se te ocurre alguna aplicación?</p></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_juego" id="id180">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_juego.svg)"><h1 class="iDeviceTitle">La temperatura más alta de un día</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta180_113_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC0" style="width: 50px; text-align: center;"><img src="thermometer-g4b7e88fe5_640.png" alt="Temperatura" style="margin-bottom: 20px; margin-top: 20px;" width="50" vspace="20" height="100" />
+<figcaption class="figcaption"><span style="font-size: 8pt;"><span class="title"><em>Temperatura</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></span></figcaption>
+</figure>
+<p><br />La microbit debe medir la temperatura ambiente cada cierto tiempo durante todo el día. Cómo no tienes todo el día puedes medir cada minuto.</p>
+<p>Para obtener diferentes temperaturas puede calentar la placa con tus manos o sacarla al sol, así observarás la diferencia de temperatura. Si estuvieras en casa podríamos medir dentro de la nevera. (o si tienes un vaso con hielo siempre que no toquen los circuitos el agua)</p>
+<p>Al pulsar el botón A debe devolver la temperatura más alta y al pulsar la B la mas baja. Debe iluminar un punto en la pantalla LED cada vez que realice una medición, realizar al menos cinco.</p>
+<p></p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="¿Cómo lo hacemos?" /></div><div class="feedback js-feedback js-hidden"><p>Este programa utiliza tres <strong>variables</strong> para almacenar temperaturas: <strong></strong>temp. actual, <strong>max</strong> es la máxima y <strong>min</strong> es la mínima. cada vez que la temperatura actual es mayor que la máxima se intercambia el valor. Igual con la mínima. </p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_juego" id="id181">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_juego.svg)"><h1 class="iDeviceTitle">Comparamos temperaturas de varios lugares</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta181_114_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC0" style="width: 100px; text-align: center;"><img src="satellites-gf167ce53f_1280.png" alt="Satélite" style="margin-bottom: 20px; margin-top: 20px;" width="100" vspace="20" height="103" />
+<figcaption class="figcaption"><span style="font-size: 8pt;"><a href="Pixabay" target="_blank" class="author" rel="noopener">Pixabay</a> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></span></figcaption>
+</figure>
+<p><br />Los sistemas meteorológicos reciben información de los satélites de todo el mundo pudiendo realizar las predicciones oportunas para señalar las altas presiones o las bajas, así se detectan los anticiclones o las borrascas.</p>
+<p>Vamos a realizar el ejercicio con cuatro microbit. Tres van a emitir sus datos a la cuarta que será la placa receptora. Cada placa tiene que enviar su medición máxima, mínima y su número de identificación (puedes usar 1,2,3). Queremos saber el lugar o placa que está obteniendo las mayores temperaturas y las mínimas.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Tenemos que usar las listas" /></div><div class="feedback js-feedback js-hidden"><p>Las listas son un tipo de variables, es decir, guardan datos. Pero más de uno. Es el bloque que corresponde a <span style="color: #ffcc00;">Arreglos</span>.</p>
+<p><img src="arra.jpg" alt="array" style="display: block; margin-left: auto; margin-right: auto;" width="400" height="311" /></p>
+<p>Una lista tiene muchos valores guardados y se referencian mediante su posición.</p>
+<p style="text-align: center;"><iframe width="560" height="314" src="https://www.youtube.com/embed/s7Lv6Zdr63I" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Por ejemplo, ¿Qué haría este programa?</p>
+<p><img src="array.png" alt="ejemplo de array" style="display: block; margin-left: auto; margin-right: auto;" width="500" height="364" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="controlamos_la_luz.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="alarmas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>

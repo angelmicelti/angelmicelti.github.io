@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Controlamos la luz | Computación y Robótica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Ángel Millán León" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-45"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Computación y Robótica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">COMPUTACIÓN Y ROBÓTICA</a></li>
+   <li><a href="1_introduccin_a_la_programacin.html" class="daddy">1. INTRODUCCIÓN A LA PROGRAMACIÓN</a>
+   <ul class="other-section">
+      <li><a href="pseint.html" class="no-ch">Pseint</a></li>
+      <li><a href="scratch.html" class="no-ch">Scratch</a></li>
+      <li><a href="otros_lenguajes_de_programacin.html" class="daddy">Otros lenguajes de programación</a>
+      <ul class="other-section">
+         <li><a href="python.html" class="no-ch">Python</a></li>
+         <li><a href="c.html" class="no-ch">C++</a></li>
+      </ul>
+      </li>
+      <li><a href="recursos.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="2_internet_de_las_cosas.html" class="no-ch">2. INTERNET DE LAS COSAS</a></li>
+   <li><a href="3_robtica.html" class="daddy">3. ROBÓTICA</a>
+   <ul class="other-section">
+      <li><a href="robot_maqueen.html" class="no-ch">Robot Maqueen</a></li>
+   </ul>
+   </li>
+   <li><a href="4_desarrollo_mvil.html" class="daddy">4. DESARROLLO MÓVIL</a>
+   <ul class="other-section">
+      <li><a href="bravo_studio.html" class="no-ch">Bravo Studio</a></li>
+      <li><a href="thunkable.html" class="no-ch">Thunkable</a></li>
+      <li><a href="appcreator24.html" class="no-ch">AppCreator24</a></li>
+      <li><a href="appinventor.html" class="no-ch">AppInventor</a></li>
+      <li><a href="glideapps.html" class="no-ch">Glideapps</a></li>
+      <li><a href="recursos0.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="5_desarrollo_web.html" class="no-ch">5. DESARROLLO WEB</a></li>
+   <li class="current-page-parent"><a href="6_fundamentos_de_la_computacin_fsica.html" class="current-page-parent daddy">6. FUNDAMENTOS DE LA COMPUTACIÓN FÍSICA</a>
+   <ul>
+      <li class="current-page-parent"><a href="microbit.html" class="current-page-parent daddy">Micro:bit</a>
+      <ul>
+         <li><a href="makecode.html" class="no-ch">Makecode</a></li>
+         <li class="current-page-parent"><a href="microbit_2_eso.html" class="current-page-parent daddy">Microbit 2º ESO</a>
+         <ul>
+            <li><a href="qu_pretendemos.html" class="no-ch">¿Qué pretendemos?</a></li>
+            <li><a href="repasamos_conceptos.html" class="no-ch">Repasamos conceptos</a></li>
+            <li><a href="ejercicios_sencillos.html" class="no-ch">Ejercicios sencillos</a></li>
+            <li><a href="controlamos_la_oscuridad.html" class="no-ch">Controlamos la oscuridad</a></li>
+            <li><a href="juegos_con_pulsadores.html" class="no-ch">Juegos con pulsadores</a></li>
+            <li><a href="balizas_de_sealizacin.html" class="no-ch">Balizas de señalización</a></li>
+            <li id="active"><a href="controlamos_la_luz.html" class="active no-ch">Controlamos la luz</a></li>
+            <li><a href="registrador_de_temperaturas.html" class="no-ch">Registrador de temperaturas</a></li>
+            <li><a href="alarmas.html" class="no-ch">Alarmas</a></li>
+            <li><a href="pequeo_proyecto.html" class="no-ch">Pequeño proyecto</a></li>
+            <li><a href="autora_y_licencia.html" class="no-ch">Autoría y Licencia</a></li>
+         </ul>
+         </li>
+         <li><a href="recursos1.html" class="no-ch">Recursos</a></li>
+      </ul>
+      </li>
+      <li><a href="arduino.html" class="daddy">Arduino</a>
+      <ul class="other-section">
+         <li><a href="arduinoblocks.html" class="no-ch">Arduinoblocks</a></li>
+      </ul>
+      </li>
+      <li><a href="raspberry_pi.html" class="daddy">Raspberry Pi</a>
+      <ul class="other-section">
+         <li><a href="pi_pico.html" class="no-ch">Pi Pico</a></li>
+         <li><a href="rp3.html" class="no-ch">RP3</a></li>
+         <li><a href="rp4.html" class="no-ch">RP4</a></li>
+      </ul>
+      </li>
+      <li><a href="processing.html" class="no-ch">Processing</a></li>
+      <li><a href="recursos2.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="7_datos_masivos.html" class="no-ch">7. DATOS MASIVOS</a></li>
+   <li><a href="8_inteligencia_artificial.html" class="daddy">8. INTELIGENCIA ARTIFICIAL</a>
+   <ul class="other-section">
+      <li><a href="learningml.html" class="no-ch">LearningML</a></li>
+      <li><a href="chatgpt.html" class="no-ch">ChatGPT</a></li>
+      <li><a href="recursos3.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+   <li><a href="9_ciberseguridad.html" class="daddy">9. CIBERSEGURIDAD</a>
+   <ul class="other-section">
+      <li><a href="recursos4.html" class="no-ch">RECURSOS</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="balizas_de_sealizacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="registrador_de_temperaturas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Controlamos la luz</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id175">
+<div class="iDevice emphasis0" >
+<div id="ta175_118_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="retor_escolares_movimientoboca_largo.gif" alt="rétor" style="float: left;" width="150" height="150">Has usado diferentes actuadores llamados LED, pero controlar el nivel de luz nos puede servir para otras cosas no solo para saber si es de noche y tienes que encender una luz.</p>
+<p>¿Sabías que en la antigüedad creían que los eclipses eran símbolo de mal augurio o que era un castigo de los dioses?</p></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_juego" id="id176">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_juego.svg)"><h1 class="iDeviceTitle">Smart City</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta176_112_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC0" style="width: 201px; text-align: center;"><img src="lamp-post-g459cf857e_640.png" alt="lámpara" style="margin-bottom: 20px; margin-top: 20px;" width="201" vspace="20" height="183" />
+<figcaption class="figcaption"><span style="font-size: 8pt;"><span class="title"><em>Lámpara</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></span></figcaption>
+</figure>
+<p><br />¿Sabes lo que es una <strong>smart city</strong>? ¿Y la <strong>domótica</strong>? ¿y la <strong>inmótica</strong>?</p>
+<p>¿Cuál es entonces la diferencia entre ellas? Exactamente, todas se refieren al uso de la robótica varía la extensión: ciudad, edificio o vivienda.</p>
+<p>Los temporizadores hacen que se encienda la luz, en tu caso el LED, cuando el nivel de luz desciende hasta una cantidad. Muchas casas tienen este sistema de iluminación al igual que las ciudades, no lo confundas con el encendido y apagado a una hora del día, eso no es sistema domótico.</p>
+<p>Tienes que programar la placa para que cuando el nivel de luz baje de 150 se encienda tu luz LED.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="¿Donde está el sensor de luz de la placa?" /></div><div class="feedback js-feedback js-hidden"><p>Efectivamente, en la matriz de LEDs</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_juego" id="id177">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_juego.svg)"><h1 class="iDeviceTitle">Control del gasto de luz</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta177_113_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC0" style="width: 100px;"><img src="lamp-gd0a242db3_640.png" alt="Luz" width="100" height="200" />
+<figcaption class="figcaption"><span class="title"><em>Luz</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p><br />En el último año estamos observando cómo la luz es cada vez más cara. Existen muchos dispositivos para controlar estos gastos. El más usado es tu madre o tu padre detrás de tí diciéndote que apagues luces, que la luz no la regalan, pero existen otros más "robóticos".</p>
+<p>Podrías construir un sistema domótico que controlara el nivel de luz pero además el gasto. Podríamos hacer que cuando lleva un número de horas encendido bajara la intensidad lumínica gastando menos. Podría emitir un pitido si hemos llegado al tope de gasto del mes o podríamos hacer que cuando se alcance una cantidad la luz no llegara ni a encenderse.</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="¿Cuál de los supuestos te parece más útil?" /></div><div class="feedback js-feedback js-hidden"><ul>
+<li>Cuando lleva un número de horas encendido bajara la intensidad lumínica gastando menos.</li>
+</ul>
+<div class="exe-fx exe-accordion">
+<h2>¿Qué elemento usas?</h2>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p><img src="led-verde.jpg" alt="led" width="250" height="250" /></p>
+</div>
+<div class="exe-col exe-col-2">
+<p><img src="3hilos.jpeg" alt="3 hilos" width="225" height="225" /></p>
+</div>
+</div>
+<h2>Instrucción</h2>
+<p><img src="imagen.png" alt="instruccion" width="298" height="52" /></p>
+<p>Puede tomar valores desde 0 hasta 1024 variando la intensidad de la luz.</p>
+<h2>Una pista del código</h2>
+<p><img src="led.1.jpg" alt="led" width="399" height="252" /></p>
+</div>
+<ul>
+<li>Podría emitir un pitido si hemos llegado al tope de gasto del mes o</li>
+<li>podríamos hacer que cuando se alcance una cantidad la luz no llegara ni a encenderse.</li>
+</ul>
+<div>Los supuestos van en orden de dificultad. Empieza por el primero y ve en aumento. ¿Porías contemplar todas las posibilidades?</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_juego" id="id178">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_juego.svg)"><h1 class="iDeviceTitle">Sensor SideSight (táctil sin tocar)</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta178_112_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image float-left license-CC0" style="width: 200px;"><img src="hand-g2aec41ed1_640.jpg" alt="Táctil" style="margin-bottom: 20px; margin-top: 20px;" width="200" vspace="20" height="133" />
+<figcaption class="figcaption"><span class="title"><em>sin tocar</em></span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p><br />Supongo que has cruzado en Estepona por un paso de peatones. ¿Te has dado cuenta como son los pulsadores del cambio de semáforo? Efectivamente, no se tocan. Este es otro efecto de la pandemia, tocar lo menos posible... ¿Serías capaz de programar este sensor con la microbit y un LED?</p>
+<p>Una vez "tocado" debe esperar cuatro segundos que serán indicados en la matriz LED enciendo cuatro puntos (sucesivamente) después se encenderá el LED externo y emite un pitido para las personas con deficiencias visuales.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="balizas_de_sealizacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="registrador_de_temperaturas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
