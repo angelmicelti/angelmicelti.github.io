@@ -1,5 +1,5 @@
 var myTheme = {
-	collapseActivities : false, // Minimize interactive activities
+	collapseActivities : true, // Minimize interactive activities
 	// Activities (to minify if collapseActivities is true)
 	// Activities using any of these icons will be minified too: icon_udl_exp_tarea, icon_udl_exp_interactivo
 	activities : [
@@ -210,8 +210,54 @@ var myTheme = {
 						// You can toggle the iDevice clicking on any part of its header
 						$(".iDevice_header").click(function(){
 							$(".toggle-idevice a",this).trigger("click");
+							var i = $(this).closest(".iDevice");
+							if (i.length==1) {
+								// H5P dynamic size
+								$("iframe",i).each(function(){
+									if (this.src && (this.src.indexOf("https://h5p.org/")==0 || this.src.indexOf("/wp-admin/admin-ajax.php?action=h5p_embed")!=-1)) {
+										if (!this.style || !this.style.height || this.style.height=="") {
+											this.src = this.src;
+										}
+									}
+								});
+							}							
 						}).css("cursor","pointer");
 					}
+				}
+			}   
+			// "Do it here" will be the default title of the Interactive Activities
+			if (document.body.className.indexOf("exe-authoring-page")==0) {
+				if (typeof(top._)!='undefined') {
+					var d = [
+						"DropDown Activity",
+						"SCORM Quiz",
+						"Scrambled List",
+						"Multi-choice",
+						"Multi-select",
+						"True-False Question",
+						"Cloze Activity",
+						"Interactive Video",
+						"GeoGebra Activity"
+					];					
+					var l = [
+						"ListaIdevice",
+						"QuizTestIdevice",
+						"ScrambledListIdevice",
+						"MultichoiceIdevice",
+						"MultiSelectIdevice",
+						"TrueFalseIdevice",
+						"ClozeIdevice",
+						"interactive-videoIdevice",
+						"GeoGebraIdevice"
+					];
+					var editor = $("#activeIdevice");
+					if (editor.length!=1) return;
+					var c = editor.attr("class");
+					var i = l.indexOf(c);
+					if (i==-1) return;
+					var t = $("input[type='text']",editor).eq(0);
+					if (t.length!=1) return;
+					if (t.val()==_(d[i])) t.val(_("Do it here"));
 				}
 			}			
 		}
