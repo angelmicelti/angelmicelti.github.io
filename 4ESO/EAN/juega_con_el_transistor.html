@@ -285,9 +285,9 @@
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
 <div id="nodeDecoration"><h1 id="nodeTitle">Juega con el transistor</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id357">
+<div class="iDevice_wrapper FreeTextIdevice" id="id358">
 <div class="iDevice emphasis0">
-<div id="ta357_85" class="block iDevice_content">
+<div id="ta358_85" class="block iDevice_content">
 <p></p>
 <style>
         /* =========================================
@@ -512,7 +512,6 @@
 
         .info-card {
             background-color: var(--card-bg);
-            padding: 1.5rem;
             border-radius: 0.75rem;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
@@ -521,12 +520,53 @@
         .info-card.red { border-top: 4px solid var(--danger); }
         .info-card.warning { border-top: 4px solid var(--warning); }
 
+        .info-card summary {
+            padding: 1.5rem;
+            cursor: pointer;
+            list-style: none; /* Oculta la flecha por defecto del navegador */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .info-card summary::-webkit-details-marker {
+            display: none; /* Oculta la flecha en navegadores basados en WebKit */
+        }
+
+        .info-card summary:hover {
+            background-color: #f8fafc;
+        }
+        
+        .info-card summary:focus {
+            outline: none;
+        }
+
         .info-card h3 {
             font-size: 1.25rem;
-            margin-bottom: 0.75rem;
+            margin: 0;
             display: flex;
             align-items: center;
             gap: 0.5rem;
+        }
+
+        .chevron {
+            font-size: 0.8rem;
+            transition: transform 0.3s ease;
+            color: var(--text-muted);
+        }
+
+        details[open] .chevron {
+            transform: rotate(180deg);
+        }
+
+        .info-card-content {
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .info-card p, .info-card ul {
@@ -562,20 +602,28 @@
 <div class="legend"><span class="dot blue"></span> Flujo de Base (Control)      <span class="dot red"></span> Flujo de Colector (Principal)</div>
 </div>
 <!-- Sección de Explicación Didáctica -->
-<div class="info-grid">
-<div class="info-card warning">
+<div class="info-grid"><details class="info-card warning">
+<summary>
 <h3>⚡ La barrera de los 0,7 V</h3>
+<span class="chevron">▼</span></summary>
+<div class="info-card-content">
 <p>Un transistor NPN está hecho de silicio. Para que la electricidad pueda cruzar desde la Base hacia el Emisor, necesita superar una pequeña barrera interna. Esta barrera requiere aproximadamente <strong>0,7 Voltios</strong>. Si le aplicas menos de 0,7V, el transistor se queda bloqueado (estado de <strong>Corte</strong>).</p>
 </div>
-<div class="info-card blue">
+</details><details class="info-card blue">
+<summary>
 <h3>🚰 El Símil del Agua</h3>
+<span class="chevron">▼</span></summary>
+<div class="info-card-content">
 <p>Imagina una compuerta de agua gigante que está un poco oxidada. Si empujas con poca fuerza (menos de 0,7V), la compuerta no se mueve en absoluto y no pasa agua. Pero en cuanto empujas con la fuerza suficiente (más de 0,7V), la compuerta cede y deja pasar un <strong>enorme torrente de agua (corriente de Colector)</strong>.</p>
 </div>
-<div class="info-card red">
+</details><details class="info-card red">
+<summary>
 <h3>🔌 Efecto Interruptor</h3>
+<span class="chevron">▼</span></summary>
+<div class="info-card-content">
 <p>En el simulador, el circuito principal de la derecha (el de la bombilla de 12V) no puede funcionar solo. El transistor actúa como un <strong>interruptor electrónico</strong>: está "abierto" (apagado) hasta que el circuito de control de la izquierda alcanza los 0,7V, momento en el que se "cierra" (enciende) y la bombilla se ilumina.</p>
 </div>
-</div>
+</details></div>
 </div>
 <p>
 <script>
