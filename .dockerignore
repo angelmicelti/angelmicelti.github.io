@@ -1,0 +1,15 @@
+.git
+.gitignore
+.DS_Store
+__pycache__
+*.pyc
+*.pyo
+node_modules
+.env
+.dockerignore
+Dockerfile
+docker-compose.yml
+*.idp
+*.ott
+*.pdf
+*.log
