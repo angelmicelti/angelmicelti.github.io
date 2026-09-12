@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Análisis tecnológico de objetos | Home de TecnoVilladiego </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Ángel Millán" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.4.2 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">Home de TecnoVilladiego</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">TecnoVilladiego</a></li>
+   <li><a href="apuntes.html" class="daddy">APUNTES</a>
+   <ul class="other-section">
+      <li><a href="4_eso.html" class="no-ch">4º E.S.O.</a></li>
+      <li><a href="3_eso.html" class="no-ch">3º E.S.O.</a></li>
+      <li><a href="2_eso.html" class="no-ch">2º E.S.O.</a></li>
+   </ul>
+   </li>
+   <li><a href="herramientas.html" class="no-ch">HERRAMIENTAS</a></li>
+   <li class="current-page-parent"><a href="tecnodocumentos.html" class="current-page-parent daddy">TECNODOCUMENTOS</a>
+   <ul>
+      <li><a href="anteproyecto.html" class="no-ch">Anteproyecto</a></li>
+      <li><a href="memoria_final.html" class="no-ch">Memoria final</a></li>
+      <li id="active"><a href="anlisis_tecnolgico_de_objetos.html" class="active no-ch">Análisis tecnológico de objetos</a></li>
+   </ul>
+   </li>
+   <li><a href="proyectos.html" class="no-ch">PROYECTOS</a></li>
+   <li><a href="webs_de_inters.html" class="no-ch">WEBS DE INTERÉS</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="memoria_final.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="proyectos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Análisis tecnológico de objetos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id12">
+<div class="iDevice emphasis0">
+<div id="ta12_85" class="block iDevice_content">
+<p style="text-align: center;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 24pt;"><a href="https://angelmicelti.github.io/ANT/index.html">CÓMO HACER EL ANÁLISIS TECNOLÓGICO DE OBJETOS</a></span></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="memoria_final.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="proyectos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
