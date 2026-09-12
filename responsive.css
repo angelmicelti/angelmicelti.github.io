@@ -215,8 +215,11 @@ button:focus-visible {
     background: var(--tv-menu-accent-bg, rgba(41, 171, 224, 0.18)) !important;
   }
 
-  /* Submenús: segundo nivel con fondo suave y sangrado */
+  /* Submenús: segundo nivel con fondo suave y sangrado.
+     display:block anula la regla del tema (.other-section {display:none}),
+     que dejaba las subpáginas fuera del menú móvil. */
   #siteNav ul ul {
+    display: block !important;
     background: var(--tv-menu-sub-bg, #f6f9fc);
     border-radius: 10px;
     margin: 2px 0 6px !important;
@@ -241,9 +244,18 @@ button:focus-visible {
 
   /* ---- 4. CABECERA Y CONTENIDO ---- */
 
+  /* El tema da a la cabecera 40px de aire arriba, altura fija y un
+     padding derecho enorme; en móvil se compacta para dejar sitio
+     al botón hamburguesa (fijo, arriba a la izquierda). */
+  #header,
+  #emptyHeader {
+    height: auto;
+    min-height: 0;
+    padding: 12px calc(58px + env(safe-area-inset-right, 0px))
+             12px calc(58px + env(safe-area-inset-left, 0px));
+  }
+
   #headerContent {
-    padding: 14px calc(58px + env(safe-area-inset-right, 0px))
-             14px calc(58px + env(safe-area-inset-left, 0px));
     font-size: clamp(1.05rem, 4.2vw, 1.45rem);
     line-height: 1.3;
     overflow-wrap: break-word;
@@ -253,6 +265,7 @@ button:focus-visible {
     width: auto !important;
     max-width: 100% !important;
     margin: 0 !important;
+    background: #fff;               /* elimina la franja de la columna izquierda del tema */
     padding: 10px
              calc(12px + env(safe-area-inset-right, 0px))
              calc(84px + env(safe-area-inset-bottom, 0px))
@@ -300,12 +313,25 @@ button:focus-visible {
   }
 
   #bottomPagination .pagination {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
     margin: 0 !important;
     padding: 0 !important;
+    height: auto;                   
+    position: static;
     pointer-events: auto;
   }
 
+  /* El tema convierte estos enlaces en iconos absolutos de 32x32 con el
+     texto recortado (clip:rect); se restauran como botones normales. */
   #bottomPagination a {
+    position: static;
+    left: auto;
+    right: auto;
+    width: auto;
+    height: auto;
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -326,6 +352,23 @@ button:focus-visible {
     transform: scale(0.96);
   }
 
+  /* Des-recorta el texto del enlace (el tema lo esconde con clip:rect) */
+  #bottomPagination a span,
+  #bottomPagination a span span {
+    position: static;
+    clip: auto;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    display: inline;
+    line-height: 1.3;
+  }
+
+  /* Con solo "Siguiente", la píldora se alinea a la derecha */
+  #bottomPagination a.next {
+    margin-left: auto;
+  }
+
   /* Enlaces "Anterior" en tono neutro */
   #bottomPagination a.prev {
     background: var(--tv-pill-prev, #5b7a99);
@@ -333,12 +376,70 @@ button:focus-visible {
 
   /* ---- 6. PIE ---- */
 
-  #packageLicense,
-  #made-with-eXe {
+  #packageLicense {
     font-size: 12.5px;
     line-height: 1.5;
     text-align: center;
     padding: 10px 14px;
+  }
+
+  /* La insignia de eXe va fija abajo a la derecha en el tema y choca
+     con la barra de paginación: pasa a flujo normal como pastilla
+     centrada (el tema la deja de 35x35 con el texto apretado). */
+  #made-with-eXe {
+    position: static;
+    width: auto;
+    text-align: center;
+    margin: 14px 0 calc(72px + env(safe-area-inset-bottom, 0px));
+    padding: 0 14px;
+  }
+
+  #made-with-eXe a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: 30px;
+    padding: 0 12px 0 34px;
+    background-position: 10px 50%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0 2px 8px;
+  }
+
+  #made-with-eXe a span {
+    padding-left: 0;
+  }
+}
+
+/* ---- 8b. CONTENIDO EN PANTALLAS MUY ESTRECHAS (<= 640px) ----------------- */
+
+@media (max-width: 640px) {
+  /* Las tablas anchas hacen scroll horizontal en vez de romper la página. */
+  .iDevice_content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Tablas de maquetación del editor (sin clase): las columnas se apilan
+     para que el texto no se corte por la derecha. Las tablas de datos de
+     eXe (.exe-table, .exe-table-minimalist...) conservan sus columnas. */
+  .iDevice_content table:not([class]) td,
+  .iDevice_content table:not([class]) th {
+    display: block;
+    width: auto !important;
+    box-sizing: border-box;
+  }
+
+  .iDevice_content td,
+  .iDevice_content th {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  /* Palabras largas dentro de celdas y títulos */
+  #nodeTitle,
+  .iDevice_content a {
+    overflow-wrap: break-word;
   }
 }
 
