@@ -4,9 +4,13 @@
 <link rel="stylesheet" type="text/css" href="base.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
+<link rel="stylesheet" type="text/css" href="responsive.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>Repositorio de TecnoVilladiego </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
@@ -15,7 +19,16 @@
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/javascript" src="responsive.js" defer="defer"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#125291" />
+<meta name="application-name" content="TecnoVilladiego" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="TecnoVilladiego" />
 </head>
 <body class="exe-web-site" id="exe-node-0"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
@@ -123,4 +136,28 @@
 </div>
 </div>
 </div>
-<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+/* Registro del Service Worker (PWA).
+   Se registra en cuanto el DOM está listo, sin esperar el evento "load",
+   para que recursos externos lentos no retrasen la instalación. */
+(function () {
+  if (!('serviceWorker' in navigator)) return;
+  function registerSW() {
+    navigator.serviceWorker.register('./sw.js', { scope: './' })
+      .then(function (registration) {
+        console.log('PWA: Service Worker registrado. Ámbito: ' + registration.scope);
+      })
+      .catch(function (error) {
+        console.log('PWA: Error al registrar el Service Worker: ' + error);
+      });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', registerSW);
+  } else {
+    registerSW();
+  }
+})();
+//]]>
+</script></body></html>
