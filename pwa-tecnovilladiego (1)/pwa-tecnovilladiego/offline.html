@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sin conexión - Repositorio de TecnoVilladiego</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#125291" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Trebuchet MS', Geneva, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #125291 0%, #29abe0 100%);
+    color: #fff;
+    text-align: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    padding: 40px 28px;
+    backdrop-filter: blur(6px);
+  }
+  .card img { width: 96px; height: 96px; border-radius: 20px; margin-bottom: 20px; }
+  h1 { font-size: 1.5em; margin-bottom: 12px; }
+  p { font-size: 1em; line-height: 1.5; opacity: 0.92; margin-bottom: 24px; }
+  button {
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    color: #125291;
+    background: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 32px;
+    cursor: pointer;
+  }
+  button:hover { background: #e8f4fc; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img src="icons/icon-192x192.png" alt="TecnoVilladiego" />
+    <h1>Sin conexión a internet</h1>
+    <p>No se puede cargar esta página ahora mismo.<br />
+       Las páginas que ya has visitado siguen disponibles en la caché.</p>
+    <button type="button" onclick="window.location.reload()">Reintentar</button>
+  </div>
+</body>
+</html>
