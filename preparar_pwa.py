@@ -98,6 +98,26 @@ def read_file(path):
     raise UnicodeDecodeError('b', b'', 0, 1, 'codificacion no reconocida')
 
 
+def calcula_prefijo(path, base):
+    """Ruta relativa para SUBIR de la pagina a la raiz del sitio.
+
+    Pagina en la raiz -> '' (los enlaces quedan como 'responsive.css').
+    Pagina en subcarpeta -> '../' (enlaces '../responsive.css', etc.),
+    para que el diseno responsivo y la PWA funcionen tambien ahi."""
+    rel = os.path.relpath(os.path.dirname(os.path.abspath(path)), base)
+    if rel == '.':
+        return ''
+    profundidad = rel.replace(os.sep, '/').strip('/').count('/') + 1
+    return '../' * profundidad
+
+
+def _prefija(frag, prefijo):
+    """Anade el prefijo relativo a los href/src de un fragmento."""
+    if not prefijo:
+        return frag
+    return frag.replace('href="', 'href="' + prefijo).replace('src="', 'src="' + prefijo)
+
+
 def write_file(path, contenido, enc):
     with open(path, 'w', encoding=enc, newline='') as f:
         f.write(contenido)
@@ -172,13 +192,14 @@ def fix_viewport(html):
     return html, False
 
 
-def build_head_block(html, nl):
-    """Lineas PWA/responsive que faltan en el <head>."""
+def build_head_block(html, nl, prefijo=''):
+    """Lineas PWA/responsive que faltan en el <head> (con rutas relativas)."""
     partes = [HEAD_MARK]
     if 'icons/favicon-32x32.png' not in html:
-        partes += [FAVICON32, FAVICON16, APPLE_TOUCH]
+        partes += [_prefija(FAVICON32, prefijo), _prefija(FAVICON16, prefijo),
+                   _prefija(APPLE_TOUCH, prefijo)]
     if 'manifest.json' not in html:
-        partes.append(MANIFEST)
+        partes.append(_prefija(MANIFEST, prefijo))
     if 'theme-color' not in html:
         partes += [THEME, APPNAME, MOBILEWEB, APPLECAP, APPLEBAR, APPLETITLE]
     if 'format-detection' not in html:
@@ -186,16 +207,17 @@ def build_head_block(html, nl):
     if not META_TAG_RE.search(html):
         partes.append(VIEWPORT_FULL)
     if 'responsive.css' not in html:
-        partes.append(RCSS)
+        partes.append(_prefija(RCSS, prefijo))
     if 'responsive.js' not in html:
-        partes.append(RJS)
+        partes.append(_prefija(RJS, prefijo))
     if len(partes) == 1:
         return ''
     return nl.join(partes) + nl
 
 
-def build_sw_block(nl):
+def build_sw_block(nl, prefijo=''):
     """Script de registro del Service Worker (identico al de index.html)."""
+    registro = "('%ssw.js', { scope: '%s' })" % (prefijo, prefijo or './')
     lineas = [
         '<script type="text/javascript">',
         '//<![CDATA[',
@@ -205,7 +227,7 @@ def build_sw_block(nl):
         "(function () {",
         "  if (!('serviceWorker' in navigator)) return;",
         "  function registerSW() {",
-        "    navigator.serviceWorker.register('./sw.js', { scope: './' })",
+        "    navigator.serviceWorker.register" + registro,
         "      .then(function (registration) {",
         "        console.log('PWA: Service Worker registrado. Ambito: ' + registration.scope);",
         "      })",
@@ -225,7 +247,7 @@ def build_sw_block(nl):
     return nl.join(lineas) + nl
 
 
-def process_page(path, simular):
+def process_page(path, simular, base):
     nombre = os.path.basename(path)
     if nombre.lower() in PAGINAS_OMITIDAS:
         print('  [OMITIDA]    %s (pagina de utilidad)' % nombre)
@@ -236,6 +258,8 @@ def process_page(path, simular):
         print('  [ERROR]      %s (%s)' % (nombre, e))
         return 'error'
 
+    prefijo = calcula_prefijo(path, base)
+    extra = '' if not prefijo else ' (subcarpeta: +%s)' % prefijo
     original = html
     cambios = []
 
@@ -249,7 +273,7 @@ def process_page(path, simular):
 
     nl = '\r\n' if '\r\n' in html else '\n'
 
-    bloque = build_head_block(html, nl)
+    bloque = build_head_block(html, nl, prefijo)
     if bloque:
         m = HEAD_END_RE.search(html)
         html = html[:m.start()] + bloque + html[m.start():]
@@ -257,7 +281,7 @@ def process_page(path, simular):
 
     if 'serviceWorker.register' not in html and 'sw.js' not in html:
         m = BODY_END_RE.search(html)
-        html = html[:m.start()] + build_sw_block(nl) + html[m.start():]
+        html = html[:m.start()] + build_sw_block(nl, prefijo) + html[m.start():]
         cambios.append('service worker')
 
     if html == original:
@@ -265,7 +289,7 @@ def process_page(path, simular):
         return 'ok'
 
     if simular:
-        print('  [SIMULADA]   %s -> %s' % (nombre, ' + '.join(cambios)))
+        print('  [SIMULADA]   %s -> %s%s' % (nombre, ' + '.join(cambios), extra))
         return 'modificada'
 
     try:
@@ -274,7 +298,7 @@ def process_page(path, simular):
     except OSError as e:
         print('  [ERROR]      %s (%s)' % (nombre, e))
         return 'error'
-    print('  [MODIFICADA] %s -> %s' % (nombre, ' + '.join(cambios)))
+    print('  [MODIFICADA] %s -> %s%s' % (nombre, ' + '.join(cambios), extra))
     return 'modificada'
 
 
@@ -327,6 +351,15 @@ def main():
     else:
         paginas = [os.path.join(base, a) for a in sorted(os.listdir(base))
                    if a.lower().endswith('.html')]
+        # Aviso: .html en subcarpetas que no se van a procesar
+        subcarpetas = []
+        for raiz, _dirs, archivos in os.walk(base):
+            if raiz != base and any(a.lower().endswith('.html') for a in archivos):
+                subcarpetas.append(os.path.relpath(raiz, base))
+        if subcarpetas:
+            print('\n[AVISO] Hay paginas en subcarpetas: %s' % ', '.join(sorted(subcarpetas)))
+            print('        Esas paginas tambien necesitan el diseno responsivo')
+            print('        y la PWA: ejecuta de nuevo con --recursivo.')
 
     if not paginas:
         print('\nNo he encontrado archivos .html en %s' % base)
@@ -335,7 +368,7 @@ def main():
     print('\n--- Paginas (%d) ---' % len(paginas))
     contadores = {'modificada': 0, 'ok': 0, 'omitida': 0, 'error': 0}
     for p in paginas:
-        estado = process_page(p, args.simular)
+        estado = process_page(p, args.simular, base)
         contadores[estado] += 1
 
     print('\n' + '-' * 62)
