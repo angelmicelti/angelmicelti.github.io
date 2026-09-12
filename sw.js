@@ -12,7 +12,7 @@
 
 'use strict';
 
-const CACHE_NAME = 'tecnovilladiego-v1.3.0';
+const CACHE_NAME = 'tecnovilladiego-v1.4.0';
 
 /* Recursos esenciales que se pre-cachean en la instalación.
    Se usa precache tolerante: si un recurso falla, la instalación
