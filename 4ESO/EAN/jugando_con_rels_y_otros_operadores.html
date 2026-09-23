@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>5.1. El amplificador operacional (OpAmp): LM741 | Electrónica analógica 4º E.S.O. </title>
+<title>Jugando con relés y otros operadores | Electrónica analógica 4º E.S.O. </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta http-equiv="content-language" content="es" />
 <meta name="author" content="Ángel Millán" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site exe-auto-math" id="exe-node-84"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site exe-auto-math" id="exe-node-198"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <div id="header"  style="background-image: url(155.jpg); background-repeat: repeat-x;"><div id="headerContent">Electrónica analógica 4º E.S.O.</div></div>
@@ -139,25 +139,25 @@
       </li>
    </ul>
    </li>
-   <li><a href="4_componentes_discretos_ii.html" class="daddy">4. Componentes discretos (II)</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="4_componentes_discretos_ii.html" class="current-page-parent daddy">4. Componentes discretos (II)</a>
+   <ul>
       <li><a href="41fusible.html" class="no-ch">4.1.Fusible</a></li>
       <li><a href="42interruptores_y_pulsadores.html" class="daddy">4.2.Interruptores y pulsadores</a>
       <ul class="other-section">
          <li><a href="montajes_pulldown_y_pullup.html" class="no-ch">Montajes pull-down y pull-up</a></li>
       </ul>
       </li>
-      <li><a href="43rel.html" class="daddy">4.3.Relé</a>
-      <ul class="other-section">
-         <li><a href="jugando_con_rels_y_otros_operadores.html" class="no-ch">Jugando con relés y otros operadores</a></li>
+      <li class="current-page-parent"><a href="43rel.html" class="current-page-parent daddy">4.3.Relé</a>
+      <ul>
+         <li id="active"><a href="jugando_con_rels_y_otros_operadores.html" class="active no-ch">Jugando con relés y otros operadores</a></li>
       </ul>
       </li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="5_circuitos_integrados.html" class="current-page-parent daddy">5. Circuitos integrados</a>
-   <ul>
-      <li id="active"><a href="51_el_amplificador_operacional_opamp_lm741.html" class="active daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
-      <ul>
+   <li><a href="5_circuitos_integrados.html" class="daddy">5. Circuitos integrados</a>
+   <ul class="other-section">
+      <li><a href="51_el_amplificador_operacional_opamp_lm741.html" class="daddy">5.1. El amplificador operacional (OpAmp): LM741</a>
+      <ul class="other-section">
          <li><a href="el_741_en_lazo_abierto.html" class="no-ch">El 741 en lazo abierto</a></li>
          <li><a href="el_741_en_lazo_cerrado.html" class="daddy">El 741 en lazo cerrado</a>
          <ul class="other-section">
@@ -283,23 +283,21 @@
 </div>
 <div id='topPagination'>
 <div class="pagination noprt">
-<a href="5_circuitos_integrados.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_741_en_lazo_abierto.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="43rel.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5_circuitos_integrados.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 <div id="main-wrapper">
 <div id="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">5.1. El amplificador operacional (OpAmp): LM741</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id177">
-<div class="iDevice emphasis0">
-<div id="ta177_85" class="block iDevice_content">
-<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="741OpAmp.jpg" title="LM741 en encapsulado DIP-8" width="187" height="196" style="float: left; margin: 5px;" />Este circuito integrado sirve para aumentar una señal de entrada, por ejemplo, la señal de voltaje que tiene un micrófono para que salga por un altavoz.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">En su interior (no te asustes, no lo tienes que aprender), encontramos transistores, resistencias y condensadores (fíjate en el diagrama más abajo). En lugar de montar cada vez que vayamos a utilizarlo todo este complejo circuito, se procede a su fabricación y encapsulado, teniéndolo disponible para cuando se desee. El encapsulado, en formato DIP-8 (<em>Dual-Inline Package</em>) lo tienes a la izquierda.</span></p>
-<p><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="OpAmpInterior.png" alt="" title="Constitución de un circuito integrado LM741" width="435" height="332" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="OpAmpSimbolo.png" title="Símbolo del amplificador operacional" width="200" height="170" style="float: right; margin-right: 10px; margin-left: 10px;" /></span></p>
-<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">Su símbolo es un triángulo. En su base hay conectadas dos entradas, V<sub>+</sub> (<strong>no inversora</strong>) y V<sub>-</sub> (<strong>inversora</strong>), que corresponden a las patillas números 3 y 2 respectivamente. La señal de salida, <em>V<sub>out</sub></em>, se localiza en la patilla 6.</span></p>
-<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">El resto de las patillas importantes son la 4 y la 7, por donde se alimenta. Por la patilla 7 se introduce una tensión positiva (V<sub>cc</sub>) y por la número 4 una tensión negativa (-Vcc). O, en todo caso, en la patilla 7 una tensión superior a la de la patilla 4.</span></p>
-<p><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;"><img src="LM741a.png" alt="" title="Patillaje del OpAmp" width="294" height="185" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
-<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">El 741 tiene una alta impedancia (resistencia) de entrada (mayor de 1MΩ) y una baja resistencia de salida (150 Ω), lo cual implica que la salida se puede conectar prácticamente a cualquier esquema sin modificación. </span></p>
+<div id="nodeDecoration"><h1 id="nodeTitle">Jugando con relés y otros operadores</h1></div>
+<div class="iDevice_wrapper textIdevice em_iDevice" id="id359">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Juega a NANDGAME</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta359_835_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-family: 'comic sans ms', sans-serif;">Pulsa en <a href="https://nandgame.com/" target="_blank" rel="noopener">este enlace</a> para divertirte como nunca lo has hecho.</span></p></div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -310,7 +308,7 @@
 </div>
 <div id='bottomPagination'>
 <div class="pagination noprt">
-<a href="5_circuitos_integrados.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="el_741_en_lazo_abierto.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="43rel.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="5_circuitos_integrados.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </div>
 </div>
 </div>
