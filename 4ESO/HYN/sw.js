@@ -26,7 +26,6 @@ const PRECACHE_ASSETS = [
   './',
   'index.html',
   'offline.html',
-  'manifest.json',
   'favicon.ico',
   'responsive.css',
   'responsive.js',

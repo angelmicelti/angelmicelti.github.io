@@ -127,11 +127,11 @@ def write_file(path, contenido, enc):
 # 1. COPIA DE ARCHIVOS DE SOPORTE
 # ---------------------------------------------------------------------------
 
-def copiar_soporte(origen, destino, actualizar, simular):
+def copiar_soporte(origen, destino, actualizar, simular, lista=None):
     """Copia a `destino` los archivos que falten. Devuelve (copiados, ya_estaban)."""
     copiados, ya = [], 0
     print('\n--- Archivos de soporte ---')
-    for nombre in SOPORTE:
+    for nombre in (lista if lista is not None else SOPORTE):
         src = os.path.join(origen, nombre)
         dst = os.path.join(destino, nombre)
         if not os.path.isfile(src):
@@ -192,15 +192,18 @@ def fix_viewport(html):
     return html, False
 
 
-def build_head_block(html, nl, prefijo=''):
-    """Lineas PWA/responsive que faltan en el <head> (con rutas relativas)."""
+def build_head_block(html, nl, prefijo='', identidad=True):
+    """Lineas PWA/responsivo que faltan en el <head> (con rutas relativas).
+
+    identidad=False (sitios fuera de la raiz del portal) no anade favicon,
+    manifiesto ni metas de nombre: el portal principal conserva la identidad."""
     partes = [HEAD_MARK]
-    if 'icons/favicon-32x32.png' not in html:
+    if identidad and 'icons/favicon-32x32.png' not in html:
         partes += [_prefija(FAVICON32, prefijo), _prefija(FAVICON16, prefijo),
                    _prefija(APPLE_TOUCH, prefijo)]
-    if 'manifest.json' not in html:
+    if identidad and 'manifest.json' not in html:
         partes.append(_prefija(MANIFEST, prefijo))
-    if 'theme-color' not in html:
+    if identidad and 'theme-color' not in html:
         partes += [THEME, APPNAME, MOBILEWEB, APPLECAP, APPLEBAR, APPLETITLE]
     if 'format-detection' not in html:
         partes.append(FMT)
@@ -247,7 +250,7 @@ def build_sw_block(nl, prefijo=''):
     return nl.join(lineas) + nl
 
 
-def process_page(path, simular, base):
+def process_page(path, simular, base, identidad=True):
     nombre = os.path.basename(path)
     if nombre.lower() in PAGINAS_OMITIDAS:
         print('  [OMITIDA]    %s (pagina de utilidad)' % nombre)
@@ -273,7 +276,7 @@ def process_page(path, simular, base):
 
     nl = '\r\n' if '\r\n' in html else '\n'
 
-    bloque = build_head_block(html, nl, prefijo)
+    bloque = build_head_block(html, nl, prefijo, identidad)
     if bloque:
         m = HEAD_END_RE.search(html)
         html = html[:m.start()] + bloque + html[m.start():]
@@ -339,7 +342,13 @@ def main():
         print('pwa-tecnovilladiego, junto a: %s.' % ', '.join(faltan))
         sys.exit(1)
 
-    copiados = copiar_soporte(script_dir, base, args.actualizar, args.simular)
+    # La identidad PWA (manifiesto, icono apple) solo se copia a la raiz del
+    # portal; las apps de subcarpetas comparten la identidad del portal.
+    identidad_raiz = (base == script_dir)
+    soporte = SOPORTE if identidad_raiz else \
+        [n for n in SOPORTE if n not in ('manifest.json', 'apple-touch-icon.png')]
+    copiados = copiar_soporte(script_dir, base, args.actualizar, args.simular,
+                              lista=soporte)
 
     # Recoger paginas
     if args.recursivo:
@@ -368,7 +377,7 @@ def main():
     print('\n--- Paginas (%d) ---' % len(paginas))
     contadores = {'modificada': 0, 'ok': 0, 'omitida': 0, 'error': 0}
     for p in paginas:
-        estado = process_page(p, args.simular, base)
+        estado = process_page(p, args.simular, base, identidad=identidad_raiz)
         contadores[estado] += 1
 
     print('\n' + '-' * 62)
