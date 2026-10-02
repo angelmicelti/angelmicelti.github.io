@@ -12,7 +12,26 @@
 
 'use strict';
 
-const CACHE_NAME = 'tecnovilladiego-v1.5.0';
+const CACHE_NAME = 'tecnovilladiego-v1.6.0';
+
+/* Prefijo de LAS PROPIAS cachés: en la activación solo se borran cachés con
+   este prefijo, nunca las de otras aplicaciones alojadas en el mismo origen
+   (la Cache Storage es compartida por todo el dominio). */
+const CACHE_PREFIX = 'tecnovilladiego-';
+
+/* Carpetas que forman parte de este portal. Cualquier otra ruta del dominio
+   (p. ej. /NumerosMetalicos/, /Reducciones/... apps de otros repositorios
+   servidas en usuario.github.io/<repo>) NO se intercepta: su gestión queda
+   totalmente fuera de este service worker. */
+const CARPETAS_DEL_PORTAL = [
+  '2ESO', '3ESO', '4ESO', 'CYR', 'DOC', 'HER', 'PROY', 'icons', 'w3images'
+];
+
+function perteneceAlPortal(url) {
+  const segmentos = url.pathname.split('/').filter(Boolean);
+  if (segmentos.length === 0) return true; // raíz del portal
+  return CARPETAS_DEL_PORTAL.includes(segmentos[0]);
+}
 
 /* Recursos esenciales que se pre-cachean en la instalación.
    Se usa precache tolerante: si un recurso falla, la instalación
@@ -52,7 +71,7 @@ self.addEventListener('activate', (event) => {
       .then((keys) =>
         Promise.all(
           keys
-            .filter((key) => key !== CACHE_NAME)
+            .filter((key) => key !== CACHE_NAME && key.startsWith(CACHE_PREFIX))
             .map((key) => caches.delete(key))
         )
       )
@@ -79,6 +98,9 @@ self.addEventListener('fetch', (event) => {
 
   // Peticiones de otro origen (widgets externos, imágenes externas): red directa
   if (url.origin !== self.location.origin) return;
+
+  // Rutas de otras aplicaciones del dominio: no se tocan en absoluto
+  if (!perteneceAlPortal(url)) return;
 
   // 1) Navegación entre páginas: network-first con respaldo offline
   if (request.mode === 'navigate' ||
