@@ -13,6 +13,7 @@
 'use strict';
 
 const CACHE_NAME = 'tecnovilladiego-v1.6.0';
+<<<<<<< Updated upstream
 
 /* Prefijo de LAS PROPIAS cachés: en la activación solo se borran cachés con
    este prefijo, nunca las de otras aplicaciones alojadas en el mismo origen
@@ -32,6 +33,8 @@ function perteneceAlPortal(url) {
   if (segmentos.length === 0) return true; // raíz del portal
   return CARPETAS_DEL_PORTAL.includes(segmentos[0]);
 }
+=======
+>>>>>>> Stashed changes
 
 /* Recursos esenciales que se pre-cachean en la instalación.
    Se usa precache tolerante: si un recurso falla, la instalación
