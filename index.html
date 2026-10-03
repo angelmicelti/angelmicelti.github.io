@@ -5,6 +5,34 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <link rel="stylesheet" type="text/css" href="responsive.css" />
+<style type="text/css">
+/* ═══════════════════════════════════════════════════════════════════
+   Chip de versión (al estilo del portal TecDeA, tecdea.github.io):
+   pastilla junto al título de la cabecera que muestra la versión de la
+   app en ejecución. Colores adaptados a la paleta de este sitio: el
+   borde mantiene el dorado del portal (#dc8620, que armoniza con el
+   naranja #cc6715 de los enlaces) y el texto usa una variante oscura
+   legible sobre el fondo blanco de la cabecera.
+   ═══════════════════════════════════════════════════════════════════ */
+#header .version-chip {
+        display: inline-block;
+        margin-left: .45rem;
+        padding: .02rem .5rem;
+        border: 1px solid #dc8620; /* dorado del portal TecDeA */
+        border-radius: 999px;
+        font-size: .66rem;
+        font-weight: 600;
+        letter-spacing: .03em;
+        color: #a85210; /* naranja oscuro: legible sobre blanco */
+        vertical-align: 1px;
+        white-space: nowrap;
+        cursor: help;
+}
+/* En impresión no aporta: se oculta. */
+@media print {
+        #header .version-chip { display: none; }
+}
+</style>
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
 <title>Repositorio de TecnoVilladiego </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -33,7 +61,7 @@
 <body class="exe-web-site" id="exe-node-0"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header" ><div id="headerContent">Repositorio de TecnoVilladiego</div></div>
+<div id="header" ><div id="headerContent">Repositorio de TecnoVilladiego <span class="version-chip" id="versionChip" title="Versión del service worker en ejecución"><span id="versionNum">…</span></span></div></div>
 <div id="siteNav">
 <ul>
    <li id="active"><a href="index.html" class="active daddy main-node">INICIO</a></li>
@@ -157,6 +185,104 @@
     document.addEventListener('DOMContentLoaded', registerSW);
   } else {
     registerSW();
+  }
+})();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+/* Chip de versión de la cabecera, como en el portal TecDeA: pinta
+   «vX.Y.Z» preguntando la versión de la app. Orden de consulta:
+
+   1. Protocolo del portal: mensaje { type: 'GET_VERSION' } al service
+      worker que controla la página (si algún día sw.js lo implementa,
+      su respuesta manda, igual que en tecdea.github.io).
+   2. Si no contesta (el sw.js actual solo atiende SKIP_WAITING), se
+      deduce la versión del nombre de la caché que gestiona, porque
+      CACHE_NAME la incluye: «tecnovilladiego-vX.Y.Z».
+   3. Último recurso: la constante APP_VERSION de aquí debajo. */
+(function () {
+  var APP_VERSION = 'v1.6.0'; // Respaldo: actualízala junto a CACHE_NAME de sw.js al publicar
+  var CACHE_PREFIX = 'tecnovilladiego-'; // Mismo prefijo que CACHE_PREFIX de sw.js
+
+  function updateVersionTag() {
+    var els = document.querySelectorAll('#versionNum');
+    if (els.length === 0) return;
+    var answered = false;
+    function setAll(txt) {
+      for (var i = 0; i < els.length; i++) els[i].textContent = txt;
+    }
+    function finish(txt) {
+      if (!answered) { answered = true; setAll(txt); }
+    }
+    /* Compara dos versiones numéricas ([1,6,0] vs [1,10,2]). */
+    function cmpVersions(a, b) {
+      var len = Math.max(a.length, b.length);
+      for (var i = 0; i < len; i++) {
+        var x = a[i] || 0, y = b[i] || 0;
+        if (x !== y) return x - y;
+      }
+      return 0;
+    }
+    /* 2) Respaldo: versión a partir del nombre de la caché del SW.
+       Las cachés de otras apps del mismo dominio se ignoran. */
+    function fromCacheName() {
+      var fallback = function () { finish(APP_VERSION); };
+      try {
+        if (!('caches' in window)) { fallback(); return; }
+        caches.keys().then(function (keys) {
+          var best = null, bestKey = null;
+          var re = new RegExp('^' + CACHE_PREFIX + 'v([0-9]+(?:\\.[0-9]+)*)$', 'i');
+          for (var i = 0; i < keys.length; i++) {
+            var m = keys[i].match(re);
+            if (!m) continue;
+            var n = m[1].split('.');
+            for (var j = 0; j < n.length; j++) n[j] = parseInt(n[j], 10);
+            if (bestKey === null || cmpVersions(n, bestKey) > 0) { bestKey = n; best = m[1]; }
+          }
+          if (best !== null) finish('v' + best); else fallback();
+        }).catch(fallback);
+      } catch (e) { fallback(); }
+    }
+    /* 1) Protocolo del portal: pedir la versión al SW de la página. */
+    function ask(worker) {
+      if (!worker) return false;
+      try {
+        var ch = new MessageChannel();
+        ch.port1.onmessage = function (ev) {
+          var v = (ev.data && ev.data.version) || '';
+          var m = String(v).match(/v[0-9.]+/i);
+          if (m) finish(m[0]); // respuesta válida: prevalece sobre el respaldo
+        };
+        worker.postMessage({ type: 'GET_VERSION' }, [ch.port2]);
+        return true;
+      } catch (e) { return false; }
+    }
+
+    if ('serviceWorker' in navigator) {
+      if (navigator.serviceWorker.controller) {
+        ask(navigator.serviceWorker.controller);
+      } else {
+        /* Primera visita o SW instalándose: reintentar cuando haya uno activo. */
+        navigator.serviceWorker.ready.then(function (reg) { ask(reg.active); }).catch(function () {});
+        navigator.serviceWorker.addEventListener('controllerchange', function () {
+          ask(navigator.serviceWorker.controller);
+        }, { once: true });
+      }
+      /* Si a los 2 s el SW no ha contestado (no implementa GET_VERSION),
+         deducir la versión del nombre de la caché. */
+      setTimeout(function () { if (!answered) fromCacheName(); }, 2000);
+    } else {
+      fromCacheName();
+    }
+    /* Red de seguridad a los 5 s: versión declarada en la propia página. */
+    setTimeout(function () { if (!answered) finish(APP_VERSION); }, 5000);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateVersionTag);
+  } else {
+    updateVersionTag();
   }
 })();
 //]]>
